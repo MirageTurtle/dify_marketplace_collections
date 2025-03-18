@@ -7,6 +7,7 @@ import sys
 # from functools import partial
 import logging
 import os
+import time
 
 
 logger = logging.getLogger(__name__)
@@ -103,10 +104,13 @@ def download_difypkg(plugin_name: str, plugin_version: str, difypkg_dir: Path =P
     :param timeout: Timeout in seconds
     :return: Tuple of status and error message
     """
+    difypkg_file = difypkg_dir / f"{plugin_name.replace("/", "_")}_{plugin_version}.difypkg"
+    if difypkg_file.exists():
+        logger.info(f"Difypkg file '{difypkg_file}' already exists.")
+        return True, None
     url = f"https://marketplace.dify.ai/api/v1/plugins/{plugin_name}/{plugin_version}/download"
     response = httpx.get(url, timeout=timeout)
     if response.status_code == 200:
-        difypkg_file = difypkg_dir / f"{plugin_name.replace("/", "_")}_{plugin_version}.difypkg"
         with open(difypkg_file, "wb") as file:
             file.write(response.content)
         return True, None
@@ -123,6 +127,7 @@ def get_plugin_info(plugin: dict) -> tuple[str, str]:
 
 if __name__ == "__main__":
     session = init_session()
+    # Get collections
     status, collections, error = get_collections(session)
     if status:
         save_collections(collections)
@@ -130,6 +135,8 @@ if __name__ == "__main__":
     else:
         logger.error(f"Failed to get collections: {error}")
         sys.exit(1)
+    time.sleep(1)
+    # Get each collection and save it
     for collection in collections:
         status, collection_data, error = get_single_collection(session, collection["name"])
         if status:
@@ -145,5 +152,8 @@ if __name__ == "__main__":
                     logger.info(f"Plugin '{plugin_id}' downloaded successfully.")
                 else:
                     logger.error(f"Failed to download plugin '{plugin_id}': {error}")
+                time.sleep(1)
         else:
-            print(f"Failed to get collection '{collection['name']}': {error}", file=sys.stderr)
+            logger.error(f"Failed to get collection '{collection['name']}': {error}")
+        time.sleep(1)
+    session.close()
