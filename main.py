@@ -3,6 +3,7 @@ from typing import Optional
 import json
 from pathlib import Path
 import sys
+
 # import concurrent.futures
 # from functools import partial
 import logging
@@ -35,7 +36,10 @@ def init_session():
     session.headers.update(headers)
     return session
 
-def get_collections(session: httpx.Client, timeout: int = 10) -> tuple[bool, list[dict], Optional[str]]:
+
+def get_collections(
+    session: httpx.Client, timeout: int = 10
+) -> tuple[bool, list[dict], Optional[str]]:
     """
     Get all collections from the marketplace.
     :param session: HTTP session
@@ -51,7 +55,10 @@ def get_collections(session: httpx.Client, timeout: int = 10) -> tuple[bool, lis
     else:
         return False, [], response.text
 
-def save_collections(collections: list[dict], file_path: Path =Path("./collections.json")) -> None:
+
+def save_collections(
+    collections: list[dict], file_path: Path = Path("./collections.json")
+) -> None:
     """
     Save collections to a JSON file.
     :param collections: List of collections
@@ -60,11 +67,16 @@ def save_collections(collections: list[dict], file_path: Path =Path("./collectio
     """
     # If file_path is "./collections.json", show a warning message
     if file_path.resolve() == Path("./collections.json").resolve():
-        logger.warning("You are saving the default collections file 'collections.json'.")
+        logger.warning(
+            "You are saving the default collections file 'collections.json'."
+        )
     with open(file_path, "w") as f:
-        f.write(json.dumps(collections, indent=4))
+        f.write(json.dumps(collections, indent=4, ensure_ascii=False))
 
-def get_single_collection(session: httpx.Client, collection_name: str, timeout: int = 10) -> tuple[bool, list[dict], Optional[str]]:
+
+def get_single_collection(
+    session: httpx.Client, collection_name: str, timeout: int = 10
+) -> tuple[bool, list[dict], Optional[str]]:
     """
     Get a collection by name.
     :param session: HTTP session
@@ -73,7 +85,7 @@ def get_single_collection(session: httpx.Client, collection_name: str, timeout: 
     :return: Tuple of status, collection, and error message
     """
     url = f"https://marketplace.dify.ai/api/v1/collections/{collection_name}/plugins"
-    payload = "{}" # Empty payload (string)
+    payload = "{}"  # Empty payload (string)
     response = session.post(url, timeout=timeout, data=payload)
     if response.status_code == 200:
         collection = response.json()
@@ -82,7 +94,10 @@ def get_single_collection(session: httpx.Client, collection_name: str, timeout: 
     else:
         return False, [], response.text
 
-def save_collection(collection: list[dict], file_path: Path =Path("./collection.json")) -> None:
+
+def save_collection(
+    collection: list[dict], file_path: Path = Path("./collection.json")
+) -> None:
     """
     Save a collection to a JSON file.
     :param collection: Collection
@@ -93,22 +108,32 @@ def save_collection(collection: list[dict], file_path: Path =Path("./collection.
     if file_path.resolve() == Path("./collection.json").resolve():
         logger.warning("You are saving the default collection file 'collection.json'.")
     with open(file_path, "w") as f:
-        f.write(json.dumps(collection, indent=4))
+        f.write(json.dumps(collection, indent=4, ensure_ascii=False))
 
-def download_difypkg(plugin_name: str, plugin_version: str, difypkg_dir: Path =Path("./difypkg"), timeout: int = 10) -> tuple[bool, Optional[str]]:
+
+def download_difypkg(
+    plugin_id: str,
+    plugin_version: str,
+    hash: str,
+    difypkg_dir: Path = Path("./difypkg"),
+    timeout: int = 10,
+) -> tuple[bool, Optional[str]]:
     """
     Download a Difypkg file.
-    :param plugin_name: Name of the plugin
+    :param plugin_id: ID of the plugin
     :param plugin_version: Version of the plugin
+    :param hash: Hash of the plugin
     :param difypkg_dir: Directory to save the Difypkg file
     :param timeout: Timeout in seconds
     :return: Tuple of status and error message
     """
-    difypkg_file = difypkg_dir / f"{plugin_name.replace("/", "_")}_{plugin_version}.difypkg"
+    difypkg_file = (
+        difypkg_dir / f"{plugin_id.replace("/", "_")}_{plugin_version}_{hash}.difypkg"
+    )
     if difypkg_file.exists():
         logger.info(f"Difypkg file '{difypkg_file}' already exists.")
         return True, None
-    url = f"https://marketplace.dify.ai/api/v1/plugins/{plugin_name}/{plugin_version}/download"
+    url = f"https://marketplace.dify.ai/api/v1/plugins/{plugin_id}/{plugin_version}/download"
     response = httpx.get(url, timeout=timeout)
     if response.status_code == 200:
         with open(difypkg_file, "wb") as file:
@@ -117,13 +142,19 @@ def download_difypkg(plugin_name: str, plugin_version: str, difypkg_dir: Path =P
     else:
         return False, response.text
 
-def get_plugin_info(plugin: dict) -> tuple[str, str]:
+
+def get_plugin_info(plugin: dict) -> tuple[str, str, str]:
     """
     Get the name and description of a collection.
     :param plugin: Plugin
-    :return: Tuple of plugin_id(name), version
+    :return: Tuple of plugin_id, version, and hash
     """
-    return plugin["plugin_id"], plugin["latest_version"]
+    latest_identifier = plugin["latest_package_identifier"]
+    plugin_id = latest_identifier.split(":")[0]
+    version = latest_identifier.split(":")[-1].split("@")[0]
+    hash = latest_identifier.split("@")[-1]
+    return plugin_id, version, hash
+
 
 if __name__ == "__main__":
     session = init_session()
@@ -138,16 +169,20 @@ if __name__ == "__main__":
     time.sleep(1)
     # Get each collection and save it
     for collection in collections:
-        status, collection_data, error = get_single_collection(session, collection["name"])
+        status, collection_data, error = get_single_collection(
+            session, collection["name"]
+        )
         if status:
-            save_collection(collection_data, Path(f"./collections/{collection['name']}.json"))
+            save_collection(
+                collection_data, Path(f"./collections/{collection['name']}.json")
+            )
             logger.info(f"Collection '{collection['name']}' saved successfully.")
             # Download difypkg files of each plugin in the collection
             difypkg_dir = Path(f"./difypkg/{collection['name']}")
             os.makedirs(difypkg_dir, exist_ok=True)
             for plugin in collection_data:
-                plugin_id, version = get_plugin_info(plugin)
-                status, error = download_difypkg(plugin_id, version, difypkg_dir)
+                plugin_id, version, hash = get_plugin_info(plugin)
+                status, error = download_difypkg(plugin_id, version, hash, difypkg_dir)
                 if status:
                     logger.info(f"Plugin '{plugin_id}' downloaded successfully.")
                 else:

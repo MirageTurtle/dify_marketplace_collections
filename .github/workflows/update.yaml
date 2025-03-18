@@ -1,0 +1,45 @@
+name: Update Collections
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  update-collections:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.13'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install httpx
+
+      - name: Run
+        run: |
+          mkdir -p ./collections
+          mkdir -p ./difypkg
+          python ./main.py
+
+      - name: Commit and push if there are changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add ./collections.json ./collections/ ./difypkg/
+          git_status=$(git status --porcelain)
+          if [[ ! -z "$git_status" ]]; then
+            echo "Some changes have been detected, committing and pushing"
+            git commit -m "$(date +%Y-%m-%d): Some plugins have been updated"
+            git push
+          else
+            echo "No changes have been detected"
+          fi
