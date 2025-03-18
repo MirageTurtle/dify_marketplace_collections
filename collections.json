@@ -1,0 +1,130 @@
+[
+    {
+        "name": "partners",
+        "description": {
+            "en_US": "Plugins verified by Dify partners.",
+            "zh_Hans": "由 Dify 合作伙伴认证的插件。"
+        },
+        "label": {
+            "en_US": "Partners",
+            "zh_Hans": "合作伙伴"
+        },
+        "created_at": "2025-03-17T15:23:35.15141Z",
+        "updated_at": "2025-03-17T15:23:35.15141Z",
+        "searchable": false,
+        "search_params": {}
+    },
+    {
+        "name": "featured",
+        "description": {
+            "en_US": "",
+            "zh_Hans": ""
+        },
+        "label": {
+            "en_US": "Featured",
+            "zh_Hans": "精选"
+        },
+        "created_at": "2025-03-17T15:23:35.769806Z",
+        "updated_at": "2025-03-17T15:23:35.769806Z",
+        "searchable": true,
+        "search_params": {
+            "query": "",
+            "sort_by": "install_count",
+            "sort_order": "DESC"
+        }
+    },
+    {
+        "name": "latest",
+        "description": {
+            "en_US": "",
+            "zh_Hans": ""
+        },
+        "label": {
+            "en_US": "Latest",
+            "zh_Hans": "最新"
+        },
+        "created_at": "2025-03-17T15:23:37.327873Z",
+        "updated_at": "2025-03-17T15:23:37.327873Z",
+        "searchable": true,
+        "search_params": {
+            "query": "",
+            "sort_by": "created_at",
+            "sort_order": "DESC"
+        }
+    },
+    {
+        "name": "search",
+        "description": {
+            "en_US": "",
+            "zh_Hans": ""
+        },
+        "label": {
+            "en_US": "Search",
+            "zh_Hans": "搜索引擎"
+        },
+        "created_at": "2025-03-17T15:23:37.895314Z",
+        "updated_at": "2025-03-17T15:23:37.895314Z",
+        "searchable": false,
+        "search_params": {}
+    },
+    {
+        "name": "image",
+        "description": {
+            "en_US": "",
+            "zh_Hans": ""
+        },
+        "label": {
+            "en_US": "Image",
+            "zh_Hans": "图像"
+        },
+        "created_at": "2025-03-17T15:23:38.916045Z",
+        "updated_at": "2025-03-17T15:23:38.916045Z",
+        "searchable": false,
+        "search_params": {}
+    },
+    {
+        "name": "data",
+        "description": {
+            "en_US": "Plugins for data crawling and processing.",
+            "zh_Hans": "数据抓取和处理插件。"
+        },
+        "label": {
+            "en_US": "Data",
+            "zh_Hans": "数据"
+        },
+        "created_at": "2025-03-17T15:23:39.536425Z",
+        "updated_at": "2025-03-17T15:23:39.536425Z",
+        "searchable": false,
+        "search_params": {}
+    },
+    {
+        "name": "developer",
+        "description": {
+            "en_US": "",
+            "zh_Hans": ""
+        },
+        "label": {
+            "en_US": "Developer",
+            "zh_Hans": "开发者"
+        },
+        "created_at": "2025-03-17T15:23:40.171064Z",
+        "updated_at": "2025-03-17T15:23:40.171064Z",
+        "searchable": false,
+        "search_params": {}
+    },
+    {
+        "name": "communication",
+        "description": {
+            "en_US": "Plugins for working with communication platforms.",
+            "zh_Hans": "用于连接通讯平台的插件。"
+        },
+        "label": {
+            "en_US": "Communication",
+            "zh_Hans": "通信"
+        },
+        "created_at": "2025-03-17T15:23:40.76373Z",
+        "updated_at": "2025-03-17T15:23:40.76373Z",
+        "searchable": false,
+        "search_params": {}
+    }
+]

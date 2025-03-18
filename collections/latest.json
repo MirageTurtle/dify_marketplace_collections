@@ -1,0 +1,3000 @@
+[
+    {
+        "type": "plugin",
+        "name": "random",
+        "org": "bowenliang123",
+        "plugin_id": "bowenliang123/random",
+        "icon": "bowenliang123/packages/random/_assets/icon.png",
+        "label": {
+            "en_US": "Random Generator",
+            "zh_Hans": "随机生成器"
+        },
+        "brief": {
+            "en_US": "Generate random number or string.",
+            "zh_Hans": "Generate random number or string."
+        },
+        "introduction": "## random\n\n**Author:** [bowenliang123](https://github.com/bowenliang123)\n\n**Github Repo:** https://github.com/bowenliang123/random\n\n### Description\n\nA Dify plugin to generate random number or string.\n\n\n- `random_string` Tool: Generate a random string with given length from alphabets and numbers.\n\neg. `TSUWUBoOIu4bZja7mdjTkKteaKVrhz`\n\n- `random_num` Tool: Generate a random number in given range. If the digits is set to 0, an integer will be generated.\n\n<img src=\"./_assets/img1.png\" width=\"400px\" >\n<img src=\"./_assets/img2.png\" width=\"400px\" >\n\n- `random_uuid` Tool: Generate a random UUID string of UUID v4.\n\n<img src=\"./_assets/img3.png\" width=\"400px\" >\n\n",
+        "category": "tool",
+        "repository": "",
+        "resource": {
+            "memory": 268435456,
+            "permission": {
+                "tool": {
+                    "enabled": true
+                }
+            }
+        },
+        "privacy_options": "",
+        "privacy_policy": "PRIVACY.md",
+        "created_at": "2025-03-18T03:05:05.204398Z",
+        "updated_at": "2025-03-18T03:05:14.902463Z",
+        "badges": [],
+        "plugins": {
+            "agent_strategies": null,
+            "endpoints": null,
+            "models": null,
+            "tools": [
+                "provider/random.yaml"
+            ]
+        },
+        "endpoint": {},
+        "model": {},
+        "tool": {
+            "credentials_schema": [],
+            "identity": {
+                "author": "bowenliang123",
+                "description": {
+                    "en_US": "Generate random number or string.",
+                    "zh_Hans": "Generate random number or string."
+                },
+                "icon": "icon.png",
+                "label": {
+                    "en_US": "Random Generator",
+                    "zh_Hans": "随机生成器"
+                },
+                "name": "random",
+                "tags": null
+            },
+            "tools": [
+                {
+                    "description": {
+                        "human": {
+                            "en_US": "Generate a random number."
+                        },
+                        "llm": "Generate a random number."
+                    },
+                    "has_runtime_parameters": false,
+                    "identity": {
+                        "author": "bowenliang123",
+                        "label": {
+                            "en_US": "Random number",
+                            "zh_Hans": "生成随机数"
+                        },
+                        "name": "random_num"
+                    },
+                    "output_schema": null,
+                    "parameters": [
+                        {
+                            "auto_generate": null,
+                            "default": 0,
+                            "form": "llm",
+                            "human_description": {
+                                "en_US": "Lower bound of the random number.",
+                                "zh_Hans": "范围下限"
+                            },
+                            "label": {
+                                "en_US": "Lower bound",
+                                "zh_Hans": "范围下限"
+                            },
+                            "llm_description": "Lower bound of the random number.",
+                            "max": null,
+                            "min": null,
+                            "name": "lower_bound",
+                            "options": null,
+                            "precision": null,
+                            "required": true,
+                            "scope": null,
+                            "template": null,
+                            "type": "number"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": 1024,
+                            "form": "llm",
+                            "human_description": {
+                                "en_US": "Upper bound of the random number.",
+                                "zh_Hans": "范围上限"
+                            },
+                            "label": {
+                                "en_US": "Upper bound",
+                                "zh_Hans": "范围上限"
+                            },
+                            "llm_description": "Upper bound of the random number.",
+                            "max": null,
+                            "min": null,
+                            "name": "upper_bound",
+                            "options": null,
+                            "precision": null,
+                            "required": true,
+                            "scope": null,
+                            "template": null,
+                            "type": "number"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": 0,
+                            "form": "llm",
+                            "human_description": {
+                                "en_US": "Digits of the random number. When 0, an integer will be generated.",
+                                "zh_Hans": "小数位数，如果位数为0，则生成整数"
+                            },
+                            "label": {
+                                "en_US": "digits",
+                                "zh_Hans": "小数位数"
+                            },
+                            "llm_description": "Digits of the random number. If 0, an integer will be generated.",
+                            "max": null,
+                            "min": null,
+                            "name": "digits",
+                            "options": null,
+                            "precision": null,
+                            "required": false,
+                            "scope": null,
+                            "template": null,
+                            "type": "number"
+                        }
+                    ]
+                },
+                {
+                    "description": {
+                        "human": {
+                            "en_US": "Generate a random UUID."
+                        },
+                        "llm": "Generate a random UUID."
+                    },
+                    "has_runtime_parameters": false,
+                    "identity": {
+                        "author": "bowenliang123",
+                        "label": {
+                            "en_US": "Random UUID",
+                            "zh_Hans": "生成随机UUID"
+                        },
+                        "name": "random_uuid"
+                    },
+                    "output_schema": null,
+                    "parameters": null
+                },
+                {
+                    "description": {
+                        "human": {
+                            "en_US": "Generate a random string with given length from alphabets and numbers."
+                        },
+                        "llm": "Generate a random string with given length from alphabets and numbers."
+                    },
+                    "has_runtime_parameters": false,
+                    "identity": {
+                        "author": "bowenliang123",
+                        "label": {
+                            "en_US": "Random String",
+                            "zh_Hans": "生成随机字符串"
+                        },
+                        "name": "random_string"
+                    },
+                    "output_schema": null,
+                    "parameters": [
+                        {
+                            "auto_generate": null,
+                            "default": 0,
+                            "form": "llm",
+                            "human_description": {
+                                "en_US": "String length",
+                                "zh_Hans": "字符串长度"
+                            },
+                            "label": {
+                                "en_US": "String length",
+                                "zh_Hans": "字符串长度"
+                            },
+                            "llm_description": "String length",
+                            "max": null,
+                            "min": null,
+                            "name": "length",
+                            "options": null,
+                            "precision": null,
+                            "required": true,
+                            "scope": null,
+                            "template": null,
+                            "type": "number"
+                        }
+                    ]
+                }
+            ]
+        },
+        "agent_strategy": {},
+        "install_count": 34,
+        "version_updated_at": "2025-03-18T03:05:14.902428Z",
+        "latest_version": "0.0.1",
+        "latest_package_identifier": "bowenliang123/random:0.0.1@b58858118661e11b4cada2bbcdcc39dc670c080d8d385bbf2c5512b0050eedfa",
+        "tags": []
+    },
+    {
+        "type": "plugin",
+        "name": "financialdatasets",
+        "org": "financialai",
+        "plugin_id": "financialai/financialdatasets",
+        "icon": "financialai/packages/financialdatasets/_assets/favicon.ico",
+        "label": {
+            "en_US": "FinancialDatasets.ai",
+            "pt_BR": "FinancialDatasets.ai",
+            "zh_Hans": "FinancialDatasets.ai"
+        },
+        "brief": {
+            "en_US": "Welcome to Financial Datasets, a developer-friendly stock market API.",
+            "pt_BR": "Bem-vindo ao Financial Datasets, uma API de mercado de ações amigável para desenvolvedores.",
+            "zh_Hans": "欢迎使用金融数据集，这是一个开发人员友好的股票市场 API。"
+        },
+        "introduction": "# Dify Plugin: FinancialDatasets.ai - Access Powerful Financial Data\n\n[![Dify Plugin](https://img.shields.io/badge/Dify-Plugin-blueviolet)](https://dify.ai)\n[![FinancialDatasets.ai](https://img.shields.io/badge/FinancialDatasets.ai-API-brightgreen)](https://financialdatasets.ai)\n[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)\n![GitHub Release](https://img.shields.io/github/v/release/FinancialAI/dify-plugin-financial-datasets)\n\n## Overview\n\nThis Dify plugin empowers your AI applications with seamless access to the vast and reliable financial data provided by [FinancialDatasets.ai](https://financialdatasets.ai). FinancialDatasets.ai offers a comprehensive API for retrieving real-time and historical financial data across various asset classes, including stocks, cryptocurrencies, and more.\n\n**With this plugin, you can:**\n\n- **Enrich your Dify applications with real-time market data.**\n- **Analyze historical trends and patterns using historical financial data.**\n- **Build sophisticated financial analysis tools and dashboards within Dify.**\n- **Integrate financial insights into your conversational AI agents and workflows.**\n\nThis plugin acts as a bridge, allowing you to leverage the power of FinancialDatasets.ai's API directly within the Dify platform, simplifying the process of data integration and empowering you to build data-driven AI solutions for finance.\n\n**Visit the official [FinancialDatasets.ai documentation](https://docs.financialdatasets.ai/) to explore the full capabilities of their API.**\n\n## Configuration\n\nBefore using this plugin, you'll need to configure it with your FinancialDatasets.ai API key. Here's how:\n\n1. **Sign up for a FinancialDatasets.ai account:** If you don't already have one, create an account at [https://financialdatasets.ai](https://financialdatasets.ai).\n2. **Obtain your API Key:** Log in to your FinancialDatasets.ai dashboard and locate your API key. This is usually found in your account settings or API documentation section.\n3. **Configure the Dify Plugin:**\n   - In your Dify project, navigate to the \"Plugins\" section.\n   - Find and enable the \"FinancialDatasets.ai\" plugin.\n   - In the plugin configuration settings, you will find a field to enter your **FinancialDatasets.ai API Key**.\n   - Paste your API key into the designated field.\n   - **Save the plugin configuration.**\n\n**Important:** Keep your API key secure and do not expose it in public code repositories.\n\n<div align=\"center\">\n    <img src=\"_assets/plugin_configuration.png\" alt=\"Plugin Configuration\" width=\"95%\"/>\n</div>\n\n## Tool Features\n\nThis plugin exposes the following tools, allowing you to access specific functionalities of the FinancialDatasets.ai API within Dify. The specific tools available depend on the capabilities of the FinancialDatasets.ai API. Please refer to the [FinancialDatasets.ai documentation](https://docs.financialdatasets.ai/) for a complete list of endpoints and data available.\n\n- **Company Facts**: Get company facts for a ticker. Company facts includes data like name, CIK, market cap, total employees, website URL, and more.\n- **Crypto Prices**: Get ranged price data for a cryptocurrency to power price charts and analyze price movements.\n- **Crypto Snapshot**: Get the real-time price snapshot for a cryptocurrency.\n- **Earnings Press Releases**: Get earnings press releases for a ticker. The data returned from the API includes the URL, publish date, and full text of the press release.\n- **Historical Financial Metrics**: Get financial metrics for a ticker, including valuation, profitability, efficiency, liquidity, leverage, growth, and per share metrics.\n- **Financial Metrics Snapshot**: Get a real-time snapshot of key financial metrics and ratios for a ticker, including valuation, profitability, efficiency, liquidity, leverage, growth, and per share metrics.\n- **Financial Statements**: Get all financial statements for a ticker, including income statements, balance sheets, and cash flow statements.\n- **Insider Trades**: Get insider trades like buys and sells for a ticker by a company insider such as a CEO, CFO, or Director.\n- **Institutional Ownership**: Get institutional ownership by investor or ticker. This quarterly data comes directly from Form 13F filings and includes tickers, share quantities, estimated holding prices, and market values.\n- **Company News**: Get real-time and historical news for a ticker.\n- **Stock Prices**: Get ranged price data for a ticker to power stock charts and analyze price movements.\n- **Stock Snapshot**: Get the real-time price snapshot for a ticker.\n- **SEC Filings**: Get SEC filings for a company. This includes 10-Ks, 10-Qs, 8-Ks, and more.\n- **SEC Filing Items**: Get SEC filing items for a company. The Items endpoint allows you to extract specific sections (called items) from a given 10-K or 10-Q filing.\n\n**Important:** When using these tools in Dify, ensure you provide the correct parameters. Refer to the FinancialDatasets.ai API documentation for accurate parameter names and data formats.\n\n## Use Cases\n\nHere are some examples of how you can utilize this FinancialDatasets.ai plugin in your Dify applications:\n\n- **Financial Dashboard Assistant:** Build a Dify application that can answer user queries about current stock prices, historical trends, and market news, creating a personalized financial dashboard experience.\n- **Automated Financial Reporting:** Create workflows that automatically fetch financial data using this plugin and generate reports for portfolio performance, market analysis, or investment insights.\n- **AI-Powered Trading Bot (Informational):** Integrate real-time market data into a Dify-powered AI agent that can provide users with trading signals, market analysis, and risk assessments (Note: This plugin focuses on data retrieval and does not execute trades).\n- **Financial News Summarization:** Combine this plugin with other Dify tools (like text summarization models) to fetch financial news headlines and provide concise summaries to users.\n- **Educational Financial Applications:** Develop interactive educational applications that use real-world financial data to teach users about investing, market dynamics, and financial analysis concepts.\n- **Personalized Financial Alerts:** Set up Dify workflows that monitor specific financial instruments and trigger alerts based on price movements or other data points retrieved via this plugin.\n\n**Example Dify Chatflow Scenario:**\n\n1. **User Input:** User asks \"What is the current price of Bitcoin (ticker: BTC-USD)?\"\n2. **Dify Orchestration:** Dify identifies the intent and routes the request to the \"Crypto Snapshot\" tool from the FinancialDatasets.ai plugin.\n3. **Plugin Execution:** The plugin uses the `symbol: BTC-USD` parameter to call the FinancialDatasets.ai API.\n4. **API Response:** FinancialDatasets.ai API returns the real-time price of Bitcoin.\n5. **Dify Output:** Dify presents the retrieved Bitcoin price to the user in a user-friendly format.\n\n<div align=\"center\">\n    <img src=\"_assets/tool_call_example.png\" alt=\"Dify Chatflow\" width=\"95%\"/>\n</div>\n\n## Further Information\n\n- **FinancialDatasets.ai Documentation:** [https://docs.financialdatasets.ai/](https://docs.financialdatasets.ai/) - Refer to the official API documentation for detailed information about available endpoints, data formats, rate limits, and more.\n- **Dify Platform:** [https://dify.ai](https://dify.ai) - Learn more about the Dify platform and its capabilities for building AI applications.\n\n## License\n\nThis Dify plugin is released under the [MIT License](LICENSE).\n\n---\n\n**Disclaimer:** This plugin provides access to financial data from FinancialDatasets.ai. Please be aware of the terms of service and data usage policies of FinancialDatasets.ai. Financial data is for informational purposes only and should not be considered financial advice. Always consult with a qualified financial advisor before making any investment decisions.\n",
+        "category": "tool",
+        "repository": "",
+        "resource": {
+            "memory": 268435456,
+            "permission": {
+                "storage": {
+                    "enabled": true,
+                    "size": 1048576
+                },
+                "tool": {
+                    "enabled": true
+                }
+            }
+        },
+        "privacy_options": "",
+        "privacy_policy": "PRIVACY.md",
+        "created_at": "2025-03-17T12:20:03.851967Z",
+        "updated_at": "2025-03-17T12:20:14.012505Z",
+        "badges": [],
+        "plugins": {
+            "agent_strategies": null,
+            "endpoints": null,
+            "models": null,
+            "tools": [
+                "provider/financialdatasets.yaml"
+            ]
+        },
+        "endpoint": {},
+        "model": {},
+        "tool": {
+            "credentials_schema": [
+                {
+                    "default": null,
+                    "help": {
+                        "en_US": "Get your Financial Datasets API key from financialdatasets.ai",
+                        "pt_BR": "Obtenha sua chave da API do Financial Datasets em financialdatasets.ai",
+                        "zh_Hans": "从 financialdatasets.ai 获取您的金融数据集 API 密钥"
+                    },
+                    "label": {
+                        "en_US": "Financial Datasets API key",
+                        "pt_BR": "Chave da API do Financial Datasets",
+                        "zh_Hans": "金融数据集 API 密钥"
+                    },
+                    "name": "financial_datasets_api_key",
+                    "options": null,
+                    "placeholder": {
+                        "en_US": "Please input your Financial Datasets API key",
+                        "pt_BR": "Por favor, insira sua chave da API do Financial Datasets",
+                        "zh_Hans": "请输入您的金融数据集 API 密钥"
+                    },
+                    "required": true,
+                    "scope": null,
+                    "type": "secret-input",
+                    "url": "https://www.financialdatasets.ai"
+                }
+            ],
+            "identity": {
+                "author": "financialai",
+                "description": {
+                    "en_US": "Welcome to Financial Datasets, a developer-friendly stock market API.",
+                    "pt_BR": "Bem-vindo ao Financial Datasets, uma API de mercado de ações amigável para desenvolvedores.",
+                    "zh_Hans": "欢迎使用金融数据集，这是一个开发人员友好的股票市场 API。"
+                },
+                "icon": "favicon.ico",
+                "label": {
+                    "en_US": "FinancialDatasets.ai",
+                    "pt_BR": "FinancialDatasets.ai",
+                    "zh_Hans": "FinancialDatasets.ai"
+                },
+                "name": "financialdatasets",
+                "tags": [
+                    "finance"
+                ]
+            },
+            "tools": [
+                {
+                    "description": {
+                        "human": {
+                            "en_US": "Get company facts for a ticker. Company facts includes data like name, CIK, market cap, total employees, website URL, and more.",
+                            "pt_BR": "Obtenha informações da empresa para um ticker. As informações da empresa incluem dados como nome, CIK, valor de mercado, total de funcionários, URL do site e muito mais.",
+                            "zh_Hans": "获取股票代码的公司信息。公司信息包括名称、CIK、市值、员工总数、网站网址等数据。"
+                        },
+                        "llm": "Get company facts for a ticker. Company facts includes data like name, CIK, market cap, total employees, website URL, and more."
+                    },
+                    "has_runtime_parameters": false,
+                    "identity": {
+                        "author": "financialai",
+                        "label": {
+                            "en_US": "Company Facts",
+                            "pt_BR": "Dados da Empresa",
+                            "zh_Hans": "公司概况"
+                        },
+                        "name": "company_facts"
+                    },
+                    "output_schema": null,
+                    "parameters": [
+                        {
+                            "auto_generate": null,
+                            "default": null,
+                            "form": "llm",
+                            "human_description": {
+                                "en_US": "The ticker symbol of the company you want to get facts for.",
+                                "pt_BR": "O símbolo do ticker da empresa para a qual você deseja obter informações.",
+                                "zh_Hans": "您想获取公司信息的公司的股票代码。"
+                            },
+                            "label": {
+                                "en_US": "Ticker symbol",
+                                "pt_BR": "Símbolo do ticker",
+                                "zh_Hans": "股票代码"
+                            },
+                            "llm_description": "The ticker symbol of the company you want to get facts for.",
+                            "max": null,
+                            "min": null,
+                            "name": "ticker",
+                            "options": null,
+                            "precision": null,
+                            "required": true,
+                            "scope": null,
+                            "template": null,
+                            "type": "string"
+                        }
+                    ]
+                },
+                {
+                    "description": {
+                        "human": {
+                            "en_US": "Get ranged price data for a cryptocurrency to power price charts and analyze price movements.",
+                            "pt_BR": "Obtenha dados de preço variados para uma criptomoeda para alimentar gráficos de preços e analisar movimentos de preços.",
+                            "zh_Hans": "获取加密货币的价格范围数据，以支持价格图表和分析价格走势。"
+                        },
+                        "llm": "Get ranged price data for a cryptocurrency to power price charts and analyze price movements."
+                    },
+                    "has_runtime_parameters": false,
+                    "identity": {
+                        "author": "financialai",
+                        "label": {
+                            "en_US": "Crypto Prices",
+                            "pt_BR": "Preços de Criptomoedas",
+                            "zh_Hans": "加密货币价格"
+                        },
+                        "name": "crypto_prices"
+                    },
+                    "output_schema": null,
+                    "parameters": [
+                        {
+                            "auto_generate": null,
+                            "default": null,
+                            "form": "llm",
+                            "human_description": {
+                                "en_US": "The ticker symbol of the cryptocurrency you want to get price data for.",
+                                "pt_BR": "O símbolo do ticker da criptomoeda para a qual você deseja obter dados de preço.",
+                                "zh_Hans": "您想获取价格数据的加密货币的股票代码。"
+                            },
+                            "label": {
+                                "en_US": "Ticker symbol",
+                                "pt_BR": "Símbolo do ticker da criptomoeda",
+                                "zh_Hans": "加密货币代码"
+                            },
+                            "llm_description": "The ticker symbol of the cryptocurrency you want to get price data for.",
+                            "max": null,
+                            "min": null,
+                            "name": "ticker",
+                            "options": null,
+                            "precision": null,
+                            "required": true,
+                            "scope": null,
+                            "template": null,
+                            "type": "string"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": null,
+                            "form": "llm",
+                            "human_description": {
+                                "en_US": "The time interval for the price data.",
+                                "pt_BR": "O intervalo de tempo para os dados de preço.",
+                                "zh_Hans": "价格数据的时间间隔。"
+                            },
+                            "label": {
+                                "en_US": "Time interval",
+                                "pt_BR": "Intervalo de tempo",
+                                "zh_Hans": "时间间隔"
+                            },
+                            "llm_description": "The time interval for the price data.",
+                            "max": null,
+                            "min": null,
+                            "name": "interval",
+                            "options": [
+                                {
+                                    "label": {
+                                        "en_US": "Minute",
+                                        "pt_BR": "Minuto",
+                                        "zh_Hans": "分钟"
+                                    },
+                                    "value": "minute"
+                                },
+                                {
+                                    "label": {
+                                        "en_US": "Day",
+                                        "pt_BR": "Dia",
+                                        "zh_Hans": "天"
+                                    },
+                                    "value": "day"
+                                },
+                                {
+                                    "label": {
+                                        "en_US": "Week",
+                                        "pt_BR": "Semana",
+                                        "zh_Hans": "周"
+                                    },
+                                    "value": "week"
+                                },
+                                {
+                                    "label": {
+                                        "en_US": "Month",
+                                        "pt_BR": "Mês",
+                                        "zh_Hans": "月"
+                                    },
+                                    "value": "month"
+                                },
+                                {
+                                    "label": {
+                                        "en_US": "Year",
+                                        "pt_BR": "Ano",
+                                        "zh_Hans": "年"
+                                    },
+                                    "value": "year"
+                                }
+                            ],
+                            "precision": null,
+                            "required": true,
+                            "scope": null,
+                            "template": null,
+                            "type": "select"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": 1,
+                            "form": "llm",
+                            "human_description": {
+                                "en_US": "The multiplier for the time interval.",
+                                "pt_BR": "O multiplicador para o intervalo de tempo.",
+                                "zh_Hans": "时间间隔的倍增器。"
+                            },
+                            "label": {
+                                "en_US": "Interval multiplier",
+                                "pt_BR": "Multiplicador de intervalo",
+                                "zh_Hans": "时间间隔倍增器"
+                            },
+                            "llm_description": "The multiplier for the time interval.",
+                            "max": null,
+                            "min": 1,
+                            "name": "interval_multiplier",
+                            "options": null,
+                            "precision": null,
+                            "required": true,
+                            "scope": null,
+                            "template": null,
+                            "type": "number"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": null,
+                            "form": "llm",
+                            "human_description": {
+                                "en_US": "The start date for the price data (format: YYYY-MM-DD).",
+                                "pt_BR": "A data de início para os dados de preço (formato: AAAA-MM-DD).",
+                                "zh_Hans": "价格数据的开始日期（格式：YYYY-MM-DD）。"
+                            },
+                            "label": {
+                                "en_US": "Start date (YYYY-MM-DD)",
+                                "pt_BR": "Data de início (AAAA-MM-DD)",
+                                "zh_Hans": "开始日期 (YYYY-MM-DD)"
+                            },
+                            "llm_description": "The start date for the price data (format: YYYY-MM-DD).",
+                            "max": null,
+                            "min": null,
+                            "name": "start_date",
+                            "options": null,
+                            "precision": null,
+                            "required": true,
+                            "scope": null,
+                            "template": null,
+                            "type": "string"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": null,
+                            "form": "llm",
+                            "human_description": {
+                                "en_US": "The end date for the price data (format: YYYY-MM-DD).",
+                                "pt_BR": "A data final para os dados de preço (formato: AAAA-MM-DD).",
+                                "zh_Hans": "价格数据的结束日期（格式：YYYY-MM-DD）。"
+                            },
+                            "label": {
+                                "en_US": "End date (YYYY-MM-DD)",
+                                "pt_BR": "Data final (AAAA-MM-DD)",
+                                "zh_Hans": "结束日期 (YYYY-MM-DD)"
+                            },
+                            "llm_description": "The end date for the price data (format: YYYY-MM-DD).",
+                            "max": null,
+                            "min": null,
+                            "name": "end_date",
+                            "options": null,
+                            "precision": null,
+                            "required": true,
+                            "scope": null,
+                            "template": null,
+                            "type": "string"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": 5000,
+                            "form": "llm",
+                            "human_description": {
+                                "en_US": "The maximum number of price records to return (default: 5000, max: 5000).",
+                                "pt_BR": "O número máximo de registros de preço a serem retornados (padrão: 5000, máximo: 5000).",
+                                "zh_Hans": "要返回的价格记录的最大数量（默认值：5000，最大值：5000）。"
+                            },
+                            "label": {
+                                "en_US": "Limit",
+                                "pt_BR": "Limite",
+                                "zh_Hans": "限制"
+                            },
+                            "llm_description": "The maximum number of price records to return (default: 5000, max: 5000).",
+                            "max": 5000,
+                            "min": 1,
+                            "name": "limit",
+                            "options": null,
+                            "precision": null,
+                            "required": false,
+                            "scope": null,
+                            "template": null,
+                            "type": "number"
+                        }
+                    ]
+                },
+                {
+                    "description": {
+                        "human": {
+                            "en_US": "Get the real-time price snapshot for a cryptocurrency.",
+                            "pt_BR": "Obtenha o instantâneo de preço em tempo real para uma criptomoeda.",
+                            "zh_Hans": "获取加密货币的实时价格快照。"
+                        },
+                        "llm": "Get the real-time price snapshot for a cryptocurrency."
+                    },
+                    "has_runtime_parameters": false,
+                    "identity": {
+                        "author": "financialai",
+                        "label": {
+                            "en_US": "Crypto Snapshot",
+                            "pt_BR": "Instantâneo de Criptomoeda",
+                            "zh_Hans": "加密货币快照"
+                        },
+                        "name": "crypto_snapshot"
+                    },
+                    "output_schema": null,
+                    "parameters": [
+                        {
+                            "auto_generate": null,
+                            "default": null,
+                            "form": "llm",
+                            "human_description": {
+                                "en_US": "The cryptocurrency ticker symbol.",
+                                "pt_BR": "O símbolo do ticker da criptomoeda.",
+                                "zh_Hans": "加密货币的代码。"
+                            },
+                            "label": {
+                                "en_US": "Ticker symbol",
+                                "pt_BR": "Símbolo do ticker da criptomoeda",
+                                "zh_Hans": "加密货币代码"
+                            },
+                            "llm_description": "The cryptocurrency ticker symbol.",
+                            "max": null,
+                            "min": null,
+                            "name": "ticker",
+                            "options": null,
+                            "precision": null,
+                            "required": true,
+                            "scope": null,
+                            "template": null,
+                            "type": "string"
+                        }
+                    ]
+                },
+                {
+                    "description": {
+                        "human": {
+                            "en_US": "Get earnings press releases for a ticker. The data returned from the API includes the URL, publish date, and full text of the press release.",
+                            "pt_BR": "Obtenha comunicados de resultados para um ticker. Os dados retornados pela API incluem a URL, a data de publicação e o texto completo do comunicado.",
+                            "zh_Hans": "获取股票代码的盈利新闻稿。API 返回的数据包括新闻稿的 URL、发布日期和全文。"
+                        },
+                        "llm": "Get earnings press releases for a ticker. The data returned from the API includes the URL, publish date, and full text of the press release."
+                    },
+                    "has_runtime_parameters": false,
+                    "identity": {
+                        "author": "financialai",
+                        "label": {
+                            "en_US": "Earnings Press Releases",
+                            "pt_BR": "Comunicados de Resultados",
+                            "zh_Hans": "盈利新闻稿"
+                        },
+                        "name": "earnings_press_releases"
+                    },
+                    "output_schema": null,
+                    "parameters": [
+                        {
+                            "auto_generate": null,
+                            "default": null,
+                            "form": "llm",
+                            "human_description": {
+                                "en_US": "The ticker symbol of the company you want to get earnings press releases for.",
+                                "pt_BR": "O símbolo do ticker da empresa para a qual você deseja obter comunicados de resultados.",
+                                "zh_Hans": "您想获取盈利新闻稿的公司的股票代码。"
+                            },
+                            "label": {
+                                "en_US": "Ticker symbol",
+                                "pt_BR": "Símbolo do ticker",
+                                "zh_Hans": "股票代码"
+                            },
+                            "llm_description": "The ticker symbol of the company you want to get earnings press releases for.",
+                            "max": null,
+                            "min": null,
+                            "name": "ticker",
+                            "options": null,
+                            "precision": null,
+                            "required": true,
+                            "scope": null,
+                            "template": null,
+                            "type": "string"
+                        }
+                    ]
+                },
+                {
+                    "description": {
+                        "human": {
+                            "en_US": "Get financial metrics for a ticker, including valuation, profitability, efficiency, liquidity, leverage, growth, and per share metrics.",
+                            "pt_BR": "Obtenha métricas financeiras para um ticker, incluindo avaliação, lucratividade, eficiência, liquidez, alavancagem, crescimento e métricas por ação.",
+                            "zh_Hans": "获取股票代码的财务指标，包括估值、盈利能力、效率、流动性、杠杆、增长和每股指标。"
+                        },
+                        "llm": "Get financial metrics for a ticker, including valuation, profitability, efficiency, liquidity, leverage, growth, and per share metrics."
+                    },
+                    "has_runtime_parameters": false,
+                    "identity": {
+                        "author": "financialai",
+                        "label": {
+                            "en_US": "Historical Financial Metrics",
+                            "pt_BR": "Métricas Financeiras Históricas",
+                            "zh_Hans": "历史财务指标"
+                        },
+                        "name": "financial_metrics_historical"
+                    },
+                    "output_schema": null,
+                    "parameters": [
+                        {
+                            "auto_generate": null,
+                            "default": null,
+                            "form": "llm",
+                            "human_description": {
+                                "en_US": "The ticker symbol of the company you want to get financial metrics for.",
+                                "pt_BR": "O símbolo do ticker da empresa para a qual você deseja obter métricas financeiras.",
+                                "zh_Hans": "您想获取财务指标的公司的股票代码。"
+                            },
+                            "label": {
+                                "en_US": "Ticker symbol",
+                                "pt_BR": "Símbolo do ticker",
+                                "zh_Hans": "股票代码"
+                            },
+                            "llm_description": "The ticker symbol of the company you want to get financial metrics for.",
+                            "max": null,
+                            "min": null,
+                            "name": "ticker",
+                            "options": null,
+                            "precision": null,
+                            "required": true,
+                            "scope": null,
+                            "template": null,
+                            "type": "string"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": null,
+                            "form": "llm",
+                            "human_description": {
+                                "en_US": "The period for the financial metrics.",
+                                "pt_BR": "O período para as métricas financeiras.",
+                                "zh_Hans": "财务指标的期间。"
+                            },
+                            "label": {
+                                "en_US": "Period",
+                                "pt_BR": "Período",
+                                "zh_Hans": "期间"
+                            },
+                            "llm_description": "The period for the financial metrics.",
+                            "max": null,
+                            "min": null,
+                            "name": "period",
+                            "options": [
+                                {
+                                    "label": {
+                                        "en_US": "Annual",
+                                        "pt_BR": "Anual",
+                                        "zh_Hans": "年度"
+                                    },
+                                    "value": "annual"
+                                },
+                                {
+                                    "label": {
+                                        "en_US": "Quarterly",
+                                        "pt_BR": "Trimestral",
+                                        "zh_Hans": "季度"
+                                    },
+                                    "value": "quarterly"
+                                },
+                                {
+                                    "label": {
+                                        "en_US": "Trailing twelve months",
+                                        "pt_BR": "Últimos doze meses",
+                                        "zh_Hans": "过去十二个月"
+                                    },
+                                    "value": "ttm"
+                                }
+                            ],
+                            "precision": null,
+                            "required": true,
+                            "scope": null,
+                            "template": null,
+                            "type": "select"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": null,
+                            "form": "llm",
+                            "human_description": {
+                                "en_US": "The maximum number of financial metrics to return.",
+                                "pt_BR": "O número máximo de métricas financeiras a serem retornadas.",
+                                "zh_Hans": "要返回的财务指标的最大数量。"
+                            },
+                            "label": {
+                                "en_US": "Limit",
+                                "pt_BR": "Limite",
+                                "zh_Hans": "限制"
+                            },
+                            "llm_description": "The maximum number of financial metrics to return.",
+                            "max": null,
+                            "min": null,
+                            "name": "limit",
+                            "options": null,
+                            "precision": null,
+                            "required": false,
+                            "scope": null,
+                            "template": null,
+                            "type": "number"
+                        }
+                    ]
+                },
+                {
+                    "description": {
+                        "human": {
+                            "en_US": "Get a real-time snapshot of key financial metrics and ratios for a ticker, including valuation, profitability, efficiency, liquidity, leverage, growth, and per share metrics.",
+                            "pt_BR": "Obtenha um instantâneo em tempo real das principais métricas e índices financeiros para um ticker, incluindo avaliação, lucratividade, eficiência, liquidez, alavancagem, crescimento e métricas por ação.",
+                            "zh_Hans": "获取股票代码的关键财务指标和比率的实时快照，包括估值、盈利能力、效率、流动性、杠杆、增长和每股指标。"
+                        },
+                        "llm": "Get a real-time snapshot of key financial metrics and ratios for a ticker, including valuation, profitability, efficiency, liquidity, leverage, growth, and per share metrics."
+                    },
+                    "has_runtime_parameters": false,
+                    "identity": {
+                        "author": "financialai",
+                        "label": {
+                            "en_US": "Financial Metrics Snapshot",
+                            "pt_BR": "Instantâneo de Métricas Financeiras",
+                            "zh_Hans": "财务指标快照"
+                        },
+                        "name": "financial_metrics_snapshot"
+                    },
+                    "output_schema": null,
+                    "parameters": [
+                        {
+                            "auto_generate": null,
+                            "default": null,
+                            "form": "llm",
+                            "human_description": {
+                                "en_US": "The ticker symbol of the company you want to get financial metrics for.",
+                                "pt_BR": "O símbolo do ticker da empresa para a qual você deseja obter métricas financeiras.",
+                                "zh_Hans": "您想获取财务指标的公司的股票代码。"
+                            },
+                            "label": {
+                                "en_US": "Ticker symbol",
+                                "pt_BR": "Símbolo do ticker",
+                                "zh_Hans": "股票代码"
+                            },
+                            "llm_description": "The ticker symbol of the company you want to get financial metrics for.",
+                            "max": null,
+                            "min": null,
+                            "name": "ticker",
+                            "options": null,
+                            "precision": null,
+                            "required": true,
+                            "scope": null,
+                            "template": null,
+                            "type": "string"
+                        }
+                    ]
+                },
+                {
+                    "description": {
+                        "human": {
+                            "en_US": "Get all financial statements for a ticker, including income statements, balance sheets, and cash flow statements.",
+                            "pt_BR": "Obtenha todas as demonstrações financeiras para um ticker, incluindo demonstrações de resultados, balanços patrimoniais e demonstrações de fluxo de caixa.",
+                            "zh_Hans": "获取股票代码的所有财务报表，包括损益表、资产负债表和现金流量表。"
+                        },
+                        "llm": "Get all financial statements for a ticker, including income statements, balance sheets, and cash flow statements."
+                    },
+                    "has_runtime_parameters": false,
+                    "identity": {
+                        "author": "financialai",
+                        "label": {
+                            "en_US": "Financial Statements",
+                            "pt_BR": "Demonstrações Financeiras",
+                            "zh_Hans": "财务报表"
+                        },
+                        "name": "financial_statements"
+                    },
+                    "output_schema": null,
+                    "parameters": [
+                        {
+                            "auto_generate": null,
+                            "default": null,
+                            "form": "llm",
+                            "human_description": {
+                                "en_US": "The ticker symbol of the company you want to get financial statements for.",
+                                "pt_BR": "O símbolo do ticker da empresa para a qual você deseja obter demonstrações financeiras.",
+                                "zh_Hans": "您想获取财务报表的公司的股票代码。"
+                            },
+                            "label": {
+                                "en_US": "Ticker symbol",
+                                "pt_BR": "Símbolo do ticker",
+                                "zh_Hans": "股票代码"
+                            },
+                            "llm_description": "The ticker symbol of the company you want to get financial statements for.",
+                            "max": null,
+                            "min": null,
+                            "name": "ticker",
+                            "options": null,
+                            "precision": null,
+                            "required": true,
+                            "scope": null,
+                            "template": null,
+                            "type": "string"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": "annual",
+                            "form": "llm",
+                            "human_description": {
+                                "en_US": "The time period for the financial statements.",
+                                "pt_BR": "O período das demonstrações financeiras.",
+                                "zh_Hans": "财务报表的时间段。"
+                            },
+                            "label": {
+                                "en_US": "Time period",
+                                "pt_BR": "Período",
+                                "zh_Hans": "时间段"
+                            },
+                            "llm_description": "The time period for the financial statements.",
+                            "max": null,
+                            "min": null,
+                            "name": "period",
+                            "options": [
+                                {
+                                    "label": {
+                                        "en_US": "Annual",
+                                        "pt_BR": "Anual",
+                                        "zh_Hans": "年度"
+                                    },
+                                    "value": "annual"
+                                },
+                                {
+                                    "label": {
+                                        "en_US": "Quarterly",
+                                        "pt_BR": "Trimestral",
+                                        "zh_Hans": "季度"
+                                    },
+                                    "value": "quarterly"
+                                },
+                                {
+                                    "label": {
+                                        "en_US": "Trailing twelve months",
+                                        "pt_BR": "Últimos doze meses",
+                                        "zh_Hans": "过去十二个月"
+                                    },
+                                    "value": "ttm"
+                                }
+                            ],
+                            "precision": null,
+                            "required": true,
+                            "scope": null,
+                            "template": null,
+                            "type": "select"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": 1,
+                            "form": "llm",
+                            "human_description": {
+                                "en_US": "The number of financial statements to return.",
+                                "pt_BR": "O número de demonstrações financeiras a serem retornadas.",
+                                "zh_Hans": "要返回的财务报表数量。"
+                            },
+                            "label": {
+                                "en_US": "Limit",
+                                "pt_BR": "Limite",
+                                "zh_Hans": "限制"
+                            },
+                            "llm_description": "The number of financial statements to return.",
+                            "max": null,
+                            "min": null,
+                            "name": "limit",
+                            "options": null,
+                            "precision": null,
+                            "required": false,
+                            "scope": null,
+                            "template": null,
+                            "type": "number"
+                        }
+                    ]
+                },
+                {
+                    "description": {
+                        "human": {
+                            "en_US": "Get insider trades like buys and sells for a ticker by a company insider such as a CEO, CFO, or Director.",
+                            "pt_BR": "Obtenha negociações internas, como compras e vendas, para um ticker por um insider da empresa, como um CEO, CFO ou Diretor.",
+                            "zh_Hans": "通过公司内部人员（如 CEO、CFO 或董事）获取股票的内部交易，如买入和卖出。"
+                        },
+                        "llm": "Get insider trades like buys and sells for a ticker by a company insider such as a CEO, CFO, or Director."
+                    },
+                    "has_runtime_parameters": false,
+                    "identity": {
+                        "author": "financialai",
+                        "label": {
+                            "en_US": "Insider Trades",
+                            "pt_BR": "Negociações Internas",
+                            "zh_Hans": "内部交易"
+                        },
+                        "name": "insider_trades"
+                    },
+                    "output_schema": null,
+                    "parameters": [
+                        {
+                            "auto_generate": null,
+                            "default": null,
+                            "form": "llm",
+                            "human_description": {
+                                "en_US": "The ticker symbol of the company you want to get insider trades for.",
+                                "pt_BR": "O símbolo do ticker da empresa para a qual você deseja obter negociações internas.",
+                                "zh_Hans": "您想获取内部交易的公司的股票代码。"
+                            },
+                            "label": {
+                                "en_US": "Ticker symbol",
+                                "pt_BR": "Símbolo do ticker",
+                                "zh_Hans": "股票代码"
+                            },
+                            "llm_description": "The ticker symbol of the company you want to get insider trades for.",
+                            "max": null,
+                            "min": null,
+                            "name": "ticker",
+                            "options": null,
+                            "precision": null,
+                            "required": true,
+                            "scope": null,
+                            "template": null,
+                            "type": "string"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": 1,
+                            "form": "llm",
+                            "human_description": {
+                                "en_US": "The maximum number of transactions to return (default: 10).",
+                                "pt_BR": "O número máximo de transações a serem retornadas (padrão: 10).",
+                                "zh_Hans": "要返回的交易数量的最大值（默认值：10）。"
+                            },
+                            "label": {
+                                "en_US": "Limit",
+                                "pt_BR": "Limite",
+                                "zh_Hans": "限制"
+                            },
+                            "llm_description": "The maximum number of transactions to return (default: 10).",
+                            "max": null,
+                            "min": null,
+                            "name": "limit",
+                            "options": null,
+                            "precision": null,
+                            "required": false,
+                            "scope": null,
+                            "template": null,
+                            "type": "number"
+                        }
+                    ]
+                },
+                {
+                    "description": {
+                        "human": {
+                            "en_US": "Get institutional ownership by investor or ticker. This quarterly data comes directly from Form 13F filings and includes tickers, share quantities, estimated holding prices, and market values.",
+                            "pt_BR": "Obtenha a propriedade institucional por investidor ou ticker. Esses dados trimestrais vêm diretamente das declarações do Formulário 13F e incluem tickers, quantidades de ações, preços de manutenção estimados e valores de mercado.",
+                            "zh_Hans": "通过投资者或股票获取机构持股。这些季度数据直接来自 13F 表格提交，并包括股票代码、股票数量、估计持有价格和市值。"
+                        },
+                        "llm": "Get institutional ownership by investor or ticker. This quarterly data comes directly from Form 13F filings and includes tickers, share quantities, estimated holding prices, and market values."
+                    },
+                    "has_runtime_parameters": false,
+                    "identity": {
+                        "author": "financialai",
+                        "label": {
+                            "en_US": "Institutional Ownership",
+                            "pt_BR": "Propriedade Institucional",
+                            "zh_Hans": "机构持股"
+                        },
+                        "name": "institutional_ownership"
+                    },
+                    "output_schema": null,
+                    "parameters": [
+                        {
+                            "auto_generate": null,
+                            "default": null,
+                            "form": "llm",
+                            "human_description": {
+                                "en_US": "The ticker symbol of the company you want to get institutional ownership for.",
+                                "pt_BR": "O símbolo do ticker da empresa para a qual você deseja obter a propriedade institucional.",
+                                "zh_Hans": "您想获取机构持股的公司的股票代码。"
+                            },
+                            "label": {
+                                "en_US": "Ticker symbol",
+                                "pt_BR": "Símbolo do ticker",
+                                "zh_Hans": "股票代码"
+                            },
+                            "llm_description": "The ticker symbol of the company you want to get institutional ownership for.",
+                            "max": null,
+                            "min": null,
+                            "name": "ticker",
+                            "options": null,
+                            "precision": null,
+                            "required": true,
+                            "scope": null,
+                            "template": null,
+                            "type": "string"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": 1,
+                            "form": "llm",
+                            "human_description": {
+                                "en_US": "The maximum number of holdings to return (default: 10).",
+                                "pt_BR": "O número máximo de participações a serem retornadas (padrão: 10).",
+                                "zh_Hans": "要返回的持股数量的最大值（默认值：10）。"
+                            },
+                            "label": {
+                                "en_US": "Limit",
+                                "pt_BR": "Limite",
+                                "zh_Hans": "限制"
+                            },
+                            "llm_description": "The maximum number of holdings to return (default: 10).",
+                            "max": null,
+                            "min": null,
+                            "name": "limit",
+                            "options": null,
+                            "precision": null,
+                            "required": false,
+                            "scope": null,
+                            "template": null,
+                            "type": "number"
+                        }
+                    ]
+                },
+                {
+                    "description": {
+                        "human": {
+                            "en_US": "Get real-time and historical news for a ticker.",
+                            "pt_BR": "Obtenha notícias em tempo real e históricas para um ticker.",
+                            "zh_Hans": "获取股票代码的实时和历史新闻。"
+                        },
+                        "llm": "Get real-time and historical news for a ticker."
+                    },
+                    "has_runtime_parameters": false,
+                    "identity": {
+                        "author": "financialai",
+                        "label": {
+                            "en_US": "Company News",
+                            "pt_BR": "Notícias da Empresa",
+                            "zh_Hans": "公司新闻"
+                        },
+                        "name": "conpany_news"
+                    },
+                    "output_schema": null,
+                    "parameters": [
+                        {
+                            "auto_generate": null,
+                            "default": null,
+                            "form": "llm",
+                            "human_description": {
+                                "en_US": "The ticker symbol of the company you want to get news for.",
+                                "pt_BR": "O símbolo do ticker da empresa para a qual você deseja obter notícias.",
+                                "zh_Hans": "您想获取新闻的公司的股票代码。"
+                            },
+                            "label": {
+                                "en_US": "Ticker symbol",
+                                "pt_BR": "Símbolo do ticker",
+                                "zh_Hans": "股票代码"
+                            },
+                            "llm_description": "The ticker symbol of the company you want to get news for.",
+                            "max": null,
+                            "min": null,
+                            "name": "ticker",
+                            "options": null,
+                            "precision": null,
+                            "required": true,
+                            "scope": null,
+                            "template": null,
+                            "type": "string"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": null,
+                            "form": "llm",
+                            "human_description": {
+                                "en_US": "The start date for the news data (format: YYYY-MM-DD).",
+                                "pt_BR": "A data de início para os dados de notícias (formato: AAAA-MM-DD).",
+                                "zh_Hans": "新闻数据的开始日期（格式：YYYY-MM-DD）。"
+                            },
+                            "label": {
+                                "en_US": "Start date (YYYY-MM-DD)",
+                                "pt_BR": "Data de início (AAAA-MM-DD)",
+                                "zh_Hans": "开始日期 (YYYY-MM-DD)"
+                            },
+                            "llm_description": "The start date for the news data (format: YYYY-MM-DD).",
+                            "max": null,
+                            "min": null,
+                            "name": "start_date",
+                            "options": null,
+                            "precision": null,
+                            "required": false,
+                            "scope": null,
+                            "template": null,
+                            "type": "string"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": null,
+                            "form": "llm",
+                            "human_description": {
+                                "en_US": "The end date for the news data (format: YYYY-MM-DD).",
+                                "pt_BR": "A data final para os dados de notícias (formato: AAAA-MM-DD).",
+                                "zh_Hans": "新闻数据的结束日期（格式：YYYY-MM-DD）。"
+                            },
+                            "label": {
+                                "en_US": "End date (YYYY-MM-DD)",
+                                "pt_BR": "Data final (AAAA-MM-DD)",
+                                "zh_Hans": "结束日期 (YYYY-MM-DD)"
+                            },
+                            "llm_description": "The end date for the news data (format: YYYY-MM-DD).",
+                            "max": null,
+                            "min": null,
+                            "name": "end_date",
+                            "options": null,
+                            "precision": null,
+                            "required": false,
+                            "scope": null,
+                            "template": null,
+                            "type": "string"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": 1,
+                            "form": "llm",
+                            "human_description": {
+                                "en_US": "The maximum number of news articles to return (default: 100, max: 100).",
+                                "pt_BR": "O número máximo de artigos de notícias a serem retornados (padrão: 100, máximo: 100).",
+                                "zh_Hans": "要返回的新闻文章的最大数（默认值：100，最大值：100）。"
+                            },
+                            "label": {
+                                "en_US": "Limit",
+                                "pt_BR": "Limite",
+                                "zh_Hans": "限制"
+                            },
+                            "llm_description": "The maximum number of news articles to return (default: 100, max: 100).",
+                            "max": null,
+                            "min": null,
+                            "name": "limit",
+                            "options": null,
+                            "precision": null,
+                            "required": false,
+                            "scope": null,
+                            "template": null,
+                            "type": "number"
+                        }
+                    ]
+                },
+                {
+                    "description": {
+                        "human": {
+                            "en_US": "Get ranged price data for a ticker to power stock charts and analyze price movements.",
+                            "pt_BR": "Obtenha dados de preço variados para um ticker para alimentar gráficos de ações e analisar movimentos de preços.",
+                            "zh_Hans": "获取股票代码的价格范围数据，以支持股票图表和分析价格走势。"
+                        },
+                        "llm": "Get ranged price data for a ticker to power stock charts and analyze price movements."
+                    },
+                    "has_runtime_parameters": false,
+                    "identity": {
+                        "author": "financialai",
+                        "label": {
+                            "en_US": "Stock Prices",
+                            "pt_BR": "Preços de Ações",
+                            "zh_Hans": "股票价格"
+                        },
+                        "name": "stock_prices"
+                    },
+                    "output_schema": null,
+                    "parameters": [
+                        {
+                            "auto_generate": null,
+                            "default": null,
+                            "form": "llm",
+                            "human_description": {
+                                "en_US": "The ticker symbol of price data you want to get.",
+                                "pt_BR": "O símbolo do ticker dos dados de preço que você deseja obter.",
+                                "zh_Hans": "您想获取价格数据的股票代码。"
+                            },
+                            "label": {
+                                "en_US": "Ticker symbol",
+                                "pt_BR": "Símbolo do ticker",
+                                "zh_Hans": "股票代码"
+                            },
+                            "llm_description": "The ticker symbol of price data you want to get.",
+                            "max": null,
+                            "min": null,
+                            "name": "ticker",
+                            "options": null,
+                            "precision": null,
+                            "required": true,
+                            "scope": null,
+                            "template": null,
+                            "type": "string"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": null,
+                            "form": "llm",
+                            "human_description": {
+                                "en_US": "The time interval for the price data.",
+                                "pt_BR": "O intervalo de tempo para os dados de preço.",
+                                "zh_Hans": "价格数据的时间间隔。"
+                            },
+                            "label": {
+                                "en_US": "Time interval",
+                                "pt_BR": "Intervalo de tempo",
+                                "zh_Hans": "时间间隔"
+                            },
+                            "llm_description": "The time interval for the price data.",
+                            "max": null,
+                            "min": null,
+                            "name": "interval",
+                            "options": [
+                                {
+                                    "label": {
+                                        "en_US": "Second",
+                                        "pt_BR": "Segundo",
+                                        "zh_Hans": "秒"
+                                    },
+                                    "value": "second"
+                                },
+                                {
+                                    "label": {
+                                        "en_US": "Minute",
+                                        "pt_BR": "Minuto",
+                                        "zh_Hans": "分钟"
+                                    },
+                                    "value": "minute"
+                                },
+                                {
+                                    "label": {
+                                        "en_US": "Day",
+                                        "pt_BR": "Dia",
+                                        "zh_Hans": "天"
+                                    },
+                                    "value": "day"
+                                },
+                                {
+                                    "label": {
+                                        "en_US": "Week",
+                                        "pt_BR": "Semana",
+                                        "zh_Hans": "周"
+                                    },
+                                    "value": "week"
+                                },
+                                {
+                                    "label": {
+                                        "en_US": "Month",
+                                        "pt_BR": "Mês",
+                                        "zh_Hans": "月"
+                                    },
+                                    "value": "month"
+                                },
+                                {
+                                    "label": {
+                                        "en_US": "Year",
+                                        "pt_BR": "Ano",
+                                        "zh_Hans": "年"
+                                    },
+                                    "value": "year"
+                                }
+                            ],
+                            "precision": null,
+                            "required": true,
+                            "scope": null,
+                            "template": null,
+                            "type": "select"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": 1,
+                            "form": "llm",
+                            "human_description": {
+                                "en_US": "The multiplier for the time interval.",
+                                "pt_BR": "O multiplicador para o intervalo de tempo.",
+                                "zh_Hans": "时间间隔的倍增器。"
+                            },
+                            "label": {
+                                "en_US": "Interval multiplier",
+                                "pt_BR": "Multiplicador de intervalo",
+                                "zh_Hans": "时间间隔倍增器"
+                            },
+                            "llm_description": "The multiplier for the time interval.",
+                            "max": null,
+                            "min": 1,
+                            "name": "interval_multiplier",
+                            "options": null,
+                            "precision": null,
+                            "required": true,
+                            "scope": null,
+                            "template": null,
+                            "type": "number"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": null,
+                            "form": "llm",
+                            "human_description": {
+                                "en_US": "The start date for the price data (format: YYYY-MM-DD).",
+                                "pt_BR": "A data de início para os dados de preço (formato: AAAA-MM-DD).",
+                                "zh_Hans": "价格数据的开始日期（格式：YYYY-MM-DD）。"
+                            },
+                            "label": {
+                                "en_US": "Start date (YYYY-MM-DD)",
+                                "pt_BR": "Data de início (AAAA-MM-DD)",
+                                "zh_Hans": "开始日期 (YYYY-MM-DD)"
+                            },
+                            "llm_description": "The start date for the price data (format: YYYY-MM-DD).",
+                            "max": null,
+                            "min": null,
+                            "name": "start_date",
+                            "options": null,
+                            "precision": null,
+                            "required": true,
+                            "scope": null,
+                            "template": null,
+                            "type": "string"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": null,
+                            "form": "llm",
+                            "human_description": {
+                                "en_US": "The end date for the price data (format: YYYY-MM-DD).",
+                                "pt_BR": "A data final para os dados de preço (formato: AAAA-MM-DD).",
+                                "zh_Hans": "价格数据的结束日期（格式：YYYY-MM-DD）。"
+                            },
+                            "label": {
+                                "en_US": "End date (YYYY-MM-DD)",
+                                "pt_BR": "Data final (AAAA-MM-DD)",
+                                "zh_Hans": "结束日期 (YYYY-MM-DD)"
+                            },
+                            "llm_description": "The end date for the price data (format: YYYY-MM-DD).",
+                            "max": null,
+                            "min": null,
+                            "name": "end_date",
+                            "options": null,
+                            "precision": null,
+                            "required": true,
+                            "scope": null,
+                            "template": null,
+                            "type": "string"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": 5000,
+                            "form": "llm",
+                            "human_description": {
+                                "en_US": "The maximum number of price records to return (default: 5000, max: 5000).",
+                                "pt_BR": "O número máximo de registros de preço a serem retornados (padrão: 5000, máximo: 5000).",
+                                "zh_Hans": "要返回的价格记录的最大数量（默认值：5000，最大值：5000）。"
+                            },
+                            "label": {
+                                "en_US": "Limit",
+                                "pt_BR": "Limite",
+                                "zh_Hans": "限制"
+                            },
+                            "llm_description": "The maximum number of price records to return (default: 5000, max: 5000).",
+                            "max": 5000,
+                            "min": 1,
+                            "name": "limit",
+                            "options": null,
+                            "precision": null,
+                            "required": false,
+                            "scope": null,
+                            "template": null,
+                            "type": "number"
+                        }
+                    ]
+                },
+                {
+                    "description": {
+                        "human": {
+                            "en_US": "Get the real-time price snapshot for a ticker.",
+                            "pt_BR": "Obtenha o instantâneo de preço em tempo real para um ticker.",
+                            "zh_Hans": "获取股票代码的实时价格快照。"
+                        },
+                        "llm": "Get the real-time price snapshot for a ticker."
+                    },
+                    "has_runtime_parameters": false,
+                    "identity": {
+                        "author": "financialai",
+                        "label": {
+                            "en_US": "Stock Snapshot",
+                            "pt_BR": "Instantâneo de Ações",
+                            "zh_Hans": "股票快照"
+                        },
+                        "name": "stock_snapshot"
+                    },
+                    "output_schema": null,
+                    "parameters": [
+                        {
+                            "auto_generate": null,
+                            "default": null,
+                            "form": "llm",
+                            "human_description": {
+                                "en_US": "The ticker symbol.",
+                                "pt_BR": "O símbolo do ticker.",
+                                "zh_Hans": "股票代码。"
+                            },
+                            "label": {
+                                "en_US": "Ticker symbol",
+                                "pt_BR": "Símbolo do ticker",
+                                "zh_Hans": "股票代码"
+                            },
+                            "llm_description": "The ticker symbol.",
+                            "max": null,
+                            "min": null,
+                            "name": "ticker",
+                            "options": null,
+                            "precision": null,
+                            "required": true,
+                            "scope": null,
+                            "template": null,
+                            "type": "string"
+                        }
+                    ]
+                },
+                {
+                    "description": {
+                        "human": {
+                            "en_US": "Get SEC filings for a company. This includes 10-Ks, 10-Qs, 8-Ks, and more.",
+                            "pt_BR": "Obtenha arquivamentos da SEC para uma empresa. Isso inclui 10-Ks, 10-Qs, 8-Ks e muito mais.",
+                            "zh_Hans": "获取公司的 SEC 备案。这包括 10-K、10-Q、8-K 等。"
+                        },
+                        "llm": "Get SEC filings for a company. This includes 10-Ks, 10-Qs, 8-Ks, and more."
+                    },
+                    "has_runtime_parameters": false,
+                    "identity": {
+                        "author": "financialai",
+                        "label": {
+                            "en_US": "SEC Filings",
+                            "pt_BR": "Arquivamentos da SEC",
+                            "zh_Hans": "SEC备案"
+                        },
+                        "name": "sec_filings"
+                    },
+                    "output_schema": null,
+                    "parameters": [
+                        {
+                            "auto_generate": null,
+                            "default": null,
+                            "form": "llm",
+                            "human_description": {
+                                "en_US": "The ticker symbol of the company you want to get SEC filings for.",
+                                "pt_BR": "O símbolo do ticker da empresa para a qual você deseja obter arquivamentos da SEC.",
+                                "zh_Hans": "您想获取公司的 SEC 备案的公司的股票代码。"
+                            },
+                            "label": {
+                                "en_US": "Ticker symbol",
+                                "pt_BR": "Símbolo do ticker",
+                                "zh_Hans": "股票代码"
+                            },
+                            "llm_description": "The ticker symbol of the company you want to get SEC filings for.",
+                            "max": null,
+                            "min": null,
+                            "name": "ticker",
+                            "options": null,
+                            "precision": null,
+                            "required": true,
+                            "scope": null,
+                            "template": null,
+                            "type": "string"
+                        }
+                    ]
+                },
+                {
+                    "description": {
+                        "human": {
+                            "en_US": "Get SEC filing items for a company. The Items endpoint allows you to extract specific sections (called items) from a given 10-K or 10-Q filing.",
+                            "pt_BR": "Obtenha itens de arquivamento da SEC para uma empresa. O endpoint Items permite que você extraia seções específicas (chamadas itens) de um arquivamento 10-K ou 10-Q fornecido.",
+                            "zh_Hans": "获取公司的 SEC 备案项目。Items 端点允许您从给定的 10-K 或 10-Q 备案中提取特定部分（称为项目）。"
+                        },
+                        "llm": "Get SEC filing items for a company. The Items endpoint allows you to extract specific sections (called items) from a given 10-K or 10-Q filing."
+                    },
+                    "has_runtime_parameters": false,
+                    "identity": {
+                        "author": "financialai",
+                        "label": {
+                            "en_US": "SEC Filings Items",
+                            "pt_BR": "Itens de Arquivamentos da SEC",
+                            "zh_Hans": "SEC备案项目"
+                        },
+                        "name": "sec_filings_items"
+                    },
+                    "output_schema": null,
+                    "parameters": [
+                        {
+                            "auto_generate": null,
+                            "default": null,
+                            "form": "llm",
+                            "human_description": {
+                                "en_US": "The ticker symbol of the company you want to get SEC filing items for.",
+                                "pt_BR": "O símbolo do ticker da empresa para a qual você deseja obter itens de arquivamento da SEC.",
+                                "zh_Hans": "您想获取公司的 SEC 备案项目的公司的股票代码。"
+                            },
+                            "label": {
+                                "en_US": "Ticker symbol",
+                                "pt_BR": "Símbolo do ticker",
+                                "zh_Hans": "股票代码"
+                            },
+                            "llm_description": "The ticker symbol of the company you want to get SEC filing items for.",
+                            "max": null,
+                            "min": null,
+                            "name": "ticker",
+                            "options": null,
+                            "precision": null,
+                            "required": true,
+                            "scope": null,
+                            "template": null,
+                            "type": "string"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": null,
+                            "form": "llm",
+                            "human_description": {
+                                "en_US": "The type of filing you want to get items for.",
+                                "pt_BR": "O tipo de arquivamento para o qual você deseja obter itens.",
+                                "zh_Hans": "您想获取项目的备案类型。"
+                            },
+                            "label": {
+                                "en_US": "Type of filing",
+                                "pt_BR": "O tipo de arquivamento",
+                                "zh_Hans": "备案类型"
+                            },
+                            "llm_description": "The type of filing you want to get items for.",
+                            "max": null,
+                            "min": null,
+                            "name": "filing_type",
+                            "options": [
+                                {
+                                    "label": {
+                                        "en_US": "10-K",
+                                        "pt_BR": "10-K",
+                                        "zh_Hans": "10-K"
+                                    },
+                                    "value": "10-K"
+                                },
+                                {
+                                    "label": {
+                                        "en_US": "10-Q",
+                                        "pt_BR": "10-Q",
+                                        "zh_Hans": "10-Q"
+                                    },
+                                    "value": "10-Q"
+                                }
+                            ],
+                            "precision": null,
+                            "required": true,
+                            "scope": null,
+                            "template": null,
+                            "type": "select"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": null,
+                            "form": "llm",
+                            "human_description": {
+                                "en_US": "The year of the filing you want to get items for.",
+                                "pt_BR": "O ano do arquivamento para o qual você deseja obter itens.",
+                                "zh_Hans": "您想获取项目的备案年份。"
+                            },
+                            "label": {
+                                "en_US": "Year of the filing",
+                                "pt_BR": "O ano do arquivamento",
+                                "zh_Hans": "备案年份"
+                            },
+                            "llm_description": "The year of the filing you want to get items for.",
+                            "max": null,
+                            "min": null,
+                            "name": "year",
+                            "options": null,
+                            "precision": null,
+                            "required": true,
+                            "scope": null,
+                            "template": null,
+                            "type": "number"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": null,
+                            "form": "llm",
+                            "human_description": {
+                                "en_US": "The quarter of the filing you want to get items for.",
+                                "pt_BR": "O trimestre do arquivamento para o qual você deseja obter itens.",
+                                "zh_Hans": "您想获取项目的备案季度。"
+                            },
+                            "label": {
+                                "en_US": "Quarter of the filing",
+                                "pt_BR": "O trimestre do arquivamento",
+                                "zh_Hans": "备案季度"
+                            },
+                            "llm_description": "The quarter of the filing you want to get items for.",
+                            "max": null,
+                            "min": null,
+                            "name": "quarter",
+                            "options": null,
+                            "precision": null,
+                            "required": false,
+                            "scope": null,
+                            "template": null,
+                            "type": "number"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": null,
+                            "form": "llm",
+                            "human_description": {
+                                "en_US": "The item you want to get.",
+                                "pt_BR": "O item que você deseja obter.",
+                                "zh_Hans": "您想获取的项目。"
+                            },
+                            "label": {
+                                "en_US": "Item",
+                                "pt_BR": "Item",
+                                "zh_Hans": "项目"
+                            },
+                            "llm_description": "The item you want to get.",
+                            "max": null,
+                            "min": null,
+                            "name": "item",
+                            "options": null,
+                            "precision": null,
+                            "required": false,
+                            "scope": null,
+                            "template": null,
+                            "type": "string"
+                        }
+                    ]
+                }
+            ]
+        },
+        "agent_strategy": {},
+        "install_count": 25,
+        "version_updated_at": "2025-03-17T12:20:14.012465Z",
+        "latest_version": "1.0.0",
+        "latest_package_identifier": "financialai/financialdatasets:1.0.0@ef57edf1e0710845780d6f9eb13aea8be4de58161d6f33762286486bce4f4ef7",
+        "tags": []
+    },
+    {
+        "type": "plugin",
+        "name": "airtable",
+        "org": "chenzeng",
+        "plugin_id": "chenzeng/airtable",
+        "icon": "chenzeng/packages/airtable/_assets/icon.svg",
+        "label": {
+            "en_US": "Airtable",
+            "ja_JP": "Airtable",
+            "pt_BR": "Airtable",
+            "zh_Hans": "Airtable"
+        },
+        "brief": {
+            "en_US": "Tools that can be operated on Airtable",
+            "ja_JP": "Airtableで操作できるツールです",
+            "pt_BR": "Ferramentas que podem ser operadas no Airtable",
+            "zh_Hans": "可以在Airtable上操作的工具"
+        },
+        "introduction": "# Airtable Plugin\n\nA plugin tool for operating Airtable, supporting record creation and other operations.\n\n## What's Airtable?\n\n[Airtable](https://airtable.com/) is a cloud-based project management tool that blends a traditional spreadsheet with the robust features of a database. It allows businesses to organize their workflow, data, and records in a flexible and visually appealing way without the need for any coding.\n\n## Features\n\n- Support creating records in Airtable\n- Simple and easy-to-use API interface\n\n## Prerequisites\n\n- Airtable account\n- Airtable API Token\n- Created Airtable Base and Table\n\n## Configuration Guide\n\n### Getting Required Information\n\n1. **Airtable Token**\n   - Visit [Airtable Token Creation Page](https://airtable.com/create/tokens)\n   - Create and save your API Token\n\n2. **Base ID and Table ID**\n   - Can be obtained from Airtable URL\n   - For detailed instructions, refer to: [Finding Airtable IDs](https://support.airtable.com/v1/docs/finding-airtable-ids#finding-base-table-and-view-ids-from-urls)\n\n### Setup Steps\n\n1. Configure Airtable Token\n   - Enter your Airtable Token in the plugin configuration\n   - Token will be securely stored and used for API authentication\n\n2. Using the Plugin\n   - Provide Base ID\n   - Provide Table ID\n   - Provide record data to create (in JSON format)\n\n## Usage Example\n\n### Start by creating your own table in Airtable, something like this\n\n![table](_assets/table.png)\n\nAdd fields according to your needs\n\nExample of creating a record:\n\n```json\n{\n  \"Spend\": 52,\n  \"Store\": \"Gas station\",\n  \"Item\": \"Gas\",\n  \"DateTime\": \"2025-03-15\",\n  \"Memo\": \"Filled up 52 yuan worth of gas at the gas station\"\n}\n```",
+        "category": "tool",
+        "repository": "",
+        "resource": {
+            "memory": 268435456,
+            "permission": {
+                "app": {
+                    "enabled": true
+                },
+                "endpoint": {
+                    "enabled": true
+                },
+                "tool": {
+                    "enabled": true
+                }
+            }
+        },
+        "privacy_options": "",
+        "privacy_policy": "PRIVACY.md",
+        "created_at": "2025-03-17T12:01:49.886616Z",
+        "updated_at": "2025-03-17T12:01:57.997738Z",
+        "badges": [],
+        "plugins": {
+            "agent_strategies": null,
+            "endpoints": null,
+            "models": null,
+            "tools": [
+                "provider/airtable.yaml"
+            ]
+        },
+        "endpoint": {},
+        "model": {},
+        "tool": {
+            "credentials_schema": [
+                {
+                    "default": null,
+                    "help": {
+                        "en_US": "Get your Airtable from Airtable",
+                        "zh_Hans": "从 Airtable 获取您的 Airtable Token"
+                    },
+                    "label": {
+                        "en_US": "Airtable Token",
+                        "zh_Hans": "Airtable Token"
+                    },
+                    "name": "airtable_token",
+                    "options": null,
+                    "placeholder": {
+                        "en_US": "Please input your Airtable Token",
+                        "zh_Hans": "请输入你的 Airtable Token"
+                    },
+                    "required": true,
+                    "scope": null,
+                    "type": "secret-input",
+                    "url": "https://airtable.com/create/tokens"
+                }
+            ],
+            "identity": {
+                "author": "chenzeng",
+                "description": {
+                    "en_US": "A tool that can operate on the created airtable",
+                    "pt_BR": "A tool that can operate on the created airtable",
+                    "zh_Hans": "可以对创建的airtable进行操作的工具"
+                },
+                "icon": "icon.svg",
+                "label": {
+                    "en_US": "airtable",
+                    "pt_BR": "airtable",
+                    "zh_Hans": "airtable"
+                },
+                "name": "airtable",
+                "tags": [
+                    "other"
+                ]
+            },
+            "tools": [
+                {
+                    "description": {
+                        "human": {
+                            "en_US": "Create a record in Airtable",
+                            "pt_BR": "Criando um registro no Airtable",
+                            "zh_Hans": "在Airtable中创建记录"
+                        },
+                        "llm": "Create a record in Airtable"
+                    },
+                    "has_runtime_parameters": false,
+                    "identity": {
+                        "author": "chenzeng",
+                        "label": {
+                            "en_US": "airtable_insert",
+                            "pt_BR": "airtable",
+                            "zh_Hans": "增加记录"
+                        },
+                        "name": "airtable_insert"
+                    },
+                    "output_schema": null,
+                    "parameters": [
+                        {
+                            "auto_generate": null,
+                            "default": null,
+                            "form": "llm",
+                            "human_description": {
+                                "en_US": "you can find it here https://support.airtable.com/v1/docs/finding-airtable-ids#finding-base-table-and-view-ids-from-urls",
+                                "pt_BR": "you can find it here https://support.airtable.com/v1/docs/finding-airtable-ids#finding-base-table-and-view-ids-from-urls",
+                                "zh_Hans": "你可以在这里找到它 https://support.airtable.com/v1/docs/finding-airtable-ids#finding-base-table-and-view-ids-from-urls"
+                            },
+                            "label": {
+                                "en_US": "Base ID",
+                                "pt_BR": "Base ID",
+                                "zh_Hans": "Base ID"
+                            },
+                            "llm_description": "workspace Base id",
+                            "max": null,
+                            "min": null,
+                            "name": "baseId",
+                            "options": null,
+                            "precision": null,
+                            "required": true,
+                            "scope": null,
+                            "template": null,
+                            "type": "string"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": null,
+                            "form": "llm",
+                            "human_description": {
+                                "en_US": "you can find it here https://support.airtable.com/v1/docs/finding-airtable-ids#finding-base-table-and-view-ids-from-urls",
+                                "pt_BR": "you can find it here https://support.airtable.com/v1/docs/finding-airtable-ids#finding-base-table-and-view-ids-from-urls",
+                                "zh_Hans": "你可以在这里找到它 https://support.airtable.com/v1/docs/finding-airtable-ids#finding-base-table-and-view-ids-from-urls"
+                            },
+                            "label": {
+                                "en_US": "Table ID",
+                                "pt_BR": "Table ID",
+                                "zh_Hans": "Table ID"
+                            },
+                            "llm_description": "workspace Table id",
+                            "max": null,
+                            "min": null,
+                            "name": "tableId",
+                            "options": null,
+                            "precision": null,
+                            "required": true,
+                            "scope": null,
+                            "template": null,
+                            "type": "string"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": null,
+                            "form": "llm",
+                            "human_description": {
+                                "en_US": "Records to be created",
+                                "pt_BR": "Registros a serem criados",
+                                "zh_Hans": "需要创建的记录"
+                            },
+                            "label": {
+                                "en_US": "record",
+                                "pt_BR": "registos",
+                                "zh_Hans": "记录"
+                            },
+                            "llm_description": "Records to be created",
+                            "max": null,
+                            "min": null,
+                            "name": "record",
+                            "options": null,
+                            "precision": null,
+                            "required": true,
+                            "scope": null,
+                            "template": null,
+                            "type": "string"
+                        }
+                    ]
+                }
+            ]
+        },
+        "agent_strategy": {},
+        "install_count": 14,
+        "version_updated_at": "2025-03-17T12:01:57.997698Z",
+        "latest_version": "0.0.1",
+        "latest_package_identifier": "chenzeng/airtable:0.0.1@33b5a0d4b650ec9e093f92d3828c187d2bff436a449b594972c749b52cef6958",
+        "tags": []
+    },
+    {
+        "type": "plugin",
+        "name": "netmind",
+        "org": "netmind",
+        "plugin_id": "netmind/netmind",
+        "icon": "netmind/packages/netmind/_assets/netmind.svg",
+        "label": {
+            "en_US": "Netmind",
+            "zh_Hans": "Netmind"
+        },
+        "brief": {
+            "en_US": "netmind.ai",
+            "zh_Hans": "netmind.ai"
+        },
+        "introduction": "## Overview\n[Netmind](https://www.netmind.ai/) Build AI Faster, Smarter, and More Affordably  \nTrain, Fine-tune, Run Inference, and Scale with our Global GPU Network—Your all-in-one AI Engine.\n\n## Configure\nTo configure [netmind.ai](https://www.netmind.ai/), specify the Model (Type and Name), your API Key (from [netmind.ai](https://www.netmind.ai/)). Save your settings.\n\n![](./_assets/netmind.png)\n",
+        "category": "model",
+        "repository": "",
+        "resource": {
+            "memory": 1048576,
+            "permission": {
+                "model": {
+                    "enabled": true,
+                    "llm": true,
+                    "moderation": false,
+                    "rerank": false,
+                    "speech2text": false,
+                    "text_embedding": false,
+                    "tts": false
+                },
+                "tool": {
+                    "enabled": true
+                }
+            }
+        },
+        "privacy_options": "",
+        "privacy_policy": "https://www.netmind.ai/doc/Privacy_Policy.html",
+        "created_at": "2025-03-17T11:49:43.481207Z",
+        "updated_at": "2025-03-17T11:49:51.583909Z",
+        "badges": [],
+        "plugins": {
+            "agent_strategies": null,
+            "endpoints": null,
+            "models": [
+                "provider/netmind.yaml"
+            ],
+            "tools": null
+        },
+        "endpoint": {},
+        "model": {
+            "background": null,
+            "configurate_methods": [
+                "customizable-model"
+            ],
+            "description": {
+                "en_US": "netmind.ai",
+                "zh_Hans": "netmind.ai"
+            },
+            "help": {
+                "title": {
+                    "en_US": "Get your API key from netmind.ai",
+                    "zh_Hans": "从 netmind.ai 获取 API Key"
+                },
+                "url": {
+                    "en_US": "https://www.netmind.ai/"
+                }
+            },
+            "icon_large": {
+                "en_US": "netmind_larg.svg"
+            },
+            "icon_small": {
+                "en_US": "netmind.svg"
+            },
+            "label": {
+                "en_US": "Netmind"
+            },
+            "model_credential_schema": {
+                "credential_form_schemas": [
+                    {
+                        "default": null,
+                        "label": {
+                            "en_US": "API Key"
+                        },
+                        "max_length": 0,
+                        "options": [],
+                        "placeholder": {
+                            "en_US": "Enter your API Key",
+                            "zh_Hans": "在此输入您的 API Key"
+                        },
+                        "required": true,
+                        "show_on": [],
+                        "type": "secret-input",
+                        "variable": "api_key"
+                    },
+                    {
+                        "default": "chat",
+                        "label": {
+                            "en_US": "Completion mode"
+                        },
+                        "max_length": 0,
+                        "options": [
+                            {
+                                "label": {
+                                    "en_US": "Completion",
+                                    "zh_Hans": "补全"
+                                },
+                                "show_on": [],
+                                "value": "completion"
+                            },
+                            {
+                                "label": {
+                                    "en_US": "Chat",
+                                    "zh_Hans": "对话"
+                                },
+                                "show_on": [],
+                                "value": "chat"
+                            }
+                        ],
+                        "placeholder": {
+                            "en_US": "Select completion mode",
+                            "zh_Hans": "选择对话类型"
+                        },
+                        "required": false,
+                        "show_on": [
+                            {
+                                "value": "llm",
+                                "variable": "__model_type"
+                            }
+                        ],
+                        "type": "select",
+                        "variable": "mode"
+                    },
+                    {
+                        "default": "4096",
+                        "label": {
+                            "en_US": "Model context size",
+                            "zh_Hans": "模型上下文长度"
+                        },
+                        "max_length": 0,
+                        "options": [],
+                        "placeholder": {
+                            "en_US": "Enter your Model context size",
+                            "zh_Hans": "在此输入您的模型上下文长度"
+                        },
+                        "required": true,
+                        "show_on": [
+                            {
+                                "value": "llm",
+                                "variable": "__model_type"
+                            }
+                        ],
+                        "type": "text-input",
+                        "variable": "context_size"
+                    },
+                    {
+                        "default": "4096",
+                        "label": {
+                            "en_US": "Model context size",
+                            "zh_Hans": "模型上下文长度"
+                        },
+                        "max_length": 0,
+                        "options": [],
+                        "placeholder": {
+                            "en_US": "Enter your Model context size",
+                            "zh_Hans": "在此输入您的模型上下文长度"
+                        },
+                        "required": true,
+                        "show_on": [
+                            {
+                                "value": "text-embedding",
+                                "variable": "__model_type"
+                            }
+                        ],
+                        "type": "text-input",
+                        "variable": "context_size"
+                    },
+                    {
+                        "default": "4096",
+                        "label": {
+                            "en_US": "Upper bound for max tokens",
+                            "zh_Hans": "最大 token 上限"
+                        },
+                        "max_length": 0,
+                        "options": [],
+                        "placeholder": null,
+                        "required": false,
+                        "show_on": [
+                            {
+                                "value": "llm",
+                                "variable": "__model_type"
+                            }
+                        ],
+                        "type": "text-input",
+                        "variable": "max_tokens_to_sample"
+                    }
+                ],
+                "model": {
+                    "label": {
+                        "en_US": "Model Name",
+                        "zh_Hans": "模型名称"
+                    },
+                    "placeholder": {
+                        "en_US": "Enter full model name",
+                        "zh_Hans": "输入模型全称"
+                    }
+                }
+            },
+            "models": [],
+            "provider": "netmind",
+            "provider_credential_schema": null,
+            "supported_model_types": [
+                "llm",
+                "text-embedding"
+            ]
+        },
+        "tool": {},
+        "agent_strategy": {},
+        "install_count": 11,
+        "version_updated_at": "2025-03-17T11:49:51.583864Z",
+        "latest_version": "0.0.1",
+        "latest_package_identifier": "netmind/netmind:0.0.1@8bf0c9c18a7e853542757326b78d7330991f6e76cd6709b3cf7c5f53187aa463",
+        "tags": []
+    },
+    {
+        "type": "plugin",
+        "name": "pdf_process",
+        "org": "kalo_chin",
+        "plugin_id": "kalo_chin/pdf_process",
+        "icon": "kalo_chin/packages/pdf_process/_assets/icon.svg",
+        "label": {
+            "en_US": "PDF Process",
+            "zh_Hans": "PDF 处理"
+        },
+        "brief": {
+            "en_US": "Tools for processing PDF content",
+            "zh_Hans": "利用 PyPDF2 处理 PDF 内容的工具"
+        },
+        "introduction": "# Overview\nPDF Process is a group of tools for working with PDF files, allowing you to perform PDF operations.\n\n# Configure\n## PDF Extractor\nPDF Extractor tool extracts a specific page from a PDF file and saves it as a new PDF.\n\nThe tool requires two parameters:\n- **PDF Content**: The input PDF file to be extracted\n- **Page Number**: The page number to extract (1-indexed)\n![](./_assets/pdf_extractor.png)\n\n## PDF Page Counter\nPDF Page Counter tool counts the total number of pages in a PDF file and returns the count as a number.\n\nThe tool requires one parameter:\n- **PDF Content**: The input PDF file to be analyzed\n![](./_assets/pdf_page_counter.png)\n\n## PDF Splitter\nPDF Splitter tool divides a PDF file into multiple individual PDF files, with each page becoming a separate file.\n\nThe tool requires one parameter:\n- **PDF Content**: The input PDF file to be split\n![](./_assets/pdf_splitter.png)",
+        "category": "tool",
+        "repository": "",
+        "resource": {
+            "memory": 1048576,
+            "permission": {
+                "model": {
+                    "enabled": true,
+                    "llm": true,
+                    "moderation": false,
+                    "rerank": false,
+                    "speech2text": false,
+                    "text_embedding": false,
+                    "tts": false
+                },
+                "tool": {
+                    "enabled": true
+                }
+            }
+        },
+        "privacy_options": "",
+        "privacy_policy": "PRIVACY.md",
+        "created_at": "2025-03-17T11:27:26.284641Z",
+        "updated_at": "2025-03-17T11:27:38.579696Z",
+        "badges": [],
+        "plugins": {
+            "agent_strategies": null,
+            "endpoints": null,
+            "models": null,
+            "tools": [
+                "provider/pdf_process.yaml"
+            ]
+        },
+        "endpoint": {},
+        "model": {},
+        "tool": {
+            "credentials_schema": [],
+            "identity": {
+                "author": "kalo_chin",
+                "description": {
+                    "en_US": "Tools for processing PDF content",
+                    "pt_BR": "Tools for processing PDF content",
+                    "zh_Hans": "利用 PyPDF2 处理 PDF 内容的工具"
+                },
+                "icon": "icon.svg",
+                "label": {
+                    "en_US": "PDF Process",
+                    "pt_BR": "PDF Process",
+                    "zh_Hans": "PDF 处理"
+                },
+                "name": "pdf_process",
+                "tags": [
+                    "utilities"
+                ]
+            },
+            "tools": [
+                {
+                    "description": {
+                        "human": {
+                            "en_US": "A tool for extracting PDF content",
+                            "zh_Hans": "一个提取 PDF 内容的工具"
+                        },
+                        "llm": "A tool for extracting text from a specific page of a PDF document"
+                    },
+                    "has_runtime_parameters": false,
+                    "identity": {
+                        "author": "kalo_chin",
+                        "label": {
+                            "en_US": "PDF Extractor",
+                            "zh_Hans": "PDF 提取器"
+                        },
+                        "name": "pdf_extractor"
+                    },
+                    "output_schema": null,
+                    "parameters": [
+                        {
+                            "auto_generate": null,
+                            "default": null,
+                            "form": "llm",
+                            "human_description": {
+                                "en_US": "PDF file content (base64 encoded)",
+                                "zh_Hans": "PDF 文件内容（base64 编码）"
+                            },
+                            "label": {
+                                "en_US": "PDF Content",
+                                "zh_Hans": "PDF 内容"
+                            },
+                            "llm_description": "PDF file content in base64 encoded format",
+                            "max": null,
+                            "min": null,
+                            "name": "pdf_content",
+                            "options": null,
+                            "precision": null,
+                            "required": true,
+                            "scope": null,
+                            "template": null,
+                            "type": "file"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": null,
+                            "form": "llm",
+                            "human_description": {
+                                "en_US": "Page number to extract (starting from 1)",
+                                "zh_Hans": "要提取的页码（从1开始）"
+                            },
+                            "label": {
+                                "en_US": "Page Number",
+                                "zh_Hans": "页码"
+                            },
+                            "llm_description": "Specific page number to extract from the PDF. If not provided, all pages will be extracted.",
+                            "max": null,
+                            "min": null,
+                            "name": "page_number",
+                            "options": null,
+                            "precision": null,
+                            "required": true,
+                            "scope": null,
+                            "template": null,
+                            "type": "number"
+                        }
+                    ]
+                },
+                {
+                    "description": {
+                        "human": {
+                            "en_US": "A tool for counting pages in a PDF",
+                            "zh_Hans": "一个计算 PDF 页数并直接返回数字的工具"
+                        },
+                        "llm": "A tool for counting the total number of pages in a PDF document"
+                    },
+                    "has_runtime_parameters": false,
+                    "identity": {
+                        "author": "kalo_chin",
+                        "label": {
+                            "en_US": "PDF Page Counter",
+                            "zh_Hans": "PDF 页数计算器"
+                        },
+                        "name": "pdf_page_counter"
+                    },
+                    "output_schema": null,
+                    "parameters": [
+                        {
+                            "auto_generate": null,
+                            "default": null,
+                            "form": "llm",
+                            "human_description": {
+                                "en_US": "PDF file content (base64 encoded)",
+                                "zh_Hans": "PDF 文件内容（base64 编码）"
+                            },
+                            "label": {
+                                "en_US": "PDF Content",
+                                "zh_Hans": "PDF 内容"
+                            },
+                            "llm_description": "PDF file content in base64 encoded format",
+                            "max": null,
+                            "min": null,
+                            "name": "pdf_content",
+                            "options": null,
+                            "precision": null,
+                            "required": true,
+                            "scope": null,
+                            "template": null,
+                            "type": "file"
+                        }
+                    ]
+                },
+                {
+                    "description": {
+                        "human": {
+                            "en_US": "A tool for splitting PDF files into individual pages",
+                            "zh_Hans": "一个将PDF文件分割成单独页面的工具"
+                        },
+                        "llm": "A tool for splitting a PDF document into individual pages, returning each page as a separate PDF file"
+                    },
+                    "has_runtime_parameters": false,
+                    "identity": {
+                        "author": "kalo_chin",
+                        "label": {
+                            "en_US": "PDF Splitter",
+                            "zh_Hans": "PDF 分割器"
+                        },
+                        "name": "pdf_splitter"
+                    },
+                    "output_schema": null,
+                    "parameters": [
+                        {
+                            "auto_generate": null,
+                            "default": null,
+                            "form": "llm",
+                            "human_description": {
+                                "en_US": "PDF file content to split into individual pages",
+                                "zh_Hans": "要分割成单独页面的PDF文件内容"
+                            },
+                            "label": {
+                                "en_US": "PDF Content",
+                                "zh_Hans": "PDF 内容"
+                            },
+                            "llm_description": "PDF file content in base64 encoded format or as a file object",
+                            "max": null,
+                            "min": null,
+                            "name": "pdf_content",
+                            "options": null,
+                            "precision": null,
+                            "required": true,
+                            "scope": null,
+                            "template": null,
+                            "type": "file"
+                        }
+                    ]
+                }
+            ]
+        },
+        "agent_strategy": {},
+        "install_count": 104,
+        "version_updated_at": "2025-03-17T11:27:38.579657Z",
+        "latest_version": "0.0.1",
+        "latest_package_identifier": "kalo_chin/pdf_process:0.0.1@4c4320f50c13164b7f03c37117ad295c716a4078587d8ae60e0b3be19df0954f",
+        "tags": [
+            {
+                "name": "utilities"
+            }
+        ]
+    },
+    {
+        "type": "plugin",
+        "name": "mcp_see_agent",
+        "org": "junjiem",
+        "plugin_id": "junjiem/mcp_see_agent",
+        "icon": "junjiem/packages/mcp_see_agent/_assets/icon.svg",
+        "label": {
+            "en_US": "Dify Agent Strategies (Support MCP Tools)",
+            "zh_Hans": "Dify Agent 策略（支持 MCP 工具）"
+        },
+        "brief": {
+            "en_US": "Dify official Agent strategies collection (Support MCP SSE fetch and call tools).",
+            "zh_Hans": "Dify 官方 Agent 策略集合（支持 MCP SSE 发现和调用工具）。"
+        },
+        "introduction": "## Dify 1.0 Plugin Support MCP SSE Tools Agent strategies\n\n**Author:** [Junjie.M](https://github.com/junjiem)  \n**Version:** 0.0.1  \n**Type:** agent-strategy  \n**Github Repo:** [https://github.com/junjiem/dify-plugin-agent-mcp_sse](https://github.com/junjiem/dify-plugin-tools-mcp_sse)   \n**Github Issues:** [issues](https://github.com/junjiem/dify-plugin-agent-mcp_sse/issues)  \n\n\n---\n\n\n### Description\n\nDify official Agent strategies collection (Support MCP SSE fetch and call tools).\n\nDify 官方 Agent 策略集合（支持 MCP SSE 发现和调用工具）。\n\n![mcp_sse_agent](_assets/mcp_sse_agent.png)\n\n![mcp_sse_agent_strategies](_assets/mcp_sse_agent_strategies.png)\n\n![mcp_sse_agent_react](_assets/mcp_sse_agent_react.png)\n\n\nMCP Servers config, support multiple MCP services. The following example:\n\nMCP服务配置，支持多个MCP服务。 如下示例：\n\n```json\n{\n  \"server_name1\": {\n    \"url\": \"http://127.0.0.1:8000/sse\",\n    \"headers\": {},\n    \"timeout\": 5,\n    \"sse_read_timeout\": 300\n  },\n  \"server_name2\": {\n    \"url\": \"http://127.0.0.1:8001/sse\"\n  }\n}\n```\n\n\n### Installing Plugins via GitHub  通过 GitHub 安装插件\n\nCan install the plugin using the GitHub repository address. Visit the Dify platform's plugin management page, choose to install via GitHub, enter the repository address, select version number and package file to complete installation.\n\n可以通过 GitHub 仓库地址安装该插件。访问 Dify 平台的插件管理页，选择通过 GitHub 安装插件，输入仓库地址后，选择版本号和包文件完成安装。\n\n![install_plugin_via_github](_assets/install_plugin_via_github.png)\n\n\n\n---\n\n\n\n### FAQ\n\n#### How to Handle Errors When Installing Plugins? 安装插件时遇到异常应如何处理？\n\n**Issue**: If you encounter the error message: plugin verification has been enabled, and the plugin you want to install has a bad signature, how to handle the issue?\n\n**Solution**: Add the following line to the end of your .env configuration file: FORCE_VERIFYING_SIGNATURE=false\nOnce this field is added, the Dify platform will allow the installation of all plugins that are not listed (and thus not verified) in the Dify Marketplace.\n\n**问题描述**：安装插件时遇到异常信息：plugin verification has been enabled, and the plugin you want to install has a bad signature，应该如何处理？\n\n**解决办法**：在 .env 配置文件的末尾添加 FORCE_VERIFYING_SIGNATURE=false 字段即可解决该问题。\n添加该字段后，Dify 平台将允许安装所有未在 Dify Marketplace 上架（审核）的插件，可能存在安全隐患。\n",
+        "category": "agent-strategy",
+        "repository": "",
+        "resource": {
+            "memory": 268435456,
+            "permission": {
+                "model": {
+                    "enabled": true,
+                    "llm": true,
+                    "moderation": false,
+                    "rerank": false,
+                    "speech2text": false,
+                    "text_embedding": false,
+                    "tts": false
+                },
+                "storage": {
+                    "enabled": true,
+                    "size": 1073741824
+                },
+                "tool": {
+                    "enabled": true
+                }
+            }
+        },
+        "privacy_options": "",
+        "privacy_policy": "PRIVACY.md",
+        "created_at": "2025-03-17T11:20:17.005716Z",
+        "updated_at": "2025-03-17T11:20:29.49908Z",
+        "badges": [],
+        "plugins": {
+            "agent_strategies": [
+                "provider/agent.yaml"
+            ],
+            "endpoints": null,
+            "models": null,
+            "tools": null
+        },
+        "endpoint": {},
+        "model": {},
+        "tool": {},
+        "agent_strategy": {
+            "identity": {
+                "author": "junjiem",
+                "description": {
+                    "en_US": "Support MCP Tools Agent",
+                    "zh_Hans": "支持 MCP 工具的 Agent"
+                },
+                "icon": "icon.svg",
+                "label": {
+                    "en_US": "Support MCP Tools Agent",
+                    "zh_Hans": "支持 MCP 工具的 Agent"
+                },
+                "name": "mcp_see_agent",
+                "tags": []
+            },
+            "strategies": [
+                {
+                    "description": {
+                        "en_US": "Function Calling is a basic strategy for agent, model will use the Dify and MCP tools provided to perform the task.",
+                        "zh_Hans": "Function Calling 是一个基本的 Agent 策略，模型将使用提供的 Dify 和 MCP 工具来执行任务。"
+                    },
+                    "identity": {
+                        "author": "junjiem",
+                        "label": {
+                            "en_US": "FunctionCalling (Support MCP Tools)",
+                            "zh_Hans": "FunctionCalling (Support MCP Tools)"
+                        },
+                        "name": "mcp_sse_function_calling"
+                    },
+                    "output_schema": null,
+                    "parameters": [
+                        {
+                            "auto_generate": null,
+                            "default": null,
+                            "label": {
+                                "en_US": "Model",
+                                "zh_Hans": "模型"
+                            },
+                            "max": null,
+                            "min": null,
+                            "name": "model",
+                            "options": null,
+                            "precision": null,
+                            "required": true,
+                            "scope": "tool-call&llm",
+                            "template": null,
+                            "type": "model-selector"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": null,
+                            "label": {
+                                "en_US": "Tools list",
+                                "zh_Hans": "工具列表"
+                            },
+                            "max": null,
+                            "min": null,
+                            "name": "tools",
+                            "options": null,
+                            "precision": null,
+                            "required": false,
+                            "scope": null,
+                            "template": null,
+                            "type": "array[tools]"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": null,
+                            "label": {
+                                "en_US": "MCP Servers config",
+                                "zh_Hans": "MCP服务配置"
+                            },
+                            "max": null,
+                            "min": null,
+                            "name": "mcp_servers_config",
+                            "options": null,
+                            "precision": null,
+                            "required": false,
+                            "scope": null,
+                            "template": null,
+                            "type": "string"
+                        },
+                        {
+                            "auto_generate": {
+                                "type": "prompt_instruction"
+                            },
+                            "default": null,
+                            "label": {
+                                "en_US": "Instruction",
+                                "zh_Hans": "指令"
+                            },
+                            "max": null,
+                            "min": null,
+                            "name": "instruction",
+                            "options": null,
+                            "precision": null,
+                            "required": true,
+                            "scope": null,
+                            "template": {
+                                "enabled": true
+                            },
+                            "type": "string"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": null,
+                            "label": {
+                                "en_US": "Query",
+                                "zh_Hans": "查询"
+                            },
+                            "max": null,
+                            "min": null,
+                            "name": "query",
+                            "options": null,
+                            "precision": null,
+                            "required": true,
+                            "scope": null,
+                            "template": null,
+                            "type": "string"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": 3,
+                            "label": {
+                                "en_US": "Maxium Iterations",
+                                "zh_Hans": "最大迭代次数"
+                            },
+                            "max": 30,
+                            "min": 1,
+                            "name": "maximum_iterations",
+                            "options": null,
+                            "precision": null,
+                            "required": true,
+                            "scope": null,
+                            "template": null,
+                            "type": "number"
+                        }
+                    ]
+                },
+                {
+                    "description": {
+                        "en_US": "ReAct is a basic strategy for agent, model will use the Dify and MCP tools provided to perform the task.",
+                        "zh_Hans": "ReAct 是一个基本的 Agent 策略，模型将使用提供的 Dify 和 MCP 工具来执行任务。"
+                    },
+                    "identity": {
+                        "author": "junjiem",
+                        "label": {
+                            "en_US": "ReAct (Support MCP Tools)",
+                            "zh_Hans": "ReAct (Support MCP Tools)"
+                        },
+                        "name": "mcp_sse_ReAct"
+                    },
+                    "output_schema": null,
+                    "parameters": [
+                        {
+                            "auto_generate": null,
+                            "default": null,
+                            "label": {
+                                "en_US": "Model",
+                                "zh_Hans": "模型"
+                            },
+                            "max": null,
+                            "min": null,
+                            "name": "model",
+                            "options": null,
+                            "precision": null,
+                            "required": true,
+                            "scope": "tool-call&llm",
+                            "template": null,
+                            "type": "model-selector"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": null,
+                            "label": {
+                                "en_US": "Tools list",
+                                "zh_Hans": "工具列表"
+                            },
+                            "max": null,
+                            "min": null,
+                            "name": "tools",
+                            "options": null,
+                            "precision": null,
+                            "required": false,
+                            "scope": null,
+                            "template": null,
+                            "type": "array[tools]"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": null,
+                            "label": {
+                                "en_US": "MCP Servers config",
+                                "zh_Hans": "MCP服务配置"
+                            },
+                            "max": null,
+                            "min": null,
+                            "name": "mcp_servers_config",
+                            "options": null,
+                            "precision": null,
+                            "required": false,
+                            "scope": null,
+                            "template": null,
+                            "type": "string"
+                        },
+                        {
+                            "auto_generate": {
+                                "type": "prompt_instruction"
+                            },
+                            "default": null,
+                            "label": {
+                                "en_US": "Instruction",
+                                "zh_Hans": "指令"
+                            },
+                            "max": null,
+                            "min": null,
+                            "name": "instruction",
+                            "options": null,
+                            "precision": null,
+                            "required": true,
+                            "scope": null,
+                            "template": {
+                                "enabled": true
+                            },
+                            "type": "string"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": null,
+                            "label": {
+                                "en_US": "Query",
+                                "zh_Hans": "查询"
+                            },
+                            "max": null,
+                            "min": null,
+                            "name": "query",
+                            "options": null,
+                            "precision": null,
+                            "required": true,
+                            "scope": null,
+                            "template": null,
+                            "type": "string"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": 3,
+                            "label": {
+                                "en_US": "Maxium Iterations",
+                                "zh_Hans": "最大迭代次数"
+                            },
+                            "max": 30,
+                            "min": 1,
+                            "name": "maximum_iterations",
+                            "options": null,
+                            "precision": null,
+                            "required": true,
+                            "scope": null,
+                            "template": null,
+                            "type": "number"
+                        }
+                    ]
+                }
+            ]
+        },
+        "install_count": 385,
+        "version_updated_at": "2025-03-17T11:20:29.499043Z",
+        "latest_version": "0.0.1",
+        "latest_package_identifier": "junjiem/mcp_see_agent:0.0.1@1fb065b678585153c93ed248b88ede7e1916e1f2317609a72e712a6105893ff0",
+        "tags": []
+    },
+    {
+        "type": "plugin",
+        "name": "aws_bedrock_knowledge_base",
+        "org": "langgenius",
+        "plugin_id": "langgenius/aws_bedrock_knowledge_base",
+        "icon": "langgenius/packages/aws_bedrock_knowledge_base/_assets/icon.svg",
+        "label": {
+            "en_US": "Aws Bedrock Knowledge Base",
+            "ja_JP": "Aws Bedrock Knowledge Base",
+            "pt_BR": "Aws Bedrock Knowledge Base",
+            "zh_Hans": "Aws Bedrock Knowledge Base"
+        },
+        "brief": {
+            "en_US": "AWS Bedrock Knowledge Base API Endpoint for Dify External Knowledge Base",
+            "ja_JP": "AWS Bedrock Knowledge Base API Endpoint for Dify External Knowledge Base",
+            "pt_BR": "AWS Bedrock Knowledge Base API Endpoint for Dify External Knowledge Base",
+            "zh_Hans": "AWS Bedrock Knowledge Base API Endpoint for Dify External Knowledge Base"
+        },
+        "introduction": "## aws_bedrock_knowledge_base\n\n**Author:** yungler\n**Version:** 0.0.1\n**Type:** tool\n\n### Description\n\nIf you are trying to build AI Agent with context retrieving capability and you are not primarily using Dify's Knowledge Base, you can use Dify's External Knowledge Base to connect with the RAG solution you prefer. This plugin will help you deploy your AWS Bedrock Knowledge Base client as an endpoint so Dify External Knowledge Base can seamlessly connect with it. \n\nBefore we start, make sure you have set up your AWS Bedrock Knowledge Base. You can learn how to use AWS Bedrock Knowledge Base by https://aws.amazon.com/bedrock/knowledge-bases/.\n\nHere's what we need from AWS:\n\nAWS Access Key and AWS Access Key ID. You can get these in the right upper corner,security credential, of your AWS console See https://docs.aws.amazon.com/keyspaces/latest/devguide/create.keypair.html to learn how to get these.\n<img src=\"./_assets/aws_security_credential.png\" width=\"600\" />\n\nThe Knowledge ID of your knowledge base, which you will get when your AWS Bedrock Knowledge Base is configured.\n<img src=\"./_assets/knowledge_id.png\" width=\"600\" />\n\nFollow these steps to connect your Dify Knowledge Base with AWS Bedrock Knowledge Base:\n1. Go to AWS Bedrock Knowledge Base Endpoint and setup your endpoint with AWS Access Key, AWS Access Key ID, and the Region.\n<img src=\"./_assets/setup_endpoint.png\" width=\"600\" />\n\n2. Copy the URL of the created endpoint\n<img src=\"./_assets/copy_endpoint_url.png\" width=\"600\" />\n\n3. Go to Dify Knowledge Base and click on the right upper corner External Knowledge API. Paste the URL into API Endpoint. Give the endpoint a name. As for API Key, you can type in anything has more than 6 characters. Because currently Dify Plugin Endpoint hasn't supported API Authentication yet.\n<img src=\"./_assets/paste_endpoint_url.png\" width=\"600\" />\n\n4. Once it's set up, click on connect to an external knowledge base. Choose the external knowledge API you just created, and put the Knowledge ID here. You can configure the top k and threshold here before connection.\n\n5. Now try a retrieval testing. You can see a chunk is retrieved from your Bedrock Knowledge Base\n<img src=\"./_assets/retrieval_test.png\" width=\"600\" />\n\n\n",
+        "category": "extension",
+        "repository": "",
+        "resource": {
+            "memory": 268435456,
+            "permission": {
+                "endpoint": {
+                    "enabled": true
+                }
+            }
+        },
+        "privacy_options": "",
+        "privacy_policy": "PRIVACY.md",
+        "created_at": "2025-03-17T11:14:02.211836Z",
+        "updated_at": "2025-03-17T11:14:17.73444Z",
+        "badges": [],
+        "plugins": {
+            "agent_strategies": null,
+            "endpoints": [
+                "provider/aws_bedrock_knowledge_base.yaml"
+            ],
+            "models": null,
+            "tools": null
+        },
+        "endpoint": {
+            "endpoints": [
+                {
+                    "hidden": false,
+                    "method": "POST",
+                    "path": "/retrieval"
+                }
+            ],
+            "settings": [
+                {
+                    "default": null,
+                    "help": null,
+                    "label": {
+                        "en_US": "AWS Secret Access Key",
+                        "pt_BR": "Chave de Acesso Secreta da AWS",
+                        "zh_Hans": "AWS 秘密访问密钥"
+                    },
+                    "name": "aws_secret_access_key",
+                    "options": null,
+                    "placeholder": {
+                        "en_US": "Please input your AWS Secret Access Key",
+                        "pt_BR": "Por favor, insira sua Chave de Acesso Secreta da AWS",
+                        "zh_Hans": "请输入你的 AWS 秘密访问密钥"
+                    },
+                    "required": true,
+                    "scope": null,
+                    "type": "secret-input",
+                    "url": null
+                },
+                {
+                    "default": null,
+                    "help": null,
+                    "label": {
+                        "en_US": "AWS Access Key ID",
+                        "pt_BR": "ID da Chave de Acesso da AWS",
+                        "zh_Hans": "AWS 访问密钥 ID"
+                    },
+                    "name": "aws_access_key_id",
+                    "options": null,
+                    "placeholder": {
+                        "en_US": "Please input your AWS Access Key ID",
+                        "pt_BR": "Por favor, insira seu ID da Chave de Acesso da AWS",
+                        "zh_Hans": "请输入你的 AWS 访问密钥 ID"
+                    },
+                    "required": true,
+                    "scope": null,
+                    "type": "secret-input",
+                    "url": null
+                },
+                {
+                    "default": null,
+                    "help": null,
+                    "label": {
+                        "en_US": "AWS Region Name",
+                        "pt_BR": "Nome da Região AWS",
+                        "zh_Hans": "AWS 区域名称"
+                    },
+                    "name": "region_name",
+                    "options": null,
+                    "placeholder": {
+                        "en_US": "Please input your AWS Region Name (e.g., us-east-1)",
+                        "pt_BR": "Please input your AWS Region Name (e.g., us-east-1)",
+                        "zh_Hans": "请输入你的 AWS 区域名称（例如：us-east-1）"
+                    },
+                    "required": true,
+                    "scope": null,
+                    "type": "text-input",
+                    "url": null
+                }
+            ]
+        },
+        "model": {},
+        "tool": {},
+        "agent_strategy": {},
+        "install_count": 12,
+        "version_updated_at": "2025-03-17T11:14:17.734404Z",
+        "latest_version": "0.0.3",
+        "latest_package_identifier": "langgenius/aws_bedrock_knowledge_base:0.0.3@abdb1c94413544a9567c9047ec04da1307c6c41228041ced77f0c0cb7200b520",
+        "tags": []
+    },
+    {
+        "type": "plugin",
+        "name": "mcp_sse",
+        "org": "junjiem",
+        "plugin_id": "junjiem/mcp_sse",
+        "icon": "junjiem/packages/mcp_sse/_assets/icon.png",
+        "label": {
+            "en_US": "MCP SSE",
+            "zh_Hans": "MCP SSE"
+        },
+        "brief": {
+            "en_US": "Fetch and call tools by MCP protocol through HTTP with SSE transport.",
+            "zh_Hans": "通过 HTTP with SSE 传输使用 MCP 协议来发现和调用工具。"
+        },
+        "introduction": "## Dify 1.0 Plugin MCP HTTP with SSE transport Tools\n\n\n**Author:** [Junjie.M](https://github.com/junjiem)  \n**Version:** 0.0.2  \n**Type:** tool  \n**Github Repo:** [https://github.com/junjiem/dify-plugin-tools-mcp_sse](https://github.com/junjiem/dify-plugin-tools-mcp_sse)  \n**Github Issues:** [issues](https://github.com/junjiem/dify-plugin-tools-mcp_sse/issues)\n\n\n---\n\n\n### Description\n\n![mcp_sse_plugin](_assets/mcp_sse_plugin.png)\n\n![mcp_sse_plugin_set_authorization](_assets/mcp_sse_plugin_set_authorization.png)\n\nMCP Servers config, support multiple MCP services. The following example:\n\nMCP服务配置，支持多个MCP服务。 如下示例：\n\n```json\n{\n  \"server_name1\": {\n    \"url\": \"http://127.0.0.1:8000/sse\",\n    \"headers\": {},\n    \"timeout\": 5,\n    \"sse_read_timeout\": 300\n  },\n  \"server_name2\": {\n    \"url\": \"http://127.0.0.1:8001/sse\"\n  }\n}\n```\n\n\n![agent_add_mcp_see_tools](_assets/agent_add_mcp_see_tools.png)\n\n### Installing Plugins via GitHub  通过 GitHub 安装插件\n\nCan install the plugin using the GitHub repository address. Visit the Dify platform's plugin management page, choose to install via GitHub, enter the repository address, select version number and package file to complete installation.\n\n可以通过 GitHub 仓库地址安装该插件。访问 Dify 平台的插件管理页，选择通过 GitHub 安装插件，输入仓库地址后，选择版本号和包文件完成安装。\n\n![install_plugin_via_github](_assets/install_plugin_via_github.png)\n\n![install_plugin_via_github](_assets/install_plugin_via_github_successfully.png)\n\n\n\n---\n\n\n\n### FAQ\n\n#### How to Handle Errors When Installing Plugins? 安装插件时遇到异常应如何处理？\n\n**Issue**: If you encounter the error message: plugin verification has been enabled, and the plugin you want to install has a bad signature, how to handle the issue?\n\n**Solution**: Add the following line to the end of your .env configuration file: FORCE_VERIFYING_SIGNATURE=false\nOnce this field is added, the Dify platform will allow the installation of all plugins that are not listed (and thus not verified) in the Dify Marketplace.\n\n**问题描述**：安装插件时遇到异常信息：plugin verification has been enabled, and the plugin you want to install has a bad signature，应该如何处理？\n\n**解决办法**：在 .env 配置文件的末尾添加 FORCE_VERIFYING_SIGNATURE=false 字段即可解决该问题。\n添加该字段后，Dify 平台将允许安装所有未在 Dify Marketplace 上架（审核）的插件，可能存在安全隐患。\n",
+        "category": "tool",
+        "repository": "",
+        "resource": {
+            "memory": 268435456,
+            "permission": {}
+        },
+        "privacy_options": "",
+        "privacy_policy": "PRIVACY.md",
+        "created_at": "2025-03-14T11:47:34.989162Z",
+        "updated_at": "2025-03-17T06:00:40.280737Z",
+        "badges": [],
+        "plugins": {
+            "agent_strategies": null,
+            "endpoints": null,
+            "models": null,
+            "tools": [
+                "provider/mcp_sse.yaml"
+            ]
+        },
+        "endpoint": {},
+        "model": {},
+        "tool": {
+            "credentials_schema": [
+                {
+                    "default": "{\n  \"server_name\": {\n    \"url\": \"http://127.0.0.1:8000/sse\",\n    \"headers\": {},\n \"timeout\": 5,\n    \"sse_read_timeout\": 300\n  }\n}",
+                    "help": {
+                        "en_US": "MCP Servers config, support multiple MCP services. (`sse_read_timeout` determines how long (in seconds) the client will wait for a new event before disconnecting. All other HTTP operations are controlled by `timeout`.)",
+                        "zh_Hans": "MCP服务配置，支持多个MCP服务。 （`sse_read_timeout`决定客户端在断开连接之前等待新事件的时间（以秒为单位）。所有其他HTTP操作都由`timeout`控制。）"
+                    },
+                    "label": {
+                        "en_US": "MCP Servers config",
+                        "zh_Hans": "MCP服务配置"
+                    },
+                    "name": "servers_config",
+                    "options": null,
+                    "placeholder": null,
+                    "required": true,
+                    "scope": null,
+                    "type": "text-input",
+                    "url": null
+                }
+            ],
+            "identity": {
+                "author": "junjiem",
+                "description": {
+                    "en_US": "Fetch and call tools by MCP protocol through HTTP with SSE transport.",
+                    "zh_Hans": "通过HTTP with SSE传输使用MCP协议发现和调用工具。"
+                },
+                "icon": "icon.png",
+                "label": {
+                    "en_US": "MCP tools Via SSE",
+                    "zh_Hans": "通过SSE发现和调用MCP工具"
+                },
+                "name": "mcp_sse",
+                "tags": [
+                    "utilities"
+                ]
+            },
+            "tools": [
+                {
+                    "description": {
+                        "human": {
+                            "en_US": "Fetch MCP Server tools list by HTTP with SSE transport.",
+                            "zh_Hans": "通过 HTTP with SSE 传输来获取MCP服务端的工具列表。"
+                        },
+                        "llm": "Fetch MCP Server tools list (Gets a list of MCP tools in addition to existing tools, and then invoke the MCP tool that meets the requirements based on the MCP tool information)."
+                    },
+                    "has_runtime_parameters": false,
+                    "identity": {
+                        "author": "junjiem",
+                        "label": {
+                            "en_US": "Fetch MCP Tools",
+                            "zh_Hans": "获取MCP工具列表"
+                        },
+                        "name": "mcp_sse_list_tools"
+                    },
+                    "output_schema": null,
+                    "parameters": null
+                },
+                {
+                    "description": {
+                        "human": {
+                            "en_US": "Call MCP Server tool by HTTP with SSE transport.",
+                            "zh_Hans": "通过 HTTP with SSE 传输来调用MCP服务端工具。"
+                        },
+                        "llm": "Call MCP Server tool."
+                    },
+                    "has_runtime_parameters": false,
+                    "identity": {
+                        "author": "junjiem",
+                        "label": {
+                            "en_US": "Call MCP Tool",
+                            "zh_Hans": "调用MCP工具"
+                        },
+                        "name": "mcp_sse_call_tool"
+                    },
+                    "output_schema": null,
+                    "parameters": [
+                        {
+                            "auto_generate": null,
+                            "default": null,
+                            "form": "llm",
+                            "human_description": {
+                                "en_US": "Name of the tool to execute.",
+                                "zh_Hans": "要执行的工具的名称。"
+                            },
+                            "label": {
+                                "en_US": "Tool Name",
+                                "zh_Hans": "工具名称"
+                            },
+                            "llm_description": "Name of the tool to execute.",
+                            "max": null,
+                            "min": null,
+                            "name": "tool_name",
+                            "options": null,
+                            "precision": null,
+                            "required": true,
+                            "scope": null,
+                            "template": null,
+                            "type": "string"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": null,
+                            "form": "llm",
+                            "human_description": {
+                                "en_US": "Tool arguments (JSON string in the python dict[str, Any] format).",
+                                "zh_Hans": "工具的参数。"
+                            },
+                            "label": {
+                                "en_US": "Arguments",
+                                "zh_Hans": "参数"
+                            },
+                            "llm_description": "Tool arguments (JSON string in the python dict[str, Any] format).",
+                            "max": null,
+                            "min": null,
+                            "name": "arguments",
+                            "options": null,
+                            "precision": null,
+                            "required": true,
+                            "scope": null,
+                            "template": null,
+                            "type": "string"
+                        }
+                    ]
+                }
+            ]
+        },
+        "agent_strategy": {},
+        "install_count": 935,
+        "version_updated_at": "2025-03-17T06:00:40.280706Z",
+        "latest_version": "0.0.2",
+        "latest_package_identifier": "junjiem/mcp_sse:0.0.2@56897cd9f7219a60106959d40d6dc6ebc9bd3d850cf598b5baa53c008d256f6f",
+        "tags": []
+    }
+]

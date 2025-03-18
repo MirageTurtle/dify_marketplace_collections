@@ -1,0 +1,3158 @@
+[
+    {
+        "type": "plugin",
+        "name": "jina_tool",
+        "org": "langgenius",
+        "plugin_id": "langgenius/jina_tool",
+        "icon": "langgenius/packages/jina_tool/_assets/icon.svg",
+        "label": {
+            "en_US": "Jina AI",
+            "pt_BR": "Jina AI",
+            "zh_Hans": "Jina AI"
+        },
+        "brief": {
+            "en_US": "Your Search Foundation, Supercharged!",
+            "pt_BR": "Your Search Foundation, Supercharged!",
+            "zh_Hans": "您的搜索底座，从此不同!"
+        },
+        "introduction": "# Jina AI\n\n## Overview\n\nJina AI is an open-source neural search framework for building scalable, multimodal AI applications. It provides tools for indexing and retrieving diverse data, including the ability to segment webpages, fetch single pages, and search websites. It focuses on simplifying complex AI search functionalities, and making web data processing easier.\n\n## Configuration\n\n### 1. Apply for Jina API Key\n\nPlease apply for an API Key on the [Jina homepage](https://jina.ai/).\n\n![](./_assets/jina_3.png)\n\n### 2. Get Jina AI tools from Plugin Marketplace\n\nThe Jina tools could be found at the Plugin Marketplace, please install it first.\n\n### 3. Fill in the configuration in Dify\n\nOn the Dify navigation page, click `Tools > Jina AI > To Authorize` and filling the API Key.\n\n![](./_assets/jina_1.png)\n\n### 4. Use the tool\n\nYou can use the Jina tool in the following application types:\n\n#### Chatflow / Workflow applications\n\n![](./_assets/jina_2.PNG)\n\nBoth Chatflow and Workflow applications support adding `Jina` tool nodes.\n\n#### Agent applications\n\nAdd the Jina tool in the Agent application, then enter the online search command to call this tool.",
+        "category": "tool",
+        "repository": "",
+        "resource": {
+            "memory": 1048576,
+            "permission": {
+                "model": {
+                    "enabled": true,
+                    "llm": true,
+                    "moderation": false,
+                    "rerank": false,
+                    "speech2text": false,
+                    "text_embedding": false,
+                    "tts": false
+                },
+                "tool": {
+                    "enabled": true
+                }
+            }
+        },
+        "privacy_options": "",
+        "privacy_policy": "",
+        "created_at": "2024-12-04T08:54:55.594665Z",
+        "updated_at": "2025-03-13T03:00:18.502724Z",
+        "badges": [],
+        "plugins": {
+            "agent_strategies": null,
+            "endpoints": null,
+            "models": null,
+            "tools": [
+                "provider/jina.yaml"
+            ]
+        },
+        "endpoint": {},
+        "model": {},
+        "tool": {
+            "credentials_schema": [
+                {
+                    "default": null,
+                    "help": {
+                        "en_US": "Get your Jina AI API key from Jina AI (optional, but you can get a higher rate)",
+                        "pt_BR": "Obtenha sua chave de API do Jina AI na Jina AI (opcional, mas você pode obter uma taxa mais alta)",
+                        "zh_Hans": "从 Jina AI 获取您的 Jina AI API 密钥（非必须，能得到更高的速率）"
+                    },
+                    "label": {
+                        "en_US": "API Key (leave empty if you don't have one)",
+                        "pt_BR": "Chave API (deixe vazio se você não tiver uma)",
+                        "zh_Hans": "API 密钥（可留空）"
+                    },
+                    "name": "api_key",
+                    "options": null,
+                    "placeholder": {
+                        "en_US": "Please enter your Jina AI API key",
+                        "pt_BR": "Por favor, insira sua chave de API do Jina AI",
+                        "zh_Hans": "请输入你的 Jina AI API 密钥"
+                    },
+                    "required": false,
+                    "scope": null,
+                    "type": "secret-input",
+                    "url": "https://jina.ai"
+                }
+            ],
+            "identity": {
+                "author": "langgenius",
+                "description": {
+                    "en_US": "Your Search Foundation, Supercharged!",
+                    "pt_BR": "Your Search Foundation, Supercharged!",
+                    "zh_Hans": "您的搜索底座，从此不同!"
+                },
+                "icon": "icon.svg",
+                "label": {
+                    "en_US": "Jina AI",
+                    "pt_BR": "Jina AI",
+                    "zh_Hans": "Jina AI"
+                },
+                "name": "jina",
+                "tags": [
+                    "search",
+                    "productivity"
+                ]
+            },
+            "tools": [
+                {
+                    "description": {
+                        "human": {
+                            "en_US": "Split long text into chunks and do tokenization.",
+                            "pt_BR": "Dividir o texto longo em pedaços e fazer tokenização.",
+                            "zh_Hans": "将长文本拆分成小段落，并做分词处理。"
+                        },
+                        "llm": "Free API to tokenize text and segment long text into chunks."
+                    },
+                    "has_runtime_parameters": false,
+                    "identity": {
+                        "author": "hjlarry",
+                        "label": {
+                            "en_US": "Segment",
+                            "pt_BR": "Segment",
+                            "zh_Hans": "切分器"
+                        },
+                        "name": "jina_tokenizer"
+                    },
+                    "output_schema": null,
+                    "parameters": [
+                        {
+                            "auto_generate": null,
+                            "default": null,
+                            "form": "llm",
+                            "human_description": {
+                                "en_US": "The content which need to tokenize or segment.",
+                                "pt_BR": "O conteúdo que precisa ser tokenizado ou segmentado.",
+                                "zh_Hans": "需要分词或分段的内容。"
+                            },
+                            "label": {
+                                "en_US": "Content",
+                                "pt_BR": "Conteúdo",
+                                "zh_Hans": "内容"
+                            },
+                            "llm_description": "the content which need to tokenize or segment",
+                            "max": null,
+                            "min": null,
+                            "name": "content",
+                            "options": null,
+                            "precision": null,
+                            "required": true,
+                            "scope": null,
+                            "template": null,
+                            "type": "string"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": null,
+                            "form": "form",
+                            "human_description": {
+                                "en_US": "Return the tokens and their corresponding ids in the response.",
+                                "pt_BR": "Retornar os tokens e seus respectivos ids na resposta.",
+                                "zh_Hans": "返回tokens及其对应的ids。"
+                            },
+                            "label": {
+                                "en_US": "Return the tokens",
+                                "pt_BR": "Retornar os tokens",
+                                "zh_Hans": "是否返回tokens"
+                            },
+                            "llm_description": "",
+                            "max": null,
+                            "min": null,
+                            "name": "return_tokens",
+                            "options": null,
+                            "precision": null,
+                            "required": false,
+                            "scope": null,
+                            "template": null,
+                            "type": "boolean"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": null,
+                            "form": "form",
+                            "human_description": {
+                                "en_US": "Chunking the input into semantically meaningful segments while handling a wide variety of text types and edge cases based on common structural cues.",
+                                "pt_BR": "Dividir o texto de entrada em segmentos semanticamente significativos, enquanto lida com uma ampla variedade de tipos de texto e casos de borda com base em pistas estruturais comuns.",
+                                "zh_Hans": "将输入文本分块为语义有意义的片段，同时基于常见的结构线索处理各种文本类型和特殊情况。"
+                            },
+                            "label": {
+                                "en_US": "Return the chunks",
+                                "pt_BR": "Retornar os chunks",
+                                "zh_Hans": "是否分块"
+                            },
+                            "llm_description": "",
+                            "max": null,
+                            "min": null,
+                            "name": "return_chunks",
+                            "options": null,
+                            "precision": null,
+                            "required": false,
+                            "scope": null,
+                            "template": null,
+                            "type": "boolean"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": null,
+                            "form": "form",
+                            "human_description": {
+                                "en_US": "· cl100k_base --- gpt-4, gpt-3.5-turbo, gpt-3.5\n· o200k_base  --- gpt-4o, gpt-4o-mini\n· p50k_base   --- text-davinci-003, text-davinci-002\n· r50k_base   --- text-davinci-001, text-curie-001\n· p50k_edit   --- text-davinci-edit-001, code-davinci-edit-001\n· gpt2        --- gpt-2\n"
+                            },
+                            "label": {
+                                "en_US": "Tokenizer"
+                            },
+                            "llm_description": "",
+                            "max": null,
+                            "min": null,
+                            "name": "tokenizer",
+                            "options": [
+                                {
+                                    "label": {
+                                        "en_US": "cl100k_base"
+                                    },
+                                    "value": "cl100k_base"
+                                },
+                                {
+                                    "label": {
+                                        "en_US": "o200k_base"
+                                    },
+                                    "value": "o200k_base"
+                                },
+                                {
+                                    "label": {
+                                        "en_US": "p50k_base"
+                                    },
+                                    "value": "p50k_base"
+                                },
+                                {
+                                    "label": {
+                                        "en_US": "r50k_base"
+                                    },
+                                    "value": "r50k_base"
+                                },
+                                {
+                                    "label": {
+                                        "en_US": "p50k_edit"
+                                    },
+                                    "value": "p50k_edit"
+                                },
+                                {
+                                    "label": {
+                                        "en_US": "gpt2"
+                                    },
+                                    "value": "gpt2"
+                                }
+                            ],
+                            "precision": null,
+                            "required": false,
+                            "scope": null,
+                            "template": null,
+                            "type": "select"
+                        }
+                    ]
+                },
+                {
+                    "description": {
+                        "human": {
+                            "en_US": "Fetch the target URL (can be a PDF) and convert it into a LLM-friendly markdown.",
+                            "pt_BR": "Busque a URL de destino (que pode ser um PDF) e converta em um Markdown LLM-friendly.",
+                            "zh_Hans": "获取目标网址（可以是 PDF），并将其转换为适合大模型处理的 Markdown 格式。"
+                        },
+                        "llm": "A tool for scraping webpages. Input should be a URL."
+                    },
+                    "has_runtime_parameters": false,
+                    "identity": {
+                        "author": "langgenius",
+                        "label": {
+                            "en_US": "Fetch Single Page",
+                            "pt_BR": "Fetch Single Page",
+                            "zh_Hans": "获取单页面"
+                        },
+                        "name": "jina_reader"
+                    },
+                    "output_schema": null,
+                    "parameters": [
+                        {
+                            "auto_generate": null,
+                            "default": null,
+                            "form": "llm",
+                            "human_description": {
+                                "en_US": "Web link",
+                                "pt_BR": "URL da web",
+                                "zh_Hans": "网页链接"
+                            },
+                            "label": {
+                                "en_US": "URL",
+                                "pt_BR": "URL",
+                                "zh_Hans": "网址"
+                            },
+                            "llm_description": "url para scraping",
+                            "max": null,
+                            "min": null,
+                            "name": "url",
+                            "options": null,
+                            "precision": null,
+                            "required": true,
+                            "scope": null,
+                            "template": null,
+                            "type": "string"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": null,
+                            "form": "llm",
+                            "human_description": {
+                                "en_US": "request parameters, format: {\"key1\": \"value1\", \"key2\": \"value2\"}\n",
+                                "pt_BR": "parâmetros de solicitação, formato: {\"key1\": \"value1\", \"key2\": \"value2\"}\n",
+                                "zh_Hans": "请求参数，格式：{\"key1\": \"value1\", \"key2\": \"value2\"}\n"
+                            },
+                            "label": {
+                                "en_US": "Request params",
+                                "pt_BR": "Parâmetros de solicitação",
+                                "zh_Hans": "请求参数"
+                            },
+                            "llm_description": "request parameters",
+                            "max": null,
+                            "min": null,
+                            "name": "request_params",
+                            "options": null,
+                            "precision": null,
+                            "required": false,
+                            "scope": null,
+                            "template": null,
+                            "type": "string"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": null,
+                            "form": "form",
+                            "human_description": {
+                                "en_US": "css selector for scraping specific elements",
+                                "pt_BR": "css selector para scraping de elementos específicos",
+                                "zh_Hans": "css 选择器用于抓取特定元素"
+                            },
+                            "label": {
+                                "en_US": "Target selector",
+                                "pt_BR": "Seletor de destino",
+                                "zh_Hans": "目标选择器"
+                            },
+                            "llm_description": "css selector of the target element to scrape",
+                            "max": null,
+                            "min": null,
+                            "name": "target_selector",
+                            "options": null,
+                            "precision": null,
+                            "required": false,
+                            "scope": null,
+                            "template": null,
+                            "type": "string"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": null,
+                            "form": "form",
+                            "human_description": {
+                                "en_US": "css selector for waiting for specific elements",
+                                "pt_BR": "css selector para aguardar elementos específicos",
+                                "zh_Hans": "css 选择器用于等待特定元素"
+                            },
+                            "label": {
+                                "en_US": "Wait for selector",
+                                "pt_BR": "Aguardar por seletor",
+                                "zh_Hans": "等待选择器"
+                            },
+                            "llm_description": "css selector of the target element to wait for",
+                            "max": null,
+                            "min": null,
+                            "name": "wait_for_selector",
+                            "options": null,
+                            "precision": null,
+                            "required": false,
+                            "scope": null,
+                            "template": null,
+                            "type": "string"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": null,
+                            "form": "form",
+                            "human_description": {
+                                "en_US": "Remove all images from the response.",
+                                "zh_Hans": "从响应中删除所有图片。"
+                            },
+                            "label": {
+                                "en_US": "Remove images",
+                                "zh_Hans": "删除图片"
+                            },
+                            "llm_description": "Remove all images from the response",
+                            "max": null,
+                            "min": null,
+                            "name": "remove_images",
+                            "options": null,
+                            "precision": null,
+                            "required": false,
+                            "scope": null,
+                            "template": null,
+                            "type": "boolean"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": false,
+                            "form": "form",
+                            "human_description": {
+                                "en_US": "Captions all images at the specified URL, adding 'Image [idx]: [caption]' as an alt tag for those without one. This allows downstream LLMs to interact with the images in activities such as reasoning and summarizing.",
+                                "pt_BR": "Adiciona legendas a todas as imagens na URL especificada, adicionando 'Imagem [idx]: [legenda]' como uma tag alt para aquelas que não têm uma. Isso permite que os modelos LLM inferiores interajam com as imagens em atividades como raciocínio e resumo.",
+                                "zh_Hans": "为指定 URL 上的所有图像添加标题，为没有标题的图像添加“Image [idx]: [caption]”作为 alt 标签，以支持下游模型的图像交互。"
+                            },
+                            "label": {
+                                "en_US": "Image caption",
+                                "pt_BR": "Legenda da imagem",
+                                "zh_Hans": "图片说明"
+                            },
+                            "llm_description": "Captions all images at the specified URL",
+                            "max": null,
+                            "min": null,
+                            "name": "image_caption",
+                            "options": null,
+                            "precision": null,
+                            "required": false,
+                            "scope": null,
+                            "template": null,
+                            "type": "boolean"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": false,
+                            "form": "form",
+                            "human_description": {
+                                "en_US": "A \"Buttons & Links\" section will be created at the end. This helps the downstream LLMs or web agents navigating the page or take further actions.",
+                                "pt_BR": "Um \"Botões & Links\" section will be created at the end. This helps the downstream LLMs or web agents navigating the page or take further actions.",
+                                "zh_Hans": "末尾将添加“按钮和链接”部分，方便下游模型或网络代理做页面导航或执行进一步操作。"
+                            },
+                            "label": {
+                                "en_US": "Gather all links at the end",
+                                "pt_BR": "Coletar todos os links ao final",
+                                "zh_Hans": "将所有链接集中到最后"
+                            },
+                            "llm_description": "Gather all links at the end",
+                            "max": null,
+                            "min": null,
+                            "name": "gather_all_links_at_the_end",
+                            "options": null,
+                            "precision": null,
+                            "required": false,
+                            "scope": null,
+                            "template": null,
+                            "type": "boolean"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": false,
+                            "form": "form",
+                            "human_description": {
+                                "en_US": "An \"Images\" section will be created at the end. This gives the downstream LLMs an overview of all visuals on the page, which may improve reasoning.",
+                                "pt_BR": "Um \"Imagens\" section will be created at the end. This gives the downstream LLMs an overview of all visuals on the page, which may improve reasoning.",
+                                "zh_Hans": "末尾会新增“图片”部分，方便下游模型全面了解页面的视觉内容，提升推理效果。"
+                            },
+                            "label": {
+                                "en_US": "Gather all images at the end",
+                                "pt_BR": "Coletar todas as imagens ao final",
+                                "zh_Hans": "将所有图片集中到最后"
+                            },
+                            "llm_description": "Gather all images at the end",
+                            "max": null,
+                            "min": null,
+                            "name": "gather_all_images_at_the_end",
+                            "options": null,
+                            "precision": null,
+                            "required": false,
+                            "scope": null,
+                            "template": null,
+                            "type": "boolean"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": null,
+                            "form": "form",
+                            "human_description": {
+                                "en_US": "Use proxy to access URLs",
+                                "pt_BR": "Use proxy to access URLs",
+                                "zh_Hans": "利用代理访问 URL"
+                            },
+                            "label": {
+                                "en_US": "Proxy server",
+                                "pt_BR": "Servidor de proxy",
+                                "zh_Hans": "代理服务器"
+                            },
+                            "llm_description": "Use proxy to access URLs",
+                            "max": null,
+                            "min": null,
+                            "name": "proxy_server",
+                            "options": null,
+                            "precision": null,
+                            "required": false,
+                            "scope": null,
+                            "template": null,
+                            "type": "string"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": false,
+                            "form": "form",
+                            "human_description": {
+                                "en_US": "Bypass the Cache",
+                                "pt_BR": "Ignorar o cache",
+                                "zh_Hans": "是否绕过缓存"
+                            },
+                            "label": {
+                                "en_US": "Bypass the Cache",
+                                "pt_BR": "Ignorar o cache",
+                                "zh_Hans": "绕过缓存"
+                            },
+                            "llm_description": "bypass the cache",
+                            "max": null,
+                            "min": null,
+                            "name": "no_cache",
+                            "options": null,
+                            "precision": null,
+                            "required": false,
+                            "scope": null,
+                            "template": null,
+                            "type": "boolean"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": false,
+                            "form": "form",
+                            "human_description": {
+                                "en_US": "When enabled, request results won't be cached on jina servers.",
+                                "zh_Hans": "启用后，请求结果将不会被缓存在 jina 服务器上。"
+                            },
+                            "label": {
+                                "en_US": "Do Not Cache/Track",
+                                "zh_Hans": "请勿缓存/追踪"
+                            },
+                            "llm_description": "Do Not Cache/Track",
+                            "max": null,
+                            "min": null,
+                            "name": "no_cache_track",
+                            "options": null,
+                            "precision": null,
+                            "required": false,
+                            "scope": null,
+                            "template": null,
+                            "type": "boolean"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": false,
+                            "form": "form",
+                            "human_description": {
+                                "en_US": "Enable summary for the output",
+                                "pt_BR": "Habilitar resumo para a saída",
+                                "zh_Hans": "为输出启用摘要"
+                            },
+                            "label": {
+                                "en_US": "Enable summary",
+                                "pt_BR": "Habilitar resumo",
+                                "zh_Hans": "是否启用摘要"
+                            },
+                            "llm_description": "enable summary",
+                            "max": null,
+                            "min": null,
+                            "name": "summary",
+                            "options": null,
+                            "precision": null,
+                            "required": false,
+                            "scope": null,
+                            "template": null,
+                            "type": "boolean"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": 3,
+                            "form": "form",
+                            "human_description": {
+                                "en_US": "Number of times to retry the request if it fails",
+                                "pt_BR": "Número de vezes para repetir a solicitação se falhar",
+                                "zh_Hans": "请求失败时重试的次数"
+                            },
+                            "label": {
+                                "en_US": "Retry",
+                                "pt_BR": "Repetir",
+                                "zh_Hans": "重试"
+                            },
+                            "llm_description": "Number of times to retry the request if it fails",
+                            "max": null,
+                            "min": null,
+                            "name": "max_retries",
+                            "options": null,
+                            "precision": null,
+                            "required": false,
+                            "scope": null,
+                            "template": null,
+                            "type": "number"
+                        }
+                    ]
+                },
+                {
+                    "description": {
+                        "human": {
+                            "en_US": "Search on the public web of a given query and return the top results as LLM-friendly markdown.",
+                            "pt_BR": "Procurar na web pública de uma consulta fornecida e retornar os melhores resultados como markdown para LLMs.",
+                            "zh_Hans": "针对给定的查询在互联网上进行搜索，并以适合大模型处理的 Markdown 格式返回最相关的结果。"
+                        },
+                        "llm": "A tool for searching results on the web for grounding. Input should be a simple question."
+                    },
+                    "has_runtime_parameters": false,
+                    "identity": {
+                        "author": "langgenius",
+                        "label": {
+                            "en_US": "Search the web",
+                            "pt_BR": "Search the web",
+                            "zh_Hans": "联网搜索"
+                        },
+                        "name": "jina_search"
+                    },
+                    "output_schema": null,
+                    "parameters": [
+                        {
+                            "auto_generate": null,
+                            "default": null,
+                            "form": "llm",
+                            "human_description": {
+                                "en_US": "used to find information on the web",
+                                "pt_BR": "Usado para encontrar informações na web",
+                                "zh_Hans": "在网络上搜索信息"
+                            },
+                            "label": {
+                                "en_US": "Question (Query)",
+                                "pt_BR": "Pergunta (Consulta)",
+                                "zh_Hans": "查询"
+                            },
+                            "llm_description": "Pergunta simples para fazer na web",
+                            "max": null,
+                            "min": null,
+                            "name": "query",
+                            "options": null,
+                            "precision": null,
+                            "required": true,
+                            "scope": null,
+                            "template": null,
+                            "type": "string"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": false,
+                            "form": "form",
+                            "human_description": {
+                                "en_US": "Captions all images at the specified URL, adding 'Image [idx]: [caption]' as an alt tag for those without one. This allows downstream LLMs to interact with the images in activities such as reasoning and summarizing.",
+                                "pt_BR": "Captions all images at the specified URL, adding 'Image [idx]: [caption]' as an alt tag for those without one. This allows downstream LLMs to interact with the images in activities such as reasoning and summarizing.",
+                                "zh_Hans": "为指定 URL 上的所有图像添加标题，为没有标题的图像添加“Image [idx]: [caption]”作为 alt 标签，以支持下游模型的图像交互。"
+                            },
+                            "label": {
+                                "en_US": "Image caption",
+                                "pt_BR": "Legenda da imagem",
+                                "zh_Hans": "图片说明"
+                            },
+                            "llm_description": "Captions all images at the specified URL",
+                            "max": null,
+                            "min": null,
+                            "name": "image_caption",
+                            "options": null,
+                            "precision": null,
+                            "required": false,
+                            "scope": null,
+                            "template": null,
+                            "type": "boolean"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": false,
+                            "form": "form",
+                            "human_description": {
+                                "en_US": "A \"Buttons & Links\" section will be created at the end. This helps the downstream LLMs or web agents navigating the page or take further actions.",
+                                "pt_BR": "Um \"Botão & Links\" seção será criada no final. Isso ajuda os LLMs ou agentes da web navegando pela página ou executar ações adicionais.",
+                                "zh_Hans": "末尾将添加“按钮和链接”部分，汇总页面上的所有链接。方便下游模型或网络代理做页面导航或执行进一步操作。"
+                            },
+                            "label": {
+                                "en_US": "Gather all links at the end",
+                                "pt_BR": "Coletar todos os links ao final",
+                                "zh_Hans": "将所有链接集中到最后"
+                            },
+                            "llm_description": "Gather all links at the end",
+                            "max": null,
+                            "min": null,
+                            "name": "gather_all_links_at_the_end",
+                            "options": null,
+                            "precision": null,
+                            "required": false,
+                            "scope": null,
+                            "template": null,
+                            "type": "boolean"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": false,
+                            "form": "form",
+                            "human_description": {
+                                "en_US": "An \"Images\" section will be created at the end. This gives the downstream LLMs an overview of all visuals on the page, which may improve reasoning.",
+                                "pt_BR": "Um \"Imagens\" seção será criada no final. Isso fornece uma visão geral de todas as imagens na página para os LLMs, que pode melhorar a razão.",
+                                "zh_Hans": "末尾会新增“图片”部分，汇总页面上的所有图片。方便下游模型概览页面的视觉内容，提升推理效果。"
+                            },
+                            "label": {
+                                "en_US": "Gather all images at the end",
+                                "pt_BR": "Coletar todas as imagens ao final",
+                                "zh_Hans": "将所有图片集中到最后"
+                            },
+                            "llm_description": "Gather all images at the end",
+                            "max": null,
+                            "min": null,
+                            "name": "gather_all_images_at_the_end",
+                            "options": null,
+                            "precision": null,
+                            "required": false,
+                            "scope": null,
+                            "template": null,
+                            "type": "boolean"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": null,
+                            "form": "form",
+                            "human_description": {
+                                "en_US": "Use proxy to access URLs",
+                                "pt_BR": "Usar proxy para acessar URLs",
+                                "zh_Hans": "利用代理访问 URL"
+                            },
+                            "label": {
+                                "en_US": "Proxy server",
+                                "pt_BR": "Servidor de proxy",
+                                "zh_Hans": "代理服务器"
+                            },
+                            "llm_description": "Use proxy to access URLs",
+                            "max": null,
+                            "min": null,
+                            "name": "proxy_server",
+                            "options": null,
+                            "precision": null,
+                            "required": false,
+                            "scope": null,
+                            "template": null,
+                            "type": "string"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": false,
+                            "form": "form",
+                            "human_description": {
+                                "en_US": "Bypass the Cache",
+                                "pt_BR": "Ignorar o cache",
+                                "zh_Hans": "是否绕过缓存"
+                            },
+                            "label": {
+                                "en_US": "Bypass the Cache",
+                                "pt_BR": "Ignorar o cache",
+                                "zh_Hans": "是否绕过缓存"
+                            },
+                            "llm_description": "bypass the cache",
+                            "max": null,
+                            "min": null,
+                            "name": "no_cache",
+                            "options": null,
+                            "precision": null,
+                            "required": false,
+                            "scope": null,
+                            "template": null,
+                            "type": "boolean"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": 3,
+                            "form": "form",
+                            "human_description": {
+                                "en_US": "Number of times to retry the request if it fails",
+                                "pt_BR": "Número de vezes para repetir a solicitação se falhar",
+                                "zh_Hans": "请求失败时重试的次数"
+                            },
+                            "label": {
+                                "en_US": "Retry",
+                                "pt_BR": "Repetir",
+                                "zh_Hans": "重试"
+                            },
+                            "llm_description": "Number of times to retry the request if it fails",
+                            "max": null,
+                            "min": null,
+                            "name": "max_retries",
+                            "options": null,
+                            "precision": null,
+                            "required": false,
+                            "scope": null,
+                            "template": null,
+                            "type": "number"
+                        }
+                    ]
+                }
+            ]
+        },
+        "agent_strategy": {},
+        "install_count": 6873,
+        "version_updated_at": "2025-03-13T03:00:18.502692Z",
+        "latest_version": "0.0.7",
+        "latest_package_identifier": "langgenius/jina_tool:0.0.7@51cf3dfcc4ff002171f2378aa02ec7ce5390ddfe23c02ede532b08f48a75e82c",
+        "tags": [
+            {
+                "name": "productivity"
+            },
+            {
+                "name": "search"
+            }
+        ]
+    },
+    {
+        "type": "plugin",
+        "name": "firecrawl",
+        "org": "langgenius",
+        "plugin_id": "langgenius/firecrawl",
+        "icon": "langgenius/packages/firecrawl/_assets/icon.svg",
+        "label": {
+            "en_US": "Firecrawl"
+        },
+        "brief": {
+            "en_US": "Firecrawl API integration for web crawling and scraping.",
+            "zh_Hans": "Firecrawl API 集成，用于网页爬取和数据抓取。"
+        },
+        "introduction": "## Overview\n\n**Firecrawl** is a powerful API integration for web crawling and data scraping. It allows users to extract URLs, scrape website content, and retrieve structured data from web pages. With its modular tools, Firecrawl simplifies the process of gathering web data efficiently. You can now use it in your application workflows for automated web data extraction and analysis.\n\n## Configuration\n\nTo set up Firecrawl, follow these steps:\n\n1. **Install Firecrawl Tool**\nAccess the Plugin Marketplace, locate the Firecrawl tool, and install it.\n\n2. **Apply for a Firecrawl API Key**\nGo to the [Firecrawl API Keys](https://www.firecrawl.dev/app/api-keys) page, create a new API Key, and ensure your account has sufficient balance.\n\n3. **Authorize Firecrawl**\nNavigate to **Plugins > Firecrawl > To Authorize** in Dify, and input your API Key to enable the tool.\n\n![](./_assets/firecrawl-01.png)\n\n## Tool Features\n\nThe Firecrawl tool provides four actions for web crawling and scraping:\n\n### Crawl Job\n\nRetrieve scraping results based on a Job ID or cancel an ongoing scraping task. This is ideal for managing and monitoring your workflows.\n\n<img src=\"./_assets/firecrawl-02.png\" width=\"400\" />\n\n### Crawl\n\nPerform a recursive crawl of a website's subdomains to gather content. Perfect for extracting extensive datasets from interconnected pages.\n\n<img src=\"./_assets/firecrawl-03.png\" width=\"400\" />\n\n### Map\n\nWhen using the **Map** action to generate a complete map of all URLs present on a site, you need to configure the following input parameters.\n\n<img src=\"./_assets/firecrawl-04.png\" width=\"400\" />\n\n### Scrape\n\nConvert any URL into clean, structured data, transforming raw HTML into actionable insights.\n\n<img src=\"./_assets/firecrawl-05.png\" width=\"400\" />\n\n## Usage\n\nFirecrawl can be seamlessly integrated into both **Chatflow / Workflow Apps** and **Agent Apps**.\n\n### Chatflow / Workflow Apps\n\nIntegrate Firecrawl into your pipeline by following these steps:\n\n1. Add the Firecrawl node to the Chatflow or Workflow pipeline.\n2. Please select one of Firecrawl's actions (e.g., Map, Crawl, Scrape) and insert it into the pipeline.\n3. Define the input variables and UI elements for your use case.\n4. Execute the pipeline to trigger the Firecrawl nodes sequentially and crawl web page data.\n\n![](./_assets/firecrawl-06.png)\n\n### Agent Apps\n\nAdd the Firecrawl tool in the Agent application, then send the URL. The tool will help to scrape the online content, so the LLM will have the ability to get the latest online data.\n\n1. Add the Firecrawl tool to the Agent application.\n2. Input a URL in the chat, and Firecrawl will scrape the content from the specified webpage.\n3. The extracted data is processed and made accessible to the LLM, enabling the app to fetch and analyze the latest online information.\n\n![](./_assets/firecrawl-07.png)\n",
+        "category": "tool",
+        "repository": "",
+        "resource": {
+            "memory": 1048576,
+            "permission": {
+                "model": {
+                    "enabled": true,
+                    "llm": true,
+                    "moderation": false,
+                    "rerank": false,
+                    "speech2text": false,
+                    "text_embedding": false,
+                    "tts": false
+                },
+                "tool": {
+                    "enabled": true
+                }
+            }
+        },
+        "privacy_options": "",
+        "privacy_policy": "",
+        "created_at": "2024-12-30T13:25:03.728318Z",
+        "updated_at": "2025-02-17T07:06:46.586573Z",
+        "badges": [],
+        "plugins": {
+            "agent_strategies": null,
+            "endpoints": null,
+            "models": null,
+            "tools": [
+                "provider/firecrawl.yaml"
+            ]
+        },
+        "endpoint": {},
+        "model": {},
+        "tool": {
+            "credentials_schema": [
+                {
+                    "default": null,
+                    "helper": null,
+                    "label": {
+                        "en_US": "Firecrawl server's Base URL",
+                        "zh_Hans": "Firecrawl服务器的API URL"
+                    },
+                    "name": "base_url",
+                    "options": null,
+                    "placeholder": {
+                        "en_US": "https://api.firecrawl.dev"
+                    },
+                    "required": false,
+                    "scope": null,
+                    "type": "text-input",
+                    "url": null
+                },
+                {
+                    "default": null,
+                    "helper": null,
+                    "label": {
+                        "en_US": "Firecrawl API Key",
+                        "zh_Hans": "Firecrawl API 密钥"
+                    },
+                    "name": "firecrawl_api_key",
+                    "options": null,
+                    "placeholder": {
+                        "en_US": "Please input your Firecrawl API key",
+                        "zh_Hans": "请输入您的 Firecrawl API 密钥，如果是自托管版本，可以随意填写密钥"
+                    },
+                    "required": true,
+                    "scope": null,
+                    "type": "secret-input",
+                    "url": "https://www.firecrawl.dev/account"
+                }
+            ],
+            "identity": {
+                "author": "Richards_Tu",
+                "description": {
+                    "en_US": "Firecrawl API integration for web crawling and scraping.",
+                    "zh_Hans": "Firecrawl API 集成，用于网页爬取和数据抓取。"
+                },
+                "icon": "icon.svg",
+                "label": {
+                    "en_US": "Firecrawl"
+                },
+                "name": "firecrawl",
+                "tags": [
+                    "search",
+                    "utilities"
+                ]
+            },
+            "tools": [
+                {
+                    "description": {
+                        "human": {
+                            "en_US": "Retrieve the scraping results based on the job ID, or cancel the scraping task.",
+                            "zh_Hans": "根据爬取任务ID获取爬取结果，或者取消爬取任务"
+                        },
+                        "llm": "Retrieve the scraping results based on the job ID, or cancel the scraping task."
+                    },
+                    "has_runtime_parameters": false,
+                    "identity": {
+                        "author": "hjlarry",
+                        "label": {
+                            "en_US": "Crawl Job",
+                            "zh_Hans": "爬取任务处理"
+                        },
+                        "name": "crawl_job"
+                    },
+                    "output_schema": null,
+                    "parameters": [
+                        {
+                            "auto_generate": null,
+                            "default": null,
+                            "form": "llm",
+                            "human_description": {
+                                "en_US": "Set wait_for_results to false in the Crawl tool can get the job ID.",
+                                "zh_Hans": "在深度爬取工具中将等待爬取结果设置为否可以获取Job ID。"
+                            },
+                            "label": {
+                                "en_US": "Job ID"
+                            },
+                            "llm_description": "Set wait_for_results to false in the Crawl tool can get the job ID.",
+                            "max": null,
+                            "min": null,
+                            "name": "job_id",
+                            "options": null,
+                            "precision": null,
+                            "required": true,
+                            "scope": null,
+                            "template": null,
+                            "type": "string"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": null,
+                            "form": "llm",
+                            "human_description": {
+                                "en_US": "choose the operation to perform. `get` is for getting the crawl status, `cancel` is for cancelling the crawl job.",
+                                "zh_Hans": "选择操作类型。"
+                            },
+                            "label": {
+                                "en_US": "operation",
+                                "zh_Hans": "操作"
+                            },
+                            "llm_description": "choose the operation to perform. `get` is for getting the crawl status, `cancel` is for cancelling the crawl job.",
+                            "max": null,
+                            "min": null,
+                            "name": "operation",
+                            "options": [
+                                {
+                                    "label": {
+                                        "en_US": "get crawl status"
+                                    },
+                                    "value": "get"
+                                },
+                                {
+                                    "label": {
+                                        "en_US": "cancel crawl job"
+                                    },
+                                    "value": "cancel"
+                                }
+                            ],
+                            "precision": null,
+                            "required": true,
+                            "scope": null,
+                            "template": null,
+                            "type": "select"
+                        }
+                    ]
+                },
+                {
+                    "description": {
+                        "human": {
+                            "en_US": "Recursively search through a urls subdomains, and gather the content.",
+                            "zh_Hans": "递归爬取一个网址的子域名，并收集内容。"
+                        },
+                        "llm": "This tool initiates a web crawl to extract data from a specified URL. It allows configuring crawler options such as including or excluding URL patterns, generating alt text for images using LLMs (paid plan required), limiting the maximum number of pages to crawl, and returning only the main content of the page. The tool can return either a list of crawled documents or a list of URLs based on the provided options."
+                    },
+                    "has_runtime_parameters": false,
+                    "identity": {
+                        "author": "Richards_Tu",
+                        "label": {
+                            "en_US": "Crawl",
+                            "zh_Hans": "深度爬取"
+                        },
+                        "name": "crawl"
+                    },
+                    "output_schema": null,
+                    "parameters": [
+                        {
+                            "auto_generate": null,
+                            "default": null,
+                            "form": "llm",
+                            "human_description": {
+                                "en_US": "The base URL to start crawling from.",
+                                "zh_Hans": "要爬取网站的起始URL。"
+                            },
+                            "label": {
+                                "en_US": "Start URL",
+                                "zh_Hans": "起始URL"
+                            },
+                            "llm_description": "The URL of the website that needs to be crawled. This is a required parameter.",
+                            "max": null,
+                            "min": null,
+                            "name": "url",
+                            "options": null,
+                            "precision": null,
+                            "required": true,
+                            "scope": null,
+                            "template": null,
+                            "type": "string"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": true,
+                            "form": "form",
+                            "human_description": {
+                                "en_US": "If you choose not to wait, it will directly return a job ID. You can use this job ID to check the crawling results or cancel the crawling task, which is usually very useful for a large-scale crawling task.",
+                                "zh_Hans": "如果选择不等待，则会直接返回一个job_id，可以通过job_id查询爬取结果或取消爬取任务，这通常对于一个大型爬取任务来说非常有用。"
+                            },
+                            "label": {
+                                "en_US": "Wait For Results",
+                                "zh_Hans": "等待爬取结果"
+                            },
+                            "llm_description": "",
+                            "max": null,
+                            "min": null,
+                            "name": "wait_for_results",
+                            "options": null,
+                            "precision": null,
+                            "required": false,
+                            "scope": null,
+                            "template": null,
+                            "type": "boolean"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": null,
+                            "form": "form",
+                            "human_description": {
+                                "en_US": "Pages matching these patterns will be skipped. Example: blog/*, about/*",
+                                "zh_Hans": "匹配这些模式的页面将被跳过。示例：blog/*, about/*"
+                            },
+                            "label": {
+                                "en_US": "URL patterns to exclude",
+                                "zh_Hans": "要排除的URL模式"
+                            },
+                            "llm_description": "",
+                            "max": null,
+                            "min": null,
+                            "name": "excludePaths",
+                            "options": null,
+                            "precision": null,
+                            "required": false,
+                            "scope": null,
+                            "template": null,
+                            "type": "string"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": null,
+                            "form": "form",
+                            "human_description": {
+                                "en_US": "Only pages matching these patterns will be crawled. Example: blog/*, about/*",
+                                "zh_Hans": "只有与这些模式匹配的页面才会被爬取。示例：blog/*, about/*"
+                            },
+                            "label": {
+                                "en_US": "URL patterns to include",
+                                "zh_Hans": "要包含的URL模式"
+                            },
+                            "llm_description": "",
+                            "max": null,
+                            "min": null,
+                            "name": "includePaths",
+                            "options": null,
+                            "precision": null,
+                            "required": false,
+                            "scope": null,
+                            "template": null,
+                            "type": "string"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": 2,
+                            "form": "form",
+                            "human_description": {
+                                "en_US": "Maximum depth to crawl relative to the entered URL. A maxDepth of 0 scrapes only the entered URL. A maxDepth of 1 scrapes the entered URL and all pages one level deep. A maxDepth of 2 scrapes the entered URL and all pages up to two levels deep. Higher values follow the same pattern.",
+                                "zh_Hans": "相对于输入的URL，爬取的最大深度。maxDepth为0时，仅抓取输入的URL。maxDepth为1时，抓取输入的URL以及所有一级深层页面。maxDepth为2时，抓取输入的URL以及所有两级深层页面。更高值遵循相同模式。"
+                            },
+                            "label": {
+                                "en_US": "Maximum crawl depth",
+                                "zh_Hans": "爬取深度"
+                            },
+                            "llm_description": "",
+                            "max": null,
+                            "min": 0,
+                            "name": "maxDepth",
+                            "options": null,
+                            "precision": null,
+                            "required": false,
+                            "scope": null,
+                            "template": null,
+                            "type": "number"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": true,
+                            "form": "form",
+                            "human_description": {
+                                "en_US": "Ignore the website sitemap when crawling.",
+                                "zh_Hans": "爬取时忽略网站站点地图。"
+                            },
+                            "label": {
+                                "en_US": "ignore Sitemap",
+                                "zh_Hans": "忽略站点地图"
+                            },
+                            "llm_description": "",
+                            "max": null,
+                            "min": null,
+                            "name": "ignoreSitemap",
+                            "options": null,
+                            "precision": null,
+                            "required": false,
+                            "scope": null,
+                            "template": null,
+                            "type": "boolean"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": 5,
+                            "form": "form",
+                            "human_description": {
+                                "en_US": "Specify the maximum number of pages to crawl. The crawler will stop after reaching this limit.",
+                                "zh_Hans": "指定要爬取的最大页面数。爬虫将在达到此限制后停止。"
+                            },
+                            "label": {
+                                "en_US": "Maximum pages to crawl",
+                                "zh_Hans": "最大爬取页面数"
+                            },
+                            "llm_description": "",
+                            "max": null,
+                            "min": 1,
+                            "name": "limit",
+                            "options": null,
+                            "precision": null,
+                            "required": false,
+                            "scope": null,
+                            "template": null,
+                            "type": "number"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": false,
+                            "form": "form",
+                            "human_description": {
+                                "en_US": "Enables the crawler to navigate from a specific URL to previously linked pages. For instance, from 'example.com/product/123' back to 'example.com/product'",
+                                "zh_Hans": "使爬虫能够从特定URL导航到之前链接的页面。例如，从'example.com/product/123'返回到'example.com/product'"
+                            },
+                            "label": {
+                                "en_US": "allow Backward Crawling",
+                                "zh_Hans": "允许向后爬取"
+                            },
+                            "llm_description": "",
+                            "max": null,
+                            "min": null,
+                            "name": "allowBackwardLinks",
+                            "options": null,
+                            "precision": null,
+                            "required": false,
+                            "scope": null,
+                            "template": null,
+                            "type": "boolean"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": false,
+                            "form": "form",
+                            "human_description": {
+                                "en_US": "Allows the crawler to follow links to external websites."
+                            },
+                            "label": {
+                                "en_US": "allow External Content Links",
+                                "zh_Hans": "允许爬取外链"
+                            },
+                            "llm_description": "",
+                            "max": null,
+                            "min": null,
+                            "name": "allowExternalLinks",
+                            "options": null,
+                            "precision": null,
+                            "required": false,
+                            "scope": null,
+                            "template": null,
+                            "type": "boolean"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": null,
+                            "form": "form",
+                            "human_description": {
+                                "en_US": "The URL to send the webhook to. This will trigger for crawl started (crawl.started) ,every page crawled (crawl.page) and when the crawl is completed (crawl.completed or crawl.failed). The response will be the same as the /scrape endpoint.",
+                                "zh_Hans": "发送Webhook的URL。这将在开始爬取（crawl.started）、每爬取一个页面（crawl.page）以及爬取完成（crawl.completed或crawl.failed）时触发。响应将与/scrape端点相同。"
+                            },
+                            "label": {
+                                "en_US": "webhook"
+                            },
+                            "llm_description": "",
+                            "max": null,
+                            "min": null,
+                            "name": "webhook",
+                            "options": null,
+                            "precision": null,
+                            "required": false,
+                            "scope": null,
+                            "template": null,
+                            "type": "string"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": null,
+                            "form": "form",
+                            "human_description": {
+                                "en_US": "Formats to include in the output. Available options: markdown, html, rawHtml, links, screenshot",
+                                "zh_Hans": "输出中应包含的格式。可以填入: markdown, html, rawHtml, links, screenshot"
+                            },
+                            "label": {
+                                "en_US": "Formats",
+                                "zh_Hans": "结果的格式"
+                            },
+                            "llm_description": "",
+                            "max": null,
+                            "min": null,
+                            "name": "formats",
+                            "options": null,
+                            "precision": null,
+                            "required": false,
+                            "scope": null,
+                            "template": null,
+                            "type": "string"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": null,
+                            "form": "form",
+                            "human_description": {
+                                "en_US": "Headers to send with the request. Can be used to send cookies, user-agent, etc. Example: {\"cookies\": \"testcookies\"}",
+                                "zh_Hans": "随请求发送的头部。可以用来发送cookies、用户代理等。示例：{\"cookies\": \"testcookies\"}"
+                            },
+                            "label": {
+                                "en_US": "headers",
+                                "zh_Hans": "请求头"
+                            },
+                            "llm_description": "",
+                            "max": null,
+                            "min": null,
+                            "name": "headers",
+                            "options": null,
+                            "precision": null,
+                            "required": false,
+                            "scope": null,
+                            "template": null,
+                            "type": "string"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": null,
+                            "form": "form",
+                            "human_description": {
+                                "en_US": "Only include tags, classes and ids from the page in the final output. Use comma separated values. Example: script, .ad, #footer",
+                                "zh_Hans": "仅在最终输出中包含HTML页面的这些标签，可以通过标签名、类或ID来设定，使用逗号分隔值。示例：script, .ad, #footer"
+                            },
+                            "label": {
+                                "en_US": "Include Tags",
+                                "zh_Hans": "仅抓取这些标签"
+                            },
+                            "llm_description": "",
+                            "max": null,
+                            "min": null,
+                            "name": "includeTags",
+                            "options": null,
+                            "precision": null,
+                            "required": false,
+                            "scope": null,
+                            "template": null,
+                            "type": "string"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": null,
+                            "form": "form",
+                            "human_description": {
+                                "en_US": "Tags, classes and ids to remove from the page. Use comma separated values. Example: script, .ad, #footer",
+                                "zh_Hans": "要在最终输出中移除HTML页面的这些标签，可以通过标签名、类或ID来设定，使用逗号分隔值。示例：script, .ad, #footer"
+                            },
+                            "label": {
+                                "en_US": "Exclude Tags",
+                                "zh_Hans": "要移除这些标签"
+                            },
+                            "llm_description": "",
+                            "max": null,
+                            "min": null,
+                            "name": "excludeTags",
+                            "options": null,
+                            "precision": null,
+                            "required": false,
+                            "scope": null,
+                            "template": null,
+                            "type": "string"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": false,
+                            "form": "form",
+                            "human_description": {
+                                "en_US": "Only return the main content of the page excluding headers, navs, footers, etc.",
+                                "zh_Hans": "只返回页面的主要内容，不包括头部、导航栏、尾部等。"
+                            },
+                            "label": {
+                                "en_US": "only Main Content",
+                                "zh_Hans": "仅抓取主要内容"
+                            },
+                            "llm_description": "",
+                            "max": null,
+                            "min": null,
+                            "name": "onlyMainContent",
+                            "options": null,
+                            "precision": null,
+                            "required": false,
+                            "scope": null,
+                            "template": null,
+                            "type": "boolean"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": null,
+                            "form": "form",
+                            "human_description": {
+                                "en_US": "Wait x amount of milliseconds for the page to load to fetch content.",
+                                "zh_Hans": "等待x毫秒以使页面加载并获取内容。"
+                            },
+                            "label": {
+                                "en_US": "wait For",
+                                "zh_Hans": "等待时间"
+                            },
+                            "llm_description": "",
+                            "max": null,
+                            "min": 0,
+                            "name": "waitFor",
+                            "options": null,
+                            "precision": null,
+                            "required": false,
+                            "scope": null,
+                            "template": null,
+                            "type": "number"
+                        }
+                    ]
+                },
+                {
+                    "description": {
+                        "human": {
+                            "en_US": "Input a website and get all the urls on the website - extremly fast",
+                            "zh_Hans": "输入一个网站，快速获取网站上的所有网址。"
+                        },
+                        "llm": "Input a website and get all the urls on the website - extremly fast"
+                    },
+                    "has_runtime_parameters": false,
+                    "identity": {
+                        "author": "hjlarry",
+                        "label": {
+                            "en_US": "Map",
+                            "zh_Hans": "地图式快爬"
+                        },
+                        "name": "map"
+                    },
+                    "output_schema": null,
+                    "parameters": [
+                        {
+                            "auto_generate": null,
+                            "default": null,
+                            "form": "llm",
+                            "human_description": {
+                                "en_US": "The base URL to start crawling from.",
+                                "zh_Hans": "要爬取网站的起始URL。"
+                            },
+                            "label": {
+                                "en_US": "Start URL",
+                                "zh_Hans": "起始URL"
+                            },
+                            "llm_description": "The URL of the website that needs to be crawled. This is a required parameter.",
+                            "max": null,
+                            "min": null,
+                            "name": "url",
+                            "options": null,
+                            "precision": null,
+                            "required": true,
+                            "scope": null,
+                            "template": null,
+                            "type": "string"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": true,
+                            "form": "llm",
+                            "human_description": {
+                                "en_US": "Search query to use for mapping. During the Alpha phase, the 'smart' part of the search functionality is limited to 100 search results. However, if map finds more results, there is no limit applied.",
+                                "zh_Hans": "用于映射的搜索查询。在Alpha阶段，搜索功能的“智能”部分限制为最多100个搜索结果。然而，如果地图找到了更多结果，则不施加任何限制。"
+                            },
+                            "label": {
+                                "en_US": "search",
+                                "zh_Hans": "搜索查询"
+                            },
+                            "llm_description": "Search query to use for mapping. During the Alpha phase, the 'smart' part of the search functionality is limited to 100 search results. However, if map finds more results, there is no limit applied.",
+                            "max": null,
+                            "min": null,
+                            "name": "search",
+                            "options": null,
+                            "precision": null,
+                            "required": false,
+                            "scope": null,
+                            "template": null,
+                            "type": "string"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": false,
+                            "form": "form",
+                            "human_description": {
+                                "en_US": "Ignore the website sitemap when crawling.",
+                                "zh_Hans": "爬取时忽略网站站点地图。"
+                            },
+                            "label": {
+                                "en_US": "ignore Sitemap",
+                                "zh_Hans": "忽略站点地图"
+                            },
+                            "llm_description": "",
+                            "max": null,
+                            "min": null,
+                            "name": "ignoreSitemap",
+                            "options": null,
+                            "precision": null,
+                            "required": false,
+                            "scope": null,
+                            "template": null,
+                            "type": "boolean"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": null,
+                            "form": "form",
+                            "human_description": {
+                                "en_US": "include Subdomains.",
+                                "zh_Hans": "包含子域名。"
+                            },
+                            "label": {
+                                "en_US": "include Subdomains",
+                                "zh_Hans": "包含子域名"
+                            },
+                            "llm_description": "",
+                            "max": null,
+                            "min": null,
+                            "name": "includeSubdomains",
+                            "options": null,
+                            "precision": null,
+                            "required": false,
+                            "scope": null,
+                            "template": null,
+                            "type": "boolean"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": 5000,
+                            "form": "form",
+                            "human_description": {
+                                "en_US": "maximum results.",
+                                "zh_Hans": "最大结果数量。"
+                            },
+                            "label": {
+                                "en_US": "Maximum results",
+                                "zh_Hans": "最大结果数量"
+                            },
+                            "llm_description": "",
+                            "max": null,
+                            "min": 0,
+                            "name": "limit",
+                            "options": null,
+                            "precision": null,
+                            "required": false,
+                            "scope": null,
+                            "template": null,
+                            "type": "number"
+                        }
+                    ]
+                },
+                {
+                    "description": {
+                        "human": {
+                            "en_US": "Turn any url into clean data.",
+                            "zh_Hans": "将任何网址转换为干净的数据。"
+                        },
+                        "llm": "This tool is designed to scrape URL and output the content in Markdown format."
+                    },
+                    "has_runtime_parameters": false,
+                    "identity": {
+                        "author": "ahasasjeb",
+                        "label": {
+                            "en_US": "Scrape",
+                            "zh_Hans": "单页面抓取"
+                        },
+                        "name": "scrape"
+                    },
+                    "output_schema": null,
+                    "parameters": [
+                        {
+                            "auto_generate": null,
+                            "default": null,
+                            "form": "llm",
+                            "human_description": {
+                                "en_US": "The URL of the website to scrape and extract data from.",
+                                "zh_Hans": "要抓取并提取数据的网站URL。"
+                            },
+                            "label": {
+                                "en_US": "URL to scrape",
+                                "zh_Hans": "要抓取的URL"
+                            },
+                            "llm_description": "The URL of the website that needs to be crawled. This is a required parameter.",
+                            "max": null,
+                            "min": null,
+                            "name": "url",
+                            "options": null,
+                            "precision": null,
+                            "required": true,
+                            "scope": null,
+                            "template": null,
+                            "type": "string"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": null,
+                            "form": "form",
+                            "human_description": {
+                                "en_US": "Formats to include in the output. Available options: markdown, html, rawHtml, links, screenshot, extract, screenshot@fullPage",
+                                "zh_Hans": "输出中应包含的格式。可以填入: markdown, html, rawHtml, links, screenshot, extract, screenshot@fullPage"
+                            },
+                            "label": {
+                                "en_US": "Formats",
+                                "zh_Hans": "结果的格式"
+                            },
+                            "llm_description": "",
+                            "max": null,
+                            "min": null,
+                            "name": "formats",
+                            "options": null,
+                            "precision": null,
+                            "required": false,
+                            "scope": null,
+                            "template": null,
+                            "type": "string"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": false,
+                            "form": "form",
+                            "human_description": {
+                                "en_US": "Only return the main content of the page excluding headers, navs, footers, etc.",
+                                "zh_Hans": "只返回页面的主要内容，不包括头部、导航栏、尾部等。"
+                            },
+                            "label": {
+                                "en_US": "only Main Content",
+                                "zh_Hans": "仅抓取主要内容"
+                            },
+                            "llm_description": "",
+                            "max": null,
+                            "min": null,
+                            "name": "onlyMainContent",
+                            "options": null,
+                            "precision": null,
+                            "required": false,
+                            "scope": null,
+                            "template": null,
+                            "type": "boolean"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": null,
+                            "form": "form",
+                            "human_description": {
+                                "en_US": "Only include tags, classes and ids from the page in the final output. Use comma separated values. Example: script, .ad, #footer",
+                                "zh_Hans": "仅在最终输出中包含HTML页面的这些标签，可以通过标签名、类或ID来设定，使用逗号分隔值。示例：script, .ad, #footer"
+                            },
+                            "label": {
+                                "en_US": "Include Tags",
+                                "zh_Hans": "仅抓取这些标签"
+                            },
+                            "llm_description": "",
+                            "max": null,
+                            "min": null,
+                            "name": "includeTags",
+                            "options": null,
+                            "precision": null,
+                            "required": false,
+                            "scope": null,
+                            "template": null,
+                            "type": "string"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": null,
+                            "form": "form",
+                            "human_description": {
+                                "en_US": "Tags, classes and ids to remove from the page. Use comma separated values. Example: script, .ad, #footer\n",
+                                "zh_Hans": "要在最终输出中移除HTML页面的这些标签，可以通过标签名、类或ID来设定，使用逗号分隔值。示例：script, .ad, #footer\n"
+                            },
+                            "label": {
+                                "en_US": "Exclude Tags",
+                                "zh_Hans": "要移除这些标签"
+                            },
+                            "llm_description": "",
+                            "max": null,
+                            "min": null,
+                            "name": "excludeTags",
+                            "options": null,
+                            "precision": null,
+                            "required": false,
+                            "scope": null,
+                            "template": null,
+                            "type": "string"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": null,
+                            "form": "form",
+                            "human_description": {
+                                "en_US": "Headers to send with the request. Can be used to send cookies, user-agent, etc. Example: {\"cookies\": \"testcookies\"}",
+                                "zh_Hans": "随请求发送的头部。可以用来发送cookies、用户代理等。示例：{\"cookies\": \"testcookies\"}"
+                            },
+                            "label": {
+                                "en_US": "headers",
+                                "zh_Hans": "请求头"
+                            },
+                            "llm_description": "",
+                            "max": null,
+                            "min": null,
+                            "name": "headers",
+                            "options": null,
+                            "precision": null,
+                            "required": false,
+                            "scope": null,
+                            "template": null,
+                            "type": "string"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": 0,
+                            "form": "form",
+                            "human_description": {
+                                "en_US": "Wait x amount of milliseconds for the page to load to fetch content.",
+                                "zh_Hans": "等待x毫秒以使页面加载并获取内容。"
+                            },
+                            "label": {
+                                "en_US": "wait For",
+                                "zh_Hans": "等待时间"
+                            },
+                            "llm_description": "",
+                            "max": null,
+                            "min": 0,
+                            "name": "waitFor",
+                            "options": null,
+                            "precision": null,
+                            "required": false,
+                            "scope": null,
+                            "template": null,
+                            "type": "number"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": 30000,
+                            "form": "form",
+                            "human_description": {
+                                "en_US": "Timeout in milliseconds for the request.",
+                                "zh_Hans": "请求的超时时间（以毫秒为单位）。"
+                            },
+                            "label": {
+                                "en_US": "Timeout"
+                            },
+                            "llm_description": "",
+                            "max": null,
+                            "min": 0,
+                            "name": "timeout",
+                            "options": null,
+                            "precision": null,
+                            "required": false,
+                            "scope": null,
+                            "template": null,
+                            "type": "number"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": null,
+                            "form": "form",
+                            "human_description": {
+                                "en_US": "The schema for the data to be extracted. Example: {\n    \"type\": \"object\",\n    \"properties\": {\"company_mission\": {\"type\": \"string\"}},\n    \"required\": [\"company_mission\"]\n}\n",
+                                "zh_Hans": "使用该结构去提取，示例：{\n     \"type\": \"object\",\n     \"properties\": {\"company_mission\": {\"type\": \"string\"}},\n     \"required\": [\"company_mission\"]\n }\n"
+                            },
+                            "label": {
+                                "en_US": "Extractor Schema",
+                                "zh_Hans": "提取时的结构"
+                            },
+                            "llm_description": "",
+                            "max": null,
+                            "min": null,
+                            "name": "schema",
+                            "options": null,
+                            "precision": null,
+                            "required": false,
+                            "scope": null,
+                            "template": null,
+                            "type": "string"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": null,
+                            "form": "form",
+                            "human_description": {
+                                "en_US": "The system prompt to use for the extraction.",
+                                "zh_Hans": "用于提取的系统提示。"
+                            },
+                            "label": {
+                                "en_US": "Extractor System Prompt",
+                                "zh_Hans": "提取时的系统提示词"
+                            },
+                            "llm_description": "",
+                            "max": null,
+                            "min": null,
+                            "name": "systemPrompt",
+                            "options": null,
+                            "precision": null,
+                            "required": false,
+                            "scope": null,
+                            "template": null,
+                            "type": "string"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": null,
+                            "form": "form",
+                            "human_description": {
+                                "en_US": "The prompt to use for the extraction without a schema.",
+                                "zh_Hans": "用于无schema时提取的提示词"
+                            },
+                            "label": {
+                                "en_US": "Extractor Prompt",
+                                "zh_Hans": "提取时的提示词"
+                            },
+                            "llm_description": "",
+                            "max": null,
+                            "min": null,
+                            "name": "prompt",
+                            "options": null,
+                            "precision": null,
+                            "required": false,
+                            "scope": null,
+                            "template": null,
+                            "type": "string"
+                        }
+                    ]
+                }
+            ]
+        },
+        "agent_strategy": {},
+        "install_count": 5753,
+        "version_updated_at": "2025-02-17T07:06:46.586537Z",
+        "latest_version": "0.0.3",
+        "latest_package_identifier": "langgenius/firecrawl:0.0.3@d668b3ad841e8bb27f735a8500568e44f9673156d1d4db72c304d0437bf80fd7",
+        "tags": [
+            {
+                "name": "utilities"
+            },
+            {
+                "name": "search"
+            }
+        ]
+    },
+    {
+        "type": "plugin",
+        "name": "json_process",
+        "org": "langgenius",
+        "plugin_id": "langgenius/json_process",
+        "icon": "langgenius/packages/json_process/_assets/icon.svg",
+        "label": {
+            "en_US": "JSON Process",
+            "pt_BR": "JSON Process",
+            "zh_Hans": "JSON 处理"
+        },
+        "brief": {
+            "en_US": "Tools for processing JSON content using jsonpath_ng",
+            "pt_BR": "Tools for processing JSON content using jsonpath_ng",
+            "zh_Hans": "利用 jsonpath_ng 处理 JSON 内容的工具"
+        },
+        "introduction": "# Overview\nJSON Process is a group of tools able to insert, delete, replace and parse within a JSON data structure.\n\n# Configure\n## JSON Insert\nJSON Insert tool adds a new value to a JSON object.\n\n![](./_assets/json_insert.png)\n\n## JSON Delete\nJSON Delete tool deletes element in a JSON data sturcture.\n![](./_assets/json_delete.png)\n\n## JSON Parse\nJSON Parse tool converts a JSON string into a JavaScript object or a Python dictionary, depending on the language being used.\n![](./_assets/json_parse.png)\n\n## JSON Replace\nJSON Replace tool replaces values within a JSON object.\n![](./_assets/json_replace.png)",
+        "category": "tool",
+        "repository": "",
+        "resource": {
+            "memory": 1048576,
+            "permission": {
+                "model": {
+                    "enabled": true,
+                    "llm": true,
+                    "moderation": false,
+                    "rerank": false,
+                    "speech2text": false,
+                    "text_embedding": false,
+                    "tts": false
+                },
+                "tool": {
+                    "enabled": true
+                }
+            }
+        },
+        "privacy_options": "",
+        "privacy_policy": "",
+        "created_at": "2024-11-29T09:07:32.690939Z",
+        "updated_at": "2025-02-17T07:05:30.633926Z",
+        "badges": [],
+        "plugins": {
+            "agent_strategies": null,
+            "endpoints": null,
+            "models": null,
+            "tools": [
+                "provider/json_process.yaml"
+            ]
+        },
+        "endpoint": {},
+        "model": {},
+        "tool": {
+            "credentials_schema": [],
+            "identity": {
+                "author": "Mingwei_Zhang",
+                "description": {
+                    "en_US": "Tools for processing JSON content using jsonpath_ng",
+                    "pt_BR": "Tools for processing JSON content using jsonpath_ng",
+                    "zh_Hans": "利用 jsonpath_ng 处理 JSON 内容的工具"
+                },
+                "icon": "icon.svg",
+                "label": {
+                    "en_US": "JSON Process",
+                    "pt_BR": "JSON Process",
+                    "zh_Hans": "JSON 处理"
+                },
+                "name": "json_process",
+                "tags": [
+                    "utilities"
+                ]
+            },
+            "tools": [
+                {
+                    "description": {
+                        "human": {
+                            "en_US": "A tool for extracting JSON objects",
+                            "pt_BR": "A tool for extracting JSON objects",
+                            "zh_Hans": "一个解析JSON对象的工具"
+                        },
+                        "llm": "A tool for extracting JSON objects"
+                    },
+                    "has_runtime_parameters": false,
+                    "identity": {
+                        "author": "Mingwei_Zhang",
+                        "label": {
+                            "en_US": "JSON Parse",
+                            "pt_BR": "JSON Parse",
+                            "zh_Hans": "JSON 解析"
+                        },
+                        "name": "parse"
+                    },
+                    "output_schema": null,
+                    "parameters": [
+                        {
+                            "auto_generate": null,
+                            "default": null,
+                            "form": "llm",
+                            "human_description": {
+                                "en_US": "JSON data",
+                                "pt_BR": "JSON数据",
+                                "zh_Hans": "JSON数据"
+                            },
+                            "label": {
+                                "en_US": "JSON data",
+                                "pt_BR": "JSON data",
+                                "zh_Hans": "JSON数据"
+                            },
+                            "llm_description": "JSON data to be processed",
+                            "max": null,
+                            "min": null,
+                            "name": "content",
+                            "options": null,
+                            "precision": null,
+                            "required": true,
+                            "scope": null,
+                            "template": null,
+                            "type": "string"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": null,
+                            "form": "llm",
+                            "human_description": {
+                                "en_US": "JSON fields to be parsed",
+                                "pt_BR": "JSON fields to be parsed",
+                                "zh_Hans": "需要解析的 JSON 字段"
+                            },
+                            "label": {
+                                "en_US": "JSON filter",
+                                "pt_BR": "JSON filter",
+                                "zh_Hans": "JSON解析对象"
+                            },
+                            "llm_description": "JSON fields to be parsed",
+                            "max": null,
+                            "min": null,
+                            "name": "json_filter",
+                            "options": null,
+                            "precision": null,
+                            "required": true,
+                            "scope": null,
+                            "template": null,
+                            "type": "string"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": true,
+                            "form": "form",
+                            "human_description": {
+                                "en_US": "Ensure the JSON output is ASCII encoded",
+                                "pt_BR": "Ensure the JSON output is ASCII encoded",
+                                "zh_Hans": "确保输出的 JSON 是 ASCII 编码"
+                            },
+                            "label": {
+                                "en_US": "Ensure ASCII",
+                                "pt_BR": "Ensure ASCII",
+                                "zh_Hans": "确保 ASCII"
+                            },
+                            "llm_description": "",
+                            "max": null,
+                            "min": null,
+                            "name": "ensure_ascii",
+                            "options": null,
+                            "precision": null,
+                            "required": false,
+                            "scope": null,
+                            "template": null,
+                            "type": "boolean"
+                        }
+                    ]
+                },
+                {
+                    "description": {
+                        "human": {
+                            "en_US": "A tool for deleting JSON content",
+                            "pt_BR": "A tool for deleting JSON content",
+                            "zh_Hans": "一个删除 JSON 内容的工具"
+                        },
+                        "llm": "A tool for deleting JSON content"
+                    },
+                    "has_runtime_parameters": false,
+                    "identity": {
+                        "author": "Mingwei_Zhang",
+                        "label": {
+                            "en_US": "JSON Delete",
+                            "pt_BR": "JSON Delete",
+                            "zh_Hans": "JSON 删除"
+                        },
+                        "name": "json_delete"
+                    },
+                    "output_schema": null,
+                    "parameters": [
+                        {
+                            "auto_generate": null,
+                            "default": null,
+                            "form": "llm",
+                            "human_description": {
+                                "en_US": "JSON content to be processed",
+                                "pt_BR": "JSON content to be processed",
+                                "zh_Hans": "待处理的 JSON 内容"
+                            },
+                            "label": {
+                                "en_US": "JSON content",
+                                "pt_BR": "JSON content",
+                                "zh_Hans": "JSON 内容"
+                            },
+                            "llm_description": "JSON content to be processed",
+                            "max": null,
+                            "min": null,
+                            "name": "content",
+                            "options": null,
+                            "precision": null,
+                            "required": true,
+                            "scope": null,
+                            "template": null,
+                            "type": "string"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": null,
+                            "form": "llm",
+                            "human_description": {
+                                "en_US": "JSONPath query to locate the element to delete",
+                                "pt_BR": "JSONPath query to locate the element to delete",
+                                "zh_Hans": "用于定位要删除元素的 JSONPath 查询"
+                            },
+                            "label": {
+                                "en_US": "Query",
+                                "pt_BR": "Query",
+                                "zh_Hans": "查询"
+                            },
+                            "llm_description": "JSONPath query to locate the element to delete",
+                            "max": null,
+                            "min": null,
+                            "name": "query",
+                            "options": null,
+                            "precision": null,
+                            "required": true,
+                            "scope": null,
+                            "template": null,
+                            "type": "string"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": true,
+                            "form": "form",
+                            "human_description": {
+                                "en_US": "Ensure the JSON output is ASCII encoded",
+                                "pt_BR": "Ensure the JSON output is ASCII encoded",
+                                "zh_Hans": "确保输出的 JSON 是 ASCII 编码"
+                            },
+                            "label": {
+                                "en_US": "Ensure ASCII",
+                                "pt_BR": "Ensure ASCII",
+                                "zh_Hans": "确保 ASCII"
+                            },
+                            "llm_description": "",
+                            "max": null,
+                            "min": null,
+                            "name": "ensure_ascii",
+                            "options": null,
+                            "precision": null,
+                            "required": false,
+                            "scope": null,
+                            "template": null,
+                            "type": "boolean"
+                        }
+                    ]
+                },
+                {
+                    "description": {
+                        "human": {
+                            "en_US": "A tool for replacing JSON content",
+                            "pt_BR": "A tool for replacing JSON content",
+                            "zh_Hans": "一个替换 JSON 内容的工具"
+                        },
+                        "llm": "A tool for replacing JSON content"
+                    },
+                    "has_runtime_parameters": false,
+                    "identity": {
+                        "author": "Mingwei_Zhang",
+                        "label": {
+                            "en_US": "JSON Replace",
+                            "pt_BR": "JSON Replace",
+                            "zh_Hans": "JSON 替换"
+                        },
+                        "name": "json_replace"
+                    },
+                    "output_schema": null,
+                    "parameters": [
+                        {
+                            "auto_generate": null,
+                            "default": null,
+                            "form": "llm",
+                            "human_description": {
+                                "en_US": "JSON content",
+                                "pt_BR": "JSON content",
+                                "zh_Hans": "JSON 内容"
+                            },
+                            "label": {
+                                "en_US": "JSON content",
+                                "pt_BR": "JSON content",
+                                "zh_Hans": "JSON 内容"
+                            },
+                            "llm_description": "JSON content to be processed",
+                            "max": null,
+                            "min": null,
+                            "name": "content",
+                            "options": null,
+                            "precision": null,
+                            "required": true,
+                            "scope": null,
+                            "template": null,
+                            "type": "string"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": null,
+                            "form": "llm",
+                            "human_description": {
+                                "en_US": "Query",
+                                "pt_BR": "Query",
+                                "zh_Hans": "查询"
+                            },
+                            "label": {
+                                "en_US": "Query",
+                                "pt_BR": "Query",
+                                "zh_Hans": "查询"
+                            },
+                            "llm_description": "JSONPath query to locate the element to replace",
+                            "max": null,
+                            "min": null,
+                            "name": "query",
+                            "options": null,
+                            "precision": null,
+                            "required": true,
+                            "scope": null,
+                            "template": null,
+                            "type": "string"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": null,
+                            "form": "llm",
+                            "human_description": {
+                                "en_US": "String to be replaced",
+                                "pt_BR": "String to be replaced",
+                                "zh_Hans": "待替换字符串"
+                            },
+                            "label": {
+                                "en_US": "String to be replaced",
+                                "pt_BR": "String to be replaced",
+                                "zh_Hans": "待替换字符串"
+                            },
+                            "llm_description": "String to be replaced",
+                            "max": null,
+                            "min": null,
+                            "name": "replace_pattern",
+                            "options": null,
+                            "precision": null,
+                            "required": false,
+                            "scope": null,
+                            "template": null,
+                            "type": "string"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": null,
+                            "form": "llm",
+                            "human_description": {
+                                "en_US": "New Value",
+                                "pt_BR": "New Value",
+                                "zh_Hans": "新值"
+                            },
+                            "label": {
+                                "en_US": "Replace Value",
+                                "pt_BR": "Replace Value",
+                                "zh_Hans": "替换值"
+                            },
+                            "llm_description": "New Value to replace",
+                            "max": null,
+                            "min": null,
+                            "name": "replace_value",
+                            "options": null,
+                            "precision": null,
+                            "required": true,
+                            "scope": null,
+                            "template": null,
+                            "type": "string"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": false,
+                            "form": "form",
+                            "human_description": {
+                                "en_US": "Whether to decode the value to a JSON object (Does not apply to replace key)",
+                                "pt_BR": "Whether to decode the value to a JSON object (Does not apply to replace key)",
+                                "zh_Hans": "是否将值解码为 JSON 对象 (不适用于键替换)"
+                            },
+                            "label": {
+                                "en_US": "Decode Value",
+                                "pt_BR": "Decode Value",
+                                "zh_Hans": "解码值"
+                            },
+                            "llm_description": "",
+                            "max": null,
+                            "min": null,
+                            "name": "value_decode",
+                            "options": null,
+                            "precision": null,
+                            "required": false,
+                            "scope": null,
+                            "template": null,
+                            "type": "boolean"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": "pattern",
+                            "form": "form",
+                            "human_description": {
+                                "en_US": "Replace Model",
+                                "pt_BR": "Replace Model",
+                                "zh_Hans": "替换模式"
+                            },
+                            "label": {
+                                "en_US": "Replace Model",
+                                "pt_BR": "Replace Model",
+                                "zh_Hans": "替换模式"
+                            },
+                            "llm_description": "",
+                            "max": null,
+                            "min": null,
+                            "name": "replace_model",
+                            "options": [
+                                {
+                                    "label": {
+                                        "en_US": "replace key",
+                                        "pt_BR": "replace key",
+                                        "zh_Hans": "键替换"
+                                    },
+                                    "value": "key"
+                                },
+                                {
+                                    "label": {
+                                        "en_US": "replace value",
+                                        "pt_BR": "replace value",
+                                        "zh_Hans": "值替换"
+                                    },
+                                    "value": "value"
+                                },
+                                {
+                                    "label": {
+                                        "en_US": "replace string",
+                                        "pt_BR": "replace string",
+                                        "zh_Hans": "字符串替换"
+                                    },
+                                    "value": "pattern"
+                                }
+                            ],
+                            "precision": null,
+                            "required": true,
+                            "scope": null,
+                            "template": null,
+                            "type": "select"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": true,
+                            "form": "form",
+                            "human_description": {
+                                "en_US": "Ensure the JSON output is ASCII encoded",
+                                "pt_BR": "Ensure the JSON output is ASCII encoded",
+                                "zh_Hans": "确保输出的 JSON 是 ASCII 编码"
+                            },
+                            "label": {
+                                "en_US": "Ensure ASCII",
+                                "pt_BR": "Ensure ASCII",
+                                "zh_Hans": "确保 ASCII"
+                            },
+                            "llm_description": "",
+                            "max": null,
+                            "min": null,
+                            "name": "ensure_ascii",
+                            "options": null,
+                            "precision": null,
+                            "required": false,
+                            "scope": null,
+                            "template": null,
+                            "type": "boolean"
+                        }
+                    ]
+                },
+                {
+                    "description": {
+                        "human": {
+                            "en_US": "A tool for inserting JSON content",
+                            "pt_BR": "A tool for inserting JSON content",
+                            "zh_Hans": "一个插入 JSON 内容的工具"
+                        },
+                        "llm": "A tool for inserting JSON content"
+                    },
+                    "has_runtime_parameters": false,
+                    "identity": {
+                        "author": "Mingwei_Zhang",
+                        "label": {
+                            "en_US": "JSON Insert",
+                            "pt_BR": "JSON Insert",
+                            "zh_Hans": "JSON 插入"
+                        },
+                        "name": "json_insert"
+                    },
+                    "output_schema": null,
+                    "parameters": [
+                        {
+                            "auto_generate": null,
+                            "default": null,
+                            "form": "llm",
+                            "human_description": {
+                                "en_US": "JSON content",
+                                "pt_BR": "JSON content",
+                                "zh_Hans": "JSON 内容"
+                            },
+                            "label": {
+                                "en_US": "JSON content",
+                                "pt_BR": "JSON content",
+                                "zh_Hans": "JSON 内容"
+                            },
+                            "llm_description": "JSON content to be processed",
+                            "max": null,
+                            "min": null,
+                            "name": "content",
+                            "options": null,
+                            "precision": null,
+                            "required": true,
+                            "scope": null,
+                            "template": null,
+                            "type": "string"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": null,
+                            "form": "llm",
+                            "human_description": {
+                                "en_US": "Object to insert",
+                                "pt_BR": "Object to insert",
+                                "zh_Hans": "待插入的对象"
+                            },
+                            "label": {
+                                "en_US": "Query",
+                                "pt_BR": "Query",
+                                "zh_Hans": "查询"
+                            },
+                            "llm_description": "JSONPath query to locate the element to insert",
+                            "max": null,
+                            "min": null,
+                            "name": "query",
+                            "options": null,
+                            "precision": null,
+                            "required": true,
+                            "scope": null,
+                            "template": null,
+                            "type": "string"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": null,
+                            "form": "llm",
+                            "human_description": {
+                                "en_US": "New Value",
+                                "pt_BR": "New Value",
+                                "zh_Hans": "插入的新值"
+                            },
+                            "label": {
+                                "en_US": "New Value",
+                                "pt_BR": "New Value",
+                                "zh_Hans": "新值"
+                            },
+                            "llm_description": "New Value to insert",
+                            "max": null,
+                            "min": null,
+                            "name": "new_value",
+                            "options": null,
+                            "precision": null,
+                            "required": true,
+                            "scope": null,
+                            "template": null,
+                            "type": "string"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": false,
+                            "form": "form",
+                            "human_description": {
+                                "en_US": "Whether to decode the value to a JSON object",
+                                "pt_BR": "Whether to decode the value to a JSON object",
+                                "zh_Hans": "是否将值解码为 JSON 对象"
+                            },
+                            "label": {
+                                "en_US": "Decode Value",
+                                "pt_BR": "Decode Value",
+                                "zh_Hans": "解码值"
+                            },
+                            "llm_description": "",
+                            "max": null,
+                            "min": null,
+                            "name": "value_decode",
+                            "options": null,
+                            "precision": null,
+                            "required": false,
+                            "scope": null,
+                            "template": null,
+                            "type": "boolean"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": "False",
+                            "form": "form",
+                            "human_description": {
+                                "en_US": "Whether to create a path when the path does not exist",
+                                "pt_BR": "Whether to create a path when the path does not exist",
+                                "zh_Hans": "查询路径不存在时是否创建路径"
+                            },
+                            "label": {
+                                "en_US": "Whether to create a path",
+                                "pt_BR": "Whether to create a path",
+                                "zh_Hans": "是否创建路径"
+                            },
+                            "llm_description": "",
+                            "max": null,
+                            "min": null,
+                            "name": "create_path",
+                            "options": [
+                                {
+                                    "label": {
+                                        "en_US": "Yes",
+                                        "pt_BR": "Yes",
+                                        "zh_Hans": "是"
+                                    },
+                                    "value": "True"
+                                },
+                                {
+                                    "label": {
+                                        "en_US": "No",
+                                        "pt_BR": "No",
+                                        "zh_Hans": "否"
+                                    },
+                                    "value": "False"
+                                }
+                            ],
+                            "precision": null,
+                            "required": true,
+                            "scope": null,
+                            "template": null,
+                            "type": "select"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": true,
+                            "form": "form",
+                            "human_description": {
+                                "en_US": "Ensure the JSON output is ASCII encoded",
+                                "pt_BR": "Ensure the JSON output is ASCII encoded",
+                                "zh_Hans": "确保输出的 JSON 是 ASCII 编码"
+                            },
+                            "label": {
+                                "en_US": "Ensure ASCII",
+                                "pt_BR": "Ensure ASCII",
+                                "zh_Hans": "确保 ASCII"
+                            },
+                            "llm_description": "",
+                            "max": null,
+                            "min": null,
+                            "name": "ensure_ascii",
+                            "options": null,
+                            "precision": null,
+                            "required": false,
+                            "scope": null,
+                            "template": null,
+                            "type": "boolean"
+                        }
+                    ]
+                }
+            ]
+        },
+        "agent_strategy": {},
+        "install_count": 10018,
+        "version_updated_at": "2025-02-17T07:05:30.633892Z",
+        "latest_version": "0.0.2",
+        "latest_package_identifier": "langgenius/json_process:0.0.2@7afb534cc85b28a8e9c7f9410d1cfc31fb7bd3950023355a37059dbe809ac776",
+        "tags": [
+            {
+                "name": "utilities"
+            }
+        ]
+    },
+    {
+        "type": "plugin",
+        "name": "regex",
+        "org": "langgenius",
+        "plugin_id": "langgenius/regex",
+        "icon": "langgenius/packages/regex/_assets/icon.svg",
+        "label": {
+            "en_US": "Regex",
+            "pt_BR": "Regex",
+            "zh_Hans": "正则表达式提取"
+        },
+        "brief": {
+            "en_US": "A tool for regex extraction.",
+            "pt_BR": "A tool for regex extraction.",
+            "zh_Hans": "一个用于正则表达式内容提取的工具。"
+        },
+        "introduction": "# Overview\nThe Regex Extract tool is a utility that helps users extract specific patterns of text using regular expressions (regex).\n\n# Configure\n1. Install Regex from Dify Marketplace.\n![](./_assets/regex_install.png)\n2. Fill in Content to be extracted and Regular expression.\n![](./_assets/regex_config.png)\n![](./_assets/regex_test.png)",
+        "category": "tool",
+        "repository": "",
+        "resource": {
+            "memory": 1048576,
+            "permission": {
+                "model": {
+                    "enabled": true,
+                    "llm": true,
+                    "moderation": false,
+                    "rerank": false,
+                    "speech2text": false,
+                    "text_embedding": false,
+                    "tts": false
+                },
+                "tool": {
+                    "enabled": true
+                }
+            }
+        },
+        "privacy_options": "",
+        "privacy_policy": "",
+        "created_at": "2024-12-04T08:19:17.606128Z",
+        "updated_at": "2025-02-17T07:11:23.217599Z",
+        "badges": [],
+        "plugins": {
+            "agent_strategies": null,
+            "endpoints": null,
+            "models": null,
+            "tools": [
+                "provider/regex.yaml"
+            ]
+        },
+        "endpoint": {},
+        "model": {},
+        "tool": {
+            "credentials_schema": [],
+            "identity": {
+                "author": "zhuhao",
+                "description": {
+                    "en_US": "A tool for regex extraction.",
+                    "pt_BR": "A tool for regex extraction.",
+                    "zh_Hans": "一个用于正则表达式内容提取的工具。"
+                },
+                "icon": "icon.svg",
+                "label": {
+                    "en_US": "Regex",
+                    "pt_BR": "Regex",
+                    "zh_Hans": "正则表达式提取"
+                },
+                "name": "regex",
+                "tags": [
+                    "utilities",
+                    "productivity"
+                ]
+            },
+            "tools": [
+                {
+                    "description": {
+                        "human": {
+                            "en_US": "A tool for extracting matching content using regular expressions.",
+                            "pt_BR": "A tool for extracting matching content using regular expressions.",
+                            "zh_Hans": "一个用于利用正则表达式提取匹配内容结果的工具。"
+                        },
+                        "llm": "A tool for extracting matching content using regular expressions."
+                    },
+                    "has_runtime_parameters": false,
+                    "identity": {
+                        "author": "zhuhao",
+                        "label": {
+                            "en_US": "Regex Extract",
+                            "pt_BR": "Regex Extract",
+                            "zh_Hans": "正则表达式内容提取"
+                        },
+                        "name": "regex_extract"
+                    },
+                    "output_schema": null,
+                    "parameters": [
+                        {
+                            "auto_generate": null,
+                            "default": null,
+                            "form": "llm",
+                            "human_description": {
+                                "en_US": "Content to be extracted",
+                                "pt_BR": "Content to be extracted",
+                                "zh_Hans": "内容"
+                            },
+                            "label": {
+                                "en_US": "Content to be extracted",
+                                "pt_BR": "Content to be extracted",
+                                "zh_Hans": "内容"
+                            },
+                            "llm_description": "",
+                            "max": null,
+                            "min": null,
+                            "name": "content",
+                            "options": null,
+                            "precision": null,
+                            "required": true,
+                            "scope": null,
+                            "template": null,
+                            "type": "string"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": null,
+                            "form": "llm",
+                            "human_description": {
+                                "en_US": "Regular expression",
+                                "pt_BR": "Regular expression",
+                                "zh_Hans": "正则表达式"
+                            },
+                            "label": {
+                                "en_US": "Regular expression",
+                                "pt_BR": "Regular expression",
+                                "zh_Hans": "正则表达式"
+                            },
+                            "llm_description": "",
+                            "max": null,
+                            "min": null,
+                            "name": "expression",
+                            "options": null,
+                            "precision": null,
+                            "required": true,
+                            "scope": null,
+                            "template": null,
+                            "type": "string"
+                        }
+                    ]
+                }
+            ]
+        },
+        "agent_strategy": {},
+        "install_count": 3675,
+        "version_updated_at": "2025-02-17T07:11:23.21756Z",
+        "latest_version": "0.0.3",
+        "latest_package_identifier": "langgenius/regex:0.0.3@55439fc9083494e90856405256a1755c4ee47aa395cef50b6fc3614d4f11a479",
+        "tags": [
+            {
+                "name": "productivity"
+            },
+            {
+                "name": "utilities"
+            }
+        ]
+    },
+    {
+        "type": "plugin",
+        "name": "spider",
+        "org": "langgenius",
+        "plugin_id": "langgenius/spider",
+        "icon": "langgenius/packages/spider/_assets/icon.svg",
+        "label": {
+            "en_US": "Spider"
+        },
+        "brief": {
+            "en_US": "Spider API integration, returning LLM-ready data by scraping & crawling websites."
+        },
+        "introduction": "# Overview\nSpider is a web crawler for AI agents and LLMs provided by spider.cloud.\n## Configure\n### Get API Key\n1. Create an account in spider.cloud.\n2. Add sufficient fund to Spider.\n3. Get an [API key](https://spider.cloud/api-keys).\n![](_assets/spider_api.PNG)\nConfigure Spider tool\n1. Install Spider from Marketplace. \n![](_assets/spider_install.PNG)\n2. Add Spider node to your workflow.\n3. Fill in the Spider API key.",
+        "category": "tool",
+        "repository": "",
+        "resource": {
+            "memory": 1048576,
+            "permission": {
+                "model": {
+                    "enabled": true,
+                    "llm": true,
+                    "moderation": false,
+                    "rerank": false,
+                    "speech2text": false,
+                    "text_embedding": false,
+                    "tts": false
+                },
+                "tool": {
+                    "enabled": true
+                }
+            }
+        },
+        "privacy_options": "",
+        "privacy_policy": "",
+        "created_at": "2024-12-04T04:46:54.782244Z",
+        "updated_at": "2025-02-17T07:13:35.775474Z",
+        "badges": [],
+        "plugins": {
+            "agent_strategies": null,
+            "endpoints": null,
+            "models": null,
+            "tools": [
+                "provider/spider.yaml"
+            ]
+        },
+        "endpoint": {},
+        "model": {},
+        "tool": {
+            "credentials_schema": [
+                {
+                    "default": null,
+                    "helper": null,
+                    "label": {
+                        "en_US": "Spider API Key"
+                    },
+                    "name": "spider_api_key",
+                    "options": null,
+                    "placeholder": {
+                        "en_US": "Please input your Spider API key"
+                    },
+                    "required": true,
+                    "scope": null,
+                    "type": "secret-input",
+                    "url": "https://spider.cloud/"
+                }
+            ],
+            "identity": {
+                "author": "William Espegren",
+                "description": {
+                    "en_US": "Spider API integration, returning LLM-ready data by scraping & crawling websites."
+                },
+                "icon": "icon.svg",
+                "label": {
+                    "en_US": "Spider"
+                },
+                "name": "spider",
+                "tags": [
+                    "search",
+                    "utilities"
+                ]
+            },
+            "tools": [
+                {
+                    "description": {
+                        "human": {
+                            "en_US": "A tool for scraping & crawling webpages. Input should be a url.",
+                            "zh_Hans": "用于抓取和爬取网页的工具。输入应该是一个网址。"
+                        },
+                        "llm": "A tool for scraping & crawling webpages. Input should be a url."
+                    },
+                    "has_runtime_parameters": false,
+                    "identity": {
+                        "author": "William Espegren",
+                        "label": {
+                            "en_US": "Web Scraper & Crawler",
+                            "zh_Hans": "网页抓取与爬虫"
+                        },
+                        "name": "scraper_crawler"
+                    },
+                    "output_schema": null,
+                    "parameters": [
+                        {
+                            "auto_generate": null,
+                            "default": null,
+                            "form": "llm",
+                            "human_description": {
+                                "en_US": "url to be scraped or crawled",
+                                "zh_Hans": "要抓取或爬取的网址"
+                            },
+                            "label": {
+                                "en_US": "URL",
+                                "zh_Hans": "网址"
+                            },
+                            "llm_description": "url to either be scraped or crawled",
+                            "max": null,
+                            "min": null,
+                            "name": "url",
+                            "options": null,
+                            "precision": null,
+                            "required": true,
+                            "scope": null,
+                            "template": null,
+                            "type": "string"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": "crawl",
+                            "form": "form",
+                            "human_description": {
+                                "en_US": "used for selecting to either scrape the website or crawl the entire website following subpages",
+                                "zh_Hans": "用于选择抓取网站或爬取整个网站及其子页面"
+                            },
+                            "label": {
+                                "en_US": "Mode",
+                                "zh_Hans": "模式"
+                            },
+                            "llm_description": "",
+                            "max": null,
+                            "min": null,
+                            "name": "mode",
+                            "options": [
+                                {
+                                    "label": {
+                                        "en_US": "scrape",
+                                        "zh_Hans": "抓取"
+                                    },
+                                    "value": "scrape"
+                                },
+                                {
+                                    "label": {
+                                        "en_US": "crawl",
+                                        "zh_Hans": "爬取"
+                                    },
+                                    "value": "crawl"
+                                }
+                            ],
+                            "precision": null,
+                            "required": true,
+                            "scope": null,
+                            "template": null,
+                            "type": "select"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": 0,
+                            "form": "form",
+                            "human_description": {
+                                "en_US": "specify the maximum number of pages to crawl per website. the crawler will stop after reaching this limit.",
+                                "zh_Hans": "指定每个网站要爬取的最大页面数。爬虫将在达到此限制后停止。"
+                            },
+                            "label": {
+                                "en_US": "maximum number of pages to crawl",
+                                "zh_Hans": "最大爬取页面数"
+                            },
+                            "llm_description": "",
+                            "max": null,
+                            "min": 0,
+                            "name": "limit",
+                            "options": null,
+                            "precision": null,
+                            "required": false,
+                            "scope": null,
+                            "template": null,
+                            "type": "number"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": 0,
+                            "form": "form",
+                            "human_description": {
+                                "en_US": "the crawl limit for maximum depth.",
+                                "zh_Hans": "最大爬取深度的限制。"
+                            },
+                            "label": {
+                                "en_US": "maximum depth of pages to crawl",
+                                "zh_Hans": "最大爬取深度"
+                            },
+                            "llm_description": "",
+                            "max": null,
+                            "min": 0,
+                            "name": "depth",
+                            "options": null,
+                            "precision": null,
+                            "required": false,
+                            "scope": null,
+                            "template": null,
+                            "type": "number"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": null,
+                            "form": "form",
+                            "human_description": {
+                                "en_US": "blacklist a set of paths that you do not want to crawl. you can use regex patterns to help with the list.",
+                                "zh_Hans": "指定一组不想爬取的路径。您可以使用正则表达式模式来帮助定义列表。"
+                            },
+                            "label": {
+                                "en_US": "url patterns to exclude",
+                                "zh_Hans": "要排除的URL模式"
+                            },
+                            "llm_description": "",
+                            "max": null,
+                            "min": null,
+                            "name": "blacklist",
+                            "options": null,
+                            "precision": null,
+                            "required": false,
+                            "scope": null,
+                            "template": null,
+                            "type": "string"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": null,
+                            "form": "form",
+                            "human_description": {
+                                "en_US": "Whitelist a set of paths that you want to crawl, ignoring all other routes that do not match the patterns. You can use regex patterns to help with the list.",
+                                "zh_Hans": "指定一组要爬取的路径，忽略所有不匹配模式的其他路由。您可以使用正则表达式模式来帮助定义列表。"
+                            },
+                            "label": {
+                                "en_US": "URL patterns to include",
+                                "zh_Hans": "要包含的URL模式"
+                            },
+                            "llm_description": "",
+                            "max": null,
+                            "min": null,
+                            "name": "whitelist",
+                            "options": null,
+                            "precision": null,
+                            "required": false,
+                            "scope": null,
+                            "template": null,
+                            "type": "string"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": false,
+                            "form": "form",
+                            "human_description": {
+                                "en_US": "Use Mozilla's readability to pre-process the content for reading. This may drastically improve the content for LLM usage.",
+                                "zh_Hans": "如果启用，爬虫将仅返回页面的主要内容，不包括标题、导航、页脚等。"
+                            },
+                            "label": {
+                                "en_US": "Pre-process the content for LLM usage",
+                                "zh_Hans": "仅返回页面的主要内容"
+                            },
+                            "llm_description": "",
+                            "max": null,
+                            "min": null,
+                            "name": "readability",
+                            "options": null,
+                            "precision": null,
+                            "required": false,
+                            "scope": null,
+                            "template": null,
+                            "type": "boolean"
+                        }
+                    ]
+                }
+            ]
+        },
+        "agent_strategy": {},
+        "install_count": 1417,
+        "version_updated_at": "2025-02-17T07:13:35.775439Z",
+        "latest_version": "0.0.2",
+        "latest_package_identifier": "langgenius/spider:0.0.2@1f800653747430d0791387dc84f27de0fadba2ceadce8251fcce2a8cde808611",
+        "tags": [
+            {
+                "name": "utilities"
+            },
+            {
+                "name": "search"
+            }
+        ]
+    },
+    {
+        "type": "plugin",
+        "name": "github",
+        "org": "langgenius",
+        "plugin_id": "langgenius/github",
+        "icon": "langgenius/packages/github/_assets/icon.svg",
+        "label": {
+            "en_US": "Github",
+            "pt_BR": "Github",
+            "zh_Hans": "Github"
+        },
+        "brief": {
+            "en_US": "GitHub is an online software source code hosting service.",
+            "pt_BR": "GitHub é uma plataforma online para serviços de hospedagem de código fonte de software.",
+            "zh_Hans": "GitHub是一个在线软件源代码托管服务平台。"
+        },
+        "introduction": "# GitHub\n\n## Overview\n\nGitHub is a web-based platform for version control and collaboration, primarily used for software development. As a tool in Dify, it provides users the ability to search repositories by keywords.\n\n## Configuration\n\n### 1. Apply for API Key and Version\n\nPlease apply for an [API Key](https://github.com/settings/personal-access-tokens) and the [API version](https://docs.github.com/en/rest/about-the-rest-api/api-versions?apiVersion=2022-11-28).\n\n### 2. Get GitHub tools from Plugin Marketplace\n\nThe GitHub tools can be found in the Plugin Marketplace. Please install it first.\n\n### 3. Fill in the configuration in Dify\n\nOn the Dify navigation page, click `Tools > GitHub > Authorize` and fill in the API Key.\n\n![](./_assets/github_1.PNG)\n\n### 4. Using the tool\n\nYou can use the GitHub tool in the following application types:\n\n#### Chatflow / Workflow applications\n\nBoth Chatflow and Workflow applications support adding a GitHub tool node.\n\n![](./_assets/github_2.PNG)\n\n#### Agent applications\n\nAdd the GitHub tool in the Agent application, then enter repository search instructions to call this tool.\n\n![](./_assets/github_3.PNG)",
+        "category": "tool",
+        "repository": "",
+        "resource": {
+            "memory": 1048576,
+            "permission": {
+                "model": {
+                    "enabled": true,
+                    "llm": true,
+                    "moderation": false,
+                    "rerank": false,
+                    "speech2text": false,
+                    "text_embedding": false,
+                    "tts": false
+                },
+                "tool": {
+                    "enabled": true
+                }
+            }
+        },
+        "privacy_options": "",
+        "privacy_policy": "",
+        "created_at": "2024-11-29T06:16:42.366115Z",
+        "updated_at": "2025-02-17T07:12:47.909233Z",
+        "badges": [],
+        "plugins": {
+            "agent_strategies": null,
+            "endpoints": null,
+            "models": null,
+            "tools": [
+                "provider/github.yaml"
+            ]
+        },
+        "endpoint": {},
+        "model": {},
+        "tool": {
+            "credentials_schema": [
+                {
+                    "default": null,
+                    "helper": null,
+                    "label": {
+                        "en_US": "Access Tokens",
+                        "pt_BR": "Tokens de acesso",
+                        "zh_Hans": "Access Tokens"
+                    },
+                    "name": "access_tokens",
+                    "options": null,
+                    "placeholder": {
+                        "en_US": "Please input your Github Access Tokens",
+                        "pt_BR": "Insira seus Tokens de Acesso do Github",
+                        "zh_Hans": "请输入你的 Github Access Tokens"
+                    },
+                    "required": true,
+                    "scope": null,
+                    "type": "secret-input",
+                    "url": "https://github.com/settings/tokens?type=beta"
+                },
+                {
+                    "default": "2022-11-28",
+                    "helper": null,
+                    "label": {
+                        "en_US": "API Version",
+                        "pt_BR": "Versão da API",
+                        "zh_Hans": "API Version"
+                    },
+                    "name": "api_version",
+                    "options": null,
+                    "placeholder": {
+                        "en_US": "Please input your Github API Version",
+                        "pt_BR": "Insira sua versão da API do Github",
+                        "zh_Hans": "请输入你的 Github API Version"
+                    },
+                    "required": false,
+                    "scope": null,
+                    "type": "text-input",
+                    "url": "https://docs.github.com/en/rest/about-the-rest-api/api-versions?apiVersion=2022-11-28"
+                }
+            ],
+            "identity": {
+                "author": "CharlieWei",
+                "description": {
+                    "en_US": "GitHub is an online software source code hosting service.",
+                    "pt_BR": "GitHub é uma plataforma online para serviços de hospedagem de código fonte de software.",
+                    "zh_Hans": "GitHub是一个在线软件源代码托管服务平台。"
+                },
+                "icon": "icon.svg",
+                "label": {
+                    "en_US": "Github",
+                    "pt_BR": "Github",
+                    "zh_Hans": "Github"
+                },
+                "name": "github",
+                "tags": [
+                    "utilities"
+                ]
+            },
+            "tools": [
+                {
+                    "description": {
+                        "human": {
+                            "en_US": "Search the Github repository to retrieve the open source projects you need",
+                            "pt_BR": "Pesquise o repositório do Github para recuperar os projetos de código aberto necessários.",
+                            "zh_Hans": "搜索Github仓库，检索你需要的开源项目。"
+                        },
+                        "llm": "A tool when you wants to search for popular warehouses or open source projects for any keyword. format query condition like \"keywords+language:js\", language can be other dev languages."
+                    },
+                    "has_runtime_parameters": false,
+                    "identity": {
+                        "author": "CharlieWei",
+                        "label": {
+                            "en_US": "Search Repositories",
+                            "pt_BR": "Pesquisar Repositórios",
+                            "zh_Hans": "仓库搜索"
+                        },
+                        "name": "github_repositories"
+                    },
+                    "output_schema": null,
+                    "parameters": [
+                        {
+                            "auto_generate": null,
+                            "default": null,
+                            "form": "llm",
+                            "human_description": {
+                                "en_US": "You want to find the project development language, keywords, For example. Find 10 Python developed PDF document parsing projects.",
+                                "pt_BR": "Você deseja encontrar a linguagem de desenvolvimento do projeto, palavras-chave, Por exemplo. Encontre 10 projetos de análise de documentos PDF desenvolvidos em Python.",
+                                "zh_Hans": "你想要找的项目开发语言、关键字，如：找10个Python开发的PDF文档解析项目。"
+                            },
+                            "label": {
+                                "en_US": "query",
+                                "pt_BR": "consulta",
+                                "zh_Hans": "关键字"
+                            },
+                            "llm_description": "The query of you want to search, format query condition like \"keywords+language:js\", language can be other dev languages.",
+                            "max": null,
+                            "min": null,
+                            "name": "query",
+                            "options": null,
+                            "precision": null,
+                            "required": true,
+                            "scope": null,
+                            "template": null,
+                            "type": "string"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": 5,
+                            "form": "llm",
+                            "human_description": {
+                                "en_US": "Number of records returned by sorting based on stars. 5 is returned by default.",
+                                "pt_BR": "Número de registros retornados por classificação com base em estrelas. 5 é retornado por padrão.",
+                                "zh_Hans": "基于stars排序返回的记录数, 默认返回5条。"
+                            },
+                            "label": {
+                                "en_US": "Top N",
+                                "pt_BR": "Topo N",
+                                "zh_Hans": "Top N"
+                            },
+                            "llm_description": "Extract the first N records from the returned result.",
+                            "max": null,
+                            "min": null,
+                            "name": "top_n",
+                            "options": null,
+                            "precision": null,
+                            "required": true,
+                            "scope": null,
+                            "template": null,
+                            "type": "number"
+                        }
+                    ]
+                }
+            ]
+        },
+        "agent_strategy": {},
+        "install_count": 3461,
+        "version_updated_at": "2025-02-17T07:12:47.909197Z",
+        "latest_version": "0.0.2",
+        "latest_package_identifier": "langgenius/github:0.0.2@e65720a2d2f06233dd8e8b194d3b1b82e601aacf8c786ab4f958528981798226",
+        "tags": [
+            {
+                "name": "utilities"
+            }
+        ]
+    }
+]
