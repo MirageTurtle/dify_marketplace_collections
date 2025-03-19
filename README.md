@@ -1,5 +1,7 @@
 # Dify Marketplace Collections
 
+*NOTE*: I find tha All tab does not return all tools, so this project goes to WIP.
+
 This repo collects the all collections from [Dify Marketplace](https://marketplace.dify.ai/), it will check them every day.
 
 You can get the categories of collections at [collections.json](./collections.json).
