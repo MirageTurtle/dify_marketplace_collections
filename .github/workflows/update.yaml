@@ -26,8 +26,6 @@ jobs:
 
       - name: Run
         run: |
-          mkdir -p ./collections
-          mkdir -p ./difypkg
           python ./main.py
 
       - name: Commit and push if there are changes
