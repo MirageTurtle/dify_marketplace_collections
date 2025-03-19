@@ -3,15 +3,34 @@ from typing import Optional
 import json
 from pathlib import Path
 import sys
-
-# import concurrent.futures
-# from functools import partial
 import logging
 import os
 import time
+import random
 
 
 logger = logging.getLogger(__name__)
+logger.setLevel(logging.INFO)
+formatter = logging.Formatter(
+    "%(asctime)s %(levelname)s %(name)s: %(message)s",
+    datefmt="%Y-%m-%d %H:%M:%S",
+)
+stream_handler = logging.StreamHandler(sys.stdout)
+stream_handler.setFormatter(formatter)
+logger.addHandler(stream_handler)
+
+
+CATEGORIES = [
+    "model",
+    "tool",
+    "agent-strategy",
+    "extension",
+    "bundle",
+]
+DATA_DIR = Path("./data")
+DIFFYPKG_DIR = Path("./difypkg")
+os.makedirs(DATA_DIR, exist_ok=True)
+os.makedirs(DIFFYPKG_DIR, exist_ok=True)
 
 
 def init_session():
@@ -37,53 +56,83 @@ def init_session():
     return session
 
 
-def get_collections(
-    session: httpx.Client, timeout: int = 10
+def get_plugins_info_by_category(
+    session: httpx.Client, category: str, timeout: int = 10
 ) -> tuple[bool, list[dict], Optional[str]]:
     """
-    Get all collections from the marketplace.
+    Get all plugin info by category.
     :param session: HTTP session
+    :param category: Category of the plugin
     :param timeout: Timeout in seconds
-    :return: Tuple of status, collections, and error message
+    :return: Tuple of status, list of plugins, and error message
     """
-    url = "https://marketplace.dify.ai/api/v1/collections?page=1&page_size=100"
-    response = session.get(url, timeout=timeout)
+    plugins = []
+    url = "https://marketplace.dify.ai/api/v1/plugins/search/advanced"
+    payload = {
+        "page": 1,
+        "page_size": 40,
+        "query": "",
+        "sort_by": "install_count",
+        "sort_order": "DESC",
+        "category": category,
+        "tags": [],
+        "type": "plugin",
+    }
+    response = session.post(url, timeout=timeout, json=payload)
+    while response.status_code == 200:
+        _total = response.json()["data"]["total"]
+        if len(plugins) < _total:
+            _plugins = response.json()["data"]["plugins"]
+            plugins.extend(_plugins)
+            logger.info(
+                f"Retrieved {len(_plugins)} plugins at this iteration, total {len(plugins)}/{_total} plugins."
+            )
+            random_sleep()
+        else:
+            break
+        payload["page"] += 1
+        response = session.post(url, timeout=timeout, json=payload)
     if response.status_code == 200:
-        collections = response.json()
-        collections = collections["data"]["collections"]
-        return True, collections, None
+        return True, plugins, None
     else:
         return False, [], response.text
 
 
-def save_collections(
-    collections: list[dict], file_path: Path = Path("./collections.json")
+def save_plugin_info(
+    plugins_info: list[dict], file_path: Path = Path("./plugins.json")
 ) -> None:
     """
-    Save collections to a JSON file.
-    :param collections: List of collections
+    Save the plugin info to a JSON file.
+    :param plugins_info: List of plugin info
     :param file_path: File path to save the collections
     :Note: It does not check the file path (validity, format, parent directory, etc.)
     """
-    # If file_path is "./collections.json", show a warning message
-    if file_path.resolve() == Path("./collections.json").resolve():
-        logger.warning(
-            "You are saving the default collections file 'collections.json'."
-        )
+    # If file_path is default, show a warning message
+    _defualt_file_path = Path("./plugins.json")
+    if file_path.resolve() == _defualt_file_path.resolve():
+        logger.warning("You are saving to the default file '{_defualt_file_path}'.")
     with open(file_path, "w") as f:
-        f.write(json.dumps(collections, indent=4, ensure_ascii=False))
+        f.write(json.dumps(plugins_info, indent=4, ensure_ascii=False))
+    logger.info(f"Saved plugin info to '{file_path}'.")
 
 
 def get_single_collection(
     session: httpx.Client, collection_name: str, timeout: int = 10
 ) -> tuple[bool, list[dict], Optional[str]]:
     """
+    DEPRECATED:
+    Because I change the strategy to get all plugins by category.
+
     Get a collection by name.
     :param session: HTTP session
     :param collection_name: Name of the collection
     :param timeout: Timeout in seconds
     :return: Tuple of status, collection, and error message
     """
+    # deprecated information
+    logger.warning("You are using a deprecated function 'get_single_collection'.")
+    logger.warning("This function is deprecated because the change in strategy.")
+    logger.warning("You are advised to use 'get_plugins_info_by_category' instead.")
     url = f"https://marketplace.dify.ai/api/v1/collections/{collection_name}/plugins"
     payload = "{}"  # Empty payload (string)
     response = session.post(url, timeout=timeout, data=payload)
@@ -99,14 +148,22 @@ def save_collection(
     collection: list[dict], file_path: Path = Path("./collection.json")
 ) -> None:
     """
+    DEPRECATED:
+    Because I change the strategy to get all plugins by category.
+
     Save a collection to a JSON file.
     :param collection: Collection
     :param file_path: File path to save the collection
     :Note: It does not check the file path (validity, format, parent directory, etc.)
     """
-    # If file_path is "./collection.json", show a warning message
-    if file_path.resolve() == Path("./collection.json").resolve():
-        logger.warning("You are saving the default collection file 'collection.json'.")
+    # deprecated information
+    logger.warning("You are using a deprecated function 'save_collection'.")
+    logger.warning("This function is deprecated because the change in strategy.")
+    logger.warning("You are advised to use 'save_plugins_info_by_category' instead.")
+    # If file_path is default, show a warning message
+    _defualt_file_path = Path("./collection.json")
+    if file_path.resolve() == _defualt_file_path.resolve():
+        logger.warning("You are saving to the default file '{_defualt_file_path}'.")
     with open(file_path, "w") as f:
         f.write(json.dumps(collection, indent=4, ensure_ascii=False))
 
@@ -117,7 +174,7 @@ def download_difypkg(
     hash: str,
     difypkg_dir: Path = Path("./difypkg"),
     timeout: int = 10,
-) -> tuple[bool, Optional[str]]:
+) -> tuple[Optional[bool], Optional[str]]:
     """
     Download a Difypkg file.
     :param plugin_id: ID of the plugin
@@ -132,15 +189,21 @@ def download_difypkg(
     )
     if difypkg_file.exists():
         logger.info(f"Difypkg file '{difypkg_file}' already exists.")
-        return True, None
+        return None, None
     url = f"https://marketplace.dify.ai/api/v1/plugins/{plugin_id}/{plugin_version}/download"
-    response = httpx.get(url, timeout=timeout)
-    if response.status_code == 200:
-        with open(difypkg_file, "wb") as file:
-            file.write(response.content)
-        return True, None
-    else:
-        return False, response.text
+    try:
+        response = httpx.get(url, timeout=timeout)
+        if response.status_code == 200:
+            with open(difypkg_file, "wb") as file:
+                file.write(response.content)
+            logger.info(f"Downloaded difypkg file '{difypkg_file}'.")
+            return True, None
+        else:
+            logger.error(f"Error with url '{url}': {response.text}")
+            return False, response.text
+    except Exception as e:
+        logger.error(f"Error with url '{url}': {e}")
+        return False, str(e)
 
 
 def get_plugin_info(plugin: dict) -> tuple[str, str, str]:
@@ -156,39 +219,34 @@ def get_plugin_info(plugin: dict) -> tuple[str, str, str]:
     return plugin_id, version, hash
 
 
+def random_sleep(min: int = 1, max: int = 3) -> None:
+    time.sleep(random.randint(min, max))
+
+
 if __name__ == "__main__":
     session = init_session()
-    # Get collections
-    status, collections, error = get_collections(session)
-    if status:
-        save_collections(collections)
-        logger.info("Collections saved successfully.")
-    else:
-        logger.error(f"Failed to get collections: {error}")
-        sys.exit(1)
-    time.sleep(1)
-    # Get each collection and save it
-    for collection in collections:
-        status, collection_data, error = get_single_collection(
-            session, collection["name"]
-        )
+    for category in CATEGORIES:
+        # Get all plugins info by category
+        status, plugins_info, error = get_plugins_info_by_category(session, category)
+        random_sleep()
         if status:
-            save_collection(
-                collection_data, Path(f"./collections/{collection['name']}.json")
+            logger.info(
+                f"Retrieved {len(plugins_info)} plugins for category '{category}'"
             )
-            logger.info(f"Collection '{collection['name']}' saved successfully.")
-            # Download difypkg files of each plugin in the collection
-            difypkg_dir = Path(f"./difypkg/{collection['name']}")
-            os.makedirs(difypkg_dir, exist_ok=True)
-            for plugin in collection_data:
-                plugin_id, version, hash = get_plugin_info(plugin)
-                status, error = download_difypkg(plugin_id, version, hash, difypkg_dir)
-                if status:
-                    logger.info(f"Plugin '{plugin_id}' downloaded successfully.")
-                else:
-                    logger.error(f"Failed to download plugin '{plugin_id}': {error}")
-                time.sleep(1)
+            save_plugin_info(plugins_info, DATA_DIR / f"{category}.json")
         else:
-            logger.error(f"Failed to get collection '{collection['name']}': {error}")
-        time.sleep(1)
+            logger.error(f"Error: {error}")
+            continue
+        for plugin in plugins_info:
+            # Get plugin info and download difypkg
+            plugin_id, version, hash = get_plugin_info(plugin)
+            os.makedirs(DIFFYPKG_DIR / category, exist_ok=True)
+            status, error = download_difypkg(
+                plugin_id, version, hash, DIFFYPKG_DIR / category
+            )
+            if status is None:
+                continue
+            else:
+                random_sleep()
+            
     session.close()
