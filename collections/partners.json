@@ -324,7 +324,7 @@
             ]
         },
         "agent_strategy": {},
-        "install_count": 699,
+        "install_count": 724,
         "version_updated_at": "2025-03-07T12:57:23.549663Z",
         "latest_version": "1.0.0",
         "latest_package_identifier": "jayfish0/agentql:1.0.0@0d612ddf87b1159b73766957b0c9ce06ccf4fded7c45d0a67ea284499baffbcb",
@@ -348,7 +348,7 @@
             "pt_BR": "Agora Conversational AI é uma plataforma de IA conversacional que permite aos desenvolvedores construir assistentes de voz alimentados pelo Dify Agent.",
             "zh_Hans": "Agora Conversational AI 是一个会话式 AI 平台，使开发人员能够构建由 Dify Agent 提供支持的语音助手。"
         },
-        "introduction": "## Agora Conversational AI\n\n**Author:** plutoless\n**Version:** 0.0.3\n**Type:** extension\n\n### Description\n\n#### Overview\n\nThis extension provides an endpoint to make Dify agents work with Agora Conversational AI. You can easily turn your Dify agents into voice assistant by using this extension.\n\n#### Configuration\n\n- **APP**\n    The Dify App to turn into voice assistant, choose one from your agent library.\n- **Agora App ID**\n    The Agora App ID to use for RTC service. Get it from [Agora Console](https://console.agora.io/). Note to enable the Agora Conversational AI service in the Agora Console.\n- **Agora RESTful Customer ID**\n    The Agora RESTful Customer ID to use for RTC service. Get it from [Agora Console](https://console.agora.io/).\n- **Agora RESTful Customer Secret**\n    The Agora RESTful Customer Secret to use for RTC service. Get it from [Agora Console](https://console.agora.io/).\n- **TTS Vendor**\n    The TTS vendor to use for voice synthesis. Choose one from the list below.\n  - **Azure**\n- **TTS Vendor Params**\n    The parameters for the TTS vendor. The parameters are different for each vendor, please refer to the vendor's documentation for more information.\n  - **Azure**\n\n    ```json\n    {\n        \"key\": \"<your api key>\",\n        \"region\": \"eastasia\",\n        \"voice_name\": \"en-US-AndrewMultilingualNeural\"\n    }\n    ```\n\n- **Greeting Message**\n    The message to greet the user when the conversation starts.\n- **Failure Message**\n    The message to tell the user when the conversation fails.\n- **Agora App Certificate**\n    The Agora App Certificate to use for RTC service. Get it from [Agora Console](https://console.agora.io/). Only needed when security token is enabled for your Agora project.\n- **API Key**\n    The API Key to protect your Dify endpoint.\n\n#### Usage\n\nOnce you finish the configuration, in the endpoint you may find the api endpoint like following:\n\n`https://daemon-plugin.dify.dev/3VYwP********12/convoai-web/<file>`\n\nReplace `<file>` with `index.html`,\n\nThen you may navigate to following url to access the integrated Conversational AI web page.\n\n`https://daemon-plugin.dify.dev/3VYwP********12/convoai-web/index.html`\n\n#### Using API without Web Page\n\nYou can also use the API directly without the web page. The API endpoint is:\n\n##### Start Conversation\n\nAPI Endpoint: `https://qv90***.ai-plugin.io/convoai-start`\n\n| key | value |\n| --- | --- |\n| base_url | The base url of the extension |\n| channel | The channel id of the extension |\n\nExample cURL:\n\n```bash\ncurl 'https://qv90***.ai-plugin.io/convoai/convoai-start' \\\n  -H 'accept: application/json, text/plain, */*' \\\n  -H 'accept-language: zh,en;q=0.9,zh-CN;q=0.8' \\\n  -H 'cache-control: no-cache' \\\n  -H 'content-type: application/json' \\\n  --data-raw '{\"base_url\":\"https://qv90***.ai-plugin.io\",\"channel\":\"jh0y8fgk7\"}'\n```\n\n##### Stop Conversation\n\nAPI Endpoint: `https://qv90***.ai-plugin.io/convoai-stop`\n\n| key | value |\n| --- | --- |\n| agent_id | The agent id of the extension |\n\nExample cURL:\n\n```bash\ncurl 'https://qv90***.ai-plugin.io/convoai/convoai-stop' \\\n  -H 'accept: application/json, text/plain, */*' \\\n  -H 'accept-language: zh,en;q=0.9,zh-CN;q=0.8' \\\n  -H 'cache-control: no-cache' \\\n  -H 'content-type: application/json' \\\n  --data-raw '{\"agent_id\":\"1NT29X0ZX0JYPJ96CCL8F4Y4VUEGR566\"}'\n```\n",
+        "introduction": "## Agora Conversational AI\r\n\r\n**Author:** plutoless\r\n**Version:** 0.0.4\r\n**Type:** extension\r\n\r\n### Description\r\n\r\n#### Overview\r\n\r\nThis extension provides an endpoint to make Dify agents work with Agora Conversational AI. You can easily turn your Dify agents into voice assistant by using this extension.\r\n\r\n#### Prerequisites\r\n\r\n- **Agora Account**\r\n    You need an Agora account to use the Agora Conversational AI service. You can sign up for a free account at [Agora](https://sso.agora.io/en/signup/).\r\n- **Agora App ID / App Certificate / RESTful Customer ID / RESTful Customer Secret**\r\n    You need to create an Agora project and get the App ID, App Certificate, RESTful Customer ID and RESTful Customer Secret from [Agora Console](https://console.agora.io/v2).\r\n- **TTS Vendor Account**\r\n    You need an account for the TTS vendor you choose. The TTS vendor provides the voice synthesis service for the voice assistant. \r\n\r\n#### Configuration\r\n\r\n- **APP**\r\n    The Dify App to turn into voice assistant, choose one from your agent library.\r\n- **Agora App ID**\r\n    The Agora App ID to use for RTC service. Get it from [Agora Console](https://console.agora.io/v2). Note to enable the Agora Conversational AI service in the Agora Console.\r\n- **Agora RESTful Customer ID**\r\n    The Agora RESTful Customer ID to use for RTC service. Get it from [Agora Console](https://console.agora.io/v2).\r\n- **Agora RESTful Customer Secret**\r\n    The Agora RESTful Customer Secret to use for RTC service. Get it from [Agora Console](https://console.agora.io/v2).\r\n- **TTS Vendor**\r\n    The TTS vendor to use for voice synthesis. Choose one from the list below.\r\n  - **Azure**\r\n  - **ElevenLabs**\r\n- **TTS Vendor Params**\r\n    The parameters for the TTS vendor. The parameters are different for each vendor, please refer to the vendor's documentation for more information.\r\n  - **Azure**\r\n\r\n    ```json\r\n    {\r\n        \"key\": \"<your api key>\",\r\n        \"region\": \"eastasia\",\r\n        \"voice_name\": \"en-US-AndrewMultilingualNeural\"\r\n    }\r\n    ```\r\n\r\n  - **ElevenLabs**\r\n\r\n    ```json\r\n    {\r\n        \"key\": \"<your api key>\",\r\n        \"model_id\": \"eleven_flash_v2_5\",\r\n        \"voice_id\": \"pNInz6obpgDQGcFmaJgB\"\r\n    }\r\n    ```\r\n\r\n- **Greeting Message**\r\n    The message to greet the user when the conversation starts.\r\n- **Failure Message**\r\n    The message to tell the user when the conversation fails.\r\n- **Agora App Certificate**\r\n    The Agora App Certificate to use for RTC service. Get it from [Agora Console](https://console.agora.io/v2). Only needed when security token is enabled for your Agora project.\r\n- **API Key**\r\n    The API Key to protect your Dify endpoint.\r\n\r\n#### Usage\r\n\r\nOnce you finish the configuration, in the endpoint you may find the api endpoint like following:\r\n\r\n`https://qv90***.ai-plugin.io/convoai-web/<file>`\r\n\r\nReplace `<file>` with `index.html`,\r\n\r\nThen you may navigate to following url to access the integrated Conversational AI web page.\r\n\r\n`https://qv90***.ai-plugin.io/convoai-web/index.html`\r\n\r\n#### Using API without Web Page\r\n\r\nYou can also use the API directly without the web page. The API endpoint is:\r\n\r\n##### Start Conversation\r\n\r\nAPI Endpoint: `https://qv90***.ai-plugin.io/convoai-start`\r\n\r\n| key | value |\r\n| --- | --- |\r\n| base_url | The base url of the extension |\r\n| channel | The channel id of the extension |\r\n\r\nExample cURL:\r\n\r\n```bash\r\ncurl 'https://qv90***.ai-plugin.io/convoai/convoai-start' \\\r\n  -H 'accept: application/json, text/plain, */*' \\\r\n  -H 'accept-language: zh,en;q=0.9,zh-CN;q=0.8' \\\r\n  -H 'cache-control: no-cache' \\\r\n  -H 'content-type: application/json' \\\r\n  --data-raw '{\"base_url\":\"https://qv90***.ai-plugin.io\",\"channel\":\"jh0y8fgk7\"}'\r\n```\r\n\r\n##### Stop Conversation\r\n\r\nAPI Endpoint: `https://qv90***.ai-plugin.io/convoai-stop`\r\n\r\n| key | value |\r\n| --- | --- |\r\n| agent_id | The agent id of the extension |\r\n\r\nExample cURL:\r\n\r\n```bash\r\ncurl 'https://qv90***.ai-plugin.io/convoai/convoai-stop' \\\r\n  -H 'accept: application/json, text/plain, */*' \\\r\n  -H 'accept-language: zh,en;q=0.9,zh-CN;q=0.8' \\\r\n  -H 'cache-control: no-cache' \\\r\n  -H 'content-type: application/json' \\\r\n  --data-raw '{\"agent_id\":\"1NT29X0ZX0JYPJ96CCL8F4Y4VUEGR566\"}'\r\n```\r\n",
         "category": "extension",
         "repository": "",
         "resource": {
@@ -365,7 +365,7 @@
         "privacy_options": "",
         "privacy_policy": "PRIVACY.md",
         "created_at": "2025-02-19T04:26:03.177214Z",
-        "updated_at": "2025-03-13T05:17:11.499989Z",
+        "updated_at": "2025-03-19T01:46:52.298147Z",
         "badges": [
             "partner"
         ],
@@ -482,6 +482,14 @@
                     },
                     "name": "tts_vendor",
                     "options": [
+                        {
+                            "label": {
+                                "en_US": "ElevenLabs",
+                                "pt_BR": "ElevenLabs",
+                                "zh_Hans": "ElevenLabs"
+                            },
+                            "value": "elevenlabs"
+                        },
                         {
                             "label": {
                                 "en_US": "Azure",
@@ -602,10 +610,10 @@
         "model": {},
         "tool": {},
         "agent_strategy": {},
-        "install_count": 997,
-        "version_updated_at": "2025-03-13T05:17:11.499944Z",
-        "latest_version": "0.0.3",
-        "latest_package_identifier": "plutoless/convoai:0.0.3@da3b3521b719982c3108863febc7b7f7a1094a5d70adc1e1b2abe195efe375d9",
+        "install_count": 1018,
+        "version_updated_at": "2025-03-19T01:46:52.298122Z",
+        "latest_version": "0.0.4",
+        "latest_package_identifier": "plutoless/convoai:0.0.4@f2fee461da4b14f38c1b6b0fe57f4be439fd2033e41fb6417899c1730bae8505",
         "tags": []
     },
     {
@@ -821,7 +829,7 @@
             ]
         },
         "agent_strategy": {},
-        "install_count": 1412,
+        "install_count": 1434,
         "version_updated_at": "2025-02-26T03:55:35.232484Z",
         "latest_version": "0.0.2",
         "latest_package_identifier": "langgenius/brave:0.0.2@aef68a4187ed04d101dee906521b26d9c9add32d826068b55892c41deddce63a",
@@ -1796,7 +1804,7 @@
             ]
         },
         "agent_strategy": {},
-        "install_count": 306,
+        "install_count": 310,
         "version_updated_at": "2025-03-03T02:15:08.245814Z",
         "latest_version": "0.0.3",
         "latest_package_identifier": "dupdub-dify/dupdub:0.0.3@693757f894492a9bb7c737666f00d425704e1b6683ae7319fceca9b816e3ad82",
@@ -2272,7 +2280,7 @@
             ]
         },
         "agent_strategy": {},
-        "install_count": 322,
+        "install_count": 330,
         "version_updated_at": "2025-02-27T07:17:31.920241Z",
         "latest_version": "0.0.1",
         "latest_package_identifier": "langgenius/e2b:0.0.1@c1cbd8c9e8c0e6aea1bd3d3dcf161dc24fe46b79646d62719e84b5adb60a462b",
@@ -2538,7 +2546,7 @@
             ]
         },
         "agent_strategy": {},
-        "install_count": 712,
+        "install_count": 731,
         "version_updated_at": "2025-02-17T07:05:16.881763Z",
         "latest_version": "0.0.6",
         "latest_package_identifier": "langgenius/fish_audio_tool:0.0.6@dd6b3a3bdbf7e60dc0ea83274b4f00489797171f3ddb07b979db8f4423ab08ca",
@@ -8171,7 +8179,7 @@
         },
         "tool": {},
         "agent_strategy": {},
-        "install_count": 3996,
+        "install_count": 4065,
         "version_updated_at": "2025-02-28T10:18:55.799743Z",
         "latest_version": "0.0.4",
         "latest_package_identifier": "langgenius/openrouter:0.0.4@5c5c4d5323745f553f0a12e776911ba32fd6b9601debc2119ec6504808cf6b92",
@@ -8211,7 +8219,7 @@
         "privacy_options": "",
         "privacy_policy": "",
         "created_at": "2024-12-04T04:54:03.722463Z",
-        "updated_at": "2025-03-01T14:22:50.218242Z",
+        "updated_at": "2025-03-19T01:48:50.635121Z",
         "badges": [
             "partner"
         ],
@@ -8378,10 +8386,7 @@
                                 "zh_Hans": "用于控制随机性和多样性的程度。具体来说，temperature值控制了生成文本时对每个候选词的概率分布进行平滑的程度。较高的temperature值会降低概率分布的峰值，使得更多的低概率词被选择，生成结果更加多样化；而较低的temperature值则会增强概率分布的峰值，使得高概率词更容易被选择，生成结果更加确定。"
                             },
                             "label": {
-                                "en_US": "Temperature",
-                                "ja_JP": "温度",
-                                "pt_BR": "Temperatura",
-                                "zh_Hans": "温度"
+                                "en_US": "temperature"
                             },
                             "max": 2,
                             "min": 0,
@@ -8399,10 +8404,7 @@
                                 "zh_Hans": "用于指定模型在生成内容时token的最大数量，它定义了生成的上限，但不保证每次都会生成到这个数量。"
                             },
                             "label": {
-                                "en_US": "Max Tokens",
-                                "ja_JP": "最大トークン",
-                                "pt_BR": "Máximo de tokens",
-                                "zh_Hans": "最大标记"
+                                "en_US": "max_tokens"
                             },
                             "max": 2000,
                             "min": 1,
@@ -8420,10 +8422,7 @@
                                 "zh_Hans": "生成过程中核采样方法概率阈值，例如，取值为0.8时，仅保留概率加起来大于等于0.8的最可能token的最小集合作为候选集。取值范围为（0,1.0)，取值越大，生成的随机性越高；取值越低，生成的确定性越高。"
                             },
                             "label": {
-                                "en_US": "Top P",
-                                "ja_JP": "Top P",
-                                "pt_BR": "Top P",
-                                "zh_Hans": "Top P"
+                                "en_US": "top_p"
                             },
                             "max": 0.9,
                             "min": 0.1,
@@ -8544,10 +8543,7 @@
                                 "zh_Hans": "用于控制随机性和多样性的程度。具体来说，temperature值控制了生成文本时对每个候选词的概率分布进行平滑的程度。较高的temperature值会降低概率分布的峰值，使得更多的低概率词被选择，生成结果更加多样化；而较低的temperature值则会增强概率分布的峰值，使得高概率词更容易被选择，生成结果更加确定。"
                             },
                             "label": {
-                                "en_US": "Temperature",
-                                "ja_JP": "温度",
-                                "pt_BR": "Temperatura",
-                                "zh_Hans": "温度"
+                                "en_US": "temperature"
                             },
                             "max": 2,
                             "min": 0,
@@ -8565,10 +8561,7 @@
                                 "zh_Hans": "用于指定模型在生成内容时token的最大数量，它定义了生成的上限，但不保证每次都会生成到这个数量。"
                             },
                             "label": {
-                                "en_US": "Max Tokens",
-                                "ja_JP": "最大トークン",
-                                "pt_BR": "Máximo de tokens",
-                                "zh_Hans": "最大标记"
+                                "en_US": "max_tokens"
                             },
                             "max": 2000,
                             "min": 1,
@@ -8586,10 +8579,7 @@
                                 "zh_Hans": "生成过程中核采样方法概率阈值，例如，取值为0.8时，仅保留概率加起来大于等于0.8的最可能token的最小集合作为候选集。取值范围为（0,1.0)，取值越大，生成的随机性越高；取值越低，生成的确定性越高。"
                             },
                             "label": {
-                                "en_US": "Top P",
-                                "ja_JP": "Top P",
-                                "pt_BR": "Top P",
-                                "zh_Hans": "Top P"
+                                "en_US": "top_p"
                             },
                             "max": 0.9,
                             "min": 0.1,
@@ -8712,10 +8702,7 @@
                                 "zh_Hans": "温度控制随机性。较低的温度会导致较少的随机完成。随着温度接近零，模型将变得确定性和重复性。较高的温度会导致更多的随机完成。"
                             },
                             "label": {
-                                "en_US": "Temperature",
-                                "ja_JP": "温度",
-                                "pt_BR": "Temperatura",
-                                "zh_Hans": "温度"
+                                "en_US": "temperature"
                             },
                             "max": 1,
                             "min": 0,
@@ -8733,10 +8720,7 @@
                                 "zh_Hans": "指定生成结果长度的上限。如果生成结果截断，可以调大该参数。"
                             },
                             "label": {
-                                "en_US": "Max Tokens",
-                                "ja_JP": "最大トークン",
-                                "pt_BR": "Máximo de tokens",
-                                "zh_Hans": "最大标记"
+                                "en_US": "max_tokens"
                             },
                             "max": 4096,
                             "min": 1,
@@ -8756,10 +8740,7 @@
                                 "zh_Hans": "通过核心采样控制多样性：0.5表示考虑了一半的所有可能性加权选项。"
                             },
                             "label": {
-                                "en_US": "Top P",
-                                "ja_JP": "Top P",
-                                "pt_BR": "Top P",
-                                "zh_Hans": "Top P"
+                                "en_US": "top_p"
                             },
                             "max": 1,
                             "min": 0,
@@ -8798,10 +8779,7 @@
                                 "zh_Hans": "对文本中出现的标记的对数概率施加惩罚。"
                             },
                             "label": {
-                                "en_US": "Frequency Penalty",
-                                "ja_JP": "頻度ペナルティ",
-                                "pt_BR": "Penalidade de frequência",
-                                "zh_Hans": "频率惩罚"
+                                "en_US": "frequency_penalty"
                             },
                             "max": 1,
                             "min": 0,
@@ -8846,10 +8824,7 @@
                                 "zh_Hans": "指定生成结果长度的上限。如果生成结果截断，可以调大该参数。"
                             },
                             "label": {
-                                "en_US": "Max Tokens",
-                                "ja_JP": "最大トークン",
-                                "pt_BR": "Máximo de tokens",
-                                "zh_Hans": "最大标记"
+                                "en_US": "max_tokens"
                             },
                             "max": 8192,
                             "min": 1,
@@ -8894,10 +8869,7 @@
                                 "zh_Hans": "指定生成结果长度的上限。如果生成结果截断，可以调大该参数。"
                             },
                             "label": {
-                                "en_US": "Max Tokens",
-                                "ja_JP": "最大トークン",
-                                "pt_BR": "Máximo de tokens",
-                                "zh_Hans": "最大标记"
+                                "en_US": "max_tokens"
                             },
                             "max": 8192,
                             "min": 1,
@@ -8942,10 +8914,7 @@
                                 "zh_Hans": "指定生成结果长度的上限。如果生成结果截断，可以调大该参数。"
                             },
                             "label": {
-                                "en_US": "Max Tokens",
-                                "ja_JP": "最大トークン",
-                                "pt_BR": "Máximo de tokens",
-                                "zh_Hans": "最大标记"
+                                "en_US": "max_tokens"
                             },
                             "max": 8192,
                             "min": 1,
@@ -8990,10 +8959,7 @@
                                 "zh_Hans": "指定生成结果长度的上限。如果生成结果截断，可以调大该参数。"
                             },
                             "label": {
-                                "en_US": "Max Tokens",
-                                "ja_JP": "最大トークン",
-                                "pt_BR": "Máximo de tokens",
-                                "zh_Hans": "最大标记"
+                                "en_US": "max_tokens"
                             },
                             "max": 8192,
                             "min": 1,
@@ -9038,10 +9004,7 @@
                                 "zh_Hans": "指定生成结果长度的上限。如果生成结果截断，可以调大该参数。"
                             },
                             "label": {
-                                "en_US": "Max Tokens",
-                                "ja_JP": "最大トークン",
-                                "pt_BR": "Máximo de tokens",
-                                "zh_Hans": "最大标记"
+                                "en_US": "max_tokens"
                             },
                             "max": 8192,
                             "min": 1,
@@ -9086,10 +9049,7 @@
                                 "zh_Hans": "指定生成结果长度的上限。如果生成结果截断，可以调大该参数。"
                             },
                             "label": {
-                                "en_US": "Max Tokens",
-                                "ja_JP": "最大トークン",
-                                "pt_BR": "Máximo de tokens",
-                                "zh_Hans": "最大标记"
+                                "en_US": "max_tokens"
                             },
                             "max": 8192,
                             "min": 1,
@@ -9134,10 +9094,7 @@
                                 "zh_Hans": "指定生成结果长度的上限。如果生成结果截断，可以调大该参数。"
                             },
                             "label": {
-                                "en_US": "Max Tokens",
-                                "ja_JP": "最大トークン",
-                                "pt_BR": "Máximo de tokens",
-                                "zh_Hans": "最大标记"
+                                "en_US": "max_tokens"
                             },
                             "max": 16384,
                             "min": 1,
@@ -9182,10 +9139,7 @@
                                 "zh_Hans": "指定生成结果长度的上限。如果生成结果截断，可以调大该参数。"
                             },
                             "label": {
-                                "en_US": "Max Tokens",
-                                "ja_JP": "最大トークン",
-                                "pt_BR": "Máximo de tokens",
-                                "zh_Hans": "最大标记"
+                                "en_US": "max_tokens"
                             },
                             "max": 16384,
                             "min": 1,
@@ -9229,10 +9183,7 @@
                                 "zh_Hans": "温度控制随机性。较低的温度会导致较少的随机完成。随着温度接近零，模型将变得确定性和重复性。较高的温度会导致更多的随机完成。"
                             },
                             "label": {
-                                "en_US": "Temperature",
-                                "ja_JP": "温度",
-                                "pt_BR": "Temperatura",
-                                "zh_Hans": "温度"
+                                "en_US": "temperature"
                             },
                             "max": 1,
                             "min": 0,
@@ -9250,10 +9201,7 @@
                                 "zh_Hans": "指定生成结果长度的上限。如果生成结果截断，可以调大该参数。"
                             },
                             "label": {
-                                "en_US": "Max Tokens",
-                                "ja_JP": "最大トークン",
-                                "pt_BR": "Máximo de tokens",
-                                "zh_Hans": "最大标记"
+                                "en_US": "max_tokens"
                             },
                             "max": 4096,
                             "min": 1,
@@ -9273,10 +9221,7 @@
                                 "zh_Hans": "通过核心采样控制多样性：0.5表示考虑了一半的所有可能性加权选项。"
                             },
                             "label": {
-                                "en_US": "Top P",
-                                "ja_JP": "Top P",
-                                "pt_BR": "Top P",
-                                "zh_Hans": "Top P"
+                                "en_US": "top_p"
                             },
                             "max": 1,
                             "min": 0,
@@ -9315,10 +9260,7 @@
                                 "zh_Hans": "对文本中出现的标记的对数概率施加惩罚。"
                             },
                             "label": {
-                                "en_US": "Frequency Penalty",
-                                "ja_JP": "頻度ペナルティ",
-                                "pt_BR": "Penalidade de frequência",
-                                "zh_Hans": "频率惩罚"
+                                "en_US": "frequency_penalty"
                             },
                             "max": 1,
                             "min": 0,
@@ -9364,10 +9306,7 @@
                                 "zh_Hans": "温度控制随机性。较低的温度会导致较少的随机完成。随着温度接近零，模型将变得确定性和重复性。较高的温度会导致更多的随机完成。"
                             },
                             "label": {
-                                "en_US": "Temperature",
-                                "ja_JP": "温度",
-                                "pt_BR": "Temperatura",
-                                "zh_Hans": "温度"
+                                "en_US": "temperature"
                             },
                             "max": 1,
                             "min": 0,
@@ -9385,10 +9324,7 @@
                                 "zh_Hans": "指定生成结果长度的上限。如果生成结果截断，可以调大该参数。"
                             },
                             "label": {
-                                "en_US": "Max Tokens",
-                                "ja_JP": "最大トークン",
-                                "pt_BR": "Máximo de tokens",
-                                "zh_Hans": "最大标记"
+                                "en_US": "max_tokens"
                             },
                             "max": 4096,
                             "min": 1,
@@ -9408,10 +9344,7 @@
                                 "zh_Hans": "通过核心采样控制多样性：0.5表示考虑了一半的所有可能性加权选项。"
                             },
                             "label": {
-                                "en_US": "Top P",
-                                "ja_JP": "Top P",
-                                "pt_BR": "Top P",
-                                "zh_Hans": "Top P"
+                                "en_US": "top_p"
                             },
                             "max": 1,
                             "min": 0,
@@ -9450,10 +9383,7 @@
                                 "zh_Hans": "对文本中出现的标记的对数概率施加惩罚。"
                             },
                             "label": {
-                                "en_US": "Frequency Penalty",
-                                "ja_JP": "頻度ペナルティ",
-                                "pt_BR": "Penalidade de frequência",
-                                "zh_Hans": "频率惩罚"
+                                "en_US": "frequency_penalty"
                             },
                             "max": 1,
                             "min": 0,
@@ -9521,10 +9451,7 @@
                                 "zh_Hans": "温度控制随机性。较低的温度会导致较少的随机完成。随着温度接近零，模型将变得确定性和重复性。较高的温度会导致更多的随机完成。"
                             },
                             "label": {
-                                "en_US": "Temperature",
-                                "ja_JP": "温度",
-                                "pt_BR": "Temperatura",
-                                "zh_Hans": "温度"
+                                "en_US": "temperature"
                             },
                             "max": 1,
                             "min": 0,
@@ -9542,10 +9469,7 @@
                                 "zh_Hans": "指定生成结果长度的上限。如果生成结果截断，可以调大该参数。"
                             },
                             "label": {
-                                "en_US": "Max Tokens",
-                                "ja_JP": "最大トークン",
-                                "pt_BR": "Máximo de tokens",
-                                "zh_Hans": "最大标记"
+                                "en_US": "max_tokens"
                             },
                             "max": 4096,
                             "min": 1,
@@ -9565,10 +9489,7 @@
                                 "zh_Hans": "通过核心采样控制多样性：0.5表示考虑了一半的所有可能性加权选项。"
                             },
                             "label": {
-                                "en_US": "Top P",
-                                "ja_JP": "Top P",
-                                "pt_BR": "Top P",
-                                "zh_Hans": "Top P"
+                                "en_US": "top_p"
                             },
                             "max": 1,
                             "min": 0,
@@ -9607,10 +9528,7 @@
                                 "zh_Hans": "对文本中出现的标记的对数概率施加惩罚。"
                             },
                             "label": {
-                                "en_US": "Frequency Penalty",
-                                "ja_JP": "頻度ペナルティ",
-                                "pt_BR": "Penalidade de frequência",
-                                "zh_Hans": "频率惩罚"
+                                "en_US": "frequency_penalty"
                             },
                             "max": 1,
                             "min": 0,
@@ -9678,10 +9596,7 @@
                                 "zh_Hans": "温度控制随机性。较低的温度会导致较少的随机完成。随着温度接近零，模型将变得确定性和重复性。较高的温度会导致更多的随机完成。"
                             },
                             "label": {
-                                "en_US": "Temperature",
-                                "ja_JP": "温度",
-                                "pt_BR": "Temperatura",
-                                "zh_Hans": "温度"
+                                "en_US": "temperature"
                             },
                             "max": 1,
                             "min": 0,
@@ -9699,10 +9614,7 @@
                                 "zh_Hans": "指定生成结果长度的上限。如果生成结果截断，可以调大该参数。"
                             },
                             "label": {
-                                "en_US": "Max Tokens",
-                                "ja_JP": "最大トークン",
-                                "pt_BR": "Máximo de tokens",
-                                "zh_Hans": "最大标记"
+                                "en_US": "max_tokens"
                             },
                             "max": 4096,
                             "min": 1,
@@ -9722,10 +9634,7 @@
                                 "zh_Hans": "通过核心采样控制多样性：0.5表示考虑了一半的所有可能性加权选项。"
                             },
                             "label": {
-                                "en_US": "Top P",
-                                "ja_JP": "Top P",
-                                "pt_BR": "Top P",
-                                "zh_Hans": "Top P"
+                                "en_US": "top_p"
                             },
                             "max": 1,
                             "min": 0,
@@ -9764,10 +9673,7 @@
                                 "zh_Hans": "对文本中出现的标记的对数概率施加惩罚。"
                             },
                             "label": {
-                                "en_US": "Frequency Penalty",
-                                "ja_JP": "頻度ペナルティ",
-                                "pt_BR": "Penalidade de frequência",
-                                "zh_Hans": "频率惩罚"
+                                "en_US": "frequency_penalty"
                             },
                             "max": 1,
                             "min": 0,
@@ -9833,10 +9739,7 @@
                                 "zh_Hans": "温度控制随机性。较低的温度会导致较少的随机完成。随着温度接近零，模型将变得确定性和重复性。较高的温度会导致更多的随机完成。"
                             },
                             "label": {
-                                "en_US": "Temperature",
-                                "ja_JP": "温度",
-                                "pt_BR": "Temperatura",
-                                "zh_Hans": "温度"
+                                "en_US": "temperature"
                             },
                             "max": 1,
                             "min": 0,
@@ -9854,10 +9757,7 @@
                                 "zh_Hans": "指定生成结果长度的上限。如果生成结果截断，可以调大该参数。"
                             },
                             "label": {
-                                "en_US": "Max Tokens",
-                                "ja_JP": "最大トークン",
-                                "pt_BR": "Máximo de tokens",
-                                "zh_Hans": "最大标记"
+                                "en_US": "max_tokens"
                             },
                             "max": 4096,
                             "min": 1,
@@ -9877,10 +9777,7 @@
                                 "zh_Hans": "通过核心采样控制多样性：0.5表示考虑了一半的所有可能性加权选项。"
                             },
                             "label": {
-                                "en_US": "Top P",
-                                "ja_JP": "Top P",
-                                "pt_BR": "Top P",
-                                "zh_Hans": "Top P"
+                                "en_US": "top_p"
                             },
                             "max": 1,
                             "min": 0,
@@ -9919,10 +9816,7 @@
                                 "zh_Hans": "对文本中出现的标记的对数概率施加惩罚。"
                             },
                             "label": {
-                                "en_US": "Frequency Penalty",
-                                "ja_JP": "頻度ペナルティ",
-                                "pt_BR": "Penalidade de frequência",
-                                "zh_Hans": "频率惩罚"
+                                "en_US": "frequency_penalty"
                             },
                             "max": 1,
                             "min": 0,
@@ -9988,10 +9882,7 @@
                                 "zh_Hans": "温度控制随机性。较低的温度会导致较少的随机完成。随着温度接近零，模型将变得确定性和重复性。较高的温度会导致更多的随机完成。"
                             },
                             "label": {
-                                "en_US": "Temperature",
-                                "ja_JP": "温度",
-                                "pt_BR": "Temperatura",
-                                "zh_Hans": "温度"
+                                "en_US": "temperature"
                             },
                             "max": 1,
                             "min": 0,
@@ -10009,10 +9900,7 @@
                                 "zh_Hans": "指定生成结果长度的上限。如果生成结果截断，可以调大该参数。"
                             },
                             "label": {
-                                "en_US": "Max Tokens",
-                                "ja_JP": "最大トークン",
-                                "pt_BR": "Máximo de tokens",
-                                "zh_Hans": "最大标记"
+                                "en_US": "max_tokens"
                             },
                             "max": 4096,
                             "min": 1,
@@ -10032,10 +9920,7 @@
                                 "zh_Hans": "通过核心采样控制多样性：0.5表示考虑了一半的所有可能性加权选项。"
                             },
                             "label": {
-                                "en_US": "Top P",
-                                "ja_JP": "Top P",
-                                "pt_BR": "Top P",
-                                "zh_Hans": "Top P"
+                                "en_US": "top_p"
                             },
                             "max": 1,
                             "min": 0,
@@ -10074,10 +9959,7 @@
                                 "zh_Hans": "对文本中出现的标记的对数概率施加惩罚。"
                             },
                             "label": {
-                                "en_US": "Frequency Penalty",
-                                "ja_JP": "頻度ペナルティ",
-                                "pt_BR": "Penalidade de frequência",
-                                "zh_Hans": "频率惩罚"
+                                "en_US": "frequency_penalty"
                             },
                             "max": 1,
                             "min": 0,
@@ -10143,10 +10025,7 @@
                                 "zh_Hans": "温度控制随机性。较低的温度会导致较少的随机完成。随着温度接近零，模型将变得确定性和重复性。较高的温度会导致更多的随机完成。"
                             },
                             "label": {
-                                "en_US": "Temperature",
-                                "ja_JP": "温度",
-                                "pt_BR": "Temperatura",
-                                "zh_Hans": "温度"
+                                "en_US": "temperature"
                             },
                             "max": 1,
                             "min": 0,
@@ -10164,10 +10043,7 @@
                                 "zh_Hans": "指定生成结果长度的上限。如果生成结果截断，可以调大该参数。"
                             },
                             "label": {
-                                "en_US": "Max Tokens",
-                                "ja_JP": "最大トークン",
-                                "pt_BR": "Máximo de tokens",
-                                "zh_Hans": "最大标记"
+                                "en_US": "max_tokens"
                             },
                             "max": 4096,
                             "min": 1,
@@ -10187,10 +10063,7 @@
                                 "zh_Hans": "通过核心采样控制多样性：0.5表示考虑了一半的所有可能性加权选项。"
                             },
                             "label": {
-                                "en_US": "Top P",
-                                "ja_JP": "Top P",
-                                "pt_BR": "Top P",
-                                "zh_Hans": "Top P"
+                                "en_US": "top_p"
                             },
                             "max": 1,
                             "min": 0,
@@ -10229,10 +10102,7 @@
                                 "zh_Hans": "对文本中出现的标记的对数概率施加惩罚。"
                             },
                             "label": {
-                                "en_US": "Frequency Penalty",
-                                "ja_JP": "頻度ペナルティ",
-                                "pt_BR": "Penalidade de frequência",
-                                "zh_Hans": "频率惩罚"
+                                "en_US": "frequency_penalty"
                             },
                             "max": 1,
                             "min": 0,
@@ -10296,10 +10166,7 @@
                                 "zh_Hans": "用于控制随机性和多样性的程度。具体来说，temperature值控制了生成文本时对每个候选词的概率分布进行平滑的程度。较高的temperature值会降低概率分布的峰值，使得更多的低概率词被选择，生成结果更加多样化；而较低的temperature值则会增强概率分布的峰值，使得高概率词更容易被选择，生成结果更加确定。"
                             },
                             "label": {
-                                "en_US": "Temperature",
-                                "ja_JP": "温度",
-                                "pt_BR": "Temperatura",
-                                "zh_Hans": "温度"
+                                "en_US": "temperature"
                             },
                             "max": 2,
                             "min": 0,
@@ -10317,10 +10184,7 @@
                                 "zh_Hans": "用于指定模型在生成内容时token的最大数量，它定义了生成的上限，但不保证每次都会生成到这个数量。"
                             },
                             "label": {
-                                "en_US": "Max Tokens",
-                                "ja_JP": "最大トークン",
-                                "pt_BR": "Máximo de tokens",
-                                "zh_Hans": "最大标记"
+                                "en_US": "max_tokens"
                             },
                             "max": 2000,
                             "min": 1,
@@ -10338,10 +10202,7 @@
                                 "zh_Hans": "生成过程中核采样方法概率阈值，例如，取值为0.8时，仅保留概率加起来大于等于0.8的最可能token的最小集合作为候选集。取值范围为（0,1.0)，取值越大，生成的随机性越高；取值越低，生成的确定性越高。"
                             },
                             "label": {
-                                "en_US": "Top P",
-                                "ja_JP": "Top P",
-                                "pt_BR": "Top P",
-                                "zh_Hans": "Top P"
+                                "en_US": "top_p"
                             },
                             "max": 0.9,
                             "min": 0.1,
@@ -10464,10 +10325,7 @@
                                 "zh_Hans": "温度控制随机性。较低的温度会导致较少的随机完成。随着温度接近零，模型将变得确定性和重复性。较高的温度会导致更多的随机完成。"
                             },
                             "label": {
-                                "en_US": "Temperature",
-                                "ja_JP": "温度",
-                                "pt_BR": "Temperatura",
-                                "zh_Hans": "温度"
+                                "en_US": "temperature"
                             },
                             "max": 1,
                             "min": 0,
@@ -10485,10 +10343,7 @@
                                 "zh_Hans": "指定生成结果长度的上限。如果生成结果截断，可以调大该参数。"
                             },
                             "label": {
-                                "en_US": "Max Tokens",
-                                "ja_JP": "最大トークン",
-                                "pt_BR": "Máximo de tokens",
-                                "zh_Hans": "最大标记"
+                                "en_US": "max_tokens"
                             },
                             "max": 4096,
                             "min": 1,
@@ -10508,10 +10363,7 @@
                                 "zh_Hans": "通过核心采样控制多样性：0.5表示考虑了一半的所有可能性加权选项。"
                             },
                             "label": {
-                                "en_US": "Top P",
-                                "ja_JP": "Top P",
-                                "pt_BR": "Top P",
-                                "zh_Hans": "Top P"
+                                "en_US": "top_p"
                             },
                             "max": 1,
                             "min": 0,
@@ -10550,10 +10402,7 @@
                                 "zh_Hans": "对文本中出现的标记的对数概率施加惩罚。"
                             },
                             "label": {
-                                "en_US": "Frequency Penalty",
-                                "ja_JP": "頻度ペナルティ",
-                                "pt_BR": "Penalidade de frequência",
-                                "zh_Hans": "频率惩罚"
+                                "en_US": "frequency_penalty"
                             },
                             "max": 1,
                             "min": 0,
@@ -10619,10 +10468,7 @@
                                 "zh_Hans": "温度控制随机性。较低的温度会导致较少的随机完成。随着温度接近零，模型将变得确定性和重复性。较高的温度会导致更多的随机完成。"
                             },
                             "label": {
-                                "en_US": "Temperature",
-                                "ja_JP": "温度",
-                                "pt_BR": "Temperatura",
-                                "zh_Hans": "温度"
+                                "en_US": "temperature"
                             },
                             "max": 1,
                             "min": 0,
@@ -10640,10 +10486,7 @@
                                 "zh_Hans": "指定生成结果长度的上限。如果生成结果截断，可以调大该参数。"
                             },
                             "label": {
-                                "en_US": "Max Tokens",
-                                "ja_JP": "最大トークン",
-                                "pt_BR": "Máximo de tokens",
-                                "zh_Hans": "最大标记"
+                                "en_US": "max_tokens"
                             },
                             "max": 4096,
                             "min": 1,
@@ -10663,10 +10506,7 @@
                                 "zh_Hans": "通过核心采样控制多样性：0.5表示考虑了一半的所有可能性加权选项。"
                             },
                             "label": {
-                                "en_US": "Top P",
-                                "ja_JP": "Top P",
-                                "pt_BR": "Top P",
-                                "zh_Hans": "Top P"
+                                "en_US": "top_p"
                             },
                             "max": 1,
                             "min": 0,
@@ -10705,10 +10545,7 @@
                                 "zh_Hans": "对文本中出现的标记的对数概率施加惩罚。"
                             },
                             "label": {
-                                "en_US": "Frequency Penalty",
-                                "ja_JP": "頻度ペナルティ",
-                                "pt_BR": "Penalidade de frequência",
-                                "zh_Hans": "频率惩罚"
+                                "en_US": "frequency_penalty"
                             },
                             "max": 1,
                             "min": 0,
@@ -10772,10 +10609,7 @@
                                 "zh_Hans": "用于控制随机性和多样性的程度。具体来说，temperature值控制了生成文本时对每个候选词的概率分布进行平滑的程度。较高的temperature值会降低概率分布的峰值，使得更多的低概率词被选择，生成结果更加多样化；而较低的temperature值则会增强概率分布的峰值，使得高概率词更容易被选择，生成结果更加确定。"
                             },
                             "label": {
-                                "en_US": "Temperature",
-                                "ja_JP": "温度",
-                                "pt_BR": "Temperatura",
-                                "zh_Hans": "温度"
+                                "en_US": "temperature"
                             },
                             "max": 2,
                             "min": 0,
@@ -10793,10 +10627,7 @@
                                 "zh_Hans": "用于指定模型在生成内容时token的最大数量，它定义了生成的上限，但不保证每次都会生成到这个数量。"
                             },
                             "label": {
-                                "en_US": "Max Tokens",
-                                "ja_JP": "最大トークン",
-                                "pt_BR": "Máximo de tokens",
-                                "zh_Hans": "最大标记"
+                                "en_US": "max_tokens"
                             },
                             "max": 2000,
                             "min": 1,
@@ -10814,10 +10645,7 @@
                                 "zh_Hans": "生成过程中核采样方法概率阈值，例如，取值为0.8时，仅保留概率加起来大于等于0.8的最可能token的最小集合作为候选集。取值范围为（0,1.0)，取值越大，生成的随机性越高；取值越低，生成的确定性越高。"
                             },
                             "label": {
-                                "en_US": "Top P",
-                                "ja_JP": "Top P",
-                                "pt_BR": "Top P",
-                                "zh_Hans": "Top P"
+                                "en_US": "top_p"
                             },
                             "max": 0.9,
                             "min": 0.1,
@@ -10942,10 +10770,7 @@
                                 "zh_Hans": "指定生成结果长度的上限。如果生成结果截断，可以调大该参数。"
                             },
                             "label": {
-                                "en_US": "Max Tokens",
-                                "ja_JP": "最大トークン",
-                                "pt_BR": "Máximo de tokens",
-                                "zh_Hans": "最大标记"
+                                "en_US": "max_tokens"
                             },
                             "max": 8192,
                             "min": 1,
@@ -10991,10 +10816,7 @@
                                 "zh_Hans": "温度控制随机性。较低的温度会导致较少的随机完成。随着温度接近零，模型将变得确定性和重复性。较高的温度会导致更多的随机完成。"
                             },
                             "label": {
-                                "en_US": "Temperature",
-                                "ja_JP": "温度",
-                                "pt_BR": "Temperatura",
-                                "zh_Hans": "温度"
+                                "en_US": "temperature"
                             },
                             "max": 1,
                             "min": 0,
@@ -11012,10 +10834,7 @@
                                 "zh_Hans": "指定生成结果长度的上限。如果生成结果截断，可以调大该参数。"
                             },
                             "label": {
-                                "en_US": "Max Tokens",
-                                "ja_JP": "最大トークン",
-                                "pt_BR": "Máximo de tokens",
-                                "zh_Hans": "最大标记"
+                                "en_US": "max_tokens"
                             },
                             "max": 4096,
                             "min": 1,
@@ -11035,10 +10854,7 @@
                                 "zh_Hans": "通过核心采样控制多样性：0.5表示考虑了一半的所有可能性加权选项。"
                             },
                             "label": {
-                                "en_US": "Top P",
-                                "ja_JP": "Top P",
-                                "pt_BR": "Top P",
-                                "zh_Hans": "Top P"
+                                "en_US": "top_p"
                             },
                             "max": 1,
                             "min": 0,
@@ -11077,10 +10893,7 @@
                                 "zh_Hans": "对文本中出现的标记的对数概率施加惩罚。"
                             },
                             "label": {
-                                "en_US": "Frequency Penalty",
-                                "ja_JP": "頻度ペナルティ",
-                                "pt_BR": "Penalidade de frequência",
-                                "zh_Hans": "频率惩罚"
+                                "en_US": "frequency_penalty"
                             },
                             "max": 1,
                             "min": 0,
@@ -11146,10 +10959,7 @@
                                 "zh_Hans": "温度控制随机性。较低的温度会导致较少的随机完成。随着温度接近零，模型将变得确定性和重复性。较高的温度会导致更多的随机完成。"
                             },
                             "label": {
-                                "en_US": "Temperature",
-                                "ja_JP": "温度",
-                                "pt_BR": "Temperatura",
-                                "zh_Hans": "温度"
+                                "en_US": "temperature"
                             },
                             "max": 1,
                             "min": 0,
@@ -11167,10 +10977,7 @@
                                 "zh_Hans": "指定生成结果长度的上限。如果生成结果截断，可以调大该参数。"
                             },
                             "label": {
-                                "en_US": "Max Tokens",
-                                "ja_JP": "最大トークン",
-                                "pt_BR": "Máximo de tokens",
-                                "zh_Hans": "最大标记"
+                                "en_US": "max_tokens"
                             },
                             "max": 4096,
                             "min": 1,
@@ -11190,10 +10997,7 @@
                                 "zh_Hans": "通过核心采样控制多样性：0.5表示考虑了一半的所有可能性加权选项。"
                             },
                             "label": {
-                                "en_US": "Top P",
-                                "ja_JP": "Top P",
-                                "pt_BR": "Top P",
-                                "zh_Hans": "Top P"
+                                "en_US": "top_p"
                             },
                             "max": 1,
                             "min": 0,
@@ -11232,10 +11036,7 @@
                                 "zh_Hans": "对文本中出现的标记的对数概率施加惩罚。"
                             },
                             "label": {
-                                "en_US": "Frequency Penalty",
-                                "ja_JP": "頻度ペナルティ",
-                                "pt_BR": "Penalidade de frequência",
-                                "zh_Hans": "频率惩罚"
+                                "en_US": "frequency_penalty"
                             },
                             "max": 1,
                             "min": 0,
@@ -11279,10 +11080,7 @@
                                 "zh_Hans": "温度控制随机性。较低的温度会导致较少的随机完成。随着温度接近零，模型将变得确定性和重复性。较高的温度会导致更多的随机完成。"
                             },
                             "label": {
-                                "en_US": "Temperature",
-                                "ja_JP": "温度",
-                                "pt_BR": "Temperatura",
-                                "zh_Hans": "温度"
+                                "en_US": "temperature"
                             },
                             "max": 1,
                             "min": 0,
@@ -11300,10 +11098,7 @@
                                 "zh_Hans": "指定生成结果长度的上限。如果生成结果截断，可以调大该参数。"
                             },
                             "label": {
-                                "en_US": "Max Tokens",
-                                "ja_JP": "最大トークン",
-                                "pt_BR": "Máximo de tokens",
-                                "zh_Hans": "最大标记"
+                                "en_US": "max_tokens"
                             },
                             "max": 4096,
                             "min": 1,
@@ -11323,10 +11118,7 @@
                                 "zh_Hans": "通过核心采样控制多样性：0.5表示考虑了一半的所有可能性加权选项。"
                             },
                             "label": {
-                                "en_US": "Top P",
-                                "ja_JP": "Top P",
-                                "pt_BR": "Top P",
-                                "zh_Hans": "Top P"
+                                "en_US": "top_p"
                             },
                             "max": 1,
                             "min": 0,
@@ -11365,10 +11157,7 @@
                                 "zh_Hans": "对文本中出现的标记的对数概率施加惩罚。"
                             },
                             "label": {
-                                "en_US": "Frequency Penalty",
-                                "ja_JP": "頻度ペナルティ",
-                                "pt_BR": "Penalidade de frequência",
-                                "zh_Hans": "频率惩罚"
+                                "en_US": "frequency_penalty"
                             },
                             "max": 1,
                             "min": 0,
@@ -11412,10 +11201,7 @@
                                 "zh_Hans": "温度控制随机性。较低的温度会导致较少的随机完成。随着温度接近零，模型将变得确定性和重复性。较高的温度会导致更多的随机完成。"
                             },
                             "label": {
-                                "en_US": "Temperature",
-                                "ja_JP": "温度",
-                                "pt_BR": "Temperatura",
-                                "zh_Hans": "温度"
+                                "en_US": "temperature"
                             },
                             "max": 1,
                             "min": 0,
@@ -11433,10 +11219,7 @@
                                 "zh_Hans": "指定生成结果长度的上限。如果生成结果截断，可以调大该参数。"
                             },
                             "label": {
-                                "en_US": "Max Tokens",
-                                "ja_JP": "最大トークン",
-                                "pt_BR": "Máximo de tokens",
-                                "zh_Hans": "最大标记"
+                                "en_US": "max_tokens"
                             },
                             "max": 4096,
                             "min": 1,
@@ -11456,10 +11239,7 @@
                                 "zh_Hans": "通过核心采样控制多样性：0.5表示考虑了一半的所有可能性加权选项。"
                             },
                             "label": {
-                                "en_US": "Top P",
-                                "ja_JP": "Top P",
-                                "pt_BR": "Top P",
-                                "zh_Hans": "Top P"
+                                "en_US": "top_p"
                             },
                             "max": 1,
                             "min": 0,
@@ -11498,10 +11278,7 @@
                                 "zh_Hans": "对文本中出现的标记的对数概率施加惩罚。"
                             },
                             "label": {
-                                "en_US": "Frequency Penalty",
-                                "ja_JP": "頻度ペナルティ",
-                                "pt_BR": "Penalidade de frequência",
-                                "zh_Hans": "频率惩罚"
+                                "en_US": "frequency_penalty"
                             },
                             "max": 1,
                             "min": 0,
@@ -11567,10 +11344,7 @@
                                 "zh_Hans": "温度控制随机性。较低的温度会导致较少的随机完成。随着温度接近零，模型将变得确定性和重复性。较高的温度会导致更多的随机完成。"
                             },
                             "label": {
-                                "en_US": "Temperature",
-                                "ja_JP": "温度",
-                                "pt_BR": "Temperatura",
-                                "zh_Hans": "温度"
+                                "en_US": "temperature"
                             },
                             "max": 1,
                             "min": 0,
@@ -11588,10 +11362,7 @@
                                 "zh_Hans": "指定生成结果长度的上限。如果生成结果截断，可以调大该参数。"
                             },
                             "label": {
-                                "en_US": "Max Tokens",
-                                "ja_JP": "最大トークン",
-                                "pt_BR": "Máximo de tokens",
-                                "zh_Hans": "最大标记"
+                                "en_US": "max_tokens"
                             },
                             "max": 4096,
                             "min": 1,
@@ -11611,10 +11382,7 @@
                                 "zh_Hans": "通过核心采样控制多样性：0.5表示考虑了一半的所有可能性加权选项。"
                             },
                             "label": {
-                                "en_US": "Top P",
-                                "ja_JP": "Top P",
-                                "pt_BR": "Top P",
-                                "zh_Hans": "Top P"
+                                "en_US": "top_p"
                             },
                             "max": 1,
                             "min": 0,
@@ -11653,10 +11421,7 @@
                                 "zh_Hans": "对文本中出现的标记的对数概率施加惩罚。"
                             },
                             "label": {
-                                "en_US": "Frequency Penalty",
-                                "ja_JP": "頻度ペナルティ",
-                                "pt_BR": "Penalidade de frequência",
-                                "zh_Hans": "频率惩罚"
+                                "en_US": "frequency_penalty"
                             },
                             "max": 1,
                             "min": 0,
@@ -11722,10 +11487,7 @@
                                 "zh_Hans": "温度控制随机性。较低的温度会导致较少的随机完成。随着温度接近零，模型将变得确定性和重复性。较高的温度会导致更多的随机完成。"
                             },
                             "label": {
-                                "en_US": "Temperature",
-                                "ja_JP": "温度",
-                                "pt_BR": "Temperatura",
-                                "zh_Hans": "温度"
+                                "en_US": "temperature"
                             },
                             "max": 1,
                             "min": 0,
@@ -11743,10 +11505,7 @@
                                 "zh_Hans": "指定生成结果长度的上限。如果生成结果截断，可以调大该参数。"
                             },
                             "label": {
-                                "en_US": "Max Tokens",
-                                "ja_JP": "最大トークン",
-                                "pt_BR": "Máximo de tokens",
-                                "zh_Hans": "最大标记"
+                                "en_US": "max_tokens"
                             },
                             "max": 4096,
                             "min": 1,
@@ -11766,10 +11525,7 @@
                                 "zh_Hans": "通过核心采样控制多样性：0.5表示考虑了一半的所有可能性加权选项。"
                             },
                             "label": {
-                                "en_US": "Top P",
-                                "ja_JP": "Top P",
-                                "pt_BR": "Top P",
-                                "zh_Hans": "Top P"
+                                "en_US": "top_p"
                             },
                             "max": 1,
                             "min": 0,
@@ -11808,10 +11564,7 @@
                                 "zh_Hans": "对文本中出现的标记的对数概率施加惩罚。"
                             },
                             "label": {
-                                "en_US": "Frequency Penalty",
-                                "ja_JP": "頻度ペナルティ",
-                                "pt_BR": "Penalidade de frequência",
-                                "zh_Hans": "频率惩罚"
+                                "en_US": "frequency_penalty"
                             },
                             "max": 1,
                             "min": 0,
@@ -11877,10 +11630,7 @@
                                 "zh_Hans": "温度控制随机性。较低的温度会导致较少的随机完成。随着温度接近零，模型将变得确定性和重复性。较高的温度会导致更多的随机完成。"
                             },
                             "label": {
-                                "en_US": "Temperature",
-                                "ja_JP": "温度",
-                                "pt_BR": "Temperatura",
-                                "zh_Hans": "温度"
+                                "en_US": "temperature"
                             },
                             "max": 1,
                             "min": 0,
@@ -11898,10 +11648,7 @@
                                 "zh_Hans": "指定生成结果长度的上限。如果生成结果截断，可以调大该参数。"
                             },
                             "label": {
-                                "en_US": "Max Tokens",
-                                "ja_JP": "最大トークン",
-                                "pt_BR": "Máximo de tokens",
-                                "zh_Hans": "最大标记"
+                                "en_US": "max_tokens"
                             },
                             "max": 4096,
                             "min": 1,
@@ -11921,10 +11668,7 @@
                                 "zh_Hans": "通过核心采样控制多样性：0.5表示考虑了一半的所有可能性加权选项。"
                             },
                             "label": {
-                                "en_US": "Top P",
-                                "ja_JP": "Top P",
-                                "pt_BR": "Top P",
-                                "zh_Hans": "Top P"
+                                "en_US": "top_p"
                             },
                             "max": 1,
                             "min": 0,
@@ -11963,10 +11707,7 @@
                                 "zh_Hans": "对文本中出现的标记的对数概率施加惩罚。"
                             },
                             "label": {
-                                "en_US": "Frequency Penalty",
-                                "ja_JP": "頻度ペナルティ",
-                                "pt_BR": "Penalidade de frequência",
-                                "zh_Hans": "频率惩罚"
+                                "en_US": "frequency_penalty"
                             },
                             "max": 1,
                             "min": 0,
@@ -12010,10 +11751,7 @@
                                 "zh_Hans": "温度控制随机性。较低的温度会导致较少的随机完成。随着温度接近零，模型将变得确定性和重复性。较高的温度会导致更多的随机完成。"
                             },
                             "label": {
-                                "en_US": "Temperature",
-                                "ja_JP": "温度",
-                                "pt_BR": "Temperatura",
-                                "zh_Hans": "温度"
+                                "en_US": "temperature"
                             },
                             "max": 1,
                             "min": 0,
@@ -12031,10 +11769,7 @@
                                 "zh_Hans": "指定生成结果长度的上限。如果生成结果截断，可以调大该参数。"
                             },
                             "label": {
-                                "en_US": "Max Tokens",
-                                "ja_JP": "最大トークン",
-                                "pt_BR": "Máximo de tokens",
-                                "zh_Hans": "最大标记"
+                                "en_US": "max_tokens"
                             },
                             "max": 4096,
                             "min": 1,
@@ -12054,10 +11789,7 @@
                                 "zh_Hans": "通过核心采样控制多样性：0.5表示考虑了一半的所有可能性加权选项。"
                             },
                             "label": {
-                                "en_US": "Top P",
-                                "ja_JP": "Top P",
-                                "pt_BR": "Top P",
-                                "zh_Hans": "Top P"
+                                "en_US": "top_p"
                             },
                             "max": 1,
                             "min": 0,
@@ -12096,10 +11828,7 @@
                                 "zh_Hans": "对文本中出现的标记的对数概率施加惩罚。"
                             },
                             "label": {
-                                "en_US": "Frequency Penalty",
-                                "ja_JP": "頻度ペナルティ",
-                                "pt_BR": "Penalidade de frequência",
-                                "zh_Hans": "频率惩罚"
+                                "en_US": "frequency_penalty"
                             },
                             "max": 1,
                             "min": 0,
@@ -12146,10 +11875,7 @@
                                 "zh_Hans": "温度控制随机性。较低的温度会导致较少的随机完成。随着温度接近零，模型将变得确定性和重复性。较高的温度会导致更多的随机完成。"
                             },
                             "label": {
-                                "en_US": "Temperature",
-                                "ja_JP": "温度",
-                                "pt_BR": "Temperatura",
-                                "zh_Hans": "温度"
+                                "en_US": "temperature"
                             },
                             "max": 1,
                             "min": 0,
@@ -12167,10 +11893,7 @@
                                 "zh_Hans": "指定生成结果长度的上限。如果生成结果截断，可以调大该参数。"
                             },
                             "label": {
-                                "en_US": "Max Tokens",
-                                "ja_JP": "最大トークン",
-                                "pt_BR": "Máximo de tokens",
-                                "zh_Hans": "最大标记"
+                                "en_US": "max_tokens"
                             },
                             "max": 16384,
                             "min": 1,
@@ -12190,10 +11913,7 @@
                                 "zh_Hans": "通过核心采样控制多样性：0.5表示考虑了一半的所有可能性加权选项。"
                             },
                             "label": {
-                                "en_US": "Top P",
-                                "ja_JP": "Top P",
-                                "pt_BR": "Top P",
-                                "zh_Hans": "Top P"
+                                "en_US": "top_p"
                             },
                             "max": 1,
                             "min": 0,
@@ -12232,10 +11952,7 @@
                                 "zh_Hans": "对文本中出现的标记的对数概率施加惩罚。"
                             },
                             "label": {
-                                "en_US": "Frequency Penalty",
-                                "ja_JP": "頻度ペナルティ",
-                                "pt_BR": "Penalidade de frequência",
-                                "zh_Hans": "频率惩罚"
+                                "en_US": "frequency_penalty"
                             },
                             "max": 1,
                             "min": 0,
@@ -12303,10 +12020,7 @@
                                 "zh_Hans": "温度控制随机性。较低的温度会导致较少的随机完成。随着温度接近零，模型将变得确定性和重复性。较高的温度会导致更多的随机完成。"
                             },
                             "label": {
-                                "en_US": "Temperature",
-                                "ja_JP": "温度",
-                                "pt_BR": "Temperatura",
-                                "zh_Hans": "温度"
+                                "en_US": "temperature"
                             },
                             "max": 1,
                             "min": 0,
@@ -12324,10 +12038,7 @@
                                 "zh_Hans": "指定生成结果长度的上限。如果生成结果截断，可以调大该参数。"
                             },
                             "label": {
-                                "en_US": "Max Tokens",
-                                "ja_JP": "最大トークン",
-                                "pt_BR": "Máximo de tokens",
-                                "zh_Hans": "最大标记"
+                                "en_US": "max_tokens"
                             },
                             "max": 8192,
                             "min": 1,
@@ -12347,10 +12058,7 @@
                                 "zh_Hans": "通过核心采样控制多样性：0.5表示考虑了一半的所有可能性加权选项。"
                             },
                             "label": {
-                                "en_US": "Top P",
-                                "ja_JP": "Top P",
-                                "pt_BR": "Top P",
-                                "zh_Hans": "Top P"
+                                "en_US": "top_p"
                             },
                             "max": 1,
                             "min": 0,
@@ -12389,10 +12097,7 @@
                                 "zh_Hans": "对文本中出现的标记的对数概率施加惩罚。"
                             },
                             "label": {
-                                "en_US": "Frequency Penalty",
-                                "ja_JP": "頻度ペナルティ",
-                                "pt_BR": "Penalidade de frequência",
-                                "zh_Hans": "频率惩罚"
+                                "en_US": "frequency_penalty"
                             },
                             "max": 1,
                             "min": 0,
@@ -12458,10 +12163,7 @@
                                 "zh_Hans": "温度控制随机性。较低的温度会导致较少的随机完成。随着温度接近零，模型将变得确定性和重复性。较高的温度会导致更多的随机完成。"
                             },
                             "label": {
-                                "en_US": "Temperature",
-                                "ja_JP": "温度",
-                                "pt_BR": "Temperatura",
-                                "zh_Hans": "温度"
+                                "en_US": "temperature"
                             },
                             "max": 1,
                             "min": 0,
@@ -12479,10 +12181,7 @@
                                 "zh_Hans": "指定生成结果长度的上限。如果生成结果截断，可以调大该参数。"
                             },
                             "label": {
-                                "en_US": "Max Tokens",
-                                "ja_JP": "最大トークン",
-                                "pt_BR": "Máximo de tokens",
-                                "zh_Hans": "最大标记"
+                                "en_US": "max_tokens"
                             },
                             "max": 4096,
                             "min": 1,
@@ -12502,10 +12201,7 @@
                                 "zh_Hans": "通过核心采样控制多样性：0.5表示考虑了一半的所有可能性加权选项。"
                             },
                             "label": {
-                                "en_US": "Top P",
-                                "ja_JP": "Top P",
-                                "pt_BR": "Top P",
-                                "zh_Hans": "Top P"
+                                "en_US": "top_p"
                             },
                             "max": 1,
                             "min": 0,
@@ -12544,10 +12240,7 @@
                                 "zh_Hans": "对文本中出现的标记的对数概率施加惩罚。"
                             },
                             "label": {
-                                "en_US": "Frequency Penalty",
-                                "ja_JP": "頻度ペナルティ",
-                                "pt_BR": "Penalidade de frequência",
-                                "zh_Hans": "频率惩罚"
+                                "en_US": "frequency_penalty"
                             },
                             "max": 1,
                             "min": 0,
@@ -12591,10 +12284,7 @@
                                 "zh_Hans": "温度控制随机性。较低的温度会导致较少的随机完成。随着温度接近零，模型将变得确定性和重复性。较高的温度会导致更多的随机完成。"
                             },
                             "label": {
-                                "en_US": "Temperature",
-                                "ja_JP": "温度",
-                                "pt_BR": "Temperatura",
-                                "zh_Hans": "温度"
+                                "en_US": "temperature"
                             },
                             "max": 1,
                             "min": 0,
@@ -12612,10 +12302,7 @@
                                 "zh_Hans": "指定生成结果长度的上限。如果生成结果截断，可以调大该参数。"
                             },
                             "label": {
-                                "en_US": "Max Tokens",
-                                "ja_JP": "最大トークン",
-                                "pt_BR": "Máximo de tokens",
-                                "zh_Hans": "最大标记"
+                                "en_US": "max_tokens"
                             },
                             "max": 4096,
                             "min": 1,
@@ -12635,10 +12322,7 @@
                                 "zh_Hans": "通过核心采样控制多样性：0.5表示考虑了一半的所有可能性加权选项。"
                             },
                             "label": {
-                                "en_US": "Top P",
-                                "ja_JP": "Top P",
-                                "pt_BR": "Top P",
-                                "zh_Hans": "Top P"
+                                "en_US": "top_p"
                             },
                             "max": 1,
                             "min": 0,
@@ -12677,10 +12361,7 @@
                                 "zh_Hans": "对文本中出现的标记的对数概率施加惩罚。"
                             },
                             "label": {
-                                "en_US": "Frequency Penalty",
-                                "ja_JP": "頻度ペナルティ",
-                                "pt_BR": "Penalidade de frequência",
-                                "zh_Hans": "频率惩罚"
+                                "en_US": "frequency_penalty"
                             },
                             "max": 1,
                             "min": 0,
@@ -12724,10 +12405,7 @@
                                 "zh_Hans": "温度控制随机性。较低的温度会导致较少的随机完成。随着温度接近零，模型将变得确定性和重复性。较高的温度会导致更多的随机完成。"
                             },
                             "label": {
-                                "en_US": "Temperature",
-                                "ja_JP": "温度",
-                                "pt_BR": "Temperatura",
-                                "zh_Hans": "温度"
+                                "en_US": "temperature"
                             },
                             "max": 1,
                             "min": 0,
@@ -12745,10 +12423,7 @@
                                 "zh_Hans": "指定生成结果长度的上限。如果生成结果截断，可以调大该参数。"
                             },
                             "label": {
-                                "en_US": "Max Tokens",
-                                "ja_JP": "最大トークン",
-                                "pt_BR": "Máximo de tokens",
-                                "zh_Hans": "最大标记"
+                                "en_US": "max_tokens"
                             },
                             "max": 4096,
                             "min": 1,
@@ -12768,10 +12443,7 @@
                                 "zh_Hans": "通过核心采样控制多样性：0.5表示考虑了一半的所有可能性加权选项。"
                             },
                             "label": {
-                                "en_US": "Top P",
-                                "ja_JP": "Top P",
-                                "pt_BR": "Top P",
-                                "zh_Hans": "Top P"
+                                "en_US": "top_p"
                             },
                             "max": 1,
                             "min": 0,
@@ -12810,10 +12482,7 @@
                                 "zh_Hans": "对文本中出现的标记的对数概率施加惩罚。"
                             },
                             "label": {
-                                "en_US": "Frequency Penalty",
-                                "ja_JP": "頻度ペナルティ",
-                                "pt_BR": "Penalidade de frequência",
-                                "zh_Hans": "频率惩罚"
+                                "en_US": "frequency_penalty"
                             },
                             "max": 1,
                             "min": 0,
@@ -12857,10 +12526,7 @@
                                 "zh_Hans": "温度控制随机性。较低的温度会导致较少的随机完成。随着温度接近零，模型将变得确定性和重复性。较高的温度会导致更多的随机完成。"
                             },
                             "label": {
-                                "en_US": "Temperature",
-                                "ja_JP": "温度",
-                                "pt_BR": "Temperatura",
-                                "zh_Hans": "温度"
+                                "en_US": "temperature"
                             },
                             "max": 1,
                             "min": 0,
@@ -12878,10 +12544,7 @@
                                 "zh_Hans": "指定生成结果长度的上限。如果生成结果截断，可以调大该参数。"
                             },
                             "label": {
-                                "en_US": "Max Tokens",
-                                "ja_JP": "最大トークン",
-                                "pt_BR": "Máximo de tokens",
-                                "zh_Hans": "最大标记"
+                                "en_US": "max_tokens"
                             },
                             "max": 4096,
                             "min": 1,
@@ -12901,10 +12564,7 @@
                                 "zh_Hans": "通过核心采样控制多样性：0.5表示考虑了一半的所有可能性加权选项。"
                             },
                             "label": {
-                                "en_US": "Top P",
-                                "ja_JP": "Top P",
-                                "pt_BR": "Top P",
-                                "zh_Hans": "Top P"
+                                "en_US": "top_p"
                             },
                             "max": 1,
                             "min": 0,
@@ -12943,10 +12603,7 @@
                                 "zh_Hans": "对文本中出现的标记的对数概率施加惩罚。"
                             },
                             "label": {
-                                "en_US": "Frequency Penalty",
-                                "ja_JP": "頻度ペナルティ",
-                                "pt_BR": "Penalidade de frequência",
-                                "zh_Hans": "频率惩罚"
+                                "en_US": "frequency_penalty"
                             },
                             "max": 1,
                             "min": 0,
@@ -12988,10 +12645,7 @@
                                 "zh_Hans": "用于控制随机性和多样性的程度。具体来说，temperature值控制了生成文本时对每个候选词的概率分布进行平滑的程度。较高的temperature值会降低概率分布的峰值，使得更多的低概率词被选择，生成结果更加多样化；而较低的temperature值则会增强概率分布的峰值，使得高概率词更容易被选择，生成结果更加确定。"
                             },
                             "label": {
-                                "en_US": "Temperature",
-                                "ja_JP": "温度",
-                                "pt_BR": "Temperatura",
-                                "zh_Hans": "温度"
+                                "en_US": "temperature"
                             },
                             "max": 2,
                             "min": 0,
@@ -13009,10 +12663,7 @@
                                 "zh_Hans": "用于指定模型在生成内容时token的最大数量，它定义了生成的上限，但不保证每次都会生成到这个数量。"
                             },
                             "label": {
-                                "en_US": "Max Tokens",
-                                "ja_JP": "最大トークン",
-                                "pt_BR": "Máximo de tokens",
-                                "zh_Hans": "最大标记"
+                                "en_US": "max_tokens"
                             },
                             "max": 2000,
                             "min": 1,
@@ -13030,10 +12681,7 @@
                                 "zh_Hans": "生成过程中核采样方法概率阈值，例如，取值为0.8时，仅保留概率加起来大于等于0.8的最可能token的最小集合作为候选集。取值范围为（0,1.0)，取值越大，生成的随机性越高；取值越低，生成的确定性越高。"
                             },
                             "label": {
-                                "en_US": "Top P",
-                                "ja_JP": "Top P",
-                                "pt_BR": "Top P",
-                                "zh_Hans": "Top P"
+                                "en_US": "top_p"
                             },
                             "max": 0.9,
                             "min": 0.1,
@@ -13154,10 +12802,7 @@
                                 "zh_Hans": "用于控制随机性和多样性的程度。具体来说，temperature值控制了生成文本时对每个候选词的概率分布进行平滑的程度。较高的temperature值会降低概率分布的峰值，使得更多的低概率词被选择，生成结果更加多样化；而较低的temperature值则会增强概率分布的峰值，使得高概率词更容易被选择，生成结果更加确定。"
                             },
                             "label": {
-                                "en_US": "Temperature",
-                                "ja_JP": "温度",
-                                "pt_BR": "Temperatura",
-                                "zh_Hans": "温度"
+                                "en_US": "temperature"
                             },
                             "max": 2,
                             "min": 0,
@@ -13175,10 +12820,7 @@
                                 "zh_Hans": "用于指定模型在生成内容时token的最大数量，它定义了生成的上限，但不保证每次都会生成到这个数量。"
                             },
                             "label": {
-                                "en_US": "Max Tokens",
-                                "ja_JP": "最大トークン",
-                                "pt_BR": "Máximo de tokens",
-                                "zh_Hans": "最大标记"
+                                "en_US": "max_tokens"
                             },
                             "max": 2000,
                             "min": 1,
@@ -13196,10 +12838,7 @@
                                 "zh_Hans": "生成过程中核采样方法概率阈值，例如，取值为0.8时，仅保留概率加起来大于等于0.8的最可能token的最小集合作为候选集。取值范围为（0,1.0)，取值越大，生成的随机性越高；取值越低，生成的确定性越高。"
                             },
                             "label": {
-                                "en_US": "Top P",
-                                "ja_JP": "Top P",
-                                "pt_BR": "Top P",
-                                "zh_Hans": "Top P"
+                                "en_US": "top_p"
                             },
                             "max": 0.9,
                             "min": 0.1,
@@ -13322,10 +12961,7 @@
                                 "zh_Hans": "温度控制随机性。较低的温度会导致较少的随机完成。随着温度接近零，模型将变得确定性和重复性。较高的温度会导致更多的随机完成。"
                             },
                             "label": {
-                                "en_US": "Temperature",
-                                "ja_JP": "温度",
-                                "pt_BR": "Temperatura",
-                                "zh_Hans": "温度"
+                                "en_US": "temperature"
                             },
                             "max": 1,
                             "min": 0,
@@ -13343,10 +12979,7 @@
                                 "zh_Hans": "指定生成结果长度的上限。如果生成结果截断，可以调大该参数。"
                             },
                             "label": {
-                                "en_US": "Max Tokens",
-                                "ja_JP": "最大トークン",
-                                "pt_BR": "Máximo de tokens",
-                                "zh_Hans": "最大标记"
+                                "en_US": "max_tokens"
                             },
                             "max": 8192,
                             "min": 1,
@@ -13366,10 +12999,7 @@
                                 "zh_Hans": "通过核心采样控制多样性：0.5表示考虑了一半的所有可能性加权选项。"
                             },
                             "label": {
-                                "en_US": "Top P",
-                                "ja_JP": "Top P",
-                                "pt_BR": "Top P",
-                                "zh_Hans": "Top P"
+                                "en_US": "top_p"
                             },
                             "max": 1,
                             "min": 0,
@@ -13408,10 +13038,7 @@
                                 "zh_Hans": "对文本中出现的标记的对数概率施加惩罚。"
                             },
                             "label": {
-                                "en_US": "Frequency Penalty",
-                                "ja_JP": "頻度ペナルティ",
-                                "pt_BR": "Penalidade de frequência",
-                                "zh_Hans": "频率惩罚"
+                                "en_US": "frequency_penalty"
                             },
                             "max": 1,
                             "min": 0,
@@ -13477,10 +13104,7 @@
                                 "zh_Hans": "温度控制随机性。较低的温度会导致较少的随机完成。随着温度接近零，模型将变得确定性和重复性。较高的温度会导致更多的随机完成。"
                             },
                             "label": {
-                                "en_US": "Temperature",
-                                "ja_JP": "温度",
-                                "pt_BR": "Temperatura",
-                                "zh_Hans": "温度"
+                                "en_US": "temperature"
                             },
                             "max": 1,
                             "min": 0,
@@ -13498,10 +13122,7 @@
                                 "zh_Hans": "指定生成结果长度的上限。如果生成结果截断，可以调大该参数。"
                             },
                             "label": {
-                                "en_US": "Max Tokens",
-                                "ja_JP": "最大トークン",
-                                "pt_BR": "Máximo de tokens",
-                                "zh_Hans": "最大标记"
+                                "en_US": "max_tokens"
                             },
                             "max": 8192,
                             "min": 1,
@@ -13521,10 +13142,7 @@
                                 "zh_Hans": "通过核心采样控制多样性：0.5表示考虑了一半的所有可能性加权选项。"
                             },
                             "label": {
-                                "en_US": "Top P",
-                                "ja_JP": "Top P",
-                                "pt_BR": "Top P",
-                                "zh_Hans": "Top P"
+                                "en_US": "top_p"
                             },
                             "max": 1,
                             "min": 0,
@@ -13563,10 +13181,7 @@
                                 "zh_Hans": "对文本中出现的标记的对数概率施加惩罚。"
                             },
                             "label": {
-                                "en_US": "Frequency Penalty",
-                                "ja_JP": "頻度ペナルティ",
-                                "pt_BR": "Penalidade de frequência",
-                                "zh_Hans": "频率惩罚"
+                                "en_US": "frequency_penalty"
                             },
                             "max": 1,
                             "min": 0,
@@ -13632,10 +13247,7 @@
                                 "zh_Hans": "温度控制随机性。较低的温度会导致较少的随机完成。随着温度接近零，模型将变得确定性和重复性。较高的温度会导致更多的随机完成。"
                             },
                             "label": {
-                                "en_US": "Temperature",
-                                "ja_JP": "温度",
-                                "pt_BR": "Temperatura",
-                                "zh_Hans": "温度"
+                                "en_US": "temperature"
                             },
                             "max": 1,
                             "min": 0,
@@ -13653,10 +13265,7 @@
                                 "zh_Hans": "指定生成结果长度的上限。如果生成结果截断，可以调大该参数。"
                             },
                             "label": {
-                                "en_US": "Max Tokens",
-                                "ja_JP": "最大トークン",
-                                "pt_BR": "Máximo de tokens",
-                                "zh_Hans": "最大标记"
+                                "en_US": "max_tokens"
                             },
                             "max": 4096,
                             "min": 1,
@@ -13676,10 +13285,7 @@
                                 "zh_Hans": "通过核心采样控制多样性：0.5表示考虑了一半的所有可能性加权选项。"
                             },
                             "label": {
-                                "en_US": "Top P",
-                                "ja_JP": "Top P",
-                                "pt_BR": "Top P",
-                                "zh_Hans": "Top P"
+                                "en_US": "top_p"
                             },
                             "max": 1,
                             "min": 0,
@@ -13718,10 +13324,7 @@
                                 "zh_Hans": "对文本中出现的标记的对数概率施加惩罚。"
                             },
                             "label": {
-                                "en_US": "Frequency Penalty",
-                                "ja_JP": "頻度ペナルティ",
-                                "pt_BR": "Penalidade de frequência",
-                                "zh_Hans": "频率惩罚"
+                                "en_US": "frequency_penalty"
                             },
                             "max": 1,
                             "min": 0,
@@ -13787,10 +13390,7 @@
                                 "zh_Hans": "温度控制随机性。较低的温度会导致较少的随机完成。随着温度接近零，模型将变得确定性和重复性。较高的温度会导致更多的随机完成。"
                             },
                             "label": {
-                                "en_US": "Temperature",
-                                "ja_JP": "温度",
-                                "pt_BR": "Temperatura",
-                                "zh_Hans": "温度"
+                                "en_US": "temperature"
                             },
                             "max": 1,
                             "min": 0,
@@ -13808,10 +13408,7 @@
                                 "zh_Hans": "指定生成结果长度的上限。如果生成结果截断，可以调大该参数。"
                             },
                             "label": {
-                                "en_US": "Max Tokens",
-                                "ja_JP": "最大トークン",
-                                "pt_BR": "Máximo de tokens",
-                                "zh_Hans": "最大标记"
+                                "en_US": "max_tokens"
                             },
                             "max": 4096,
                             "min": 1,
@@ -13831,10 +13428,7 @@
                                 "zh_Hans": "通过核心采样控制多样性：0.5表示考虑了一半的所有可能性加权选项。"
                             },
                             "label": {
-                                "en_US": "Top P",
-                                "ja_JP": "Top P",
-                                "pt_BR": "Top P",
-                                "zh_Hans": "Top P"
+                                "en_US": "top_p"
                             },
                             "max": 1,
                             "min": 0,
@@ -13873,10 +13467,7 @@
                                 "zh_Hans": "对文本中出现的标记的对数概率施加惩罚。"
                             },
                             "label": {
-                                "en_US": "Frequency Penalty",
-                                "ja_JP": "頻度ペナルティ",
-                                "pt_BR": "Penalidade de frequência",
-                                "zh_Hans": "频率惩罚"
+                                "en_US": "frequency_penalty"
                             },
                             "max": 1,
                             "min": 0,
@@ -13942,10 +13533,7 @@
                                 "zh_Hans": "温度控制随机性。较低的温度会导致较少的随机完成。随着温度接近零，模型将变得确定性和重复性。较高的温度会导致更多的随机完成。"
                             },
                             "label": {
-                                "en_US": "Temperature",
-                                "ja_JP": "温度",
-                                "pt_BR": "Temperatura",
-                                "zh_Hans": "温度"
+                                "en_US": "temperature"
                             },
                             "max": 1,
                             "min": 0,
@@ -13963,10 +13551,7 @@
                                 "zh_Hans": "指定生成结果长度的上限。如果生成结果截断，可以调大该参数。"
                             },
                             "label": {
-                                "en_US": "Max Tokens",
-                                "ja_JP": "最大トークン",
-                                "pt_BR": "Máximo de tokens",
-                                "zh_Hans": "最大标记"
+                                "en_US": "max_tokens"
                             },
                             "max": 4096,
                             "min": 1,
@@ -13986,10 +13571,7 @@
                                 "zh_Hans": "通过核心采样控制多样性：0.5表示考虑了一半的所有可能性加权选项。"
                             },
                             "label": {
-                                "en_US": "Top P",
-                                "ja_JP": "Top P",
-                                "pt_BR": "Top P",
-                                "zh_Hans": "Top P"
+                                "en_US": "top_p"
                             },
                             "max": 1,
                             "min": 0,
@@ -14028,10 +13610,7 @@
                                 "zh_Hans": "对文本中出现的标记的对数概率施加惩罚。"
                             },
                             "label": {
-                                "en_US": "Frequency Penalty",
-                                "ja_JP": "頻度ペナルティ",
-                                "pt_BR": "Penalidade de frequência",
-                                "zh_Hans": "频率惩罚"
+                                "en_US": "frequency_penalty"
                             },
                             "max": 1,
                             "min": 0,
@@ -14097,10 +13676,7 @@
                                 "zh_Hans": "温度控制随机性。较低的温度会导致较少的随机完成。随着温度接近零，模型将变得确定性和重复性。较高的温度会导致更多的随机完成。"
                             },
                             "label": {
-                                "en_US": "Temperature",
-                                "ja_JP": "温度",
-                                "pt_BR": "Temperatura",
-                                "zh_Hans": "温度"
+                                "en_US": "temperature"
                             },
                             "max": 1,
                             "min": 0,
@@ -14118,10 +13694,7 @@
                                 "zh_Hans": "指定生成结果长度的上限。如果生成结果截断，可以调大该参数。"
                             },
                             "label": {
-                                "en_US": "Max Tokens",
-                                "ja_JP": "最大トークン",
-                                "pt_BR": "Máximo de tokens",
-                                "zh_Hans": "最大标记"
+                                "en_US": "max_tokens"
                             },
                             "max": 8192,
                             "min": 1,
@@ -14141,10 +13714,7 @@
                                 "zh_Hans": "通过核心采样控制多样性：0.5表示考虑了一半的所有可能性加权选项。"
                             },
                             "label": {
-                                "en_US": "Top P",
-                                "ja_JP": "Top P",
-                                "pt_BR": "Top P",
-                                "zh_Hans": "Top P"
+                                "en_US": "top_p"
                             },
                             "max": 1,
                             "min": 0,
@@ -14183,10 +13753,7 @@
                                 "zh_Hans": "对文本中出现的标记的对数概率施加惩罚。"
                             },
                             "label": {
-                                "en_US": "Frequency Penalty",
-                                "ja_JP": "頻度ペナルティ",
-                                "pt_BR": "Penalidade de frequência",
-                                "zh_Hans": "频率惩罚"
+                                "en_US": "frequency_penalty"
                             },
                             "max": 1,
                             "min": 0,
@@ -14250,10 +13817,7 @@
                                 "zh_Hans": "用于控制随机性和多样性的程度。具体来说，temperature值控制了生成文本时对每个候选词的概率分布进行平滑的程度。较高的temperature值会降低概率分布的峰值，使得更多的低概率词被选择，生成结果更加多样化；而较低的temperature值则会增强概率分布的峰值，使得高概率词更容易被选择，生成结果更加确定。"
                             },
                             "label": {
-                                "en_US": "Temperature",
-                                "ja_JP": "温度",
-                                "pt_BR": "Temperatura",
-                                "zh_Hans": "温度"
+                                "en_US": "temperature"
                             },
                             "max": 2,
                             "min": 0,
@@ -14271,10 +13835,7 @@
                                 "zh_Hans": "用于指定模型在生成内容时token的最大数量，它定义了生成的上限，但不保证每次都会生成到这个数量。"
                             },
                             "label": {
-                                "en_US": "Max Tokens",
-                                "ja_JP": "最大トークン",
-                                "pt_BR": "Máximo de tokens",
-                                "zh_Hans": "最大标记"
+                                "en_US": "max_tokens"
                             },
                             "max": 8192,
                             "min": 1,
@@ -14292,10 +13853,7 @@
                                 "zh_Hans": "生成过程中核采样方法概率阈值，例如，取值为0.8时，仅保留概率加起来大于等于0.8的最可能token的最小集合作为候选集。取值范围为（0,1.0)，取值越大，生成的随机性越高；取值越低，生成的确定性越高。"
                             },
                             "label": {
-                                "en_US": "Top P",
-                                "ja_JP": "Top P",
-                                "pt_BR": "Top P",
-                                "zh_Hans": "Top P"
+                                "en_US": "top_p"
                             },
                             "max": 0.9,
                             "min": 0.1,
@@ -14416,10 +13974,7 @@
                                 "zh_Hans": "用于控制随机性和多样性的程度。具体来说，temperature值控制了生成文本时对每个候选词的概率分布进行平滑的程度。较高的temperature值会降低概率分布的峰值，使得更多的低概率词被选择，生成结果更加多样化；而较低的temperature值则会增强概率分布的峰值，使得高概率词更容易被选择，生成结果更加确定。"
                             },
                             "label": {
-                                "en_US": "Temperature",
-                                "ja_JP": "温度",
-                                "pt_BR": "Temperatura",
-                                "zh_Hans": "温度"
+                                "en_US": "temperature"
                             },
                             "max": 2,
                             "min": 0,
@@ -14437,10 +13992,7 @@
                                 "zh_Hans": "用于指定模型在生成内容时token的最大数量，它定义了生成的上限，但不保证每次都会生成到这个数量。"
                             },
                             "label": {
-                                "en_US": "Max Tokens",
-                                "ja_JP": "最大トークン",
-                                "pt_BR": "Máximo de tokens",
-                                "zh_Hans": "最大标记"
+                                "en_US": "max_tokens"
                             },
                             "max": 8192,
                             "min": 1,
@@ -14458,10 +14010,7 @@
                                 "zh_Hans": "生成过程中核采样方法概率阈值，例如，取值为0.8时，仅保留概率加起来大于等于0.8的最可能token的最小集合作为候选集。取值范围为（0,1.0)，取值越大，生成的随机性越高；取值越低，生成的确定性越高。"
                             },
                             "label": {
-                                "en_US": "Top P",
-                                "ja_JP": "Top P",
-                                "pt_BR": "Top P",
-                                "zh_Hans": "Top P"
+                                "en_US": "top_p"
                             },
                             "max": 0.9,
                             "min": 0.1,
@@ -14582,10 +14131,7 @@
                                 "zh_Hans": "用于控制随机性和多样性的程度。具体来说，temperature值控制了生成文本时对每个候选词的概率分布进行平滑的程度。较高的temperature值会降低概率分布的峰值，使得更多的低概率词被选择，生成结果更加多样化；而较低的temperature值则会增强概率分布的峰值，使得高概率词更容易被选择，生成结果更加确定。"
                             },
                             "label": {
-                                "en_US": "Temperature",
-                                "ja_JP": "温度",
-                                "pt_BR": "Temperatura",
-                                "zh_Hans": "温度"
+                                "en_US": "temperature"
                             },
                             "max": 2,
                             "min": 0,
@@ -14603,10 +14149,7 @@
                                 "zh_Hans": "用于指定模型在生成内容时token的最大数量，它定义了生成的上限，但不保证每次都会生成到这个数量。"
                             },
                             "label": {
-                                "en_US": "Max Tokens",
-                                "ja_JP": "最大トークン",
-                                "pt_BR": "Máximo de tokens",
-                                "zh_Hans": "最大标记"
+                                "en_US": "max_tokens"
                             },
                             "max": 2000,
                             "min": 1,
@@ -14624,10 +14167,7 @@
                                 "zh_Hans": "生成过程中核采样方法概率阈值，例如，取值为0.8时，仅保留概率加起来大于等于0.8的最可能token的最小集合作为候选集。取值范围为（0,1.0)，取值越大，生成的随机性越高；取值越低，生成的确定性越高。"
                             },
                             "label": {
-                                "en_US": "Top P",
-                                "ja_JP": "Top P",
-                                "pt_BR": "Top P",
-                                "zh_Hans": "Top P"
+                                "en_US": "top_p"
                             },
                             "max": 0.9,
                             "min": 0.1,
@@ -14750,10 +14290,7 @@
                                 "zh_Hans": "温度控制随机性。较低的温度会导致较少的随机完成。随着温度接近零，模型将变得确定性和重复性。较高的温度会导致更多的随机完成。"
                             },
                             "label": {
-                                "en_US": "Temperature",
-                                "ja_JP": "温度",
-                                "pt_BR": "Temperatura",
-                                "zh_Hans": "温度"
+                                "en_US": "temperature"
                             },
                             "max": 1,
                             "min": 0,
@@ -14771,10 +14308,7 @@
                                 "zh_Hans": "指定生成结果长度的上限。如果生成结果截断，可以调大该参数。"
                             },
                             "label": {
-                                "en_US": "Max Tokens",
-                                "ja_JP": "最大トークン",
-                                "pt_BR": "Máximo de tokens",
-                                "zh_Hans": "最大标记"
+                                "en_US": "max_tokens"
                             },
                             "max": 4096,
                             "min": 1,
@@ -14794,10 +14328,7 @@
                                 "zh_Hans": "通过核心采样控制多样性：0.5表示考虑了一半的所有可能性加权选项。"
                             },
                             "label": {
-                                "en_US": "Top P",
-                                "ja_JP": "Top P",
-                                "pt_BR": "Top P",
-                                "zh_Hans": "Top P"
+                                "en_US": "top_p"
                             },
                             "max": 1,
                             "min": 0,
@@ -14836,10 +14367,7 @@
                                 "zh_Hans": "对文本中出现的标记的对数概率施加惩罚。"
                             },
                             "label": {
-                                "en_US": "Frequency Penalty",
-                                "ja_JP": "頻度ペナルティ",
-                                "pt_BR": "Penalidade de frequência",
-                                "zh_Hans": "频率惩罚"
+                                "en_US": "frequency_penalty"
                             },
                             "max": 1,
                             "min": 0,
@@ -14883,10 +14411,7 @@
                                 "zh_Hans": "温度控制随机性。较低的温度会导致较少的随机完成。随着温度接近零，模型将变得确定性和重复性。较高的温度会导致更多的随机完成。"
                             },
                             "label": {
-                                "en_US": "Temperature",
-                                "ja_JP": "温度",
-                                "pt_BR": "Temperatura",
-                                "zh_Hans": "温度"
+                                "en_US": "temperature"
                             },
                             "max": 1,
                             "min": 0,
@@ -14904,10 +14429,7 @@
                                 "zh_Hans": "指定生成结果长度的上限。如果生成结果截断，可以调大该参数。"
                             },
                             "label": {
-                                "en_US": "Max Tokens",
-                                "ja_JP": "最大トークン",
-                                "pt_BR": "Máximo de tokens",
-                                "zh_Hans": "最大标记"
+                                "en_US": "max_tokens"
                             },
                             "max": 4096,
                             "min": 1,
@@ -14927,10 +14449,7 @@
                                 "zh_Hans": "通过核心采样控制多样性：0.5表示考虑了一半的所有可能性加权选项。"
                             },
                             "label": {
-                                "en_US": "Top P",
-                                "ja_JP": "Top P",
-                                "pt_BR": "Top P",
-                                "zh_Hans": "Top P"
+                                "en_US": "top_p"
                             },
                             "max": 1,
                             "min": 0,
@@ -14969,10 +14488,7 @@
                                 "zh_Hans": "对文本中出现的标记的对数概率施加惩罚。"
                             },
                             "label": {
-                                "en_US": "Frequency Penalty",
-                                "ja_JP": "頻度ペナルティ",
-                                "pt_BR": "Penalidade de frequência",
-                                "zh_Hans": "频率惩罚"
+                                "en_US": "frequency_penalty"
                             },
                             "max": 1,
                             "min": 0,
@@ -15016,10 +14532,7 @@
                                 "zh_Hans": "温度控制随机性。较低的温度会导致较少的随机完成。随着温度接近零，模型将变得确定性和重复性。较高的温度会导致更多的随机完成。"
                             },
                             "label": {
-                                "en_US": "Temperature",
-                                "ja_JP": "温度",
-                                "pt_BR": "Temperatura",
-                                "zh_Hans": "温度"
+                                "en_US": "temperature"
                             },
                             "max": 1,
                             "min": 0,
@@ -15037,10 +14550,7 @@
                                 "zh_Hans": "指定生成结果长度的上限。如果生成结果截断，可以调大该参数。"
                             },
                             "label": {
-                                "en_US": "Max Tokens",
-                                "ja_JP": "最大トークン",
-                                "pt_BR": "Máximo de tokens",
-                                "zh_Hans": "最大标记"
+                                "en_US": "max_tokens"
                             },
                             "max": 4096,
                             "min": 1,
@@ -15060,10 +14570,7 @@
                                 "zh_Hans": "通过核心采样控制多样性：0.5表示考虑了一半的所有可能性加权选项。"
                             },
                             "label": {
-                                "en_US": "Top P",
-                                "ja_JP": "Top P",
-                                "pt_BR": "Top P",
-                                "zh_Hans": "Top P"
+                                "en_US": "top_p"
                             },
                             "max": 1,
                             "min": 0,
@@ -15102,10 +14609,7 @@
                                 "zh_Hans": "对文本中出现的标记的对数概率施加惩罚。"
                             },
                             "label": {
-                                "en_US": "Frequency Penalty",
-                                "ja_JP": "頻度ペナルティ",
-                                "pt_BR": "Penalidade de frequência",
-                                "zh_Hans": "频率惩罚"
+                                "en_US": "frequency_penalty"
                             },
                             "max": 1,
                             "min": 0,
@@ -15682,10 +15186,10 @@
         },
         "tool": {},
         "agent_strategy": {},
-        "install_count": 26802,
-        "version_updated_at": "2025-03-01T14:22:50.218194Z",
-        "latest_version": "0.0.7",
-        "latest_package_identifier": "langgenius/siliconflow:0.0.7@8b9d2f57d314120744c245b6fe4f8701e1a7490a500d9fb74e9e9dceeaea5f70",
+        "install_count": 27167,
+        "version_updated_at": "2025-03-19T01:48:50.635073Z",
+        "latest_version": "0.0.8",
+        "latest_package_identifier": "langgenius/siliconflow:0.0.8@217f973bd7ced1b099c2f0c669f1356bdf4cc38b8372fd58d7874f9940b95de3",
         "tags": [
             {
                 "name": "image"
@@ -16262,7 +15766,7 @@
             ]
         },
         "agent_strategy": {},
-        "install_count": 11332,
+        "install_count": 11572,
         "version_updated_at": "2025-03-17T06:38:06.735517Z",
         "latest_version": "0.0.5",
         "latest_package_identifier": "langgenius/tavily:0.0.5@caf7214ca1a237845e991615fd12e04c8db8b703d59773538fe243f3de4044e9",

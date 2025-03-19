@@ -1,6 +1,272 @@
 [
     {
         "type": "plugin",
+        "name": "mineru",
+        "org": "langgenius",
+        "plugin_id": "langgenius/mineru",
+        "icon": "langgenius/packages/mineru/_assets/icon.svg",
+        "label": {
+            "en_US": "MinerU",
+            "ja_JP": "MinerU",
+            "pt_BR": "MinerU",
+            "zh_Hans": "MinerU"
+        },
+        "brief": {
+            "en_US": "MinerU is a tool that converts PDFs into machine-readable formats (e.g., markdown, JSON), allowing for easy extraction into any format. MinerU was born during the pre-training process of InternLM. We focus on solving symbol conversion issues in scientific literature and hope to contribute to technological development in the era of large models.https://github.com/opendatalab/MinerU",
+            "ja_JP": "MinerU は、PDF を機械可読な形式（例えば、マークダウン、JSON）に変換するツールで、どんな形式にも簡単に抽出することができます。MinerU は InternLM の事前トレーニングプロセス中に生まれました。私たちは科学文献における記号変換の問題を解決することに集中し、大規模モデルの時代における技術開発に貢献することを目指しています。https://github.com/opendatalab/MinerU",
+            "pt_BR": "MinerU é uma ferramenta que converte PDFs em formatos legíveis por máquinas (por exemplo, markdown, JSON), permitindo a extração fácil para qualquer formato. MinerU nasceu durante o processo de pré-treinamento do InternLM. Nós nos concentramos em resolver problemas de conversão de símbolos na literatura científica e esperamos contribuir para o desenvolvimento tecnológico na era dos grandes modelos.https://github.com/opendatalab/MinerU",
+            "zh_Hans": "MinerU是一款可以在本地部署的将PDF转化为机器可读格式的工具（如markdown、json），可以很方便地抽取为任意格式。MinerU诞生于书生-浦语的预训练过程中，我们将会集中精力解决科技文献中的符号转化问题，希望在大模型时代为科技发展做出贡献。https://github.com/opendatalab/MinerU"
+        },
+        "introduction": "## MinerU Dify Plugin\n\nMinerU is a tool that converts PDFs into machine-readable formats (e.g., markdown, JSON), allowing for easy extraction into any format. \n\nMinerU is a document parser that can parse complex document data for any downstream LLM use case (RAG, agents)\n\n![](/Users/lidongyu/Library/Application%20Support/marktext/images/2025-03-11-15-26-23-image.png)\n\n### GitHub\n\n[GitHub - opendatalab/MinerU: A high-quality tool for convert PDF to Markdown and JSON.一站式开源高质量数据提取工具，将PDF转换成Markdown和JSON格式。](https://github.com/opendatalab/MinerU)\n\n\n\n### Key Features\n\n- Remove headers, footers, footnotes, page numbers, etc., to ensure semantic coherence.\n- Output text in human-readable order, suitable for single-column, multi-column, and complex layouts.\n- Preserve the structure of the original document, including headings, paragraphs, lists, etc.\n- Extract images, image descriptions, tables, table titles, and footnotes.\n- Automatically recognize and convert formulas in the document to LaTeX format.\n- Automatically recognize and convert tables in the document to HTML format.\n- Automatically detect scanned PDFs and garbled PDFs and enable OCR functionality.\n- OCR supports detection and recognition of 84 languages.\n- Supports multiple output formats, such as multimodal and NLP Markdown, JSON sorted by reading order, and rich intermediate formats.\n- Supports various visualization results, including layout visualization and span visualization, for efficient confirmation of output quality.\n- Supports running in a pure CPU environment, and also supports GPU(CUDA)/NPU(CANN)/MPS acceleration\n- Compatible with Windows, Linux, and Mac platforms.\n\n### Getting Started\n\n    The plugin does not support the official MinerU API for now and only supports the locally deployed version.\n\nVersion 0.0.1 of the plugin corresponds to MinerU release 1.2.2.\n\n1. Deploy Derived Projects\n\n[MinerU/projects/web_api/README.md at magic_pdf-1.2.2-released · opendatalab/MinerU · GitHub](https://github.com/opendatalab/MinerU/blob/magic_pdf-1.2.2-released/projects/web_api/README.md)\n\n2. Configure the server base url in your Dify plugin settings\n\n### Input Parameters\n\n| Parameter    | Type   | Required | Default | Description                               |\n| ------------ | ------ | -------- | ------- | ----------------------------------------- |\n| files        | files  | Yes      | -       | Files to be parsed                        |\n| parse_method | select | Yes      | auto    | Parsing method, can be auto, ocr, or txt. |\n\n### Output Format\n\nThe plugin provides three types of output for each processed file:\n\n1. **Text Message**\n   \n   - Parsed PDF markdown text\n\n2. **JSON Message**\n   \n   - Parsed PDF content list\n\n3. **Blob Message**\n   \n   - The pictures extracted from the PDF.\n\n## Credits\n\nThis plugin is powered by [MinerU]([GitHub - opendatalab/MinerU: A high-quality tool for convert PDF to Markdown and JSON.一站式开源高质量数据提取工具，将PDF转换成Markdown和JSON格式。](https://github.com/opendatalab/MinerU))\n",
+        "category": "tool",
+        "repository": "",
+        "resource": {
+            "memory": 268435456,
+            "permission": {
+                "storage": {
+                    "enabled": true,
+                    "size": 1048576
+                },
+                "tool": {
+                    "enabled": true
+                }
+            }
+        },
+        "privacy_options": "",
+        "privacy_policy": "",
+        "created_at": "2025-03-18T14:46:11.422431Z",
+        "updated_at": "2025-03-18T14:46:18.416624Z",
+        "badges": [],
+        "plugins": {
+            "agent_strategies": null,
+            "endpoints": null,
+            "models": null,
+            "tools": [
+                "provider/mineru.yaml"
+            ]
+        },
+        "endpoint": {},
+        "model": {},
+        "tool": {
+            "credentials_schema": [
+                {
+                    "default": null,
+                    "help": null,
+                    "label": {
+                        "en_US": "Base URL",
+                        "pt_BR": "Base URL",
+                        "zh_Hans": "MinerU服务的Base URL"
+                    },
+                    "name": "base_url",
+                    "options": null,
+                    "placeholder": {
+                        "en_US": "Please input your MinerU server's Base URL",
+                        "pt_BR": "Please input your MinerU server's Base URL",
+                        "zh_Hans": "请输入你的 MinerU 服务的 Base URL"
+                    },
+                    "required": true,
+                    "scope": null,
+                    "type": "secret-input",
+                    "url": null
+                }
+            ],
+            "identity": {
+                "author": "langgenius",
+                "description": {
+                    "en_US": "MinerU is a tool that converts PDFs into machine-readable formats (e.g., markdown, JSON), allowing for easy extraction into any format. MinerU was born during the pre-training process of InternLM. We focus on solving symbol conversion issues in scientific literature and hope to contribute to technological development in the era of large models.https://github.com/opendatalab/MinerU",
+                    "ja_JP": "MinerU は、PDF を機械可読な形式（例えば、マークダウン、JSON）に変換するツールで、どんな形式にも簡単に抽出することができます。MinerU は InternLM の事前トレーニングプロセス中に生まれました。私たちは科学文献における記号変換の問題を解決することに集中し、大規模モデルの時代における技術開発に貢献することを目指しています。https://github.com/opendatalab/MinerU",
+                    "pt_BR": "MinerU é uma ferramenta que converte PDFs em formatos legíveis por máquinas (por exemplo, markdown, JSON), permitindo a extração fácil para qualquer formato. MinerU nasceu durante o processo de pré-treinamento do InternLM. Nós nos concentramos em resolver problemas de conversão de símbolos na literatura científica e esperamos contribuir para o desenvolvimento tecnológico na era dos grandes modelos.https://github.com/opendatalab/MinerU",
+                    "zh_Hans": "MinerU是一款可以在本地部署的将PDF转化为机器可读格式的工具（如markdown、json），可以很方便地抽取为任意格式。MinerU诞生于书生-浦语的预训练过程中，我们将会集中精力解决科技文献中的符号转化问题，希望在大模型时代为科技发展做出贡献。https://github.com/opendatalab/MinerU"
+                },
+                "icon": "icon.svg",
+                "label": {
+                    "en_US": "MinerU",
+                    "pt_BR": "MinerU",
+                    "zh_Hans": "MinerU"
+                },
+                "name": "mineru",
+                "tags": null
+            },
+            "tools": [
+                {
+                    "description": {
+                        "human": {
+                            "en_US": "a tool for parsing text, tables, and images, supporting multiple formats such as pdf, pptx, docx, etc. supporting multiple languages such as English, Chinese, etc.",
+                            "zh_Hans": "一个用于解析文本，表格和图片的工具，支持pdf,pptx,docx等多种格式。支持英语，中文等多种语言"
+                        },
+                        "llm": "a tool for parsing text, tables, and images, supporting multiple formats such as pdf, pptx, docx, etc. supporting multiple languages such as English, Chinese, etc."
+                    },
+                    "has_runtime_parameters": false,
+                    "identity": {
+                        "author": "langgenius",
+                        "label": {
+                            "en_US": "Parse PDF",
+                            "pt_BR": "Parse PDF",
+                            "zh_Hans": "Parse PDF"
+                        },
+                        "name": "parse-pdf"
+                    },
+                    "output_schema": {
+                        "properties": {
+                            "url_list": {
+                                "items": {
+                                    "type": "string"
+                                },
+                                "type": "array"
+                            }
+                        },
+                        "type": "object"
+                    },
+                    "parameters": [
+                        {
+                            "auto_generate": null,
+                            "default": null,
+                            "form": "llm",
+                            "human_description": {
+                                "en_US": "the file to be parsed",
+                                "zh_Hans": "用于解析的文件"
+                            },
+                            "label": {
+                                "en_US": "files",
+                                "zh_Hans": "files"
+                            },
+                            "llm_description": "the file to be parsed",
+                            "max": null,
+                            "min": null,
+                            "name": "files",
+                            "options": null,
+                            "precision": null,
+                            "required": true,
+                            "scope": null,
+                            "template": null,
+                            "type": "files"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": "auto",
+                            "form": "form",
+                            "human_description": {
+                                "en_US": "Parsing method, can be auto, ocr, or txt. Default is auto. If results are not satisfactory, try ocr",
+                                "zh_Hans": "解析方法，可以是auto, ocr, 或 txt。默认是auto。如果结果不理想，请尝试ocr"
+                            },
+                            "label": {
+                                "en_US": "parse method",
+                                "zh_Hans": "解析方法"
+                            },
+                            "llm_description": "Parsing method, can be auto, ocr, or txt. Default is auto. If results are not satisfactory, try ocr",
+                            "max": null,
+                            "min": null,
+                            "name": "parse_method",
+                            "options": [
+                                {
+                                    "label": {
+                                        "en_US": "auto",
+                                        "zh_Hans": "auto"
+                                    },
+                                    "value": "auto"
+                                },
+                                {
+                                    "label": {
+                                        "en_US": "ocr",
+                                        "zh_Hans": "ocr"
+                                    },
+                                    "value": "ocr"
+                                },
+                                {
+                                    "label": {
+                                        "en_US": "txt",
+                                        "zh_Hans": "txt"
+                                    },
+                                    "value": "txt"
+                                }
+                            ],
+                            "precision": null,
+                            "required": false,
+                            "scope": null,
+                            "template": null,
+                            "type": "select"
+                        }
+                    ]
+                },
+                {
+                    "description": {
+                        "human": {
+                            "en_US": "A tool for replacing image paths in Markdown text with image URLs.",
+                            "zh_Hans": "一个用于将Markdown文本中的图片路径替换为图片URL的工具。"
+                        },
+                        "llm": "A tool for replacing image paths in Markdown text with image URLs."
+                    },
+                    "has_runtime_parameters": false,
+                    "identity": {
+                        "author": "langgenius",
+                        "label": {
+                            "en_US": "Replace Markdown Image Path",
+                            "pt_BR": "Substituir Caminho da Imagem no Markdown",
+                            "zh_Hans": "替换Markdown文本内图片路径"
+                        },
+                        "name": "replace-md-img-path"
+                    },
+                    "output_schema": null,
+                    "parameters": [
+                        {
+                            "auto_generate": null,
+                            "default": null,
+                            "form": "llm",
+                            "human_description": {
+                                "en_US": "The Markdown text containing image paths to be replaced.",
+                                "zh_Hans": "包含要替换的图片路径的Markdown文本。"
+                            },
+                            "label": {
+                                "en_US": "Markdown Text",
+                                "zh_Hans": "Markdown文本"
+                            },
+                            "llm_description": "The Markdown text containing image paths to be replaced.",
+                            "max": null,
+                            "min": null,
+                            "name": "markdown_text",
+                            "options": null,
+                            "precision": null,
+                            "required": true,
+                            "scope": null,
+                            "template": null,
+                            "type": "string"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": null,
+                            "form": "llm",
+                            "human_description": {
+                                "en_US": "Parse PDF Output File List",
+                                "zh_Hans": "解析PDF插件输出的文件列表"
+                            },
+                            "label": {
+                                "en_US": "Parse PDF Output File List",
+                                "zh_Hans": "解析PDF插件输出的文件列表"
+                            },
+                            "llm_description": "Parse PDF Output File List",
+                            "max": null,
+                            "min": null,
+                            "name": "file_list",
+                            "options": null,
+                            "precision": null,
+                            "required": true,
+                            "scope": null,
+                            "template": null,
+                            "type": "files"
+                        }
+                    ]
+                }
+            ]
+        },
+        "agent_strategy": {},
+        "install_count": 136,
+        "version_updated_at": "2025-03-18T14:46:18.416589Z",
+        "latest_version": "0.0.1",
+        "latest_package_identifier": "langgenius/mineru:0.0.1@a25e183f6ec82d95d9f0d8b4cb164d7c4af35f18c8e9a9ae6294767f82466573",
+        "tags": []
+    },
+    {
+        "type": "plugin",
         "name": "random",
         "org": "bowenliang123",
         "plugin_id": "bowenliang123/random",
@@ -10,10 +276,10 @@
             "zh_Hans": "随机生成器"
         },
         "brief": {
-            "en_US": "Generate random number or string.",
-            "zh_Hans": "Generate random number or string."
+            "en_US": "Generate random number, string, UUID, prime number and etc.",
+            "zh_Hans": "生成随机数、字符串、UUID、质数等。"
         },
-        "introduction": "## random\n\n**Author:** [bowenliang123](https://github.com/bowenliang123)\n\n**Github Repo:** https://github.com/bowenliang123/random\n\n### Description\n\nA Dify plugin to generate random number or string.\n\n\n- `random_string` Tool: Generate a random string with given length from alphabets and numbers.\n\neg. `TSUWUBoOIu4bZja7mdjTkKteaKVrhz`\n\n- `random_num` Tool: Generate a random number in given range. If the digits is set to 0, an integer will be generated.\n\n<img src=\"./_assets/img1.png\" width=\"400px\" >\n<img src=\"./_assets/img2.png\" width=\"400px\" >\n\n- `random_uuid` Tool: Generate a random UUID string of UUID v4.\n\n<img src=\"./_assets/img3.png\" width=\"400px\" >\n\n",
+        "introduction": "# Random - Generator for random number and string\n\n**Author:** [bowenliang123](https://github.com/bowenliang123)\n\n**Github Repo:** https://github.com/bowenliang123/random\n\n## Description\n\nA Dify plugin to generate random number, string, UUID, prime number and etc.\n\n## Tools\n\n### Random String:\n\n- Generate a random string with given length from alphabets and numbers.\n- Output: eg. `TSUWUBoOIu4bZja7mdjTkKteaKVrhz` in length 30.\n\n### Random Number:\n\n- Generate a random number in given range [ lower_bound, upper bound ] .\n- Parameters:\n    - `include_alphabets`: Include alphabets from both, either or none of uppercase or lowercase alphabets.\n    - `include_numbers`: Whether to include numbers\n    - `include_punctuation`: Whether to include punctuation characters from `!\"#$%&'()*+,-./:;<=>?@[\\]^_``{|}~`\n- Output: If the digits is set to 0, an integer will be generated.\n\n  <img src=\"./_assets/img1.png\" width=\"400px\" >\n  <img src=\"./_assets/img2.png\" width=\"400px\" >\n\n### Random Prime Number:\n\n- Generate a random prime number in given range [ lower_bound, upper bound ] .\n- Output: A prime number, or `NaN` if no prime number is found.\n\n### Random UUID:\n\n- Generate a random string of UUID v4.\n\n<img src=\"./_assets/img3.png\" width=\"400px\" >\n\n\n",
         "category": "tool",
         "repository": "",
         "resource": {
@@ -27,7 +293,7 @@
         "privacy_options": "",
         "privacy_policy": "PRIVACY.md",
         "created_at": "2025-03-18T03:05:05.204398Z",
-        "updated_at": "2025-03-18T03:05:14.902463Z",
+        "updated_at": "2025-03-19T01:46:20.817945Z",
         "badges": [],
         "plugins": {
             "agent_strategies": null,
@@ -44,8 +310,8 @@
             "identity": {
                 "author": "bowenliang123",
                 "description": {
-                    "en_US": "Generate random number or string.",
-                    "zh_Hans": "Generate random number or string."
+                    "en_US": "Generate random number, string, UUID, prime number and etc.",
+                    "zh_Hans": "生成随机数、字符串、UUID、质数等。"
                 },
                 "icon": "icon.png",
                 "label": {
@@ -59,7 +325,8 @@
                 {
                     "description": {
                         "human": {
-                            "en_US": "Generate a random number."
+                            "en_US": "Generate a random number.",
+                            "zh_Hans": "生成随机数"
                         },
                         "llm": "Generate a random number."
                     },
@@ -80,11 +347,11 @@
                             "form": "llm",
                             "human_description": {
                                 "en_US": "Lower bound of the random number.",
-                                "zh_Hans": "范围下限"
+                                "zh_Hans": "数值下限"
                             },
                             "label": {
-                                "en_US": "Lower bound",
-                                "zh_Hans": "范围下限"
+                                "en_US": "Included lower bound of the random number, accepting integer or float.",
+                                "zh_Hans": "包括的数值下限，可填写整数或小数"
                             },
                             "llm_description": "Lower bound of the random number.",
                             "max": null,
@@ -102,8 +369,8 @@
                             "default": 1024,
                             "form": "llm",
                             "human_description": {
-                                "en_US": "Upper bound of the random number.",
-                                "zh_Hans": "范围上限"
+                                "en_US": "Included upper bound of the random number, accepting integer or float.",
+                                "zh_Hans": "包括的数值上限，可填写整数或小数"
                             },
                             "label": {
                                 "en_US": "Upper bound",
@@ -125,14 +392,14 @@
                             "default": 0,
                             "form": "llm",
                             "human_description": {
-                                "en_US": "Digits of the random number. When 0, an integer will be generated.",
-                                "zh_Hans": "小数位数，如果位数为0，则生成整数"
+                                "en_US": "Digits of the random number, default to 0. When 0, it generates an integer.",
+                                "zh_Hans": "小数位数，默认为0。如果位数为0，则生成整数。"
                             },
                             "label": {
                                 "en_US": "digits",
                                 "zh_Hans": "小数位数"
                             },
-                            "llm_description": "Digits of the random number. If 0, an integer will be generated.",
+                            "llm_description": "Digits of the random number, default to 0. When 0, it generates an integer.",
                             "max": null,
                             "min": null,
                             "name": "digits",
@@ -204,16 +471,210 @@
                             "scope": null,
                             "template": null,
                             "type": "number"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": "upper_and_lower",
+                            "form": "form",
+                            "human_description": {
+                                "en_US": "Include uppercase or lowercase alphabets, default to include both",
+                                "zh_Hans": "包含大写或小写字母, 默认为包含全部"
+                            },
+                            "label": {
+                                "en_US": "Included alphabets",
+                                "zh_Hans": "包含的英文字母"
+                            },
+                            "llm_description": "Include uppercase or lowercase alphabets",
+                            "max": null,
+                            "min": null,
+                            "name": "include_alphabets",
+                            "options": [
+                                {
+                                    "label": {
+                                        "en_US": "Upper and lower case",
+                                        "zh_Hans": "大写和小写字母"
+                                    },
+                                    "value": "upper_and_lower"
+                                },
+                                {
+                                    "label": {
+                                        "en_US": "Uppercase only",
+                                        "zh_Hans": "仅大写字母"
+                                    },
+                                    "value": "uppercase_only"
+                                },
+                                {
+                                    "label": {
+                                        "en_US": "Lowercase only",
+                                        "zh_Hans": "仅小写字母"
+                                    },
+                                    "value": "lowercase_only"
+                                },
+                                {
+                                    "label": {
+                                        "en_US": "Not included",
+                                        "zh_Hans": "不包含"
+                                    },
+                                    "value": "not_included"
+                                }
+                            ],
+                            "precision": null,
+                            "required": true,
+                            "scope": null,
+                            "template": null,
+                            "type": "select"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": "true",
+                            "form": "form",
+                            "human_description": {
+                                "en_US": "Whether include numbers, default to Yes",
+                                "zh_Hans": "是否包含数字, 默认为是"
+                            },
+                            "label": {
+                                "en_US": "Whether include numbers",
+                                "zh_Hans": "是否包含数字"
+                            },
+                            "llm_description": "Whether include numbers",
+                            "max": null,
+                            "min": null,
+                            "name": "include_numbers",
+                            "options": [
+                                {
+                                    "label": {
+                                        "en_US": "Yes",
+                                        "zh_Hans": "是"
+                                    },
+                                    "value": "true"
+                                },
+                                {
+                                    "label": {
+                                        "en_US": "No",
+                                        "zh_Hans": "否"
+                                    },
+                                    "value": "false"
+                                }
+                            ],
+                            "precision": null,
+                            "required": true,
+                            "scope": null,
+                            "template": null,
+                            "type": "select"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": "false",
+                            "form": "form",
+                            "human_description": {
+                                "en_US": "Whether include punctuation,default to false, punctuation chars are !\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~",
+                                "zh_Hans": "是否包含特殊字符，默认为否，特殊字符为 !\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~"
+                            },
+                            "label": {
+                                "en_US": "Include punctuation",
+                                "zh_Hans": "是否包含特殊字符"
+                            },
+                            "llm_description": "Whether include numbers",
+                            "max": null,
+                            "min": null,
+                            "name": "include_punctuation",
+                            "options": [
+                                {
+                                    "label": {
+                                        "en_US": "Yes",
+                                        "zh_Hans": "是"
+                                    },
+                                    "value": "true"
+                                },
+                                {
+                                    "label": {
+                                        "en_US": "No",
+                                        "zh_Hans": "否"
+                                    },
+                                    "value": "false"
+                                }
+                            ],
+                            "precision": null,
+                            "required": true,
+                            "scope": null,
+                            "template": null,
+                            "type": "select"
+                        }
+                    ]
+                },
+                {
+                    "description": {
+                        "human": {
+                            "en_US": "Generate a random prime number."
+                        },
+                        "llm": "Generate a random prime number."
+                    },
+                    "has_runtime_parameters": false,
+                    "identity": {
+                        "author": "bowenliang123",
+                        "label": {
+                            "en_US": "Random prime number",
+                            "zh_Hans": "生成随机质数"
+                        },
+                        "name": "random_prime"
+                    },
+                    "output_schema": null,
+                    "parameters": [
+                        {
+                            "auto_generate": null,
+                            "default": 0,
+                            "form": "llm",
+                            "human_description": {
+                                "en_US": "Included lower bound of the random number, accepting integer or float.",
+                                "zh_Hans": "包括的数值下限，可填写整数或小数"
+                            },
+                            "label": {
+                                "en_US": "Lower bound",
+                                "zh_Hans": "数值下限"
+                            },
+                            "llm_description": "Lower bound of the random number.",
+                            "max": null,
+                            "min": null,
+                            "name": "lower_bound",
+                            "options": null,
+                            "precision": null,
+                            "required": true,
+                            "scope": null,
+                            "template": null,
+                            "type": "number"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": 1024,
+                            "form": "llm",
+                            "human_description": {
+                                "en_US": "Included upper bound of the random number, accepting integer or float.",
+                                "zh_Hans": "包括的数值上限，可填写整数或小数"
+                            },
+                            "label": {
+                                "en_US": "Upper bound",
+                                "zh_Hans": "范围上限"
+                            },
+                            "llm_description": "Upper bound of the random number.",
+                            "max": null,
+                            "min": null,
+                            "name": "upper_bound",
+                            "options": null,
+                            "precision": null,
+                            "required": true,
+                            "scope": null,
+                            "template": null,
+                            "type": "number"
                         }
                     ]
                 }
             ]
         },
         "agent_strategy": {},
-        "install_count": 34,
-        "version_updated_at": "2025-03-18T03:05:14.902428Z",
-        "latest_version": "0.0.1",
-        "latest_package_identifier": "bowenliang123/random:0.0.1@b58858118661e11b4cada2bbcdcc39dc670c080d8d385bbf2c5512b0050eedfa",
+        "install_count": 98,
+        "version_updated_at": "2025-03-19T01:46:20.817922Z",
+        "latest_version": "0.0.2",
+        "latest_package_identifier": "bowenliang123/random:0.0.2@8c09d635a5e2d0db0f9cf4047aaaa837f588e0aeaa7686c663958e1d5f8bc176",
         "tags": []
     },
     {
@@ -1715,7 +2176,7 @@
             ]
         },
         "agent_strategy": {},
-        "install_count": 25,
+        "install_count": 77,
         "version_updated_at": "2025-03-17T12:20:14.012465Z",
         "latest_version": "1.0.0",
         "latest_package_identifier": "financialai/financialdatasets:1.0.0@ef57edf1e0710845780d6f9eb13aea8be4de58161d6f33762286486bce4f4ef7",
@@ -1739,7 +2200,7 @@
             "pt_BR": "Ferramentas que podem ser operadas no Airtable",
             "zh_Hans": "可以在Airtable上操作的工具"
         },
-        "introduction": "# Airtable Plugin\n\nA plugin tool for operating Airtable, supporting record creation and other operations.\n\n## What's Airtable?\n\n[Airtable](https://airtable.com/) is a cloud-based project management tool that blends a traditional spreadsheet with the robust features of a database. It allows businesses to organize their workflow, data, and records in a flexible and visually appealing way without the need for any coding.\n\n## Features\n\n- Support creating records in Airtable\n- Simple and easy-to-use API interface\n\n## Prerequisites\n\n- Airtable account\n- Airtable API Token\n- Created Airtable Base and Table\n\n## Configuration Guide\n\n### Getting Required Information\n\n1. **Airtable Token**\n   - Visit [Airtable Token Creation Page](https://airtable.com/create/tokens)\n   - Create and save your API Token\n\n2. **Base ID and Table ID**\n   - Can be obtained from Airtable URL\n   - For detailed instructions, refer to: [Finding Airtable IDs](https://support.airtable.com/v1/docs/finding-airtable-ids#finding-base-table-and-view-ids-from-urls)\n\n### Setup Steps\n\n1. Configure Airtable Token\n   - Enter your Airtable Token in the plugin configuration\n   - Token will be securely stored and used for API authentication\n\n2. Using the Plugin\n   - Provide Base ID\n   - Provide Table ID\n   - Provide record data to create (in JSON format)\n\n## Usage Example\n\n### Start by creating your own table in Airtable, something like this\n\n![table](_assets/table.png)\n\nAdd fields according to your needs\n\nExample of creating a record:\n\n```json\n{\n  \"Spend\": 52,\n  \"Store\": \"Gas station\",\n  \"Item\": \"Gas\",\n  \"DateTime\": \"2025-03-15\",\n  \"Memo\": \"Filled up 52 yuan worth of gas at the gas station\"\n}\n```",
+        "introduction": "# Airtable Plugin\n\nA plugin tool for operating Airtable, supporting record creation and other operations.\n\n## What's Airtable?\n\n[Airtable](https://airtable.com/) is a cloud-based project management tool that blends a traditional spreadsheet with the robust features of a database. It allows businesses to organize their workflow, data, and records in a flexible and visually appealing way without the need for any coding.\n\n## Features\n\n- Support creating records in Airtable\n- Support get all records from existing table\n- Simple and easy-to-use API interface\n\n## Prerequisites\n\n- Airtable account\n- Airtable API Token\n- Created Airtable Base and Table\n\n## Configuration Guide\n\n### Getting Required Information\n\n1. **Airtable Token**\n   - Visit [Airtable Token Creation Page](https://airtable.com/create/tokens)\n   - Create and save your API Token\n\n2. **Base ID and Table ID**\n   - Can be obtained from Airtable URL\n   - For detailed instructions, refer to: [Finding Airtable IDs](https://support.airtable.com/v1/docs/finding-airtable-ids#finding-base-table-and-view-ids-from-urls)\n\n### Setup Steps\n\n1. Configure Airtable Token\n   - Enter your Airtable Token in the plugin configuration\n   - Token will be securely stored and used for API authentication\n\n2. Using the Plugin\n   - Provide Base ID\n   - Provide Table ID\n   - Provide record data to create (in JSON format)\n\n## Usage Example\n\n### Create a record\n\n#### Start by creating your own table in Airtable, something like this\n\n![table](_assets/table.png)\n\nAdd fields according to your needs\n\nExample of creating a record:\n\n```json\n{\n  \"Spend\": 52,\n  \"Store\": \"Gas station\",\n  \"Item\": \"Gas\",\n  \"DateTime\": \"2025-03-15\",\n  \"Memo\": \"Filled up 52 yuan worth of gas at the gas station\"\n}\n```\n\n#### Get all records\n\nAll the records can be returned by providing baseId and tableId in the tool.\n\nThe output results are printed in text. The following is an example of the output:\n\n```json\n[\n  {\n    \"id\": \"rec123\",\n    \"fields\": {\n      \"Spend\": 52,\n      \"Store\": \"Gas station\",\n      \"Item\": \"Gas\",\n      \"DateTime\": \"2025-03-15\",\n      \"Memo\": \"Filled up 52 yuan worth of gas at the gas station\"\n    },\n    {\n      \"id\": \"rec456\",\n      \"fields\": {\n        \"Spend\": 100,\n        \"Store\": \"Supermarket\",\n        \"Item\": \"Milk\",\n        \"DateTime\": \"2025-03-16\",\n        \"Memo\": \"Bought 100 yuan worth of milk at the supermarket\"\n      }\n    }\n]\n```\n",
         "category": "tool",
         "repository": "",
         "resource": {
@@ -1759,7 +2220,7 @@
         "privacy_options": "",
         "privacy_policy": "PRIVACY.md",
         "created_at": "2025-03-17T12:01:49.886616Z",
-        "updated_at": "2025-03-17T12:01:57.997738Z",
+        "updated_at": "2025-03-19T01:51:04.882708Z",
         "badges": [],
         "plugins": {
             "agent_strategies": null,
@@ -1810,7 +2271,8 @@
                 },
                 "name": "airtable",
                 "tags": [
-                    "other"
+                    "utilities",
+                    "productivity"
                 ]
             },
             "tools": [
@@ -1911,14 +2373,87 @@
                             "type": "string"
                         }
                     ]
+                },
+                {
+                    "description": {
+                        "human": {
+                            "en_US": "Get all records in table",
+                            "pt_BR": "Obter todos os registros em uma tabela",
+                            "zh_Hans": "在表中获取所有的记录"
+                        },
+                        "llm": "Get all records in table"
+                    },
+                    "has_runtime_parameters": false,
+                    "identity": {
+                        "author": "chenzeng",
+                        "label": {
+                            "en_US": "airtable_all",
+                            "pt_BR": "airtable_all",
+                            "zh_Hans": "获取所有记录"
+                        },
+                        "name": "airtable_all"
+                    },
+                    "output_schema": null,
+                    "parameters": [
+                        {
+                            "auto_generate": null,
+                            "default": null,
+                            "form": "llm",
+                            "human_description": {
+                                "en_US": "you can find it here https://support.airtable.com/v1/docs/finding-airtable-ids#finding-base-table-and-view-ids-from-urls",
+                                "pt_BR": "you can find it here https://support.airtable.com/v1/docs/finding-airtable-ids#finding-base-table-and-view-ids-from-urls",
+                                "zh_Hans": "你可以在这里找到它 https://support.airtable.com/v1/docs/finding-airtable-ids#finding-base-table-and-view-ids-from-urls"
+                            },
+                            "label": {
+                                "en_US": "Base ID",
+                                "pt_BR": "Base ID",
+                                "zh_Hans": "Base ID"
+                            },
+                            "llm_description": "workspace Base id",
+                            "max": null,
+                            "min": null,
+                            "name": "baseId",
+                            "options": null,
+                            "precision": null,
+                            "required": true,
+                            "scope": null,
+                            "template": null,
+                            "type": "string"
+                        },
+                        {
+                            "auto_generate": null,
+                            "default": null,
+                            "form": "llm",
+                            "human_description": {
+                                "en_US": "you can find it here https://support.airtable.com/v1/docs/finding-airtable-ids#finding-base-table-and-view-ids-from-urls",
+                                "pt_BR": "you can find it here https://support.airtable.com/v1/docs/finding-airtable-ids#finding-base-table-and-view-ids-from-urls",
+                                "zh_Hans": "你可以在这里找到它 https://support.airtable.com/v1/docs/finding-airtable-ids#finding-base-table-and-view-ids-from-urls"
+                            },
+                            "label": {
+                                "en_US": "Table ID",
+                                "pt_BR": "Table ID",
+                                "zh_Hans": "Table ID"
+                            },
+                            "llm_description": "workspace Table id",
+                            "max": null,
+                            "min": null,
+                            "name": "tableId",
+                            "options": null,
+                            "precision": null,
+                            "required": true,
+                            "scope": null,
+                            "template": null,
+                            "type": "string"
+                        }
+                    ]
                 }
             ]
         },
         "agent_strategy": {},
-        "install_count": 14,
-        "version_updated_at": "2025-03-17T12:01:57.997698Z",
-        "latest_version": "0.0.1",
-        "latest_package_identifier": "chenzeng/airtable:0.0.1@33b5a0d4b650ec9e093f92d3828c187d2bff436a449b594972c749b52cef6958",
+        "install_count": 30,
+        "version_updated_at": "2025-03-19T01:51:04.882685Z",
+        "latest_version": "0.1.1",
+        "latest_package_identifier": "chenzeng/airtable:0.1.1@d4c22f78b0bff309410530a083a75c71bc20f2463d4856977a157ca90c5221ba",
         "tags": []
     },
     {
@@ -2137,7 +2672,7 @@
         },
         "tool": {},
         "agent_strategy": {},
-        "install_count": 11,
+        "install_count": 18,
         "version_updated_at": "2025-03-17T11:49:51.583864Z",
         "latest_version": "0.0.1",
         "latest_package_identifier": "netmind/netmind:0.0.1@8bf0c9c18a7e853542757326b78d7330991f6e76cd6709b3cf7c5f53187aa463",
@@ -2371,7 +2906,7 @@
             ]
         },
         "agent_strategy": {},
-        "install_count": 104,
+        "install_count": 264,
         "version_updated_at": "2025-03-17T11:27:38.579657Z",
         "latest_version": "0.0.1",
         "latest_package_identifier": "kalo_chin/pdf_process:0.0.1@4c4320f50c13164b7f03c37117ad295c716a4078587d8ae60e0b3be19df0954f",
@@ -2699,7 +3234,7 @@
                 }
             ]
         },
-        "install_count": 385,
+        "install_count": 541,
         "version_updated_at": "2025-03-17T11:20:29.499043Z",
         "latest_version": "0.0.1",
         "latest_package_identifier": "junjiem/mcp_see_agent:0.0.1@1fb065b678585153c93ed248b88ede7e1916e1f2317609a72e712a6105893ff0",
@@ -2821,180 +3356,10 @@
         "model": {},
         "tool": {},
         "agent_strategy": {},
-        "install_count": 12,
+        "install_count": 18,
         "version_updated_at": "2025-03-17T11:14:17.734404Z",
         "latest_version": "0.0.3",
         "latest_package_identifier": "langgenius/aws_bedrock_knowledge_base:0.0.3@abdb1c94413544a9567c9047ec04da1307c6c41228041ced77f0c0cb7200b520",
-        "tags": []
-    },
-    {
-        "type": "plugin",
-        "name": "mcp_sse",
-        "org": "junjiem",
-        "plugin_id": "junjiem/mcp_sse",
-        "icon": "junjiem/packages/mcp_sse/_assets/icon.png",
-        "label": {
-            "en_US": "MCP SSE",
-            "zh_Hans": "MCP SSE"
-        },
-        "brief": {
-            "en_US": "Fetch and call tools by MCP protocol through HTTP with SSE transport.",
-            "zh_Hans": "通过 HTTP with SSE 传输使用 MCP 协议来发现和调用工具。"
-        },
-        "introduction": "## Dify 1.0 Plugin MCP HTTP with SSE transport Tools\n\n\n**Author:** [Junjie.M](https://github.com/junjiem)  \n**Version:** 0.0.2  \n**Type:** tool  \n**Github Repo:** [https://github.com/junjiem/dify-plugin-tools-mcp_sse](https://github.com/junjiem/dify-plugin-tools-mcp_sse)  \n**Github Issues:** [issues](https://github.com/junjiem/dify-plugin-tools-mcp_sse/issues)\n\n\n---\n\n\n### Description\n\n![mcp_sse_plugin](_assets/mcp_sse_plugin.png)\n\n![mcp_sse_plugin_set_authorization](_assets/mcp_sse_plugin_set_authorization.png)\n\nMCP Servers config, support multiple MCP services. The following example:\n\nMCP服务配置，支持多个MCP服务。 如下示例：\n\n```json\n{\n  \"server_name1\": {\n    \"url\": \"http://127.0.0.1:8000/sse\",\n    \"headers\": {},\n    \"timeout\": 5,\n    \"sse_read_timeout\": 300\n  },\n  \"server_name2\": {\n    \"url\": \"http://127.0.0.1:8001/sse\"\n  }\n}\n```\n\n\n![agent_add_mcp_see_tools](_assets/agent_add_mcp_see_tools.png)\n\n### Installing Plugins via GitHub  通过 GitHub 安装插件\n\nCan install the plugin using the GitHub repository address. Visit the Dify platform's plugin management page, choose to install via GitHub, enter the repository address, select version number and package file to complete installation.\n\n可以通过 GitHub 仓库地址安装该插件。访问 Dify 平台的插件管理页，选择通过 GitHub 安装插件，输入仓库地址后，选择版本号和包文件完成安装。\n\n![install_plugin_via_github](_assets/install_plugin_via_github.png)\n\n![install_plugin_via_github](_assets/install_plugin_via_github_successfully.png)\n\n\n\n---\n\n\n\n### FAQ\n\n#### How to Handle Errors When Installing Plugins? 安装插件时遇到异常应如何处理？\n\n**Issue**: If you encounter the error message: plugin verification has been enabled, and the plugin you want to install has a bad signature, how to handle the issue?\n\n**Solution**: Add the following line to the end of your .env configuration file: FORCE_VERIFYING_SIGNATURE=false\nOnce this field is added, the Dify platform will allow the installation of all plugins that are not listed (and thus not verified) in the Dify Marketplace.\n\n**问题描述**：安装插件时遇到异常信息：plugin verification has been enabled, and the plugin you want to install has a bad signature，应该如何处理？\n\n**解决办法**：在 .env 配置文件的末尾添加 FORCE_VERIFYING_SIGNATURE=false 字段即可解决该问题。\n添加该字段后，Dify 平台将允许安装所有未在 Dify Marketplace 上架（审核）的插件，可能存在安全隐患。\n",
-        "category": "tool",
-        "repository": "",
-        "resource": {
-            "memory": 268435456,
-            "permission": {}
-        },
-        "privacy_options": "",
-        "privacy_policy": "PRIVACY.md",
-        "created_at": "2025-03-14T11:47:34.989162Z",
-        "updated_at": "2025-03-17T06:00:40.280737Z",
-        "badges": [],
-        "plugins": {
-            "agent_strategies": null,
-            "endpoints": null,
-            "models": null,
-            "tools": [
-                "provider/mcp_sse.yaml"
-            ]
-        },
-        "endpoint": {},
-        "model": {},
-        "tool": {
-            "credentials_schema": [
-                {
-                    "default": "{\n  \"server_name\": {\n    \"url\": \"http://127.0.0.1:8000/sse\",\n    \"headers\": {},\n \"timeout\": 5,\n    \"sse_read_timeout\": 300\n  }\n}",
-                    "help": {
-                        "en_US": "MCP Servers config, support multiple MCP services. (`sse_read_timeout` determines how long (in seconds) the client will wait for a new event before disconnecting. All other HTTP operations are controlled by `timeout`.)",
-                        "zh_Hans": "MCP服务配置，支持多个MCP服务。 （`sse_read_timeout`决定客户端在断开连接之前等待新事件的时间（以秒为单位）。所有其他HTTP操作都由`timeout`控制。）"
-                    },
-                    "label": {
-                        "en_US": "MCP Servers config",
-                        "zh_Hans": "MCP服务配置"
-                    },
-                    "name": "servers_config",
-                    "options": null,
-                    "placeholder": null,
-                    "required": true,
-                    "scope": null,
-                    "type": "text-input",
-                    "url": null
-                }
-            ],
-            "identity": {
-                "author": "junjiem",
-                "description": {
-                    "en_US": "Fetch and call tools by MCP protocol through HTTP with SSE transport.",
-                    "zh_Hans": "通过HTTP with SSE传输使用MCP协议发现和调用工具。"
-                },
-                "icon": "icon.png",
-                "label": {
-                    "en_US": "MCP tools Via SSE",
-                    "zh_Hans": "通过SSE发现和调用MCP工具"
-                },
-                "name": "mcp_sse",
-                "tags": [
-                    "utilities"
-                ]
-            },
-            "tools": [
-                {
-                    "description": {
-                        "human": {
-                            "en_US": "Fetch MCP Server tools list by HTTP with SSE transport.",
-                            "zh_Hans": "通过 HTTP with SSE 传输来获取MCP服务端的工具列表。"
-                        },
-                        "llm": "Fetch MCP Server tools list (Gets a list of MCP tools in addition to existing tools, and then invoke the MCP tool that meets the requirements based on the MCP tool information)."
-                    },
-                    "has_runtime_parameters": false,
-                    "identity": {
-                        "author": "junjiem",
-                        "label": {
-                            "en_US": "Fetch MCP Tools",
-                            "zh_Hans": "获取MCP工具列表"
-                        },
-                        "name": "mcp_sse_list_tools"
-                    },
-                    "output_schema": null,
-                    "parameters": null
-                },
-                {
-                    "description": {
-                        "human": {
-                            "en_US": "Call MCP Server tool by HTTP with SSE transport.",
-                            "zh_Hans": "通过 HTTP with SSE 传输来调用MCP服务端工具。"
-                        },
-                        "llm": "Call MCP Server tool."
-                    },
-                    "has_runtime_parameters": false,
-                    "identity": {
-                        "author": "junjiem",
-                        "label": {
-                            "en_US": "Call MCP Tool",
-                            "zh_Hans": "调用MCP工具"
-                        },
-                        "name": "mcp_sse_call_tool"
-                    },
-                    "output_schema": null,
-                    "parameters": [
-                        {
-                            "auto_generate": null,
-                            "default": null,
-                            "form": "llm",
-                            "human_description": {
-                                "en_US": "Name of the tool to execute.",
-                                "zh_Hans": "要执行的工具的名称。"
-                            },
-                            "label": {
-                                "en_US": "Tool Name",
-                                "zh_Hans": "工具名称"
-                            },
-                            "llm_description": "Name of the tool to execute.",
-                            "max": null,
-                            "min": null,
-                            "name": "tool_name",
-                            "options": null,
-                            "precision": null,
-                            "required": true,
-                            "scope": null,
-                            "template": null,
-                            "type": "string"
-                        },
-                        {
-                            "auto_generate": null,
-                            "default": null,
-                            "form": "llm",
-                            "human_description": {
-                                "en_US": "Tool arguments (JSON string in the python dict[str, Any] format).",
-                                "zh_Hans": "工具的参数。"
-                            },
-                            "label": {
-                                "en_US": "Arguments",
-                                "zh_Hans": "参数"
-                            },
-                            "llm_description": "Tool arguments (JSON string in the python dict[str, Any] format).",
-                            "max": null,
-                            "min": null,
-                            "name": "arguments",
-                            "options": null,
-                            "precision": null,
-                            "required": true,
-                            "scope": null,
-                            "template": null,
-                            "type": "string"
-                        }
-                    ]
-                }
-            ]
-        },
-        "agent_strategy": {},
-        "install_count": 935,
-        "version_updated_at": "2025-03-17T06:00:40.280706Z",
-        "latest_version": "0.0.2",
-        "latest_package_identifier": "junjiem/mcp_sse:0.0.2@56897cd9f7219a60106959d40d6dc6ebc9bd3d850cf598b5baa53c008d256f6f",
         "tags": []
     }
 ]
