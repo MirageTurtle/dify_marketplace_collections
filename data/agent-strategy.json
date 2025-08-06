@@ -1,348 +1,20 @@
 [
     {
-        "agent_strategy": {
-            "identity": {
-                "author": "langgenius",
-                "description": {
-                    "en_US": "Agent",
-                    "pt_BR": "Agent",
-                    "zh_Hans": "Agent"
-                },
-                "icon": "icon.svg",
-                "label": {
-                    "en_US": "Agent",
-                    "pt_BR": "Agent",
-                    "zh_Hans": "Agent"
-                },
-                "name": "agent",
-                "tags": []
-            },
-            "strategies": [
-                {
-                    "description": {
-                        "en_US": "Function Calling is a basic strategy for agent, model will use the tools provided to perform the task.",
-                        "pt_BR": "Function Calling is a basic strategy for agent, model will use the tools provided to perform the task.",
-                        "zh_Hans": "Function Calling 是一个基本的 Agent 策略，模型将使用提供的工具来执行任务。"
-                    },
-                    "features": [
-                        "history-messages"
-                    ],
-                    "identity": {
-                        "author": "Dify",
-                        "label": {
-                            "en_US": "FunctionCalling",
-                            "pt_BR": "FunctionCalling",
-                            "zh_Hans": "FunctionCalling"
-                        },
-                        "name": "function_calling"
-                    },
-                    "output_schema": null,
-                    "parameters": [
-                        {
-                            "auto_generate": null,
-                            "default": null,
-                            "help": {
-                                "en_US": ""
-                            },
-                            "label": {
-                                "en_US": "Model",
-                                "pt_BR": "Model",
-                                "zh_Hans": "模型"
-                            },
-                            "max": null,
-                            "min": null,
-                            "name": "model",
-                            "options": null,
-                            "precision": null,
-                            "required": true,
-                            "scope": "tool-call&llm",
-                            "template": null,
-                            "type": "model-selector"
-                        },
-                        {
-                            "auto_generate": null,
-                            "default": null,
-                            "help": {
-                                "en_US": ""
-                            },
-                            "label": {
-                                "en_US": "Tool list",
-                                "pt_BR": "Tool list",
-                                "zh_Hans": "工具列表"
-                            },
-                            "max": null,
-                            "min": null,
-                            "name": "tools",
-                            "options": null,
-                            "precision": null,
-                            "required": true,
-                            "scope": null,
-                            "template": null,
-                            "type": "array[tools]"
-                        },
-                        {
-                            "auto_generate": {
-                                "type": "prompt_instruction"
-                            },
-                            "default": null,
-                            "help": {
-                                "en_US": ""
-                            },
-                            "label": {
-                                "en_US": "Instruction",
-                                "pt_BR": "Instruction",
-                                "zh_Hans": "指令"
-                            },
-                            "max": null,
-                            "min": null,
-                            "name": "instruction",
-                            "options": null,
-                            "precision": null,
-                            "required": true,
-                            "scope": null,
-                            "template": {
-                                "enabled": true
-                            },
-                            "type": "string"
-                        },
-                        {
-                            "auto_generate": null,
-                            "default": null,
-                            "help": {
-                                "en_US": ""
-                            },
-                            "label": {
-                                "en_US": "Context",
-                                "pt_BR": "Context",
-                                "zh_Hans": "上下文"
-                            },
-                            "max": null,
-                            "min": null,
-                            "name": "context",
-                            "options": null,
-                            "precision": null,
-                            "required": false,
-                            "scope": "array[object]",
-                            "template": null,
-                            "type": "any"
-                        },
-                        {
-                            "auto_generate": null,
-                            "default": null,
-                            "help": {
-                                "en_US": ""
-                            },
-                            "label": {
-                                "en_US": "Query",
-                                "pt_BR": "Query",
-                                "zh_Hans": "查询"
-                            },
-                            "max": null,
-                            "min": null,
-                            "name": "query",
-                            "options": null,
-                            "precision": null,
-                            "required": true,
-                            "scope": null,
-                            "template": null,
-                            "type": "string"
-                        },
-                        {
-                            "auto_generate": null,
-                            "default": 3,
-                            "help": {
-                                "en_US": ""
-                            },
-                            "label": {
-                                "en_US": "Maximum Iterations",
-                                "pt_BR": "Maximum Iterations",
-                                "zh_Hans": "最大迭代次数"
-                            },
-                            "max": 30,
-                            "min": 1,
-                            "name": "maximum_iterations",
-                            "options": null,
-                            "precision": null,
-                            "required": true,
-                            "scope": null,
-                            "template": null,
-                            "type": "number"
-                        }
-                    ]
-                },
-                {
-                    "description": {
-                        "en_US": "ReAct is a basic strategy for agent, model will use the tools provided to perform the task.",
-                        "pt_BR": "ReAct is a basic strategy for agent, model will use the tools provided to perform the task.",
-                        "zh_Hans": "ReAct 是一个基本的 Agent 策略，模型将使用提供的工具来执行任务。"
-                    },
-                    "features": [
-                        "history-messages"
-                    ],
-                    "identity": {
-                        "author": "Dify",
-                        "label": {
-                            "en_US": "ReAct",
-                            "pt_BR": "ReAct",
-                            "zh_Hans": "ReAct"
-                        },
-                        "name": "ReAct"
-                    },
-                    "output_schema": null,
-                    "parameters": [
-                        {
-                            "auto_generate": null,
-                            "default": null,
-                            "help": {
-                                "en_US": ""
-                            },
-                            "label": {
-                                "en_US": "Model",
-                                "pt_BR": "Model",
-                                "zh_Hans": "模型"
-                            },
-                            "max": null,
-                            "min": null,
-                            "name": "model",
-                            "options": null,
-                            "precision": null,
-                            "required": true,
-                            "scope": "tool-call&llm",
-                            "template": null,
-                            "type": "model-selector"
-                        },
-                        {
-                            "auto_generate": null,
-                            "default": null,
-                            "help": {
-                                "en_US": ""
-                            },
-                            "label": {
-                                "en_US": "Tool list",
-                                "pt_BR": "Tool list",
-                                "zh_Hans": "工具列表"
-                            },
-                            "max": null,
-                            "min": null,
-                            "name": "tools",
-                            "options": null,
-                            "precision": null,
-                            "required": true,
-                            "scope": null,
-                            "template": null,
-                            "type": "array[tools]"
-                        },
-                        {
-                            "auto_generate": {
-                                "type": "prompt_instruction"
-                            },
-                            "default": null,
-                            "help": {
-                                "en_US": ""
-                            },
-                            "label": {
-                                "en_US": "Instruction",
-                                "pt_BR": "Instruction",
-                                "zh_Hans": "指令"
-                            },
-                            "max": null,
-                            "min": null,
-                            "name": "instruction",
-                            "options": null,
-                            "precision": null,
-                            "required": true,
-                            "scope": null,
-                            "template": {
-                                "enabled": true
-                            },
-                            "type": "string"
-                        },
-                        {
-                            "auto_generate": null,
-                            "default": null,
-                            "help": {
-                                "en_US": ""
-                            },
-                            "label": {
-                                "en_US": "Context",
-                                "pt_BR": "Context",
-                                "zh_Hans": "上下文"
-                            },
-                            "max": null,
-                            "min": null,
-                            "name": "context",
-                            "options": null,
-                            "precision": null,
-                            "required": false,
-                            "scope": "array[object]",
-                            "template": null,
-                            "type": "any"
-                        },
-                        {
-                            "auto_generate": null,
-                            "default": null,
-                            "help": {
-                                "en_US": ""
-                            },
-                            "label": {
-                                "en_US": "Query",
-                                "pt_BR": "Query",
-                                "zh_Hans": "查询"
-                            },
-                            "max": null,
-                            "min": null,
-                            "name": "query",
-                            "options": null,
-                            "precision": null,
-                            "required": true,
-                            "scope": null,
-                            "template": null,
-                            "type": "string"
-                        },
-                        {
-                            "auto_generate": null,
-                            "default": 3,
-                            "help": {
-                                "en_US": ""
-                            },
-                            "label": {
-                                "en_US": "Maximum Iterations",
-                                "pt_BR": "Maximum Iterations",
-                                "zh_Hans": "最大迭代次数"
-                            },
-                            "max": 30,
-                            "min": 1,
-                            "name": "maximum_iterations",
-                            "options": null,
-                            "precision": null,
-                            "required": true,
-                            "scope": null,
-                            "template": null,
-                            "type": "number"
-                        }
-                    ]
-                }
-            ]
-        },
         "badges": [],
         "brief": {
             "en_US": "Dify official Agent strategies collection",
             "zh_Hans": "Dify 官方 Agent 策略集合"
         },
         "category": "agent-strategy",
-        "created_at": "2025-01-08T07:40:04Z",
-        "endpoint": {},
         "icon": "langgenius/packages/agent/_assets/icon.svg",
         "index_id": "langgenius___agent",
-        "install_count": 93323,
-        "introduction": "# Overview\nThe Agent node in Dify Chatflow/Workflow lets LLMs autonomously use tools. This plugin features two official Dify Agent reasoning strategies, enabling LLMs to dynamically select and run tools during runtime for multi-step problem-solving.\n\n## Strategies\n\n### 1. Function Calling\nFunction Calling maps user commands to specific functions or tools. The LLM identifies the user's intent, decides which function to call, and extracts the required parameters. It is a straightforward mechanism for invoking external capabilities.\n\n![](./_assets/function_calling.png)\n\n#### Pros:\n- **Precise:** Directly calls the right tool for defined tasks, avoiding complex reasoning.\n- **Easy External Integration:** Integrates external APIs and tools as callable functions.\n- **Structured Output:** Provides structured function call information for easy processing.\n\n### 2. ReAct (Reason + Act)\nReAct alternates between the LLM reasoning about the situation and taking actions. The LLM analyzes the current state and goal, selects and uses a tool, and then uses the tool's output for the next thought and action. This cycle repeats until the problem is resolved.\n\n![](./_assets/react.png)\n\n#### Pros:\n- **Leverages External Information:** Effectively uses external tools to gather information for tasks the model cannot handle alone.\n- **Explainable Reasoning:** Interwoven reasoning and action steps allow some tracking of the Agent's process.\n- **Wide Applicability:** Suitable for tasks requiring external knowledge or specific actions, such as Q&A, information retrieval, and task execution.",
+        "install_count": 93974,
         "label": {
             "en_US": "Dify Agent Strategies",
             "zh_Hans": "Dify Agent 策略"
         },
         "latest_package_identifier": "langgenius/agent:0.0.23@baba5fd2631a535dcd85f070f8be1bdcfb02c46e1a0a830ad00d7bc846063de4",
         "latest_version": "0.0.23",
-        "model": {},
         "name": "agent",
         "org": "langgenius",
         "plugin_id": "langgenius/agent",
@@ -357,449 +29,34 @@
         "privacy_options": "",
         "privacy_policy": "",
         "repository": "",
-        "resource": {
-            "memory": 1048576,
-            "permission": {
-                "model": {
-                    "enabled": true,
-                    "llm": true,
-                    "moderation": false,
-                    "rerank": false,
-                    "speech2text": false,
-                    "text_embedding": false,
-                    "tts": false
-                },
-                "tool": {
-                    "enabled": true
-                }
-            }
-        },
         "status": "active",
         "tags": [
             {
                 "name": "agent"
             }
         ],
-        "tool": {},
         "type": "plugin",
-        "updated_at": "2025-07-25T01:22:56Z",
         "verification": {
             "authorized_category": "langgenius"
         },
         "version_updated_at": "2025-07-25T01:22:56Z"
     },
     {
-        "agent_strategy": {
-            "identity": {
-                "author": "junjiem",
-                "description": {
-                    "en_US": "Support MCP Tools Agent",
-                    "zh_Hans": "支持 MCP 工具的 Agent"
-                },
-                "icon": "icon.svg",
-                "label": {
-                    "en_US": "Support MCP Tools Agent",
-                    "zh_Hans": "支持 MCP 工具的 Agent"
-                },
-                "name": "mcp_see_agent",
-                "tags": []
-            },
-            "strategies": [
-                {
-                    "description": {
-                        "en_US": "Function Calling is a basic strategy for agent, model will use the Dify and MCP tools provided to perform the task.",
-                        "zh_Hans": "Function Calling 是一个基本的 Agent 策略，模型将使用提供的 Dify 和 MCP 工具来执行任务。"
-                    },
-                    "features": [
-                        "history-messages"
-                    ],
-                    "identity": {
-                        "author": "junjiem",
-                        "label": {
-                            "en_US": "FunctionCalling (Support MCP Tools)",
-                            "zh_Hans": "FunctionCalling (支持 MCP 工具)"
-                        },
-                        "name": "mcp_sse_function_calling"
-                    },
-                    "output_schema": null,
-                    "parameters": [
-                        {
-                            "auto_generate": null,
-                            "default": null,
-                            "help": {
-                                "en_US": ""
-                            },
-                            "label": {
-                                "en_US": "Model",
-                                "zh_Hans": "模型"
-                            },
-                            "max": null,
-                            "min": null,
-                            "name": "model",
-                            "options": null,
-                            "precision": null,
-                            "required": true,
-                            "scope": "tool-call&llm",
-                            "template": null,
-                            "type": "model-selector"
-                        },
-                        {
-                            "auto_generate": null,
-                            "default": null,
-                            "help": {
-                                "en_US": ""
-                            },
-                            "label": {
-                                "en_US": "Tool list",
-                                "zh_Hans": "工具列表"
-                            },
-                            "max": null,
-                            "min": null,
-                            "name": "tools",
-                            "options": null,
-                            "precision": null,
-                            "required": false,
-                            "scope": null,
-                            "template": null,
-                            "type": "array[tools]"
-                        },
-                        {
-                            "auto_generate": null,
-                            "default": "{\n  \"server_name1\": {\n    \"transport\": \"sse\",\n    \"url\": \"http://127.0.0.1:8000/sse\"\n  }, \n  \"server_name2\": {\n    \"transport\": \"streamable_http\",\n    \"url\": \"http://127.0.0.1:8000/mcp\"\n  }\n}",
-                            "help": {
-                                "en_US": "MCP Servers config, support multiple MCP Server.",
-                                "zh_Hans": "MCP服务配置，支持多个MCP服务。"
-                            },
-                            "label": {
-                                "en_US": "MCP Servers config",
-                                "zh_Hans": "MCP 服务配置"
-                            },
-                            "max": null,
-                            "min": null,
-                            "name": "mcp_servers_config",
-                            "options": null,
-                            "precision": null,
-                            "required": true,
-                            "scope": null,
-                            "template": null,
-                            "type": "string"
-                        },
-                        {
-                            "auto_generate": null,
-                            "default": true,
-                            "help": {
-                                "en_US": "Fetch and call the preset MCP Resources as Tools.",
-                                "zh_Hans": "将预设的 MCP Resources 作为 Tools 返回和调用。"
-                            },
-                            "label": {
-                                "en_US": "MCP Resources as Tools",
-                                "zh_Hans": "MCP 资源作为工具"
-                            },
-                            "max": null,
-                            "min": null,
-                            "name": "mcp_resources_as_tools",
-                            "options": null,
-                            "precision": null,
-                            "required": false,
-                            "scope": null,
-                            "template": null,
-                            "type": "boolean"
-                        },
-                        {
-                            "auto_generate": null,
-                            "default": true,
-                            "help": {
-                                "en_US": "Fetch and call the preset MCP Prompts as Tools.",
-                                "zh_Hans": "将预设的 MCP Prompts 作为 Tools 返回和调用。"
-                            },
-                            "label": {
-                                "en_US": "MCP Prompts as Tools",
-                                "zh_Hans": "MCP 提示词作为工具"
-                            },
-                            "max": null,
-                            "min": null,
-                            "name": "mcp_prompts_as_tools",
-                            "options": null,
-                            "precision": null,
-                            "required": false,
-                            "scope": null,
-                            "template": null,
-                            "type": "boolean"
-                        },
-                        {
-                            "auto_generate": {
-                                "type": "prompt_instruction"
-                            },
-                            "default": null,
-                            "help": {
-                                "en_US": ""
-                            },
-                            "label": {
-                                "en_US": "Instruction",
-                                "zh_Hans": "指令"
-                            },
-                            "max": null,
-                            "min": null,
-                            "name": "instruction",
-                            "options": null,
-                            "precision": null,
-                            "required": false,
-                            "scope": null,
-                            "template": {
-                                "enabled": true
-                            },
-                            "type": "string"
-                        },
-                        {
-                            "auto_generate": null,
-                            "default": null,
-                            "help": {
-                                "en_US": ""
-                            },
-                            "label": {
-                                "en_US": "Query",
-                                "zh_Hans": "查询"
-                            },
-                            "max": null,
-                            "min": null,
-                            "name": "query",
-                            "options": null,
-                            "precision": null,
-                            "required": true,
-                            "scope": null,
-                            "template": null,
-                            "type": "string"
-                        },
-                        {
-                            "auto_generate": null,
-                            "default": 5,
-                            "help": {
-                                "en_US": ""
-                            },
-                            "label": {
-                                "en_US": "Maximum Iterations",
-                                "zh_Hans": "最大迭代次数"
-                            },
-                            "max": 30,
-                            "min": 1,
-                            "name": "maximum_iterations",
-                            "options": null,
-                            "precision": null,
-                            "required": true,
-                            "scope": null,
-                            "template": null,
-                            "type": "number"
-                        }
-                    ]
-                },
-                {
-                    "description": {
-                        "en_US": "ReAct is a basic strategy for agent, model will use the Dify and MCP tools provided to perform the task.",
-                        "zh_Hans": "ReAct 是一个基本的 Agent 策略，模型将使用提供的 Dify 和 MCP 工具来执行任务。"
-                    },
-                    "features": [
-                        "history-messages"
-                    ],
-                    "identity": {
-                        "author": "junjiem",
-                        "label": {
-                            "en_US": "ReAct (Support MCP Tools)",
-                            "zh_Hans": "ReAct (支持 MCP 工具)"
-                        },
-                        "name": "mcp_sse_ReAct"
-                    },
-                    "output_schema": null,
-                    "parameters": [
-                        {
-                            "auto_generate": null,
-                            "default": null,
-                            "help": {
-                                "en_US": ""
-                            },
-                            "label": {
-                                "en_US": "Model",
-                                "zh_Hans": "模型"
-                            },
-                            "max": null,
-                            "min": null,
-                            "name": "model",
-                            "options": null,
-                            "precision": null,
-                            "required": true,
-                            "scope": "llm",
-                            "template": null,
-                            "type": "model-selector"
-                        },
-                        {
-                            "auto_generate": null,
-                            "default": null,
-                            "help": {
-                                "en_US": ""
-                            },
-                            "label": {
-                                "en_US": "Tool list",
-                                "zh_Hans": "工具列表"
-                            },
-                            "max": null,
-                            "min": null,
-                            "name": "tools",
-                            "options": null,
-                            "precision": null,
-                            "required": false,
-                            "scope": null,
-                            "template": null,
-                            "type": "array[tools]"
-                        },
-                        {
-                            "auto_generate": null,
-                            "default": "{\n  \"server_name1\": {\n    \"transport\": \"sse\",\n    \"url\": \"http://127.0.0.1:8000/sse\"\n  }, \n  \"server_name2\": {\n    \"transport\": \"streamable_http\",\n    \"url\": \"http://127.0.0.1:8000/mcp\"\n  }\n}",
-                            "help": {
-                                "en_US": "MCP Servers config, support multiple MCP Server.",
-                                "zh_Hans": "MCP服务配置，支持多个MCP服务。"
-                            },
-                            "label": {
-                                "en_US": "MCP Servers config",
-                                "zh_Hans": "MCP 服务配置"
-                            },
-                            "max": null,
-                            "min": null,
-                            "name": "mcp_servers_config",
-                            "options": null,
-                            "precision": null,
-                            "required": true,
-                            "scope": null,
-                            "template": null,
-                            "type": "string"
-                        },
-                        {
-                            "auto_generate": null,
-                            "default": true,
-                            "help": {
-                                "en_US": "Fetch and call the preset MCP Resources as Tools.",
-                                "zh_Hans": "将预设的 MCP Resources 作为 Tools 返回和调用。"
-                            },
-                            "label": {
-                                "en_US": "MCP Resources as Tools",
-                                "zh_Hans": "MCP 资源作为工具"
-                            },
-                            "max": null,
-                            "min": null,
-                            "name": "mcp_resources_as_tools",
-                            "options": null,
-                            "precision": null,
-                            "required": false,
-                            "scope": null,
-                            "template": null,
-                            "type": "boolean"
-                        },
-                        {
-                            "auto_generate": null,
-                            "default": true,
-                            "help": {
-                                "en_US": "Fetch and call the preset MCP Prompts as Tools.",
-                                "zh_Hans": "将预设的 MCP Prompts 作为 Tools 返回和调用。"
-                            },
-                            "label": {
-                                "en_US": "MCP Prompts as Tools",
-                                "zh_Hans": "MCP 提示词作为工具"
-                            },
-                            "max": null,
-                            "min": null,
-                            "name": "mcp_prompts_as_tools",
-                            "options": null,
-                            "precision": null,
-                            "required": false,
-                            "scope": null,
-                            "template": null,
-                            "type": "boolean"
-                        },
-                        {
-                            "auto_generate": {
-                                "type": "prompt_instruction"
-                            },
-                            "default": null,
-                            "help": {
-                                "en_US": ""
-                            },
-                            "label": {
-                                "en_US": "Instruction",
-                                "zh_Hans": "指令"
-                            },
-                            "max": null,
-                            "min": null,
-                            "name": "instruction",
-                            "options": null,
-                            "precision": null,
-                            "required": false,
-                            "scope": null,
-                            "template": {
-                                "enabled": true
-                            },
-                            "type": "string"
-                        },
-                        {
-                            "auto_generate": null,
-                            "default": null,
-                            "help": {
-                                "en_US": ""
-                            },
-                            "label": {
-                                "en_US": "Query",
-                                "zh_Hans": "查询"
-                            },
-                            "max": null,
-                            "min": null,
-                            "name": "query",
-                            "options": null,
-                            "precision": null,
-                            "required": true,
-                            "scope": null,
-                            "template": null,
-                            "type": "string"
-                        },
-                        {
-                            "auto_generate": null,
-                            "default": 5,
-                            "help": {
-                                "en_US": ""
-                            },
-                            "label": {
-                                "en_US": "Maximum Iterations",
-                                "zh_Hans": "最大迭代次数"
-                            },
-                            "max": 30,
-                            "min": 1,
-                            "name": "maximum_iterations",
-                            "options": null,
-                            "precision": null,
-                            "required": true,
-                            "scope": null,
-                            "template": null,
-                            "type": "number"
-                        }
-                    ]
-                }
-            ]
-        },
         "badges": [],
         "brief": {
             "en_US": "Agent strategies collection that provide Function Calling and ReAct (Support MCP SSE / StreamableHTTP fetch and call tools).",
             "zh_Hans": "提供 Function Calling 和 ReAct 的 Agent 策略集合（支持 MCP SSE / StreamableHTTP 发现和调用工具）。"
         },
         "category": "agent-strategy",
-        "created_at": "2025-03-17T11:20:17Z",
-        "endpoint": {},
         "icon": "junjiem/packages/mcp_see_agent/_assets/icon.svg",
         "index_id": "junjiem___mcp_see_agent",
-        "install_count": 73176,
-        "introduction": "## Dify 1.0 Plugin Support MCP Tools Agent strategies\n\n**Author:** [Junjie.M](https://github.com/junjiem)   \n**Type:** agent-strategy  \n**Github Repo:** [https://github.com/junjiem/dify-plugin-agent-mcp_sse](https://github.com/junjiem/dify-plugin-agent-mcp_sse)   \n**Github Issues:** [issues](https://github.com/junjiem/dify-plugin-agent-mcp_sse/issues)  \n\n\n---\n\n\n### Description\n\nAgent strategies collection that provide `Function Calling` and `ReAct` \n(Support `fetch and call tools` by `MCP` protocol through `HTTP with SSE` or `Streamable HTTP` transport).\n\n提供 `Function Calling` 和 `ReAct` 的 Agent 策略集合\n（支持通过 `HTTP with SSE` 或 `Streamable HTTP` 传输方式使用 `MCP` 协议来`发现和调用工具`）。\n\n![mcp_sse_agent](_assets/mcp_sse_agent.png)\n\n![mcp_sse_agent_strategies](_assets/mcp_sse_agent_strategies.png)\n\n![mcp_sse_agent_react](_assets/mcp_sse_agent_react.png)\n\n\nMCP Servers config, support multiple MCP services. The following example:\n\nMCP服务配置，支持多个MCP服务。 如下示例：\n\n```json\n{\n  \"server_name1\": {\n    \"transport\": \"sse\",\n    \"url\": \"http://127.0.0.1:8000/sse\",\n    \"headers\": {},\n    \"timeout\": 50,\n    \"sse_read_timeout\": 50\n  },\n  \"server_name2\": {\n    \"transport\": \"sse\",\n    \"url\": \"http://127.0.0.1:8001/sse\"\n  },\n  \"server_name3\": {\n    \"transport\": \"streamable_http\",\n    \"url\": \"http://127.0.0.1:8002/mcp\",\n    \"headers\": {},\n    \"timeout\": 50\n  },\n  \"server_name4\": {\n    \"transport\": \"streamable_http\",\n    \"url\": \"http://127.0.0.1:8003/mcp\"\n  }\n}\n```\nOR\n```json\n{\n  \"mcpServers\": {\n      \"server_name1\": {\n        \"transport\": \"sse\",\n        \"url\": \"http://127.0.0.1:8000/sse\",\n        \"headers\": {},\n        \"timeout\": 50,\n        \"sse_read_timeout\": 50\n      },\n      \"server_name2\": {\n        \"transport\": \"sse\",\n        \"url\": \"http://127.0.0.1:8001/sse\"\n      },\n      \"server_name3\": {\n        \"transport\": \"streamable_http\",\n        \"url\": \"http://127.0.0.1:8002/mcp\",\n        \"headers\": {},\n        \"timeout\": 50\n      },\n      \"server_name4\": {\n        \"transport\": \"streamable_http\",\n        \"url\": \"http://127.0.0.1:8003/mcp\"\n      }\n    }\n}\n```\n\n> **Note:** \"transport\" parameter as `sse` or `streamable_http`, default `sse`.\n\n> **注：**  \"transport\" 参数为 `sse` 或 `streamable_http` ，默认为 `sse`。\n\n\n\n---\n\n\n\n### Managed MCP Servers 托管的MCP服务器\n\nIf you want to try MCP but don't know how to deploy SSE transport's MCP Server, can you try connect to Managed MCP Servers.\n\n如果你想尝试 MCP，但是不知道如何部署 SSE 传输的 MCP Server，可以尝试连接托管的 MCP 服务器。\n\n#### Example 1  示例1\n\n[Composio Managed MCP Servers](https://mcp.composio.dev)\n\n[Composio 托管的 MCP 服务器](https://mcp.composio.dev)\n\n![composio_mcp_list](_assets/composio_mcp_list.png)\n\nReference Cursor Settings, shown below:\n\n参考 Cursor 设置，如下图：\n\n![composio_mcp_cursor](_assets/composio_mcp_cursor.png)\n![composio_mcp_cursor2](_assets/composio_mcp_cursor2.png)\n\nMCP Servers config, shown below:\n\nMCP 服务配置，如下示例：\n\n```json\n{\n  \"tavily\": {\n    \"url\": \"https://mcp.composio.dev/tavily/xxxx-xxxx-xxxx-xxxx\"\n  }\n}\n```\n\n\n\n#### Example 2  示例2\n\n[Zapier Managed MCP Servers](https://actions.zapier.com/settings/mcp)\n\n[Zapier 托管的 MCP 服务器](https://actions.zapier.com/settings/mcp)\n\nCopy the MCP Server URL for use in the Dify plug-in configuration.\n\n复制 MCP Server URL，在 Dify 插件配置中使用。\n\n![zapier_mcp_servers](_assets/zapier_mcp_servers.png)\n\nMCP Servers config, shown below:\n\nMCP 服务配置，如下示例：\n\n```json\n{\n  \"zapier-mcp\": {\n    \"url\": \"https://actions.zapier.com/mcp/sk-xxxxxxxxxx/sse\"\n  }\n}\n```\n\nClick \"Edit MCP Actions\" to go to the page for adding tools and actions.\n\n点击 “Edit MCP Actions” ，进入工具和操作的添加页面。\n\n![zapier_mcp_edit_actions](_assets/zapier_mcp_edit_actions.png)\n\nClick \"Add a new action\" to add the required MCP service instance.\n\n点击 “Add a new action”，添加需要的MCP服务实例。\n\n![zapier_mcp_add_actions](_assets/zapier_mcp_add_actions.png)\n\nYou can also continue to add different actions to enrich the tool set available to the Agent.\n\n你还可以继续添加不同的 Action，丰富 Agent 可用的工具集。\n\n\n#### Example 3  示例3\n\n[MCP.so Managed MCP Servers](https://mcp.so/playground)\n\n[MCP.so 托管的 MCP 服务器](https://mcp.so/playground)\n\n##### `Streamable HTTP`\n\n![mcpso_mcp_servers_streamable_http](_assets/mcpso_mcp_servers_streamable_http.png)\n\nMCP Servers config, shown below:\n\nMCP 服务配置，如下示例：\n\n```json\n{\n  \"tavily-mcp\": {\n    \"transport\": \"streamable_http\",\n    \"url\": \"https://router.mcp.so/mcp/xxxxxxxxxxx\"\n  }\n}\n```\n\n##### `SSE` \n\n![mcpso_mcp_servers_sse](_assets/mcpso_mcp_servers_sse.png)\n\nMCP Servers config, shown below:\n\nMCP 服务配置，如下示例：\n\n```json\n{\n  \"tavily-mcp\": {\n    \"url\": \"https://router.mcp.so/sse/xxxxxxxxxxx\"\n  }\n}\n```\n\n\n\n---\n\n\n\n### Installing Plugins via GitHub  通过 GitHub 安装插件\n\nCan install the plugin using the GitHub repository address. Visit the Dify platform's plugin management page, choose to install via GitHub, enter the repository address, select version number and package file to complete installation.\n\n可以通过 GitHub 仓库地址安装该插件。访问 Dify 平台的插件管理页，选择通过 GitHub 安装插件，输入仓库地址后，选择版本号和包文件完成安装。\n\n![install_plugin_via_github](_assets/install_plugin_via_github.png)\n\n\n\n---\n\n\n\n### FAQ\n\n#### 1. How to Handle Errors When Installing Plugins? 安装插件时遇到异常应如何处理？\n\n**Issue**: If you encounter the error message: plugin verification has been enabled, and the plugin you want to install has a bad signature, how to handle the issue?\n\n**Solution**: Add the following line to the end of your .env configuration file: `FORCE_VERIFYING_SIGNATURE=false`\nOnce this field is added, the Dify platform will allow the installation of all plugins that are not listed (and thus not verified) in the Dify Marketplace.\n\n**问题描述**：安装插件时遇到异常信息：plugin verification has been enabled, and the plugin you want to install has a bad signature，应该如何处理？\n\n**解决办法**：在 .env 配置文件的末尾添加 `FORCE_VERIFYING_SIGNATURE=false` 字段即可解决该问题。\n添加该字段后，Dify 平台将允许安装所有未在 Dify Marketplace 上架（审核）的插件，可能存在安全隐患。\n\n\n#### 2. How to install the offline version 如何安装离线版本\n\nScripting tool for downloading Dify plugin package from Dify Marketplace and Github and repackaging [true] offline package (contains dependencies, no need to be connected to the Internet).\n\n从Dify市场和Github下载Dify插件包并重新打【真】离线包（包含依赖，不需要再联网）的脚本工具。\n\nGithub Repo: https://github.com/junjiem/dify-plugin-repackaging\n\n",
+        "install_count": 73587,
         "label": {
             "en_US": "Agent Strategies (Support MCP Tools)",
             "zh_Hans": "Agent 策略（支持 MCP 工具）"
         },
         "latest_package_identifier": "junjiem/mcp_see_agent:0.2.2@2b54607cf4d6a03b39cdae1425af2d8bafd4dd87f3eef6dc3eaaa945c71c2231",
         "latest_version": "0.2.2",
-        "model": {},
         "name": "mcp_see_agent",
         "org": "junjiem",
         "plugin_id": "junjiem/mcp_see_agent",
@@ -814,204 +71,30 @@
         "privacy_options": "",
         "privacy_policy": "PRIVACY.md",
         "repository": "",
-        "resource": {
-            "memory": 268435456,
-            "permission": {
-                "model": {
-                    "enabled": true,
-                    "llm": true,
-                    "moderation": false,
-                    "rerank": false,
-                    "speech2text": false,
-                    "text_embedding": false,
-                    "tts": false
-                },
-                "storage": {
-                    "enabled": true,
-                    "size": 1073741824
-                },
-                "tool": {
-                    "enabled": true
-                }
-            }
-        },
         "status": "active",
         "tags": [],
-        "tool": {},
         "type": "plugin",
-        "updated_at": "2025-06-18T09:16:14Z",
         "verification": {
             "authorized_category": "community"
         },
         "version_updated_at": "2025-06-18T09:16:14Z"
     },
     {
-        "agent_strategy": {
-            "identity": {
-                "author": "hjlarry",
-                "description": {
-                    "en_US": "The agent with MCP tool calls and common function calls.",
-                    "zh_Hans": "支持 MCP 工具调用和 function call 的 Agent。"
-                },
-                "icon": "icon.svg",
-                "label": {
-                    "en_US": "MCP Agent",
-                    "pt_BR": "MCP Agent",
-                    "zh_Hans": "MCP Agent"
-                },
-                "name": "mcp_agent",
-                "tags": []
-            },
-            "strategies": [
-                {
-                    "description": {
-                        "en_US": "Function Calling is a basic strategy for agent, model will use the tools provided to perform the task.",
-                        "pt_BR": "Function Calling is a basic strategy for agent, model will use the tools provided to perform the task.",
-                        "zh_Hans": "Function Calling 是一个基本的 Agent 策略，模型将使用提供的工具来执行任务。"
-                    },
-                    "identity": {
-                        "author": "Dify",
-                        "label": {
-                            "en_US": "MCP FunctionCalling"
-                        },
-                        "name": "function_calling"
-                    },
-                    "output_schema": null,
-                    "parameters": [
-                        {
-                            "auto_generate": null,
-                            "default": null,
-                            "label": {
-                                "en_US": "Model",
-                                "pt_BR": "Model",
-                                "zh_Hans": "模型"
-                            },
-                            "max": null,
-                            "min": null,
-                            "name": "model",
-                            "options": null,
-                            "precision": null,
-                            "required": true,
-                            "scope": "tool-call&llm",
-                            "template": null,
-                            "type": "model-selector"
-                        },
-                        {
-                            "auto_generate": null,
-                            "default": null,
-                            "label": {
-                                "en_US": "Tools list",
-                                "pt_BR": "Tools list",
-                                "zh_Hans": "工具列表"
-                            },
-                            "max": null,
-                            "min": null,
-                            "name": "tools",
-                            "options": null,
-                            "precision": null,
-                            "required": true,
-                            "scope": null,
-                            "template": null,
-                            "type": "array[tools]"
-                        },
-                        {
-                            "auto_generate": null,
-                            "default": null,
-                            "label": {
-                                "en_US": "MCP Server URL",
-                                "zh_Hans": "MCP 服务器地址"
-                            },
-                            "max": null,
-                            "min": null,
-                            "name": "mcp_server",
-                            "options": null,
-                            "precision": null,
-                            "required": false,
-                            "scope": null,
-                            "template": null,
-                            "type": "string"
-                        },
-                        {
-                            "auto_generate": {
-                                "type": "prompt_instruction"
-                            },
-                            "default": null,
-                            "label": {
-                                "en_US": "Instruction",
-                                "pt_BR": "Instruction",
-                                "zh_Hans": "指令"
-                            },
-                            "max": null,
-                            "min": null,
-                            "name": "instruction",
-                            "options": null,
-                            "precision": null,
-                            "required": true,
-                            "scope": null,
-                            "template": {
-                                "enabled": true
-                            },
-                            "type": "string"
-                        },
-                        {
-                            "auto_generate": null,
-                            "default": null,
-                            "label": {
-                                "en_US": "Query",
-                                "pt_BR": "Query",
-                                "zh_Hans": "查询"
-                            },
-                            "max": null,
-                            "min": null,
-                            "name": "query",
-                            "options": null,
-                            "precision": null,
-                            "required": true,
-                            "scope": null,
-                            "template": null,
-                            "type": "string"
-                        },
-                        {
-                            "auto_generate": null,
-                            "default": 3,
-                            "label": {
-                                "en_US": "Maxium Iterations",
-                                "pt_BR": "Maxium Iterations",
-                                "zh_Hans": "最大迭代次数"
-                            },
-                            "max": 30,
-                            "min": 1,
-                            "name": "maximum_iterations",
-                            "options": null,
-                            "precision": null,
-                            "required": true,
-                            "scope": null,
-                            "template": null,
-                            "type": "number"
-                        }
-                    ]
-                }
-            ]
-        },
         "badges": [],
         "brief": {
             "en_US": "An agent strategy with MCP tool calls and common function calls.",
             "zh_Hans": "支持 MCP 工具调用和 function call 的 Agent 策略。"
         },
         "category": "agent-strategy",
-        "created_at": "2025-03-14T11:45:09Z",
-        "endpoint": {},
         "icon": "hjlarry/packages/agent/_assets/icon.svg",
         "index_id": "hjlarry___agent",
-        "install_count": 37570,
-        "introduction": "# MCP Agent Strategy\n\n[![Version](https://img.shields.io/badge/version-0.0.1-blue.svg)](https://github.com/hjlarry/dify-plugin-mcp_agent)\n[![Repo](https://img.shields.io/badge/repo-github-green.svg)](https://github.com/hjlarry/dify-plugin-mcp_agent)\n\nA Dify Agent strategy plugin that integrates MCP tool calls and common function calls capabilities.\n\n## Features\n\n- Full compatibility with official function call agent strategy\n- Seamless integration with MCP tool calls\n- Flexible MCP server connection options\n\n## Getting Started\n\n![agent](./_assets/agent.png)\n\n### Basic Configuration\n\nFor single MCP server setup, simply provide the server URL:\n\n```shell\nhttp://localhost:8000/sse\n```\n\n### Advanced Configuration\n\nFor multiple MCP servers with detailed connection parameters:\n```json\n{\n  \"server_name1\": {\n    \"url\": \"http://127.0.0.1:8000/sse\",\n    \"headers\": {},\n    \"timeout\": 5,\n    \"sse_read_timeout\": 300\n  },\n  \"server_name2\": {\n    \"url\": \"http://127.0.0.1:8001/sse\"\n  }\n}\n```\n\n\n## How to change MCP server from `stdio` to `sse` ?\n\n### Option 1: source code modification\n```python\nif __name__ == \"__main__\":\n    mcp.run(transport='sse')\n```\n\n### Option 2: using the [mcp-proxy](https://github.com/sparfenyuk/mcp-proxy)\n```shell\nuv tool install mcp-proxy\nmcp-proxy --sse-host=0.0.0.0 --sse-port=8080 uvx your-server\n```",
+        "install_count": 37755,
         "label": {
             "en_US": "MCP Agent Strategy",
             "zh_Hans": "MCP Agent 策略"
         },
         "latest_package_identifier": "hjlarry/agent:0.0.1@a49e68ba2d0ddafda481fdff7d65426fb43e4bcb3522e648475379996d7680dd",
         "latest_version": "0.0.1",
-        "model": {},
         "name": "agent",
         "org": "hjlarry",
         "plugin_id": "hjlarry/agent",
@@ -1026,245 +109,34 @@
         "privacy_options": "",
         "privacy_policy": "",
         "repository": "",
-        "resource": {
-            "memory": 1048576,
-            "permission": {
-                "model": {
-                    "enabled": true,
-                    "llm": true,
-                    "moderation": false,
-                    "rerank": false,
-                    "speech2text": false,
-                    "text_embedding": false,
-                    "tts": false
-                },
-                "tool": {
-                    "enabled": true
-                }
-            }
-        },
         "status": "active",
         "tags": [
             {
                 "name": "agent"
             }
         ],
-        "tool": {},
         "type": "plugin",
-        "updated_at": "2025-05-29T14:52:08Z",
         "verification": {
             "authorized_category": "community"
         },
         "version_updated_at": "2025-03-14T11:45:15Z"
     },
     {
-        "agent_strategy": {
-            "identity": {
-                "author": "svcvit",
-                "description": {
-                    "en_US": "Store conversation context information for multi-turn dialogue memory processing",
-                    "zh_Hans": "存储对话上下文信息，用于多轮对话记忆处理"
-                },
-                "icon": "icon.svg",
-                "label": {
-                    "en_US": "Dialogue",
-                    "zh_Hans": "对话"
-                },
-                "name": "agent",
-                "tags": []
-            },
-            "strategies": [
-                {
-                    "description": {
-                        "en_US": "A dialogue strategy for information collection through multi-turn conversations",
-                        "zh_Hans": "通过多轮对话收集信息的对话策略"
-                    },
-                    "identity": {
-                        "author": "Dify",
-                        "label": {
-                            "en_US": "InformationCollection",
-                            "zh_Hans": "信息收集"
-                        },
-                        "name": "TOD"
-                    },
-                    "output_schema": null,
-                    "parameters": [
-                        {
-                            "auto_generate": null,
-                            "default": null,
-                            "label": {
-                                "en_US": "Model",
-                                "zh_Hans": "模型"
-                            },
-                            "max": null,
-                            "min": null,
-                            "name": "model",
-                            "options": null,
-                            "precision": null,
-                            "required": true,
-                            "scope": "llm",
-                            "template": null,
-                            "type": "model-selector"
-                        },
-                        {
-                            "auto_generate": null,
-                            "default": null,
-                            "label": {
-                                "en_US": "Information Schema",
-                                "zh_Hans": "信息集合 Schema"
-                            },
-                            "max": null,
-                            "min": null,
-                            "name": "information_schema",
-                            "options": null,
-                            "precision": null,
-                            "required": true,
-                            "scope": null,
-                            "template": null,
-                            "type": "string"
-                        },
-                        {
-                            "auto_generate": null,
-                            "default": null,
-                            "label": {
-                                "en_US": "User Query",
-                                "zh_Hans": "用户输入"
-                            },
-                            "max": null,
-                            "min": null,
-                            "name": "query",
-                            "options": null,
-                            "precision": null,
-                            "required": true,
-                            "scope": null,
-                            "template": null,
-                            "type": "string"
-                        },
-                        {
-                            "auto_generate": null,
-                            "default": null,
-                            "label": {
-                                "en_US": "Storage Key",
-                                "zh_Hans": "存储键值"
-                            },
-                            "max": null,
-                            "min": null,
-                            "name": "storage_key",
-                            "options": null,
-                            "precision": null,
-                            "required": true,
-                            "scope": null,
-                            "template": null,
-                            "type": "string"
-                        }
-                    ]
-                },
-                {
-                    "description": {
-                        "en_US": "A dialogue strategy for managing multi-turn conversations with context awareness",
-                        "zh_Hans": "一个支持上下文感知的多轮对话策略"
-                    },
-                    "identity": {
-                        "author": "Dify",
-                        "label": {
-                            "en_US": "MultiTurnConversation",
-                            "zh_Hans": "多轮对话"
-                        },
-                        "name": "MTD"
-                    },
-                    "output_schema": null,
-                    "parameters": [
-                        {
-                            "auto_generate": null,
-                            "default": null,
-                            "label": {
-                                "en_US": "Model",
-                                "zh_Hans": "模型"
-                            },
-                            "max": null,
-                            "min": null,
-                            "name": "model",
-                            "options": null,
-                            "precision": null,
-                            "required": true,
-                            "scope": "llm",
-                            "template": null,
-                            "type": "model-selector"
-                        },
-                        {
-                            "auto_generate": null,
-                            "default": null,
-                            "label": {
-                                "en_US": "Instruction",
-                                "zh_Hans": "指令"
-                            },
-                            "max": null,
-                            "min": null,
-                            "name": "instruction",
-                            "options": null,
-                            "precision": null,
-                            "required": true,
-                            "scope": null,
-                            "template": null,
-                            "type": "string"
-                        },
-                        {
-                            "auto_generate": null,
-                            "default": null,
-                            "label": {
-                                "en_US": "User Query",
-                                "zh_Hans": "用户输入"
-                            },
-                            "max": null,
-                            "min": null,
-                            "name": "query",
-                            "options": null,
-                            "precision": null,
-                            "required": true,
-                            "scope": null,
-                            "template": null,
-                            "type": "string"
-                        },
-                        {
-                            "auto_generate": null,
-                            "default": null,
-                            "label": {
-                                "en_US": "Storage Key",
-                                "zh_Hans": "存储键值"
-                            },
-                            "max": null,
-                            "min": null,
-                            "name": "storage_key",
-                            "options": null,
-                            "precision": null,
-                            "required": true,
-                            "scope": null,
-                            "template": null,
-                            "type": "string"
-                        }
-                    ]
-                }
-            ]
-        },
         "badges": [],
         "brief": {
             "en_US": "An advanced dialogue agent optimized for conversational scenarios",
             "zh_Hans": "针对对话场景优化的Agent策略，例如：多轮对话、上下文理解、信息收集等"
         },
         "category": "agent-strategy",
-        "created_at": "2025-03-03T11:03:47Z",
-        "endpoint": {},
         "icon": "svcvit/packages/agent/_assets/icon.svg",
         "index_id": "svcvit___agent",
-        "install_count": 33480,
-        "introduction": "# Dialogue Agent\n\n**Author:** [svcvit](https://github.com/svcvit)\n**Repository:** [dify-plugin-tod_agent](https://github.com/svcvit/dify-plugin-tod_agent)\n**Version:** 0.0.4\n\n### Description\n\n![](./_assets/tod.jpg)\n\n![](./_assets/mtd.jpg)\n\nA powerful task-oriented dialogue agent that can collect information through structured conversations. It supports dynamic field validation, multi-field information extraction, and state management. The agent now includes two dialogue strategies: TOD (Task-Oriented Dialogue) for information collection and MTD (Multi-Turn Dialogue) for general conversations.\n\n### Features\n\n- Task-oriented dialogue management\n- Dynamic field validation\n- Multi-field information extraction\n- Conversation state persistence\n- Automatic answer validation\n- Context-aware information collection\n- Natural language interaction\n- Multiple dialogue strategies support (TOD & MTD)\n\n### Usage Guide\n\n#### Dialogue Strategies\n\nThe agent supports two dialogue strategies:\n\n1. **TOD (Task-Oriented Dialogue)**\n   - A dialogue strategy for structured information collection\n   - Suitable for form filling and information gathering scenarios\n   - Supports dynamic field validation and state management\n\n2. **MTD (Multi-Turn Dialogue)**\n   - A strategy for general multi-turn conversations\n   - Supports context awareness\n   - Suitable for open-ended dialogue scenarios\n\n#### TOD Strategy Parameters\n\n1. **information_schema** (Required)\n   - Type: string (JSON)\n   - Description: Schema defining the fields to collect\n   - Example:\n     ```json\n     {\n       \"fields\": [\n         {\n           \"name\": \"destination\",\n           \"question\": \"请问您想去哪里旅行？\",\n           \"required\": true\n         },\n         {\n           \"name\": \"duration\",\n           \"question\": \"您计划旅行多长时间？\",\n           \"required\": true\n         },\n         {\n           \"name\": \"budget\",\n           \"question\": \"您的预算大约是多少？\",\n           \"required\": true\n         }\n       ]\n     }\n     ```\n\n2. **query** (Required)\n   - Type: string\n   - Description: User's input text\n\n3. **model** (Required)\n   - Type: AgentModelConfig\n   - Description: LLM model configuration\n   - Example: Configuration for GPT or other LLM models\n\n4. **storage_key** (Required)\n   - Type: string\n   - Description: Unique key for storing conversation state\n   - Example: `\"conversation-123\"`\n\n#### MTD Strategy Parameters\n\n1. **instruction** (Required)\n   - Type: string\n   - Description: Dialogue instruction or system prompt\n   - Example: \n     ```\n      你是一个专业的医生。\n      - 问用户有什么不适症状\n      - 问用户最近有没有吃药\n      - 问如果用户回答吃药了，询问吃的什么药，以及剂量。\n      - 最后询问用户有没有药物过敏。\n      - 最后询问用户有没有其他症状。\n     ```\n\n2. **query** (Required)\n   - Type: string\n   - Description: User's input text\n\n3. **model** (Required)\n   - Type: AgentModelConfig\n   - Description: LLM model configuration\n   - Example: Configuration for GPT or other LLM models\n\n4. **storage_key** (Required)\n   - Type: string\n   - Description: Unique key for storing conversation state\n   - Example: `\"mtd-conversation-123\"`\n\n### Changelog\n\n#### v0.0.4\n- Updated dify_plugin dependency requirement to `>=0.1.0,<0.2.0`\n\n#### v0.0.3\n- Added MTD (Multi-Turn Dialogue) strategy support\n- Fixed data type validation bugs\n- Added support for schema JSON without leading spaces (compatible with Dify official update)\n  \n#### v0.0.2\n- Added logging functionality\n- Added token usage statistics\n- Optimized code structure and performance\n\n#### v0.0.1\n- Project initialization\n- Implemented multi-turn dialogue\n- Implemented conversation state storage\n- Implemented intelligent Q&A content extraction",
+        "install_count": 33630,
         "label": {
             "en_US": "Dialogue Agent",
             "zh_Hans": "对话 Agent"
         },
         "latest_package_identifier": "svcvit/agent:0.0.4@da10dd8bc6c029f1e3bdfea8cf44ba91a37233a2ab59188c5b663d5c8ce4db7e",
         "latest_version": "0.0.4",
-        "model": {},
         "name": "agent",
         "org": "svcvit",
         "plugin_id": "svcvit/agent",
@@ -1279,226 +151,34 @@
         "privacy_options": "",
         "privacy_policy": "PRIVACY.md",
         "repository": "",
-        "resource": {
-            "memory": 1048576,
-            "permission": {
-                "model": {
-                    "enabled": true,
-                    "llm": true,
-                    "moderation": false,
-                    "rerank": false,
-                    "speech2text": false,
-                    "text_embedding": false,
-                    "tts": false
-                },
-                "storage": {
-                    "enabled": true,
-                    "size": 1073741824
-                },
-                "tool": {
-                    "enabled": true
-                }
-            }
-        },
         "status": "active",
         "tags": [
             {
                 "name": "agent"
             }
         ],
-        "tool": {},
         "type": "plugin",
-        "updated_at": "2025-05-29T14:41:21Z",
         "verification": {
             "authorized_category": "community"
         },
         "version_updated_at": "2025-04-24T10:05:10Z"
     },
     {
-        "agent_strategy": {
-            "identity": {
-                "author": "allenyzx",
-                "description": {
-                    "en_US": "Enhancing Agent"
-                },
-                "icon": "icon.png",
-                "label": {
-                    "en_US": "Enhancing Agent"
-                },
-                "name": "enhancing_function_agent",
-                "tags": []
-            },
-            "strategies": [
-                {
-                    "description": {
-                        "en_US": "Function Calling strategy for agent, Refer to a part of the thinking in `EASYTOOL-Enhancing LLM-based Agents with Concise Tool Instruction`.",
-                        "zh_Hans": "Function Calling Agent策略，一部分思路参考 `EASYTOOL-Enhancing LLM-based Agents with Concise Tool Instruction`，能有效提升用户拆解后工具调用效率。"
-                    },
-                    "features": [
-                        "history-messages"
-                    ],
-                    "identity": {
-                        "author": "allenyzx",
-                        "label": {
-                            "en_US": "EnhanceFunctionCalling",
-                            "zh_Hans": "EnhanceFunctionCalling"
-                        },
-                        "name": "enhancing_function_agent"
-                    },
-                    "output_schema": null,
-                    "parameters": [
-                        {
-                            "auto_generate": null,
-                            "default": null,
-                            "help": {
-                                "en_US": ""
-                            },
-                            "label": {
-                                "en_US": "Model",
-                                "pt_BR": "Model",
-                                "zh_Hans": "模型"
-                            },
-                            "max": null,
-                            "min": null,
-                            "name": "model",
-                            "options": null,
-                            "precision": null,
-                            "required": true,
-                            "scope": "tool-call&llm",
-                            "template": null,
-                            "type": "model-selector"
-                        },
-                        {
-                            "auto_generate": null,
-                            "default": null,
-                            "help": {
-                                "en_US": ""
-                            },
-                            "label": {
-                                "en_US": "Tool list",
-                                "pt_BR": "Tool list",
-                                "zh_Hans": "工具列表"
-                            },
-                            "max": null,
-                            "min": null,
-                            "name": "tools",
-                            "options": null,
-                            "precision": null,
-                            "required": false,
-                            "scope": null,
-                            "template": null,
-                            "type": "array[tools]"
-                        },
-                        {
-                            "auto_generate": {
-                                "type": "prompt_instruction"
-                            },
-                            "default": null,
-                            "help": {
-                                "en_US": ""
-                            },
-                            "label": {
-                                "en_US": "Instruction",
-                                "pt_BR": "Instruction",
-                                "zh_Hans": "指令"
-                            },
-                            "max": null,
-                            "min": null,
-                            "name": "instruction",
-                            "options": null,
-                            "precision": null,
-                            "required": true,
-                            "scope": null,
-                            "template": {
-                                "enabled": true
-                            },
-                            "type": "string"
-                        },
-                        {
-                            "auto_generate": null,
-                            "default": null,
-                            "help": {
-                                "en_US": ""
-                            },
-                            "label": {
-                                "en_US": "Query",
-                                "pt_BR": "Query",
-                                "zh_Hans": "查询"
-                            },
-                            "max": null,
-                            "min": null,
-                            "name": "query",
-                            "options": null,
-                            "precision": null,
-                            "required": true,
-                            "scope": null,
-                            "template": null,
-                            "type": "string"
-                        },
-                        {
-                            "auto_generate": null,
-                            "default": 5,
-                            "help": {
-                                "en_US": ""
-                            },
-                            "label": {
-                                "en_US": "Maximum Iterations",
-                                "pt_BR": "Maximum Iterations",
-                                "zh_Hans": "最大迭代次数"
-                            },
-                            "max": 30,
-                            "min": 1,
-                            "name": "maximum_iterations",
-                            "options": null,
-                            "precision": null,
-                            "required": true,
-                            "scope": null,
-                            "template": null,
-                            "type": "number"
-                        },
-                        {
-                            "auto_generate": null,
-                            "default": 3,
-                            "help": {
-                                "en_US": ""
-                            },
-                            "label": {
-                                "en_US": "Maximum EASYTOOL Retries",
-                                "zh_Hans": "EASYTOOL重试次数"
-                            },
-                            "max": 10,
-                            "min": 1,
-                            "name": "maximum_easytool_retries",
-                            "options": null,
-                            "precision": null,
-                            "required": true,
-                            "scope": null,
-                            "template": null,
-                            "type": "number"
-                        }
-                    ]
-                }
-            ]
-        },
         "badges": [],
         "brief": {
             "en_US": "Based on the official Function-Calling Agent, the microsoft of EASYTOOL policy is used to enhance the ability to disassemble and reflect on LLM tasks.",
             "zh_Hans": "基于Dify官方Function-Calling Agent，采用微软的EASYTOOL策略增强LLM任务拆解、反思等能力。"
         },
         "category": "agent-strategy",
-        "created_at": "2025-07-07T07:06:15Z",
-        "endpoint": {},
         "icon": "allenyzx/packages/enhancing_function_agent/_assets/icon.png",
         "index_id": "allenyzx___enhancing_function_agent",
-        "install_count": 2966,
-        "introduction": "## Enhancing FunctionCalling Agent\n\n- **Author:** allenyzx\n- **Version:** 0.0.2\n- **Type:** agent-strategy\n\n### Description\n一个有用的Agent策略，参考了一部分关于[EASYTOOL: Enhancing LLM-based Agents with Concise Tool Instruction](https://arxiv.org/pdf/2401.06201)逻辑，代码实现基于微软提供的[EASYTOOL](https://github.com/microsoft/JARVIS/tree/main/easytool)。\n![The four-stage framework of LLM-based agents in tool-usage applications.](https://github.com/GraySilver/enhancing_function_agent/blob/main/_assets/1.jpg)\n\n\n使用前：\n![](https://github.com/GraySilver/enhancing_function_agent/blob/main/_assets/use_before.jpg)\n\n\n使用后：\n![](https://github.com/GraySilver/enhancing_function_agent/blob/main/_assets/use_after1.jpg)\n\n\n### Features:\n#### Task Planning\n将复杂用户问题分解为可独立执行的原子子任务。通过LLM生成结构化任务列表（{\"Tasks\": [...]}格式），每个任务包含： \n1. 自然语言描述的原子任务;\n2. 唯一任务ID标识;\n3. 确保任务完整性和自洽性\n\n#### Task Topology\n建立任务间的逻辑依赖关系图：\n1. 分析任务执行顺序和依赖关系\n2. 输出[{\"task\":..., \"id\":..., \"dep\":[...]}]格式的拓扑结构\n3. 支持多级依赖处理（列表/字符串/整数格式转换）\n4. 内置错误重试机制（最多5次)\n\n#### Choose Tool:\n为每个子任务匹配最佳工具：\n1. 基于工具描述（tool_dic）和任务需求动态选择\n2. 输出[{\"ID\": XX}]格式的选择结果\n3. 过滤已使用工具避免重复\n错误重试机制保障稳定性\n\n#### Tool Check:\n智能判断是否需要工具调用：\n1. 实时性检测（需要实时信息时强制调用）\n2. 数据获取检测（ID/位置/排名等结构化数据需求）\n3. 外部资源检测（数据库/网络搜索需求）\n输出{\"Reason\":..., \"Choice\":\"Yes/No\"}决策依据\n\n### Changelog\n#### v0.0.2\n- 当不使用工具时，默认不使用EASYTOOL策略；\n- 优化EASYTOOL的retry次数，默认为3次\n\n#### v0.0.1\n- Initial release.\n\n",
+        "install_count": 3083,
         "label": {
             "en_US": "Enhancing Agent",
             "zh_Hans": "Enhancing Agent"
         },
         "latest_package_identifier": "allenyzx/enhancing_function_agent:0.0.2@bdbcf7d9d7b307aece84c5b810286bc975be3cd713324bd642b5d6f26496c169",
         "latest_version": "0.0.2",
-        "model": {},
         "name": "enhancing_function_agent",
         "org": "allenyzx",
         "plugin_id": "allenyzx/enhancing_function_agent",
@@ -1513,28 +193,9 @@
         "privacy_options": "",
         "privacy_policy": "PRIVACY.md",
         "repository": null,
-        "resource": {
-            "memory": 268435456,
-            "permission": {
-                "model": {
-                    "enabled": true,
-                    "llm": true,
-                    "moderation": false,
-                    "rerank": false,
-                    "speech2text": false,
-                    "text_embedding": false,
-                    "tts": false
-                },
-                "tool": {
-                    "enabled": true
-                }
-            }
-        },
         "status": "active",
         "tags": [],
-        "tool": {},
         "type": "plugin",
-        "updated_at": "2025-07-18T03:49:51Z",
         "verification": {
             "authorized_category": "community"
         },
