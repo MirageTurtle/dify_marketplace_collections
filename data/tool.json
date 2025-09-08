@@ -8,7 +8,7 @@
         "category": "tool",
         "icon": "junjiem/packages/mcp_sse/_assets/icon.png",
         "index_id": "junjiem___mcp_sse",
-        "install_count": 72604,
+        "install_count": 72708,
         "label": {
             "en_US": "MCP SSE / StreamableHTTP",
             "zh_Hans": "MCP SSE / StreamableHTTP"
@@ -48,7 +48,7 @@
         "category": "tool",
         "icon": "langgenius/packages/tavily/_assets/icon.png",
         "index_id": "langgenius___tavily",
-        "install_count": 70178,
+        "install_count": 70314,
         "label": {
             "en_US": "Tavily",
             "zh_Hans": "Tavily"
@@ -91,7 +91,7 @@
         "category": "tool",
         "icon": "langgenius/packages/json_process/_assets/icon.svg",
         "index_id": "langgenius___json_process",
-        "install_count": 66192,
+        "install_count": 66280,
         "label": {
             "en_US": "JSON Process",
             "pt_BR": "JSON Process",
@@ -135,7 +135,7 @@
         "category": "tool",
         "icon": "bowenliang123/packages/md_exporter/_assets/icon.svg",
         "index_id": "bowenliang123___md_exporter",
-        "install_count": 63779,
+        "install_count": 63928,
         "label": {
             "en_US": "Markdown Exporter",
             "ja_JP": "Markdownエクスポーター",
@@ -174,7 +174,7 @@
         "category": "tool",
         "icon": "langgenius/packages/google/_assets/icon.svg",
         "index_id": "langgenius___google",
-        "install_count": 54629,
+        "install_count": 54719,
         "label": {
             "en_US": "Google"
         },
@@ -215,7 +215,7 @@
         "category": "tool",
         "icon": "langgenius/packages/firecrawl/_assets/icon.svg",
         "index_id": "langgenius___firecrawl",
-        "install_count": 40409,
+        "install_count": 40471,
         "label": {
             "en_US": "Firecrawl"
         },
@@ -259,7 +259,7 @@
         "category": "tool",
         "icon": "junjiem/packages/db_query/_assets/icon.svg",
         "index_id": "junjiem___db_query",
-        "install_count": 33779,
+        "install_count": 33830,
         "label": {
             "en_US": "Database Query",
             "zh_Hans": "数据库查询"
@@ -305,7 +305,7 @@
         "category": "tool",
         "icon": "langgenius/packages/jina_tool/_assets/icon.svg",
         "index_id": "langgenius___jina_tool",
-        "install_count": 32048,
+        "install_count": 32088,
         "label": {
             "en_US": "Jina AI",
             "pt_BR": "Jina AI",
@@ -352,7 +352,7 @@
         "category": "tool",
         "icon": "langgenius/packages/wikipedia/_assets/icon.svg",
         "index_id": "langgenius___wikipedia",
-        "install_count": 30250,
+        "install_count": 30293,
         "label": {
             "en_US": "Wikipedia",
             "pt_BR": "Wikipedia",
@@ -397,7 +397,7 @@
         "category": "tool",
         "icon": "jaguarliuu/packages/rookie_text2data/_assets/data-collection.svg",
         "index_id": "jaguarliuu___rookie_text2data",
-        "install_count": 29765,
+        "install_count": 29806,
         "label": {
             "en_US": "rookie_text2data",
             "ja_JP": "rookie_text2data",
@@ -438,7 +438,7 @@
         "category": "tool",
         "icon": "langgenius/packages/wecom/_assets/icon.png",
         "index_id": "langgenius___wecom",
-        "install_count": 28874,
+        "install_count": 28912,
         "label": {
             "en_US": "Wecom",
             "pt_BR": "Wecom",
@@ -481,18 +481,19 @@
         "category": "tool",
         "icon": "langgenius/packages/comfyui/_assets/icon.png",
         "index_id": "langgenius___comfyui",
-        "install_count": 26445,
+        "install_count": 26535,
         "label": {
             "en_US": "ComfyUI",
             "zh_Hans": "ComfyUI"
         },
-        "latest_package_identifier": "langgenius/comfyui:0.2.5@f0964db9c1927196b74a487ce119b8d7dba85ca040ffc46e3e848e81283618a2",
-        "latest_version": "0.2.5",
+        "latest_package_identifier": "langgenius/comfyui:0.2.6@4cd12fffb33265318d696db0b78fe2757f02bad551e642a9932b190a24f6ec69",
+        "latest_version": "0.2.6",
         "name": "comfyui",
         "org": "langgenius",
         "plugin_id": "langgenius/comfyui",
         "plugins": {
             "agent_strategies": null,
+            "datasources": null,
             "endpoints": null,
             "models": null,
             "tools": [
@@ -512,7 +513,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2025-09-01T02:18:13Z"
+        "version_updated_at": "2025-09-07T13:29:36Z"
     },
     {
         "badges": [],
@@ -523,7 +524,7 @@
         "category": "tool",
         "icon": "langgenius/packages/echarts/_assets/icon.svg",
         "index_id": "langgenius___echarts",
-        "install_count": 25732,
+        "install_count": 25757,
         "label": {
             "en_US": "ECharts Chart Generator",
             "zh_Hans": "ECharts图表生成"
@@ -572,7 +573,7 @@
         "category": "tool",
         "icon": "langgenius/packages/github/_assets/icon.svg",
         "index_id": "langgenius___github",
-        "install_count": 25590,
+        "install_count": 25651,
         "label": {
             "en_US": "GitHub",
             "pt_BR": "GitHub",
@@ -615,7 +616,7 @@
         "category": "tool",
         "icon": "langgenius/packages/searxng/_assets/icon.svg",
         "index_id": "langgenius___searxng",
-        "install_count": 25206,
+        "install_count": 25248,
         "label": {
             "en_US": "SearXNG",
             "zh_Hans": "SearXNG"
@@ -660,7 +661,7 @@
         "category": "tool",
         "icon": "langgenius/packages/duckduckgo/_assets/icon.svg",
         "index_id": "langgenius___duckduckgo",
-        "install_count": 24570,
+        "install_count": 24603,
         "label": {
             "en_US": "DuckDuckGo"
         },
@@ -698,7 +699,7 @@
         "category": "tool",
         "icon": "langgenius/packages/regex/_assets/icon.svg",
         "index_id": "langgenius___regex",
-        "install_count": 22647,
+        "install_count": 22674,
         "label": {
             "en_US": "Regex",
             "pt_BR": "Regex",
@@ -748,7 +749,7 @@
         "category": "tool",
         "icon": "digitforce/packages/data_analysis/_assets/icon.svg",
         "index_id": "digitforce___data_analysis",
-        "install_count": 22102,
+        "install_count": 22169,
         "label": {
             "en_US": "data analysis",
             "ja_JP": "data analysis",
@@ -789,7 +790,7 @@
         "category": "tool",
         "icon": "langgenius/packages/mineru/_assets/icon.svg",
         "index_id": "langgenius___mineru",
-        "install_count": 21781,
+        "install_count": 21877,
         "label": {
             "en_US": "MinerU",
             "ja_JP": "MinerU",
@@ -827,7 +828,7 @@
         "category": "tool",
         "icon": "langgenius/packages/siliconflow_tool/_assets/siliconflow_square.svg",
         "index_id": "langgenius___siliconflow_tool",
-        "install_count": 19503,
+        "install_count": 19532,
         "label": {
             "en_US": "SiliconFlow"
         },
@@ -870,7 +871,7 @@
         "category": "tool",
         "icon": "stvlynn/packages/doc/_assets/icon.svg",
         "index_id": "stvlynn___doc",
-        "install_count": 18620,
+        "install_count": 18654,
         "label": {
             "en_US": "DOC",
             "ja_JP": "DOC",
@@ -911,7 +912,7 @@
         "category": "tool",
         "icon": "langgenius/packages/dingtalk/_assets/icon.svg",
         "index_id": "langgenius___dingtalk",
-        "install_count": 17897,
+        "install_count": 17916,
         "label": {
             "en_US": "DingTalk",
             "pt_BR": "DingTalk",
@@ -958,7 +959,7 @@
         "category": "tool",
         "icon": "langgenius/packages/stability/_assets/icon.svg",
         "index_id": "langgenius___stability",
-        "install_count": 16922,
+        "install_count": 16940,
         "label": {
             "en_US": "Stability",
             "pt_BR": "Stability",
@@ -1002,7 +1003,7 @@
         "category": "tool",
         "icon": "langgenius/packages/chart/_assets/icon.png",
         "index_id": "langgenius___chart",
-        "install_count": 15316,
+        "install_count": 15343,
         "label": {
             "en_US": "ChartGenerator",
             "pt_BR": "Gerador de gráficos",
@@ -1052,7 +1053,7 @@
         "category": "tool",
         "icon": "langgenius/packages/yahoo/_assets/icon.png",
         "index_id": "langgenius___yahoo",
-        "install_count": 14845,
+        "install_count": 14877,
         "label": {
             "en_US": "YahooFinance",
             "pt_BR": "YahooFinance",
@@ -1098,7 +1099,7 @@
         "category": "tool",
         "icon": "langgenius/packages/vanna/_assets/icon.png",
         "index_id": "langgenius___vanna",
-        "install_count": 14043,
+        "install_count": 14051,
         "label": {
             "en_US": "Vanna.AI",
             "zh_Hans": "Vanna.AI"
@@ -1144,7 +1145,7 @@
         "category": "tool",
         "icon": "langgenius/packages/stablediffusion/_assets/icon.png",
         "index_id": "langgenius___stablediffusion",
-        "install_count": 13677,
+        "install_count": 13705,
         "label": {
             "en_US": "Stable Diffusion",
             "pt_BR": "Stable Diffusion",
@@ -1189,7 +1190,7 @@
         "category": "tool",
         "icon": "antv/packages/visualization/_assets/icon.svg",
         "index_id": "antv___visualization",
-        "install_count": 13169,
+        "install_count": 13204,
         "label": {
             "en_US": "AntV Visualization Chart",
             "ja_JP": "AntV Visualization Chart",
@@ -1229,7 +1230,7 @@
         "category": "tool",
         "icon": "kalochin/packages/pdf_process/_assets/icon.svg",
         "index_id": "kalochin___pdf_process",
-        "install_count": 12160,
+        "install_count": 12174,
         "label": {
             "en_US": "PDF Process",
             "zh_Hans": "PDF 处理"
@@ -1273,7 +1274,7 @@
         "category": "tool",
         "icon": "stvlynn/packages/ppt/_assets/icon.svg",
         "index_id": "stvlynn___ppt",
-        "install_count": 12023,
+        "install_count": 12042,
         "label": {
             "en_US": "PPT",
             "ja_JP": "PPT",
@@ -1313,7 +1314,7 @@
         "category": "tool",
         "icon": "langgenius/packages/perplexity/_assets/icon.svg",
         "index_id": "langgenius___perplexity",
-        "install_count": 11278,
+        "install_count": 11303,
         "label": {
             "en_US": "Perplexity",
             "zh_Hans": "Perplexity"
@@ -1357,7 +1358,7 @@
         "category": "tool",
         "icon": "jaguarliuu/packages/rookie_data_alchemy/_assets/analyze.svg",
         "index_id": "jaguarliuu___rookie_data_alchemy",
-        "install_count": 11007,
+        "install_count": 11029,
         "label": {
             "en_US": "rookie_data_alchemy",
             "ja_JP": "rookie_data_alchemy",
@@ -1399,7 +1400,7 @@
         "category": "tool",
         "icon": "yevanchen/packages/markitdown/_assets/micro.png",
         "index_id": "yevanchen___markitdown",
-        "install_count": 10885,
+        "install_count": 10922,
         "label": {
             "en_US": "markitdown",
             "ja_JP": "markitdown",
@@ -1443,7 +1444,7 @@
         "category": "tool",
         "icon": "seekerliu/packages/bocha/_assets/icon.svg",
         "index_id": "seekerliu___bocha",
-        "install_count": 10696,
+        "install_count": 10712,
         "label": {
             "en_US": "Bocha",
             "ja_JP": "Bocha",
@@ -1484,7 +1485,7 @@
         "category": "tool",
         "icon": "bowenliang123/packages/base64_codec/_assets/icon.png",
         "index_id": "bowenliang123___base64_codec",
-        "install_count": 9755,
+        "install_count": 9775,
         "label": {
             "en_US": "Base64",
             "zh_Hans": "Base64 编码解码"
@@ -1523,7 +1524,7 @@
         "category": "tool",
         "icon": "langgenius/packages/searchapi/_assets/icon.svg",
         "index_id": "langgenius___searchapi",
-        "install_count": 9360,
+        "install_count": 9368,
         "label": {
             "en_US": "SearchApi",
             "pt_BR": "SearchApi",
@@ -1577,7 +1578,7 @@
         "category": "tool",
         "icon": "jayfish0/packages/agentql/_assets/icon.svg",
         "index_id": "jayfish0___agentql",
-        "install_count": 9267,
+        "install_count": 9276,
         "label": {
             "en_US": "AgentQL",
             "zh_Hans": "AgentQL"
@@ -1615,7 +1616,7 @@
         "category": "tool",
         "icon": "junjiem/packages/knowledge_extractor/_assets/icon.svg",
         "index_id": "junjiem___knowledge_extractor",
-        "install_count": 8574,
+        "install_count": 8586,
         "label": {
             "en_US": "Knowledge Extractor",
             "zh_Hans": "知识提取器"
@@ -1653,7 +1654,7 @@
         "category": "tool",
         "icon": "langgenius/packages/arxiv/_assets/icon.svg",
         "index_id": "langgenius___arxiv",
-        "install_count": 8384,
+        "install_count": 8396,
         "label": {
             "en_US": "ArXiv",
             "zh_Hans": "ArXiv"
@@ -1695,7 +1696,7 @@
         "category": "tool",
         "icon": "langgenius/packages/email/_assets/icon.svg",
         "index_id": "langgenius___email",
-        "install_count": 8267,
+        "install_count": 8274,
         "label": {
             "en_US": "email",
             "zh_Hans": "电子邮件"
@@ -1736,7 +1737,7 @@
         "category": "tool",
         "icon": "langgenius/packages/spider/_assets/icon.svg",
         "index_id": "langgenius___spider",
-        "install_count": 7979,
+        "install_count": 7996,
         "label": {
             "en_US": "Spider"
         },
@@ -1781,7 +1782,7 @@
         "category": "tool",
         "icon": "cdnxy/packages/hellodb/_assets/icon.svg",
         "index_id": "cdnxy___hellodb",
-        "install_count": 7632,
+        "install_count": 7646,
         "label": {
             "en_US": "HelloDB",
             "ja_JP": "HelloDB",
@@ -1821,7 +1822,7 @@
         "category": "tool",
         "icon": "langgenius/packages/vectorizer/_assets/icon.png",
         "index_id": "langgenius___vectorizer",
-        "install_count": 7431,
+        "install_count": 7433,
         "label": {
             "en_US": "Vectorizer.AI",
             "zh_Hans": "Vectorizer.AI"
@@ -1866,7 +1867,7 @@
         "category": "tool",
         "icon": "junjiem/packages/db_query_pre_auth/_assets/icon.svg",
         "index_id": "junjiem___db_query_pre_auth",
-        "install_count": 7245,
+        "install_count": 7249,
         "label": {
             "en_US": "Database Query (Pre-authorization)",
             "zh_Hans": "数据库查询（预授权）"
@@ -1914,7 +1915,7 @@
         "category": "tool",
         "icon": "langgenius/packages/brave/_assets/icon.svg",
         "index_id": "langgenius___brave",
-        "install_count": 7115,
+        "install_count": 7124,
         "label": {
             "en_US": "Brave",
             "pt_BR": "Brave",
@@ -1957,7 +1958,7 @@
         "category": "tool",
         "icon": "inlei/packages/mistral_ocr/_assets/icon.svg",
         "index_id": "inlei___mistral_ocr",
-        "install_count": 7021,
+        "install_count": 7025,
         "label": {
             "en_US": "Mistral OCR",
             "zh_Hans": "Mistral OCR"
@@ -1999,7 +2000,7 @@
         "category": "tool",
         "icon": "arrenxxxxx/packages/mcp_config_during_use/_assets/icon.svg",
         "index_id": "arrenxxxxx___mcp_config_during_use",
-        "install_count": 7016,
+        "install_count": 7025,
         "label": {
             "en_US": "MCP Config During Use",
             "zh_Hans": "使用时配置的MCP工具"
@@ -2042,7 +2043,7 @@
         "category": "tool",
         "icon": "langgenius/packages/youtube/_assets/icon.svg",
         "index_id": "langgenius___youtube",
-        "install_count": 6819,
+        "install_count": 6834,
         "label": {
             "en_US": "YouTube",
             "pt_BR": "YouTube",
@@ -2087,7 +2088,7 @@
         "category": "tool",
         "icon": "textin/packages/pdf2markdown/_assets/icon.png",
         "index_id": "textin___pdf2markdown",
-        "install_count": 6750,
+        "install_count": 6763,
         "label": {
             "en_US": "pdf2markdown",
             "ja_JP": "pdf2markdown",
@@ -2129,7 +2130,7 @@
         "category": "tool",
         "icon": "shanjijian/packages/json_extractor/_assets/icon.svg",
         "index_id": "shanjijian___json_extractor",
-        "install_count": 6604,
+        "install_count": 6612,
         "label": {
             "en_US": "JSON Extractor",
             "ja_JP": "JSON エクストラクタ",
@@ -2169,7 +2170,7 @@
         "category": "tool",
         "icon": "majinkai/packages/database_to_knowledge/_assets/icon.svg",
         "index_id": "majinkai___database_to_knowledge",
-        "install_count": 6549,
+        "install_count": 6559,
         "label": {
             "en_US": "Database to knowledge",
             "zh_Hans": "表结构写入知识库"
@@ -2205,46 +2206,6 @@
     {
         "badges": [],
         "brief": {
-            "en_US": "Extract text from PDF files using GPT-4o's OCR capabilities and convert to well-formatted Markdown. Preserves document structure including headings, paragraphs, lists, and tables.",
-            "ja_JP": "GPT-4o の OCR 機能を使用して PDF ファイルからテキストを抽出し、整形された Markdown に変換します。見出し、段落、リスト、表などの文書構造を保持します。",
-            "zh_Hans": "使用 GPT-4o 的 OCR 功能从 PDF 文件中提取文本并转换为格式良好的 Markdown。保留文档结构，包括标题、段落、列表和表格。"
-        },
-        "category": "tool",
-        "icon": "kenwood/packages/gpt4o_ocr_pdf/_assets/icon.svg",
-        "index_id": "kenwood___gpt4o_ocr_pdf",
-        "install_count": 6438,
-        "label": {
-            "en_US": "GPT-4o PDF OCR to Markdown",
-            "ja_JP": "PDFからテキスト抽出とMarkdown変換",
-            "zh_Hans": "PDF文件OCR识别转Markdown格式"
-        },
-        "latest_package_identifier": "kenwood/gpt4o_ocr_pdf:0.0.2@5f114c73bd0ce4172e483c5e4b609df8b6fb5e1932244ba4e813dc8d1b209ab7",
-        "latest_version": "0.0.2",
-        "name": "gpt4o_ocr_pdf",
-        "org": "kenwood",
-        "plugin_id": "kenwood/gpt4o_ocr_pdf",
-        "plugins": {
-            "agent_strategies": null,
-            "endpoints": null,
-            "models": null,
-            "tools": [
-                "provider/gpt4o_ocr_pdf.yaml"
-            ]
-        },
-        "privacy_options": "",
-        "privacy_policy": "PRIVACY.md",
-        "repository": "",
-        "status": "active",
-        "tags": [],
-        "type": "plugin",
-        "verification": {
-            "authorized_category": "community"
-        },
-        "version_updated_at": "2025-05-12T04:24:24Z"
-    },
-    {
-        "badges": [],
-        "brief": {
             "en_US": "Autonavi Open Platform service toolkit.",
             "pt_BR": "Kit de ferramentas de serviço Autonavi Open Platform.",
             "zh_Hans": "高德开放平台服务工具包。"
@@ -2252,7 +2213,7 @@
         "category": "tool",
         "icon": "langgenius/packages/gaode/_assets/icon.svg",
         "index_id": "langgenius___gaode",
-        "install_count": 6427,
+        "install_count": 6444,
         "label": {
             "en_US": "Autonavi",
             "pt_BR": "Autonavi",
@@ -2298,6 +2259,46 @@
     {
         "badges": [],
         "brief": {
+            "en_US": "Extract text from PDF files using GPT-4o's OCR capabilities and convert to well-formatted Markdown. Preserves document structure including headings, paragraphs, lists, and tables.",
+            "ja_JP": "GPT-4o の OCR 機能を使用して PDF ファイルからテキストを抽出し、整形された Markdown に変換します。見出し、段落、リスト、表などの文書構造を保持します。",
+            "zh_Hans": "使用 GPT-4o 的 OCR 功能从 PDF 文件中提取文本并转换为格式良好的 Markdown。保留文档结构，包括标题、段落、列表和表格。"
+        },
+        "category": "tool",
+        "icon": "kenwood/packages/gpt4o_ocr_pdf/_assets/icon.svg",
+        "index_id": "kenwood___gpt4o_ocr_pdf",
+        "install_count": 6440,
+        "label": {
+            "en_US": "GPT-4o PDF OCR to Markdown",
+            "ja_JP": "PDFからテキスト抽出とMarkdown変換",
+            "zh_Hans": "PDF文件OCR识别转Markdown格式"
+        },
+        "latest_package_identifier": "kenwood/gpt4o_ocr_pdf:0.0.2@5f114c73bd0ce4172e483c5e4b609df8b6fb5e1932244ba4e813dc8d1b209ab7",
+        "latest_version": "0.0.2",
+        "name": "gpt4o_ocr_pdf",
+        "org": "kenwood",
+        "plugin_id": "kenwood/gpt4o_ocr_pdf",
+        "plugins": {
+            "agent_strategies": null,
+            "endpoints": null,
+            "models": null,
+            "tools": [
+                "provider/gpt4o_ocr_pdf.yaml"
+            ]
+        },
+        "privacy_options": "",
+        "privacy_policy": "PRIVACY.md",
+        "repository": "",
+        "status": "active",
+        "tags": [],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "community"
+        },
+        "version_updated_at": "2025-05-12T04:24:24Z"
+    },
+    {
+        "badges": [],
+        "brief": {
             "en_US": "an OCR recognition service tool that supports PDF, image, and other files",
             "pt_BR": "an OCR recognition service tool that supports PDF, image, and other files",
             "zh_Hans": "一种支持PDF、图片等文件的OCR识别服务工具"
@@ -2305,7 +2306,7 @@
         "category": "tool",
         "icon": "perfxlab/packages/ocr_tool/_assets/icon.svg",
         "index_id": "perfxlab___ocr_tool",
-        "install_count": 6245,
+        "install_count": 6250,
         "label": {
             "en_US": "OCR recognition service",
             "pt_BR": "OCR recognition service",
@@ -2344,7 +2345,7 @@
         "category": "tool",
         "icon": "langgenius/packages/feishu_document/_assets/icon.svg",
         "index_id": "langgenius___feishu_document",
-        "install_count": 6065,
+        "install_count": 6075,
         "label": {
             "en_US": "Feishu Cloud Document",
             "zh_Hans": "飞书云文档"
@@ -2389,7 +2390,7 @@
         "category": "tool",
         "icon": "spance/packages/db_client_node/_assets/icon.svg",
         "index_id": "spance___db_client_node",
-        "install_count": 6065,
+        "install_count": 6073,
         "label": {
             "en_US": "Database Client",
             "zh_Hans": "数据库操作客户端"
@@ -2431,7 +2432,7 @@
         "category": "tool",
         "icon": "yizixuan/packages/text_tools/_assets/icon.svg",
         "index_id": "yizixuan___text_tools",
-        "install_count": 5935,
+        "install_count": 5951,
         "label": {
             "en_US": "Text Tools",
             "zh_Hans": "文本处理"
@@ -2476,7 +2477,7 @@
         "category": "tool",
         "icon": "qiangxinglin/packages/excel_tools/_assets/icon.svg",
         "index_id": "qiangxinglin___excel_tools",
-        "install_count": 5924,
+        "install_count": 5948,
         "label": {
             "en_US": "Excel Tools",
             "zh_Hans": "Excel工具箱"
@@ -2514,7 +2515,7 @@
         "category": "tool",
         "icon": "langgenius/packages/feishu_base/_assets/icon.png",
         "index_id": "langgenius___feishu_base",
-        "install_count": 5889,
+        "install_count": 5900,
         "label": {
             "en_US": "Feishu Base",
             "zh_Hans": "飞书多维表格"
@@ -2559,7 +2560,7 @@
         "category": "tool",
         "icon": "baobaobao/packages/weather/_assets/icon.svg",
         "index_id": "baobaobao___weather",
-        "install_count": 5825,
+        "install_count": 5833,
         "label": {
             "en_US": "weather",
             "zh_Hans": "天气查询"
@@ -2599,7 +2600,7 @@
         "category": "tool",
         "icon": "witmeng/packages/ragflow-api/_assets/icon.svg",
         "index_id": "witmeng___ragflow-api",
-        "install_count": 5766,
+        "install_count": 5775,
         "label": {
             "en_US": "ragflow-api",
             "ja_JP": "ragflow-api",
@@ -2640,7 +2641,7 @@
         "category": "tool",
         "icon": "langgenius/packages/azuredalle/_assets/icon.png",
         "index_id": "langgenius___azuredalle",
-        "install_count": 5719,
+        "install_count": 5737,
         "label": {
             "en_US": "Azure DALL-E",
             "pt_BR": "Azure DALL-E",
@@ -2685,7 +2686,7 @@
         "category": "tool",
         "icon": "allenwriter/packages/doubao_image/_assets/icon.svg",
         "index_id": "allenwriter___doubao_image",
-        "install_count": 5202,
+        "install_count": 5214,
         "label": {
             "en_US": "Doubao Image and Video Generator"
         },
@@ -2728,7 +2729,7 @@
         "category": "tool",
         "icon": "langgenius/packages/fish_audio_tool/_assets/fishaudio.jpeg",
         "index_id": "langgenius___fish_audio_tool",
-        "install_count": 5130,
+        "install_count": 5142,
         "label": {
             "en_US": "Fish Audio Tool"
         },
@@ -2769,7 +2770,7 @@
         "category": "tool",
         "icon": "langgenius/packages/podcast_generator/_assets/icon.svg",
         "index_id": "langgenius___podcast_generator",
-        "install_count": 4895,
+        "install_count": 4903,
         "label": {
             "en_US": "Podcast Generator",
             "zh_Hans": "播客生成器"
@@ -2806,7 +2807,7 @@
         "category": "tool",
         "icon": "langgenius/packages/getimgai/_assets/icon.svg",
         "index_id": "langgenius___getimgai",
-        "install_count": 4846,
+        "install_count": 4853,
         "label": {
             "en_US": "getimg.ai"
         },
@@ -2847,7 +2848,7 @@
         "category": "tool",
         "icon": "langgenius/packages/devdocs/_assets/icon.svg",
         "index_id": "langgenius___devdocs",
-        "install_count": 4794,
+        "install_count": 4800,
         "label": {
             "en_US": "DevDocs",
             "zh_Hans": "DevDocs"
@@ -2894,7 +2895,7 @@
         "category": "tool",
         "icon": "stvlynn/packages/ffmpeg/_assets/icon.svg",
         "index_id": "stvlynn___ffmpeg",
-        "install_count": 4770,
+        "install_count": 4775,
         "label": {
             "en_US": "FFmpeg",
             "ja_JP": "FFmpeg",
@@ -2939,7 +2940,7 @@
         "category": "tool",
         "icon": "langgenius/packages/slack/_assets/icon.svg",
         "index_id": "langgenius___slack",
-        "install_count": 4710,
+        "install_count": 4718,
         "label": {
             "en_US": "Slack",
             "pt_BR": "Slack",
@@ -2985,7 +2986,7 @@
         "category": "tool",
         "icon": "langgenius/packages/feishu_spreadsheet/_assets/icon.png",
         "index_id": "langgenius___feishu_spreadsheet",
-        "install_count": 4636,
+        "install_count": 4641,
         "label": {
             "en_US": "Feishu Spreadsheet",
             "zh_Hans": "飞书电子表格"
@@ -3031,7 +3032,7 @@
         "category": "tool",
         "icon": "langgenius/packages/maths/_assets/icon.svg",
         "index_id": "langgenius___maths",
-        "install_count": 4588,
+        "install_count": 4591,
         "label": {
             "en_US": "Maths",
             "pt_BR": "Maths",
@@ -3079,7 +3080,7 @@
         "category": "tool",
         "icon": "yevanchen/packages/exa/_assets/exa.jpg",
         "index_id": "yevanchen___exa",
-        "install_count": 4546,
+        "install_count": 4559,
         "label": {
             "en_US": "exa",
             "ja_JP": "exa",
@@ -3126,7 +3127,7 @@
         "category": "tool",
         "icon": "kalochin/packages/think/_assets/icon.svg",
         "index_id": "kalochin___think",
-        "install_count": 4456,
+        "install_count": 4463,
         "label": {
             "en_US": "The \"Think\" Tool",
             "zh_Hans": "一个\"思考\"工具"
@@ -3165,7 +3166,7 @@
         "category": "tool",
         "icon": "langgenius/packages/serper/_assets/icon.svg",
         "index_id": "langgenius___serper",
-        "install_count": 4080,
+        "install_count": 4089,
         "label": {
             "en_US": "Serper",
             "pt_BR": "Serper",
@@ -3208,7 +3209,7 @@
         "category": "tool",
         "icon": "hjlarry/packages/playwright/_assets/icon.svg",
         "index_id": "hjlarry___playwright",
-        "install_count": 4046,
+        "install_count": 4049,
         "label": {
             "en_US": "playwright",
             "ja_JP": "playwright",
@@ -3248,7 +3249,7 @@
         "category": "tool",
         "icon": "agimaster/packages/crawl4ai/_assets/icon.svg",
         "index_id": "agimaster___crawl4ai",
-        "install_count": 4039,
+        "install_count": 4047,
         "label": {
             "en_US": "Crawl4AI",
             "zh_Hans": "Crawl4AI"
@@ -3294,7 +3295,7 @@
         "category": "tool",
         "icon": "watercrawl/packages/watercrawl/_assets/icon.svg",
         "index_id": "watercrawl___watercrawl",
-        "install_count": 3983,
+        "install_count": 3994,
         "label": {
             "en_US": "WaterCrawl",
             "ja_JP": "WaterCrawl",
@@ -3341,7 +3342,7 @@
         "category": "tool",
         "icon": "langgenius/packages/wolframalpha/_assets/icon.svg",
         "index_id": "langgenius___wolframalpha",
-        "install_count": 3971,
+        "install_count": 3977,
         "label": {
             "en_US": "WolframAlpha",
             "pt_BR": "WolframAlpha",
@@ -3389,7 +3390,7 @@
         "category": "tool",
         "icon": "stvlynn/packages/ssh/_assets/icon.svg",
         "index_id": "stvlynn___ssh",
-        "install_count": 3732,
+        "install_count": 3735,
         "label": {
             "en_US": "SSH Command Execution",
             "ja_JP": "SSHコマンド実行",
@@ -3430,7 +3431,7 @@
         "category": "tool",
         "icon": "langgenius/packages/qrcode/_assets/icon.svg",
         "index_id": "langgenius___qrcode",
-        "install_count": 3680,
+        "install_count": 3685,
         "label": {
             "en_US": "QRCode",
             "pt_BR": "QRCode",
@@ -3473,7 +3474,7 @@
         "category": "tool",
         "icon": "joto/packages/datafocus/_assets/icon.svg",
         "index_id": "joto___datafocus",
-        "install_count": 3567,
+        "install_count": 3570,
         "label": {
             "en_US": "DataFocus",
             "zh_Hans": "DataFocus"
@@ -3555,7 +3556,7 @@
         "category": "tool",
         "icon": "jaguarliuu/packages/rookie_rss/_assets/rss.svg",
         "index_id": "jaguarliuu___rookie_rss",
-        "install_count": 3282,
+        "install_count": 3285,
         "label": {
             "en_US": "rookie_rss",
             "ja_JP": "rookie_rss",
@@ -3595,7 +3596,7 @@
         "category": "tool",
         "icon": "langgenius/packages/openai_tool/_assets/icon.png",
         "index_id": "langgenius___openai_tool",
-        "install_count": 3219,
+        "install_count": 3229,
         "label": {
             "en_US": "OpenAI",
             "zh_Hans": "OpenAI"
@@ -3634,6 +3635,48 @@
     {
         "badges": [],
         "brief": {
+            "en_US": "Remove the markdown syntax",
+            "ja_JP": "マークダウン構文を削除",
+            "pt_BR": "Remover a sintaxe markdown",
+            "zh_Hans": "移除Markdown语法"
+        },
+        "category": "tool",
+        "icon": "himicoswilson/packages/no_markdown/_assets/icon.svg",
+        "index_id": "himicoswilson___no_markdown",
+        "install_count": 3216,
+        "label": {
+            "en_US": "No Markdown",
+            "ja_JP": "マークダウンを削除",
+            "pt_BR": "Remover Markdown",
+            "zh_Hans": "移除Markdown"
+        },
+        "latest_package_identifier": "himicoswilson/no_markdown:0.0.1@5245fb09251becaa3e817be0d394c5619385e8ecba12dc948b51aca68f45955a",
+        "latest_version": "0.0.1",
+        "name": "no_markdown",
+        "org": "himicoswilson",
+        "plugin_id": "himicoswilson/no_markdown",
+        "plugins": {
+            "agent_strategies": null,
+            "endpoints": null,
+            "models": null,
+            "tools": [
+                "provider/no_markdown.yaml"
+            ]
+        },
+        "privacy_options": "",
+        "privacy_policy": "PRIVACY.md",
+        "repository": "",
+        "status": "active",
+        "tags": [],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "community"
+        },
+        "version_updated_at": "2025-03-04T15:01:15Z"
+    },
+    {
+        "badges": [],
+        "brief": {
             "en_US": "Innovative AI for Image Generation",
             "pt_BR": "Innovative AI for Image Generation",
             "zh_Hans": "用于图像生成的创新人工智能。"
@@ -3641,7 +3684,7 @@
         "category": "tool",
         "icon": "langgenius/packages/novitaai/_assets/icon.ico",
         "index_id": "langgenius___novitaai",
-        "install_count": 3211,
+        "install_count": 3213,
         "label": {
             "en_US": "Novita AI",
             "pt_BR": "Novita AI",
@@ -3681,55 +3724,13 @@
     {
         "badges": [],
         "brief": {
-            "en_US": "Remove the markdown syntax",
-            "ja_JP": "マークダウン構文を削除",
-            "pt_BR": "Remover a sintaxe markdown",
-            "zh_Hans": "移除Markdown语法"
-        },
-        "category": "tool",
-        "icon": "himicoswilson/packages/no_markdown/_assets/icon.svg",
-        "index_id": "himicoswilson___no_markdown",
-        "install_count": 3210,
-        "label": {
-            "en_US": "No Markdown",
-            "ja_JP": "マークダウンを削除",
-            "pt_BR": "Remover Markdown",
-            "zh_Hans": "移除Markdown"
-        },
-        "latest_package_identifier": "himicoswilson/no_markdown:0.0.1@5245fb09251becaa3e817be0d394c5619385e8ecba12dc948b51aca68f45955a",
-        "latest_version": "0.0.1",
-        "name": "no_markdown",
-        "org": "himicoswilson",
-        "plugin_id": "himicoswilson/no_markdown",
-        "plugins": {
-            "agent_strategies": null,
-            "endpoints": null,
-            "models": null,
-            "tools": [
-                "provider/no_markdown.yaml"
-            ]
-        },
-        "privacy_options": "",
-        "privacy_policy": "PRIVACY.md",
-        "repository": "",
-        "status": "active",
-        "tags": [],
-        "type": "plugin",
-        "verification": {
-            "authorized_category": "community"
-        },
-        "version_updated_at": "2025-03-04T15:01:15Z"
-    },
-    {
-        "badges": [],
-        "brief": {
             "en_US": "a key-value storage tool allow you save and get data across different apps.",
             "zh_Hans": "一个键值存储工具,允许你在不同的应用之间保存和获取数据。"
         },
         "category": "tool",
         "icon": "hjlarry/packages/storage/_assets/icon.svg",
         "index_id": "hjlarry___storage",
-        "install_count": 3194,
+        "install_count": 3196,
         "label": {
             "en_US": "Storage",
             "zh_Hans": "存储"
@@ -3770,7 +3771,7 @@
         "category": "tool",
         "icon": "langgenius/packages/openweather/_assets/icon.svg",
         "index_id": "langgenius___openweather",
-        "install_count": 3150,
+        "install_count": 3157,
         "label": {
             "en_US": "Open weather query",
             "pt_BR": "Consulta de clima open weather",
@@ -3815,7 +3816,7 @@
         "category": "tool",
         "icon": "langgenius/packages/notion/_assets/icon.svg",
         "index_id": "langgenius___notion",
-        "install_count": 3114,
+        "install_count": 3122,
         "label": {
             "en_US": "Notion",
             "ja_JP": "Notion",
@@ -3867,7 +3868,7 @@
         "category": "tool",
         "icon": "caffbyte/packages/imagetool/_assets/icon.svg",
         "index_id": "caffbyte___imagetool",
-        "install_count": 3038,
+        "install_count": 3042,
         "label": {
             "en_US": "Image tool",
             "ja_JP": "Image tool",
@@ -3908,7 +3909,7 @@
         "category": "tool",
         "icon": "langgenius/packages/discord/_assets/icon.svg",
         "index_id": "langgenius___discord",
-        "install_count": 2991,
+        "install_count": 2998,
         "label": {
             "en_US": "Discord",
             "pt_BR": "Discord",
@@ -3956,7 +3957,7 @@
         "category": "tool",
         "icon": "quicksandzn/packages/elasticsearch/_assets/icon.svg",
         "index_id": "quicksandzn___elasticsearch",
-        "install_count": 2949,
+        "install_count": 2960,
         "label": {
             "en_US": "Elasticsearch",
             "ja_JP": "Elasticsearch",
@@ -3997,7 +3998,7 @@
         "category": "tool",
         "icon": "langgenius/packages/feishu/_assets/icon.svg",
         "index_id": "langgenius___feishu",
-        "install_count": 2762,
+        "install_count": 2768,
         "label": {
             "en_US": "Feishu",
             "pt_BR": "Feishu",
@@ -4044,7 +4045,7 @@
         "category": "tool",
         "icon": "langgenius/packages/spark/_assets/icon.svg",
         "index_id": "langgenius___spark",
-        "install_count": 2757,
+        "install_count": 2760,
         "label": {
             "en_US": "Spark",
             "pt_BR": "Spark",
@@ -4123,44 +4124,6 @@
     {
         "badges": [],
         "brief": {
-            "en_US": "GitLab plugin, API v4 only.",
-            "zh_Hans": "用于获取GitLab内容的插件，目前仅支持 API v4。"
-        },
-        "category": "tool",
-        "icon": "langgenius/packages/gitlab/_assets/gitlab.svg",
-        "index_id": "langgenius___gitlab",
-        "install_count": 2578,
-        "label": {
-            "en_US": "GitLab",
-            "zh_Hans": "GitLab"
-        },
-        "latest_package_identifier": "langgenius/gitlab:0.0.6@6ea34d9a8b32fea6d6da59ebc1e4233561ce28464754a5124ea7e0582e350182",
-        "latest_version": "0.0.6",
-        "name": "gitlab",
-        "org": "langgenius",
-        "plugin_id": "langgenius/gitlab",
-        "plugins": {
-            "agent_strategies": null,
-            "endpoints": null,
-            "models": null,
-            "tools": [
-                "provider/gitlab.yaml"
-            ]
-        },
-        "privacy_options": "",
-        "privacy_policy": "",
-        "repository": "",
-        "status": "active",
-        "tags": [],
-        "type": "plugin",
-        "verification": {
-            "authorized_category": "langgenius"
-        },
-        "version_updated_at": "2025-09-01T02:17:26Z"
-    },
-    {
-        "badges": [],
-        "brief": {
             "en_US": "Redis tools plugin for Dify, provide Redis SET and GET functions, Redis Cluster mode is supported too.",
             "ja_JP": "Redis tools plugin for Dify, provide Redis SET and GET functions, Redis Cluster mode is supported too.",
             "pt_BR": "Redis tools plugin for Dify, provide Redis SET and GET functions, Redis Cluster mode is supported too.",
@@ -4169,7 +4132,7 @@
         "category": "tool",
         "icon": "eft/packages/redis/_assets/icon.svg",
         "index_id": "eft___redis",
-        "install_count": 2578,
+        "install_count": 2588,
         "label": {
             "en_US": "Redis",
             "ja_JP": "Redis",
@@ -4203,13 +4166,51 @@
     {
         "badges": [],
         "brief": {
+            "en_US": "GitLab plugin, API v4 only.",
+            "zh_Hans": "用于获取GitLab内容的插件，目前仅支持 API v4。"
+        },
+        "category": "tool",
+        "icon": "langgenius/packages/gitlab/_assets/gitlab.svg",
+        "index_id": "langgenius___gitlab",
+        "install_count": 2584,
+        "label": {
+            "en_US": "GitLab",
+            "zh_Hans": "GitLab"
+        },
+        "latest_package_identifier": "langgenius/gitlab:0.0.6@6ea34d9a8b32fea6d6da59ebc1e4233561ce28464754a5124ea7e0582e350182",
+        "latest_version": "0.0.6",
+        "name": "gitlab",
+        "org": "langgenius",
+        "plugin_id": "langgenius/gitlab",
+        "plugins": {
+            "agent_strategies": null,
+            "endpoints": null,
+            "models": null,
+            "tools": [
+                "provider/gitlab.yaml"
+            ]
+        },
+        "privacy_options": "",
+        "privacy_policy": "",
+        "repository": "",
+        "status": "active",
+        "tags": [],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "langgenius"
+        },
+        "version_updated_at": "2025-09-01T02:17:26Z"
+    },
+    {
+        "badges": [],
+        "brief": {
             "en_US": "Translate text using Google",
             "zh_Hans": "使用 Google 进行翻译"
         },
         "category": "tool",
         "icon": "langgenius/packages/google_translate/_assets/icon.svg",
         "index_id": "langgenius___google_translate",
-        "install_count": 2525,
+        "install_count": 2528,
         "label": {
             "en_US": "Google Translate",
             "zh_Hans": "谷歌翻译"
@@ -4251,7 +4252,7 @@
         "category": "tool",
         "icon": "agimaster/packages/justwait/_assets/icon.svg",
         "index_id": "agimaster___justwait",
-        "install_count": 2468,
+        "install_count": 2469,
         "label": {
             "en_US": "Just Wait",
             "zh_Hans": "Just Wait"
@@ -4298,7 +4299,7 @@
         "category": "tool",
         "icon": "alterxyz/packages/data_function_conversation_memory/_assets/book-solid.svg",
         "index_id": "alterxyz___data_function_conversation_memory",
-        "install_count": 2466,
+        "install_count": 2467,
         "label": {
             "en_US": "Conversational Memory",
             "ja_JP": "会話メモリ",
@@ -4338,7 +4339,7 @@
         "category": "tool",
         "icon": "langgenius/packages/feishu_wiki/_assets/icon.png",
         "index_id": "langgenius___feishu_wiki",
-        "install_count": 2319,
+        "install_count": 2322,
         "label": {
             "en_US": "Feishu Wiki",
             "zh_Hans": "飞书知识库"
@@ -4385,7 +4386,7 @@
         "category": "tool",
         "icon": "opsworld30/packages/lark_notify/_assets/icon.svg",
         "index_id": "opsworld30___lark_notify",
-        "install_count": 2317,
+        "install_count": 2318,
         "label": {
             "en_US": "Lark Group Bot",
             "ja_JP": "Lark グループボット",
@@ -4426,7 +4427,7 @@
         "category": "tool",
         "icon": "liujicheng/packages/aliyun_tool/_assets/icon.png",
         "index_id": "liujicheng___aliyun_tool",
-        "install_count": 2298,
+        "install_count": 2299,
         "label": {
             "en_US": "AliYun Tool",
             "pt_BR": "AliYun Tool",
@@ -4459,6 +4460,45 @@
             "authorized_category": "community"
         },
         "version_updated_at": "2025-04-09T13:57:47Z"
+    },
+    {
+        "badges": [],
+        "brief": {
+            "en_US": "A collection of various tools for handling file object.",
+            "ja_JP": "ファイルオブジェクトを扱うためのさまざまなツールのコレクション。",
+            "pt_BR": "Uma coleção de várias ferramentas para manipular objetos de arquivo.",
+            "zh_Hans": "用于处理文件对象的各种工具集合。"
+        },
+        "category": "tool",
+        "icon": "kurokobo/packages/file_tools/_assets/icon.svg",
+        "index_id": "kurokobo___file_tools",
+        "install_count": 2298,
+        "label": {
+            "en_US": "File Tools"
+        },
+        "latest_package_identifier": "kurokobo/file_tools:0.0.1@80ebd65bff99ec656a144255b7e4e88a998d4b0e869b543fb93aa064b1d76019",
+        "latest_version": "0.0.1",
+        "name": "file_tools",
+        "org": "kurokobo",
+        "plugin_id": "kurokobo/file_tools",
+        "plugins": {
+            "agent_strategies": null,
+            "endpoints": null,
+            "models": null,
+            "tools": [
+                "provider/file_tools.yaml"
+            ]
+        },
+        "privacy_options": "",
+        "privacy_policy": "PRIVACY.md",
+        "repository": "https://github.com/kurokobo/dify-plugin-collection",
+        "status": "active",
+        "tags": [],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "community"
+        },
+        "version_updated_at": "2025-07-09T06:48:55Z"
     },
     {
         "badges": [],
@@ -4501,52 +4541,13 @@
     {
         "badges": [],
         "brief": {
-            "en_US": "A collection of various tools for handling file object.",
-            "ja_JP": "ファイルオブジェクトを扱うためのさまざまなツールのコレクション。",
-            "pt_BR": "Uma coleção de várias ferramentas para manipular objetos de arquivo.",
-            "zh_Hans": "用于处理文件对象的各种工具集合。"
-        },
-        "category": "tool",
-        "icon": "kurokobo/packages/file_tools/_assets/icon.svg",
-        "index_id": "kurokobo___file_tools",
-        "install_count": 2291,
-        "label": {
-            "en_US": "File Tools"
-        },
-        "latest_package_identifier": "kurokobo/file_tools:0.0.1@80ebd65bff99ec656a144255b7e4e88a998d4b0e869b543fb93aa064b1d76019",
-        "latest_version": "0.0.1",
-        "name": "file_tools",
-        "org": "kurokobo",
-        "plugin_id": "kurokobo/file_tools",
-        "plugins": {
-            "agent_strategies": null,
-            "endpoints": null,
-            "models": null,
-            "tools": [
-                "provider/file_tools.yaml"
-            ]
-        },
-        "privacy_options": "",
-        "privacy_policy": "PRIVACY.md",
-        "repository": "https://github.com/kurokobo/dify-plugin-collection",
-        "status": "active",
-        "tags": [],
-        "type": "plugin",
-        "verification": {
-            "authorized_category": "community"
-        },
-        "version_updated_at": "2025-07-09T06:48:55Z"
-    },
-    {
-        "badges": [],
-        "brief": {
             "en_US": "Feishu message, requires the following permissions: im:message、im:message.group_msg.\n",
             "zh_Hans": "飞书消息，需要开通以下权限: im:message、im:message.group_msg。\n"
         },
         "category": "tool",
         "icon": "langgenius/packages/feishu_message/_assets/icon.svg",
         "index_id": "langgenius___feishu_message",
-        "install_count": 2252,
+        "install_count": 2253,
         "label": {
             "en_US": "Feishu Message",
             "zh_Hans": "飞书消息"
@@ -4593,7 +4594,7 @@
         "category": "tool",
         "icon": "jaguarliuu/packages/rookie_prompt_art/_assets/art.svg",
         "index_id": "jaguarliuu___rookie_prompt_art",
-        "install_count": 2238,
+        "install_count": 2241,
         "label": {
             "en_US": "Prompt Art",
             "ja_JP": "プロンプトアート",
@@ -4633,7 +4634,7 @@
         "category": "tool",
         "icon": "langgenius/packages/zhipuai_tool/_assets/icon_s_en.svg",
         "index_id": "langgenius___zhipuai_tool",
-        "install_count": 2166,
+        "install_count": 2168,
         "label": {
             "en_US": "ZhipuAI",
             "pt_BR": "ZhipuAI",
@@ -4681,7 +4682,7 @@
         "category": "tool",
         "icon": "qjzt_cn/packages/sql-db/_assets/icon.svg",
         "index_id": "qjzt_cn___sql-db",
-        "install_count": 2161,
+        "install_count": 2167,
         "label": {
             "en_US": "sql-db",
             "ja_JP": "sql-db",
@@ -4721,7 +4722,7 @@
         "category": "tool",
         "icon": "hjlarry/packages/markdown-editor/_assets/icon.svg",
         "index_id": "hjlarry___markdown-editor",
-        "install_count": 2098,
+        "install_count": 2102,
         "label": {
             "en_US": "Markdown Editor",
             "zh_Hans": "markdown编辑器"
@@ -4763,7 +4764,7 @@
         "category": "tool",
         "icon": "omluc/packages/google_sheets/_assets/icon.svg",
         "index_id": "omluc___google_sheets",
-        "install_count": 2044,
+        "install_count": 2049,
         "label": {
             "en_US": "google_sheets",
             "ja_JP": "google_sheets",
@@ -4805,7 +4806,7 @@
         "category": "tool",
         "icon": "wjdsg/packages/163-smtp-send-mail/_assets/icon.svg",
         "index_id": "wjdsg___163-smtp-send-mail",
-        "install_count": 2043,
+        "install_count": 2048,
         "label": {
             "en_US": "163 SMTP Mail Sender",
             "ja_JP": "163 SMTPメール送信者エラー",
@@ -4847,7 +4848,7 @@
         "category": "tool",
         "icon": "migege/packages/markdown2html/_assets/icon.svg",
         "index_id": "migege___markdown2html",
-        "install_count": 2012,
+        "install_count": 2015,
         "label": {
             "en_US": "markdown2html",
             "ja_JP": "markdown2html",
@@ -4889,7 +4890,7 @@
         "category": "tool",
         "icon": "yevanchen/packages/mem0/_assets/mem0.png",
         "index_id": "yevanchen___mem0",
-        "install_count": 1862,
+        "install_count": 1866,
         "label": {
             "en_US": "mem0",
             "ja_JP": "mem0",
@@ -4931,7 +4932,7 @@
         "category": "tool",
         "icon": "langgenius/packages/confluence/_assets/icon.svg",
         "index_id": "langgenius___confluence",
-        "install_count": 1849,
+        "install_count": 1856,
         "label": {
             "en_US": "Confluence",
             "ja_JP": "Confluence",
@@ -4971,7 +4972,7 @@
         "category": "tool",
         "icon": "nacos/packages/nacos_mcp/_assets/icon.jpg",
         "index_id": "nacos___nacos_mcp",
-        "install_count": 1831,
+        "install_count": 1834,
         "label": {
             "en_US": "Nacos MCP",
             "zh_Hans": "Nacos MCP"
@@ -5056,7 +5057,7 @@
         "category": "tool",
         "icon": "langgenius/packages/tianditu/_assets/icon.svg",
         "index_id": "langgenius___tianditu",
-        "install_count": 1779,
+        "install_count": 1781,
         "label": {
             "en_US": "Tianditu",
             "pt_BR": "Tianditu",
@@ -5102,7 +5103,7 @@
         "category": "tool",
         "icon": "langgenius/packages/pubmed/_assets/icon.svg",
         "index_id": "langgenius___pubmed",
-        "install_count": 1773,
+        "install_count": 1774,
         "label": {
             "en_US": "PubMed",
             "zh_Hans": "PubMed"
@@ -5149,7 +5150,7 @@
         "category": "tool",
         "icon": "zzm_t/packages/edge_tts/_assets/icon.svg",
         "index_id": "zzm_t___edge_tts",
-        "install_count": 1750,
+        "install_count": 1753,
         "label": {
             "en_US": "edge_tts",
             "ja_JP": "edge_tts",
@@ -5239,7 +5240,7 @@
         "category": "tool",
         "icon": "langgenius/packages/alphavantage/_assets/icon.svg",
         "index_id": "langgenius___alphavantage",
-        "install_count": 1745,
+        "install_count": 1746,
         "label": {
             "en_US": "AlphaVantage",
             "pt_BR": "AlphaVantage",
@@ -5284,7 +5285,7 @@
         "category": "tool",
         "icon": "hjlarry/packages/knowledge/_assets/icon.svg",
         "index_id": "hjlarry___knowledge",
-        "install_count": 1735,
+        "install_count": 1738,
         "label": {
             "en_US": "knowledge",
             "ja_JP": "knowledge",
@@ -5325,7 +5326,7 @@
         "category": "tool",
         "icon": "stvlynn/packages/sftp/_assets/icon.png",
         "index_id": "stvlynn___sftp",
-        "install_count": 1715,
+        "install_count": 1718,
         "label": {
             "en_US": "SFTP Client",
             "ja_JP": "SFTP クライアント",
@@ -5366,7 +5367,7 @@
         "category": "tool",
         "icon": "biow/packages/baidu-ocr/_assets/baidu_logo.jpeg",
         "index_id": "biow___baidu-ocr",
-        "install_count": 1708,
+        "install_count": 1710,
         "label": {
             "en_US": "Baidu OCR",
             "ja_JP": "Baidu OCR文字認識",
@@ -5410,7 +5411,7 @@
         "category": "tool",
         "icon": "dupdub-dify/packages/dupdub/_assets/icon.svg",
         "index_id": "dupdub-dify___dupdub",
-        "install_count": 1642,
+        "install_count": 1645,
         "label": {
             "en_US": "DupDub",
             "ja_JP": "DupDub",
@@ -5450,7 +5451,7 @@
         "category": "tool",
         "icon": "langgenius/packages/transcript/_assets/icon.svg",
         "index_id": "langgenius___transcript",
-        "install_count": 1642,
+        "install_count": 1644,
         "label": {
             "en_US": "Transcript",
             "zh_Hans": "Transcript"
@@ -5492,7 +5493,7 @@
         "category": "tool",
         "icon": "leslie2046/packages/juhe/_assets/icon.svg",
         "index_id": "leslie2046___juhe",
-        "install_count": 1639,
+        "install_count": 1641,
         "label": {
             "en_US": "Juhe Data",
             "zh_Hans": "聚合数据"
@@ -5520,6 +5521,48 @@
             "authorized_category": "community"
         },
         "version_updated_at": "2025-06-18T09:10:28Z"
+    },
+    {
+        "badges": [],
+        "brief": {
+            "en_US": "Google Drive",
+            "ja_JP": "Google Drive",
+            "pt_BR": "Google Drive",
+            "zh_Hans": "Google Drive"
+        },
+        "category": "tool",
+        "icon": "yoshiki-0428/packages/google_drive/_assets/icon.svg",
+        "index_id": "yoshiki-0428___google_drive",
+        "install_count": 1635,
+        "label": {
+            "en_US": "google_drive",
+            "ja_JP": "google_drive",
+            "pt_BR": "google_drive",
+            "zh_Hans": "google_drive"
+        },
+        "latest_package_identifier": "yoshiki-0428/google_drive:0.1.0@3be894ee7a15878c2c00c3728f901d8d63c56b901b7494c5a2a8fc0649566d52",
+        "latest_version": "0.1.0",
+        "name": "google_drive",
+        "org": "yoshiki-0428",
+        "plugin_id": "yoshiki-0428/google_drive",
+        "plugins": {
+            "agent_strategies": null,
+            "endpoints": null,
+            "models": null,
+            "tools": [
+                "provider/google_drive.yaml"
+            ]
+        },
+        "privacy_options": "",
+        "privacy_policy": "PRIVACY.md",
+        "repository": "",
+        "status": "active",
+        "tags": [],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "community"
+        },
+        "version_updated_at": "2025-07-01T14:53:38Z"
     },
     {
         "badges": [],
@@ -5566,48 +5609,6 @@
     {
         "badges": [],
         "brief": {
-            "en_US": "Google Drive",
-            "ja_JP": "Google Drive",
-            "pt_BR": "Google Drive",
-            "zh_Hans": "Google Drive"
-        },
-        "category": "tool",
-        "icon": "yoshiki-0428/packages/google_drive/_assets/icon.svg",
-        "index_id": "yoshiki-0428___google_drive",
-        "install_count": 1630,
-        "label": {
-            "en_US": "google_drive",
-            "ja_JP": "google_drive",
-            "pt_BR": "google_drive",
-            "zh_Hans": "google_drive"
-        },
-        "latest_package_identifier": "yoshiki-0428/google_drive:0.1.0@3be894ee7a15878c2c00c3728f901d8d63c56b901b7494c5a2a8fc0649566d52",
-        "latest_version": "0.1.0",
-        "name": "google_drive",
-        "org": "yoshiki-0428",
-        "plugin_id": "yoshiki-0428/google_drive",
-        "plugins": {
-            "agent_strategies": null,
-            "endpoints": null,
-            "models": null,
-            "tools": [
-                "provider/google_drive.yaml"
-            ]
-        },
-        "privacy_options": "",
-        "privacy_policy": "PRIVACY.md",
-        "repository": "",
-        "status": "active",
-        "tags": [],
-        "type": "plugin",
-        "verification": {
-            "authorized_category": "community"
-        },
-        "version_updated_at": "2025-07-01T14:53:38Z"
-    },
-    {
-        "badges": [],
-        "brief": {
             "en_US": "Get RSS feeds from RSSHub, a flexible and extensible RSS feed aggregator",
             "ja_JP": "RSSHubからRSSフィードを取得する",
             "zh_Hans": "从RSSHub获取RSS订阅源，RSSHub是一个灵活可扩展的RSS聚合器"
@@ -5615,7 +5616,7 @@
         "category": "tool",
         "icon": "stvlynn/packages/rsshub/_assets/icon.svg",
         "index_id": "stvlynn___rsshub",
-        "install_count": 1611,
+        "install_count": 1612,
         "label": {
             "en_US": "RSSHub",
             "ja_JP": "RSSHub",
@@ -5654,7 +5655,7 @@
         "category": "tool",
         "icon": "langgenius/packages/baidu_translate/_assets/icon.png",
         "index_id": "langgenius___baidu_translate",
-        "install_count": 1591,
+        "install_count": 1595,
         "label": {
             "en_US": "Baidu Translate",
             "zh_Hans": "百度翻译"
@@ -5698,7 +5699,7 @@
         "category": "tool",
         "icon": "hjlarry/packages/mermaid_converter/_assets/icon.svg",
         "index_id": "hjlarry___mermaid_converter",
-        "install_count": 1576,
+        "install_count": 1581,
         "label": {
             "en_US": "Mermaid Converter",
             "ja_JP": "Mermaid Converter",
@@ -5740,7 +5741,7 @@
         "category": "tool",
         "icon": "lework/packages/prometheus/_assets/icon.svg",
         "index_id": "lework___prometheus",
-        "install_count": 1559,
+        "install_count": 1563,
         "label": {
             "en_US": "Prometheus Query",
             "ja_JP": "Prometheus クエリ",
@@ -5824,7 +5825,7 @@
         "category": "tool",
         "icon": "langgenius/packages/jira/_assets/icon.svg",
         "index_id": "langgenius___jira",
-        "install_count": 1534,
+        "install_count": 1537,
         "label": {
             "en_US": "Jira",
             "ja_JP": "Jira",
@@ -5866,7 +5867,7 @@
         "category": "tool",
         "icon": "aias00/packages/minio/_assets/minio.svg",
         "index_id": "aias00___minio",
-        "install_count": 1525,
+        "install_count": 1528,
         "label": {
             "en_US": "minio",
             "ja_JP": "minio",
@@ -5907,7 +5908,7 @@
         "category": "tool",
         "icon": "langgenius/packages/websearch/_assets/icon.svg",
         "index_id": "langgenius___websearch",
-        "install_count": 1492,
+        "install_count": 1493,
         "label": {
             "en_US": "Serply.io",
             "pt_BR": "Serply.io",
@@ -5961,7 +5962,7 @@
         "category": "tool",
         "icon": "joto/packages/schemarag/_assets/logo.jpg",
         "index_id": "joto___schemarag",
-        "install_count": 1413,
+        "install_count": 1424,
         "label": {
             "en_US": "DB Schema RAG",
             "ja_JP": "DB Schema RAG",
@@ -6003,7 +6004,7 @@
         "category": "tool",
         "icon": "lysonober/packages/browser-use-cloud/_assets/icon.svg",
         "index_id": "lysonober___browser-use-cloud",
-        "install_count": 1312,
+        "install_count": 1314,
         "label": {
             "en_US": "browser-use-cloud",
             "ja_JP": "browser-use-cloud",
@@ -6044,7 +6045,7 @@
         "category": "tool",
         "icon": "acane0320/packages/memobase/_assets/memobase.svg",
         "index_id": "acane0320___memobase",
-        "install_count": 1311,
+        "install_count": 1313,
         "label": {
             "en_US": "memobase",
             "pt_BR": "memobase",
@@ -6085,7 +6086,7 @@
         "category": "tool",
         "icon": "lysonober/packages/openai_audio/_assets/icon.svg",
         "index_id": "lysonober___openai_audio",
-        "install_count": 1265,
+        "install_count": 1268,
         "label": {
             "en_US": "openai_audio",
             "ja_JP": "openai_audio",
@@ -6127,7 +6128,7 @@
         "category": "tool",
         "icon": "jingfelix/packages/sandboxfusion/_assets/icon.png",
         "index_id": "jingfelix___sandboxfusion",
-        "install_count": 1261,
+        "install_count": 1262,
         "label": {
             "en_US": "Sandbox Fusion",
             "ja_JP": "Sandbox Fusion",
@@ -6214,7 +6215,7 @@
         "category": "tool",
         "icon": "langgenius/packages/hap/_assets/icon.svg",
         "index_id": "langgenius___hap",
-        "install_count": 1232,
+        "install_count": 1243,
         "label": {
             "en_US": "HAP Application Tool",
             "zh_Hans": "HAP 应用工具"
@@ -6258,7 +6259,7 @@
         "category": "tool",
         "icon": "langgenius/packages/sqlite/_assets/icon.svg",
         "index_id": "langgenius___sqlite",
-        "install_count": 1214,
+        "install_count": 1220,
         "label": {
             "en_US": "SQLite",
             "ja_JP": "SQLite",
@@ -6300,7 +6301,7 @@
         "category": "tool",
         "icon": "dendy/packages/nlp_time_trans/_assets/ddicon.png",
         "index_id": "dendy___nlp_time_trans",
-        "install_count": 1211,
+        "install_count": 1213,
         "label": {
             "en_US": "nlp_time_trans",
             "ja_JP": "nlp_time_trans",
@@ -6380,7 +6381,7 @@
         "category": "tool",
         "icon": "pragnyan_ramtha/packages/deep_research/_assets/icon.svg",
         "index_id": "pragnyan_ramtha___deep_research",
-        "install_count": 1183,
+        "install_count": 1185,
         "label": {
             "en_US": "Deep Research"
         },
@@ -6422,7 +6423,7 @@
         "category": "tool",
         "icon": "langgenius/packages/aliyuque/_assets/icon.svg",
         "index_id": "langgenius___aliyuque",
-        "install_count": 1167,
+        "install_count": 1169,
         "label": {
             "en_US": "yuque",
             "pt_BR": "yuque",
@@ -6508,7 +6509,7 @@
         "category": "tool",
         "icon": "langgenius/packages/outlook/_assets/icon.svg",
         "index_id": "langgenius___outlook",
-        "install_count": 1126,
+        "install_count": 1131,
         "label": {
             "en_US": "outlook",
             "ja_JP": "outlook",
@@ -6542,48 +6543,6 @@
     {
         "badges": [],
         "brief": {
-            "en_US": "zip multi files and unzip file",
-            "ja_JP": "zip multi files and unzip file",
-            "pt_BR": "zip multi files and unzip file",
-            "zh_Hans": "zip multi files and unzip file"
-        },
-        "category": "tool",
-        "icon": "hjlarry/packages/zip/_assets/icon.svg",
-        "index_id": "hjlarry___zip",
-        "install_count": 1112,
-        "label": {
-            "en_US": "zip",
-            "ja_JP": "zip",
-            "pt_BR": "zip",
-            "zh_Hans": "zip"
-        },
-        "latest_package_identifier": "hjlarry/zip:0.0.1@31dbd87fafab44586e9fcd248485fa69cc17240a6b7996063cfb1c1fa6a62dbc",
-        "latest_version": "0.0.1",
-        "name": "zip",
-        "org": "hjlarry",
-        "plugin_id": "hjlarry/zip",
-        "plugins": {
-            "agent_strategies": null,
-            "endpoints": null,
-            "models": null,
-            "tools": [
-                "provider/zip.yaml"
-            ]
-        },
-        "privacy_options": "",
-        "privacy_policy": "PRIVACY.md",
-        "repository": "",
-        "status": "active",
-        "tags": [],
-        "type": "plugin",
-        "verification": {
-            "authorized_category": "community"
-        },
-        "version_updated_at": "2025-05-08T21:18:17Z"
-    },
-    {
-        "badges": [],
-        "brief": {
             "en_US": "EasyDoc is a document parsing service developed by EasyLink AI, powered by its proprietary vision-language model. Designed for developers, EasyDoc offers accurate and efficient processing of unstructured documents across various formats (e.g., PDF, images, Word). It outputs structured data to empower the creation of intelligent and high-performance AI Agent applications across industries such as finance, legal, healthcare, and enterprise automation. ",
             "ja_JP": "EasyDoc は、EasyLink AI によって開発されたドキュメント解析サービスであり、独自のビジョン・ランゲージモデルを搭載しています。開発者向けに設計されており、PDF、画像、Word などのさまざまな形式の非構造化ドキュメントを正確かつ効率的に処理します。構造化データを出力することで、金融、法務、医療、企業自動化などの分野における高度でインテリジェントな AI エージェントアプリケーションの構築を支援します。",
             "pt_BR": "O EasyDoc é um serviço de análise de documentos desenvolvido pela EasyLink AI, alimentado por seu modelo proprietário de visão e linguagem. Projetado para desenvolvedores, o EasyDoc oferece processamento preciso e eficiente de documentos não estruturados em vários formatos (por exemplo, PDF, imagens, Word). Ele gera dados estruturados para viabilizar a criação de aplicações de Agentes de IA inteligentes e de alto desempenho em setores como financeiro, jurídico, saúde e automação empresarial.",
@@ -6592,7 +6551,7 @@
         "category": "tool",
         "icon": "easylink-ai/packages/easydoc/_assets/icon.svg",
         "index_id": "easylink-ai___easydoc",
-        "install_count": 1111,
+        "install_count": 1116,
         "label": {
             "en_US": "EasyDoc",
             "ja_JP": "EasyDoc",
@@ -6622,6 +6581,48 @@
             "authorized_category": "community"
         },
         "version_updated_at": "2025-06-23T01:56:45Z"
+    },
+    {
+        "badges": [],
+        "brief": {
+            "en_US": "zip multi files and unzip file",
+            "ja_JP": "zip multi files and unzip file",
+            "pt_BR": "zip multi files and unzip file",
+            "zh_Hans": "zip multi files and unzip file"
+        },
+        "category": "tool",
+        "icon": "hjlarry/packages/zip/_assets/icon.svg",
+        "index_id": "hjlarry___zip",
+        "install_count": 1113,
+        "label": {
+            "en_US": "zip",
+            "ja_JP": "zip",
+            "pt_BR": "zip",
+            "zh_Hans": "zip"
+        },
+        "latest_package_identifier": "hjlarry/zip:0.0.1@31dbd87fafab44586e9fcd248485fa69cc17240a6b7996063cfb1c1fa6a62dbc",
+        "latest_version": "0.0.1",
+        "name": "zip",
+        "org": "hjlarry",
+        "plugin_id": "hjlarry/zip",
+        "plugins": {
+            "agent_strategies": null,
+            "endpoints": null,
+            "models": null,
+            "tools": [
+                "provider/zip.yaml"
+            ]
+        },
+        "privacy_options": "",
+        "privacy_policy": "PRIVACY.md",
+        "repository": "",
+        "status": "active",
+        "tags": [],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "community"
+        },
+        "version_updated_at": "2025-05-08T21:18:17Z"
     },
     {
         "badges": [],
@@ -6706,6 +6707,48 @@
             "authorized_category": "community"
         },
         "version_updated_at": "2025-06-11T09:09:58Z"
+    },
+    {
+        "badges": [],
+        "brief": {
+            "en_US": "This tool is used to execute SQL and text2sql in an existing database.",
+            "zh_Hans": "此工具可以用来连接现有数据库，并执行SQL语句和自然语言转SQL。"
+        },
+        "category": "tool",
+        "icon": "hjlarry/packages/database/_assets/icon.svg",
+        "index_id": "hjlarry___database",
+        "install_count": 1080,
+        "label": {
+            "en_US": "database",
+            "ja_JP": "database",
+            "pt_BR": "database",
+            "zh_Hans": "database"
+        },
+        "latest_package_identifier": "hjlarry/database:0.0.6@534bc26cf5bc4ff6b5557457452287ccc71f00eef9378784c4f43ca49954ca2f",
+        "latest_version": "0.0.6",
+        "name": "database",
+        "org": "hjlarry",
+        "plugin_id": "hjlarry/database",
+        "plugins": {
+            "agent_strategies": null,
+            "endpoints": [
+                "provider/endpoint.yaml"
+            ],
+            "models": null,
+            "tools": [
+                "provider/database.yaml"
+            ]
+        },
+        "privacy_options": "",
+        "privacy_policy": "",
+        "repository": "",
+        "status": "active",
+        "tags": [],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "community"
+        },
+        "version_updated_at": "2025-04-29T06:45:34Z"
     },
     {
         "badges": [],
@@ -6796,55 +6839,13 @@
     {
         "badges": [],
         "brief": {
-            "en_US": "This tool is used to execute SQL and text2sql in an existing database.",
-            "zh_Hans": "此工具可以用来连接现有数据库，并执行SQL语句和自然语言转SQL。"
-        },
-        "category": "tool",
-        "icon": "hjlarry/packages/database/_assets/icon.svg",
-        "index_id": "hjlarry___database",
-        "install_count": 1041,
-        "label": {
-            "en_US": "database",
-            "ja_JP": "database",
-            "pt_BR": "database",
-            "zh_Hans": "database"
-        },
-        "latest_package_identifier": "hjlarry/database:0.0.6@534bc26cf5bc4ff6b5557457452287ccc71f00eef9378784c4f43ca49954ca2f",
-        "latest_version": "0.0.6",
-        "name": "database",
-        "org": "hjlarry",
-        "plugin_id": "hjlarry/database",
-        "plugins": {
-            "agent_strategies": null,
-            "endpoints": [
-                "provider/endpoint.yaml"
-            ],
-            "models": null,
-            "tools": [
-                "provider/database.yaml"
-            ]
-        },
-        "privacy_options": "",
-        "privacy_policy": "",
-        "repository": "",
-        "status": "active",
-        "tags": [],
-        "type": "plugin",
-        "verification": {
-            "authorized_category": "community"
-        },
-        "version_updated_at": "2025-04-29T06:45:34Z"
-    },
-    {
-        "badges": [],
-        "brief": {
             "en_US": "Feishu calendar, requires the following permissions: calendar:calendar:read、calendar:calendar、contact:user.id:readonly.",
             "zh_Hans": "飞书日历，需要开通以下权限: calendar:calendar:read、calendar:calendar、contact:user.id:readonly。"
         },
         "category": "tool",
         "icon": "langgenius/packages/feishu_calendar/_assets/icon.png",
         "index_id": "langgenius___feishu_calendar",
-        "install_count": 1016,
+        "install_count": 1019,
         "label": {
             "en_US": "Feishu Calendar",
             "zh_Hans": "飞书日历"
@@ -6891,7 +6892,7 @@
         "category": "tool",
         "icon": "oy_plat/packages/oy-gen-pptx/_assets/icon.svg",
         "index_id": "oy_plat___oy-gen-pptx",
-        "install_count": 1011,
+        "install_count": 1012,
         "label": {
             "en_US": "oy-gen-pptx",
             "ja_JP": "oy-gen-pptx",
@@ -6921,6 +6922,48 @@
             "authorized_category": "community"
         },
         "version_updated_at": "2025-07-29T11:01:08Z"
+    },
+    {
+        "badges": [],
+        "brief": {
+            "en_US": "Complete Milvus vector database integration for Dify applications with collection management, vector search, data operations, and more",
+            "ja_JP": "Dify アプリケーション向けの完全な Milvus ベクトルデータベース統合：コレクション管理、ベクトル検索、データ操作など",
+            "pt_BR": "Integração completa do banco de dados vetorial Milvus para aplicações de IA com gerenciamento de coleções, busca vetorial, operações de dados e muito mais",
+            "zh_Hans": "为Dify应用提供完整的Milvus向量数据库集成，包括集合管理、向量搜索、数据操作等功能"
+        },
+        "category": "tool",
+        "icon": "zeroz-lab/packages/milvus/_assets/icon.svg",
+        "index_id": "zeroz-lab___milvus",
+        "install_count": 1005,
+        "label": {
+            "en_US": "Milvus Vector Database",
+            "ja_JP": "Milvus ベクトルデータベース",
+            "pt_BR": "Banco de Dados Vetorial Milvus",
+            "zh_Hans": "Milvus"
+        },
+        "latest_package_identifier": "zeroz-lab/milvus:0.1.3@f817c4e6d3177d69779da58c2eb538ea9c7ed9c8a751403e3c82db1c1f8e7d8b",
+        "latest_version": "0.1.3",
+        "name": "milvus",
+        "org": "zeroz-lab",
+        "plugin_id": "zeroz-lab/milvus",
+        "plugins": {
+            "agent_strategies": null,
+            "endpoints": null,
+            "models": null,
+            "tools": [
+                "provider/milvus.yaml"
+            ]
+        },
+        "privacy_options": "",
+        "privacy_policy": "PRIVACY.md",
+        "repository": null,
+        "status": "active",
+        "tags": [],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "community"
+        },
+        "version_updated_at": "2025-07-18T02:23:48Z"
     },
     {
         "badges": [],
@@ -7058,55 +7101,13 @@
     {
         "badges": [],
         "brief": {
-            "en_US": "Complete Milvus vector database integration for Dify applications with collection management, vector search, data operations, and more",
-            "ja_JP": "Dify アプリケーション向けの完全な Milvus ベクトルデータベース統合：コレクション管理、ベクトル検索、データ操作など",
-            "pt_BR": "Integração completa do banco de dados vetorial Milvus para aplicações de IA com gerenciamento de coleções, busca vetorial, operações de dados e muito mais",
-            "zh_Hans": "为Dify应用提供完整的Milvus向量数据库集成，包括集合管理、向量搜索、数据操作等功能"
-        },
-        "category": "tool",
-        "icon": "zeroz-lab/packages/milvus/_assets/icon.svg",
-        "index_id": "zeroz-lab___milvus",
-        "install_count": 998,
-        "label": {
-            "en_US": "Milvus Vector Database",
-            "ja_JP": "Milvus ベクトルデータベース",
-            "pt_BR": "Banco de Dados Vetorial Milvus",
-            "zh_Hans": "Milvus"
-        },
-        "latest_package_identifier": "zeroz-lab/milvus:0.1.3@f817c4e6d3177d69779da58c2eb538ea9c7ed9c8a751403e3c82db1c1f8e7d8b",
-        "latest_version": "0.1.3",
-        "name": "milvus",
-        "org": "zeroz-lab",
-        "plugin_id": "zeroz-lab/milvus",
-        "plugins": {
-            "agent_strategies": null,
-            "endpoints": null,
-            "models": null,
-            "tools": [
-                "provider/milvus.yaml"
-            ]
-        },
-        "privacy_options": "",
-        "privacy_policy": "PRIVACY.md",
-        "repository": null,
-        "status": "active",
-        "tags": [],
-        "type": "plugin",
-        "verification": {
-            "authorized_category": "community"
-        },
-        "version_updated_at": "2025-07-18T02:23:48Z"
-    },
-    {
-        "badges": [],
-        "brief": {
             "en_US": "A Dify plugin integrated for tianyancha",
             "zh_Hans": "天眼查企业信息查询插件"
         },
         "category": "tool",
         "icon": "bdim/packages/tianyancha/_assets/icon.svg",
         "index_id": "bdim___tianyancha",
-        "install_count": 989,
+        "install_count": 993,
         "label": {
             "en_US": "tianyancha",
             "zh_Hans": "天眼查"
@@ -7186,7 +7187,7 @@
         "category": "tool",
         "icon": "anspire/packages/anspire_search/_assets/icon.svg",
         "index_id": "anspire___anspire_search",
-        "install_count": 904,
+        "install_count": 920,
         "label": {
             "en_US": "anspire_search",
             "ja_JP": "anspire_search",
@@ -7313,7 +7314,7 @@
         "category": "tool",
         "icon": "svcvit/packages/pubmed/_assets/icon.svg",
         "index_id": "svcvit___pubmed",
-        "install_count": 845,
+        "install_count": 846,
         "label": {
             "en_US": "PubMed Search",
             "zh_Hans": "PubMed 搜索"
@@ -7350,7 +7351,7 @@
         "category": "tool",
         "icon": "mystery0/packages/remove_markdown/_assets/icon.svg",
         "index_id": "mystery0___remove_markdown",
-        "install_count": 837,
+        "install_count": 838,
         "label": {
             "en_US": "Remove Markdown"
         },
@@ -7430,7 +7431,7 @@
         "category": "tool",
         "icon": "financialai/packages/financialdatasets/_assets/favicon.ico",
         "index_id": "financialai___financialdatasets",
-        "install_count": 833,
+        "install_count": 834,
         "label": {
             "en_US": "FinancialDatasets.ai",
             "pt_BR": "FinancialDatasets.ai",
@@ -7471,7 +7472,7 @@
         "category": "tool",
         "icon": "hologres_dev/packages/hologres_text2data/_assets/hologram.svg",
         "index_id": "hologres_dev___hologres_text2data",
-        "install_count": 818,
+        "install_count": 819,
         "label": {
             "en_US": "hologres_text2data",
             "ja_JP": "hologres_text2data",
@@ -7511,7 +7512,7 @@
         "category": "tool",
         "icon": "quicksandzn/packages/minimax_kit/_assets/icon.svg",
         "index_id": "quicksandzn___minimax_kit",
-        "install_count": 806,
+        "install_count": 808,
         "label": {
             "en_US": "MiniMax Kit",
             "zh_Hans": "MiniMax 工具箱"
@@ -7539,6 +7540,44 @@
             "authorized_category": "community"
         },
         "version_updated_at": "2025-06-25T02:49:59Z"
+    },
+    {
+        "badges": [],
+        "brief": {
+            "en_US": "Download to files or text, with support of GET/POST, custom file names/headers/body, proxy, concurrency, streaming transporting, keep-alive, HTTP redirection, timeout controls and SSL certificate configs.",
+            "zh_Hans": "下载URL为文件或文本, 支持GET/POST、自定义文件名/header/请求体、代理、并发、流式传输、代理、连接复用、HTTP重定向、超时控制和SSL开关等功能。"
+        },
+        "category": "tool",
+        "icon": "bowenliang123/packages/download/_assets/icon.svg",
+        "index_id": "bowenliang123___download",
+        "install_count": 805,
+        "label": {
+            "en_US": "Download",
+            "zh_Hans": "文件下载"
+        },
+        "latest_package_identifier": "bowenliang123/download:0.6.1@0f62c3f5342f093b250ddbc5a928f1c674c519d75d4941be7cb7638a986eae97",
+        "latest_version": "0.6.1",
+        "name": "download",
+        "org": "bowenliang123",
+        "plugin_id": "bowenliang123/download",
+        "plugins": {
+            "agent_strategies": null,
+            "endpoints": null,
+            "models": null,
+            "tools": [
+                "provider/download.yaml"
+            ]
+        },
+        "privacy_options": "",
+        "privacy_policy": "PRIVACY.md",
+        "repository": "https://github.com/bowenliang123/dify-plugin-download",
+        "status": "active",
+        "tags": [],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "community"
+        },
+        "version_updated_at": "2025-08-25T10:54:21Z"
     },
     {
         "badges": [],
@@ -7584,44 +7623,6 @@
             "authorized_category": "langgenius"
         },
         "version_updated_at": "2025-02-17T07:12:00Z"
-    },
-    {
-        "badges": [],
-        "brief": {
-            "en_US": "Download to files or text, with support of GET/POST, custom file names/headers/body, proxy, concurrency, streaming transporting, keep-alive, HTTP redirection, timeout controls and SSL certificate configs.",
-            "zh_Hans": "下载URL为文件或文本, 支持GET/POST、自定义文件名/header/请求体、代理、并发、流式传输、代理、连接复用、HTTP重定向、超时控制和SSL开关等功能。"
-        },
-        "category": "tool",
-        "icon": "bowenliang123/packages/download/_assets/icon.svg",
-        "index_id": "bowenliang123___download",
-        "install_count": 796,
-        "label": {
-            "en_US": "Download",
-            "zh_Hans": "文件下载"
-        },
-        "latest_package_identifier": "bowenliang123/download:0.6.1@0f62c3f5342f093b250ddbc5a928f1c674c519d75d4941be7cb7638a986eae97",
-        "latest_version": "0.6.1",
-        "name": "download",
-        "org": "bowenliang123",
-        "plugin_id": "bowenliang123/download",
-        "plugins": {
-            "agent_strategies": null,
-            "endpoints": null,
-            "models": null,
-            "tools": [
-                "provider/download.yaml"
-            ]
-        },
-        "privacy_options": "",
-        "privacy_policy": "PRIVACY.md",
-        "repository": "https://github.com/bowenliang123/dify-plugin-download",
-        "status": "active",
-        "tags": [],
-        "type": "plugin",
-        "verification": {
-            "authorized_category": "community"
-        },
-        "version_updated_at": "2025-08-25T10:54:21Z"
     },
     {
         "badges": [],
@@ -7681,7 +7682,7 @@
         "category": "tool",
         "icon": "witmeng/packages/dingtalk_spreadsheet/_assets/ding.png",
         "index_id": "witmeng___dingtalk_spreadsheet",
-        "install_count": 783,
+        "install_count": 785,
         "label": {
             "en_US": "Dingtalk Spreadsheet",
             "ja_JP": "钉钉电子表格",
@@ -7728,7 +7729,7 @@
         "category": "tool",
         "icon": "langgenius/packages/gpustack_tools/_assets/icon.svg",
         "index_id": "langgenius___gpustack_tools",
-        "install_count": 768,
+        "install_count": 771,
         "label": {
             "en_US": "GPUStack AI Tools",
             "zh_Hans": "GPUStack AI 工具集"
@@ -7770,7 +7771,7 @@
         "category": "tool",
         "icon": "langgenius/packages/gitee_ai_tool/_assets/icon.svg",
         "index_id": "langgenius___gitee_ai_tool",
-        "install_count": 751,
+        "install_count": 753,
         "label": {
             "en_US": "Gitee AI Tool",
             "zh_Hans": "Gitee AI Tool"
@@ -7812,7 +7813,7 @@
         "category": "tool",
         "icon": "bdim/packages/abstracts-index/_assets/icon.svg",
         "index_id": "bdim___abstracts-index",
-        "install_count": 742,
+        "install_count": 743,
         "label": {
             "en_US": "abstracts-index",
             "zh_Hans": "学术摘要索引"
@@ -7850,7 +7851,7 @@
         "category": "tool",
         "icon": "bowenliang123/packages/cryptography/_assets/icon.svg",
         "index_id": "bowenliang123___cryptography",
-        "install_count": 694,
+        "install_count": 695,
         "label": {
             "en_US": "Cryptography",
             "zh_Hans": "Cryptography 加密解密签名"
@@ -7889,7 +7890,7 @@
         "category": "tool",
         "icon": "aias00/packages/nacos/_assets/nacos-logo.png",
         "index_id": "aias00___nacos",
-        "install_count": 689,
+        "install_count": 691,
         "label": {
             "en_US": "Nacos",
             "pt_BR": "Nacos",
@@ -7966,7 +7967,7 @@
         "category": "tool",
         "icon": "s20ss/packages/docling/_assets/icon.png",
         "index_id": "s20ss___docling",
-        "install_count": 668,
+        "install_count": 669,
         "label": {
             "en_US": "docling",
             "ja_JP": "docling",
@@ -8000,6 +8001,44 @@
             "authorized_category": "community"
         },
         "version_updated_at": "2025-07-01T13:34:34Z"
+    },
+    {
+        "badges": [],
+        "brief": {
+            "en_US": "Generate presentation slides using SlideSpeak API",
+            "zh_Hans": "使用 SlideSpeak API 生成演示幻灯片"
+        },
+        "category": "tool",
+        "icon": "langgenius/packages/slidespeak/_assets/icon.png",
+        "index_id": "langgenius___slidespeak",
+        "install_count": 666,
+        "label": {
+            "en_US": "SlideSpeak",
+            "zh_Hans": "SlideSpeak"
+        },
+        "latest_package_identifier": "langgenius/slidespeak:1.0.0@347c823e4ac94a1fef99300b4bb9efa0b538a099b6ce8440481f7cd6f66628d2",
+        "latest_version": "1.0.0",
+        "name": "slidespeak",
+        "org": "langgenius",
+        "plugin_id": "langgenius/slidespeak",
+        "plugins": {
+            "agent_strategies": null,
+            "endpoints": null,
+            "models": null,
+            "tools": [
+                "provider/slidespeak.yaml"
+            ]
+        },
+        "privacy_options": "",
+        "privacy_policy": "",
+        "repository": "",
+        "status": "active",
+        "tags": [],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "langgenius"
+        },
+        "version_updated_at": "2025-07-19T09:12:53Z"
     },
     {
         "badges": [],
@@ -8042,44 +8081,6 @@
             "authorized_category": "community"
         },
         "version_updated_at": "2025-05-28T05:18:37Z"
-    },
-    {
-        "badges": [],
-        "brief": {
-            "en_US": "Generate presentation slides using SlideSpeak API",
-            "zh_Hans": "使用 SlideSpeak API 生成演示幻灯片"
-        },
-        "category": "tool",
-        "icon": "langgenius/packages/slidespeak/_assets/icon.png",
-        "index_id": "langgenius___slidespeak",
-        "install_count": 665,
-        "label": {
-            "en_US": "SlideSpeak",
-            "zh_Hans": "SlideSpeak"
-        },
-        "latest_package_identifier": "langgenius/slidespeak:1.0.0@347c823e4ac94a1fef99300b4bb9efa0b538a099b6ce8440481f7cd6f66628d2",
-        "latest_version": "1.0.0",
-        "name": "slidespeak",
-        "org": "langgenius",
-        "plugin_id": "langgenius/slidespeak",
-        "plugins": {
-            "agent_strategies": null,
-            "endpoints": null,
-            "models": null,
-            "tools": [
-                "provider/slidespeak.yaml"
-            ]
-        },
-        "privacy_options": "",
-        "privacy_policy": "",
-        "repository": "",
-        "status": "active",
-        "tags": [],
-        "type": "plugin",
-        "verification": {
-            "authorized_category": "langgenius"
-        },
-        "version_updated_at": "2025-07-19T09:12:53Z"
     },
     {
         "badges": [],
@@ -8130,7 +8131,7 @@
         "category": "tool",
         "icon": "kaillliu/packages/dingtalk_notable/_assets/ding.png",
         "index_id": "kaillliu___dingtalk_notable",
-        "install_count": 637,
+        "install_count": 639,
         "label": {
             "en_US": "Dingtalk Multi-dimensional (AI) Table",
             "ja_JP": "釘釘多維(AI)表格",
@@ -8221,7 +8222,7 @@
         "category": "tool",
         "icon": "xyy/packages/txtgenarator/_assets/icon.svg",
         "index_id": "xyy___txtgenarator",
-        "install_count": 632,
+        "install_count": 633,
         "label": {
             "en_US": "txtgenarator",
             "ja_JP": "txtgenarator",
@@ -8312,7 +8313,7 @@
         "category": "tool",
         "icon": "lework/packages/kafka/_assets/icon.svg",
         "index_id": "lework___kafka",
-        "install_count": 612,
+        "install_count": 614,
         "label": {
             "en_US": "Kafka",
             "ja_JP": "Kafka",
@@ -8352,7 +8353,7 @@
         "category": "tool",
         "icon": "lizb/packages/jenkins-tool/_assets/icon2.png",
         "index_id": "lizb___jenkins-tool",
-        "install_count": 605,
+        "install_count": 609,
         "label": {
             "en_US": "Jenkins Tool",
             "zh_Hans": "Jenkins 工具"
@@ -8441,7 +8442,7 @@
         "category": "tool",
         "icon": "yzddmr6/packages/chatflow_invoker/_assets/icon.svg",
         "index_id": "yzddmr6___chatflow_invoker",
-        "install_count": 593,
+        "install_count": 598,
         "label": {
             "en_US": "Chatflow Invoker",
             "ja_JP": "Chatflow Invoker",
@@ -8657,7 +8658,7 @@
         "category": "tool",
         "icon": "svcvit/packages/google_translate/_assets/icon.svg",
         "index_id": "svcvit___google_translate",
-        "install_count": 541,
+        "install_count": 542,
         "label": {
             "en_US": "Google Translate",
             "zh_Hans": "谷歌翻译"
@@ -8695,7 +8696,7 @@
         "category": "tool",
         "icon": "langgenius/packages/lark_wiki/_assets/icon.png",
         "index_id": "langgenius___lark_wiki",
-        "install_count": 536,
+        "install_count": 537,
         "label": {
             "en_US": "Lark Wiki",
             "zh_Hans": "Lark 知识库"
@@ -8741,7 +8742,7 @@
         "category": "tool",
         "icon": "stvlynn/packages/x/_assets/icon.jpg",
         "index_id": "stvlynn___x",
-        "install_count": 533,
+        "install_count": 534,
         "label": {
             "en_US": "X (formerly Twitter)",
             "ja_JP": "X（旧Twitter）",
@@ -8869,7 +8870,7 @@
         "category": "tool",
         "icon": "langgenius/packages/nextcloud/_assets/icon.svg",
         "index_id": "langgenius___nextcloud",
-        "install_count": 523,
+        "install_count": 524,
         "label": {
             "en_US": "NextCloud",
             "ja_JP": "NextCloud",
@@ -8919,7 +8920,7 @@
         "category": "tool",
         "icon": "samanhappy/packages/word_process/_assets/icon.svg",
         "index_id": "samanhappy___word_process",
-        "install_count": 513,
+        "install_count": 518,
         "label": {
             "en_US": "Word Process",
             "zh_Hans": "Word 处理"
@@ -8951,6 +8952,48 @@
             "authorized_category": "community"
         },
         "version_updated_at": "2025-08-27T04:36:49Z"
+    },
+    {
+        "badges": [],
+        "brief": {
+            "en_US": "Connect to Microsoft Excel 365 for spreadsheet operations",
+            "zh_Hans": "连接 Microsoft Excel 365 进行电子表格操作"
+        },
+        "category": "tool",
+        "icon": "langgenius/packages/microsoft_excel365/_assets/icon.svg",
+        "index_id": "langgenius___microsoft_excel365",
+        "install_count": 511,
+        "label": {
+            "en_US": "Microsoft Excel 365",
+            "zh_Hans": "Microsoft Excel 365"
+        },
+        "latest_package_identifier": "langgenius/microsoft_excel365:0.1.0@78889ed0d7b8c838d4d4f6eb568a1e01fbb4ade99e9ecce5156a1a324c538a00",
+        "latest_version": "0.1.0",
+        "name": "microsoft_excel365",
+        "org": "langgenius",
+        "plugin_id": "langgenius/microsoft_excel365",
+        "plugins": {
+            "agent_strategies": null,
+            "endpoints": null,
+            "models": null,
+            "tools": [
+                "provider/microsoft_excel365.yaml"
+            ]
+        },
+        "privacy_options": "",
+        "privacy_policy": "",
+        "repository": null,
+        "status": "active",
+        "tags": [
+            {
+                "name": "utilities"
+            }
+        ],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "langgenius"
+        },
+        "version_updated_at": "2025-08-11T13:16:07Z"
     },
     {
         "badges": [],
@@ -8993,44 +9036,41 @@
     {
         "badges": [],
         "brief": {
-            "en_US": "Connect to Microsoft Excel 365 for spreadsheet operations",
-            "zh_Hans": "连接 Microsoft Excel 365 进行电子表格操作"
+            "en_US": "Generate beautiful mind maps from Markdown text with center and horizontal layouts",
+            "zh_Hans": "将Markdown文本转换为精美的脑图，支持中心结构和左右结构两种布局"
         },
         "category": "tool",
-        "icon": "langgenius/packages/microsoft_excel365/_assets/icon.svg",
-        "index_id": "langgenius___microsoft_excel365",
-        "install_count": 505,
+        "icon": "sawyer-shi/packages/mind_map/_assets/icon.png",
+        "index_id": "sawyer-shi___mind_map",
+        "install_count": 506,
         "label": {
-            "en_US": "Microsoft Excel 365",
-            "zh_Hans": "Microsoft Excel 365"
+            "en_US": "Mind Map Generator",
+            "zh_Hans": "脑图生成器"
         },
-        "latest_package_identifier": "langgenius/microsoft_excel365:0.1.0@78889ed0d7b8c838d4d4f6eb568a1e01fbb4ade99e9ecce5156a1a324c538a00",
-        "latest_version": "0.1.0",
-        "name": "microsoft_excel365",
-        "org": "langgenius",
-        "plugin_id": "langgenius/microsoft_excel365",
+        "latest_package_identifier": "sawyer-shi/mind_map:0.0.2@d3f819e3cbaac74702de7fce03370ffa536477f53403fc48c4da8ce18a958367",
+        "latest_version": "0.0.2",
+        "name": "mind_map",
+        "org": "sawyer-shi",
+        "plugin_id": "sawyer-shi/mind_map",
         "plugins": {
             "agent_strategies": null,
+            "datasources": null,
             "endpoints": null,
             "models": null,
             "tools": [
-                "provider/microsoft_excel365.yaml"
+                "provider/mind_map.yaml"
             ]
         },
         "privacy_options": "",
         "privacy_policy": "",
         "repository": null,
         "status": "active",
-        "tags": [
-            {
-                "name": "utilities"
-            }
-        ],
+        "tags": [],
         "type": "plugin",
         "verification": {
-            "authorized_category": "langgenius"
+            "authorized_category": "community"
         },
-        "version_updated_at": "2025-08-11T13:16:07Z"
+        "version_updated_at": "2025-09-04T07:38:49Z"
     },
     {
         "badges": [],
@@ -9077,45 +9117,6 @@
     {
         "badges": [],
         "brief": {
-            "en_US": "Generate beautiful mind maps from Markdown text with center and horizontal layouts",
-            "zh_Hans": "将Markdown文本转换为精美的脑图，支持中心结构和左右结构两种布局"
-        },
-        "category": "tool",
-        "icon": "sawyer-shi/packages/mind_map/_assets/icon.png",
-        "index_id": "sawyer-shi___mind_map",
-        "install_count": 489,
-        "label": {
-            "en_US": "Mind Map Generator",
-            "zh_Hans": "脑图生成器"
-        },
-        "latest_package_identifier": "sawyer-shi/mind_map:0.0.2@d3f819e3cbaac74702de7fce03370ffa536477f53403fc48c4da8ce18a958367",
-        "latest_version": "0.0.2",
-        "name": "mind_map",
-        "org": "sawyer-shi",
-        "plugin_id": "sawyer-shi/mind_map",
-        "plugins": {
-            "agent_strategies": null,
-            "datasources": null,
-            "endpoints": null,
-            "models": null,
-            "tools": [
-                "provider/mind_map.yaml"
-            ]
-        },
-        "privacy_options": "",
-        "privacy_policy": "",
-        "repository": null,
-        "status": "active",
-        "tags": [],
-        "type": "plugin",
-        "verification": {
-            "authorized_category": "community"
-        },
-        "version_updated_at": "2025-09-04T07:38:49Z"
-    },
-    {
-        "badges": [],
-        "brief": {
             "en_US": "Elasticsearch (Non-Pre-Auth)",
             "ja_JP": "Elasticsearch (Non-Pre-Auth)",
             "pt_BR": "Elasticsearch (Non-Pre-Auth)",
@@ -9124,7 +9125,7 @@
         "category": "tool",
         "icon": "quicksandzn/packages/elasticsearch_v2/_assets/icon.svg",
         "index_id": "quicksandzn___elasticsearch_v2",
-        "install_count": 480,
+        "install_count": 482,
         "label": {
             "en_US": "Elasticsearch (Non-Pre-Auth)",
             "ja_JP": "Elasticsearch (Non-Pre-Auth)",
@@ -9249,7 +9250,7 @@
         "category": "tool",
         "icon": "langgenius/packages/azure_openai_tool/_assets/icon.png",
         "index_id": "langgenius___azure_openai_tool",
-        "install_count": 462,
+        "install_count": 464,
         "label": {
             "en_US": "Azure OpenAI",
             "pt_BR": "Azure OpenAI",
@@ -9333,6 +9334,48 @@
     {
         "badges": [],
         "brief": {
+            "en_US": "PANW AI Runtime Security API",
+            "ja_JP": "PANW AI Runtime Security API",
+            "pt_BR": "PANW AI Runtime Security API",
+            "zh_Hans": "PANW AI Runtime Security API"
+        },
+        "category": "tool",
+        "icon": "zm1990s/packages/ai_security_api/_assets/icon.svg",
+        "index_id": "zm1990s___ai_security_api",
+        "install_count": 457,
+        "label": {
+            "en_US": "Palo Alto Networks",
+            "ja_JP": "Palo Alto Networks",
+            "pt_BR": "Palo Alto Networks",
+            "zh_Hans": "Palo Alto Networks"
+        },
+        "latest_package_identifier": "zm1990s/ai_security_api:0.0.4@74aa1054d517aaf5a92acb55804bd4735edf527b6a4dc45f3d981fefc9639669",
+        "latest_version": "0.0.4",
+        "name": "ai_security_api",
+        "org": "zm1990s",
+        "plugin_id": "zm1990s/ai_security_api",
+        "plugins": {
+            "agent_strategies": null,
+            "endpoints": null,
+            "models": null,
+            "tools": [
+                "provider/palo_alto_networks_ai_security_api.yaml"
+            ]
+        },
+        "privacy_options": "",
+        "privacy_policy": "PRIVACY.md",
+        "repository": "",
+        "status": "active",
+        "tags": [],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "community"
+        },
+        "version_updated_at": "2025-04-29T06:46:13Z"
+    },
+    {
+        "badges": [],
+        "brief": {
             "en_US": "Lark message and group, requires the following permissions: im:message、im:message.group_msg.\n",
             "zh_Hans": "Lark 消息和群组，需要开通以下权限: im:message、im:message.group_msg。\n"
         },
@@ -9378,48 +9421,6 @@
     {
         "badges": [],
         "brief": {
-            "en_US": "PANW AI Runtime Security API",
-            "ja_JP": "PANW AI Runtime Security API",
-            "pt_BR": "PANW AI Runtime Security API",
-            "zh_Hans": "PANW AI Runtime Security API"
-        },
-        "category": "tool",
-        "icon": "zm1990s/packages/ai_security_api/_assets/icon.svg",
-        "index_id": "zm1990s___ai_security_api",
-        "install_count": 456,
-        "label": {
-            "en_US": "Palo Alto Networks",
-            "ja_JP": "Palo Alto Networks",
-            "pt_BR": "Palo Alto Networks",
-            "zh_Hans": "Palo Alto Networks"
-        },
-        "latest_package_identifier": "zm1990s/ai_security_api:0.0.4@74aa1054d517aaf5a92acb55804bd4735edf527b6a4dc45f3d981fefc9639669",
-        "latest_version": "0.0.4",
-        "name": "ai_security_api",
-        "org": "zm1990s",
-        "plugin_id": "zm1990s/ai_security_api",
-        "plugins": {
-            "agent_strategies": null,
-            "endpoints": null,
-            "models": null,
-            "tools": [
-                "provider/palo_alto_networks_ai_security_api.yaml"
-            ]
-        },
-        "privacy_options": "",
-        "privacy_policy": "PRIVACY.md",
-        "repository": "",
-        "status": "active",
-        "tags": [],
-        "type": "plugin",
-        "verification": {
-            "authorized_category": "community"
-        },
-        "version_updated_at": "2025-04-29T06:46:13Z"
-    },
-    {
-        "badges": [],
-        "brief": {
             "en_US": "AI-Powered Web Content Extraction and Semantic Search Tool",
             "ja_JP": "AI搭載Webコンテンツ抽出・セマンティック検索ツール",
             "pt_BR": "Ferramenta de Extração de Conteúdo Web e Busca Semântica com IA",
@@ -9428,7 +9429,7 @@
         "category": "tool",
         "icon": "dataeyesai/packages/dataeyes/_assets/icon.svg",
         "index_id": "dataeyesai___dataeyes",
-        "install_count": 447,
+        "install_count": 449,
         "label": {
             "en_US": "DataEyes",
             "ja_JP": "DataEyes",
@@ -9475,7 +9476,7 @@
         "category": "tool",
         "icon": "langgenius/packages/supabase/_assets/icon.svg",
         "index_id": "langgenius___supabase",
-        "install_count": 439,
+        "install_count": 440,
         "label": {
             "en_US": "Supabase",
             "ja_JP": "Supabase"
@@ -9515,7 +9516,7 @@
         "category": "tool",
         "icon": "langgenius/packages/nocodb/_assets/icon.svg",
         "index_id": "langgenius___nocodb",
-        "install_count": 437,
+        "install_count": 439,
         "label": {
             "en_US": "NocoDB",
             "ja_JP": "NocoDB",
@@ -9557,7 +9558,7 @@
         "category": "tool",
         "icon": "yevanchen/packages/goto_human/_assets/icon.jpg",
         "index_id": "yevanchen___goto_human",
-        "install_count": 432,
+        "install_count": 433,
         "label": {
             "en_US": "goto_human",
             "ja_JP": "goto_human",
@@ -9589,6 +9590,49 @@
             "authorized_category": "community"
         },
         "version_updated_at": "2025-02-21T09:22:56Z"
+    },
+    {
+        "badges": [],
+        "brief": {
+            "en_US": "Dify Extractor",
+            "ja_JP": "Dify Extractor",
+            "pt_BR": "Dify Extractor",
+            "zh_Hans": "Dify Extractor"
+        },
+        "category": "tool",
+        "icon": "langgenius/packages/dify_extractor/_assets/icon.svg",
+        "index_id": "langgenius___dify_extractor",
+        "install_count": 430,
+        "label": {
+            "en_US": "Dify Extractor",
+            "ja_JP": "Dify Extractor",
+            "pt_BR": "Dify Extractor",
+            "zh_Hans": "Dify文本提取器"
+        },
+        "latest_package_identifier": "langgenius/dify_extractor:0.0.4@50be4a2d5336283cabf23b409421488dbba2a5c81ea9112b3c62b71e25ba01e9",
+        "latest_version": "0.0.4",
+        "name": "dify_extractor",
+        "org": "langgenius",
+        "plugin_id": "langgenius/dify_extractor",
+        "plugins": {
+            "agent_strategies": null,
+            "datasources": null,
+            "endpoints": null,
+            "models": null,
+            "tools": [
+                "provider/dify_extractor.yaml"
+            ]
+        },
+        "privacy_options": "",
+        "privacy_policy": "PRIVACY.md",
+        "repository": null,
+        "status": "active",
+        "tags": [],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "langgenius"
+        },
+        "version_updated_at": "2025-09-04T09:14:12Z"
     },
     {
         "badges": [],
@@ -9646,7 +9690,7 @@
         "category": "tool",
         "icon": "stvlynn/packages/unsplash/_assets/icon.svg",
         "index_id": "stvlynn___unsplash",
-        "install_count": 423,
+        "install_count": 424,
         "label": {
             "en_US": "Unsplash",
             "ja_JP": "Unsplash",
@@ -9812,7 +9856,7 @@
         "category": "tool",
         "icon": "investoday/packages/fund/_assets/logo.svg",
         "index_id": "investoday___fund",
-        "install_count": 401,
+        "install_count": 402,
         "label": {
             "en_US": "InvestToday Fund",
             "zh_Hans": "今日投资-基金"
@@ -9844,6 +9888,90 @@
             "authorized_category": "community"
         },
         "version_updated_at": "2025-08-14T08:49:55Z"
+    },
+    {
+        "badges": [],
+        "brief": {
+            "en_US": "Convert PDF pages to high-quality images with customizable format and resolution",
+            "ja_JP": "PDFページを高品質な画像に変換、フォーマットと解像度のカスタマイズ可能",
+            "pt_BR": "Converta páginas PDF em imagens de alta qualidade com formato e resolução personalizáveis",
+            "zh_Hans": "将PDF页面转换为高质量图片，支持自定义格式和分辨率"
+        },
+        "category": "tool",
+        "icon": "shamspias/packages/pdf2image/_assets/pdf2image.png",
+        "index_id": "shamspias___pdf2image",
+        "install_count": 401,
+        "label": {
+            "en_US": "PDF to Image Converter",
+            "ja_JP": "PDF画像変換",
+            "pt_BR": "Conversor PDF para Imagem",
+            "zh_Hans": "PDF转图片"
+        },
+        "latest_package_identifier": "shamspias/pdf2image:0.0.1@b85607f4b2905940b7e3efcc35bc7cc54a647d6acc8235cae6fa541abd812e3f",
+        "latest_version": "0.0.1",
+        "name": "pdf2image",
+        "org": "shamspias",
+        "plugin_id": "shamspias/pdf2image",
+        "plugins": {
+            "agent_strategies": null,
+            "endpoints": null,
+            "models": null,
+            "tools": [
+                "provider/pdf2image.yaml"
+            ]
+        },
+        "privacy_options": "",
+        "privacy_policy": "PRIVACY.md",
+        "repository": null,
+        "status": "active",
+        "tags": [],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "community"
+        },
+        "version_updated_at": "2025-08-27T06:11:46Z"
+    },
+    {
+        "badges": [],
+        "brief": {
+            "en_US": "Provides stock data services for the A-share market.",
+            "zh_Hans": "提供A股市场股票相关数据服务。"
+        },
+        "category": "tool",
+        "icon": "investoday/packages/stock/_assets/logo.svg",
+        "index_id": "investoday___stock",
+        "install_count": 400,
+        "label": {
+            "en_US": "InvestToday Stock",
+            "zh_Hans": "今日投资数据-股票类"
+        },
+        "latest_package_identifier": "investoday/stock:1.1.0@de477de3915d77bee480de16daf4bc52461c73e9766b1e942d62e73cd6e00ca5",
+        "latest_version": "1.1.0",
+        "name": "stock",
+        "org": "investoday",
+        "plugin_id": "investoday/stock",
+        "plugins": {
+            "agent_strategies": null,
+            "endpoints": null,
+            "models": null,
+            "tools": [
+                "provider/sdk_base.yaml"
+            ]
+        },
+        "privacy_options": "",
+        "privacy_policy": "PRIVACY.md",
+        "repository": null,
+        "status": "active",
+        "tags": [
+            {
+                "name": "finance"
+            }
+        ],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "community"
+        },
+        "version_updated_at": "2025-08-29T01:17:59Z"
     },
     {
         "badges": [],
@@ -9886,90 +10014,6 @@
             "authorized_category": "community"
         },
         "version_updated_at": "2025-04-03T08:52:10Z"
-    },
-    {
-        "badges": [],
-        "brief": {
-            "en_US": "Provides stock data services for the A-share market.",
-            "zh_Hans": "提供A股市场股票相关数据服务。"
-        },
-        "category": "tool",
-        "icon": "investoday/packages/stock/_assets/logo.svg",
-        "index_id": "investoday___stock",
-        "install_count": 395,
-        "label": {
-            "en_US": "InvestToday Stock",
-            "zh_Hans": "今日投资数据-股票类"
-        },
-        "latest_package_identifier": "investoday/stock:1.1.0@de477de3915d77bee480de16daf4bc52461c73e9766b1e942d62e73cd6e00ca5",
-        "latest_version": "1.1.0",
-        "name": "stock",
-        "org": "investoday",
-        "plugin_id": "investoday/stock",
-        "plugins": {
-            "agent_strategies": null,
-            "endpoints": null,
-            "models": null,
-            "tools": [
-                "provider/sdk_base.yaml"
-            ]
-        },
-        "privacy_options": "",
-        "privacy_policy": "PRIVACY.md",
-        "repository": null,
-        "status": "active",
-        "tags": [
-            {
-                "name": "finance"
-            }
-        ],
-        "type": "plugin",
-        "verification": {
-            "authorized_category": "community"
-        },
-        "version_updated_at": "2025-08-29T01:17:59Z"
-    },
-    {
-        "badges": [],
-        "brief": {
-            "en_US": "Convert PDF pages to high-quality images with customizable format and resolution",
-            "ja_JP": "PDFページを高品質な画像に変換、フォーマットと解像度のカスタマイズ可能",
-            "pt_BR": "Converta páginas PDF em imagens de alta qualidade com formato e resolução personalizáveis",
-            "zh_Hans": "将PDF页面转换为高质量图片，支持自定义格式和分辨率"
-        },
-        "category": "tool",
-        "icon": "shamspias/packages/pdf2image/_assets/pdf2image.png",
-        "index_id": "shamspias___pdf2image",
-        "install_count": 395,
-        "label": {
-            "en_US": "PDF to Image Converter",
-            "ja_JP": "PDF画像変換",
-            "pt_BR": "Conversor PDF para Imagem",
-            "zh_Hans": "PDF转图片"
-        },
-        "latest_package_identifier": "shamspias/pdf2image:0.0.1@b85607f4b2905940b7e3efcc35bc7cc54a647d6acc8235cae6fa541abd812e3f",
-        "latest_version": "0.0.1",
-        "name": "pdf2image",
-        "org": "shamspias",
-        "plugin_id": "shamspias/pdf2image",
-        "plugins": {
-            "agent_strategies": null,
-            "endpoints": null,
-            "models": null,
-            "tools": [
-                "provider/pdf2image.yaml"
-            ]
-        },
-        "privacy_options": "",
-        "privacy_policy": "PRIVACY.md",
-        "repository": null,
-        "status": "active",
-        "tags": [],
-        "type": "plugin",
-        "verification": {
-            "authorized_category": "community"
-        },
-        "version_updated_at": "2025-08-27T06:11:46Z"
     },
     {
         "badges": [],
@@ -10108,6 +10152,48 @@
     {
         "badges": [],
         "brief": {
+            "en_US": "Get Kubernetes cluster resource information",
+            "ja_JP": "Kubernetesクラスターのリソース情報を取得",
+            "pt_BR": "Obter informações de recursos do cluster Kubernetes",
+            "zh_Hans": "获取Kubernetes集群资源信息"
+        },
+        "category": "tool",
+        "icon": "lework/packages/kubernetes/_assets/icon.svg",
+        "index_id": "lework___kubernetes",
+        "install_count": 388,
+        "label": {
+            "en_US": "kubernetes",
+            "ja_JP": "kubernetes",
+            "pt_BR": "kubernetes",
+            "zh_Hans": "kubernetes"
+        },
+        "latest_package_identifier": "lework/kubernetes:0.0.2@87a96ba9f1aaf25b843112266b35fb8cc26d5cc18eb9a5832c4c77c82c639bbf",
+        "latest_version": "0.0.2",
+        "name": "kubernetes",
+        "org": "lework",
+        "plugin_id": "lework/kubernetes",
+        "plugins": {
+            "agent_strategies": null,
+            "endpoints": null,
+            "models": null,
+            "tools": [
+                "provider/kubernetes.yaml"
+            ]
+        },
+        "privacy_options": "",
+        "privacy_policy": "PRIVACY.md",
+        "repository": "https://github.com/lework/dify-plugin-kubernetes.git",
+        "status": "active",
+        "tags": [],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "community"
+        },
+        "version_updated_at": "2025-08-09T01:01:04Z"
+    },
+    {
+        "badges": [],
+        "brief": {
             "en_US": "Used to push messages to the Bark application",
             "zh_Hans": "用于推送消息到Bark应用程序中。"
         },
@@ -10184,44 +10270,45 @@
     {
         "badges": [],
         "brief": {
-            "en_US": "Get Kubernetes cluster resource information",
-            "ja_JP": "Kubernetesクラスターのリソース情報を取得",
-            "pt_BR": "Obter informações de recursos do cluster Kubernetes",
-            "zh_Hans": "获取Kubernetes集群资源信息"
+            "en_US": "AI text-to-image generation plugin powered by OpenRouter API with multiple models support (Gemini, Claude)",
+            "zh_Hans": "基于 OpenRouter API 的 AI 文生图插件，支持多种模型（Gemini、Claude）"
         },
         "category": "tool",
-        "icon": "lework/packages/kubernetes/_assets/icon.svg",
-        "index_id": "lework___kubernetes",
-        "install_count": 383,
+        "icon": "wwwzhouhui/packages/nano_banana_text2image/_assets/icon.svg",
+        "index_id": "wwwzhouhui___nano_banana_text2image",
+        "install_count": 378,
         "label": {
-            "en_US": "kubernetes",
-            "ja_JP": "kubernetes",
-            "pt_BR": "kubernetes",
-            "zh_Hans": "kubernetes"
+            "en_US": "Nano Banana Text2Image",
+            "zh_Hans": "Nano Banana 文生图"
         },
-        "latest_package_identifier": "lework/kubernetes:0.0.2@87a96ba9f1aaf25b843112266b35fb8cc26d5cc18eb9a5832c4c77c82c639bbf",
-        "latest_version": "0.0.2",
-        "name": "kubernetes",
-        "org": "lework",
-        "plugin_id": "lework/kubernetes",
+        "latest_package_identifier": "wwwzhouhui/nano_banana_text2image:0.0.3@a331524d0d5e81acde980b8ffd70759d33de6e7a70f3581be41e215444357e59",
+        "latest_version": "0.0.3",
+        "name": "nano_banana_text2image",
+        "org": "wwwzhouhui",
+        "plugin_id": "wwwzhouhui/nano_banana_text2image",
         "plugins": {
             "agent_strategies": null,
+            "datasources": null,
             "endpoints": null,
             "models": null,
             "tools": [
-                "provider/kubernetes.yaml"
+                "provider/nano_banana.yaml"
             ]
         },
         "privacy_options": "",
-        "privacy_policy": "PRIVACY.md",
-        "repository": "https://github.com/lework/dify-plugin-kubernetes.git",
+        "privacy_policy": "",
+        "repository": null,
         "status": "active",
-        "tags": [],
+        "tags": [
+            {
+                "name": "productivity"
+            }
+        ],
         "type": "plugin",
         "verification": {
             "authorized_category": "community"
         },
-        "version_updated_at": "2025-08-09T01:01:04Z"
+        "version_updated_at": "2025-09-05T10:03:39Z"
     },
     {
         "badges": [],
@@ -10394,6 +10481,48 @@
     {
         "badges": [],
         "brief": {
+            "en_US": "The AI Guardrail API service provided by Alibaba Cloud Security, safeguard your models and AI applications.",
+            "ja_JP": "The AI Guardrail API service provided by Alibaba Cloud Security, safeguard your models and AI applications.",
+            "pt_BR": "The AI Guardrail API service provided by Alibaba Cloud Security, safeguard your models and AI applications.",
+            "zh_Hans": "阿里云安全提供的AI安全护栏API服务，保障大模型安全。"
+        },
+        "category": "tool",
+        "icon": "aliyun-security/packages/ai_guardrails/_assets/icon.svg",
+        "index_id": "aliyun-security___ai_guardrails",
+        "install_count": 359,
+        "label": {
+            "en_US": "Alibaba Cloud AI Guardrails",
+            "ja_JP": "Alibaba Cloud AI Guardrails",
+            "pt_BR": "Alibaba Cloud AI Guardrails",
+            "zh_Hans": "阿里云AI安全护栏"
+        },
+        "latest_package_identifier": "aliyun-security/ai_guardrails:1.0.2@f5c7f2973568277fb29fc9b5f6b060d87690f1cf2479270fac3d526e87a4075e",
+        "latest_version": "1.0.2",
+        "name": "ai_guardrails",
+        "org": "aliyun-security",
+        "plugin_id": "aliyun-security/ai_guardrails",
+        "plugins": {
+            "agent_strategies": null,
+            "endpoints": null,
+            "models": null,
+            "tools": [
+                "provider/ai_guardrails.yaml"
+            ]
+        },
+        "privacy_options": "",
+        "privacy_policy": "PRIVACY.md",
+        "repository": null,
+        "status": "active",
+        "tags": [],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "community"
+        },
+        "version_updated_at": "2025-08-05T14:26:37Z"
+    },
+    {
+        "badges": [],
+        "brief": {
             "en_US": "Tools that can be operated on Airtable",
             "ja_JP": "Airtableで操作できるツールです",
             "pt_BR": "Ferramentas que podem ser operadas no Airtable",
@@ -10436,91 +10565,6 @@
     {
         "badges": [],
         "brief": {
-            "en_US": "The AI Guardrail API service provided by Alibaba Cloud Security, safeguard your models and AI applications.",
-            "ja_JP": "The AI Guardrail API service provided by Alibaba Cloud Security, safeguard your models and AI applications.",
-            "pt_BR": "The AI Guardrail API service provided by Alibaba Cloud Security, safeguard your models and AI applications.",
-            "zh_Hans": "阿里云安全提供的AI安全护栏API服务，保障大模型安全。"
-        },
-        "category": "tool",
-        "icon": "aliyun-security/packages/ai_guardrails/_assets/icon.svg",
-        "index_id": "aliyun-security___ai_guardrails",
-        "install_count": 355,
-        "label": {
-            "en_US": "Alibaba Cloud AI Guardrails",
-            "ja_JP": "Alibaba Cloud AI Guardrails",
-            "pt_BR": "Alibaba Cloud AI Guardrails",
-            "zh_Hans": "阿里云AI安全护栏"
-        },
-        "latest_package_identifier": "aliyun-security/ai_guardrails:1.0.2@f5c7f2973568277fb29fc9b5f6b060d87690f1cf2479270fac3d526e87a4075e",
-        "latest_version": "1.0.2",
-        "name": "ai_guardrails",
-        "org": "aliyun-security",
-        "plugin_id": "aliyun-security/ai_guardrails",
-        "plugins": {
-            "agent_strategies": null,
-            "endpoints": null,
-            "models": null,
-            "tools": [
-                "provider/ai_guardrails.yaml"
-            ]
-        },
-        "privacy_options": "",
-        "privacy_policy": "PRIVACY.md",
-        "repository": null,
-        "status": "active",
-        "tags": [],
-        "type": "plugin",
-        "verification": {
-            "authorized_category": "community"
-        },
-        "version_updated_at": "2025-08-05T14:26:37Z"
-    },
-    {
-        "badges": [],
-        "brief": {
-            "en_US": "Dify Extractor",
-            "ja_JP": "Dify Extractor",
-            "pt_BR": "Dify Extractor",
-            "zh_Hans": "Dify Extractor"
-        },
-        "category": "tool",
-        "icon": "langgenius/packages/dify_extractor/_assets/icon.svg",
-        "index_id": "langgenius___dify_extractor",
-        "install_count": 348,
-        "label": {
-            "en_US": "Dify Extractor",
-            "ja_JP": "Dify Extractor",
-            "pt_BR": "Dify Extractor",
-            "zh_Hans": "Dify文本提取器"
-        },
-        "latest_package_identifier": "langgenius/dify_extractor:0.0.4@50be4a2d5336283cabf23b409421488dbba2a5c81ea9112b3c62b71e25ba01e9",
-        "latest_version": "0.0.4",
-        "name": "dify_extractor",
-        "org": "langgenius",
-        "plugin_id": "langgenius/dify_extractor",
-        "plugins": {
-            "agent_strategies": null,
-            "datasources": null,
-            "endpoints": null,
-            "models": null,
-            "tools": [
-                "provider/dify_extractor.yaml"
-            ]
-        },
-        "privacy_options": "",
-        "privacy_policy": "PRIVACY.md",
-        "repository": null,
-        "status": "active",
-        "tags": [],
-        "type": "plugin",
-        "verification": {
-            "authorized_category": "langgenius"
-        },
-        "version_updated_at": "2025-09-04T09:14:12Z"
-    },
-    {
-        "badges": [],
-        "brief": {
             "en_US": "Convert PDF pages to images using PyMuPDF",
             "ja_JP": "Convert PDF pages to images using PyMuPDF",
             "pt_BR": "Convert PDF pages to images using PyMuPDF",
@@ -10529,7 +10573,7 @@
         "category": "tool",
         "icon": "atoy0m0/packages/pdf-to-images/_assets/icon.svg",
         "index_id": "atoy0m0___pdf-to-images",
-        "install_count": 346,
+        "install_count": 350,
         "label": {
             "en_US": "pdf-to-images",
             "ja_JP": "pdf-to-images",
@@ -10559,6 +10603,55 @@
             "authorized_category": "community"
         },
         "version_updated_at": "2025-08-12T03:18:13Z"
+    },
+    {
+        "badges": [],
+        "brief": {
+            "en_US": "A collection of tools to interact with your Shopify Store.",
+            "ja_JP": "Shopifyストアとのやり取りに使用するツールのコレクション.",
+            "pt_BR": "Uma coleção de ferramentas para interagir com sua loja Shopify.",
+            "zh_Hans": "用于和您的Shopify店铺数据交互的工具."
+        },
+        "category": "tool",
+        "icon": "chekun/packages/shopify/_assets/icon.svg",
+        "index_id": "chekun___shopify",
+        "install_count": 343,
+        "label": {
+            "en_US": "Shopify",
+            "ja_JP": "Shopify",
+            "pt_BR": "Shopify",
+            "zh_Hans": "Shopify"
+        },
+        "latest_package_identifier": "chekun/shopify:0.0.2@558ec90fbdf1416e928f1e017c8998d1399e557a77715f85262d416576c1f648",
+        "latest_version": "0.0.2",
+        "name": "shopify",
+        "org": "chekun",
+        "plugin_id": "chekun/shopify",
+        "plugins": {
+            "agent_strategies": null,
+            "endpoints": null,
+            "models": null,
+            "tools": [
+                "provider/shopify.yaml"
+            ]
+        },
+        "privacy_options": "",
+        "privacy_policy": "PRIVACY.md",
+        "repository": "",
+        "status": "active",
+        "tags": [
+            {
+                "name": "productivity"
+            },
+            {
+                "name": "utilities"
+            }
+        ],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "community"
+        },
+        "version_updated_at": "2025-03-17T12:07:57Z"
     },
     {
         "badges": [],
@@ -10608,55 +10701,6 @@
             "authorized_category": "community"
         },
         "version_updated_at": "2025-03-12T07:37:35Z"
-    },
-    {
-        "badges": [],
-        "brief": {
-            "en_US": "A collection of tools to interact with your Shopify Store.",
-            "ja_JP": "Shopifyストアとのやり取りに使用するツールのコレクション.",
-            "pt_BR": "Uma coleção de ferramentas para interagir com sua loja Shopify.",
-            "zh_Hans": "用于和您的Shopify店铺数据交互的工具."
-        },
-        "category": "tool",
-        "icon": "chekun/packages/shopify/_assets/icon.svg",
-        "index_id": "chekun___shopify",
-        "install_count": 342,
-        "label": {
-            "en_US": "Shopify",
-            "ja_JP": "Shopify",
-            "pt_BR": "Shopify",
-            "zh_Hans": "Shopify"
-        },
-        "latest_package_identifier": "chekun/shopify:0.0.2@558ec90fbdf1416e928f1e017c8998d1399e557a77715f85262d416576c1f648",
-        "latest_version": "0.0.2",
-        "name": "shopify",
-        "org": "chekun",
-        "plugin_id": "chekun/shopify",
-        "plugins": {
-            "agent_strategies": null,
-            "endpoints": null,
-            "models": null,
-            "tools": [
-                "provider/shopify.yaml"
-            ]
-        },
-        "privacy_options": "",
-        "privacy_policy": "PRIVACY.md",
-        "repository": "",
-        "status": "active",
-        "tags": [
-            {
-                "name": "productivity"
-            },
-            {
-                "name": "utilities"
-            }
-        ],
-        "type": "plugin",
-        "verification": {
-            "authorized_category": "community"
-        },
-        "version_updated_at": "2025-03-17T12:07:57Z"
     },
     {
         "badges": [],
@@ -10811,7 +10855,7 @@
         "category": "tool",
         "icon": "parkerwen/packages/volcengine_ai/_assets/icon_s_en.svg",
         "index_id": "parkerwen___volcengine_ai",
-        "install_count": 328,
+        "install_count": 329,
         "label": {
             "en_US": "Volcengine AI",
             "ja_JP": "Volcengine AI",
@@ -10841,6 +10885,48 @@
             "authorized_category": "community"
         },
         "version_updated_at": "2025-08-19T01:14:43Z"
+    },
+    {
+        "badges": [],
+        "brief": {
+            "en_US": "Generate images from text using Alibaba Cloud Wan text-to-image models",
+            "ja_JP": "Alibaba Cloud Wan テキストから画像生成",
+            "pt_BR": "Gere imagens a partir de texto usando os modelos de texto para imagem do Alibaba Cloud Wan",
+            "zh_Hans": "使用通义万相文生图模型从文本生成图像"
+        },
+        "category": "tool",
+        "icon": "itgo067/packages/aliyun-wanx-text2img/_assets/icon.svg",
+        "index_id": "itgo067___aliyun-wanx-text2img",
+        "install_count": 329,
+        "label": {
+            "en_US": "Alibaba Cloud Wan Text-to-Image",
+            "ja_JP": "Alibaba Cloud Wan テキストから画像生成",
+            "pt_BR": "Alibaba Cloud Wan Text-to-Image",
+            "zh_Hans": "通义万相文生图"
+        },
+        "latest_package_identifier": "itgo067/aliyun-wanx-text2img:0.0.1@fcc1b829705af11ee852c7001c7322c861f7be1cc5cda4d5c314b92ee6178a9b",
+        "latest_version": "0.0.1",
+        "name": "aliyun-wanx-text2img",
+        "org": "itgo067",
+        "plugin_id": "itgo067/aliyun-wanx-text2img",
+        "plugins": {
+            "agent_strategies": null,
+            "endpoints": null,
+            "models": null,
+            "tools": [
+                "provider/aliyun-wan.yaml"
+            ]
+        },
+        "privacy_options": "",
+        "privacy_policy": "PRIVACY.md",
+        "repository": null,
+        "status": "active",
+        "tags": [],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "community"
+        },
+        "version_updated_at": "2025-08-29T03:21:46Z"
     },
     {
         "badges": [],
@@ -10879,48 +10965,6 @@
             "authorized_category": "community"
         },
         "version_updated_at": "2025-05-28T03:18:19Z"
-    },
-    {
-        "badges": [],
-        "brief": {
-            "en_US": "Generate images from text using Alibaba Cloud Wan text-to-image models",
-            "ja_JP": "Alibaba Cloud Wan テキストから画像生成",
-            "pt_BR": "Gere imagens a partir de texto usando os modelos de texto para imagem do Alibaba Cloud Wan",
-            "zh_Hans": "使用通义万相文生图模型从文本生成图像"
-        },
-        "category": "tool",
-        "icon": "itgo067/packages/aliyun-wanx-text2img/_assets/icon.svg",
-        "index_id": "itgo067___aliyun-wanx-text2img",
-        "install_count": 327,
-        "label": {
-            "en_US": "Alibaba Cloud Wan Text-to-Image",
-            "ja_JP": "Alibaba Cloud Wan テキストから画像生成",
-            "pt_BR": "Alibaba Cloud Wan Text-to-Image",
-            "zh_Hans": "通义万相文生图"
-        },
-        "latest_package_identifier": "itgo067/aliyun-wanx-text2img:0.0.1@fcc1b829705af11ee852c7001c7322c861f7be1cc5cda4d5c314b92ee6178a9b",
-        "latest_version": "0.0.1",
-        "name": "aliyun-wanx-text2img",
-        "org": "itgo067",
-        "plugin_id": "itgo067/aliyun-wanx-text2img",
-        "plugins": {
-            "agent_strategies": null,
-            "endpoints": null,
-            "models": null,
-            "tools": [
-                "provider/aliyun-wan.yaml"
-            ]
-        },
-        "privacy_options": "",
-        "privacy_policy": "PRIVACY.md",
-        "repository": null,
-        "status": "active",
-        "tags": [],
-        "type": "plugin",
-        "verification": {
-            "authorized_category": "community"
-        },
-        "version_updated_at": "2025-08-29T03:21:46Z"
     },
     {
         "badges": [],
@@ -10973,7 +11017,7 @@
         "category": "tool",
         "icon": "investoday/packages/news/_assets/logo.svg",
         "index_id": "investoday___news",
-        "install_count": 312,
+        "install_count": 313,
         "label": {
             "en_US": "InvestToday News",
             "zh_Hans": "今日投资数据-新闻与观点类"
@@ -11009,6 +11053,48 @@
     {
         "badges": [],
         "brief": {
+            "en_US": "A Dify tool plugin that integrates with the remote Cloudsway intelligent search API to provide web search functionality.",
+            "zh_Hans": "一个集成 Cloudsway 智能搜索 API 的 Dify 工具插件，支持网页检索功能。"
+        },
+        "category": "tool",
+        "icon": "cloudsway/packages/smartseach/_assets/icon.png",
+        "index_id": "cloudsway___smartseach",
+        "install_count": 313,
+        "label": {
+            "en_US": "Smartsearch",
+            "zh_Hans": "智能搜索"
+        },
+        "latest_package_identifier": "cloudsway/smartseach:0.0.1@ac75ec9ef162a5d68df973ca7af870b6b8ed83cb3a496ba5d412b144666dd593",
+        "latest_version": "0.0.1",
+        "name": "smartseach",
+        "org": "cloudsway",
+        "plugin_id": "cloudsway/smartseach",
+        "plugins": {
+            "agent_strategies": null,
+            "endpoints": null,
+            "models": null,
+            "tools": [
+                "provider/smartseach.yaml"
+            ]
+        },
+        "privacy_options": "",
+        "privacy_policy": "PRIVACY.md",
+        "repository": "https://cloudsway.com/",
+        "status": "active",
+        "tags": [
+            {
+                "name": "search"
+            }
+        ],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "community"
+        },
+        "version_updated_at": "2025-08-19T01:13:43Z"
+    },
+    {
+        "badges": [],
+        "brief": {
             "en_US": "A Slack tool plugin for posting messages to channels or threads, with mrkdwn formatting.",
             "ja_JP": "チャンネルやスレッドへのメッセージ投稿を行う、mrkdwn形式の表示に対応したSlackツールプラグイン。",
             "pt_BR": "Um plugin de ferramenta do Slack para postar mensagens em canais ou threads, com suporte à formatação mrkdwn.",
@@ -11017,7 +11103,7 @@
         "category": "tool",
         "icon": "solaoi/packages/slack-post/_assets/icon.svg",
         "index_id": "solaoi___slack-post",
-        "install_count": 310,
+        "install_count": 312,
         "label": {
             "en_US": "Slack Post",
             "ja_JP": "Slack Post",
@@ -11054,48 +11140,6 @@
             "authorized_category": "community"
         },
         "version_updated_at": "2025-05-31T20:24:37Z"
-    },
-    {
-        "badges": [],
-        "brief": {
-            "en_US": "A Dify tool plugin that integrates with the remote Cloudsway intelligent search API to provide web search functionality.",
-            "zh_Hans": "一个集成 Cloudsway 智能搜索 API 的 Dify 工具插件，支持网页检索功能。"
-        },
-        "category": "tool",
-        "icon": "cloudsway/packages/smartseach/_assets/icon.png",
-        "index_id": "cloudsway___smartseach",
-        "install_count": 310,
-        "label": {
-            "en_US": "Smartsearch",
-            "zh_Hans": "智能搜索"
-        },
-        "latest_package_identifier": "cloudsway/smartseach:0.0.1@ac75ec9ef162a5d68df973ca7af870b6b8ed83cb3a496ba5d412b144666dd593",
-        "latest_version": "0.0.1",
-        "name": "smartseach",
-        "org": "cloudsway",
-        "plugin_id": "cloudsway/smartseach",
-        "plugins": {
-            "agent_strategies": null,
-            "endpoints": null,
-            "models": null,
-            "tools": [
-                "provider/smartseach.yaml"
-            ]
-        },
-        "privacy_options": "",
-        "privacy_policy": "PRIVACY.md",
-        "repository": "https://cloudsway.com/",
-        "status": "active",
-        "tags": [
-            {
-                "name": "search"
-            }
-        ],
-        "type": "plugin",
-        "verification": {
-            "authorized_category": "community"
-        },
-        "version_updated_at": "2025-08-19T01:13:43Z"
     },
     {
         "badges": [],
@@ -11149,7 +11193,7 @@
         "category": "tool",
         "icon": "scrapelesshq/packages/deep_serpapi/_assets/icon.svg",
         "index_id": "scrapelesshq___deep_serpapi",
-        "install_count": 306,
+        "install_count": 307,
         "label": {
             "en_US": "Deep SerpApi",
             "pt_BR": "Deep SerpApi",
@@ -11190,7 +11234,7 @@
         "category": "tool",
         "icon": "zxp088/packages/rabbitmq/_assets/icon_1.svg",
         "index_id": "zxp088___rabbitmq",
-        "install_count": 304,
+        "install_count": 306,
         "label": {
             "en_US": "RabbitMQ Plugin",
             "ja_JP": "RabbitMQ プラグイン",
@@ -11220,49 +11264,6 @@
             "authorized_category": "community"
         },
         "version_updated_at": "2025-06-25T05:37:17Z"
-    },
-    {
-        "badges": [],
-        "brief": {
-            "en_US": "AI text-to-image generation plugin powered by OpenRouter API with multiple models support (Gemini, Claude)",
-            "zh_Hans": "基于 OpenRouter API 的 AI 文生图插件，支持多种模型（Gemini、Claude）"
-        },
-        "category": "tool",
-        "icon": "wwwzhouhui/packages/nano_banana_text2image/_assets/icon.svg",
-        "index_id": "wwwzhouhui___nano_banana_text2image",
-        "install_count": 304,
-        "label": {
-            "en_US": "Nano Banana Text2Image",
-            "zh_Hans": "Nano Banana 文生图"
-        },
-        "latest_package_identifier": "wwwzhouhui/nano_banana_text2image:0.0.3@a331524d0d5e81acde980b8ffd70759d33de6e7a70f3581be41e215444357e59",
-        "latest_version": "0.0.3",
-        "name": "nano_banana_text2image",
-        "org": "wwwzhouhui",
-        "plugin_id": "wwwzhouhui/nano_banana_text2image",
-        "plugins": {
-            "agent_strategies": null,
-            "datasources": null,
-            "endpoints": null,
-            "models": null,
-            "tools": [
-                "provider/nano_banana.yaml"
-            ]
-        },
-        "privacy_options": "",
-        "privacy_policy": "",
-        "repository": null,
-        "status": "active",
-        "tags": [
-            {
-                "name": "productivity"
-            }
-        ],
-        "type": "plugin",
-        "verification": {
-            "authorized_category": "community"
-        },
-        "version_updated_at": "2025-09-05T10:03:39Z"
     },
     {
         "badges": [],
@@ -11395,7 +11396,7 @@
         "category": "tool",
         "icon": "dts/packages/dts/_assets/dts.svg",
         "index_id": "dts___dts",
-        "install_count": 293,
+        "install_count": 294,
         "label": {
             "en_US": "Alibaba Cloud DTS",
             "ja_JP": "Alibaba Cloud DTS",
@@ -11523,7 +11524,7 @@
         "category": "tool",
         "icon": "fernvenue/packages/meilisearch/_assets/icon.svg",
         "index_id": "fernvenue___meilisearch",
-        "install_count": 282,
+        "install_count": 283,
         "label": {
             "en_US": "Meilisearch",
             "zh_Hans": "Meilisearch"
@@ -11896,6 +11897,48 @@
     {
         "badges": [],
         "brief": {
+            "en_US": "Yidun content detection tool can conduct content security detection on input texts/images to ensure content compliance and avoid risks of content violations.",
+            "ja_JP": "Yidun content detection tool can conduct content security detection on input texts/images to ensure content compliance and avoid risks of content violations.",
+            "pt_BR": "Yidun content detection tool can conduct content security detection on input texts/images to ensure content compliance and avoid risks of content violations.",
+            "zh_Hans": "易盾内容检测组件可针对输入文本/图片进行内容安全检测，保障内容合规，规避内容违规风险。"
+        },
+        "category": "tool",
+        "icon": "yidun/packages/yidun-content-security/_assets/yidun.png",
+        "index_id": "yidun___yidun-content-security",
+        "install_count": 248,
+        "label": {
+            "en_US": "yidun content security check",
+            "ja_JP": "yidun content security check",
+            "pt_BR": "yidun content security check",
+            "zh_Hans": "易盾内容安全检测"
+        },
+        "latest_package_identifier": "yidun/yidun-content-security:0.0.3@76699cef62b1a17b799f27b1a76674199a2904cc17e2587d569aa7942940ebbd",
+        "latest_version": "0.0.3",
+        "name": "yidun-content-security",
+        "org": "yidun",
+        "plugin_id": "yidun/yidun-content-security",
+        "plugins": {
+            "agent_strategies": null,
+            "endpoints": null,
+            "models": null,
+            "tools": [
+                "provider/yidun-content-security.yaml"
+            ]
+        },
+        "privacy_options": "",
+        "privacy_policy": "PRIVACY.md",
+        "repository": null,
+        "status": "active",
+        "tags": [],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "community"
+        },
+        "version_updated_at": "2025-06-27T03:13:56Z"
+    },
+    {
+        "badges": [],
+        "brief": {
             "en_US": "Comprehensive GitHub repository analysis and insights tool.",
             "ja_JP": "GitHubリポジトリを包括的なインテリジェンスと洞察で分析します。",
             "pt_BR": "Analise repositórios GitHub com inteligência abrangente e insights.",
@@ -11934,48 +11977,6 @@
             "authorized_category": "community"
         },
         "version_updated_at": "2025-06-27T08:51:24Z"
-    },
-    {
-        "badges": [],
-        "brief": {
-            "en_US": "Yidun content detection tool can conduct content security detection on input texts/images to ensure content compliance and avoid risks of content violations.",
-            "ja_JP": "Yidun content detection tool can conduct content security detection on input texts/images to ensure content compliance and avoid risks of content violations.",
-            "pt_BR": "Yidun content detection tool can conduct content security detection on input texts/images to ensure content compliance and avoid risks of content violations.",
-            "zh_Hans": "易盾内容检测组件可针对输入文本/图片进行内容安全检测，保障内容合规，规避内容违规风险。"
-        },
-        "category": "tool",
-        "icon": "yidun/packages/yidun-content-security/_assets/yidun.png",
-        "index_id": "yidun___yidun-content-security",
-        "install_count": 247,
-        "label": {
-            "en_US": "yidun content security check",
-            "ja_JP": "yidun content security check",
-            "pt_BR": "yidun content security check",
-            "zh_Hans": "易盾内容安全检测"
-        },
-        "latest_package_identifier": "yidun/yidun-content-security:0.0.3@76699cef62b1a17b799f27b1a76674199a2904cc17e2587d569aa7942940ebbd",
-        "latest_version": "0.0.3",
-        "name": "yidun-content-security",
-        "org": "yidun",
-        "plugin_id": "yidun/yidun-content-security",
-        "plugins": {
-            "agent_strategies": null,
-            "endpoints": null,
-            "models": null,
-            "tools": [
-                "provider/yidun-content-security.yaml"
-            ]
-        },
-        "privacy_options": "",
-        "privacy_policy": "PRIVACY.md",
-        "repository": null,
-        "status": "active",
-        "tags": [],
-        "type": "plugin",
-        "verification": {
-            "authorized_category": "community"
-        },
-        "version_updated_at": "2025-06-27T03:13:56Z"
     },
     {
         "badges": [],
@@ -12237,7 +12238,7 @@
         "category": "tool",
         "icon": "edtechools/packages/mattermost/_assets/icon.svg",
         "index_id": "edtechools___mattermost",
-        "install_count": 233,
+        "install_count": 234,
         "label": {
             "en_US": "Mattermost",
             "ja_JP": "Mattermost",
@@ -12278,6 +12279,48 @@
     {
         "badges": [],
         "brief": {
+            "en_US": "Provides research report data services for the A-share market.",
+            "zh_Hans": "提供A股市场研究报告相关数据服务。"
+        },
+        "category": "tool",
+        "icon": "investoday/packages/research-report/_assets/logo.svg",
+        "index_id": "investoday___research-report",
+        "install_count": 234,
+        "label": {
+            "en_US": "InvestToday Research Report",
+            "zh_Hans": "今日投资数据-研报类"
+        },
+        "latest_package_identifier": "investoday/research-report:1.1.0@c29599343ed98a4027060b82330d1d58891323b3acedd8ff86a4b8c11cb1e43d",
+        "latest_version": "1.1.0",
+        "name": "research-report",
+        "org": "investoday",
+        "plugin_id": "investoday/research-report",
+        "plugins": {
+            "agent_strategies": null,
+            "endpoints": null,
+            "models": null,
+            "tools": [
+                "provider/sdk_base.yaml"
+            ]
+        },
+        "privacy_options": "",
+        "privacy_policy": "PRIVACY.md",
+        "repository": null,
+        "status": "active",
+        "tags": [
+            {
+                "name": "finance"
+            }
+        ],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "community"
+        },
+        "version_updated_at": "2025-08-15T09:42:50Z"
+    },
+    {
+        "badges": [],
+        "brief": {
             "en_US": "Manage your tasks using Microsoft Todo API — create, retrieve, delete, and mark tasks as completed.",
             "ja_JP": "Microsoft Todo APIを使ってタスクを管理します。作成、取得、削除、完了のマークが可能です。",
             "pt_BR": "Gerencie suas tarefas com a API Microsoft Todo — criar, buscar, excluir e concluir tarefas.",
@@ -12286,7 +12329,7 @@
         "category": "tool",
         "icon": "ayush3941/packages/microsoft_todo/_assets/icon.png",
         "index_id": "ayush3941___microsoft_todo",
-        "install_count": 232,
+        "install_count": 233,
         "label": {
             "en_US": "Microsoft Todo",
             "ja_JP": "マイクロソフトTodo",
@@ -12362,44 +12405,45 @@
     {
         "badges": [],
         "brief": {
-            "en_US": "Provides research report data services for the A-share market.",
-            "zh_Hans": "提供A股市场研究报告相关数据服务。"
+            "en_US": "Parent-child Chunk Structure",
+            "ja_JP": "Parent-child Chunk Structure",
+            "pt_BR": "Parent-child Chunk Structure",
+            "zh_Hans": "Parent-child Chunk Structure"
         },
         "category": "tool",
-        "icon": "investoday/packages/research-report/_assets/logo.svg",
-        "index_id": "investoday___research-report",
-        "install_count": 230,
+        "icon": "langgenius/packages/parentchild_chunker/_assets/icon.svg",
+        "index_id": "langgenius___parentchild_chunker",
+        "install_count": 232,
         "label": {
-            "en_US": "InvestToday Research Report",
-            "zh_Hans": "今日投资数据-研报类"
+            "en_US": "Parent-child Chunker",
+            "ja_JP": "Parent-child Chunker",
+            "pt_BR": "Parent-child Chunker",
+            "zh_Hans": "父子文本分块"
         },
-        "latest_package_identifier": "investoday/research-report:1.1.0@c29599343ed98a4027060b82330d1d58891323b3acedd8ff86a4b8c11cb1e43d",
-        "latest_version": "1.1.0",
-        "name": "research-report",
-        "org": "investoday",
-        "plugin_id": "investoday/research-report",
+        "latest_package_identifier": "langgenius/parentchild_chunker:0.0.6@50a70c751b226e4b5452fa449565f4af0d21f9d36aa517b3f3d59bfbc1fec5ce",
+        "latest_version": "0.0.6",
+        "name": "parentchild_chunker",
+        "org": "langgenius",
+        "plugin_id": "langgenius/parentchild_chunker",
         "plugins": {
             "agent_strategies": null,
+            "datasources": null,
             "endpoints": null,
             "models": null,
             "tools": [
-                "provider/sdk_base.yaml"
+                "provider/parent_child_chunk.yaml"
             ]
         },
         "privacy_options": "",
         "privacy_policy": "PRIVACY.md",
         "repository": null,
         "status": "active",
-        "tags": [
-            {
-                "name": "finance"
-            }
-        ],
+        "tags": [],
         "type": "plugin",
         "verification": {
-            "authorized_category": "community"
+            "authorized_category": "langgenius"
         },
-        "version_updated_at": "2025-08-15T09:42:50Z"
+        "version_updated_at": "2025-09-04T09:13:53Z"
     },
     {
         "badges": [],
@@ -12412,7 +12456,7 @@
         "category": "tool",
         "icon": "r3-yamauchi/packages/kintone_integration/_assets/icon.svg",
         "index_id": "r3-yamauchi___kintone_integration",
-        "install_count": 229,
+        "install_count": 230,
         "label": {
             "en_US": "kintone_integration",
             "ja_JP": "kintone_integration",
@@ -12488,13 +12532,54 @@
     {
         "badges": [],
         "brief": {
+            "en_US": "General text chunking mode, the chunks retrieved and recalled are the same.",
+            "pt_BR": "General text chunking mode, the chunks retrieved and recalled are the same.",
+            "zh_Hans": "通用文本分块模式，检索和召回的块是相同的。"
+        },
+        "category": "tool",
+        "icon": "langgenius/packages/general_chunker/_assets/icon.svg",
+        "index_id": "langgenius___general_chunker",
+        "install_count": 226,
+        "label": {
+            "en_US": "General Chunker",
+            "pt_BR": "General Chunker",
+            "zh_Hans": "通用文本分块"
+        },
+        "latest_package_identifier": "langgenius/general_chunker:0.0.5@59f690516b12780f454e9b659186d37823a026f61a6b2fe36d730858bb52453c",
+        "latest_version": "0.0.5",
+        "name": "general_chunker",
+        "org": "langgenius",
+        "plugin_id": "langgenius/general_chunker",
+        "plugins": {
+            "agent_strategies": null,
+            "datasources": null,
+            "endpoints": null,
+            "models": null,
+            "tools": [
+                "provider/general_chunk.yaml"
+            ]
+        },
+        "privacy_options": "",
+        "privacy_policy": "",
+        "repository": null,
+        "status": "active",
+        "tags": [],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "langgenius"
+        },
+        "version_updated_at": "2025-09-04T09:14:21Z"
+    },
+    {
+        "badges": [],
+        "brief": {
             "en_US": "Call Dubbo services through direct connection or service discovery via registry centers like ZooKeeper or Nacos.",
             "zh_Hans": "通过直连或使用ZooKeeper、Nacos等注册中心调用Dubbo服务。"
         },
         "category": "tool",
         "icon": "dify/packages/dubboinvoker/_assets/icon.svg",
         "index_id": "dify___dubboinvoker",
-        "install_count": 221,
+        "install_count": 222,
         "label": {
             "en_US": "Dubbo Invoker",
             "zh_Hans": "Dubbo调用器"
@@ -12526,6 +12611,51 @@
             "authorized_category": "community"
         },
         "version_updated_at": "2025-06-11T10:03:35Z"
+    },
+    {
+        "badges": [],
+        "brief": {
+            "en_US": "Q&A chunking processor.",
+            "pt_BR": "Q&A chunking processor.",
+            "zh_Hans": "Q&A 分块处理器。"
+        },
+        "category": "tool",
+        "icon": "langgenius/packages/qa_chunk/_assets/icon.svg",
+        "index_id": "langgenius___qa_chunk",
+        "install_count": 221,
+        "label": {
+            "en_US": "Q&A Processor",
+            "pt_BR": "Q&A Processor",
+            "zh_Hans": "Q&A 处理器"
+        },
+        "latest_package_identifier": "langgenius/qa_chunk:0.0.6@8825192b07fa88a794c0f63dd2d986041bfe1569d946f78181c898a907a60964",
+        "latest_version": "0.0.6",
+        "name": "qa_chunk",
+        "org": "langgenius",
+        "plugin_id": "langgenius/qa_chunk",
+        "plugins": {
+            "agent_strategies": null,
+            "datasources": null,
+            "endpoints": null,
+            "models": null,
+            "tools": [
+                "provider/qa_chunk.yaml"
+            ]
+        },
+        "privacy_options": "",
+        "privacy_policy": "",
+        "repository": null,
+        "status": "active",
+        "tags": [
+            {
+                "name": "utilities"
+            }
+        ],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "langgenius"
+        },
+        "version_updated_at": "2025-09-04T09:14:39Z"
     },
     {
         "badges": [],
@@ -12664,7 +12794,7 @@
         "category": "tool",
         "icon": "langgenius/packages/dify-gmail/_assets/icon.svg",
         "index_id": "langgenius___dify-gmail",
-        "install_count": 215,
+        "install_count": 217,
         "label": {
             "en_US": "Gmail",
             "ja_JP": "Gmail",
@@ -12704,7 +12834,7 @@
         "category": "tool",
         "icon": "investoday/packages/base/_assets/logo.svg",
         "index_id": "investoday___base",
-        "install_count": 214,
+        "install_count": 216,
         "label": {
             "en_US": "InvestToday Base",
             "zh_Hans": "今日投资数据-基本类"
@@ -12868,7 +12998,7 @@
         "category": "tool",
         "icon": "stvlynn/packages/edgeone/_assets/icon.png",
         "index_id": "stvlynn___edgeone",
-        "install_count": 195,
+        "install_count": 197,
         "label": {
             "en_US": "EdgeOne Pages",
             "ja_JP": "EdgeOne Pages",
@@ -13028,31 +13158,28 @@
     {
         "badges": [],
         "brief": {
-            "en_US": "Q&A chunking processor.",
-            "pt_BR": "Q&A chunking processor.",
-            "zh_Hans": "Q&A 分块处理器。"
+            "en_US": "Google Calendar integration for managing events, calendars, and scheduling",
+            "zh_Hans": "Google日历集成，用于管理事件、日历和日程安排"
         },
         "category": "tool",
-        "icon": "langgenius/packages/qa_chunk/_assets/icon.svg",
-        "index_id": "langgenius___qa_chunk",
-        "install_count": 184,
+        "icon": "langgenius/packages/google_calendar/_assets/icon.png",
+        "index_id": "langgenius___google_calendar",
+        "install_count": 183,
         "label": {
-            "en_US": "Q&A Processor",
-            "pt_BR": "Q&A Processor",
-            "zh_Hans": "Q&A 处理器"
+            "en_US": "Google Calendar",
+            "zh_Hans": "谷歌日历"
         },
-        "latest_package_identifier": "langgenius/qa_chunk:0.0.6@8825192b07fa88a794c0f63dd2d986041bfe1569d946f78181c898a907a60964",
-        "latest_version": "0.0.6",
-        "name": "qa_chunk",
+        "latest_package_identifier": "langgenius/google_calendar:0.1.0@5b328d5a2a5ce71404bcff598304920d02fe43a87ede54f30ebe0230ab31bc23",
+        "latest_version": "0.1.0",
+        "name": "google_calendar",
         "org": "langgenius",
-        "plugin_id": "langgenius/qa_chunk",
+        "plugin_id": "langgenius/google_calendar",
         "plugins": {
             "agent_strategies": null,
-            "datasources": null,
             "endpoints": null,
             "models": null,
             "tools": [
-                "provider/qa_chunk.yaml"
+                "provider/google_calendar.yaml"
             ]
         },
         "privacy_options": "",
@@ -13068,50 +13195,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2025-09-04T09:14:39Z"
-    },
-    {
-        "badges": [],
-        "brief": {
-            "en_US": "Parent-child Chunk Structure",
-            "ja_JP": "Parent-child Chunk Structure",
-            "pt_BR": "Parent-child Chunk Structure",
-            "zh_Hans": "Parent-child Chunk Structure"
-        },
-        "category": "tool",
-        "icon": "langgenius/packages/parentchild_chunker/_assets/icon.svg",
-        "index_id": "langgenius___parentchild_chunker",
-        "install_count": 182,
-        "label": {
-            "en_US": "Parent-child Chunker",
-            "ja_JP": "Parent-child Chunker",
-            "pt_BR": "Parent-child Chunker",
-            "zh_Hans": "父子文本分块"
-        },
-        "latest_package_identifier": "langgenius/parentchild_chunker:0.0.6@50a70c751b226e4b5452fa449565f4af0d21f9d36aa517b3f3d59bfbc1fec5ce",
-        "latest_version": "0.0.6",
-        "name": "parentchild_chunker",
-        "org": "langgenius",
-        "plugin_id": "langgenius/parentchild_chunker",
-        "plugins": {
-            "agent_strategies": null,
-            "datasources": null,
-            "endpoints": null,
-            "models": null,
-            "tools": [
-                "provider/parent_child_chunk.yaml"
-            ]
-        },
-        "privacy_options": "",
-        "privacy_policy": "PRIVACY.md",
-        "repository": null,
-        "status": "active",
-        "tags": [],
-        "type": "plugin",
-        "verification": {
-            "authorized_category": "langgenius"
-        },
-        "version_updated_at": "2025-09-04T09:13:53Z"
+        "version_updated_at": "2025-08-07T13:48:16Z"
     },
     {
         "badges": [],
@@ -13158,85 +13242,44 @@
     {
         "badges": [],
         "brief": {
-            "en_US": "Google Calendar integration for managing events, calendars, and scheduling",
-            "zh_Hans": "Google日历集成，用于管理事件、日历和日程安排"
+            "en_US": "Download images from URLs",
+            "ja_JP": "URLから画像をダウンロード",
+            "pt_BR": "Baixar imagens a partir de URLs",
+            "zh_Hans": "从URL下载图片"
         },
         "category": "tool",
-        "icon": "langgenius/packages/google_calendar/_assets/icon.png",
-        "index_id": "langgenius___google_calendar",
-        "install_count": 180,
+        "icon": "lzfxxx/packages/image-downloader/_assets/icon.svg",
+        "index_id": "lzfxxx___image-downloader",
+        "install_count": 175,
         "label": {
-            "en_US": "Google Calendar",
-            "zh_Hans": "谷歌日历"
+            "en_US": "Image Downloader",
+            "ja_JP": "画像ダウンローダー",
+            "pt_BR": "Baixador de Imagens",
+            "zh_Hans": "图片下载器"
         },
-        "latest_package_identifier": "langgenius/google_calendar:0.1.0@5b328d5a2a5ce71404bcff598304920d02fe43a87ede54f30ebe0230ab31bc23",
-        "latest_version": "0.1.0",
-        "name": "google_calendar",
-        "org": "langgenius",
-        "plugin_id": "langgenius/google_calendar",
+        "latest_package_identifier": "lzfxxx/image-downloader:0.0.1@ed870936bc915d620df8cbcdecf992cb22e5790bfddc73fe828d7db711bcc074",
+        "latest_version": "0.0.1",
+        "name": "image-downloader",
+        "org": "lzfxxx",
+        "plugin_id": "lzfxxx/image-downloader",
         "plugins": {
             "agent_strategies": null,
             "endpoints": null,
             "models": null,
             "tools": [
-                "provider/google_calendar.yaml"
+                "provider/image-downloader.yaml"
             ]
         },
         "privacy_options": "",
-        "privacy_policy": "",
-        "repository": null,
-        "status": "active",
-        "tags": [
-            {
-                "name": "utilities"
-            }
-        ],
-        "type": "plugin",
-        "verification": {
-            "authorized_category": "langgenius"
-        },
-        "version_updated_at": "2025-08-07T13:48:16Z"
-    },
-    {
-        "badges": [],
-        "brief": {
-            "en_US": "General text chunking mode, the chunks retrieved and recalled are the same.",
-            "pt_BR": "General text chunking mode, the chunks retrieved and recalled are the same.",
-            "zh_Hans": "通用文本分块模式，检索和召回的块是相同的。"
-        },
-        "category": "tool",
-        "icon": "langgenius/packages/general_chunker/_assets/icon.svg",
-        "index_id": "langgenius___general_chunker",
-        "install_count": 179,
-        "label": {
-            "en_US": "General Chunker",
-            "pt_BR": "General Chunker",
-            "zh_Hans": "通用文本分块"
-        },
-        "latest_package_identifier": "langgenius/general_chunker:0.0.5@59f690516b12780f454e9b659186d37823a026f61a6b2fe36d730858bb52453c",
-        "latest_version": "0.0.5",
-        "name": "general_chunker",
-        "org": "langgenius",
-        "plugin_id": "langgenius/general_chunker",
-        "plugins": {
-            "agent_strategies": null,
-            "datasources": null,
-            "endpoints": null,
-            "models": null,
-            "tools": [
-                "provider/general_chunk.yaml"
-            ]
-        },
-        "privacy_options": "",
-        "privacy_policy": "",
+        "privacy_policy": "PRIVACY.md",
         "repository": null,
         "status": "active",
         "tags": [],
         "type": "plugin",
         "verification": {
-            "authorized_category": "langgenius"
+            "authorized_category": "community"
         },
-        "version_updated_at": "2025-09-04T09:14:21Z"
+        "version_updated_at": "2025-09-01T10:40:04Z"
     },
     {
         "badges": [],
@@ -13315,48 +13358,6 @@
     {
         "badges": [],
         "brief": {
-            "en_US": "Download images from URLs",
-            "ja_JP": "URLから画像をダウンロード",
-            "pt_BR": "Baixar imagens a partir de URLs",
-            "zh_Hans": "从URL下载图片"
-        },
-        "category": "tool",
-        "icon": "lzfxxx/packages/image-downloader/_assets/icon.svg",
-        "index_id": "lzfxxx___image-downloader",
-        "install_count": 170,
-        "label": {
-            "en_US": "Image Downloader",
-            "ja_JP": "画像ダウンローダー",
-            "pt_BR": "Baixador de Imagens",
-            "zh_Hans": "图片下载器"
-        },
-        "latest_package_identifier": "lzfxxx/image-downloader:0.0.1@ed870936bc915d620df8cbcdecf992cb22e5790bfddc73fe828d7db711bcc074",
-        "latest_version": "0.0.1",
-        "name": "image-downloader",
-        "org": "lzfxxx",
-        "plugin_id": "lzfxxx/image-downloader",
-        "plugins": {
-            "agent_strategies": null,
-            "endpoints": null,
-            "models": null,
-            "tools": [
-                "provider/image-downloader.yaml"
-            ]
-        },
-        "privacy_options": "",
-        "privacy_policy": "PRIVACY.md",
-        "repository": null,
-        "status": "active",
-        "tags": [],
-        "type": "plugin",
-        "verification": {
-            "authorized_category": "community"
-        },
-        "version_updated_at": "2025-09-01T10:40:04Z"
-    },
-    {
-        "badges": [],
-        "brief": {
             "en_US": "Dify plugin for understanding,drawing chemical reactions between different molecules.",
             "ja_JP": "Dify plugin for understanding,drawing chemical reactions between different molecules.",
             "pt_BR": "Dify plugin for understanding,drawing chemical reactions between different molecules.",
@@ -13414,7 +13415,7 @@
         "category": "tool",
         "icon": "fotor/packages/fotor_ai/_assets/icon.svg",
         "index_id": "fotor___fotor_ai",
-        "install_count": 160,
+        "install_count": 161,
         "label": {
             "en_US": "Fotor AI",
             "ja_JP": "Fotor AI",
@@ -13451,6 +13452,47 @@
             "authorized_category": "community"
         },
         "version_updated_at": "2025-06-13T01:41:57Z"
+    },
+    {
+        "badges": [],
+        "brief": {
+            "en_US": "AI text-to-image generation plugin powered by ModelScope Qwen-Image"
+        },
+        "category": "tool",
+        "icon": "wwwzhouhui/packages/qwen_text2image/_assets/icon.svg",
+        "index_id": "wwwzhouhui___qwen_text2image",
+        "install_count": 154,
+        "label": {
+            "en_US": "Qwen Text2Image"
+        },
+        "latest_package_identifier": "wwwzhouhui/qwen_text2image:0.0.1@aebecb05189043a3e9f84e3d2d115f46475df43b75454c982a678252c6f2cc15",
+        "latest_version": "0.0.1",
+        "name": "qwen_text2image",
+        "org": "wwwzhouhui",
+        "plugin_id": "wwwzhouhui/qwen_text2image",
+        "plugins": {
+            "agent_strategies": null,
+            "datasources": null,
+            "endpoints": null,
+            "models": null,
+            "tools": [
+                "provider/modelscope.yaml"
+            ]
+        },
+        "privacy_options": "",
+        "privacy_policy": "",
+        "repository": null,
+        "status": "active",
+        "tags": [
+            {
+                "name": "image"
+            }
+        ],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "community"
+        },
+        "version_updated_at": "2025-09-04T12:35:15Z"
     },
     {
         "badges": [],
@@ -13535,6 +13577,44 @@
     {
         "badges": [],
         "brief": {
+            "en_US": "Personal Developer's Workflow WeChat Payment Service",
+            "zh_Hans": "个人开发者的工作对话流微信收款服务"
+        },
+        "category": "tool",
+        "icon": "hjlarry/packages/small_pay/_assets/icon.svg",
+        "index_id": "hjlarry___small_pay",
+        "install_count": 148,
+        "label": {
+            "en_US": "Small Pay",
+            "zh_Hans": "小支付"
+        },
+        "latest_package_identifier": "hjlarry/small_pay:0.0.3@2be9f7b449876a63979fe804dde650458066dafa422039399e16807d98c26f9c",
+        "latest_version": "0.0.3",
+        "name": "small_pay",
+        "org": "hjlarry",
+        "plugin_id": "hjlarry/small_pay",
+        "plugins": {
+            "agent_strategies": null,
+            "endpoints": null,
+            "models": null,
+            "tools": [
+                "provider/small_pay.yaml"
+            ]
+        },
+        "privacy_options": "",
+        "privacy_policy": "PRIVACY.md",
+        "repository": null,
+        "status": "active",
+        "tags": [],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "community"
+        },
+        "version_updated_at": "2025-07-14T06:05:57Z"
+    },
+    {
+        "badges": [],
+        "brief": {
             "en_US": "Azure AI Content Safety Container for Text and Image Moderation",
             "zh_Hans": "Azure AI Content Safety Container for Text and Image Moderation"
         },
@@ -13573,44 +13653,6 @@
     {
         "badges": [],
         "brief": {
-            "en_US": "Personal Developer's Workflow WeChat Payment Service",
-            "zh_Hans": "个人开发者的工作对话流微信收款服务"
-        },
-        "category": "tool",
-        "icon": "hjlarry/packages/small_pay/_assets/icon.svg",
-        "index_id": "hjlarry___small_pay",
-        "install_count": 142,
-        "label": {
-            "en_US": "Small Pay",
-            "zh_Hans": "小支付"
-        },
-        "latest_package_identifier": "hjlarry/small_pay:0.0.3@2be9f7b449876a63979fe804dde650458066dafa422039399e16807d98c26f9c",
-        "latest_version": "0.0.3",
-        "name": "small_pay",
-        "org": "hjlarry",
-        "plugin_id": "hjlarry/small_pay",
-        "plugins": {
-            "agent_strategies": null,
-            "endpoints": null,
-            "models": null,
-            "tools": [
-                "provider/small_pay.yaml"
-            ]
-        },
-        "privacy_options": "",
-        "privacy_policy": "PRIVACY.md",
-        "repository": null,
-        "status": "active",
-        "tags": [],
-        "type": "plugin",
-        "verification": {
-            "authorized_category": "community"
-        },
-        "version_updated_at": "2025-07-14T06:05:57Z"
-    },
-    {
-        "badges": [],
-        "brief": {
             "en_US": "Copy the latest docs and code for any library — paste into Cursor, Claude, or other LLMs.",
             "ja_JP": "任意のライブラリの最新ドキュメントとコードをコピー — Cursor、Claude、または他のLLMに貼り付けます。",
             "pt_BR": "Copie os documentos e código mais recentes de qualquer biblioteca — cole no Cursor, Claude ou outros LLMs.",
@@ -13619,7 +13661,7 @@
         "category": "tool",
         "icon": "streamlinedstartup/packages/context7/_assets/icon.svg",
         "index_id": "streamlinedstartup___context7",
-        "install_count": 142,
+        "install_count": 143,
         "label": {
             "en_US": "Context7",
             "ja_JP": "Context7",
@@ -13913,7 +13955,7 @@
         "category": "tool",
         "icon": "apro/packages/apro_ai_oracle/_assets/icon.svg",
         "index_id": "apro___apro_ai_oracle",
-        "install_count": 121,
+        "install_count": 122,
         "label": {
             "en_US": "APRO AI oracle",
             "ja_JP": "APRO AI oracle",
@@ -13985,47 +14027,6 @@
             "authorized_category": "community"
         },
         "version_updated_at": "2025-04-15T18:38:05Z"
-    },
-    {
-        "badges": [],
-        "brief": {
-            "en_US": "AI text-to-image generation plugin powered by ModelScope Qwen-Image"
-        },
-        "category": "tool",
-        "icon": "wwwzhouhui/packages/qwen_text2image/_assets/icon.svg",
-        "index_id": "wwwzhouhui___qwen_text2image",
-        "install_count": 119,
-        "label": {
-            "en_US": "Qwen Text2Image"
-        },
-        "latest_package_identifier": "wwwzhouhui/qwen_text2image:0.0.1@aebecb05189043a3e9f84e3d2d115f46475df43b75454c982a678252c6f2cc15",
-        "latest_version": "0.0.1",
-        "name": "qwen_text2image",
-        "org": "wwwzhouhui",
-        "plugin_id": "wwwzhouhui/qwen_text2image",
-        "plugins": {
-            "agent_strategies": null,
-            "datasources": null,
-            "endpoints": null,
-            "models": null,
-            "tools": [
-                "provider/modelscope.yaml"
-            ]
-        },
-        "privacy_options": "",
-        "privacy_policy": "",
-        "repository": null,
-        "status": "active",
-        "tags": [
-            {
-                "name": "image"
-            }
-        ],
-        "type": "plugin",
-        "verification": {
-            "authorized_category": "community"
-        },
-        "version_updated_at": "2025-09-04T12:35:15Z"
     },
     {
         "badges": [],
@@ -14291,7 +14292,7 @@
         "category": "tool",
         "icon": "gaurav0651/packages/webhook_sender/_assets/icon.svg",
         "index_id": "gaurav0651___webhook_sender",
-        "install_count": 103,
+        "install_count": 105,
         "label": {
             "en_US": "webhook_sender",
             "ja_JP": "webhook_sender",
@@ -14321,6 +14322,131 @@
             "authorized_category": "community"
         },
         "version_updated_at": "2025-08-27T05:32:46Z"
+    },
+    {
+        "badges": [],
+        "brief": {
+            "en_US": "EdgeTTS text-to-speech plugin powered by EdgeTTS API with local file storage"
+        },
+        "category": "tool",
+        "icon": "wwwzhouhui/packages/free_edgetts/_assets/icon.svg",
+        "index_id": "wwwzhouhui___free_edgetts",
+        "install_count": 105,
+        "label": {
+            "en_US": "EdgeTTS"
+        },
+        "latest_package_identifier": "wwwzhouhui/free_edgetts:0.0.1@b6d5c81821a7b5c57194668c858c17b4b65ebc0f4c29e4f7dd35a88e7a42b07c",
+        "latest_version": "0.0.1",
+        "name": "free_edgetts",
+        "org": "wwwzhouhui",
+        "plugin_id": "wwwzhouhui/free_edgetts",
+        "plugins": {
+            "agent_strategies": null,
+            "datasources": null,
+            "endpoints": null,
+            "models": null,
+            "tools": [
+                "provider/edgetts.yaml"
+            ]
+        },
+        "privacy_options": "",
+        "privacy_policy": "",
+        "repository": null,
+        "status": "active",
+        "tags": [
+            {
+                "name": "utilities"
+            }
+        ],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "community"
+        },
+        "version_updated_at": "2025-09-04T12:57:45Z"
+    },
+    {
+        "badges": [],
+        "brief": {
+            "en_US": "Suitable for event-driven quantitative strategies, major event monitoring, compliance information disclosure review and investment advisory interpretation scenarios that have rigid requirements for real-time analysis and historical traceability of listed company announcements.",
+            "zh_Hans": "适用于事件驱动量化策略、重大事项监控、合规信息披露审核与投顾解读等对上市公司公告实时解析和历史追溯有刚需的场景。"
+        },
+        "category": "tool",
+        "icon": "investoday/packages/announcement/_assets/logo.svg",
+        "index_id": "investoday___announcement",
+        "install_count": 101,
+        "label": {
+            "en_US": "InvestToday Announcement",
+            "zh_Hans": "今日投资数据-公告类"
+        },
+        "latest_package_identifier": "investoday/announcement:1.1.0@d12d871e698e8707672b7217226820399c5810cc679b0e305e94e8b03dd11a35",
+        "latest_version": "1.1.0",
+        "name": "announcement",
+        "org": "investoday",
+        "plugin_id": "investoday/announcement",
+        "plugins": {
+            "agent_strategies": null,
+            "endpoints": null,
+            "models": null,
+            "tools": [
+                "provider/sdk_base.yaml"
+            ]
+        },
+        "privacy_options": "",
+        "privacy_policy": "PRIVACY.md",
+        "repository": null,
+        "status": "active",
+        "tags": [
+            {
+                "name": "finance"
+            }
+        ],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "community"
+        },
+        "version_updated_at": "2025-08-29T08:31:39Z"
+    },
+    {
+        "badges": [],
+        "brief": {
+            "en_US": "A powerful academic paper search tool with multiple search modes and advanced features.",
+            "ja_JP": "複数の検索モードと高度な機能を備えた強力な学術論文検索ツール。",
+            "pt_BR": "Uma poderosa ferramenta de busca de artigos acadêmicos com múltiplos modos de pesquisa e recursos avançados.",
+            "zh_Hans": "具有多种搜索模式和高级功能的强大学术论文搜索工具。"
+        },
+        "category": "tool",
+        "icon": "dp/packages/bohrium-tool-paper/_assets/icon.svg",
+        "index_id": "dp___bohrium-tool-paper",
+        "install_count": 100,
+        "label": {
+            "en_US": "Bohrium Paper Search Tool",
+            "ja_JP": "Bohrium論文検索ツール",
+            "pt_BR": "Ferramenta de Busca de Artigos Bohrium",
+            "zh_Hans": "Bohrium论文搜索工具"
+        },
+        "latest_package_identifier": "dp/bohrium-tool-paper:0.0.1@e6a9136ebb6248482a5c97ec63019abe16352037ffc7bff0f24ccd4d02fa27d6",
+        "latest_version": "0.0.1",
+        "name": "bohrium-tool-paper",
+        "org": "dp",
+        "plugin_id": "dp/bohrium-tool-paper",
+        "plugins": {
+            "agent_strategies": null,
+            "endpoints": null,
+            "models": null,
+            "tools": [
+                "provider/openapi-tool-paper.yaml"
+            ]
+        },
+        "privacy_options": "",
+        "privacy_policy": "PRIVACY.md",
+        "repository": null,
+        "status": "active",
+        "tags": [],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "community"
+        },
+        "version_updated_at": "2025-09-01T10:40:17Z"
     },
     {
         "badges": [],
@@ -14409,90 +14535,6 @@
     {
         "badges": [],
         "brief": {
-            "en_US": "Suitable for event-driven quantitative strategies, major event monitoring, compliance information disclosure review and investment advisory interpretation scenarios that have rigid requirements for real-time analysis and historical traceability of listed company announcements.",
-            "zh_Hans": "适用于事件驱动量化策略、重大事项监控、合规信息披露审核与投顾解读等对上市公司公告实时解析和历史追溯有刚需的场景。"
-        },
-        "category": "tool",
-        "icon": "investoday/packages/announcement/_assets/logo.svg",
-        "index_id": "investoday___announcement",
-        "install_count": 98,
-        "label": {
-            "en_US": "InvestToday Announcement",
-            "zh_Hans": "今日投资数据-公告类"
-        },
-        "latest_package_identifier": "investoday/announcement:1.1.0@d12d871e698e8707672b7217226820399c5810cc679b0e305e94e8b03dd11a35",
-        "latest_version": "1.1.0",
-        "name": "announcement",
-        "org": "investoday",
-        "plugin_id": "investoday/announcement",
-        "plugins": {
-            "agent_strategies": null,
-            "endpoints": null,
-            "models": null,
-            "tools": [
-                "provider/sdk_base.yaml"
-            ]
-        },
-        "privacy_options": "",
-        "privacy_policy": "PRIVACY.md",
-        "repository": null,
-        "status": "active",
-        "tags": [
-            {
-                "name": "finance"
-            }
-        ],
-        "type": "plugin",
-        "verification": {
-            "authorized_category": "community"
-        },
-        "version_updated_at": "2025-08-29T08:31:39Z"
-    },
-    {
-        "badges": [],
-        "brief": {
-            "en_US": "A powerful academic paper search tool with multiple search modes and advanced features.",
-            "ja_JP": "複数の検索モードと高度な機能を備えた強力な学術論文検索ツール。",
-            "pt_BR": "Uma poderosa ferramenta de busca de artigos acadêmicos com múltiplos modos de pesquisa e recursos avançados.",
-            "zh_Hans": "具有多种搜索模式和高级功能的强大学术论文搜索工具。"
-        },
-        "category": "tool",
-        "icon": "dp/packages/bohrium-tool-paper/_assets/icon.svg",
-        "index_id": "dp___bohrium-tool-paper",
-        "install_count": 98,
-        "label": {
-            "en_US": "Bohrium Paper Search Tool",
-            "ja_JP": "Bohrium論文検索ツール",
-            "pt_BR": "Ferramenta de Busca de Artigos Bohrium",
-            "zh_Hans": "Bohrium论文搜索工具"
-        },
-        "latest_package_identifier": "dp/bohrium-tool-paper:0.0.1@e6a9136ebb6248482a5c97ec63019abe16352037ffc7bff0f24ccd4d02fa27d6",
-        "latest_version": "0.0.1",
-        "name": "bohrium-tool-paper",
-        "org": "dp",
-        "plugin_id": "dp/bohrium-tool-paper",
-        "plugins": {
-            "agent_strategies": null,
-            "endpoints": null,
-            "models": null,
-            "tools": [
-                "provider/openapi-tool-paper.yaml"
-            ]
-        },
-        "privacy_options": "",
-        "privacy_policy": "PRIVACY.md",
-        "repository": null,
-        "status": "active",
-        "tags": [],
-        "type": "plugin",
-        "verification": {
-            "authorized_category": "community"
-        },
-        "version_updated_at": "2025-09-01T10:40:17Z"
-    },
-    {
-        "badges": [],
-        "brief": {
             "en_US": "Pushover plugin for sending notifications",
             "ja_JP": "通知送信用のPushoverプラグイン"
         },
@@ -14531,13 +14573,55 @@
     {
         "badges": [],
         "brief": {
+            "en_US": "A Server-Sent Events (SSE) request tool for Dify workflows. Establishes long connections to receive real-time event streams from servers with support for authentication, custom headers, and automatic retry mechanisms.",
+            "ja_JP": "DifyワークフローのためのServer-Sent Events（SSE）リクエストツール。認証、カスタムヘッダー、自動再試行メカニズムをサポートし、サーバーからリアルタイムイベントストリームを受信するための長時間接続を確立します。",
+            "pt_BR": "Uma ferramenta de solicitação Server-Sent Events (SSE) para fluxos de trabalho Dify. Estabelece conexões longas para receber fluxos de eventos em tempo real de servidores com suporte para autenticação, cabeçalhos personalizados e mecanismos de repetição automática.",
+            "zh_Hans": "为Dify工作流设计的Server-Sent Events（SSE）请求工具。支持建立长连接接收服务器实时事件流，具备认证、自定义头部和自动重试机制。"
+        },
+        "category": "tool",
+        "icon": "tdcktz/packages/sse_request_tool/_assets/icon.svg",
+        "index_id": "tdcktz___sse_request_tool",
+        "install_count": 96,
+        "label": {
+            "en_US": "SSE Request Tool",
+            "ja_JP": "SSEリクエストツール",
+            "pt_BR": "Ferramenta de Solicitação SSE",
+            "zh_Hans": "SSE请求工具"
+        },
+        "latest_package_identifier": "tdcktz/sse_request_tool:0.0.5@b0a640e42e520200d0c34857e33003a96fd1b4bbd25abaeca4472f92aca7789d",
+        "latest_version": "0.0.5",
+        "name": "sse_request_tool",
+        "org": "tdcktz",
+        "plugin_id": "tdcktz/sse_request_tool",
+        "plugins": {
+            "agent_strategies": null,
+            "endpoints": null,
+            "models": null,
+            "tools": [
+                "provider/dify_sse_node_plugin.yaml"
+            ]
+        },
+        "privacy_options": "",
+        "privacy_policy": "PRIVACY.md",
+        "repository": "https://github.com/JAVA-LW/dify_sse_node_plugin",
+        "status": "active",
+        "tags": [],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "community"
+        },
+        "version_updated_at": "2025-08-21T15:16:37Z"
+    },
+    {
+        "badges": [],
+        "brief": {
             "en_US": "Twitter social media platform integration for posting tweets, liking posts, and managing Twitter interactions",
             "zh_Hans": "推特社交媒体平台集成，用于发布推文、点赞帖子和管理推特互动"
         },
         "category": "tool",
         "icon": "langgenius/packages/twitter/_assets/icon.jpg",
         "index_id": "langgenius___twitter",
-        "install_count": 94,
+        "install_count": 95,
         "label": {
             "en_US": "Twitter",
             "zh_Hans": "推特"
@@ -14569,6 +14653,48 @@
             "authorized_category": "langgenius"
         },
         "version_updated_at": "2025-08-08T00:37:45Z"
+    },
+    {
+        "badges": [],
+        "brief": {
+            "en_US": "Suitable for macro asset allocation, index enhancement strategies, ETF construction, benchmark comparison analysis, and volatility risk management scenarios that require real-time and long-cycle index data.",
+            "zh_Hans": "适用于宏观资产配置、指数增强策略、ETF 构建、基准对标分析与波动率风险管理等对实时及长周期指数数据有需求的场景。"
+        },
+        "category": "tool",
+        "icon": "investoday/packages/index/_assets/logo.svg",
+        "index_id": "investoday___index",
+        "install_count": 94,
+        "label": {
+            "en_US": "InvestToday Index",
+            "zh_Hans": "今日投资数据-指数类"
+        },
+        "latest_package_identifier": "investoday/index:1.1.0@7661015983456adbf477f3184aed4c60330df762771f4e6a4cea29964481bb1b",
+        "latest_version": "1.1.0",
+        "name": "index",
+        "org": "investoday",
+        "plugin_id": "investoday/index",
+        "plugins": {
+            "agent_strategies": null,
+            "endpoints": null,
+            "models": null,
+            "tools": [
+                "provider/sdk_base.yaml"
+            ]
+        },
+        "privacy_options": "",
+        "privacy_policy": "PRIVACY.md",
+        "repository": null,
+        "status": "active",
+        "tags": [
+            {
+                "name": "finance"
+            }
+        ],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "community"
+        },
+        "version_updated_at": "2025-09-01T07:57:38Z"
     },
     {
         "badges": [],
@@ -14615,6 +14741,49 @@
     {
         "badges": [],
         "brief": {
+            "en_US": "unstructured",
+            "ja_JP": "unstructured",
+            "pt_BR": "unstructured",
+            "zh_Hans": "unstructured"
+        },
+        "category": "tool",
+        "icon": "langgenius/packages/unstructured/_assets/icon.svg",
+        "index_id": "langgenius___unstructured",
+        "install_count": 92,
+        "label": {
+            "en_US": "Unstructured",
+            "ja_JP": "Unstructured",
+            "pt_BR": "Unstructured",
+            "zh_Hans": "Unstructured"
+        },
+        "latest_package_identifier": "langgenius/unstructured:0.0.2@4f50f6b7d571dc05cadfb7417b4176136664e79b6e757188837d88c1942b9932",
+        "latest_version": "0.0.2",
+        "name": "unstructured",
+        "org": "langgenius",
+        "plugin_id": "langgenius/unstructured",
+        "plugins": {
+            "agent_strategies": null,
+            "datasources": null,
+            "endpoints": null,
+            "models": null,
+            "tools": [
+                "provider/unstructured.yaml"
+            ]
+        },
+        "privacy_options": "",
+        "privacy_policy": "PRIVACY.md",
+        "repository": null,
+        "status": "active",
+        "tags": [],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "langgenius"
+        },
+        "version_updated_at": "2025-09-04T09:14:49Z"
+    },
+    {
+        "badges": [],
+        "brief": {
             "en_US": "Simple audio mixing tools to enrich your podcasts and music.",
             "ja_JP": "ポッドキャストや音楽を豊かにするシンプルな音声ミキシングツール集。",
             "pt_BR": "Ferramentas simples de mixagem de áudio para enriquecer seus podcasts e músicas.",
@@ -14650,90 +14819,6 @@
             "authorized_category": "community"
         },
         "version_updated_at": "2025-08-17T15:46:24Z"
-    },
-    {
-        "badges": [],
-        "brief": {
-            "en_US": "A Server-Sent Events (SSE) request tool for Dify workflows. Establishes long connections to receive real-time event streams from servers with support for authentication, custom headers, and automatic retry mechanisms.",
-            "ja_JP": "DifyワークフローのためのServer-Sent Events（SSE）リクエストツール。認証、カスタムヘッダー、自動再試行メカニズムをサポートし、サーバーからリアルタイムイベントストリームを受信するための長時間接続を確立します。",
-            "pt_BR": "Uma ferramenta de solicitação Server-Sent Events (SSE) para fluxos de trabalho Dify. Estabelece conexões longas para receber fluxos de eventos em tempo real de servidores com suporte para autenticação, cabeçalhos personalizados e mecanismos de repetição automática.",
-            "zh_Hans": "为Dify工作流设计的Server-Sent Events（SSE）请求工具。支持建立长连接接收服务器实时事件流，具备认证、自定义头部和自动重试机制。"
-        },
-        "category": "tool",
-        "icon": "tdcktz/packages/sse_request_tool/_assets/icon.svg",
-        "index_id": "tdcktz___sse_request_tool",
-        "install_count": 90,
-        "label": {
-            "en_US": "SSE Request Tool",
-            "ja_JP": "SSEリクエストツール",
-            "pt_BR": "Ferramenta de Solicitação SSE",
-            "zh_Hans": "SSE请求工具"
-        },
-        "latest_package_identifier": "tdcktz/sse_request_tool:0.0.5@b0a640e42e520200d0c34857e33003a96fd1b4bbd25abaeca4472f92aca7789d",
-        "latest_version": "0.0.5",
-        "name": "sse_request_tool",
-        "org": "tdcktz",
-        "plugin_id": "tdcktz/sse_request_tool",
-        "plugins": {
-            "agent_strategies": null,
-            "endpoints": null,
-            "models": null,
-            "tools": [
-                "provider/dify_sse_node_plugin.yaml"
-            ]
-        },
-        "privacy_options": "",
-        "privacy_policy": "PRIVACY.md",
-        "repository": "https://github.com/JAVA-LW/dify_sse_node_plugin",
-        "status": "active",
-        "tags": [],
-        "type": "plugin",
-        "verification": {
-            "authorized_category": "community"
-        },
-        "version_updated_at": "2025-08-21T15:16:37Z"
-    },
-    {
-        "badges": [],
-        "brief": {
-            "en_US": "Suitable for macro asset allocation, index enhancement strategies, ETF construction, benchmark comparison analysis, and volatility risk management scenarios that require real-time and long-cycle index data.",
-            "zh_Hans": "适用于宏观资产配置、指数增强策略、ETF 构建、基准对标分析与波动率风险管理等对实时及长周期指数数据有需求的场景。"
-        },
-        "category": "tool",
-        "icon": "investoday/packages/index/_assets/logo.svg",
-        "index_id": "investoday___index",
-        "install_count": 90,
-        "label": {
-            "en_US": "InvestToday Index",
-            "zh_Hans": "今日投资数据-指数类"
-        },
-        "latest_package_identifier": "investoday/index:1.1.0@7661015983456adbf477f3184aed4c60330df762771f4e6a4cea29964481bb1b",
-        "latest_version": "1.1.0",
-        "name": "index",
-        "org": "investoday",
-        "plugin_id": "investoday/index",
-        "plugins": {
-            "agent_strategies": null,
-            "endpoints": null,
-            "models": null,
-            "tools": [
-                "provider/sdk_base.yaml"
-            ]
-        },
-        "privacy_options": "",
-        "privacy_policy": "PRIVACY.md",
-        "repository": null,
-        "status": "active",
-        "tags": [
-            {
-                "name": "finance"
-            }
-        ],
-        "type": "plugin",
-        "verification": {
-            "authorized_category": "community"
-        },
-        "version_updated_at": "2025-09-01T07:57:38Z"
     },
     {
         "badges": [],
@@ -14940,47 +15025,6 @@
     {
         "badges": [],
         "brief": {
-            "en_US": "EdgeTTS text-to-speech plugin powered by EdgeTTS API with local file storage"
-        },
-        "category": "tool",
-        "icon": "wwwzhouhui/packages/free_edgetts/_assets/icon.svg",
-        "index_id": "wwwzhouhui___free_edgetts",
-        "install_count": 79,
-        "label": {
-            "en_US": "EdgeTTS"
-        },
-        "latest_package_identifier": "wwwzhouhui/free_edgetts:0.0.1@b6d5c81821a7b5c57194668c858c17b4b65ebc0f4c29e4f7dd35a88e7a42b07c",
-        "latest_version": "0.0.1",
-        "name": "free_edgetts",
-        "org": "wwwzhouhui",
-        "plugin_id": "wwwzhouhui/free_edgetts",
-        "plugins": {
-            "agent_strategies": null,
-            "datasources": null,
-            "endpoints": null,
-            "models": null,
-            "tools": [
-                "provider/edgetts.yaml"
-            ]
-        },
-        "privacy_options": "",
-        "privacy_policy": "",
-        "repository": null,
-        "status": "active",
-        "tags": [
-            {
-                "name": "utilities"
-            }
-        ],
-        "type": "plugin",
-        "verification": {
-            "authorized_category": "community"
-        },
-        "version_updated_at": "2025-09-04T12:57:45Z"
-    },
-    {
-        "badges": [],
-        "brief": {
             "en_US": "An UEBA plugin that allows you enhance AI threat detection easily.",
             "ja_JP": "An UEBA plugin that allows you enhance AI threat detection easily.",
             "pt_BR": "An UEBA plugin that allows you enhance AI threat detection easily.",
@@ -15027,45 +15071,44 @@
     {
         "badges": [],
         "brief": {
-            "en_US": "unstructured",
-            "ja_JP": "unstructured",
-            "pt_BR": "unstructured",
-            "zh_Hans": "unstructured"
+            "en_US": "Jiandaoyun is a no-code application building platform that allows users to create customized systems like CRM, ERP, OA, project management, and inventory management without using code",
+            "ja_JP": "ジァンドーユンはノーコードアプリ構築プラットフォームで、ユーザーがCRM、ERP、OA、プロジェクト管理、在庫管理などのカスタマイズされたシステムをコードを使わずに作成できる",
+            "pt_BR": "Jiandaoyun é uma plataforma de construção de aplicativos sem código que permite aos usuários criar sistemas personalizados como CRM, ERP, OA, gerenciamento de projetos e gerenciamento de inventário sem usar código",
+            "zh_Hans": "简道云是一个无代码应用搭建平台，用户无需编写代码即可创建CRM、ERP、OA、项目管理、库存管理等定制化系统。"
         },
         "category": "tool",
-        "icon": "langgenius/packages/unstructured/_assets/icon.svg",
-        "index_id": "langgenius___unstructured",
-        "install_count": 72,
+        "icon": "langgenius/packages/jiandaoyun/_assets/logo.svg",
+        "index_id": "langgenius___jiandaoyun",
+        "install_count": 71,
         "label": {
-            "en_US": "Unstructured",
-            "ja_JP": "Unstructured",
-            "pt_BR": "Unstructured",
-            "zh_Hans": "Unstructured"
+            "en_US": "jiandaoyun",
+            "ja_JP": "jiandaoyun",
+            "pt_BR": "jiandaoyun",
+            "zh_Hans": "简道云"
         },
-        "latest_package_identifier": "langgenius/unstructured:0.0.2@4f50f6b7d571dc05cadfb7417b4176136664e79b6e757188837d88c1942b9932",
-        "latest_version": "0.0.2",
-        "name": "unstructured",
+        "latest_package_identifier": "langgenius/jiandaoyun:0.0.1@1520f771a2564733b47aca28a1ec62f7855f4528037683db3ab0dd28977d74c8",
+        "latest_version": "0.0.1",
+        "name": "jiandaoyun",
         "org": "langgenius",
-        "plugin_id": "langgenius/unstructured",
+        "plugin_id": "langgenius/jiandaoyun",
         "plugins": {
             "agent_strategies": null,
-            "datasources": null,
             "endpoints": null,
             "models": null,
             "tools": [
-                "provider/unstructured.yaml"
+                "provider/jiandaoyun.yaml"
             ]
         },
         "privacy_options": "",
-        "privacy_policy": "PRIVACY.md",
-        "repository": null,
+        "privacy_policy": "",
+        "repository": "https://github.com/freezetheflame/dify_jiandaoyun_plugin",
         "status": "active",
         "tags": [],
         "type": "plugin",
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2025-09-04T09:14:49Z"
+        "version_updated_at": "2025-09-02T02:58:15Z"
     },
     {
         "badges": [],
@@ -15106,48 +15149,6 @@
             "authorized_category": "community"
         },
         "version_updated_at": "2025-08-27T05:08:32Z"
-    },
-    {
-        "badges": [],
-        "brief": {
-            "en_US": "Jiandaoyun is a no-code application building platform that allows users to create customized systems like CRM, ERP, OA, project management, and inventory management without using code",
-            "ja_JP": "ジァンドーユンはノーコードアプリ構築プラットフォームで、ユーザーがCRM、ERP、OA、プロジェクト管理、在庫管理などのカスタマイズされたシステムをコードを使わずに作成できる",
-            "pt_BR": "Jiandaoyun é uma plataforma de construção de aplicativos sem código que permite aos usuários criar sistemas personalizados como CRM, ERP, OA, gerenciamento de projetos e gerenciamento de inventário sem usar código",
-            "zh_Hans": "简道云是一个无代码应用搭建平台，用户无需编写代码即可创建CRM、ERP、OA、项目管理、库存管理等定制化系统。"
-        },
-        "category": "tool",
-        "icon": "langgenius/packages/jiandaoyun/_assets/logo.svg",
-        "index_id": "langgenius___jiandaoyun",
-        "install_count": 70,
-        "label": {
-            "en_US": "jiandaoyun",
-            "ja_JP": "jiandaoyun",
-            "pt_BR": "jiandaoyun",
-            "zh_Hans": "简道云"
-        },
-        "latest_package_identifier": "langgenius/jiandaoyun:0.0.1@1520f771a2564733b47aca28a1ec62f7855f4528037683db3ab0dd28977d74c8",
-        "latest_version": "0.0.1",
-        "name": "jiandaoyun",
-        "org": "langgenius",
-        "plugin_id": "langgenius/jiandaoyun",
-        "plugins": {
-            "agent_strategies": null,
-            "endpoints": null,
-            "models": null,
-            "tools": [
-                "provider/jiandaoyun.yaml"
-            ]
-        },
-        "privacy_options": "",
-        "privacy_policy": "",
-        "repository": "https://github.com/freezetheflame/dify_jiandaoyun_plugin",
-        "status": "active",
-        "tags": [],
-        "type": "plugin",
-        "verification": {
-            "authorized_category": "langgenius"
-        },
-        "version_updated_at": "2025-09-02T02:58:15Z"
     },
     {
         "badges": [],
@@ -15226,6 +15227,45 @@
             "authorized_category": "langgenius"
         },
         "version_updated_at": "2025-08-07T13:47:51Z"
+    },
+    {
+        "badges": [],
+        "brief": {
+            "en_US": "Small tools for working with Dify Knowledge API.",
+            "ja_JP": "Dify のナレッジ API を操作する小さなツール集。",
+            "pt_BR": "Pequenas ferramentas para trabalhar com a Dify Knowledge API.",
+            "zh_Hans": "用于操作 Dify Knowledge API 的小工具集。"
+        },
+        "category": "tool",
+        "icon": "kurokobo/packages/knowledge_toolbox/_assets/icon.svg",
+        "index_id": "kurokobo___knowledge_toolbox",
+        "install_count": 64,
+        "label": {
+            "en_US": "Knowledge Toolbox"
+        },
+        "latest_package_identifier": "kurokobo/knowledge_toolbox:0.0.3@6d96b685e8ba28c9a8b2f6367bbcb128d3d07c74b38dc67853fae8a28c15337c",
+        "latest_version": "0.0.3",
+        "name": "knowledge_toolbox",
+        "org": "kurokobo",
+        "plugin_id": "kurokobo/knowledge_toolbox",
+        "plugins": {
+            "agent_strategies": null,
+            "endpoints": null,
+            "models": null,
+            "tools": [
+                "provider/knowledge_toolbox.yaml"
+            ]
+        },
+        "privacy_options": "",
+        "privacy_policy": "PRIVACY.md",
+        "repository": "https://github.com/kurokobo/dify-plugin-collection",
+        "status": "active",
+        "tags": [],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "community"
+        },
+        "version_updated_at": "2025-08-15T05:39:51Z"
     },
     {
         "badges": [],
@@ -15360,7 +15400,7 @@
         "category": "tool",
         "icon": "pragnyan_ramtha/packages/google_books_explorer/_assets/icon.svg",
         "index_id": "pragnyan_ramtha___google_books_explorer",
-        "install_count": 56,
+        "install_count": 57,
         "label": {
             "en_US": "google_books_explorer",
             "ja_JP": "google_books_explorer",
@@ -15390,45 +15430,6 @@
             "authorized_category": "community"
         },
         "version_updated_at": "2025-07-01T15:44:29Z"
-    },
-    {
-        "badges": [],
-        "brief": {
-            "en_US": "Small tools for working with Dify Knowledge API.",
-            "ja_JP": "Dify のナレッジ API を操作する小さなツール集。",
-            "pt_BR": "Pequenas ferramentas para trabalhar com a Dify Knowledge API.",
-            "zh_Hans": "用于操作 Dify Knowledge API 的小工具集。"
-        },
-        "category": "tool",
-        "icon": "kurokobo/packages/knowledge_toolbox/_assets/icon.svg",
-        "index_id": "kurokobo___knowledge_toolbox",
-        "install_count": 55,
-        "label": {
-            "en_US": "Knowledge Toolbox"
-        },
-        "latest_package_identifier": "kurokobo/knowledge_toolbox:0.0.3@6d96b685e8ba28c9a8b2f6367bbcb128d3d07c74b38dc67853fae8a28c15337c",
-        "latest_version": "0.0.3",
-        "name": "knowledge_toolbox",
-        "org": "kurokobo",
-        "plugin_id": "kurokobo/knowledge_toolbox",
-        "plugins": {
-            "agent_strategies": null,
-            "endpoints": null,
-            "models": null,
-            "tools": [
-                "provider/knowledge_toolbox.yaml"
-            ]
-        },
-        "privacy_options": "",
-        "privacy_policy": "PRIVACY.md",
-        "repository": "https://github.com/kurokobo/dify-plugin-collection",
-        "status": "active",
-        "tags": [],
-        "type": "plugin",
-        "verification": {
-            "authorized_category": "community"
-        },
-        "version_updated_at": "2025-08-15T05:39:51Z"
     },
     {
         "badges": [],
@@ -15639,6 +15640,48 @@
     {
         "badges": [],
         "brief": {
+            "en_US": "Search or view video information on Bilibili",
+            "ja_JP": "Bilibili の動画を検索または動画情報を表示する",
+            "pt_BR": "Pesquisar ou visualizar informações de vídeo no Bilibili",
+            "zh_Hans": "在 Bilibili 上搜索视频或查看视频信息"
+        },
+        "category": "tool",
+        "icon": "jingfelix/packages/bilibili_search/_assets/icon.svg",
+        "index_id": "jingfelix___bilibili_search",
+        "install_count": 38,
+        "label": {
+            "en_US": "Bilibili Search",
+            "ja_JP": "Bilibili 検索",
+            "pt_BR": "Bilibili Pesquisa",
+            "zh_Hans": "Bilibili 搜索工具"
+        },
+        "latest_package_identifier": "jingfelix/bilibili_search:0.0.2@3474675aa96c42f9fc609eafb0ecc1f39dcf67fb3a1a1e25d8c179dcc122093e",
+        "latest_version": "0.0.2",
+        "name": "bilibili_search",
+        "org": "jingfelix",
+        "plugin_id": "jingfelix/bilibili_search",
+        "plugins": {
+            "agent_strategies": null,
+            "endpoints": null,
+            "models": null,
+            "tools": [
+                "provider/bilibili.yaml"
+            ]
+        },
+        "privacy_options": "",
+        "privacy_policy": "PRIVACY.md",
+        "repository": "",
+        "status": "active",
+        "tags": [],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "community"
+        },
+        "version_updated_at": "2025-08-07T13:50:37Z"
+    },
+    {
+        "badges": [],
+        "brief": {
             "en_US": "Manage your tasks with Google Tasks API",
             "zh_Hans": "使用 Google Tasks API 管理任务"
         },
@@ -15719,48 +15762,6 @@
             "authorized_category": "langgenius"
         },
         "version_updated_at": "2025-08-11T14:20:42Z"
-    },
-    {
-        "badges": [],
-        "brief": {
-            "en_US": "Search or view video information on Bilibili",
-            "ja_JP": "Bilibili の動画を検索または動画情報を表示する",
-            "pt_BR": "Pesquisar ou visualizar informações de vídeo no Bilibili",
-            "zh_Hans": "在 Bilibili 上搜索视频或查看视频信息"
-        },
-        "category": "tool",
-        "icon": "jingfelix/packages/bilibili_search/_assets/icon.svg",
-        "index_id": "jingfelix___bilibili_search",
-        "install_count": 32,
-        "label": {
-            "en_US": "Bilibili Search",
-            "ja_JP": "Bilibili 検索",
-            "pt_BR": "Bilibili Pesquisa",
-            "zh_Hans": "Bilibili 搜索工具"
-        },
-        "latest_package_identifier": "jingfelix/bilibili_search:0.0.2@3474675aa96c42f9fc609eafb0ecc1f39dcf67fb3a1a1e25d8c179dcc122093e",
-        "latest_version": "0.0.2",
-        "name": "bilibili_search",
-        "org": "jingfelix",
-        "plugin_id": "jingfelix/bilibili_search",
-        "plugins": {
-            "agent_strategies": null,
-            "endpoints": null,
-            "models": null,
-            "tools": [
-                "provider/bilibili.yaml"
-            ]
-        },
-        "privacy_options": "",
-        "privacy_policy": "PRIVACY.md",
-        "repository": "",
-        "status": "active",
-        "tags": [],
-        "type": "plugin",
-        "verification": {
-            "authorized_category": "community"
-        },
-        "version_updated_at": "2025-08-07T13:50:37Z"
     },
     {
         "badges": [],
