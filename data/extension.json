@@ -8,7 +8,7 @@
         "category": "extension",
         "icon": "hjlarry/packages/mcp-server/_assets/icon.svg",
         "index_id": "hjlarry___mcp-server",
-        "install_count": 33459,
+        "install_count": 33501,
         "label": {
             "en_US": "MCP server"
         },
@@ -45,7 +45,7 @@
         "category": "extension",
         "icon": "junjiem/packages/mcp_compat_dify_tools/_assets/icon.svg",
         "index_id": "junjiem___mcp_compat_dify_tools",
-        "install_count": 13430,
+        "install_count": 13438,
         "label": {
             "en_US": "MCP Compatible Dify Tools",
             "zh_Hans": "MCP Compatible Dify Tools"
@@ -85,7 +85,7 @@
         "category": "extension",
         "icon": "bikeread/packages/dify_wechat_plugin/_assets/icon.svg",
         "index_id": "bikeread___dify_wechat_plugin",
-        "install_count": 9616,
+        "install_count": 9638,
         "label": {
             "en_US": "Wechat Subscription Account",
             "ja_JP": "ウェチャットサブスクリプションアカウント",
@@ -125,7 +125,7 @@
         "category": "extension",
         "icon": "svcvit/packages/artifacts/_assets/icon.svg",
         "index_id": "svcvit___artifacts",
-        "install_count": 9332,
+        "install_count": 9339,
         "label": {
             "en_US": "Artifacts"
         },
@@ -164,7 +164,7 @@
         "category": "extension",
         "icon": "langgenius/packages/oaicompat_dify_app/_assets/icon.svg",
         "index_id": "langgenius___oaicompat_dify_app",
-        "install_count": 8445,
+        "install_count": 8463,
         "label": {
             "en_US": "OpenAI Compatible Dify App",
             "ja_JP": "OpenAI Compatible Dify App",
@@ -205,7 +205,7 @@
         "category": "extension",
         "icon": "perzeuss/packages/webhook/_assets/icon.svg",
         "index_id": "perzeuss___webhook",
-        "install_count": 7925,
+        "install_count": 7934,
         "label": {
             "en_US": "Webhook",
             "pt_BR": "Webhook",
@@ -248,7 +248,7 @@
         "category": "extension",
         "icon": "plutoless/packages/convoai/_assets/icon.svg",
         "index_id": "plutoless___convoai",
-        "install_count": 6110,
+        "install_count": 6120,
         "label": {
             "en_US": "Agora Conversational AI",
             "ja_JP": "Agora Conversational AI",
@@ -290,7 +290,7 @@
         "category": "extension",
         "icon": "langgenius/packages/oaicompat_dify_model/_assets/icon.svg",
         "index_id": "langgenius___oaicompat_dify_model",
-        "install_count": 4038,
+        "install_count": 4040,
         "label": {
             "en_US": "OpenAI Compatible Dify Models",
             "ja_JP": "OpenAI Compatible Dify Models",
@@ -332,7 +332,7 @@
         "category": "extension",
         "icon": "kevintsai/packages/linebot/_assets/LINE_Brand_icon.png",
         "index_id": "kevintsai___linebot",
-        "install_count": 2879,
+        "install_count": 2882,
         "label": {
             "en_US": "Line Bot",
             "ja_JP": "Line Bot",
@@ -372,7 +372,7 @@
         "category": "extension",
         "icon": "yeuoly/packages/waifu/_assets/waifu.gif",
         "index_id": "yeuoly___waifu",
-        "install_count": 2569,
+        "install_count": 2573,
         "label": {
             "en_US": "Waifu"
         },
@@ -408,7 +408,7 @@
         "category": "extension",
         "icon": "yt-koike/packages/cron/_assets/icon.svg",
         "index_id": "yt-koike___cron",
-        "install_count": 2395,
+        "install_count": 2401,
         "label": {
             "en_US": "Cron"
         },
@@ -447,7 +447,7 @@
         "category": "extension",
         "icon": "langgenius/packages/slack-bot/_assets/icon.svg",
         "index_id": "langgenius___slack-bot",
-        "install_count": 1925,
+        "install_count": 1931,
         "label": {
             "en_US": "Slack Bot",
             "ja_JP": "Slack Bot",
@@ -481,13 +481,53 @@
     {
         "badges": [],
         "brief": {
+            "en_US": "You can use this extension plugin to implement an API extension for content moderation, and you can customize keyword lists and separators, as well as strategies for keyword flagged.",
+            "ja_JP": "この拡張プラグインを使用して、センシティブコンテンツ審査のAPI拡張を実装できます。また、キーワードリストや区切り文字をカスタマイズしたり、キーワードがヒットした際のポリシーを設定したりすることも可能です。",
+            "zh_Hans": "你可以使用这个扩展插件来实现一个敏感内容审查的API扩展，并且你可以自定义关键词列表和分隔符，以及关键词命中后的策略。"
+        },
+        "category": "extension",
+        "icon": "leslie2046/packages/moderation/_assets/icon.png",
+        "index_id": "leslie2046___moderation",
+        "install_count": 1586,
+        "label": {
+            "en_US": "Moderation",
+            "ja_JP": "センシティブな内容の審査",
+            "zh_Hans": "敏感内容审查"
+        },
+        "latest_package_identifier": "leslie2046/moderation:0.0.2@bbb536dbe37d2d5898ef9860d07db1734aa4fff405910633aeb093f5fe7361df",
+        "latest_version": "0.0.2",
+        "name": "moderation",
+        "org": "leslie2046",
+        "plugin_id": "leslie2046/moderation",
+        "plugins": {
+            "agent_strategies": null,
+            "endpoints": [
+                "group/moderation.yaml"
+            ],
+            "models": null,
+            "tools": null
+        },
+        "privacy_options": "",
+        "privacy_policy": "PRIVACY.md",
+        "repository": "https://github.com/leslie2046/moderation_plugin",
+        "status": "active",
+        "tags": [],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "community"
+        },
+        "version_updated_at": "2025-07-31T11:09:59Z"
+    },
+    {
+        "badges": [],
+        "brief": {
             "en_US": "Neko is a cute cat.",
             "zh_Hans": "这是一只可爱的小猫。"
         },
         "category": "extension",
         "icon": "langgenius/packages/neko/_assets/neko.gif",
         "index_id": "langgenius___neko",
-        "install_count": 1582,
+        "install_count": 1583,
         "label": {
             "en_US": "Neko"
         },
@@ -521,46 +561,6 @@
     {
         "badges": [],
         "brief": {
-            "en_US": "You can use this extension plugin to implement an API extension for content moderation, and you can customize keyword lists and separators, as well as strategies for keyword flagged.",
-            "ja_JP": "この拡張プラグインを使用して、センシティブコンテンツ審査のAPI拡張を実装できます。また、キーワードリストや区切り文字をカスタマイズしたり、キーワードがヒットした際のポリシーを設定したりすることも可能です。",
-            "zh_Hans": "你可以使用这个扩展插件来实现一个敏感内容审查的API扩展，并且你可以自定义关键词列表和分隔符，以及关键词命中后的策略。"
-        },
-        "category": "extension",
-        "icon": "leslie2046/packages/moderation/_assets/icon.png",
-        "index_id": "leslie2046___moderation",
-        "install_count": 1578,
-        "label": {
-            "en_US": "Moderation",
-            "ja_JP": "センシティブな内容の審査",
-            "zh_Hans": "敏感内容审查"
-        },
-        "latest_package_identifier": "leslie2046/moderation:0.0.2@bbb536dbe37d2d5898ef9860d07db1734aa4fff405910633aeb093f5fe7361df",
-        "latest_version": "0.0.2",
-        "name": "moderation",
-        "org": "leslie2046",
-        "plugin_id": "leslie2046/moderation",
-        "plugins": {
-            "agent_strategies": null,
-            "endpoints": [
-                "group/moderation.yaml"
-            ],
-            "models": null,
-            "tools": null
-        },
-        "privacy_options": "",
-        "privacy_policy": "PRIVACY.md",
-        "repository": "https://github.com/leslie2046/moderation_plugin",
-        "status": "active",
-        "tags": [],
-        "type": "plugin",
-        "verification": {
-            "authorized_category": "community"
-        },
-        "version_updated_at": "2025-07-31T11:09:59Z"
-    },
-    {
-        "badges": [],
-        "brief": {
             "en_US": "Why not play Bad Apple with Dify?",
             "ja_JP": "Bad AppleをDifyで聴く",
             "pt_BR": "Por que não ouvir Bad Apple no Dify?",
@@ -569,7 +569,7 @@
         "category": "extension",
         "icon": "langgenius/packages/badapple/_assets/icon.jpeg",
         "index_id": "langgenius___badapple",
-        "install_count": 831,
+        "install_count": 832,
         "label": {
             "en_US": "Bad Apple",
             "ja_JP": "Bad Apple",
@@ -611,7 +611,7 @@
         "category": "extension",
         "icon": "langgenius/packages/llamacloud/_assets/icon.svg",
         "index_id": "langgenius___llamacloud",
-        "install_count": 827,
+        "install_count": 829,
         "label": {
             "en_US": "Llamacloud",
             "ja_JP": "Llamacloud",
@@ -737,7 +737,7 @@
         "category": "extension",
         "icon": "bytedance_vikingdb/packages/vikingdb_knowledge_base/_assets/icon.svg",
         "index_id": "bytedance_vikingdb___vikingdb_knowledge_base",
-        "install_count": 535,
+        "install_count": 537,
         "label": {
             "en_US": "Vikingdb Knowledge Base",
             "ja_JP": "Vikingdb Knowledge Base",
@@ -897,7 +897,7 @@
         "category": "extension",
         "icon": "hjlarry/packages/draw/_assets/icon.svg",
         "index_id": "hjlarry___draw",
-        "install_count": 294,
+        "install_count": 302,
         "label": {
             "en_US": "draw",
             "ja_JP": "draw",
@@ -939,7 +939,7 @@
         "category": "extension",
         "icon": "takada-at/packages/slack-bot2/_assets/icon-bot.svg",
         "index_id": "takada-at___slack-bot2",
-        "install_count": 58,
+        "install_count": 60,
         "label": {
             "en_US": "slack-bot2",
             "ja_JP": "slack-bot2",
