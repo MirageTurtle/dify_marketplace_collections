@@ -8,7 +8,7 @@
         "category": "extension",
         "icon": "hjlarry/packages/mcp-server/_assets/icon.svg",
         "index_id": "hjlarry___mcp-server",
-        "install_count": 34157,
+        "install_count": 34230,
         "label": {
             "en_US": "MCP server"
         },
@@ -45,7 +45,7 @@
         "category": "extension",
         "icon": "junjiem/packages/mcp_compat_dify_tools/_assets/icon.svg",
         "index_id": "junjiem___mcp_compat_dify_tools",
-        "install_count": 13646,
+        "install_count": 13675,
         "label": {
             "en_US": "MCP Compatible Dify Tools",
             "zh_Hans": "MCP Compatible Dify Tools"
@@ -85,7 +85,7 @@
         "category": "extension",
         "icon": "bikeread/packages/dify_wechat_plugin/_assets/icon.svg",
         "index_id": "bikeread___dify_wechat_plugin",
-        "install_count": 9855,
+        "install_count": 9876,
         "label": {
             "en_US": "Wechat Subscription Account",
             "ja_JP": "ウェチャットサブスクリプションアカウント",
@@ -125,7 +125,7 @@
         "category": "extension",
         "icon": "svcvit/packages/artifacts/_assets/icon.svg",
         "index_id": "svcvit___artifacts",
-        "install_count": 9508,
+        "install_count": 9537,
         "label": {
             "en_US": "Artifacts"
         },
@@ -164,7 +164,7 @@
         "category": "extension",
         "icon": "langgenius/packages/oaicompat_dify_app/_assets/icon.svg",
         "index_id": "langgenius___oaicompat_dify_app",
-        "install_count": 8677,
+        "install_count": 8719,
         "label": {
             "en_US": "OpenAI Compatible Dify App",
             "ja_JP": "OpenAI Compatible Dify App",
@@ -205,7 +205,7 @@
         "category": "extension",
         "icon": "perzeuss/packages/webhook/_assets/icon.svg",
         "index_id": "perzeuss___webhook",
-        "install_count": 8098,
+        "install_count": 8111,
         "label": {
             "en_US": "Webhook",
             "pt_BR": "Webhook",
@@ -248,7 +248,7 @@
         "category": "extension",
         "icon": "plutoless/packages/convoai/_assets/icon.svg",
         "index_id": "plutoless___convoai",
-        "install_count": 6258,
+        "install_count": 6271,
         "label": {
             "en_US": "Agora Conversational AI",
             "ja_JP": "Agora Conversational AI",
@@ -290,7 +290,7 @@
         "category": "extension",
         "icon": "langgenius/packages/oaicompat_dify_model/_assets/icon.svg",
         "index_id": "langgenius___oaicompat_dify_model",
-        "install_count": 4128,
+        "install_count": 4145,
         "label": {
             "en_US": "OpenAI Compatible Dify Models",
             "ja_JP": "OpenAI Compatible Dify Models",
@@ -332,7 +332,7 @@
         "category": "extension",
         "icon": "kevintsai/packages/linebot/_assets/LINE_Brand_icon.png",
         "index_id": "kevintsai___linebot",
-        "install_count": 2935,
+        "install_count": 2946,
         "label": {
             "en_US": "Line Bot",
             "ja_JP": "Line Bot",
@@ -372,7 +372,7 @@
         "category": "extension",
         "icon": "yeuoly/packages/waifu/_assets/waifu.gif",
         "index_id": "yeuoly___waifu",
-        "install_count": 2620,
+        "install_count": 2625,
         "label": {
             "en_US": "Waifu"
         },
@@ -408,7 +408,7 @@
         "category": "extension",
         "icon": "yt-koike/packages/cron/_assets/icon.svg",
         "index_id": "yt-koike___cron",
-        "install_count": 2500,
+        "install_count": 2520,
         "label": {
             "en_US": "Cron"
         },
@@ -447,7 +447,7 @@
         "category": "extension",
         "icon": "langgenius/packages/slack-bot/_assets/icon.svg",
         "index_id": "langgenius___slack-bot",
-        "install_count": 2006,
+        "install_count": 2013,
         "label": {
             "en_US": "Slack Bot",
             "ja_JP": "Slack Bot",
@@ -488,7 +488,7 @@
         "category": "extension",
         "icon": "leslie2046/packages/moderation/_assets/icon.png",
         "index_id": "leslie2046___moderation",
-        "install_count": 1700,
+        "install_count": 1711,
         "label": {
             "en_US": "Moderation",
             "ja_JP": "センシティブな内容の審査",
@@ -527,7 +527,7 @@
         "category": "extension",
         "icon": "langgenius/packages/neko/_assets/neko.gif",
         "index_id": "langgenius___neko",
-        "install_count": 1601,
+        "install_count": 1603,
         "label": {
             "en_US": "Neko"
         },
@@ -561,48 +561,6 @@
     {
         "badges": [],
         "brief": {
-            "en_US": "Why not play Bad Apple with Dify?",
-            "ja_JP": "Bad AppleをDifyで聴く",
-            "pt_BR": "Por que não ouvir Bad Apple no Dify?",
-            "zh_Hans": "为什么不在Dify上听Bad Apple？"
-        },
-        "category": "extension",
-        "icon": "langgenius/packages/badapple/_assets/icon.jpeg",
-        "index_id": "langgenius___badapple",
-        "install_count": 841,
-        "label": {
-            "en_US": "Bad Apple",
-            "ja_JP": "Bad Apple",
-            "pt_BR": "Bad Apple",
-            "zh_Hans": "Bad Apple"
-        },
-        "latest_package_identifier": "langgenius/badapple:0.0.1@6f08c8217649fc59c9285c0e2b2457a9db1585b11da132644a87a2a39c1d8a4b",
-        "latest_version": "0.0.1",
-        "name": "badapple",
-        "org": "langgenius",
-        "plugin_id": "langgenius/badapple",
-        "plugins": {
-            "agent_strategies": null,
-            "endpoints": [
-                "group/badapple.yaml"
-            ],
-            "models": null,
-            "tools": null
-        },
-        "privacy_options": "",
-        "privacy_policy": "",
-        "repository": "",
-        "status": "active",
-        "tags": [],
-        "type": "plugin",
-        "verification": {
-            "authorized_category": "langgenius"
-        },
-        "version_updated_at": "2025-02-17T07:19:17Z"
-    },
-    {
-        "badges": [],
-        "brief": {
             "en_US": "LlamaCloud client as API Endpoint to connect Dify External Knowledge Base",
             "ja_JP": "LlamaCloud client as API Endpoint to connect Dify External Knowledge Base",
             "pt_BR": "LlamaCloud client as API Endpoint to connect Dify External Knowledge Base",
@@ -611,7 +569,7 @@
         "category": "extension",
         "icon": "langgenius/packages/llamacloud/_assets/icon.svg",
         "index_id": "langgenius___llamacloud",
-        "install_count": 840,
+        "install_count": 843,
         "label": {
             "en_US": "Llamacloud",
             "ja_JP": "Llamacloud",
@@ -645,6 +603,48 @@
     {
         "badges": [],
         "brief": {
+            "en_US": "Why not play Bad Apple with Dify?",
+            "ja_JP": "Bad AppleをDifyで聴く",
+            "pt_BR": "Por que não ouvir Bad Apple no Dify?",
+            "zh_Hans": "为什么不在Dify上听Bad Apple？"
+        },
+        "category": "extension",
+        "icon": "langgenius/packages/badapple/_assets/icon.jpeg",
+        "index_id": "langgenius___badapple",
+        "install_count": 842,
+        "label": {
+            "en_US": "Bad Apple",
+            "ja_JP": "Bad Apple",
+            "pt_BR": "Bad Apple",
+            "zh_Hans": "Bad Apple"
+        },
+        "latest_package_identifier": "langgenius/badapple:0.0.1@6f08c8217649fc59c9285c0e2b2457a9db1585b11da132644a87a2a39c1d8a4b",
+        "latest_version": "0.0.1",
+        "name": "badapple",
+        "org": "langgenius",
+        "plugin_id": "langgenius/badapple",
+        "plugins": {
+            "agent_strategies": null,
+            "endpoints": [
+                "group/badapple.yaml"
+            ],
+            "models": null,
+            "tools": null
+        },
+        "privacy_options": "",
+        "privacy_policy": "",
+        "repository": "",
+        "status": "active",
+        "tags": [],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "langgenius"
+        },
+        "version_updated_at": "2025-02-17T07:19:17Z"
+    },
+    {
+        "badges": [],
+        "brief": {
             "en_US": "AWS Bedrock Knowledge Base API Endpoint for Dify External Knowledge Base",
             "ja_JP": "AWS Bedrock Knowledge Base API Endpoint for Dify External Knowledge Base",
             "pt_BR": "AWS Bedrock Knowledge Base API Endpoint for Dify External Knowledge Base",
@@ -653,7 +653,7 @@
         "category": "extension",
         "icon": "langgenius/packages/aws_bedrock_knowledge_base/_assets/icon.svg",
         "index_id": "langgenius___aws_bedrock_knowledge_base",
-        "install_count": 683,
+        "install_count": 684,
         "label": {
             "en_US": "Aws Bedrock Knowledge Base",
             "ja_JP": "Aws Bedrock Knowledge Base",
@@ -695,7 +695,7 @@
         "category": "extension",
         "icon": "bytedance_vikingdb/packages/vikingdb_knowledge_base/_assets/icon.svg",
         "index_id": "bytedance_vikingdb___vikingdb_knowledge_base",
-        "install_count": 553,
+        "install_count": 557,
         "label": {
             "en_US": "Vikingdb Knowledge Base",
             "ja_JP": "Vikingdb Knowledge Base",
@@ -737,7 +737,7 @@
         "category": "extension",
         "icon": "qz/packages/convoai/_assets/icon.svg",
         "index_id": "qz___convoai",
-        "install_count": 547,
+        "install_count": 550,
         "label": {
             "en_US": "Agora Conversational AI",
             "ja_JP": "Agora Conversational AI",
@@ -779,7 +779,7 @@
         "category": "extension",
         "icon": "solaoi/packages/slack-thread-bot/_assets/icon.svg",
         "index_id": "solaoi___slack-thread-bot",
-        "install_count": 467,
+        "install_count": 468,
         "label": {
             "en_US": "Slack Thread Bot",
             "ja_JP": "Slack Thread Bot",
@@ -821,7 +821,7 @@
         "category": "extension",
         "icon": "hjlarry/packages/draw/_assets/icon.svg",
         "index_id": "hjlarry___draw",
-        "install_count": 398,
+        "install_count": 412,
         "label": {
             "en_US": "draw",
             "ja_JP": "draw",
@@ -861,7 +861,7 @@
         "category": "extension",
         "icon": "zxi2002/packages/metastudio_dify_app/_assets/icon.svg",
         "index_id": "zxi2002___metastudio_dify_app",
-        "install_count": 353,
+        "install_count": 356,
         "label": {
             "en_US": "metastudio_dify_app",
             "zh_Hans": "metastudio_dify_app"
@@ -899,7 +899,7 @@
         "category": "extension",
         "icon": "zix2002/packages/metastudio_dify_app/_assets/icon.svg",
         "index_id": "zix2002___metastudio_dify_app",
-        "install_count": 332,
+        "install_count": 335,
         "label": {
             "en_US": "MetaStudio Compatible Dify App",
             "zh_Hans": "MetaStudio 兼容 Dify App"
@@ -939,7 +939,7 @@
         "category": "extension",
         "icon": "takada-at/packages/slack-bot2/_assets/icon-bot.svg",
         "index_id": "takada-at___slack-bot2",
-        "install_count": 67,
+        "install_count": 70,
         "label": {
             "en_US": "slack-bot2",
             "ja_JP": "slack-bot2",
