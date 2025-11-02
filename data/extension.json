@@ -8,7 +8,7 @@
         "category": "extension",
         "icon": "hjlarry/packages/mcp-server/_assets/icon.svg",
         "index_id": "hjlarry___mcp-server",
-        "install_count": 35201,
+        "install_count": 36643,
         "label": {
             "en_US": "MCP server"
         },
@@ -45,7 +45,7 @@
         "category": "extension",
         "icon": "junjiem/packages/mcp_compat_dify_tools/_assets/icon.svg",
         "index_id": "junjiem___mcp_compat_dify_tools",
-        "install_count": 13921,
+        "install_count": 14369,
         "label": {
             "en_US": "MCP Compatible Dify Tools",
             "zh_Hans": "MCP Compatible Dify Tools"
@@ -85,7 +85,7 @@
         "category": "extension",
         "icon": "bikeread/packages/dify_wechat_plugin/_assets/icon.svg",
         "index_id": "bikeread___dify_wechat_plugin",
-        "install_count": 10172,
+        "install_count": 10715,
         "label": {
             "en_US": "Wechat Subscription Account",
             "ja_JP": "ウェチャットサブスクリプションアカウント",
@@ -125,7 +125,7 @@
         "category": "extension",
         "icon": "svcvit/packages/artifacts/_assets/icon.svg",
         "index_id": "svcvit___artifacts",
-        "install_count": 9749,
+        "install_count": 10169,
         "label": {
             "en_US": "Artifacts"
         },
@@ -164,7 +164,7 @@
         "category": "extension",
         "icon": "langgenius/packages/oaicompat_dify_app/_assets/icon.svg",
         "index_id": "langgenius___oaicompat_dify_app",
-        "install_count": 9043,
+        "install_count": 9570,
         "label": {
             "en_US": "OpenAI Compatible Dify App",
             "ja_JP": "OpenAI Compatible Dify App",
@@ -205,7 +205,7 @@
         "category": "extension",
         "icon": "perzeuss/packages/webhook/_assets/icon.svg",
         "index_id": "perzeuss___webhook",
-        "install_count": 8349,
+        "install_count": 8710,
         "label": {
             "en_US": "Webhook",
             "pt_BR": "Webhook",
@@ -248,7 +248,7 @@
         "category": "extension",
         "icon": "plutoless/packages/convoai/_assets/icon.svg",
         "index_id": "plutoless___convoai",
-        "install_count": 6471,
+        "install_count": 6778,
         "label": {
             "en_US": "Agora Conversational AI",
             "ja_JP": "Agora Conversational AI",
@@ -290,7 +290,7 @@
         "category": "extension",
         "icon": "langgenius/packages/oaicompat_dify_model/_assets/icon.svg",
         "index_id": "langgenius___oaicompat_dify_model",
-        "install_count": 4242,
+        "install_count": 4444,
         "label": {
             "en_US": "OpenAI Compatible Dify Models",
             "ja_JP": "OpenAI Compatible Dify Models",
@@ -332,7 +332,7 @@
         "category": "extension",
         "icon": "kevintsai/packages/linebot/_assets/LINE_Brand_icon.png",
         "index_id": "kevintsai___linebot",
-        "install_count": 3075,
+        "install_count": 3213,
         "label": {
             "en_US": "Line Bot",
             "ja_JP": "Line Bot",
@@ -371,7 +371,7 @@
         "category": "extension",
         "icon": "yt-koike/packages/cron/_assets/icon.svg",
         "index_id": "yt-koike___cron",
-        "install_count": 2689,
+        "install_count": 2969,
         "label": {
             "en_US": "Cron"
         },
@@ -408,7 +408,7 @@
         "category": "extension",
         "icon": "yeuoly/packages/waifu/_assets/waifu.gif",
         "index_id": "yeuoly___waifu",
-        "install_count": 2683,
+        "install_count": 2784,
         "label": {
             "en_US": "Waifu"
         },
@@ -447,20 +447,21 @@
         "category": "extension",
         "icon": "langgenius/packages/slack-bot/_assets/icon.svg",
         "index_id": "langgenius___slack-bot",
-        "install_count": 2151,
+        "install_count": 2322,
         "label": {
             "en_US": "Slack Bot",
             "ja_JP": "Slack Bot",
             "pt_BR": "Slack Bot",
             "zh_Hans": "Slack Bot"
         },
-        "latest_package_identifier": "langgenius/slack-bot:0.0.4@1ebadf39d46fbeb627ed2148b1905ffd53e6d47a7f789b0145c3647260b07335",
+        "latest_package_identifier": "langgenius/slack-bot:0.0.4@67cd731b827b2b2ff4064b551ff1eb0c75349c2eca5607b44bf98a5d3e4d11ee",
         "latest_version": "0.0.4",
         "name": "slack-bot",
         "org": "langgenius",
         "plugin_id": "langgenius/slack-bot",
         "plugins": {
             "agent_strategies": null,
+            "datasources": null,
             "endpoints": [
                 "group/slack.yaml"
             ],
@@ -476,7 +477,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2025-09-01T11:07:17Z"
+        "version_updated_at": "2025-10-13T02:39:35Z"
     },
     {
         "badges": [],
@@ -488,7 +489,7 @@
         "category": "extension",
         "icon": "leslie2046/packages/moderation/_assets/icon.png",
         "index_id": "leslie2046___moderation",
-        "install_count": 1834,
+        "install_count": 2059,
         "label": {
             "en_US": "Moderation",
             "ja_JP": "センシティブな内容の審査",
@@ -527,7 +528,7 @@
         "category": "extension",
         "icon": "langgenius/packages/neko/_assets/neko.gif",
         "index_id": "langgenius___neko",
-        "install_count": 1629,
+        "install_count": 1687,
         "label": {
             "en_US": "Neko"
         },
@@ -569,7 +570,7 @@
         "category": "extension",
         "icon": "langgenius/packages/llamacloud/_assets/icon.svg",
         "index_id": "langgenius___llamacloud",
-        "install_count": 895,
+        "install_count": 949,
         "label": {
             "en_US": "Llamacloud",
             "ja_JP": "Llamacloud",
@@ -611,7 +612,7 @@
         "category": "extension",
         "icon": "langgenius/packages/badapple/_assets/icon.jpeg",
         "index_id": "langgenius___badapple",
-        "install_count": 863,
+        "install_count": 896,
         "label": {
             "en_US": "Bad Apple",
             "ja_JP": "Bad Apple",
@@ -645,6 +646,48 @@
     {
         "badges": [],
         "brief": {
+            "en_US": "Helps you use LLM to generate mind maps and flowcharts on canvas.",
+            "ja_JP": "LLMを使用してマインドマップやフローチャートを生成することができます。",
+            "pt_BR": "Permite gerar mapas mentais e fluxogramas usando LLM.",
+            "zh_Hans": "使用LLM在画布上生成思维导图和流程图。"
+        },
+        "category": "extension",
+        "icon": "hjlarry/packages/draw/_assets/icon.svg",
+        "index_id": "hjlarry___draw",
+        "install_count": 771,
+        "label": {
+            "en_US": "draw",
+            "ja_JP": "draw",
+            "pt_BR": "draw",
+            "zh_Hans": "draw"
+        },
+        "latest_package_identifier": "hjlarry/draw:0.0.1@7047cf85083480908a80f12543acba85ce7983338c347a8afa262e8bb530c7d0",
+        "latest_version": "0.0.1",
+        "name": "draw",
+        "org": "hjlarry",
+        "plugin_id": "hjlarry/draw",
+        "plugins": {
+            "agent_strategies": null,
+            "endpoints": [
+                "group/draw.yaml"
+            ],
+            "models": null,
+            "tools": null
+        },
+        "privacy_options": "",
+        "privacy_policy": "PRIVACY.md",
+        "repository": "https://github.com/hjlarry/dify-plugin-draw",
+        "status": "active",
+        "tags": [],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "community"
+        },
+        "version_updated_at": "2025-08-29T04:28:47Z"
+    },
+    {
+        "badges": [],
+        "brief": {
             "en_US": "AWS Bedrock Knowledge Base API Endpoint for Dify External Knowledge Base",
             "ja_JP": "AWS Bedrock Knowledge Base API Endpoint for Dify External Knowledge Base",
             "pt_BR": "AWS Bedrock Knowledge Base API Endpoint for Dify External Knowledge Base",
@@ -653,7 +696,7 @@
         "category": "extension",
         "icon": "langgenius/packages/aws_bedrock_knowledge_base/_assets/icon.svg",
         "index_id": "langgenius___aws_bedrock_knowledge_base",
-        "install_count": 715,
+        "install_count": 760,
         "label": {
             "en_US": "Aws Bedrock Knowledge Base",
             "ja_JP": "Aws Bedrock Knowledge Base",
@@ -695,7 +738,7 @@
         "category": "extension",
         "icon": "bytedance_vikingdb/packages/vikingdb_knowledge_base/_assets/icon.svg",
         "index_id": "bytedance_vikingdb___vikingdb_knowledge_base",
-        "install_count": 572,
+        "install_count": 622,
         "label": {
             "en_US": "Vikingdb Knowledge Base",
             "ja_JP": "Vikingdb Knowledge Base",
@@ -737,7 +780,7 @@
         "category": "extension",
         "icon": "qz/packages/convoai/_assets/icon.svg",
         "index_id": "qz___convoai",
-        "install_count": 561,
+        "install_count": 592,
         "label": {
             "en_US": "Agora Conversational AI",
             "ja_JP": "Agora Conversational AI",
@@ -771,48 +814,6 @@
     {
         "badges": [],
         "brief": {
-            "en_US": "Helps you use LLM to generate mind maps and flowcharts on canvas.",
-            "ja_JP": "LLMを使用してマインドマップやフローチャートを生成することができます。",
-            "pt_BR": "Permite gerar mapas mentais e fluxogramas usando LLM.",
-            "zh_Hans": "使用LLM在画布上生成思维导图和流程图。"
-        },
-        "category": "extension",
-        "icon": "hjlarry/packages/draw/_assets/icon.svg",
-        "index_id": "hjlarry___draw",
-        "install_count": 536,
-        "label": {
-            "en_US": "draw",
-            "ja_JP": "draw",
-            "pt_BR": "draw",
-            "zh_Hans": "draw"
-        },
-        "latest_package_identifier": "hjlarry/draw:0.0.1@7047cf85083480908a80f12543acba85ce7983338c347a8afa262e8bb530c7d0",
-        "latest_version": "0.0.1",
-        "name": "draw",
-        "org": "hjlarry",
-        "plugin_id": "hjlarry/draw",
-        "plugins": {
-            "agent_strategies": null,
-            "endpoints": [
-                "group/draw.yaml"
-            ],
-            "models": null,
-            "tools": null
-        },
-        "privacy_options": "",
-        "privacy_policy": "PRIVACY.md",
-        "repository": "https://github.com/hjlarry/dify-plugin-draw",
-        "status": "active",
-        "tags": [],
-        "type": "plugin",
-        "verification": {
-            "authorized_category": "community"
-        },
-        "version_updated_at": "2025-08-29T04:28:47Z"
-    },
-    {
-        "badges": [],
-        "brief": {
             "en_US": "Slack bot plugin for thread replies (optionally posting the first reply to the channel), mrkdwn formatting, referencing thread history and user list, and optional usage channel restriction.",
             "ja_JP": "スレッド返信（初回返信をチャンネルにも投稿可）、mrkdwn対応、スレッド履歴・ユーザーリスト参照、任意で利用チャンネルを制限可能なSlackボットプラグイン。",
             "pt_BR": "Plugin de bot do Slack para respostas em thread (opcionalmente postando a primeira resposta no canal), formatação mrkdwn, acesso ao histórico de thread e lista de usuários, e restrição opcional de canais de uso.",
@@ -821,7 +822,7 @@
         "category": "extension",
         "icon": "solaoi/packages/slack-thread-bot/_assets/icon.svg",
         "index_id": "solaoi___slack-thread-bot",
-        "install_count": 488,
+        "install_count": 536,
         "label": {
             "en_US": "Slack Thread Bot",
             "ja_JP": "Slack Thread Bot",
@@ -855,13 +856,54 @@
     {
         "badges": [],
         "brief": {
+            "en_US": "Convert dify app dsl to mermaid flowchart",
+            "ja_JP": "DifyフローDSLからフロチャートに変換",
+            "zh_Hans": "把Dify工作流DSL转换成流程图"
+        },
+        "category": "extension",
+        "icon": "zoku-777/packages/dify_dsl_flowchart_export/_assets/icon.svg",
+        "index_id": "zoku-777___dify_dsl_flowchart_export",
+        "install_count": 457,
+        "label": {
+            "en_US": "Dify DSL Flowchart Convertor",
+            "ja_JP": "DifyフローDSLフロチャート変換",
+            "zh_Hans": "Dify工作流流程图转换"
+        },
+        "latest_package_identifier": "zoku-777/dify_dsl_flowchart_export:0.0.1@2ff0ea3f9af4c62a0e6396dc44d190e8f6f1028f30bdba816ef31b28e69037c5",
+        "latest_version": "0.0.1",
+        "name": "dify_dsl_flowchart_export",
+        "org": "zoku-777",
+        "plugin_id": "zoku-777/dify_dsl_flowchart_export",
+        "plugins": {
+            "agent_strategies": null,
+            "datasources": null,
+            "endpoints": [
+                "group/dify_dsl_flowchart_export.yaml"
+            ],
+            "models": null,
+            "tools": null
+        },
+        "privacy_options": "",
+        "privacy_policy": "PRIVACY.md",
+        "repository": null,
+        "status": "active",
+        "tags": [],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "community"
+        },
+        "version_updated_at": "2025-09-24T15:58:32Z"
+    },
+    {
+        "badges": [],
+        "brief": {
             "en_US": "Compatible Dify App's API with Huawei MetaStudio third-party llm api",
             "zh_Hans": "提供将 Dify App 适配华为 MetaStudio 第三方 LLM 接口的扩展插件"
         },
         "category": "extension",
         "icon": "zxi2002/packages/metastudio_dify_app/_assets/icon.svg",
         "index_id": "zxi2002___metastudio_dify_app",
-        "install_count": 369,
+        "install_count": 395,
         "label": {
             "en_US": "metastudio_dify_app",
             "zh_Hans": "metastudio_dify_app"
@@ -899,7 +941,7 @@
         "category": "extension",
         "icon": "zix2002/packages/metastudio_dify_app/_assets/icon.svg",
         "index_id": "zix2002___metastudio_dify_app",
-        "install_count": 345,
+        "install_count": 371,
         "label": {
             "en_US": "MetaStudio Compatible Dify App",
             "zh_Hans": "MetaStudio 兼容 Dify App"
@@ -931,47 +973,6 @@
     {
         "badges": [],
         "brief": {
-            "en_US": "Convert dify app dsl to mermaid flowchart",
-            "ja_JP": "DifyフローDSLからフロチャートに変換",
-            "zh_Hans": "把Dify工作流DSL转换成流程图"
-        },
-        "category": "extension",
-        "icon": "zoku-777/packages/dify_dsl_flowchart_export/_assets/icon.svg",
-        "index_id": "zoku-777___dify_dsl_flowchart_export",
-        "install_count": 227,
-        "label": {
-            "en_US": "Dify DSL Flowchart Convertor",
-            "ja_JP": "DifyフローDSLフロチャート変換",
-            "zh_Hans": "Dify工作流流程图转换"
-        },
-        "latest_package_identifier": "zoku-777/dify_dsl_flowchart_export:0.0.1@2ff0ea3f9af4c62a0e6396dc44d190e8f6f1028f30bdba816ef31b28e69037c5",
-        "latest_version": "0.0.1",
-        "name": "dify_dsl_flowchart_export",
-        "org": "zoku-777",
-        "plugin_id": "zoku-777/dify_dsl_flowchart_export",
-        "plugins": {
-            "agent_strategies": null,
-            "datasources": null,
-            "endpoints": [
-                "group/dify_dsl_flowchart_export.yaml"
-            ],
-            "models": null,
-            "tools": null
-        },
-        "privacy_options": "",
-        "privacy_policy": "PRIVACY.md",
-        "repository": null,
-        "status": "active",
-        "tags": [],
-        "type": "plugin",
-        "verification": {
-            "authorized_category": "community"
-        },
-        "version_updated_at": "2025-09-24T15:58:32Z"
-    },
-    {
-        "badges": [],
-        "brief": {
             "en_US": "This Slack Bot receives messages from Slack as input for Dify's Chatflow/Chatbot/Agent. In addition to app mentions, it can also trigger actions based on reactions, and supports posting messages to threads when sending messages to Slack.",
             "ja_JP": "このSlack Botは、SlackからのメッセージをDifyのChatflow/Chatbot/Agentへの入力として受け取ります。app_mentionにくわえ、reactionで動作させることも可能であり、Slackにメッセージを送信する際、スレッドへの投稿もサポートします。",
             "pt_BR": "Este Slack Bot recebe mensagens do Slack como entrada para o Chatflow/Chatbot/Agent do Dify. Além do app_mention, também é possível operá-lo com reação e, ao enviar mensagens para o Slack, ele também suporta postagens em threads.",
@@ -980,7 +981,7 @@
         "category": "extension",
         "icon": "takada-at/packages/slack-bot2/_assets/icon-bot.svg",
         "index_id": "takada-at___slack-bot2",
-        "install_count": 78,
+        "install_count": 115,
         "label": {
             "en_US": "slack-bot2",
             "ja_JP": "slack-bot2",

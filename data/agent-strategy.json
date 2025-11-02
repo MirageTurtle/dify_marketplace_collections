@@ -8,13 +8,13 @@
         "category": "agent-strategy",
         "icon": "langgenius/packages/agent/_assets/icon.svg",
         "index_id": "langgenius___agent",
-        "install_count": 115615,
+        "install_count": 125525,
         "label": {
             "en_US": "Dify Agent Strategies",
             "zh_Hans": "Dify Agent 策略"
         },
-        "latest_package_identifier": "langgenius/agent:0.0.24@0274c08e62efaa28f6327e7bdba655e16559ec28d4f41f2fa3ef553e6327c0f6",
-        "latest_version": "0.0.24",
+        "latest_package_identifier": "langgenius/agent:0.0.25@3507a9a417ea8d76e5de6b2803953ca891851b6b336fafe1315471782711730f",
+        "latest_version": "0.0.25",
         "name": "agent",
         "org": "langgenius",
         "plugin_id": "langgenius/agent",
@@ -22,6 +22,7 @@
             "agent_strategies": [
                 "provider/agent.yaml"
             ],
+            "datasources": null,
             "endpoints": null,
             "models": null,
             "tools": null
@@ -39,7 +40,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2025-08-23T02:57:42Z"
+        "version_updated_at": "2025-10-16T06:41:15Z"
     },
     {
         "badges": [],
@@ -50,7 +51,7 @@
         "category": "agent-strategy",
         "icon": "junjiem/packages/mcp_see_agent/_assets/icon.svg",
         "index_id": "junjiem___mcp_see_agent",
-        "install_count": 87684,
+        "install_count": 92060,
         "label": {
             "en_US": "Agent Strategies (Support MCP Tools)",
             "zh_Hans": "Agent 策略（支持 MCP 工具）"
@@ -88,7 +89,7 @@
         "category": "agent-strategy",
         "icon": "hjlarry/packages/agent/_assets/icon.svg",
         "index_id": "hjlarry___agent",
-        "install_count": 42401,
+        "install_count": 43873,
         "label": {
             "en_US": "MCP Agent Strategy",
             "zh_Hans": "MCP Agent 策略"
@@ -130,7 +131,7 @@
         "category": "agent-strategy",
         "icon": "svcvit/packages/agent/_assets/icon.svg",
         "index_id": "svcvit___agent",
-        "install_count": 38438,
+        "install_count": 39749,
         "label": {
             "en_US": "Dialogue Agent",
             "zh_Hans": "对话 Agent"
@@ -172,7 +173,7 @@
         "category": "agent-strategy",
         "icon": "allenyzx/packages/enhancing_function_agent/_assets/icon.png",
         "index_id": "allenyzx___enhancing_function_agent",
-        "install_count": 5539,
+        "install_count": 6271,
         "label": {
             "en_US": "Enhancing Agent",
             "zh_Hans": "Enhancing Agent"
