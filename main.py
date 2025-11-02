@@ -1,4 +1,5 @@
-import httpx
+import aiohttp
+import asyncio
 from typing import Optional
 import json
 from pathlib import Path
@@ -33,11 +34,11 @@ os.makedirs(DATA_DIR, exist_ok=True)
 os.makedirs(DIFFYPKG_DIR, exist_ok=True)
 
 
-def init_session():
+def get_session_headers():
     """
-    Initialize a HTTP session with headers.
+    Get HTTP session headers.
     """
-    headers = {
+    return {
         "accept": "*/*",
         "accept-language": "en-US,en;q=0.9",
         "priority": "u=1, i",
@@ -51,13 +52,10 @@ def init_session():
         "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
         "Cookie": "locale=en-US",
     }
-    session = httpx.Client()
-    session.headers.update(headers)
-    return session
 
 
-def get_plugins_info_by_category(
-    session: httpx.Client, category: str, timeout: int = 10
+async def get_plugins_info_by_category(
+    session: aiohttp.ClientSession, category: str, timeout: int = 10
 ) -> tuple[bool, list[dict], Optional[str]]:
     """
     Get all plugin info by category.
@@ -79,11 +77,16 @@ def get_plugins_info_by_category(
         "type": "plugin",
     }
     logger.info(f"Retrieving plugins for category '{category}'...")
-    response = session.post(url, timeout=timeout, json=payload)
-    _total = response.json()["data"]["total"]
+    timeout_obj = aiohttp.ClientTimeout(total=timeout)
+    async with session.post(url, timeout=timeout_obj, json=payload) as response:
+        response_json = await response.json()
+        _total = response_json["data"]["total"]
+        status_code = response.status
+        response_text = await response.text()
+
     logger.info(f"Total {_total} plugins found for category '{category}'.")
-    while response.status_code == 200:
-        _plugins = response.json()["data"]["plugins"]
+    while status_code == 200:
+        _plugins = response_json["data"]["plugins"]
 
         if _plugins is None or len(_plugins) == 0:
             logger.info("No more plugins found, ending retrieval.")
@@ -98,15 +101,19 @@ def get_plugins_info_by_category(
             logger.info(
                 f"Retrieved {len(_plugins)} plugins at this iteration, total {len(plugins)}/{_total} plugins."
             )
-            random_sleep()
+            await asyncio.sleep(random.randint(1, 3))
         else:
             break
         payload["page"] += 1
-        response = session.post(url, timeout=timeout, json=payload)
-    if response.status_code == 200:
+        async with session.post(url, timeout=timeout_obj, json=payload) as response:
+            response_json = await response.json()
+            status_code = response.status
+            response_text = await response.text()
+
+    if status_code == 200:
         return True, plugins, None
     else:
-        return False, [], response.text
+        return False, [], response_text
 
 
 def save_plugin_info(
@@ -127,8 +134,8 @@ def save_plugin_info(
     logger.info(f"Saved plugin info to '{file_path}'.")
 
 
-def get_single_collection(
-    session: httpx.Client, collection_name: str, timeout: int = 10
+async def get_single_collection(
+    session: aiohttp.ClientSession, collection_name: str, timeout: int = 10
 ) -> tuple[bool, list[dict], Optional[str]]:
     """
     DEPRECATED:
@@ -146,13 +153,15 @@ def get_single_collection(
     logger.warning("You are advised to use 'get_plugins_info_by_category' instead.")
     url = f"https://marketplace.dify.ai/api/v1/collections/{collection_name}/plugins"
     payload = "{}"  # Empty payload (string)
-    response = session.post(url, timeout=timeout, data=payload)
-    if response.status_code == 200:
-        collection = response.json()
-        collection = collection["data"]["plugins"]
-        return True, collection, None
-    else:
-        return False, [], response.text
+    timeout_obj = aiohttp.ClientTimeout(total=timeout)
+    async with session.post(url, timeout=timeout_obj, data=payload) as response:
+        if response.status == 200:
+            response_json = await response.json()
+            collection = response_json["data"]["plugins"]
+            return True, collection, None
+        else:
+            response_text = await response.text()
+            return False, [], response_text
 
 
 def save_collection(
@@ -179,7 +188,8 @@ def save_collection(
         f.write(json.dumps(collection, indent=4, ensure_ascii=False))
 
 
-def download_difypkg(
+async def download_difypkg(
+    session: aiohttp.ClientSession,
     plugin_id: str,
     plugin_version: str,
     hash: str,
@@ -188,6 +198,7 @@ def download_difypkg(
 ) -> tuple[Optional[bool], Optional[str]]:
     """
     Download a Difypkg file.
+    :param session: HTTP session
     :param plugin_id: ID of the plugin
     :param plugin_version: Version of the plugin
     :param hash: Hash of the plugin
@@ -203,15 +214,18 @@ def download_difypkg(
         return None, None
     url = f"https://marketplace.dify.ai/api/v1/plugins/{plugin_id}/{plugin_version}/download"
     try:
-        response = httpx.get(url, timeout=timeout)
-        if response.status_code == 200:
-            with open(difypkg_file, "wb") as file:
-                file.write(response.content)
-            logger.info(f"Downloaded difypkg file '{difypkg_file}'.")
-            return True, None
-        else:
-            logger.error(f"Error with url '{url}': {response.text}")
-            return False, response.text
+        timeout_obj = aiohttp.ClientTimeout(total=timeout)
+        async with session.get(url, timeout=timeout_obj) as response:
+            if response.status == 200:
+                content = await response.read()
+                with open(difypkg_file, "wb") as file:
+                    file.write(content)
+                logger.info(f"Downloaded difypkg file '{difypkg_file}'.")
+                return True, None
+            else:
+                response_text = await response.text()
+                logger.error(f"Error with url '{url}': {response_text}")
+                return False, response_text
     except Exception as e:
         logger.error(f"Error with url '{url}': {e}")
         return False, str(e)
@@ -234,30 +248,59 @@ def random_sleep(min: int = 1, max: int = 3) -> None:
     time.sleep(random.randint(min, max))
 
 
-if __name__ == "__main__":
-    session = init_session()
-    for category in CATEGORIES:
-        # Get all plugins info by category
-        status, plugins_info, error = get_plugins_info_by_category(session, category)
-        random_sleep()
-        if status:
-            logger.info(
-                f"Retrieved {len(plugins_info)} plugins for category '{category}'"
+async def main():
+    """
+    Main async function to retrieve and download plugins.
+    """
+    headers = get_session_headers()
+    async with aiohttp.ClientSession(headers=headers) as session:
+        for category in CATEGORIES:
+            # Get all plugins info by category
+            status, plugins_info, error = await get_plugins_info_by_category(
+                session, category
             )
-            save_plugin_info(plugins_info, DATA_DIR / f"{category}.json")
-        else:
-            logger.error(f"Error: {error}")
-            continue
-        for plugin in plugins_info:
-            # Get plugin info and download difypkg
-            plugin_id, version, hash = get_plugin_info(plugin)
-            os.makedirs(DIFFYPKG_DIR / category, exist_ok=True)
-            status, error = download_difypkg(
-                plugin_id, version, hash, DIFFYPKG_DIR / category
-            )
-            if status is None:
-                continue
+            await asyncio.sleep(random.randint(1, 3))
+            if status:
+                logger.info(
+                    f"Retrieved {len(plugins_info)} plugins for category '{category}'"
+                )
+                save_plugin_info(plugins_info, DATA_DIR / f"{category}.json")
             else:
-                random_sleep()
+                logger.error(f"Error: {error}")
+                continue
 
-    session.close()
+            # Download all plugins for this category concurrently
+            os.makedirs(DIFFYPKG_DIR / category, exist_ok=True)
+            download_tasks = []
+            for plugin in plugins_info:
+                # Get plugin info and download difypkg
+                plugin_id, version, hash = get_plugin_info(plugin)
+                download_tasks.append(
+                    download_difypkg(
+                        session, plugin_id, version, hash, DIFFYPKG_DIR / category
+                    )
+                )
+
+            # Execute all downloads concurrently with a semaphore to limit concurrency
+            semaphore = asyncio.Semaphore(5)  # Limit to 5 concurrent downloads
+
+            async def download_with_semaphore(task):
+                async with semaphore:
+                    result = await task
+                    if result[0] is not None:  # Only sleep if download was attempted
+                        await asyncio.sleep(random.randint(1, 3))
+                    return result
+
+            results = await asyncio.gather(
+                *[download_with_semaphore(task) for task in download_tasks],
+                return_exceptions=True,
+            )
+
+            # Log any errors
+            for i, result in enumerate(results):
+                if isinstance(result, Exception):
+                    logger.error(f"Download task {i} failed with exception: {result}")
+
+
+if __name__ == "__main__":
+    asyncio.run(main())
