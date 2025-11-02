@@ -8,6 +8,8 @@ import logging
 import os
 import time
 import random
+from concurrent.futures import ProcessPoolExecutor
+import multiprocessing
 
 
 logger = logging.getLogger(__name__)
@@ -248,59 +250,111 @@ def random_sleep(min: int = 1, max: int = 3) -> None:
     time.sleep(random.randint(min, max))
 
 
-async def main():
+async def process_category(category: str) -> None:
     """
-    Main async function to retrieve and download plugins.
+    Process a single category: retrieve plugin info and download packages.
+    This function is designed to run in a separate process.
+
+    :param category: Category to process
     """
+    # Configure logging for this process
+    process_logger = logging.getLogger(f"{__name__}.{category}")
+    process_logger.setLevel(logging.INFO)
+    formatter = logging.Formatter(
+        "%(asctime)s %(levelname)s %(name)s: %(message)s",
+        datefmt="%Y-%m-%d %H:%M:%S",
+    )
+    stream_handler = logging.StreamHandler(sys.stdout)
+    stream_handler.setFormatter(formatter)
+    process_logger.addHandler(stream_handler)
+
+    process_logger.info(f"Starting processing for category '{category}'")
+
     headers = get_session_headers()
     async with aiohttp.ClientSession(headers=headers) as session:
-        for category in CATEGORIES:
-            # Get all plugins info by category
-            status, plugins_info, error = await get_plugins_info_by_category(
-                session, category
+        # Get all plugins info by category
+        status, plugins_info, error = await get_plugins_info_by_category(
+            session, category
+        )
+        await asyncio.sleep(random.randint(1, 3))
+        if status:
+            process_logger.info(
+                f"Retrieved {len(plugins_info)} plugins for category '{category}'"
             )
-            await asyncio.sleep(random.randint(1, 3))
-            if status:
-                logger.info(
-                    f"Retrieved {len(plugins_info)} plugins for category '{category}'"
+            save_plugin_info(plugins_info, DATA_DIR / f"{category}.json")
+        else:
+            process_logger.error(f"Error: {error}")
+            return
+
+        # Download all plugins for this category concurrently
+        os.makedirs(DIFFYPKG_DIR / category, exist_ok=True)
+        download_tasks = []
+        for plugin in plugins_info:
+            # Get plugin info and download difypkg
+            plugin_id, version, hash = get_plugin_info(plugin)
+            download_tasks.append(
+                download_difypkg(
+                    session, plugin_id, version, hash, DIFFYPKG_DIR / category
                 )
-                save_plugin_info(plugins_info, DATA_DIR / f"{category}.json")
-            else:
-                logger.error(f"Error: {error}")
-                continue
-
-            # Download all plugins for this category concurrently
-            os.makedirs(DIFFYPKG_DIR / category, exist_ok=True)
-            download_tasks = []
-            for plugin in plugins_info:
-                # Get plugin info and download difypkg
-                plugin_id, version, hash = get_plugin_info(plugin)
-                download_tasks.append(
-                    download_difypkg(
-                        session, plugin_id, version, hash, DIFFYPKG_DIR / category
-                    )
-                )
-
-            # Execute all downloads concurrently with a semaphore to limit concurrency
-            semaphore = asyncio.Semaphore(5)  # Limit to 5 concurrent downloads
-
-            async def download_with_semaphore(task):
-                async with semaphore:
-                    result = await task
-                    if result[0] is not None:  # Only sleep if download was attempted
-                        await asyncio.sleep(random.randint(1, 3))
-                    return result
-
-            results = await asyncio.gather(
-                *[download_with_semaphore(task) for task in download_tasks],
-                return_exceptions=True,
             )
 
-            # Log any errors
-            for i, result in enumerate(results):
-                if isinstance(result, Exception):
-                    logger.error(f"Download task {i} failed with exception: {result}")
+        # Execute all downloads concurrently with a semaphore to limit concurrency
+        semaphore = asyncio.Semaphore(5)  # Limit to 5 concurrent downloads
+
+        async def download_with_semaphore(task):
+            async with semaphore:
+                result = await task
+                if result[0] is not None:  # Only sleep if download was attempted
+                    await asyncio.sleep(random.randint(1, 3))
+                return result
+
+        results = await asyncio.gather(
+            *[download_with_semaphore(task) for task in download_tasks],
+            return_exceptions=True,
+        )
+
+        # Log any errors
+        for i, result in enumerate(results):
+            if isinstance(result, Exception):
+                process_logger.error(f"Download task {i} failed with exception: {result}")
+
+        process_logger.info(f"Completed processing for category '{category}'")
+
+
+def process_category_wrapper(category: str) -> str:
+    """
+    Wrapper function to run async process_category in a separate process.
+
+    :param category: Category to process
+    :return: Category name (for tracking completion)
+    """
+    asyncio.run(process_category(category))
+    return category
+
+
+async def main():
+    """
+    Main async function to retrieve and download plugins using multiprocessing.
+    """
+    logger.info(f"Starting multiprocessing with {len(CATEGORIES)} categories")
+
+    # Use ProcessPoolExecutor to process categories in parallel
+    with ProcessPoolExecutor(max_workers=len(CATEGORIES)) as executor:
+        # Submit all category processing tasks
+        futures = [executor.submit(process_category_wrapper, category) for category in CATEGORIES]
+
+        # Wait for all processes to complete
+        for future in futures:
+            try:
+                completed_category = future.result()
+                logger.info(f"Category '{completed_category}' processing completed")
+            except Exception as e:
+                logger.error(f"Category processing failed with exception: {e}")
+
+    logger.info("All categories processed successfully")
 
 
 if __name__ == "__main__":
+    # Required for multiprocessing on Windows and macOS
+    multiprocessing.set_start_method('spawn', force=True)
     asyncio.run(main())
