@@ -78,11 +78,22 @@ def get_plugins_info_by_category(
         "tags": [],
         "type": "plugin",
     }
+    logger.info(f"Retrieving plugins for category '{category}'...")
     response = session.post(url, timeout=timeout, json=payload)
+    _total = response.json()["data"]["total"]
+    logger.info(f"Total {_total} plugins found for category '{category}'.")
     while response.status_code == 200:
-        _total = response.json()["data"]["total"]
+        _plugins = response.json()["data"]["plugins"]
+
+        if _plugins is None or len(_plugins) == 0:
+            logger.info("No more plugins found, ending retrieval.")
+            if len(plugins) < _total:
+                logger.warning(
+                    f"Expected {_total} plugins, but only retrieved {len(plugins)} plugins."
+                )
+            break
+
         if len(plugins) < _total:
-            _plugins = response.json()["data"]["plugins"]
             plugins.extend(_plugins)
             logger.info(
                 f"Retrieved {len(_plugins)} plugins at this iteration, total {len(plugins)}/{_total} plugins."
@@ -185,7 +196,7 @@ def download_difypkg(
     :return: Tuple of status and error message
     """
     difypkg_file = (
-        difypkg_dir / f"{plugin_id.replace("/", "_")}_{plugin_version}_{hash}.difypkg"
+        difypkg_dir / f"{plugin_id.replace('/', '_')}_{plugin_version}_{hash}.difypkg"
     )
     if difypkg_file.exists():
         logger.info(f"Difypkg file '{difypkg_file}' already exists.")
@@ -248,5 +259,5 @@ if __name__ == "__main__":
                 continue
             else:
                 random_sleep()
-            
+
     session.close()
