@@ -8,7 +8,7 @@
         "category": "agent-strategy",
         "icon": "langgenius/packages/agent/_assets/icon.svg",
         "index_id": "langgenius___agent",
-        "install_count": 143720,
+        "install_count": 144182,
         "label": {
             "en_US": "Dify Agent Strategies",
             "zh_Hans": "Dify Agent 策略"
@@ -51,7 +51,7 @@
         "category": "agent-strategy",
         "icon": "junjiem/packages/mcp_see_agent/_assets/icon.svg",
         "index_id": "junjiem___mcp_see_agent",
-        "install_count": 99223,
+        "install_count": 99390,
         "label": {
             "en_US": "Agent Strategies (Support MCP Tools)",
             "zh_Hans": "Agent 策略（支持 MCP 工具）"
@@ -89,7 +89,7 @@
         "category": "agent-strategy",
         "icon": "hjlarry/packages/agent/_assets/icon.svg",
         "index_id": "hjlarry___agent",
-        "install_count": 46239,
+        "install_count": 46300,
         "label": {
             "en_US": "MCP Agent Strategy",
             "zh_Hans": "MCP Agent 策略"
@@ -131,7 +131,7 @@
         "category": "agent-strategy",
         "icon": "svcvit/packages/agent/_assets/icon.svg",
         "index_id": "svcvit___agent",
-        "install_count": 42120,
+        "install_count": 42182,
         "label": {
             "en_US": "Dialogue Agent",
             "zh_Hans": "对话 Agent"
@@ -173,7 +173,7 @@
         "category": "agent-strategy",
         "icon": "allenyzx/packages/enhancing_function_agent/_assets/icon.png",
         "index_id": "allenyzx___enhancing_function_agent",
-        "install_count": 7553,
+        "install_count": 7582,
         "label": {
             "en_US": "Enhancing Agent",
             "zh_Hans": "Enhancing Agent"
@@ -201,5 +201,49 @@
             "authorized_category": "community"
         },
         "version_updated_at": "2025-07-18T03:49:51Z"
+    },
+    {
+        "badges": [],
+        "brief": {
+            "en_US": "Supports MCP tool invocation",
+            "ja_JP": "支持mcp工具调用",
+            "pt_BR": "支持mcp工具调用",
+            "zh_Hans": "支持mcp工具调用"
+        },
+        "category": "agent-strategy",
+        "icon": "ssf/packages/mcp_agent/_assets/icon.svg",
+        "index_id": "ssf___mcp_agent",
+        "install_count": 25,
+        "label": {
+            "en_US": "mcp_agent",
+            "ja_JP": "mcp_agent",
+            "pt_BR": "mcp_agent",
+            "zh_Hans": "mcp_agent"
+        },
+        "latest_package_identifier": "ssf/mcp_agent:0.0.2@22ed088a68774b28b57fcaf4749d5df211af0c7394f7d92ecba30491ce6b0fec",
+        "latest_version": "0.0.2",
+        "name": "mcp_agent",
+        "org": "ssf",
+        "plugin_id": "ssf/mcp_agent",
+        "plugins": {
+            "agent_strategies": [
+                "provider/mcp_agent.yaml"
+            ],
+            "datasources": null,
+            "endpoints": null,
+            "models": null,
+            "tools": null,
+            "triggers": null
+        },
+        "privacy_options": "",
+        "privacy_policy": "PRIVACY.md",
+        "repository": null,
+        "status": "active",
+        "tags": [],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "community"
+        },
+        "version_updated_at": "2025-12-15T05:41:32Z"
     }
 ]
