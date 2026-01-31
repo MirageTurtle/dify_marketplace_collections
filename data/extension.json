@@ -8,7 +8,7 @@
         "category": "extension",
         "icon": "hjlarry/packages/mcp-server/_assets/icon.svg",
         "index_id": "hjlarry___mcp-server",
-        "install_count": 41232,
+        "install_count": 41267,
         "label": {
             "en_US": "MCP server"
         },
@@ -45,7 +45,7 @@
         "category": "extension",
         "icon": "junjiem/packages/mcp_compat_dify_tools/_assets/icon.svg",
         "index_id": "junjiem___mcp_compat_dify_tools",
-        "install_count": 15729,
+        "install_count": 15736,
         "label": {
             "en_US": "MCP Compatible Dify Tools",
             "zh_Hans": "MCP Compatible Dify Tools"
@@ -85,7 +85,7 @@
         "category": "extension",
         "icon": "langgenius/packages/oaicompat_dify_app/_assets/icon.svg",
         "index_id": "langgenius___oaicompat_dify_app",
-        "install_count": 14719,
+        "install_count": 14794,
         "label": {
             "en_US": "OpenAI Compatible Dify App",
             "ja_JP": "OpenAI Compatible Dify App",
@@ -129,7 +129,7 @@
         "category": "extension",
         "icon": "bikeread/packages/dify_wechat_plugin/_assets/icon.svg",
         "index_id": "bikeread___dify_wechat_plugin",
-        "install_count": 12083,
+        "install_count": 12094,
         "label": {
             "en_US": "Wechat Subscription Account",
             "ja_JP": "ウェチャットサブスクリプションアカウント",
@@ -169,7 +169,7 @@
         "category": "extension",
         "icon": "svcvit/packages/artifacts/_assets/icon.svg",
         "index_id": "svcvit___artifacts",
-        "install_count": 11540,
+        "install_count": 11547,
         "label": {
             "en_US": "Artifacts"
         },
@@ -207,7 +207,7 @@
         "category": "extension",
         "icon": "perzeuss/packages/webhook/_assets/icon.svg",
         "index_id": "perzeuss___webhook",
-        "install_count": 9913,
+        "install_count": 9920,
         "label": {
             "en_US": "Webhook",
             "pt_BR": "Webhook",
@@ -250,7 +250,7 @@
         "category": "extension",
         "icon": "plutoless/packages/convoai/_assets/icon.svg",
         "index_id": "plutoless___convoai",
-        "install_count": 7618,
+        "install_count": 7622,
         "label": {
             "en_US": "Agora Conversational AI",
             "ja_JP": "Agora Conversational AI",
@@ -292,7 +292,7 @@
         "category": "extension",
         "icon": "langgenius/packages/oaicompat_dify_model/_assets/icon.svg",
         "index_id": "langgenius___oaicompat_dify_model",
-        "install_count": 5112,
+        "install_count": 5115,
         "label": {
             "en_US": "OpenAI Compatible Dify Models",
             "ja_JP": "OpenAI Compatible Dify Models",
@@ -326,48 +326,6 @@
     {
         "badges": [],
         "brief": {
-            "en_US": "Line Bot",
-            "ja_JP": "Line Bot",
-            "pt_BR": "Line Bot",
-            "zh_Hans": "Line Bot"
-        },
-        "category": "extension",
-        "icon": "kevintsai/packages/linebot/_assets/LINE_Brand_icon.png",
-        "index_id": "kevintsai___linebot",
-        "install_count": 3568,
-        "label": {
-            "en_US": "Line Bot",
-            "ja_JP": "Line Bot",
-            "pt_BR": "Line Bot",
-            "zh_Hans": "Line Bot"
-        },
-        "latest_package_identifier": "kevintsai/linebot:0.0.5@021d362b568bf85a95853f069886a60aabffd4b69918a6d491db0984a1b901d2",
-        "latest_version": "0.0.5",
-        "name": "linebot",
-        "org": "kevintsai",
-        "plugin_id": "kevintsai/linebot",
-        "plugins": {
-            "agent_strategies": null,
-            "endpoints": [
-                "group/linebot.yaml"
-            ],
-            "models": null,
-            "tools": null
-        },
-        "privacy_options": "",
-        "privacy_policy": "PRIVACY.md",
-        "repository": "",
-        "status": "active",
-        "tags": [],
-        "type": "plugin",
-        "verification": {
-            "authorized_category": "community"
-        },
-        "version_updated_at": "2025-05-06T06:05:03Z"
-    },
-    {
-        "badges": [],
-        "brief": {
             "en_US": "This Slack Bot supports receiving messages from Slack as input to Chatflow/Chatbot/Agent in Dify, and sending messages back to Slack.",
             "ja_JP": "この Slack Bot は、Slack からのメッセージを Dify の Chatflow/Chatbot/Agent への入力として受け取り、Slack にメッセージを送信することをサポートします。",
             "pt_BR": "Este Slack Bot suporta receber mensagens do Slack como entrada para Chatflow/Chatbot/Agent no Dify e enviar mensagens de volta para o Slack.",
@@ -376,7 +334,7 @@
         "category": "extension",
         "icon": "langgenius/packages/slack-bot/_assets/icon.svg",
         "index_id": "langgenius___slack-bot",
-        "install_count": 3562,
+        "install_count": 3582,
         "label": {
             "en_US": "Slack Bot",
             "ja_JP": "Slack Bot",
@@ -412,12 +370,54 @@
     {
         "badges": [],
         "brief": {
+            "en_US": "Line Bot",
+            "ja_JP": "Line Bot",
+            "pt_BR": "Line Bot",
+            "zh_Hans": "Line Bot"
+        },
+        "category": "extension",
+        "icon": "kevintsai/packages/linebot/_assets/LINE_Brand_icon.png",
+        "index_id": "kevintsai___linebot",
+        "install_count": 3570,
+        "label": {
+            "en_US": "Line Bot",
+            "ja_JP": "Line Bot",
+            "pt_BR": "Line Bot",
+            "zh_Hans": "Line Bot"
+        },
+        "latest_package_identifier": "kevintsai/linebot:0.0.5@021d362b568bf85a95853f069886a60aabffd4b69918a6d491db0984a1b901d2",
+        "latest_version": "0.0.5",
+        "name": "linebot",
+        "org": "kevintsai",
+        "plugin_id": "kevintsai/linebot",
+        "plugins": {
+            "agent_strategies": null,
+            "endpoints": [
+                "group/linebot.yaml"
+            ],
+            "models": null,
+            "tools": null
+        },
+        "privacy_options": "",
+        "privacy_policy": "PRIVACY.md",
+        "repository": "",
+        "status": "active",
+        "tags": [],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "community"
+        },
+        "version_updated_at": "2025-05-06T06:05:03Z"
+    },
+    {
+        "badges": [],
+        "brief": {
             "en_US": "Regular self-call plugin for self-hosted servers and cloud.dify.ai"
         },
         "category": "extension",
         "icon": "yt-koike/packages/cron/_assets/icon.svg",
         "index_id": "yt-koike___cron",
-        "install_count": 3500,
+        "install_count": 3501,
         "label": {
             "en_US": "Cron"
         },
@@ -492,7 +492,7 @@
         "category": "extension",
         "icon": "leslie2046/packages/moderation/_assets/icon.png",
         "index_id": "leslie2046___moderation",
-        "install_count": 2755,
+        "install_count": 2761,
         "label": {
             "en_US": "Moderation",
             "ja_JP": "センシティブな内容の審査",
@@ -531,7 +531,7 @@
         "category": "extension",
         "icon": "langgenius/packages/neko/_assets/neko.gif",
         "index_id": "langgenius___neko",
-        "install_count": 1824,
+        "install_count": 1826,
         "label": {
             "en_US": "Neko"
         },
@@ -573,7 +573,7 @@
         "category": "extension",
         "icon": "langgenius/packages/llamacloud/_assets/icon.svg",
         "index_id": "langgenius___llamacloud",
-        "install_count": 1483,
+        "install_count": 1490,
         "label": {
             "en_US": "Llamacloud",
             "ja_JP": "Llamacloud",
@@ -617,7 +617,7 @@
         "category": "extension",
         "icon": "hjlarry/packages/draw/_assets/icon.svg",
         "index_id": "hjlarry___draw",
-        "install_count": 1418,
+        "install_count": 1422,
         "label": {
             "en_US": "draw",
             "ja_JP": "draw",
@@ -659,7 +659,7 @@
         "category": "extension",
         "icon": "langgenius/packages/aws_bedrock_knowledge_base/_assets/icon.svg",
         "index_id": "langgenius___aws_bedrock_knowledge_base",
-        "install_count": 1113,
+        "install_count": 1115,
         "label": {
             "en_US": "Aws Bedrock Knowledge Base",
             "ja_JP": "Aws Bedrock Knowledge Base",
@@ -702,7 +702,7 @@
         "category": "extension",
         "icon": "zoku-777/packages/dify_dsl_flowchart_export/_assets/icon.svg",
         "index_id": "zoku-777___dify_dsl_flowchart_export",
-        "install_count": 1000,
+        "install_count": 1004,
         "label": {
             "en_US": "Dify DSL Flowchart Convertor",
             "ja_JP": "DifyフローDSLフロチャート変換",
@@ -785,7 +785,7 @@
         "category": "extension",
         "icon": "langgenius/packages/wecom-bot/_assets/icon.png",
         "index_id": "langgenius___wecom-bot",
-        "install_count": 812,
+        "install_count": 821,
         "label": {
             "en_US": "WeCom Bot",
             "ja_JP": "WeCom Bot",
@@ -870,7 +870,7 @@
         "category": "extension",
         "icon": "qz/packages/convoai/_assets/icon.svg",
         "index_id": "qz___convoai",
-        "install_count": 642,
+        "install_count": 643,
         "label": {
             "en_US": "Agora Conversational AI",
             "ja_JP": "Agora Conversational AI",
@@ -953,7 +953,7 @@
         "category": "extension",
         "icon": "anspire/packages/wecom-bot/_assets/icon.svg",
         "index_id": "anspire___wecom-bot",
-        "install_count": 588,
+        "install_count": 595,
         "label": {
             "en_US": "wecom-bot",
             "pt_BR": "wecom-bot",
@@ -1104,55 +1104,13 @@
     {
         "badges": [],
         "brief": {
-            "en_US": "This Slack Bot receives messages from Slack as input for Dify's Chatflow/Chatbot/Agent. In addition to app mentions, it can also trigger actions based on reactions, and supports posting messages to threads when sending messages to Slack.",
-            "ja_JP": "このSlack Botは、SlackからのメッセージをDifyのChatflow/Chatbot/Agentへの入力として受け取ります。app_mentionにくわえ、reactionで動作させることも可能であり、Slackにメッセージを送信する際、スレッドへの投稿もサポートします。",
-            "pt_BR": "Este Slack Bot recebe mensagens do Slack como entrada para o Chatflow/Chatbot/Agent do Dify. Além do app_mention, também é possível operá-lo com reação e, ao enviar mensagens para o Slack, ele também suporta postagens em threads.",
-            "zh_Hans": "这个 Slack Bot 将从 Slack 接收消息并作为输入传递给 Dify 的 Chatflow/Chatbot/Agent。除了应用提及外，还可以通过反应来触发它，同时支持在发送 Slack 消息时在线程中发布内容。"
-        },
-        "category": "extension",
-        "icon": "takada-at/packages/slack-bot2/_assets/icon-bot.svg",
-        "index_id": "takada-at___slack-bot2",
-        "install_count": 171,
-        "label": {
-            "en_US": "slack-bot2",
-            "ja_JP": "slack-bot2",
-            "pt_BR": "slack-bot2",
-            "zh_Hans": "slack-bot2"
-        },
-        "latest_package_identifier": "takada-at/slack-bot2:0.0.2@d9c0ccfb6e1656b5b03a260afdef7e7e35af1110e874b08536934f77ac741d87",
-        "latest_version": "0.0.2",
-        "name": "slack-bot2",
-        "org": "takada-at",
-        "plugin_id": "takada-at/slack-bot2",
-        "plugins": {
-            "agent_strategies": null,
-            "endpoints": [
-                "group/slack-bot2.yaml"
-            ],
-            "models": null,
-            "tools": null
-        },
-        "privacy_options": "",
-        "privacy_policy": "PRIVACY.md",
-        "repository": null,
-        "status": "active",
-        "tags": [],
-        "type": "plugin",
-        "verification": {
-            "authorized_category": "community"
-        },
-        "version_updated_at": "2025-08-17T15:45:44Z"
-    },
-    {
-        "badges": [],
-        "brief": {
             "en_US": "Expose Dify apps as A2A protocol agents, enabling agent discovery, invocation, and optional registration to Nacos Agent Registry.",
             "zh_Hans": "将 Dify 应用暴露为 A2A 协议智能体，支持智能体发现、调用，并可选注册到 Nacos 智能体注册中心。"
         },
         "category": "extension",
         "icon": "nacos/packages/a2a_server/_assets/icon.png",
         "index_id": "nacos___a2a_server",
-        "install_count": 158,
+        "install_count": 174,
         "label": {
             "en_US": "A2A Server",
             "zh_Hans": "A2A Server"
@@ -1182,6 +1140,48 @@
             "authorized_category": "community"
         },
         "version_updated_at": "2026-01-29T08:20:13Z"
+    },
+    {
+        "badges": [],
+        "brief": {
+            "en_US": "This Slack Bot receives messages from Slack as input for Dify's Chatflow/Chatbot/Agent. In addition to app mentions, it can also trigger actions based on reactions, and supports posting messages to threads when sending messages to Slack.",
+            "ja_JP": "このSlack Botは、SlackからのメッセージをDifyのChatflow/Chatbot/Agentへの入力として受け取ります。app_mentionにくわえ、reactionで動作させることも可能であり、Slackにメッセージを送信する際、スレッドへの投稿もサポートします。",
+            "pt_BR": "Este Slack Bot recebe mensagens do Slack como entrada para o Chatflow/Chatbot/Agent do Dify. Além do app_mention, também é possível operá-lo com reação e, ao enviar mensagens para o Slack, ele também suporta postagens em threads.",
+            "zh_Hans": "这个 Slack Bot 将从 Slack 接收消息并作为输入传递给 Dify 的 Chatflow/Chatbot/Agent。除了应用提及外，还可以通过反应来触发它，同时支持在发送 Slack 消息时在线程中发布内容。"
+        },
+        "category": "extension",
+        "icon": "takada-at/packages/slack-bot2/_assets/icon-bot.svg",
+        "index_id": "takada-at___slack-bot2",
+        "install_count": 172,
+        "label": {
+            "en_US": "slack-bot2",
+            "ja_JP": "slack-bot2",
+            "pt_BR": "slack-bot2",
+            "zh_Hans": "slack-bot2"
+        },
+        "latest_package_identifier": "takada-at/slack-bot2:0.0.2@d9c0ccfb6e1656b5b03a260afdef7e7e35af1110e874b08536934f77ac741d87",
+        "latest_version": "0.0.2",
+        "name": "slack-bot2",
+        "org": "takada-at",
+        "plugin_id": "takada-at/slack-bot2",
+        "plugins": {
+            "agent_strategies": null,
+            "endpoints": [
+                "group/slack-bot2.yaml"
+            ],
+            "models": null,
+            "tools": null
+        },
+        "privacy_options": "",
+        "privacy_policy": "PRIVACY.md",
+        "repository": null,
+        "status": "active",
+        "tags": [],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "community"
+        },
+        "version_updated_at": "2025-08-17T15:45:44Z"
     },
     {
         "badges": [],
