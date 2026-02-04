@@ -8,7 +8,7 @@
         "category": "agent-strategy",
         "icon": "langgenius/packages/agent/_assets/icon.svg",
         "index_id": "langgenius___agent",
-        "install_count": 184550,
+        "install_count": 187046,
         "label": {
             "en_US": "Dify Agent Strategies",
             "zh_Hans": "Dify Agent 策略"
@@ -52,7 +52,7 @@
         "category": "agent-strategy",
         "icon": "junjiem/packages/mcp_see_agent/_assets/icon.svg",
         "index_id": "junjiem___mcp_see_agent",
-        "install_count": 106975,
+        "install_count": 107189,
         "label": {
             "en_US": "Agent Strategies (Support MCP Tools)",
             "zh_Hans": "Agent 策略（支持 MCP 工具）"
@@ -90,7 +90,7 @@
         "category": "agent-strategy",
         "icon": "hjlarry/packages/agent/_assets/icon.svg",
         "index_id": "hjlarry___agent",
-        "install_count": 48440,
+        "install_count": 48486,
         "label": {
             "en_US": "MCP Agent Strategy",
             "zh_Hans": "MCP Agent 策略"
@@ -132,7 +132,7 @@
         "category": "agent-strategy",
         "icon": "svcvit/packages/agent/_assets/icon.svg",
         "index_id": "svcvit___agent",
-        "install_count": 44540,
+        "install_count": 44583,
         "label": {
             "en_US": "Dialogue Agent",
             "zh_Hans": "对话 Agent"
@@ -174,7 +174,7 @@
         "category": "agent-strategy",
         "icon": "allenyzx/packages/enhancing_function_agent/_assets/icon.png",
         "index_id": "allenyzx___enhancing_function_agent",
-        "install_count": 8760,
+        "install_count": 8787,
         "label": {
             "en_US": "Enhancing Agent",
             "zh_Hans": "Enhancing Agent"
@@ -214,7 +214,7 @@
         "category": "agent-strategy",
         "icon": "ssf/packages/mcp_agent/_assets/icon.svg",
         "index_id": "ssf___mcp_agent",
-        "install_count": 766,
+        "install_count": 781,
         "label": {
             "en_US": "mcp_agent",
             "ja_JP": "mcp_agent",
@@ -246,5 +246,45 @@
             "authorized_category": "community"
         },
         "version_updated_at": "2025-12-15T05:41:32Z"
+    },
+    {
+        "badges": [],
+        "brief": {
+            "en_US": "An agent strategy plugin supporting multiple skills for intelligent task execution",
+            "zh_Hans": "支持多种技能的智能代理策略插件，用于智能任务执行"
+        },
+        "category": "agent-strategy",
+        "icon": "xun404/packages/agent-skill-plugin/_assets/icon.svg",
+        "index_id": "xun404___agent-skill-plugin",
+        "install_count": 122,
+        "label": {
+            "en_US": "Agent Skill Plugin",
+            "zh_Hans": "Agent Skill技能插件"
+        },
+        "latest_package_identifier": "xun404/agent-skill-plugin:1.0.0@c67f0ef69d008cc0eeff36f4fa507c1e45e432aa79f18c1a965e9b95860be0b0",
+        "latest_version": "1.0.0",
+        "name": "agent-skill-plugin",
+        "org": "xun404",
+        "plugin_id": "xun404/agent-skill-plugin",
+        "plugins": {
+            "agent_strategies": [
+                "provider/agent_skill.yaml"
+            ],
+            "datasources": null,
+            "endpoints": null,
+            "models": null,
+            "tools": null,
+            "triggers": null
+        },
+        "privacy_options": "",
+        "privacy_policy": "",
+        "repository": null,
+        "status": "active",
+        "tags": [],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "community"
+        },
+        "version_updated_at": "2026-02-03T06:17:04Z"
     }
 ]
