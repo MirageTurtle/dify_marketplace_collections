@@ -240,19 +240,19 @@
     {
         "badges": [],
         "brief": {
-            "en_US": "Volcengine Ark models.",
-            "zh_Hans": "火山方舟提供的模型，例如 Doubao-pro-4k、Doubao-pro-32k 和 Doubao-pro-128k。"
+            "en_US": "Call Volcengine Ark endpoints (Endpoint ID) from Dify. Supports LLM, text embedding, and speech-to-text.",
+            "zh_Hans": "在 Dify 中通过 Endpoint ID 调用火山方舟（Ark）推理接入点，支持大模型、向量与语音转文字。"
         },
         "category": "model",
         "icon": "langgenius/packages/volcengine_maas/_assets/icon_s_en.svg",
         "index_id": "langgenius___volcengine_maas",
-        "install_count": 224610,
+        "install_count": 227520,
         "label": {
-            "en_US": "Volcengine",
-            "zh_Hans": "火山方舟"
+            "en_US": "Volcengine Ark (Endpoint)",
+            "zh_Hans": "火山方舟（接入点）"
         },
-        "latest_package_identifier": "langgenius/volcengine_maas:0.0.43@8b321c66d61275cde81118579f4ee7fb002df024213f81630074fefef7bf97a8",
-        "latest_version": "0.0.43",
+        "latest_package_identifier": "langgenius/volcengine_maas:0.0.44@229e7258feb20783ba38bbfd733cd57ad40b9d90d2ab8f69c05bf12f089c04f0",
+        "latest_version": "0.0.44",
         "name": "volcengine_maas",
         "org": "langgenius",
         "plugin_id": "langgenius/volcengine_maas",
@@ -268,14 +268,14 @@
         },
         "privacy_options": "",
         "privacy_policy": "",
-        "repository": "",
+        "repository": null,
         "status": "active",
         "tags": [],
         "type": "plugin",
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-02-14T01:07:55Z"
+        "version_updated_at": "2026-02-15T09:13:19Z"
     },
     {
         "badges": [],
@@ -4425,5 +4425,45 @@
             "authorized_category": "community"
         },
         "version_updated_at": "2026-02-14T07:17:51Z"
+    },
+    {
+        "badges": [],
+        "brief": {
+            "en_US": "Volcengine Ark base-model invocation (no endpoint required). Uses official volcengine-python-sdk[ark].",
+            "zh_Hans": "火山方舟基础模型直连调用（无需推理接入点）。使用官方 volcengine-python-sdk[ark]。"
+        },
+        "category": "model",
+        "icon": "langgenius/packages/volcengine/_assets/icon_s_en.svg",
+        "index_id": "langgenius___volcengine",
+        "install_count": 0,
+        "label": {
+            "en_US": "Volcengine",
+            "zh_Hans": "火山方舟"
+        },
+        "latest_package_identifier": "langgenius/volcengine:0.0.1@c3e6caaf64ef12c40629cb83c5b683917476c552f9cf163d063cdec7bc4cdf63",
+        "latest_version": "0.0.1",
+        "name": "volcengine",
+        "org": "langgenius",
+        "plugin_id": "langgenius/volcengine",
+        "plugins": {
+            "agent_strategies": null,
+            "datasources": null,
+            "endpoints": null,
+            "models": [
+                "provider/volcengine.yaml"
+            ],
+            "tools": null,
+            "triggers": null
+        },
+        "privacy_options": "",
+        "privacy_policy": "",
+        "repository": null,
+        "status": "active",
+        "tags": [],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "langgenius"
+        },
+        "version_updated_at": "2026-02-15T09:30:36Z"
     }
 ]
