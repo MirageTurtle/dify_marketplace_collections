@@ -22399,6 +22399,46 @@
     {
         "badges": [],
         "brief": {
+            "en_US": "Extract values from objects and arrays using JSONPath",
+            "ja_JP": "JSONPathを使用してオブジェクトや配列から値を抽出"
+        },
+        "category": "tool",
+        "icon": "cazziwork/packages/object_extractor_tool/_assets/icon.png",
+        "index_id": "cazziwork___object_extractor_tool",
+        "install_count": 24,
+        "label": {
+            "en_US": "Object Extractor Tool",
+            "ja_JP": "Object Extractor Tool"
+        },
+        "latest_package_identifier": "cazziwork/object_extractor_tool:0.3.0@f860cbce7d2d25d292925f14982f6efcc1e061404fdae35645337c5acc41fb86",
+        "latest_version": "0.3.0",
+        "name": "object_extractor_tool",
+        "org": "cazziwork",
+        "plugin_id": "cazziwork/object_extractor_tool",
+        "plugins": {
+            "agent_strategies": null,
+            "datasources": null,
+            "endpoints": null,
+            "models": null,
+            "tools": [
+                "provider/object_extract.yaml"
+            ],
+            "triggers": null
+        },
+        "privacy_options": "",
+        "privacy_policy": "PRIVACY.md",
+        "repository": null,
+        "status": "active",
+        "tags": [],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "community"
+        },
+        "version_updated_at": "2026-02-17T13:37:30Z"
+    },
+    {
+        "badges": [],
+        "brief": {
             "en_US": "Operate Backlog projects/issues via Dify tools",
             "ja_JP": "DifyツールからBacklogのプロジェクト/課題操作を提供"
         },
@@ -22701,41 +22741,41 @@
     {
         "badges": [],
         "brief": {
-            "en_US": "Extract values from objects and arrays using JSONPath",
-            "ja_JP": "JSONPathを使用してオブジェクトや配列から値を抽出"
+            "en_US": "Cryptographic trust verification for multi-agent workflows using CMVK (Ed25519) identities",
+            "zh_Hans": "使用 CMVK (Ed25519) 身份为多代理工作流提供加密信任验证"
         },
         "category": "tool",
-        "icon": "cazziwork/packages/object_extractor_tool/_assets/icon.png",
-        "index_id": "cazziwork___object_extractor_tool",
-        "install_count": 6,
+        "icon": "imran-siddique/packages/agentmesh-trust-layer/_assets/icon.svg",
+        "index_id": "imran-siddique___agentmesh-trust-layer",
+        "install_count": 0,
         "label": {
-            "en_US": "Object Extractor Tool",
-            "ja_JP": "Object Extractor Tool"
+            "en_US": "AgentMesh Trust Layer",
+            "zh_Hans": "AgentMesh 信任层"
         },
-        "latest_package_identifier": "cazziwork/object_extractor_tool:0.2.0@81db71ef7dbbdd6f4904dbcc2c584a27361d01d80d92258bf9b8b7400877983e",
-        "latest_version": "0.2.0",
-        "name": "object_extractor_tool",
-        "org": "cazziwork",
-        "plugin_id": "cazziwork/object_extractor_tool",
+        "latest_package_identifier": "imran-siddique/agentmesh-trust-layer:0.0.1@4a577409afe0eb1b32fd0bbf20b81acd11d6de01f86215d0c13dc0a1319a5415",
+        "latest_version": "0.0.1",
+        "name": "agentmesh-trust-layer",
+        "org": "imran-siddique",
+        "plugin_id": "imran-siddique/agentmesh-trust-layer",
         "plugins": {
             "agent_strategies": null,
             "datasources": null,
             "endpoints": null,
             "models": null,
             "tools": [
-                "provider/object_extract.yaml"
+                "provider/agentmesh.yaml"
             ],
             "triggers": null
         },
         "privacy_options": "",
         "privacy_policy": "PRIVACY.md",
-        "repository": null,
+        "repository": "https://github.com/imran-siddique/agent-mesh",
         "status": "active",
         "tags": [],
         "type": "plugin",
         "verification": {
             "authorized_category": "community"
         },
-        "version_updated_at": "2026-02-14T01:19:07Z"
+        "version_updated_at": "2026-02-17T13:36:19Z"
     }
 ]
