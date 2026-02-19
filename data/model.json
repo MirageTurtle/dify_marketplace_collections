@@ -688,15 +688,15 @@
         "category": "model",
         "icon": "langgenius/packages/bedrock/_assets/icon_s_en.svg",
         "index_id": "langgenius___bedrock",
-        "install_count": 39932,
+        "install_count": 40851,
         "label": {
             "en_US": "Amazon Bedrock",
             "ja_JP": "Amazon Bedrock",
             "pt_BR": "Amazon Bedrock",
             "zh_Hans": "Amazon Bedrock"
         },
-        "latest_package_identifier": "langgenius/bedrock:0.0.60@580499593510fa0d1e4b97e682c37b26ac9af4f5798cff0dff631f670573aa7d",
-        "latest_version": "0.0.60",
+        "latest_package_identifier": "langgenius/bedrock:0.0.61@f85184a24555e8475c7bf31e4fe13c5ba09c4f21ab7b8ebf7dccc9e99bcfefb5",
+        "latest_version": "0.0.61",
         "name": "bedrock",
         "org": "langgenius",
         "plugin_id": "langgenius/bedrock",
@@ -712,14 +712,14 @@
         },
         "privacy_options": "",
         "privacy_policy": "PRIVACY.md",
-        "repository": "",
+        "repository": null,
         "status": "active",
         "tags": [],
         "type": "plugin",
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-02-14T01:10:25Z"
+        "version_updated_at": "2026-02-19T02:21:42Z"
     },
     {
         "badges": [],
