@@ -21517,6 +21517,46 @@
     {
         "badges": [],
         "brief": {
+            "en_US": "Extract values from objects and arrays using JSONPath",
+            "ja_JP": "JSONPathを使用してオブジェクトや配列から値を抽出"
+        },
+        "category": "tool",
+        "icon": "cazziwork/packages/object_extractor_tool/_assets/icon.png",
+        "index_id": "cazziwork___object_extractor_tool",
+        "install_count": 52,
+        "label": {
+            "en_US": "Object Extractor Tool",
+            "ja_JP": "Object Extractor Tool"
+        },
+        "latest_package_identifier": "cazziwork/object_extractor_tool:0.3.1@c4d162e27c66d90f3b417cd3ee9204e30503458b5b037c6cf0c34383198e4bf1",
+        "latest_version": "0.3.1",
+        "name": "object_extractor_tool",
+        "org": "cazziwork",
+        "plugin_id": "cazziwork/object_extractor_tool",
+        "plugins": {
+            "agent_strategies": null,
+            "datasources": null,
+            "endpoints": null,
+            "models": null,
+            "tools": [
+                "provider/object_extract.yaml"
+            ],
+            "triggers": null
+        },
+        "privacy_options": "",
+        "privacy_policy": "PRIVACY.md",
+        "repository": null,
+        "status": "active",
+        "tags": [],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "community"
+        },
+        "version_updated_at": "2026-02-21T06:15:39Z"
+    },
+    {
+        "badges": [],
+        "brief": {
             "en_US": "gemini video generation support for Veo 3.1",
             "zh_Hans": "gemini video 支持，当前仅适用于 VEO 3.1"
         },
@@ -22399,46 +22439,6 @@
     {
         "badges": [],
         "brief": {
-            "en_US": "Extract values from objects and arrays using JSONPath",
-            "ja_JP": "JSONPathを使用してオブジェクトや配列から値を抽出"
-        },
-        "category": "tool",
-        "icon": "cazziwork/packages/object_extractor_tool/_assets/icon.png",
-        "index_id": "cazziwork___object_extractor_tool",
-        "install_count": 24,
-        "label": {
-            "en_US": "Object Extractor Tool",
-            "ja_JP": "Object Extractor Tool"
-        },
-        "latest_package_identifier": "cazziwork/object_extractor_tool:0.3.0@f860cbce7d2d25d292925f14982f6efcc1e061404fdae35645337c5acc41fb86",
-        "latest_version": "0.3.0",
-        "name": "object_extractor_tool",
-        "org": "cazziwork",
-        "plugin_id": "cazziwork/object_extractor_tool",
-        "plugins": {
-            "agent_strategies": null,
-            "datasources": null,
-            "endpoints": null,
-            "models": null,
-            "tools": [
-                "provider/object_extract.yaml"
-            ],
-            "triggers": null
-        },
-        "privacy_options": "",
-        "privacy_policy": "PRIVACY.md",
-        "repository": null,
-        "status": "active",
-        "tags": [],
-        "type": "plugin",
-        "verification": {
-            "authorized_category": "community"
-        },
-        "version_updated_at": "2026-02-17T13:37:30Z"
-    },
-    {
-        "badges": [],
-        "brief": {
             "en_US": "Operate Backlog projects/issues via Dify tools",
             "ja_JP": "DifyツールからBacklogのプロジェクト/課題操作を提供"
         },
@@ -22777,5 +22777,45 @@
             "authorized_category": "community"
         },
         "version_updated_at": "2026-02-17T13:36:19Z"
+    },
+    {
+        "badges": [],
+        "brief": {
+            "en_US": "Date and time manipulation tools with Japanese holiday support. Includes relative date calculation, month start/end, and holiday check.",
+            "ja_JP": "日本の祝日対応の日付・時刻操作ツール群。相対日付計算、月初月末、祝日判定を含む。"
+        },
+        "category": "tool",
+        "icon": "cazziwork/packages/datetime-tool/_assets/icon.png",
+        "index_id": "cazziwork___datetime-tool",
+        "install_count": 0,
+        "label": {
+            "en_US": "DateTime Tool",
+            "ja_JP": "日付操作ツール"
+        },
+        "latest_package_identifier": "cazziwork/datetime-tool:0.0.1@34c5fb480b79c2c76e5e7dbd2a5704608b2945ee85db13a2c09dba77f730a94e",
+        "latest_version": "0.0.1",
+        "name": "datetime-tool",
+        "org": "cazziwork",
+        "plugin_id": "cazziwork/datetime-tool",
+        "plugins": {
+            "agent_strategies": null,
+            "datasources": null,
+            "endpoints": null,
+            "models": null,
+            "tools": [
+                "provider/datetime_tool.yaml"
+            ],
+            "triggers": null
+        },
+        "privacy_options": "",
+        "privacy_policy": "PRIVACY.md",
+        "repository": null,
+        "status": "active",
+        "tags": [],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "community"
+        },
+        "version_updated_at": "2026-02-21T06:15:18Z"
     }
 ]
