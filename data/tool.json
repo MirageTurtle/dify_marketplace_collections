@@ -9,14 +9,14 @@
         "category": "tool",
         "icon": "bowenliang123/packages/md_exporter/_assets/icon.png",
         "index_id": "bowenliang123___md_exporter",
-        "install_count": 113482,
+        "install_count": 114845,
         "label": {
             "en_US": "Markdown Exporter",
             "ja_JP": "Markdownエクスポーター",
             "zh_Hans": "Markdown 转换器"
         },
-        "latest_package_identifier": "bowenliang123/md_exporter:3.6.0@11b39de742c7f3d61db183ff8e938f08fc14b98549e4b5159551e82aa74f7b41",
-        "latest_version": "3.6.0",
+        "latest_package_identifier": "bowenliang123/md_exporter:3.6.8@3ae7d72bc962b73ec1f63f8a9cc04fdfbcc7d4293c9a05b764fe885a5d88c178",
+        "latest_version": "3.6.8",
         "name": "md_exporter",
         "org": "bowenliang123",
         "plugin_id": "bowenliang123/md_exporter",
@@ -32,7 +32,7 @@
         },
         "privacy_options": "",
         "privacy_policy": "PRIVACY.md",
-        "repository": "https://github.com/bowenliang123/md_exporter",
+        "repository": "https://github.com/bowenliang123/markdown-exporter",
         "status": "active",
         "tags": [
             {
@@ -43,7 +43,7 @@
         "verification": {
             "authorized_category": "community"
         },
-        "version_updated_at": "2026-02-16T02:24:30Z"
+        "version_updated_at": "2026-02-24T01:52:12Z"
     },
     {
         "badges": [
@@ -3158,6 +3158,60 @@
     {
         "badges": [],
         "brief": {
+            "en_US": "Comprehensive Notion integration allowing you to search, retrieve, create, and update pages, databases, and comments directly from your Dify applications. Query databases with filters, manage database properties, and organize your Notion workspace efficiently.",
+            "ja_JP": "Difyアプリケーションから直接Notionのページ、データベース、コメントを検索、取得、作成、更新できる包括的な統合。フィルター付きでデータベースを照会し、データベースのプロパティを管理し、Notionワークスペースを効率的に整理します。",
+            "pt_BR": "Integração abrangente com o Notion permitindo pesquisar, recuperar, criar e atualizar páginas, bancos de dados e comentários diretamente de seus aplicativos Dify. Consulte bancos de dados com filtros, gerencie propriedades de banco de dados e organize seu espaço de trabalho do Notion de forma eficiente.",
+            "zh_Hans": "全面的 Notion 集成，允许您直接从 Dify 应用程序中搜索、获取、创建和更新页面、数据库和评论。使用筛选器查询数据库，管理数据库属性，高效组织您的 Notion 工作区。"
+        },
+        "category": "tool",
+        "icon": "langgenius/packages/notion/_assets/icon.svg",
+        "index_id": "langgenius___notion",
+        "install_count": 6501,
+        "label": {
+            "en_US": "Notion",
+            "ja_JP": "Notion",
+            "pt_BR": "Notion",
+            "zh_Hans": "Notion"
+        },
+        "latest_package_identifier": "langgenius/notion:0.0.4@ae8c4af0e247983afd57af90a7c950237cf2297675bddcc6f14cd0632d682a18",
+        "latest_version": "0.0.4",
+        "name": "notion",
+        "org": "langgenius",
+        "plugin_id": "langgenius/notion",
+        "plugins": {
+            "agent_strategies": null,
+            "datasources": null,
+            "endpoints": null,
+            "models": null,
+            "tools": [
+                "provider/notion.yaml"
+            ],
+            "triggers": null
+        },
+        "privacy_options": "",
+        "privacy_policy": "PRIVACY.md",
+        "repository": null,
+        "status": "active",
+        "tags": [
+            {
+                "name": "productivity"
+            },
+            {
+                "name": "business"
+            },
+            {
+                "name": "utilities"
+            }
+        ],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "langgenius"
+        },
+        "version_updated_at": "2026-02-23T11:56:22Z"
+    },
+    {
+        "badges": [],
+        "brief": {
             "en_US": "Slack Webhook",
             "pt_BR": "Slack Webhook",
             "zh_Hans": "Slack Webhook"
@@ -3246,60 +3300,6 @@
             "authorized_category": "langgenius"
         },
         "version_updated_at": "2025-02-26T10:44:33Z"
-    },
-    {
-        "badges": [],
-        "brief": {
-            "en_US": "Comprehensive Notion integration allowing you to search, retrieve, create, and update pages, databases, and comments directly from your Dify applications. Query databases with filters, manage database properties, and organize your Notion workspace efficiently.",
-            "ja_JP": "Difyアプリケーションから直接Notionのページ、データベース、コメントを検索、取得、作成、更新できる包括的な統合。フィルター付きでデータベースを照会し、データベースのプロパティを管理し、Notionワークスペースを効率的に整理します。",
-            "pt_BR": "Integração abrangente com o Notion permitindo pesquisar, recuperar, criar e atualizar páginas, bancos de dados e comentários diretamente de seus aplicativos Dify. Consulte bancos de dados com filtros, gerencie propriedades de banco de dados e organize seu espaço de trabalho do Notion de forma eficiente.",
-            "zh_Hans": "全面的 Notion 集成，允许您直接从 Dify 应用程序中搜索、获取、创建和更新页面、数据库和评论。使用筛选器查询数据库，管理数据库属性，高效组织您的 Notion 工作区。"
-        },
-        "category": "tool",
-        "icon": "langgenius/packages/notion/_assets/icon.svg",
-        "index_id": "langgenius___notion",
-        "install_count": 6242,
-        "label": {
-            "en_US": "Notion",
-            "ja_JP": "Notion",
-            "pt_BR": "Notion",
-            "zh_Hans": "Notion"
-        },
-        "latest_package_identifier": "langgenius/notion:0.0.3@583fd187a13dcdd79e8f66313e8d452c437692106e1a4ef1020eb9158118317d",
-        "latest_version": "0.0.3",
-        "name": "notion",
-        "org": "langgenius",
-        "plugin_id": "langgenius/notion",
-        "plugins": {
-            "agent_strategies": null,
-            "datasources": null,
-            "endpoints": null,
-            "models": null,
-            "tools": [
-                "provider/notion.yaml"
-            ],
-            "triggers": null
-        },
-        "privacy_options": "",
-        "privacy_policy": "PRIVACY.md",
-        "repository": "",
-        "status": "active",
-        "tags": [
-            {
-                "name": "productivity"
-            },
-            {
-                "name": "utilities"
-            },
-            {
-                "name": "business"
-            }
-        ],
-        "type": "plugin",
-        "verification": {
-            "authorized_category": "langgenius"
-        },
-        "version_updated_at": "2025-12-24T11:44:15Z"
     },
     {
         "badges": [],
@@ -22817,5 +22817,45 @@
             "authorized_category": "community"
         },
         "version_updated_at": "2026-02-21T06:15:18Z"
+    },
+    {
+        "badges": [],
+        "brief": {
+            "en_US": "Connect to Amap Open Platform for IP geolocation queries and walking route planning.",
+            "zh_Hans": "连接高德开放平台，提供IP归属地查询和步行路线规划功能。"
+        },
+        "category": "tool",
+        "icon": "piconasha/packages/amap/_assets/icon.svg",
+        "index_id": "piconasha___amap",
+        "install_count": 0,
+        "label": {
+            "en_US": "Amap",
+            "zh_Hans": "高德开放平台"
+        },
+        "latest_package_identifier": "piconasha/amap:0.0.1@594d566725cf0e43ce9df36afc2c86693880eefa1c370afc07c1e19dbfe07328",
+        "latest_version": "0.0.1",
+        "name": "amap",
+        "org": "piconasha",
+        "plugin_id": "piconasha/amap",
+        "plugins": {
+            "agent_strategies": null,
+            "datasources": null,
+            "endpoints": null,
+            "models": null,
+            "tools": [
+                "provider/amap.yaml"
+            ],
+            "triggers": null
+        },
+        "privacy_options": "",
+        "privacy_policy": "PRIVACY.md",
+        "repository": null,
+        "status": "active",
+        "tags": [],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "community"
+        },
+        "version_updated_at": "2026-02-24T01:54:29Z"
     }
 ]

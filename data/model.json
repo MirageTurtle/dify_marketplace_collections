@@ -157,6 +157,48 @@
         "version_updated_at": "2026-02-10T09:10:52Z"
     },
     {
+        "badges": [
+            "partner"
+        ],
+        "brief": {
+            "en_US": "SiliconFlow provides access to various models (LLMs, text embedding, reranking, STT, TTS), configurable via model name, API key, and other parameters.",
+            "zh_Hans": "硅基流动提供对各种模型（LLM、文本嵌入、重排序、STT、TTS）的访问，可通过模型名称、API密钥和其他参数进行配置。"
+        },
+        "category": "model",
+        "icon": "langgenius/packages/siliconflow/_assets/siliconflow_square.svg",
+        "index_id": "langgenius___siliconflow",
+        "install_count": 296337,
+        "label": {
+            "en_US": "SiliconFlow",
+            "zh_Hans": "硅基流动"
+        },
+        "latest_package_identifier": "langgenius/siliconflow:0.0.44@9dac23fe837d6da24a2cd9ef959c1c93e4e094b7562ad8a2fd3d4cc86c0e3e89",
+        "latest_version": "0.0.44",
+        "name": "siliconflow",
+        "org": "langgenius",
+        "plugin_id": "langgenius/siliconflow",
+        "plugins": {
+            "agent_strategies": null,
+            "datasources": null,
+            "endpoints": null,
+            "models": [
+                "provider/siliconflow.yaml"
+            ],
+            "tools": null,
+            "triggers": null
+        },
+        "privacy_options": "",
+        "privacy_policy": "",
+        "repository": null,
+        "status": "active",
+        "tags": [],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "langgenius"
+        },
+        "version_updated_at": "2026-02-24T01:51:25Z"
+    },
+    {
         "badges": [],
         "brief": {
             "en_US": "Model providers compatible with OpenAI's API standard, such as LM Studio or llama.cpp Service.",
@@ -194,48 +236,6 @@
             "authorized_category": "langgenius"
         },
         "version_updated_at": "2026-02-12T01:49:15Z"
-    },
-    {
-        "badges": [
-            "partner"
-        ],
-        "brief": {
-            "en_US": "SiliconFlow provides access to various models (LLMs, text embedding, reranking, STT, TTS), configurable via model name, API key, and other parameters.",
-            "zh_Hans": "硅基流动提供对各种模型（LLM、文本嵌入、重排序、STT、TTS）的访问，可通过模型名称、API密钥和其他参数进行配置。"
-        },
-        "category": "model",
-        "icon": "langgenius/packages/siliconflow/_assets/siliconflow_square.svg",
-        "index_id": "langgenius___siliconflow",
-        "install_count": 286982,
-        "label": {
-            "en_US": "SiliconFlow",
-            "zh_Hans": "硅基流动"
-        },
-        "latest_package_identifier": "langgenius/siliconflow:0.0.43@18a2f3c3559d752b178bb4efd6b736dec8dd13c2d963fd6aa5b0a350e24e6826",
-        "latest_version": "0.0.43",
-        "name": "siliconflow",
-        "org": "langgenius",
-        "plugin_id": "langgenius/siliconflow",
-        "plugins": {
-            "agent_strategies": null,
-            "datasources": null,
-            "endpoints": null,
-            "models": [
-                "provider/siliconflow.yaml"
-            ],
-            "tools": null,
-            "triggers": null
-        },
-        "privacy_options": "",
-        "privacy_policy": "",
-        "repository": "",
-        "status": "active",
-        "tags": [],
-        "type": "plugin",
-        "verification": {
-            "authorized_category": "langgenius"
-        },
-        "version_updated_at": "2026-01-31T14:01:43Z"
     },
     {
         "badges": [],
@@ -923,12 +923,12 @@
         "category": "model",
         "icon": "langgenius/packages/vertex_ai/_assets/icon_s_en.svg",
         "index_id": "langgenius___vertex_ai",
-        "install_count": 24574,
+        "install_count": 25700,
         "label": {
             "en_US": "Vertex AI | Google Cloud Platform"
         },
-        "latest_package_identifier": "langgenius/vertex_ai:0.0.39@d00ed5c9c042060296288dbd4a4da62d0025c5d2a42c543ac3f6fc8f9dc6a0cd",
-        "latest_version": "0.0.39",
+        "latest_package_identifier": "langgenius/vertex_ai:0.0.40@75ef82f4277235409333c574899f075bb98324bb4e44a630069f82943285f390",
+        "latest_version": "0.0.40",
         "name": "vertex_ai",
         "org": "langgenius",
         "plugin_id": "langgenius/vertex_ai",
@@ -944,14 +944,14 @@
         },
         "privacy_options": "",
         "privacy_policy": "",
-        "repository": "",
+        "repository": null,
         "status": "active",
         "tags": [],
         "type": "plugin",
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-02-07T05:27:00Z"
+        "version_updated_at": "2026-02-23T11:58:58Z"
     },
     {
         "badges": [],
