@@ -22857,5 +22857,172 @@
             "authorized_category": "community"
         },
         "version_updated_at": "2026-02-24T01:54:29Z"
+    },
+    {
+        "badges": [],
+        "brief": {
+            "en_US": "TongYi AIGC: Supports full-featured image and video generation using the latest Alibaba Tongyi models (wan2.6, qwen-image, Z-image, wan2.5, wan2.2, and wanx2.1).",
+            "zh_Hans": "通义AIGC：支持全套图片+视频的生成、编辑等操作，使用最新的阿里通义模型(wan2.6、qwen-image、Z-Image以及wan2.5、wan2.2和wanx2.1)。"
+        },
+        "category": "tool",
+        "icon": "sawyer-shi/packages/tongyi_aigc/_assets/icon.svg",
+        "index_id": "sawyer-shi___tongyi_aigc",
+        "install_count": 0,
+        "label": {
+            "en_US": "TongYi AIGC",
+            "zh_Hans": "通义AIGC"
+        },
+        "latest_package_identifier": "sawyer-shi/tongyi_aigc:0.0.1@01f2e5f8c3226e1bab678eed70baef4503d46aabf96c767ba58eaa48a6a8e290",
+        "latest_version": "0.0.1",
+        "name": "tongyi_aigc",
+        "org": "sawyer-shi",
+        "plugin_id": "sawyer-shi/tongyi_aigc",
+        "plugins": {
+            "agent_strategies": null,
+            "datasources": null,
+            "endpoints": null,
+            "models": null,
+            "tools": [
+                "provider/tongyi_aigc.yaml"
+            ],
+            "triggers": null
+        },
+        "privacy_options": "",
+        "privacy_policy": "PRIVACY.md",
+        "repository": "https://github.com/sawyer-shi/dify-plugins-tongyi_aigc",
+        "status": "active",
+        "tags": [],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "community"
+        },
+        "version_updated_at": "2026-02-24T06:58:51Z"
+    },
+    {
+        "badges": [],
+        "brief": {
+            "en_US": "Kling AIGC: Support full-generation and editing operations for images and videos, using the latest Kling models (3-Omini, O1, kling-v3, kling-v2.6, and kling-v2.5).",
+            "zh_Hans": "可灵AIGC：支持全套图片+视频的生成、编辑等操作，使用最新的可灵模型(3-Omini、O1、kling-v3以及kling-v2.6、kling-v2.5、kling-v2.1和kling-v2.0)。"
+        },
+        "category": "tool",
+        "icon": "sawyer-shi/packages/kling_aigc/_assets/icon.svg",
+        "index_id": "sawyer-shi___kling_aigc",
+        "install_count": 0,
+        "label": {
+            "en_US": "Kling AIGC",
+            "zh_Hans": "可灵AIGC"
+        },
+        "latest_package_identifier": "sawyer-shi/kling_aigc:0.0.1@ca41e6782237cf464e54ab2eb346503260f8b515d84aab50c8684107679148e6",
+        "latest_version": "0.0.1",
+        "name": "kling_aigc",
+        "org": "sawyer-shi",
+        "plugin_id": "sawyer-shi/kling_aigc",
+        "plugins": {
+            "agent_strategies": null,
+            "datasources": null,
+            "endpoints": null,
+            "models": null,
+            "tools": [
+                "provider/kling_aigc.yaml"
+            ],
+            "triggers": null
+        },
+        "privacy_options": "",
+        "privacy_policy": "PRIVACY.md",
+        "repository": "https://github.com/sawyer-shi/dify-plugins-kling_aigc",
+        "status": "active",
+        "tags": [],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "community"
+        },
+        "version_updated_at": "2026-02-24T06:58:58Z"
+    },
+    {
+        "badges": [],
+        "brief": {
+            "en_US": "Hailuo AIGC: Supports full pipeline operations for image and video generation, editing, etc., powered by the latest MiniMax models (MiniMax-Hailuo-2.3, MiniMax-Hailuo-2.3-fast, MiniMax-Hailuo-02, T2V-01-Director, and image-01).",
+            "zh_Hans": "海螺AIGC：支持全套图片+视频的生成、编辑等操作，使用最新的MiniMax模型(MiniMax-Hailuo-2.3、MiniMax-Hailuo-2.3-fast以及MiniMax-Hailuo-02、T2V-01-Director 和 image-01)。"
+        },
+        "category": "tool",
+        "icon": "sawyer-shi/packages/hailuo_aigc/_assets/icon.svg",
+        "index_id": "sawyer-shi___hailuo_aigc",
+        "install_count": 0,
+        "label": {
+            "en_US": "Hailuo AIGC",
+            "zh_Hans": "海螺AIGC"
+        },
+        "latest_package_identifier": "sawyer-shi/hailuo_aigc:0.0.1@a48301a3adf35b651a04a78d154635be62b4e4b97d365d8cc9e3ff76c1a305ac",
+        "latest_version": "0.0.1",
+        "name": "hailuo_aigc",
+        "org": "sawyer-shi",
+        "plugin_id": "sawyer-shi/hailuo_aigc",
+        "plugins": {
+            "agent_strategies": null,
+            "datasources": null,
+            "endpoints": null,
+            "models": null,
+            "tools": [
+                "provider/hailuo_aigc.yaml"
+            ],
+            "triggers": null
+        },
+        "privacy_options": "",
+        "privacy_policy": "PRIVACY.md",
+        "repository": "https://github.com/sawyer-shi/dify-plugins-hailuo_aigc",
+        "status": "active",
+        "tags": [],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "community"
+        },
+        "version_updated_at": "2026-02-24T06:59:15Z"
+    },
+    {
+        "badges": [],
+        "brief": {
+            "en_US": "Seedream AIGC: Supports full-featured image and video generation across the series, powered by the latest Doubao Dream models (Seedance-2.0,Seedream-5.0,Seedream-4.5, Seedream-4.0, Seedance-1.5-pro and Seedance-1.0-pro-fast).",
+            "zh_Hans": "即梦AIGC：支持全套图片+视频的生成、编辑等操作，使用最新的豆包即梦模型(Seedance-2.0和Seedream-5.0，以及Seedream-4.0, Seedream-4.5、Seedance-1.0-pro-fast 和 Seedance-1.5-pro)。"
+        },
+        "category": "tool",
+        "icon": "sawyer-shi/packages/seedream_aigc/_assets/icon.svg",
+        "index_id": "sawyer-shi___seedream_aigc",
+        "install_count": 0,
+        "label": {
+            "en_US": "Seedream AIGC",
+            "zh_Hans": "即梦AIGC"
+        },
+        "latest_package_identifier": "sawyer-shi/seedream_aigc:0.0.1@cb3174212b2e32038019fdbbba3c970f68116533ec294a30e6ebdb5af23a4662",
+        "latest_version": "0.0.1",
+        "name": "seedream_aigc",
+        "org": "sawyer-shi",
+        "plugin_id": "sawyer-shi/seedream_aigc",
+        "plugins": {
+            "agent_strategies": null,
+            "datasources": null,
+            "endpoints": null,
+            "models": null,
+            "tools": [
+                "provider/seedream_aigc.yaml"
+            ],
+            "triggers": null
+        },
+        "privacy_options": "",
+        "privacy_policy": "PRIVACY.md",
+        "repository": "https://github.com/sawyer-shi/dify-plugins-seedream_aigc",
+        "status": "active",
+        "tags": [
+            {
+                "name": "productivity"
+            },
+            {
+                "name": "image"
+            }
+        ],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "community"
+        },
+        "version_updated_at": "2026-02-24T06:59:29Z"
     }
 ]
