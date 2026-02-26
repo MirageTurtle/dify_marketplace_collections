@@ -9,14 +9,14 @@
         "category": "tool",
         "icon": "bowenliang123/packages/md_exporter/_assets/icon.png",
         "index_id": "bowenliang123___md_exporter",
-        "install_count": 114845,
+        "install_count": 115550,
         "label": {
             "en_US": "Markdown Exporter",
             "ja_JP": "Markdownエクスポーター",
             "zh_Hans": "Markdown 转换器"
         },
-        "latest_package_identifier": "bowenliang123/md_exporter:3.6.8@3ae7d72bc962b73ec1f63f8a9cc04fdfbcc7d4293c9a05b764fe885a5d88c178",
-        "latest_version": "3.6.8",
+        "latest_package_identifier": "bowenliang123/md_exporter:3.6.9@3f027d63e80b44d5d5a9f706871afaef37905b8f8a89a2d152dc530211a8acb1",
+        "latest_version": "3.6.9",
         "name": "md_exporter",
         "org": "bowenliang123",
         "plugin_id": "bowenliang123/md_exporter",
@@ -43,7 +43,7 @@
         "verification": {
             "authorized_category": "community"
         },
-        "version_updated_at": "2026-02-24T01:52:12Z"
+        "version_updated_at": "2026-02-25T04:43:42Z"
     },
     {
         "badges": [
@@ -16915,6 +16915,46 @@
         "version_updated_at": "2025-04-01T21:20:33Z"
     },
     {
+        "badges": [
+            "partner"
+        ],
+        "brief": {
+            "en_US": "A connector that connects kintone application with Dify"
+        },
+        "category": "tool",
+        "icon": "cybozu/packages/kintone/_assets/kintone.png",
+        "index_id": "cybozu___kintone",
+        "install_count": 250,
+        "label": {
+            "en_US": "kintone"
+        },
+        "latest_package_identifier": "cybozu/kintone:0.1.1@cb717ab0364f4e92922cb7534f503117c4d020141c7f7d508bd41cd293801097",
+        "latest_version": "0.1.1",
+        "name": "kintone",
+        "org": "cybozu",
+        "plugin_id": "cybozu/kintone",
+        "plugins": {
+            "agent_strategies": null,
+            "datasources": null,
+            "endpoints": null,
+            "models": null,
+            "tools": [
+                "provider/provider.yaml"
+            ],
+            "triggers": null
+        },
+        "privacy_options": "",
+        "privacy_policy": "https://cybozu.co.jp/privacy/privacy-policy/",
+        "repository": null,
+        "status": "active",
+        "tags": [],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "partner"
+        },
+        "version_updated_at": "2026-02-25T04:43:21Z"
+    },
+    {
         "badges": [],
         "brief": {
             "en_US": "Perform functional operations using Agentsphere",
@@ -17378,46 +17418,6 @@
             "authorized_category": "community"
         },
         "version_updated_at": "2026-01-06T01:56:40Z"
-    },
-    {
-        "badges": [
-            "partner"
-        ],
-        "brief": {
-            "en_US": "A connector that connects kintone application with Dify"
-        },
-        "category": "tool",
-        "icon": "cybozu/packages/kintone/_assets/kintone.png",
-        "index_id": "cybozu___kintone",
-        "install_count": 233,
-        "label": {
-            "en_US": "kintone"
-        },
-        "latest_package_identifier": "cybozu/kintone:0.1.0@df9b6bc9f398e34c4cf5fc8613f64f52420b2b0f50c5aeacdb651c1e14b51115",
-        "latest_version": "0.1.0",
-        "name": "kintone",
-        "org": "cybozu",
-        "plugin_id": "cybozu/kintone",
-        "plugins": {
-            "agent_strategies": null,
-            "datasources": null,
-            "endpoints": null,
-            "models": null,
-            "tools": [
-                "provider/provider.yaml"
-            ],
-            "triggers": null
-        },
-        "privacy_options": "",
-        "privacy_policy": "https://cybozu.co.jp/privacy/privacy-policy/",
-        "repository": null,
-        "status": "active",
-        "tags": [],
-        "type": "plugin",
-        "verification": {
-            "authorized_category": "community"
-        },
-        "version_updated_at": "2025-11-17T04:26:59Z"
     },
     {
         "badges": [],
