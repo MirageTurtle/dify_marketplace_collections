@@ -3304,6 +3304,50 @@
     {
         "badges": [],
         "brief": {
+            "en_US": "Automatically create database schema knowledge base to build RAGs. Nodes containing natural language to SQL functionality based on schemaRAG",
+            "ja_JP": "データベーススキーマ知識ベースを自動作成し、RAGを構築します。schemaRAGに基づく自然言語からSQLへの変換機能ノードを含みます。",
+            "pt_BR": "Construa um esquema para RAG no conjunto de dados Dify. Contém nós que executam a função text2sql com base no schemaRAG.",
+            "zh_Hans": "自动创建数据库schema知识库构建RAG。包含基于schemaRAG的自然语言转SQL功能的节点"
+        },
+        "category": "tool",
+        "icon": "joto/packages/schemarag/_assets/logo.jpg",
+        "index_id": "joto___schemarag",
+        "install_count": 6178,
+        "label": {
+            "en_US": "DB Schema RAG",
+            "ja_JP": "DB Schema RAG",
+            "pt_BR": "DB Schema RAG",
+            "zh_Hans": "DB Schema RAG"
+        },
+        "latest_package_identifier": "joto/schemarag:0.1.6@d8d1fa85da8fad4300a98819eb55be14acdc7bb3b4bd891f416007c2cb6da731",
+        "latest_version": "0.1.6",
+        "name": "schemarag",
+        "org": "joto",
+        "plugin_id": "joto/schemarag",
+        "plugins": {
+            "agent_strategies": null,
+            "datasources": null,
+            "endpoints": null,
+            "models": null,
+            "tools": [
+                "provider/provider.yaml"
+            ],
+            "triggers": null
+        },
+        "privacy_options": "",
+        "privacy_policy": "PRIVACY.md",
+        "repository": null,
+        "status": "active",
+        "tags": [],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "community"
+        },
+        "version_updated_at": "2026-02-26T15:23:15Z"
+    },
+    {
+        "badges": [],
+        "brief": {
             "en_US": "WaterCrawl is a smart web crawling tool. with this plugin, you can easily crawl websites and extract data from them. this plugin is compatible with WaterCrawl v0.9.*",
             "ja_JP": "WaterCrawlはスマートなウェブクローリングツールです。このプラグインを使えば、ウェブサイトを簡単にクロールし、データを抽出することができます。WaterCrawl バージョン0.3.*に対応しています。",
             "zh_Hans": "WaterCrawl 是一个智能的网页爬取工具，使用这个插件，你可以轻松地爬取网站，从中提取数据。这个插件与 WaterCrawl v0.3.* 兼容。"
@@ -3385,50 +3429,6 @@
             "authorized_category": "community"
         },
         "version_updated_at": "2025-03-25T02:35:15Z"
-    },
-    {
-        "badges": [],
-        "brief": {
-            "en_US": "Automatically create database schema knowledge base to build RAGs. Nodes containing natural language to SQL functionality based on schemaRAG",
-            "ja_JP": "データベーススキーマ知識ベースを自動作成し、RAGを構築します。schemaRAGに基づく自然言語からSQLへの変換機能ノードを含みます。",
-            "pt_BR": "Construa um esquema para RAG no conjunto de dados Dify. Contém nós que executam a função text2sql com base no schemaRAG.",
-            "zh_Hans": "自动创建数据库schema知识库构建RAG。包含基于schemaRAG的自然语言转SQL功能的节点"
-        },
-        "category": "tool",
-        "icon": "joto/packages/schemarag/_assets/logo.jpg",
-        "index_id": "joto___schemarag",
-        "install_count": 5912,
-        "label": {
-            "en_US": "DB Schema RAG",
-            "ja_JP": "DB Schema RAG",
-            "pt_BR": "DB Schema RAG",
-            "zh_Hans": "DB Schema RAG"
-        },
-        "latest_package_identifier": "joto/schemarag:0.1.5@7b8ad8cc2f217a54cb1013d09a7c3c9b7c423aebefcb71996206229f3b7f4d8f",
-        "latest_version": "0.1.5",
-        "name": "schemarag",
-        "org": "joto",
-        "plugin_id": "joto/schemarag",
-        "plugins": {
-            "agent_strategies": null,
-            "datasources": null,
-            "endpoints": null,
-            "models": null,
-            "tools": [
-                "provider/provider.yaml"
-            ],
-            "triggers": null
-        },
-        "privacy_options": "",
-        "privacy_policy": "PRIVACY.md",
-        "repository": null,
-        "status": "active",
-        "tags": [],
-        "type": "plugin",
-        "verification": {
-            "authorized_category": "community"
-        },
-        "version_updated_at": "2025-12-08T02:14:03Z"
     },
     {
         "badges": [],
@@ -20311,6 +20311,46 @@
     {
         "badges": [],
         "brief": {
+            "en_US": "SoMark is a DocAI that can convert diverse documents—such as PDFs, images, and more—into structured Markdown or JSON. It is designed to work seamlessly across all scenarios.",
+            "zh_Hans": "SoMark 是一款 DocAI 产品，能够将各种文档（如 PDF、图片等）转换为结构化的 Markdown 或 JSON 格式。它旨在无缝适用于所有场景。"
+        },
+        "category": "tool",
+        "icon": "langgenius/packages/somark/_assets/icon.png",
+        "index_id": "langgenius___somark",
+        "install_count": 105,
+        "label": {
+            "en_US": "Somark",
+            "zh_Hans": "Somark"
+        },
+        "latest_package_identifier": "langgenius/somark:0.0.2@f0d23ed0ab2601e3063a45a4f4f1585ed9713c0b931f521830668602c8cf3db1",
+        "latest_version": "0.0.2",
+        "name": "somark",
+        "org": "langgenius",
+        "plugin_id": "langgenius/somark",
+        "plugins": {
+            "agent_strategies": null,
+            "datasources": null,
+            "endpoints": null,
+            "models": null,
+            "tools": [
+                "provider/somark.yaml"
+            ],
+            "triggers": null
+        },
+        "privacy_options": "",
+        "privacy_policy": "",
+        "repository": null,
+        "status": "active",
+        "tags": [],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "langgenius"
+        },
+        "version_updated_at": "2026-02-26T15:45:47Z"
+    },
+    {
+        "badges": [],
+        "brief": {
             "en_US": "generate stunning visual animations with animo api",
             "ja_JP": "generate stunning visual animations with animo api",
             "pt_BR": "generate stunning visual animations with animo api",
@@ -20515,46 +20555,6 @@
             "authorized_category": "langgenius"
         },
         "version_updated_at": "2025-08-11T14:20:42Z"
-    },
-    {
-        "badges": [],
-        "brief": {
-            "en_US": "SoMark is a DocAI that can convert diverse documents—such as PDFs, images, and more—into structured Markdown or JSON. It is designed to work seamlessly across all scenarios.",
-            "zh_Hans": "SoMark 是一款 DocAI 产品，能够将各种文档（如 PDF、图片等）转换为结构化的 Markdown 或 JSON 格式。它旨在无缝适用于所有场景。"
-        },
-        "category": "tool",
-        "icon": "langgenius/packages/somark/_assets/icon.png",
-        "index_id": "langgenius___somark",
-        "install_count": 93,
-        "label": {
-            "en_US": "Somark",
-            "zh_Hans": "Somark"
-        },
-        "latest_package_identifier": "langgenius/somark:0.0.1@442a04689cf1a40cef51b3be11ab2515360a630c4d11d8e96b7ed12a497d66ac",
-        "latest_version": "0.0.1",
-        "name": "somark",
-        "org": "langgenius",
-        "plugin_id": "langgenius/somark",
-        "plugins": {
-            "agent_strategies": null,
-            "datasources": null,
-            "endpoints": null,
-            "models": null,
-            "tools": [
-                "provider/somark.yaml"
-            ],
-            "triggers": null
-        },
-        "privacy_options": "",
-        "privacy_policy": "",
-        "repository": null,
-        "status": "active",
-        "tags": [],
-        "type": "plugin",
-        "verification": {
-            "authorized_category": "langgenius"
-        },
-        "version_updated_at": "2026-01-31T06:21:04Z"
     },
     {
         "badges": [],
@@ -23024,5 +23024,52 @@
             "authorized_category": "community"
         },
         "version_updated_at": "2026-02-24T06:59:29Z"
+    },
+    {
+        "badges": [],
+        "brief": {
+            "en_US": "Browser automation toolkit for AI agents. Query verified website selectors, create cloud browser sessions via Hyperbrowser, and perform page operations (navigate, click, fill, snapshot) — all from Dify workflows.\n",
+            "zh_Hans": "面向 AI Agent 的浏览器自动化工具包。查询已验证的网站选择器， 通过 Hyperbrowser 创建云端浏览器会话，并执行页面操作 （导航、点击、填写、快照）— 全部可在 Dify 工作流中使用。\n"
+        },
+        "category": "tool",
+        "icon": "actionbook/packages/actionbook/_assets/icon.svg",
+        "index_id": "actionbook___actionbook",
+        "install_count": 0,
+        "label": {
+            "en_US": "Actionbook Browser Automation",
+            "zh_Hans": "Actionbook Browser Automation"
+        },
+        "latest_package_identifier": "actionbook/actionbook:0.1.1@73e663c52b01c40e68910930d1e92887279c0b681f41802aef9df73552e55e4b",
+        "latest_version": "0.1.1",
+        "name": "actionbook",
+        "org": "actionbook",
+        "plugin_id": "actionbook/actionbook",
+        "plugins": {
+            "agent_strategies": null,
+            "datasources": null,
+            "endpoints": null,
+            "models": null,
+            "tools": [
+                "provider/actionbook.yaml"
+            ],
+            "triggers": null
+        },
+        "privacy_options": "",
+        "privacy_policy": "PRIVACY.md",
+        "repository": "https://github.com/actionbook/actionbook",
+        "status": "active",
+        "tags": [
+            {
+                "name": "utilities"
+            },
+            {
+                "name": "productivity"
+            }
+        ],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "community"
+        },
+        "version_updated_at": "2026-02-26T15:22:55Z"
     }
 ]

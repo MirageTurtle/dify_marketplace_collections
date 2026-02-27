@@ -246,13 +246,13 @@
         "category": "model",
         "icon": "langgenius/packages/volcengine_maas/_assets/icon_s_en.svg",
         "index_id": "langgenius___volcengine_maas",
-        "install_count": 227520,
+        "install_count": 252025,
         "label": {
             "en_US": "Volcengine Ark (Endpoint)",
             "zh_Hans": "火山方舟（接入点）"
         },
-        "latest_package_identifier": "langgenius/volcengine_maas:0.0.44@229e7258feb20783ba38bbfd733cd57ad40b9d90d2ab8f69c05bf12f089c04f0",
-        "latest_version": "0.0.44",
+        "latest_package_identifier": "langgenius/volcengine_maas:0.0.45@0649da5ab543027f73ac1146b304fb3179f6e770be1889d4d45c8a5cdcd97da7",
+        "latest_version": "0.0.45",
         "name": "volcengine_maas",
         "org": "langgenius",
         "plugin_id": "langgenius/volcengine_maas",
@@ -275,7 +275,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-02-15T09:13:19Z"
+        "version_updated_at": "2026-02-26T09:11:33Z"
     },
     {
         "badges": [],
@@ -923,12 +923,12 @@
         "category": "model",
         "icon": "langgenius/packages/vertex_ai/_assets/icon_s_en.svg",
         "index_id": "langgenius___vertex_ai",
-        "install_count": 25700,
+        "install_count": 26339,
         "label": {
             "en_US": "Vertex AI | Google Cloud Platform"
         },
-        "latest_package_identifier": "langgenius/vertex_ai:0.0.40@75ef82f4277235409333c574899f075bb98324bb4e44a630069f82943285f390",
-        "latest_version": "0.0.40",
+        "latest_package_identifier": "langgenius/vertex_ai:0.0.41@ae90169084c548a0c1b2cca0dd0d123094096fa522533046afbf177c7dc848c0",
+        "latest_version": "0.0.41",
         "name": "vertex_ai",
         "org": "langgenius",
         "plugin_id": "langgenius/vertex_ai",
@@ -951,7 +951,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-02-23T11:58:58Z"
+        "version_updated_at": "2026-02-26T15:42:40Z"
     },
     {
         "badges": [],
@@ -3193,6 +3193,46 @@
     {
         "badges": [],
         "brief": {
+            "en_US": "Volcengine Ark base-model invocation (no endpoint required). Uses official volcengine-python-sdk[ark].",
+            "zh_Hans": "火山方舟基础模型直连调用（无需推理接入点）。使用官方 volcengine-python-sdk[ark]。"
+        },
+        "category": "model",
+        "icon": "langgenius/packages/volcengine/_assets/icon_s_en.svg",
+        "index_id": "langgenius___volcengine",
+        "install_count": 352,
+        "label": {
+            "en_US": "Volcengine",
+            "zh_Hans": "火山方舟"
+        },
+        "latest_package_identifier": "langgenius/volcengine:0.0.2@0282991493ca47557b180e97ffc711eab931c162a506ade368f1f54790548c77",
+        "latest_version": "0.0.2",
+        "name": "volcengine",
+        "org": "langgenius",
+        "plugin_id": "langgenius/volcengine",
+        "plugins": {
+            "agent_strategies": null,
+            "datasources": null,
+            "endpoints": null,
+            "models": [
+                "provider/volcengine.yaml"
+            ],
+            "tools": null,
+            "triggers": null
+        },
+        "privacy_options": "",
+        "privacy_policy": "",
+        "repository": null,
+        "status": "active",
+        "tags": [],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "langgenius"
+        },
+        "version_updated_at": "2026-02-26T15:27:00Z"
+    },
+    {
+        "badges": [],
+        "brief": {
             "en_US": "TokenPony offers affordable and cutting-edge AI large model services, providing a unified API interface for accessing DeepSeek V3.1, DeepSeek V3, DeepSeek R1, Qwen3, Kimi K2, GLM 4.5, and more.",
             "ja_JP": "TokenPony は、手頃な価格で最先端の大規模 AI モデルサービスを提供しており、DeepSeek V3.1、DeepSeek V3、DeepSeek R1、Qwen3、Kimi K2、GLM 4.5 などへアクセスできる統一 API インターフェースを備えています。",
             "pt_BR": "A TokenPony oferece serviços de modelos de IA de grande porte acessíveis e de ponta, disponibilizando uma interface de API unificada para acessar o DeepSeek V3.1, DeepSeek V3, DeepSeek R1, Qwen3, Kimi K2, GLM 4.5 e muito mais.",
@@ -4425,45 +4465,5 @@
             "authorized_category": "community"
         },
         "version_updated_at": "2026-02-14T07:17:51Z"
-    },
-    {
-        "badges": [],
-        "brief": {
-            "en_US": "Volcengine Ark base-model invocation (no endpoint required). Uses official volcengine-python-sdk[ark].",
-            "zh_Hans": "火山方舟基础模型直连调用（无需推理接入点）。使用官方 volcengine-python-sdk[ark]。"
-        },
-        "category": "model",
-        "icon": "langgenius/packages/volcengine/_assets/icon_s_en.svg",
-        "index_id": "langgenius___volcengine",
-        "install_count": 0,
-        "label": {
-            "en_US": "Volcengine",
-            "zh_Hans": "火山方舟"
-        },
-        "latest_package_identifier": "langgenius/volcengine:0.0.1@c3e6caaf64ef12c40629cb83c5b683917476c552f9cf163d063cdec7bc4cdf63",
-        "latest_version": "0.0.1",
-        "name": "volcengine",
-        "org": "langgenius",
-        "plugin_id": "langgenius/volcengine",
-        "plugins": {
-            "agent_strategies": null,
-            "datasources": null,
-            "endpoints": null,
-            "models": [
-                "provider/volcengine.yaml"
-            ],
-            "tools": null,
-            "triggers": null
-        },
-        "privacy_options": "",
-        "privacy_policy": "",
-        "repository": null,
-        "status": "active",
-        "tags": [],
-        "type": "plugin",
-        "verification": {
-            "authorized_category": "langgenius"
-        },
-        "version_updated_at": "2026-02-15T09:30:36Z"
     }
 ]
