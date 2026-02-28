@@ -286,12 +286,12 @@
         "category": "model",
         "icon": "langgenius/packages/gemini/_assets/icon_s_en.svg",
         "index_id": "langgenius___gemini",
-        "install_count": 182837,
+        "install_count": 188579,
         "label": {
             "en_US": "Gemini"
         },
-        "latest_package_identifier": "langgenius/gemini:0.7.8@6a3c5af18834ba94befb8085f66c0d5f0dac117feffd35488e90392cac99028d",
-        "latest_version": "0.7.8",
+        "latest_package_identifier": "langgenius/gemini:0.7.10@002971bf0936d741f1645427be35520abb0c9dde89cc110764436c4e6da4bb61",
+        "latest_version": "0.7.10",
         "name": "gemini",
         "org": "langgenius",
         "plugin_id": "langgenius/gemini",
@@ -314,7 +314,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-02-20T07:44:27Z"
+        "version_updated_at": "2026-02-27T12:38:44Z"
     },
     {
         "badges": [],
@@ -444,12 +444,12 @@
         "category": "model",
         "icon": "langgenius/packages/openrouter/_assets/openrouter_square.svg",
         "index_id": "langgenius___openrouter",
-        "install_count": 79496,
+        "install_count": 80256,
         "label": {
             "en_US": "OpenRouter"
         },
-        "latest_package_identifier": "langgenius/openrouter:0.0.37@6737f274be94d76fe286fa586c82d858ea5d5fbfbd8eb8e77cf1155fd931722b",
-        "latest_version": "0.0.37",
+        "latest_package_identifier": "langgenius/openrouter:0.0.39@a32be4faa1a8d34ebf7a4c6504e94a92729c08b6de0ff4dc2b233b26f4068916",
+        "latest_version": "0.0.39",
         "name": "openrouter",
         "org": "langgenius",
         "plugin_id": "langgenius/openrouter",
@@ -472,7 +472,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-02-26T01:47:55Z"
+        "version_updated_at": "2026-02-27T11:52:36Z"
     },
     {
         "badges": [],
@@ -923,12 +923,12 @@
         "category": "model",
         "icon": "langgenius/packages/vertex_ai/_assets/icon_s_en.svg",
         "index_id": "langgenius___vertex_ai",
-        "install_count": 26339,
+        "install_count": 26594,
         "label": {
             "en_US": "Vertex AI | Google Cloud Platform"
         },
-        "latest_package_identifier": "langgenius/vertex_ai:0.0.41@ae90169084c548a0c1b2cca0dd0d123094096fa522533046afbf177c7dc848c0",
-        "latest_version": "0.0.41",
+        "latest_package_identifier": "langgenius/vertex_ai:0.0.42@9a2a23a56ae16637aa7a456f5cd947c77e290f282eb9d78e3463af4a7a806857",
+        "latest_version": "0.0.42",
         "name": "vertex_ai",
         "org": "langgenius",
         "plugin_id": "langgenius/vertex_ai",
@@ -951,7 +951,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-02-26T15:42:40Z"
+        "version_updated_at": "2026-02-27T11:52:35Z"
     },
     {
         "badges": [],
@@ -1300,15 +1300,15 @@
         "category": "model",
         "icon": "langgenius/packages/aihubmix/_assets/icon.svg",
         "index_id": "langgenius___aihubmix",
-        "install_count": 6251,
+        "install_count": 6598,
         "label": {
             "en_US": "Aihubmix",
             "ja_JP": "Aihubmix",
             "pt_BR": "Aihubmix",
             "zh_Hans": "Aihubmix"
         },
-        "latest_package_identifier": "langgenius/aihubmix:0.0.17@a7d13e9853b1cd8e57cf7939b8fa49ba188b4d88e3b49ebafbd72fa90c9c9581",
-        "latest_version": "0.0.17",
+        "latest_package_identifier": "langgenius/aihubmix:0.0.19@847126b0ef6620dc6474bd5cf4d9aab97d34bef4fca00e0cea6b17ab80a1d460",
+        "latest_version": "0.0.19",
         "name": "aihubmix",
         "org": "langgenius",
         "plugin_id": "langgenius/aihubmix",
@@ -1324,14 +1324,14 @@
         },
         "privacy_options": "",
         "privacy_policy": "",
-        "repository": "",
+        "repository": null,
         "status": "active",
         "tags": [],
         "type": "plugin",
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-02-12T02:03:00Z"
+        "version_updated_at": "2026-02-27T12:38:47Z"
     },
     {
         "badges": [],
@@ -2242,6 +2242,46 @@
     {
         "badges": [],
         "brief": {
+            "en_US": "Models provided by OCI, such as Grok 3/4, Gemini, gpt-oss, Llama, Cohere Command, etc.",
+            "ja_JP": "OCI が提供する Grok 3/4、Gemini、gpt-oss、Llama、Cohere Command などのモデル。",
+            "zh_Hans": "OCI上提供的模型，例如 Grok 3/4、Gemini, gpt-oss, Llama、Cohere Command 等。"
+        },
+        "category": "model",
+        "icon": "langgenius/packages/oci/_assets/icon_s_en.png",
+        "index_id": "langgenius___oci",
+        "install_count": 1394,
+        "label": {
+            "en_US": "OCI Generative AI"
+        },
+        "latest_package_identifier": "langgenius/oci:0.0.11@98c3c073a09b5daac85c5402f6d9593228b93c604c00662a597d519787f76fb9",
+        "latest_version": "0.0.11",
+        "name": "oci",
+        "org": "langgenius",
+        "plugin_id": "langgenius/oci",
+        "plugins": {
+            "agent_strategies": null,
+            "datasources": null,
+            "endpoints": null,
+            "models": [
+                "provider/oci.yaml"
+            ],
+            "tools": null,
+            "triggers": null
+        },
+        "privacy_options": "",
+        "privacy_policy": "PRIVACY.md",
+        "repository": null,
+        "status": "active",
+        "tags": [],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "langgenius"
+        },
+        "version_updated_at": "2026-02-27T11:52:36Z"
+    },
+    {
+        "badges": [],
+        "brief": {
             "en_US": "Triton Inference Server"
         },
         "category": "model",
@@ -2274,46 +2314,6 @@
             "authorized_category": "langgenius"
         },
         "version_updated_at": "2025-02-17T06:57:47Z"
-    },
-    {
-        "badges": [],
-        "brief": {
-            "en_US": "Models provided by OCI, such as Grok 3/4, Gemini, gpt-oss, Llama, Cohere Command, etc.",
-            "ja_JP": "OCI が提供する Grok 3/4、Gemini、gpt-oss、Llama、Cohere Command などのモデル。",
-            "zh_Hans": "OCI上提供的模型，例如 Grok 3/4、Gemini, gpt-oss, Llama、Cohere Command 等。"
-        },
-        "category": "model",
-        "icon": "langgenius/packages/oci/_assets/icon_s_en.png",
-        "index_id": "langgenius___oci",
-        "install_count": 1332,
-        "label": {
-            "en_US": "OCI Generative AI"
-        },
-        "latest_package_identifier": "langgenius/oci:0.0.10@f019d378181f6e227492aafa2852f141f2b302b374b768c5b33bf43af22dfe39",
-        "latest_version": "0.0.10",
-        "name": "oci",
-        "org": "langgenius",
-        "plugin_id": "langgenius/oci",
-        "plugins": {
-            "agent_strategies": null,
-            "datasources": null,
-            "endpoints": null,
-            "models": [
-                "provider/oci.yaml"
-            ],
-            "tools": null,
-            "triggers": null
-        },
-        "privacy_options": "",
-        "privacy_policy": "PRIVACY.md",
-        "repository": "",
-        "status": "active",
-        "tags": [],
-        "type": "plugin",
-        "verification": {
-            "authorized_category": "langgenius"
-        },
-        "version_updated_at": "2026-02-02T02:13:00Z"
     },
     {
         "badges": [],
@@ -2958,15 +2958,15 @@
         "category": "model",
         "icon": "langgenius/packages/deerapi/_assets/deerapi.svg",
         "index_id": "langgenius___deerapi",
-        "install_count": 418,
+        "install_count": 436,
         "label": {
             "en_US": "DeerAPI",
             "ja_JP": "DeerAPI",
             "pt_BR": "DeerAPI",
             "zh_Hans": "DeerAPI"
         },
-        "latest_package_identifier": "langgenius/deerapi:1.0.0@c2cb0d353008e2a5519e7b899731d6283a3adcaa5d28901e5ed67263e8e932db",
-        "latest_version": "1.0.0",
+        "latest_package_identifier": "langgenius/deerapi:1.0.1@d578ab37bbe4e34b2ad0115acdff1ab2567b832b921f9538c99b45f8dcddeaa8",
+        "latest_version": "1.0.1",
         "name": "deerapi",
         "org": "langgenius",
         "plugin_id": "langgenius/deerapi",
@@ -2977,7 +2977,8 @@
             "models": [
                 "provider/deerapi.yaml"
             ],
-            "tools": null
+            "tools": null,
+            "triggers": null
         },
         "privacy_options": "",
         "privacy_policy": "PRIVACY.md",
@@ -2988,7 +2989,51 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2025-09-17T09:42:24Z"
+        "version_updated_at": "2026-02-27T11:52:35Z"
+    },
+    {
+        "badges": [],
+        "brief": {
+            "en_US": "500+ AI Model API, All In One API. Just In CometAPI.",
+            "ja_JP": "500以上のAIモデルAPIを一括提供。すべてはCometAPIに。",
+            "pt_BR": "500+ modelos de IA em uma única API. Tudo em um só lugar : CometAPI.",
+            "zh_Hans": "500+ AI 模型 API，一站集成，尽在 CometAPI。"
+        },
+        "category": "model",
+        "icon": "langgenius/packages/cometapi/_assets/cometapi_small.png",
+        "index_id": "langgenius___cometapi",
+        "install_count": 431,
+        "label": {
+            "en_US": "CometAPI",
+            "ja_JP": "CometAPI",
+            "pt_BR": "CometAPI",
+            "zh_Hans": "CometAPI"
+        },
+        "latest_package_identifier": "langgenius/cometapi:1.0.1@e7eda71ca680cdc377a43da467af5df153c66b97d5682f912002766b384ab68e",
+        "latest_version": "1.0.1",
+        "name": "cometapi",
+        "org": "langgenius",
+        "plugin_id": "langgenius/cometapi",
+        "plugins": {
+            "agent_strategies": null,
+            "datasources": null,
+            "endpoints": null,
+            "models": [
+                "provider/cometapi.yaml"
+            ],
+            "tools": null,
+            "triggers": null
+        },
+        "privacy_options": "",
+        "privacy_policy": "PRIVACY.md",
+        "repository": null,
+        "status": "active",
+        "tags": [],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "langgenius"
+        },
+        "version_updated_at": "2026-02-27T11:52:31Z"
     },
     {
         "badges": [],
@@ -3028,48 +3073,6 @@
             "authorized_category": "langgenius"
         },
         "version_updated_at": "2025-09-18T00:55:23Z"
-    },
-    {
-        "badges": [],
-        "brief": {
-            "en_US": "500+ AI Model API, All In One API. Just In CometAPI.",
-            "ja_JP": "500以上のAIモデルAPIを一括提供。すべてはCometAPIに。",
-            "pt_BR": "500+ modelos de IA em uma única API. Tudo em um só lugar : CometAPI.",
-            "zh_Hans": "500+ AI 模型 API，一站集成，尽在 CometAPI。"
-        },
-        "category": "model",
-        "icon": "langgenius/packages/cometapi/_assets/cometapi_small.png",
-        "index_id": "langgenius___cometapi",
-        "install_count": 414,
-        "label": {
-            "en_US": "CometAPI",
-            "ja_JP": "CometAPI",
-            "pt_BR": "CometAPI",
-            "zh_Hans": "CometAPI"
-        },
-        "latest_package_identifier": "langgenius/cometapi:1.0.0@44f33849945f7fae6fb9b21656f3ab4c4544aa8c4f9728cfdd7a889b0b878428",
-        "latest_version": "1.0.0",
-        "name": "cometapi",
-        "org": "langgenius",
-        "plugin_id": "langgenius/cometapi",
-        "plugins": {
-            "agent_strategies": null,
-            "endpoints": null,
-            "models": [
-                "provider/cometapi.yaml"
-            ],
-            "tools": null
-        },
-        "privacy_options": "",
-        "privacy_policy": "PRIVACY.md",
-        "repository": null,
-        "status": "active",
-        "tags": [],
-        "type": "plugin",
-        "verification": {
-            "authorized_category": "langgenius"
-        },
-        "version_updated_at": "2025-09-15T09:10:29Z"
     },
     {
         "badges": [],
@@ -3682,6 +3685,47 @@
     {
         "badges": [],
         "brief": {
+            "en_US": "Plugin to access models provided by zenmux.ai",
+            "ja_JP": "Plugin to access models provided by zenmux.ai",
+            "pt_BR": "Plugin to access models provided by zenmux.ai",
+            "zh_Hans": "Plugin to access models provided by zenmux.ai"
+        },
+        "category": "model",
+        "icon": "zenmux/packages/zenmux-dify-plugin/_assets/icon.svg",
+        "index_id": "zenmux___zenmux-dify-plugin",
+        "install_count": 182,
+        "label": {
+            "en_US": "ZenMux"
+        },
+        "latest_package_identifier": "zenmux/zenmux-dify-plugin:0.0.7@00497771f385761baf993abb007437aa0c3934871646744206f80fc55ef192c4",
+        "latest_version": "0.0.7",
+        "name": "zenmux-dify-plugin",
+        "org": "zenmux",
+        "plugin_id": "zenmux/zenmux-dify-plugin",
+        "plugins": {
+            "agent_strategies": null,
+            "datasources": null,
+            "endpoints": null,
+            "models": [
+                "provider/zenmux.yaml"
+            ],
+            "tools": null,
+            "triggers": null
+        },
+        "privacy_options": "",
+        "privacy_policy": "PRIVACY.md",
+        "repository": null,
+        "status": "active",
+        "tags": [],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "community"
+        },
+        "version_updated_at": "2026-02-27T14:48:40Z"
+    },
+    {
+        "badges": [],
+        "brief": {
             "en_US": "Alibaba Cloud AI Gateway plugin",
             "ja_JP": "Alibaba Cloud AI网关プラグイン",
             "pt_BR": "Alibaba Cloud AI Gateway plugin",
@@ -3810,47 +3854,6 @@
             "authorized_category": "community"
         },
         "version_updated_at": "2025-12-15T05:47:44Z"
-    },
-    {
-        "badges": [],
-        "brief": {
-            "en_US": "Plugin to access models provided by zenmux.ai",
-            "ja_JP": "Plugin to access models provided by zenmux.ai",
-            "pt_BR": "Plugin to access models provided by zenmux.ai",
-            "zh_Hans": "Plugin to access models provided by zenmux.ai"
-        },
-        "category": "model",
-        "icon": "zenmux/packages/zenmux-dify-plugin/_assets/icon.svg",
-        "index_id": "zenmux___zenmux-dify-plugin",
-        "install_count": 164,
-        "label": {
-            "en_US": "ZenMux"
-        },
-        "latest_package_identifier": "zenmux/zenmux-dify-plugin:0.0.6@10b447dc38ed07f070b9e1a26f98b6b771a6efc338797f1df39a779b5412fa07",
-        "latest_version": "0.0.6",
-        "name": "zenmux-dify-plugin",
-        "org": "zenmux",
-        "plugin_id": "zenmux/zenmux-dify-plugin",
-        "plugins": {
-            "agent_strategies": null,
-            "datasources": null,
-            "endpoints": null,
-            "models": [
-                "provider/zenmux.yaml"
-            ],
-            "tools": null,
-            "triggers": null
-        },
-        "privacy_options": "",
-        "privacy_policy": "PRIVACY.md",
-        "repository": null,
-        "status": "active",
-        "tags": [],
-        "type": "plugin",
-        "verification": {
-            "authorized_category": "community"
-        },
-        "version_updated_at": "2026-02-07T03:19:54Z"
     },
     {
         "badges": [],

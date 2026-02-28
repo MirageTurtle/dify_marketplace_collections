@@ -15946,6 +15946,46 @@
         "version_updated_at": "2025-10-26T04:13:53Z"
     },
     {
+        "badges": [
+            "partner"
+        ],
+        "brief": {
+            "en_US": "A connector that connects kintone application with Dify"
+        },
+        "category": "tool",
+        "icon": "cybozu/packages/kintone/_assets/kintone.png",
+        "index_id": "cybozu___kintone",
+        "install_count": 323,
+        "label": {
+            "en_US": "kintone"
+        },
+        "latest_package_identifier": "cybozu/kintone:0.1.2@28c27206b253c10086f4841ba31ef7d0a43cb0816c597eb48e8cd817a9f32f85",
+        "latest_version": "0.1.2",
+        "name": "kintone",
+        "org": "cybozu",
+        "plugin_id": "cybozu/kintone",
+        "plugins": {
+            "agent_strategies": null,
+            "datasources": null,
+            "endpoints": null,
+            "models": null,
+            "tools": [
+                "provider/provider.yaml"
+            ],
+            "triggers": null
+        },
+        "privacy_options": "",
+        "privacy_policy": "https://cybozu.co.jp/privacy/privacy-policy/",
+        "repository": null,
+        "status": "active",
+        "tags": [],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "partner"
+        },
+        "version_updated_at": "2026-02-27T14:45:11Z"
+    },
+    {
         "badges": [],
         "brief": {
             "en_US": "OneBot v11 protocol tool, provides a set of actions for OneBot v11 protocol",
@@ -16913,46 +16953,6 @@
             "authorized_category": "community"
         },
         "version_updated_at": "2025-04-01T21:20:33Z"
-    },
-    {
-        "badges": [
-            "partner"
-        ],
-        "brief": {
-            "en_US": "A connector that connects kintone application with Dify"
-        },
-        "category": "tool",
-        "icon": "cybozu/packages/kintone/_assets/kintone.png",
-        "index_id": "cybozu___kintone",
-        "install_count": 250,
-        "label": {
-            "en_US": "kintone"
-        },
-        "latest_package_identifier": "cybozu/kintone:0.1.1@cb717ab0364f4e92922cb7534f503117c4d020141c7f7d508bd41cd293801097",
-        "latest_version": "0.1.1",
-        "name": "kintone",
-        "org": "cybozu",
-        "plugin_id": "cybozu/kintone",
-        "plugins": {
-            "agent_strategies": null,
-            "datasources": null,
-            "endpoints": null,
-            "models": null,
-            "tools": [
-                "provider/provider.yaml"
-            ],
-            "triggers": null
-        },
-        "privacy_options": "",
-        "privacy_policy": "https://cybozu.co.jp/privacy/privacy-policy/",
-        "repository": null,
-        "status": "active",
-        "tags": [],
-        "type": "plugin",
-        "verification": {
-            "authorized_category": "partner"
-        },
-        "version_updated_at": "2026-02-25T04:43:21Z"
     },
     {
         "badges": [],
