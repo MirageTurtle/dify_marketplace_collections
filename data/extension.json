@@ -8,7 +8,7 @@
         "category": "extension",
         "icon": "hjlarry/packages/mcp-server/_assets/icon.svg",
         "index_id": "hjlarry___mcp-server",
-        "install_count": 44198,
+        "install_count": 44286,
         "label": {
             "en_US": "MCP server"
         },
@@ -47,7 +47,7 @@
         "category": "extension",
         "icon": "langgenius/packages/oaicompat_dify_app/_assets/icon.svg",
         "index_id": "langgenius___oaicompat_dify_app",
-        "install_count": 25458,
+        "install_count": 25739,
         "label": {
             "en_US": "OpenAI Compatible Dify App",
             "ja_JP": "OpenAI Compatible Dify App",
@@ -89,7 +89,7 @@
         "category": "extension",
         "icon": "junjiem/packages/mcp_compat_dify_tools/_assets/icon.svg",
         "index_id": "junjiem___mcp_compat_dify_tools",
-        "install_count": 16524,
+        "install_count": 16540,
         "label": {
             "en_US": "MCP Compatible Dify Tools",
             "zh_Hans": "MCP Compatible Dify Tools"
@@ -129,7 +129,7 @@
         "category": "extension",
         "icon": "bikeread/packages/dify_wechat_plugin/_assets/icon.svg",
         "index_id": "bikeread___dify_wechat_plugin",
-        "install_count": 12798,
+        "install_count": 12808,
         "label": {
             "en_US": "Wechat Subscription Account",
             "ja_JP": "ウェチャットサブスクリプションアカウント",
@@ -169,7 +169,7 @@
         "category": "extension",
         "icon": "svcvit/packages/artifacts/_assets/icon.svg",
         "index_id": "svcvit___artifacts",
-        "install_count": 12326,
+        "install_count": 12343,
         "label": {
             "en_US": "Artifacts"
         },
@@ -207,7 +207,7 @@
         "category": "extension",
         "icon": "perzeuss/packages/webhook/_assets/icon.svg",
         "index_id": "perzeuss___webhook",
-        "install_count": 10769,
+        "install_count": 10781,
         "label": {
             "en_US": "Webhook",
             "pt_BR": "Webhook",
@@ -238,50 +238,6 @@
         "version_updated_at": "2025-03-28T07:01:27Z"
     },
     {
-        "badges": [
-            "partner"
-        ],
-        "brief": {
-            "en_US": "The Agora Conversational AI extension enables developers to build voice assistants powered by Dify Agent.",
-            "ja_JP": "Agora会話型AI拡張機能は、開発者がDify Agentを活用して高機能な音声アシスタントを構築できるようにします。",
-            "pt_BR": "A extensão de IA Conversacional da Agora permite que desenvolvedores criem assistentes de voz poderosos com o suporte do Dify Agent.",
-            "zh_Hans": "Agora 会话式 AI 插件让开发者能够借助 Dify Agent 构建功能强大的语音助手。"
-        },
-        "category": "extension",
-        "icon": "plutoless/packages/convoai/_assets/icon.svg",
-        "index_id": "plutoless___convoai",
-        "install_count": 8128,
-        "label": {
-            "en_US": "Agora Conversational AI",
-            "ja_JP": "Agora Conversational AI",
-            "pt_BR": "Agora Conversational AI",
-            "zh_Hans": "Agora Conversational AI"
-        },
-        "latest_package_identifier": "plutoless/convoai:0.0.11@1b9d226641235a81af7b523210362e0d405fb3f65e9b0c205a2887946868f934",
-        "latest_version": "0.0.11",
-        "name": "convoai",
-        "org": "plutoless",
-        "plugin_id": "plutoless/convoai",
-        "plugins": {
-            "agent_strategies": null,
-            "endpoints": [
-                "group/convoai.yaml"
-            ],
-            "models": null,
-            "tools": null
-        },
-        "privacy_options": "",
-        "privacy_policy": "PRIVACY.md",
-        "repository": "",
-        "status": "active",
-        "tags": [],
-        "type": "plugin",
-        "verification": {
-            "authorized_category": "partner"
-        },
-        "version_updated_at": "2025-08-27T14:00:42Z"
-    },
-    {
         "badges": [],
         "brief": {
             "en_US": "Convert your Dify Models into OpenAI compatible API",
@@ -292,7 +248,7 @@
         "category": "extension",
         "icon": "langgenius/packages/oaicompat_dify_model/_assets/icon.svg",
         "index_id": "langgenius___oaicompat_dify_model",
-        "install_count": 8032,
+        "install_count": 8239,
         "label": {
             "en_US": "OpenAI Compatible Dify Models",
             "ja_JP": "OpenAI Compatible Dify Models",
@@ -326,6 +282,50 @@
         "version_updated_at": "2026-03-26T08:40:14Z"
     },
     {
+        "badges": [
+            "partner"
+        ],
+        "brief": {
+            "en_US": "The Agora Conversational AI extension enables developers to build voice assistants powered by Dify Agent.",
+            "ja_JP": "Agora会話型AI拡張機能は、開発者がDify Agentを活用して高機能な音声アシスタントを構築できるようにします。",
+            "pt_BR": "A extensão de IA Conversacional da Agora permite que desenvolvedores criem assistentes de voz poderosos com o suporte do Dify Agent.",
+            "zh_Hans": "Agora 会话式 AI 插件让开发者能够借助 Dify Agent 构建功能强大的语音助手。"
+        },
+        "category": "extension",
+        "icon": "plutoless/packages/convoai/_assets/icon.svg",
+        "index_id": "plutoless___convoai",
+        "install_count": 8134,
+        "label": {
+            "en_US": "Agora Conversational AI",
+            "ja_JP": "Agora Conversational AI",
+            "pt_BR": "Agora Conversational AI",
+            "zh_Hans": "Agora Conversational AI"
+        },
+        "latest_package_identifier": "plutoless/convoai:0.0.11@1b9d226641235a81af7b523210362e0d405fb3f65e9b0c205a2887946868f934",
+        "latest_version": "0.0.11",
+        "name": "convoai",
+        "org": "plutoless",
+        "plugin_id": "plutoless/convoai",
+        "plugins": {
+            "agent_strategies": null,
+            "endpoints": [
+                "group/convoai.yaml"
+            ],
+            "models": null,
+            "tools": null
+        },
+        "privacy_options": "",
+        "privacy_policy": "PRIVACY.md",
+        "repository": "",
+        "status": "active",
+        "tags": [],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "partner"
+        },
+        "version_updated_at": "2025-08-27T14:00:42Z"
+    },
+    {
         "badges": [],
         "brief": {
             "en_US": "This Slack Bot supports receiving messages from Slack as input to Chatflow/Chatbot/Agent in Dify, and sending messages back to Slack.",
@@ -336,7 +336,7 @@
         "category": "extension",
         "icon": "langgenius/packages/slack-bot/_assets/icon.svg",
         "index_id": "langgenius___slack-bot",
-        "install_count": 5082,
+        "install_count": 5131,
         "label": {
             "en_US": "Slack Bot",
             "ja_JP": "Slack Bot",
@@ -377,7 +377,7 @@
         "category": "extension",
         "icon": "yt-koike/packages/cron/_assets/icon.svg",
         "index_id": "yt-koike___cron",
-        "install_count": 3868,
+        "install_count": 3873,
         "label": {
             "en_US": "Cron"
         },
@@ -416,7 +416,7 @@
         "category": "extension",
         "icon": "kevintsai/packages/linebot/_assets/LINE_Brand_icon.png",
         "index_id": "kevintsai___linebot",
-        "install_count": 3810,
+        "install_count": 3813,
         "label": {
             "en_US": "Line Bot",
             "ja_JP": "Line Bot",
@@ -494,7 +494,7 @@
         "category": "extension",
         "icon": "leslie2046/packages/moderation/_assets/icon.png",
         "index_id": "leslie2046___moderation",
-        "install_count": 3229,
+        "install_count": 3237,
         "label": {
             "en_US": "Moderation",
             "ja_JP": "センシティブな内容の審査",
@@ -534,7 +534,7 @@
         "category": "extension",
         "icon": "langgenius/packages/wecom-bot/_assets/icon.png",
         "index_id": "langgenius___wecom-bot",
-        "install_count": 2424,
+        "install_count": 2486,
         "label": {
             "en_US": "WeCom Bot",
             "ja_JP": "WeCom Bot",
@@ -577,7 +577,7 @@
         "category": "extension",
         "icon": "langgenius/packages/llamacloud/_assets/icon.svg",
         "index_id": "langgenius___llamacloud",
-        "install_count": 2158,
+        "install_count": 2167,
         "label": {
             "en_US": "Llamacloud",
             "ja_JP": "Llamacloud",
@@ -661,7 +661,7 @@
         "category": "extension",
         "icon": "hjlarry/packages/draw/_assets/icon.svg",
         "index_id": "hjlarry___draw",
-        "install_count": 1846,
+        "install_count": 1853,
         "label": {
             "en_US": "draw",
             "ja_JP": "draw",
@@ -703,7 +703,7 @@
         "category": "extension",
         "icon": "langgenius/packages/aws_bedrock_knowledge_base/_assets/icon.svg",
         "index_id": "langgenius___aws_bedrock_knowledge_base",
-        "install_count": 1394,
+        "install_count": 1405,
         "label": {
             "en_US": "Aws Bedrock Knowledge Base",
             "ja_JP": "Aws Bedrock Knowledge Base",
@@ -746,7 +746,7 @@
         "category": "extension",
         "icon": "zoku-777/packages/dify_dsl_flowchart_export/_assets/icon.svg",
         "index_id": "zoku-777___dify_dsl_flowchart_export",
-        "install_count": 1338,
+        "install_count": 1343,
         "label": {
             "en_US": "Dify DSL Flowchart Convertor",
             "ja_JP": "DifyフローDSLフロチャート変換",
@@ -787,7 +787,7 @@
         "category": "extension",
         "icon": "anspire/packages/wecom-bot/_assets/icon.svg",
         "index_id": "anspire___wecom-bot",
-        "install_count": 1191,
+        "install_count": 1201,
         "label": {
             "en_US": "wecom-bot",
             "pt_BR": "wecom-bot",
@@ -830,7 +830,7 @@
         "category": "extension",
         "icon": "langgenius/packages/badapple/_assets/icon.jpeg",
         "index_id": "langgenius___badapple",
-        "install_count": 1061,
+        "install_count": 1064,
         "label": {
             "en_US": "Bad Apple",
             "ja_JP": "Bad Apple",
@@ -874,7 +874,7 @@
         "category": "extension",
         "icon": "bytedance_vikingdb/packages/vikingdb_knowledge_base/_assets/icon.svg",
         "index_id": "bytedance_vikingdb___vikingdb_knowledge_base",
-        "install_count": 987,
+        "install_count": 997,
         "label": {
             "en_US": "Vikingdb Knowledge Base",
             "ja_JP": "Vikingdb Knowledge Base",
@@ -916,7 +916,7 @@
         "category": "extension",
         "icon": "nacos/packages/a2a_server/_assets/icon.png",
         "index_id": "nacos___a2a_server",
-        "install_count": 981,
+        "install_count": 991,
         "label": {
             "en_US": "A2A Server",
             "zh_Hans": "A2A Server"
@@ -1000,7 +1000,7 @@
         "category": "extension",
         "icon": "solaoi/packages/slack-thread-bot/_assets/icon.svg",
         "index_id": "solaoi___slack-thread-bot",
-        "install_count": 686,
+        "install_count": 689,
         "label": {
             "en_US": "Slack Thread Bot",
             "ja_JP": "Slack Thread Bot",
@@ -1116,7 +1116,7 @@
         "category": "extension",
         "icon": "xcode-wu/packages/trtc_conai/_assets/icon.svg",
         "index_id": "xcode-wu___trtc_conai",
-        "install_count": 312,
+        "install_count": 313,
         "label": {
             "en_US": "Tencent RTC Conversational AI",
             "zh_Hans": "Tencent RTC AI实时对话"
@@ -1198,7 +1198,7 @@
         "category": "extension",
         "icon": "yuyang-wu/packages/trtc_conai/_assets/icon.svg",
         "index_id": "yuyang-wu___trtc_conai",
-        "install_count": 195,
+        "install_count": 196,
         "label": {
             "en_US": "Tencent RTC Conversational AI",
             "zh_Hans": "Tencent RTC AI实时对话"
@@ -1239,7 +1239,7 @@
         "category": "extension",
         "icon": "suphachok/packages/line-connect/_assets/icon.svg",
         "index_id": "suphachok___line-connect",
-        "install_count": 57,
+        "install_count": 66,
         "label": {
             "en_US": "LINE Connect",
             "ja_JP": "LINE コネクト",
