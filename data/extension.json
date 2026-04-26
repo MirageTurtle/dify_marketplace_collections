@@ -8,7 +8,7 @@
         "category": "extension",
         "icon": "hjlarry/packages/mcp-server/_assets/icon.svg",
         "index_id": "hjlarry___mcp-server",
-        "install_count": 45148,
+        "install_count": 45177,
         "label": {
             "en_US": "MCP server"
         },
@@ -47,15 +47,15 @@
         "category": "extension",
         "icon": "langgenius/packages/oaicompat_dify_app/_assets/icon.svg",
         "index_id": "langgenius___oaicompat_dify_app",
-        "install_count": 29509,
+        "install_count": 29626,
         "label": {
             "en_US": "OpenAI Compatible Dify App",
             "ja_JP": "OpenAI Compatible Dify App",
             "pt_BR": "OpenAI Compatible Dify App",
             "zh_Hans": "OpenAI Compatible Dify App"
         },
-        "latest_package_identifier": "langgenius/oaicompat_dify_app:0.0.11@92d1af2b591ca0ef76ebd5e9d11b8182d22fbd4d7717b51dbc0a2f987e05c073",
-        "latest_version": "0.0.11",
+        "latest_package_identifier": "langgenius/oaicompat_dify_app:0.0.12@ac4ab7b7b5493c9dfefddc2482609a6226c84aed233462e1a94a6993d9d96ba4",
+        "latest_version": "0.0.12",
         "name": "oaicompat_dify_app",
         "org": "langgenius",
         "plugin_id": "langgenius/oaicompat_dify_app",
@@ -78,7 +78,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-03-26T08:40:19Z"
+        "version_updated_at": "2026-04-25T07:22:59Z"
     },
     {
         "badges": [],
@@ -89,7 +89,7 @@
         "category": "extension",
         "icon": "junjiem/packages/mcp_compat_dify_tools/_assets/icon.svg",
         "index_id": "junjiem___mcp_compat_dify_tools",
-        "install_count": 16763,
+        "install_count": 16765,
         "label": {
             "en_US": "MCP Compatible Dify Tools",
             "zh_Hans": "MCP Compatible Dify Tools"
@@ -129,7 +129,7 @@
         "category": "extension",
         "icon": "bikeread/packages/dify_wechat_plugin/_assets/icon.svg",
         "index_id": "bikeread___dify_wechat_plugin",
-        "install_count": 12978,
+        "install_count": 12989,
         "label": {
             "en_US": "Wechat Subscription Account",
             "ja_JP": "ウェチャットサブスクリプションアカウント",
@@ -169,7 +169,7 @@
         "category": "extension",
         "icon": "svcvit/packages/artifacts/_assets/icon.svg",
         "index_id": "svcvit___artifacts",
-        "install_count": 12607,
+        "install_count": 12619,
         "label": {
             "en_US": "Artifacts"
         },
@@ -200,6 +200,50 @@
     {
         "badges": [],
         "brief": {
+            "en_US": "Convert your Dify Models into OpenAI compatible API",
+            "ja_JP": "DifyモデルをOpenAI互換APIに変換",
+            "pt_BR": "Converter seus modelos Dify em uma API compatível com OpenAI",
+            "zh_Hans": "将您的Dify模型转换为OpenAI兼容API"
+        },
+        "category": "extension",
+        "icon": "langgenius/packages/oaicompat_dify_model/_assets/icon.svg",
+        "index_id": "langgenius___oaicompat_dify_model",
+        "install_count": 11032,
+        "label": {
+            "en_US": "OpenAI Compatible Dify Models",
+            "ja_JP": "OpenAI Compatible Dify Models",
+            "pt_BR": "OpenAI Compatible Dify Models",
+            "zh_Hans": "OpenAI Compatible Dify Models"
+        },
+        "latest_package_identifier": "langgenius/oaicompat_dify_model:0.0.7@eb35da24ca86c4640c375ce5b3fd8b8f74c2205338f2082a069bac4c9ec22c2e",
+        "latest_version": "0.0.7",
+        "name": "oaicompat_dify_model",
+        "org": "langgenius",
+        "plugin_id": "langgenius/oaicompat_dify_model",
+        "plugins": {
+            "agent_strategies": null,
+            "datasources": null,
+            "endpoints": [
+                "group/oaicompat_dify_model.yaml"
+            ],
+            "models": null,
+            "tools": null,
+            "triggers": null
+        },
+        "privacy_options": "",
+        "privacy_policy": "PRIVACY.md",
+        "repository": "",
+        "status": "active",
+        "tags": [],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "langgenius"
+        },
+        "version_updated_at": "2026-04-25T07:23:10Z"
+    },
+    {
+        "badges": [],
+        "brief": {
             "en_US": "Trigger a dify app from webhook.",
             "pt_BR": "Acione um aplicativo dify a partir de um webhook.",
             "zh_Hans": "通过网络钩子触发dify应用程序。"
@@ -207,7 +251,7 @@
         "category": "extension",
         "icon": "perzeuss/packages/webhook/_assets/icon.svg",
         "index_id": "perzeuss___webhook",
-        "install_count": 11019,
+        "install_count": 11026,
         "label": {
             "en_US": "Webhook",
             "pt_BR": "Webhook",
@@ -238,50 +282,6 @@
         "version_updated_at": "2025-03-28T07:01:27Z"
     },
     {
-        "badges": [],
-        "brief": {
-            "en_US": "Convert your Dify Models into OpenAI compatible API",
-            "ja_JP": "DifyモデルをOpenAI互換APIに変換",
-            "pt_BR": "Converter seus modelos Dify em uma API compatível com OpenAI",
-            "zh_Hans": "将您的Dify模型转换为OpenAI兼容API"
-        },
-        "category": "extension",
-        "icon": "langgenius/packages/oaicompat_dify_model/_assets/icon.svg",
-        "index_id": "langgenius___oaicompat_dify_model",
-        "install_count": 10980,
-        "label": {
-            "en_US": "OpenAI Compatible Dify Models",
-            "ja_JP": "OpenAI Compatible Dify Models",
-            "pt_BR": "OpenAI Compatible Dify Models",
-            "zh_Hans": "OpenAI Compatible Dify Models"
-        },
-        "latest_package_identifier": "langgenius/oaicompat_dify_model:0.0.6@9b1a433049d87443d6abab138d0c2eeeeea0ec78ccfe4f7144a2aefd7eb0acd8",
-        "latest_version": "0.0.6",
-        "name": "oaicompat_dify_model",
-        "org": "langgenius",
-        "plugin_id": "langgenius/oaicompat_dify_model",
-        "plugins": {
-            "agent_strategies": null,
-            "datasources": null,
-            "endpoints": [
-                "group/oaicompat_dify_model.yaml"
-            ],
-            "models": null,
-            "tools": null,
-            "triggers": null
-        },
-        "privacy_options": "",
-        "privacy_policy": "PRIVACY.md",
-        "repository": "",
-        "status": "active",
-        "tags": [],
-        "type": "plugin",
-        "verification": {
-            "authorized_category": "langgenius"
-        },
-        "version_updated_at": "2026-03-26T08:40:14Z"
-    },
-    {
         "badges": [
             "partner"
         ],
@@ -294,7 +294,7 @@
         "category": "extension",
         "icon": "plutoless/packages/convoai/_assets/icon.svg",
         "index_id": "plutoless___convoai",
-        "install_count": 8223,
+        "install_count": 8224,
         "label": {
             "en_US": "Agora Conversational AI",
             "ja_JP": "Agora Conversational AI",
@@ -336,15 +336,15 @@
         "category": "extension",
         "icon": "langgenius/packages/slack-bot/_assets/icon.svg",
         "index_id": "langgenius___slack-bot",
-        "install_count": 5670,
+        "install_count": 5702,
         "label": {
             "en_US": "Slack Bot",
             "ja_JP": "Slack Bot",
             "pt_BR": "Slack Bot",
             "zh_Hans": "Slack Bot"
         },
-        "latest_package_identifier": "langgenius/slack-bot:0.0.7@77457a3b9fc7e664478b3fd1ed382d924b2e9bceec419b1fef9f2ac11cc70168",
-        "latest_version": "0.0.7",
+        "latest_package_identifier": "langgenius/slack-bot:0.0.8@e4fd208d2c9b90da3d30891e8d609effb723a03986ce168eebe1a9704fbd0493",
+        "latest_version": "0.0.8",
         "name": "slack-bot",
         "org": "langgenius",
         "plugin_id": "langgenius/slack-bot",
@@ -367,7 +367,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-03-26T08:40:32Z"
+        "version_updated_at": "2026-04-25T07:23:18Z"
     },
     {
         "badges": [],
@@ -377,7 +377,7 @@
         "category": "extension",
         "icon": "yt-koike/packages/cron/_assets/icon.svg",
         "index_id": "yt-koike___cron",
-        "install_count": 3968,
+        "install_count": 3971,
         "label": {
             "en_US": "Cron"
         },
@@ -416,7 +416,7 @@
         "category": "extension",
         "icon": "kevintsai/packages/linebot/_assets/LINE_Brand_icon.png",
         "index_id": "kevintsai___linebot",
-        "install_count": 3856,
+        "install_count": 3857,
         "label": {
             "en_US": "Line Bot",
             "ja_JP": "Line Bot",
@@ -457,7 +457,7 @@
         "category": "extension",
         "icon": "leslie2046/packages/moderation/_assets/icon.png",
         "index_id": "leslie2046___moderation",
-        "install_count": 3376,
+        "install_count": 3382,
         "label": {
             "en_US": "Moderation",
             "ja_JP": "センシティブな内容の審査",
@@ -486,6 +486,48 @@
             "authorized_category": "community"
         },
         "version_updated_at": "2025-07-31T11:09:59Z"
+    },
+    {
+        "badges": [],
+        "brief": {
+            "en_US": "Receive Enterprise WeChat callbacks as an endpoint and reply through Dify apps, similar to Slack Bot.",
+            "ja_JP": "企業微信のコールバックを受信し、Dify アプリで応答できる Bot プラグインです。",
+            "zh_Hans": "将企业微信回调接入 Dify，可调用 App/Agent 回复用户，类似 Slack Bot。"
+        },
+        "category": "extension",
+        "icon": "langgenius/packages/wecom-bot/_assets/icon.png",
+        "index_id": "langgenius___wecom-bot",
+        "install_count": 3380,
+        "label": {
+            "en_US": "WeCom Bot",
+            "ja_JP": "WeCom Bot",
+            "zh_Hans": "企业微信 Bot"
+        },
+        "latest_package_identifier": "langgenius/wecom-bot:0.0.3@9c9a643314b6fa613d17f2b2e66305c47f81d9c015df3368dc7c6f9d2e173a74",
+        "latest_version": "0.0.3",
+        "name": "wecom-bot",
+        "org": "langgenius",
+        "plugin_id": "langgenius/wecom-bot",
+        "plugins": {
+            "agent_strategies": null,
+            "datasources": null,
+            "endpoints": [
+                "group/wecom.yaml"
+            ],
+            "models": null,
+            "tools": null,
+            "triggers": null
+        },
+        "privacy_options": "",
+        "privacy_policy": "",
+        "repository": null,
+        "status": "active",
+        "tags": [],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "langgenius"
+        },
+        "version_updated_at": "2026-04-25T07:23:16Z"
     },
     {
         "badges": [],
@@ -527,48 +569,6 @@
     {
         "badges": [],
         "brief": {
-            "en_US": "Receive Enterprise WeChat callbacks as an endpoint and reply through Dify apps, similar to Slack Bot.",
-            "ja_JP": "企業微信のコールバックを受信し、Dify アプリで応答できる Bot プラグインです。",
-            "zh_Hans": "将企业微信回调接入 Dify，可调用 App/Agent 回复用户，类似 Slack Bot。"
-        },
-        "category": "extension",
-        "icon": "langgenius/packages/wecom-bot/_assets/icon.png",
-        "index_id": "langgenius___wecom-bot",
-        "install_count": 3325,
-        "label": {
-            "en_US": "WeCom Bot",
-            "ja_JP": "WeCom Bot",
-            "zh_Hans": "企业微信 Bot"
-        },
-        "latest_package_identifier": "langgenius/wecom-bot:0.0.2@6d49adb02f11747125dc4ad4e65c451291f3ad6c08cf5277f970fdb003c391ad",
-        "latest_version": "0.0.2",
-        "name": "wecom-bot",
-        "org": "langgenius",
-        "plugin_id": "langgenius/wecom-bot",
-        "plugins": {
-            "agent_strategies": null,
-            "datasources": null,
-            "endpoints": [
-                "group/wecom.yaml"
-            ],
-            "models": null,
-            "tools": null,
-            "triggers": null
-        },
-        "privacy_options": "",
-        "privacy_policy": "",
-        "repository": null,
-        "status": "active",
-        "tags": [],
-        "type": "plugin",
-        "verification": {
-            "authorized_category": "langgenius"
-        },
-        "version_updated_at": "2026-03-26T08:40:29Z"
-    },
-    {
-        "badges": [],
-        "brief": {
             "en_US": "LlamaCloud client as API Endpoint to connect Dify External Knowledge Base",
             "ja_JP": "Dify外部ナレッジベースに接続するためのLlamaCloud APIエンドポイントクライアント",
             "pt_BR": "Cliente LlamaCloud como endpoint de API para conectar à Base de Conhecimento Externa do Dify",
@@ -577,15 +577,15 @@
         "category": "extension",
         "icon": "langgenius/packages/llamacloud/_assets/icon.svg",
         "index_id": "langgenius___llamacloud",
-        "install_count": 2323,
+        "install_count": 2335,
         "label": {
             "en_US": "Llamacloud",
             "ja_JP": "Llamacloud",
             "pt_BR": "Llamacloud",
             "zh_Hans": "Llamacloud"
         },
-        "latest_package_identifier": "langgenius/llamacloud:0.0.3@1fb1570e6751994636bda7fb3fbdf70fd2328fea415f39547476ea550c1986fe",
-        "latest_version": "0.0.3",
+        "latest_package_identifier": "langgenius/llamacloud:0.0.4@b2908d48f8ccd00c150c21112db4f4905aabb69873fedcb32f881e1d00776802",
+        "latest_version": "0.0.4",
         "name": "llamacloud",
         "org": "langgenius",
         "plugin_id": "langgenius/llamacloud",
@@ -608,7 +608,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-03-26T08:40:29Z"
+        "version_updated_at": "2026-04-25T20:04:38Z"
     },
     {
         "badges": [],
@@ -661,7 +661,7 @@
         "category": "extension",
         "icon": "hjlarry/packages/draw/_assets/icon.svg",
         "index_id": "hjlarry___draw",
-        "install_count": 1957,
+        "install_count": 1965,
         "label": {
             "en_US": "draw",
             "ja_JP": "draw",
@@ -703,15 +703,15 @@
         "category": "extension",
         "icon": "langgenius/packages/aws_bedrock_knowledge_base/_assets/icon.svg",
         "index_id": "langgenius___aws_bedrock_knowledge_base",
-        "install_count": 1481,
+        "install_count": 1484,
         "label": {
             "en_US": "Aws Bedrock Knowledge Base",
             "ja_JP": "Aws Bedrock Knowledge Base",
             "pt_BR": "Aws Bedrock Knowledge Base",
             "zh_Hans": "Aws Bedrock Knowledge Base"
         },
-        "latest_package_identifier": "langgenius/aws_bedrock_knowledge_base:0.0.5@9792a8fc0ada0159f812167ad40e9f4d79dc719dbecde58fe3fc42c1d18e73e9",
-        "latest_version": "0.0.5",
+        "latest_package_identifier": "langgenius/aws_bedrock_knowledge_base:0.0.6@54d3d59bd0d13eef1cd4d8f4491ed904d85a7a4ea631254ce9775c3b386badf8",
+        "latest_version": "0.0.6",
         "name": "aws_bedrock_knowledge_base",
         "org": "langgenius",
         "plugin_id": "langgenius/aws_bedrock_knowledge_base",
@@ -734,7 +734,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-03-26T08:40:27Z"
+        "version_updated_at": "2026-04-25T07:23:11Z"
     },
     {
         "badges": [],
@@ -746,7 +746,7 @@
         "category": "extension",
         "icon": "zoku-777/packages/dify_dsl_flowchart_export/_assets/icon.svg",
         "index_id": "zoku-777___dify_dsl_flowchart_export",
-        "install_count": 1438,
+        "install_count": 1440,
         "label": {
             "en_US": "Dify DSL Flowchart Convertor",
             "ja_JP": "DifyフローDSLフロチャート変換",
@@ -787,7 +787,7 @@
         "category": "extension",
         "icon": "anspire/packages/wecom-bot/_assets/icon.svg",
         "index_id": "anspire___wecom-bot",
-        "install_count": 1383,
+        "install_count": 1387,
         "label": {
             "en_US": "wecom-bot",
             "pt_BR": "wecom-bot",
@@ -828,7 +828,7 @@
         "category": "extension",
         "icon": "nacos/packages/a2a_server/_assets/icon.png",
         "index_id": "nacos___a2a_server",
-        "install_count": 1249,
+        "install_count": 1252,
         "label": {
             "en_US": "A2A Server",
             "zh_Hans": "A2A Server"
@@ -870,7 +870,7 @@
         "category": "extension",
         "icon": "bytedance_vikingdb/packages/vikingdb_knowledge_base/_assets/icon.svg",
         "index_id": "bytedance_vikingdb___vikingdb_knowledge_base",
-        "install_count": 1124,
+        "install_count": 1130,
         "label": {
             "en_US": "Vikingdb Knowledge Base",
             "ja_JP": "Vikingdb Knowledge Base",
@@ -914,15 +914,15 @@
         "category": "extension",
         "icon": "langgenius/packages/badapple/_assets/icon.jpeg",
         "index_id": "langgenius___badapple",
-        "install_count": 1114,
+        "install_count": 1116,
         "label": {
             "en_US": "Bad Apple",
             "ja_JP": "Bad Apple",
             "pt_BR": "Bad Apple",
             "zh_Hans": "Bad Apple"
         },
-        "latest_package_identifier": "langgenius/badapple:0.0.2@4c275ed69561ba770aaa41e57105e613a61d71fdea7c5a2b0f0883dd8f3df5a4",
-        "latest_version": "0.0.2",
+        "latest_package_identifier": "langgenius/badapple:0.0.3@bce18335f134f76f755091a3a7d058c85715b82db05453dae0790e0842b73334",
+        "latest_version": "0.0.3",
         "name": "badapple",
         "org": "langgenius",
         "plugin_id": "langgenius/badapple",
@@ -945,7 +945,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-03-26T08:40:21Z"
+        "version_updated_at": "2026-04-25T07:23:08Z"
     },
     {
         "badges": [],
@@ -1239,7 +1239,7 @@
         "category": "extension",
         "icon": "suphachok/packages/line-connect/_assets/icon.svg",
         "index_id": "suphachok___line-connect",
-        "install_count": 114,
+        "install_count": 115,
         "label": {
             "en_US": "LINE Connect",
             "ja_JP": "LINE コネクト",
@@ -1280,7 +1280,7 @@
         "category": "extension",
         "icon": "aliyun/packages/tablestore-knowledgebase/_assets/tablestore.svg",
         "index_id": "aliyun___tablestore-knowledgebase",
-        "install_count": 7,
+        "install_count": 9,
         "label": {
             "en_US": "Tablestore Knowledgebase",
             "zh_Hans": "Tablestore Knowledgebase"
