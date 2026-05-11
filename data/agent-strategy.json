@@ -8,7 +8,7 @@
         "category": "agent-strategy",
         "icon": "langgenius/packages/agent/_assets/icon.svg",
         "index_id": "langgenius___agent",
-        "install_count": 397968,
+        "install_count": 401298,
         "label": {
             "en_US": "Dify Agent Strategies",
             "zh_Hans": "Dify Agent 策略"
@@ -52,7 +52,7 @@
         "category": "agent-strategy",
         "icon": "junjiem/packages/mcp_see_agent/_assets/icon.svg",
         "index_id": "junjiem___mcp_see_agent",
-        "install_count": 123732,
+        "install_count": 123850,
         "label": {
             "en_US": "Agent Strategies (Support MCP Tools)",
             "zh_Hans": "Agent 策略（支持 MCP 工具）"
@@ -90,7 +90,7 @@
         "category": "agent-strategy",
         "icon": "hjlarry/packages/agent/_assets/icon.svg",
         "index_id": "hjlarry___agent",
-        "install_count": 52452,
+        "install_count": 52489,
         "label": {
             "en_US": "MCP Agent Strategy",
             "zh_Hans": "MCP Agent 策略"
@@ -132,7 +132,7 @@
         "category": "agent-strategy",
         "icon": "svcvit/packages/agent/_assets/icon.svg",
         "index_id": "svcvit___agent",
-        "install_count": 48986,
+        "install_count": 49021,
         "label": {
             "en_US": "Dialogue Agent",
             "zh_Hans": "对话 Agent"
@@ -174,7 +174,7 @@
         "category": "agent-strategy",
         "icon": "allenyzx/packages/enhancing_function_agent/_assets/icon.png",
         "index_id": "allenyzx___enhancing_function_agent",
-        "install_count": 10763,
+        "install_count": 10788,
         "label": {
             "en_US": "Enhancing Agent",
             "zh_Hans": "Enhancing Agent"
@@ -212,7 +212,7 @@
         "category": "agent-strategy",
         "icon": "xun404/packages/agent-skill-plugin/_assets/icon.svg",
         "index_id": "xun404___agent-skill-plugin",
-        "install_count": 6511,
+        "install_count": 6554,
         "label": {
             "en_US": "Agent Skill Plugin",
             "zh_Hans": "Agent Skill技能插件"
@@ -254,7 +254,7 @@
         "category": "agent-strategy",
         "icon": "ssf/packages/mcp_agent/_assets/icon.svg",
         "index_id": "ssf___mcp_agent",
-        "install_count": 4092,
+        "install_count": 4118,
         "label": {
             "en_US": "mcp_agent",
             "ja_JP": "mcp_agent",
@@ -286,5 +286,49 @@
             "authorized_category": "community"
         },
         "version_updated_at": "2026-02-13T02:44:53Z"
+    },
+    {
+        "badges": [],
+        "brief": {
+            "en_US": "ReAct agent strategy with remote sandbox execution. Runs shell commands inside an isolated E2B or Daytona sandbox.",
+            "ja_JP": "リモートサンドボックス実行機能を持つ ReAct エージェント戦略。E2B または Daytona の隔離されたサンドボックス内でシェルコマンドを実行します。",
+            "pt_BR": "Estratégia de agente ReAct com execução em sandbox remoto. Executa comandos shell em um sandbox isolado E2B ou Daytona.",
+            "zh_Hans": "具有远程沙箱执行能力的 ReAct 代理策略，在隔离的 E2B 或 Daytona 沙箱中执行 shell 命令。"
+        },
+        "category": "agent-strategy",
+        "icon": "ki3nd/packages/sandbox-agent/_assets/icon.svg",
+        "index_id": "ki3nd___sandbox-agent",
+        "install_count": 4,
+        "label": {
+            "en_US": "Sandbox Agent",
+            "ja_JP": "サンドボックスエージェント",
+            "pt_BR": "Agente Sandbox",
+            "zh_Hans": "沙箱代理"
+        },
+        "latest_package_identifier": "ki3nd/sandbox-agent:0.0.1@51b9869c7a013ef826856060958982e00cf13ab84eeef6dd4fca86c78dbe1f39",
+        "latest_version": "0.0.1",
+        "name": "sandbox-agent",
+        "org": "ki3nd",
+        "plugin_id": "ki3nd/sandbox-agent",
+        "plugins": {
+            "agent_strategies": [
+                "provider/sandbox-agent.yaml"
+            ],
+            "datasources": null,
+            "endpoints": null,
+            "models": null,
+            "tools": null,
+            "triggers": null
+        },
+        "privacy_options": "",
+        "privacy_policy": "PRIVACY.md",
+        "repository": null,
+        "status": "active",
+        "tags": [],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "community"
+        },
+        "version_updated_at": "2026-05-11T03:02:25Z"
     }
 ]
