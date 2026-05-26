@@ -8,7 +8,7 @@
         "category": "extension",
         "icon": "hjlarry/packages/mcp-server/_assets/icon.svg",
         "index_id": "hjlarry___mcp-server",
-        "install_count": 46400,
+        "install_count": 46438,
         "label": {
             "en_US": "MCP server"
         },
@@ -47,15 +47,15 @@
         "category": "extension",
         "icon": "langgenius/packages/oaicompat_dify_app/_assets/icon.svg",
         "index_id": "langgenius___oaicompat_dify_app",
-        "install_count": 32780,
+        "install_count": 32925,
         "label": {
             "en_US": "OpenAI Compatible Dify App",
             "ja_JP": "OpenAI Compatible Dify App",
             "pt_BR": "OpenAI Compatible Dify App",
             "zh_Hans": "OpenAI Compatible Dify App"
         },
-        "latest_package_identifier": "langgenius/oaicompat_dify_app:0.0.14@d0fdbc64f94b7d3cd1968f3c198e94779cc6d9aba56400f1b709d38afb5dc6a2",
-        "latest_version": "0.0.14",
+        "latest_package_identifier": "langgenius/oaicompat_dify_app:0.0.13@19f0ac8b33521a0c2c70e710a572428ab1d1c102177afc97089808504be55622",
+        "latest_version": "0.0.13",
         "name": "oaicompat_dify_app",
         "org": "langgenius",
         "plugin_id": "langgenius/oaicompat_dify_app",
@@ -78,7 +78,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-05-24T14:06:52Z"
+        "version_updated_at": "2026-04-27T07:56:05Z"
     },
     {
         "badges": [],
@@ -89,7 +89,7 @@
         "category": "extension",
         "icon": "junjiem/packages/mcp_compat_dify_tools/_assets/icon.svg",
         "index_id": "junjiem___mcp_compat_dify_tools",
-        "install_count": 17077,
+        "install_count": 17092,
         "label": {
             "en_US": "MCP Compatible Dify Tools",
             "zh_Hans": "MCP Compatible Dify Tools"
@@ -129,7 +129,7 @@
         "category": "extension",
         "icon": "bikeread/packages/dify_wechat_plugin/_assets/icon.svg",
         "index_id": "bikeread___dify_wechat_plugin",
-        "install_count": 13269,
+        "install_count": 13282,
         "label": {
             "en_US": "Wechat Subscription Account",
             "ja_JP": "ウェチャットサブスクリプションアカウント",
@@ -169,7 +169,7 @@
         "category": "extension",
         "icon": "svcvit/packages/artifacts/_assets/icon.svg",
         "index_id": "svcvit___artifacts",
-        "install_count": 13004,
+        "install_count": 13027,
         "label": {
             "en_US": "Artifacts"
         },
@@ -208,15 +208,15 @@
         "category": "extension",
         "icon": "langgenius/packages/oaicompat_dify_model/_assets/icon.svg",
         "index_id": "langgenius___oaicompat_dify_model",
-        "install_count": 12454,
+        "install_count": 12505,
         "label": {
             "en_US": "OpenAI Compatible Dify Models",
             "ja_JP": "OpenAI Compatible Dify Models",
             "pt_BR": "OpenAI Compatible Dify Models",
             "zh_Hans": "OpenAI Compatible Dify Models"
         },
-        "latest_package_identifier": "langgenius/oaicompat_dify_model:0.0.9@885699d5640a4844c6cc9cf6f1485c79bf82816af4fb198380f48f224f76bf36",
-        "latest_version": "0.0.9",
+        "latest_package_identifier": "langgenius/oaicompat_dify_model:0.0.8@8fa04ef9d5b9dcb0c7fa8a4a3e6530b54452de8e6e6e4b1702496eee782c68fc",
+        "latest_version": "0.0.8",
         "name": "oaicompat_dify_model",
         "org": "langgenius",
         "plugin_id": "langgenius/oaicompat_dify_model",
@@ -239,7 +239,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-05-24T14:06:52Z"
+        "version_updated_at": "2026-04-27T07:55:25Z"
     },
     {
         "badges": [],
@@ -251,7 +251,7 @@
         "category": "extension",
         "icon": "perzeuss/packages/webhook/_assets/icon.svg",
         "index_id": "perzeuss___webhook",
-        "install_count": 11373,
+        "install_count": 11384,
         "label": {
             "en_US": "Webhook",
             "pt_BR": "Webhook",
@@ -294,7 +294,7 @@
         "category": "extension",
         "icon": "plutoless/packages/convoai/_assets/icon.svg",
         "index_id": "plutoless___convoai",
-        "install_count": 8344,
+        "install_count": 8349,
         "label": {
             "en_US": "Agora Conversational AI",
             "ja_JP": "Agora Conversational AI",
@@ -336,7 +336,7 @@
         "category": "extension",
         "icon": "langgenius/packages/slack-bot/_assets/icon.svg",
         "index_id": "langgenius___slack-bot",
-        "install_count": 6681,
+        "install_count": 6713,
         "label": {
             "en_US": "Slack Bot",
             "ja_JP": "Slack Bot",
@@ -379,14 +379,14 @@
         "category": "extension",
         "icon": "langgenius/packages/wecom-bot/_assets/icon.png",
         "index_id": "langgenius___wecom-bot",
-        "install_count": 4938,
+        "install_count": 4998,
         "label": {
             "en_US": "WeCom Bot",
             "ja_JP": "WeCom Bot",
             "zh_Hans": "企业微信 Bot"
         },
-        "latest_package_identifier": "langgenius/wecom-bot:0.0.5@ce8b91735b411e6a69da22fdd32252ade2dfef88291cea032b05df8de30cc44d",
-        "latest_version": "0.0.5",
+        "latest_package_identifier": "langgenius/wecom-bot:0.0.4@e3063afe7c26cd123bf7841e0d2e22bc1889e2c352349bfc48ab6e87cb7ebe7a",
+        "latest_version": "0.0.4",
         "name": "wecom-bot",
         "org": "langgenius",
         "plugin_id": "langgenius/wecom-bot",
@@ -409,7 +409,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-05-24T14:06:58Z"
+        "version_updated_at": "2026-04-27T07:55:31Z"
     },
     {
         "badges": [],
@@ -419,7 +419,7 @@
         "category": "extension",
         "icon": "yt-koike/packages/cron/_assets/icon.svg",
         "index_id": "yt-koike___cron",
-        "install_count": 4133,
+        "install_count": 4139,
         "label": {
             "en_US": "Cron"
         },
@@ -458,7 +458,7 @@
         "category": "extension",
         "icon": "kevintsai/packages/linebot/_assets/LINE_Brand_icon.png",
         "index_id": "kevintsai___linebot",
-        "install_count": 3928,
+        "install_count": 3932,
         "label": {
             "en_US": "Line Bot",
             "ja_JP": "Line Bot",
@@ -499,7 +499,7 @@
         "category": "extension",
         "icon": "leslie2046/packages/moderation/_assets/icon.png",
         "index_id": "leslie2046___moderation",
-        "install_count": 3564,
+        "install_count": 3572,
         "label": {
             "en_US": "Moderation",
             "ja_JP": "センシティブな内容の審査",
@@ -538,7 +538,7 @@
         "category": "extension",
         "icon": "yeuoly/packages/waifu/_assets/waifu.gif",
         "index_id": "yeuoly___waifu",
-        "install_count": 3435,
+        "install_count": 3440,
         "label": {
             "en_US": "Waifu"
         },
@@ -577,7 +577,7 @@
         "category": "extension",
         "icon": "langgenius/packages/llamacloud/_assets/icon.svg",
         "index_id": "langgenius___llamacloud",
-        "install_count": 2684,
+        "install_count": 2694,
         "label": {
             "en_US": "Llamacloud",
             "ja_JP": "Llamacloud",
@@ -621,7 +621,7 @@
         "category": "extension",
         "icon": "hjlarry/packages/draw/_assets/icon.svg",
         "index_id": "hjlarry___draw",
-        "install_count": 2158,
+        "install_count": 2161,
         "label": {
             "en_US": "draw",
             "ja_JP": "draw",
@@ -703,7 +703,7 @@
         "category": "extension",
         "icon": "langgenius/packages/aws_bedrock_knowledge_base/_assets/icon.svg",
         "index_id": "langgenius___aws_bedrock_knowledge_base",
-        "install_count": 1749,
+        "install_count": 1760,
         "label": {
             "en_US": "Aws Bedrock Knowledge Base",
             "ja_JP": "Aws Bedrock Knowledge Base",
@@ -746,7 +746,7 @@
         "category": "extension",
         "icon": "anspire/packages/wecom-bot/_assets/icon.svg",
         "index_id": "anspire___wecom-bot",
-        "install_count": 1672,
+        "install_count": 1678,
         "label": {
             "en_US": "wecom-bot",
             "pt_BR": "wecom-bot",
@@ -788,7 +788,7 @@
         "category": "extension",
         "icon": "zoku-777/packages/dify_dsl_flowchart_export/_assets/icon.svg",
         "index_id": "zoku-777___dify_dsl_flowchart_export",
-        "install_count": 1600,
+        "install_count": 1603,
         "label": {
             "en_US": "Dify DSL Flowchart Convertor",
             "ja_JP": "DifyフローDSLフロチャート変換",
@@ -828,7 +828,7 @@
         "category": "extension",
         "icon": "nacos/packages/a2a_server/_assets/icon.png",
         "index_id": "nacos___a2a_server",
-        "install_count": 1546,
+        "install_count": 1560,
         "label": {
             "en_US": "A2A Server",
             "zh_Hans": "A2A Server"
@@ -870,7 +870,7 @@
         "category": "extension",
         "icon": "bytedance_vikingdb/packages/vikingdb_knowledge_base/_assets/icon.svg",
         "index_id": "bytedance_vikingdb___vikingdb_knowledge_base",
-        "install_count": 1383,
+        "install_count": 1388,
         "label": {
             "en_US": "Vikingdb Knowledge Base",
             "ja_JP": "Vikingdb Knowledge Base",
@@ -914,15 +914,15 @@
         "category": "extension",
         "icon": "langgenius/packages/badapple/_assets/icon.jpeg",
         "index_id": "langgenius___badapple",
-        "install_count": 1242,
+        "install_count": 1248,
         "label": {
             "en_US": "Bad Apple",
             "ja_JP": "Bad Apple",
             "pt_BR": "Bad Apple",
             "zh_Hans": "Bad Apple"
         },
-        "latest_package_identifier": "langgenius/badapple:0.0.5@8e4976590cc9de5c1aff2b79fefc09242fdb4b871c8478b0ba94bbc574088600",
-        "latest_version": "0.0.5",
+        "latest_package_identifier": "langgenius/badapple:0.0.4@28eeab212b76148d3d2f3771e4e236b47184c51fa040378e734c8225b52573d8",
+        "latest_version": "0.0.4",
         "name": "badapple",
         "org": "langgenius",
         "plugin_id": "langgenius/badapple",
@@ -945,7 +945,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-05-24T14:06:59Z"
+        "version_updated_at": "2026-04-27T07:55:27Z"
     },
     {
         "badges": [],
@@ -1158,7 +1158,7 @@
         "category": "extension",
         "icon": "takada-at/packages/slack-bot2/_assets/icon-bot.svg",
         "index_id": "takada-at___slack-bot2",
-        "install_count": 280,
+        "install_count": 281,
         "label": {
             "en_US": "slack-bot2",
             "ja_JP": "slack-bot2",
@@ -1239,7 +1239,7 @@
         "category": "extension",
         "icon": "suphachok/packages/line-connect/_assets/icon.svg",
         "index_id": "suphachok___line-connect",
-        "install_count": 170,
+        "install_count": 173,
         "label": {
             "en_US": "LINE Connect",
             "ja_JP": "LINE コネクト",
