@@ -8,7 +8,7 @@
         "category": "agent-strategy",
         "icon": "langgenius/packages/agent/_assets/icon.svg",
         "index_id": "langgenius___agent",
-        "install_count": 555565,
+        "install_count": 557470,
         "label": {
             "en_US": "Dify Agent Strategies",
             "zh_Hans": "Dify Agent 策略"
@@ -52,7 +52,7 @@
         "category": "agent-strategy",
         "icon": "junjiem/packages/mcp_see_agent/_assets/icon.svg",
         "index_id": "junjiem___mcp_see_agent",
-        "install_count": 134430,
+        "install_count": 134561,
         "label": {
             "en_US": "Agent Strategies (Support MCP Tools)",
             "zh_Hans": "Agent 策略（支持 MCP 工具）"
@@ -90,7 +90,7 @@
         "category": "agent-strategy",
         "icon": "hjlarry/packages/agent/_assets/icon.svg",
         "index_id": "hjlarry___agent",
-        "install_count": 54834,
+        "install_count": 54865,
         "label": {
             "en_US": "MCP Agent Strategy",
             "zh_Hans": "MCP Agent 策略"
@@ -132,7 +132,7 @@
         "category": "agent-strategy",
         "icon": "svcvit/packages/agent/_assets/icon.svg",
         "index_id": "svcvit___agent",
-        "install_count": 51767,
+        "install_count": 51794,
         "label": {
             "en_US": "Dialogue Agent",
             "zh_Hans": "对话 Agent"
@@ -174,7 +174,7 @@
         "category": "agent-strategy",
         "icon": "allenyzx/packages/enhancing_function_agent/_assets/icon.png",
         "index_id": "allenyzx___enhancing_function_agent",
-        "install_count": 11899,
+        "install_count": 11917,
         "label": {
             "en_US": "Enhancing Agent",
             "zh_Hans": "Enhancing Agent"
@@ -212,7 +212,7 @@
         "category": "agent-strategy",
         "icon": "xun404/packages/agent-skill-plugin/_assets/icon.svg",
         "index_id": "xun404___agent-skill-plugin",
-        "install_count": 9947,
+        "install_count": 9988,
         "label": {
             "en_US": "Agent Skill Plugin",
             "zh_Hans": "Agent Skill技能插件"
@@ -254,7 +254,7 @@
         "category": "agent-strategy",
         "icon": "ssf/packages/mcp_agent/_assets/icon.svg",
         "index_id": "ssf___mcp_agent",
-        "install_count": 5736,
+        "install_count": 5753,
         "label": {
             "en_US": "mcp_agent",
             "ja_JP": "mcp_agent",
@@ -298,7 +298,7 @@
         "category": "agent-strategy",
         "icon": "ki3nd/packages/sandbox-agent/_assets/icon.svg",
         "index_id": "ki3nd___sandbox-agent",
-        "install_count": 771,
+        "install_count": 783,
         "label": {
             "en_US": "Sandbox Agent",
             "ja_JP": "サンドボックスエージェント",
@@ -340,7 +340,7 @@
         "category": "agent-strategy",
         "icon": "aimali/packages/aimali_skill_agent/_assets/icon.jpeg",
         "index_id": "aimali___aimali_skill_agent",
-        "install_count": 531,
+        "install_count": 551,
         "label": {
             "en_US": "AI Maly Skill Agent",
             "zh_Hans": "AI码力 Skill Agent"
@@ -370,5 +370,49 @@
             "authorized_category": "community"
         },
         "version_updated_at": "2026-06-13T11:23:43Z"
+    },
+    {
+        "badges": [],
+        "brief": {
+            "en_US": "Mount Dify datasets as a read-only virtual filesystem so the agent explores your knowledge with shell commands (ls, grep, search, cat) instead of one-shot retrieval.",
+            "ja_JP": "Dify のデータセットを読み取り専用の仮想ファイルシステムとしてマウントし、一回限りの検索ではなくシェルコマンド（ls、grep、search、cat）でナレッジを探索できるエージェント戦略。",
+            "pt_BR": "Monta datasets do Dify como um sistema de arquivos virtual somente leitura, para o agente explorar seu conhecimento com comandos de shell (ls, grep, search, cat) em vez de uma recuperação única.",
+            "zh_Hans": "将 Dify 数据集挂载为只读虚拟文件系统，让智能体用 shell 命令（ls、grep、search、cat）探索知识库，而不是一次性检索。"
+        },
+        "category": "agent-strategy",
+        "icon": "ki3nd/packages/agentfs/_assets/icon.svg",
+        "index_id": "ki3nd___agentfs",
+        "install_count": 7,
+        "label": {
+            "en_US": "AgentFS",
+            "ja_JP": "AgentFS",
+            "pt_BR": "AgentFS",
+            "zh_Hans": "AgentFS"
+        },
+        "latest_package_identifier": "ki3nd/agentfs:0.0.1@d9539dbe7983468a4e5f8132b21f30ed6453debd1e4d690214e202d350b5b8d8",
+        "latest_version": "0.0.1",
+        "name": "agentfs",
+        "org": "ki3nd",
+        "plugin_id": "ki3nd/agentfs",
+        "plugins": {
+            "agent_strategies": [
+                "provider/agentfs.yaml"
+            ],
+            "datasources": null,
+            "endpoints": null,
+            "models": null,
+            "tools": null,
+            "triggers": null
+        },
+        "privacy_options": "",
+        "privacy_policy": "PRIVACY.md",
+        "repository": null,
+        "status": "active",
+        "tags": [],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "community"
+        },
+        "version_updated_at": "2026-07-20T06:20:58Z"
     }
 ]
