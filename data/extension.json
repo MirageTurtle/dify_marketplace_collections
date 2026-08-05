@@ -8,7 +8,7 @@
         "category": "extension",
         "icon": "hjlarry/packages/mcp-server/_assets/icon.svg",
         "index_id": "hjlarry___mcp-server",
-        "install_count": 49205,
+        "install_count": 49252,
         "label": {
             "en_US": "MCP server"
         },
@@ -47,7 +47,7 @@
         "category": "extension",
         "icon": "langgenius/packages/oaicompat_dify_app/_assets/icon.svg",
         "index_id": "langgenius___oaicompat_dify_app",
-        "install_count": 38530,
+        "install_count": 38586,
         "label": {
             "en_US": "OpenAI Compatible Dify App",
             "ja_JP": "OpenAI Compatible Dify App",
@@ -89,7 +89,7 @@
         "category": "extension",
         "icon": "junjiem/packages/mcp_compat_dify_tools/_assets/icon.svg",
         "index_id": "junjiem___mcp_compat_dify_tools",
-        "install_count": 17764,
+        "install_count": 17777,
         "label": {
             "en_US": "MCP Compatible Dify Tools",
             "zh_Hans": "MCP Compatible Dify Tools"
@@ -129,7 +129,7 @@
         "category": "extension",
         "icon": "langgenius/packages/oaicompat_dify_model/_assets/icon.svg",
         "index_id": "langgenius___oaicompat_dify_model",
-        "install_count": 15036,
+        "install_count": 15059,
         "label": {
             "en_US": "OpenAI Compatible Dify Models",
             "ja_JP": "OpenAI Compatible Dify Models",
@@ -171,7 +171,7 @@
         "category": "extension",
         "icon": "svcvit/packages/artifacts/_assets/icon.svg",
         "index_id": "svcvit___artifacts",
-        "install_count": 14152,
+        "install_count": 14162,
         "label": {
             "en_US": "Artifacts"
         },
@@ -210,7 +210,7 @@
         "category": "extension",
         "icon": "bikeread/packages/dify_wechat_plugin/_assets/icon.svg",
         "index_id": "bikeread___dify_wechat_plugin",
-        "install_count": 13983,
+        "install_count": 13988,
         "label": {
             "en_US": "Wechat Subscription Account",
             "ja_JP": "ウェチャットサブスクリプションアカウント",
@@ -251,7 +251,7 @@
         "category": "extension",
         "icon": "perzeuss/packages/webhook/_assets/icon.svg",
         "index_id": "perzeuss___webhook",
-        "install_count": 11964,
+        "install_count": 11967,
         "label": {
             "en_US": "Webhook",
             "pt_BR": "Webhook",
@@ -294,7 +294,7 @@
         "category": "extension",
         "icon": "plutoless/packages/convoai/_assets/icon.svg",
         "index_id": "plutoless___convoai",
-        "install_count": 8648,
+        "install_count": 8650,
         "label": {
             "en_US": "Agora Conversational AI",
             "ja_JP": "Agora Conversational AI",
@@ -336,7 +336,7 @@
         "category": "extension",
         "icon": "langgenius/packages/slack-bot/_assets/icon.svg",
         "index_id": "langgenius___slack-bot",
-        "install_count": 8488,
+        "install_count": 8504,
         "label": {
             "en_US": "Slack Bot",
             "ja_JP": "Slack Bot",
@@ -379,7 +379,7 @@
         "category": "extension",
         "icon": "langgenius/packages/wecom-bot/_assets/icon.png",
         "index_id": "langgenius___wecom-bot",
-        "install_count": 8297,
+        "install_count": 8334,
         "label": {
             "en_US": "WeCom Bot",
             "ja_JP": "WeCom Bot",
@@ -419,7 +419,7 @@
         "category": "extension",
         "icon": "yt-koike/packages/cron/_assets/icon.svg",
         "index_id": "yt-koike___cron",
-        "install_count": 4424,
+        "install_count": 4426,
         "label": {
             "en_US": "Cron"
         },
@@ -499,7 +499,7 @@
         "category": "extension",
         "icon": "leslie2046/packages/moderation/_assets/icon.png",
         "index_id": "leslie2046___moderation",
-        "install_count": 3947,
+        "install_count": 3949,
         "label": {
             "en_US": "Moderation",
             "ja_JP": "センシティブな内容の審査",
@@ -538,7 +538,7 @@
         "category": "extension",
         "icon": "yeuoly/packages/waifu/_assets/waifu.gif",
         "index_id": "yeuoly___waifu",
-        "install_count": 3663,
+        "install_count": 3666,
         "label": {
             "en_US": "Waifu"
         },
@@ -577,7 +577,7 @@
         "category": "extension",
         "icon": "langgenius/packages/llamacloud/_assets/icon.svg",
         "index_id": "langgenius___llamacloud",
-        "install_count": 3317,
+        "install_count": 3324,
         "label": {
             "en_US": "Llamacloud",
             "ja_JP": "Llamacloud",
@@ -655,46 +655,6 @@
     {
         "badges": [],
         "brief": {
-            "en_US": "Expose Dify apps as A2A protocol agents, enabling agent discovery, invocation, and optional registration to Nacos Agent Registry.",
-            "zh_Hans": "将 Dify 应用暴露为 A2A 协议智能体，支持智能体发现、调用，并可选注册到 Nacos 智能体注册中心。"
-        },
-        "category": "extension",
-        "icon": "nacos/packages/a2a_server/_assets/icon.png",
-        "index_id": "nacos___a2a_server",
-        "install_count": 2197,
-        "label": {
-            "en_US": "A2A Server",
-            "zh_Hans": "A2A Server"
-        },
-        "latest_package_identifier": "nacos/a2a_server:0.0.4@b3383ff6677e8ff24386c4d518b6c47b6d1b8b2cdb7cae334084258ceb6a46b6",
-        "latest_version": "0.0.4",
-        "name": "a2a_server",
-        "org": "nacos",
-        "plugin_id": "nacos/a2a_server",
-        "plugins": {
-            "agent_strategies": null,
-            "datasources": null,
-            "endpoints": [
-                "group/a2a_server.yaml"
-            ],
-            "models": null,
-            "tools": null,
-            "triggers": null
-        },
-        "privacy_options": "",
-        "privacy_policy": "PRIVACY.md",
-        "repository": "https://github.com/nacos-group/nacos-dify-plugins",
-        "status": "active",
-        "tags": [],
-        "type": "plugin",
-        "verification": {
-            "authorized_category": "community"
-        },
-        "version_updated_at": "2026-03-10T02:24:56Z"
-    },
-    {
-        "badges": [],
-        "brief": {
             "en_US": "The Enterprise wechat intelligent robot is supported by Anspai, an official partner of Enterprise wechat.",
             "pt_BR": "The Enterprise wechat intelligent robot is supported by Anspai, an official partner of Enterprise wechat.",
             "zh_Hans": "企业微信智能机器人，由企微官方合作伙伴安思派提供技术支持。"
@@ -702,7 +662,7 @@
         "category": "extension",
         "icon": "anspire/packages/wecom-bot/_assets/icon.svg",
         "index_id": "anspire___wecom-bot",
-        "install_count": 2196,
+        "install_count": 2203,
         "label": {
             "en_US": "wecom-bot",
             "pt_BR": "wecom-bot",
@@ -737,6 +697,46 @@
     {
         "badges": [],
         "brief": {
+            "en_US": "Expose Dify apps as A2A protocol agents, enabling agent discovery, invocation, and optional registration to Nacos Agent Registry.",
+            "zh_Hans": "将 Dify 应用暴露为 A2A 协议智能体，支持智能体发现、调用，并可选注册到 Nacos 智能体注册中心。"
+        },
+        "category": "extension",
+        "icon": "nacos/packages/a2a_server/_assets/icon.png",
+        "index_id": "nacos___a2a_server",
+        "install_count": 2201,
+        "label": {
+            "en_US": "A2A Server",
+            "zh_Hans": "A2A Server"
+        },
+        "latest_package_identifier": "nacos/a2a_server:0.0.4@b3383ff6677e8ff24386c4d518b6c47b6d1b8b2cdb7cae334084258ceb6a46b6",
+        "latest_version": "0.0.4",
+        "name": "a2a_server",
+        "org": "nacos",
+        "plugin_id": "nacos/a2a_server",
+        "plugins": {
+            "agent_strategies": null,
+            "datasources": null,
+            "endpoints": [
+                "group/a2a_server.yaml"
+            ],
+            "models": null,
+            "tools": null,
+            "triggers": null
+        },
+        "privacy_options": "",
+        "privacy_policy": "PRIVACY.md",
+        "repository": "https://github.com/nacos-group/nacos-dify-plugins",
+        "status": "active",
+        "tags": [],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "community"
+        },
+        "version_updated_at": "2026-03-10T02:24:56Z"
+    },
+    {
+        "badges": [],
+        "brief": {
             "en_US": "AWS Bedrock Knowledge Base API Endpoint for Dify External Knowledge Base",
             "ja_JP": "AWS Bedrock Knowledge Base API Endpoint for Dify External Knowledge Base",
             "pt_BR": "AWS Bedrock Knowledge Base API Endpoint for Dify External Knowledge Base",
@@ -745,7 +745,7 @@
         "category": "extension",
         "icon": "langgenius/packages/aws_bedrock_knowledge_base/_assets/icon.svg",
         "index_id": "langgenius___aws_bedrock_knowledge_base",
-        "install_count": 2116,
+        "install_count": 2119,
         "label": {
             "en_US": "Aws Bedrock Knowledge Base",
             "ja_JP": "Aws Bedrock Knowledge Base",
@@ -787,7 +787,7 @@
         "category": "extension",
         "icon": "langgenius/packages/neko/_assets/neko.gif",
         "index_id": "langgenius___neko",
-        "install_count": 2088,
+        "install_count": 2090,
         "label": {
             "en_US": "Neko"
         },
@@ -828,7 +828,7 @@
         "category": "extension",
         "icon": "zoku-777/packages/dify_dsl_flowchart_export/_assets/icon.svg",
         "index_id": "zoku-777___dify_dsl_flowchart_export",
-        "install_count": 1930,
+        "install_count": 1932,
         "label": {
             "en_US": "Dify DSL Flowchart Convertor",
             "ja_JP": "DifyフローDSLフロチャート変換",
@@ -870,7 +870,7 @@
         "category": "extension",
         "icon": "bytedance_vikingdb/packages/vikingdb_knowledge_base/_assets/icon.svg",
         "index_id": "bytedance_vikingdb___vikingdb_knowledge_base",
-        "install_count": 1746,
+        "install_count": 1749,
         "label": {
             "en_US": "Vikingdb Knowledge Base",
             "ja_JP": "Vikingdb Knowledge Base",
@@ -914,7 +914,7 @@
         "category": "extension",
         "icon": "langgenius/packages/badapple/_assets/icon.jpeg",
         "index_id": "langgenius___badapple",
-        "install_count": 1435,
+        "install_count": 1437,
         "label": {
             "en_US": "Bad Apple",
             "ja_JP": "Bad Apple",
@@ -1198,7 +1198,7 @@
         "category": "extension",
         "icon": "yuyang-wu/packages/trtc_conai/_assets/icon.svg",
         "index_id": "yuyang-wu___trtc_conai",
-        "install_count": 306,
+        "install_count": 307,
         "label": {
             "en_US": "Tencent RTC Conversational AI",
             "zh_Hans": "Tencent RTC AI实时对话"
