@@ -8,12 +8,12 @@
         "category": "agent-strategy",
         "icon": "langgenius/packages/agent/_assets/icon.svg",
         "index_id": "langgenius___agent",
-        "install_count": 606049,
+        "install_count": 607694,
         "label": {
             "en_US": "Dify Agent Strategies",
             "zh_Hans": "Dify Agent 策略"
         },
-        "latest_package_identifier": "langgenius/agent:0.0.42@2ae22966e893dced869cf04dba918eff6c14c05a3c3d7f04c2ed4f7da825b67f",
+        "latest_package_identifier": "langgenius/agent:0.0.42@b7dfdf1acf8a99a33ebb21e7cf5fe6842b5055a5d0264180f167202ea04b54a0",
         "latest_version": "0.0.42",
         "name": "agent",
         "org": "langgenius",
@@ -41,7 +41,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-08-01T01:32:02Z"
+        "version_updated_at": "2026-08-06T02:29:57Z"
     },
     {
         "badges": [],
@@ -52,7 +52,7 @@
         "category": "agent-strategy",
         "icon": "junjiem/packages/mcp_see_agent/_assets/icon.svg",
         "index_id": "junjiem___mcp_see_agent",
-        "install_count": 136392,
+        "install_count": 136684,
         "label": {
             "en_US": "Agent Strategies (Support MCP Tools)",
             "zh_Hans": "Agent 策略（支持 MCP 工具）"
@@ -90,7 +90,7 @@
         "category": "agent-strategy",
         "icon": "hjlarry/packages/agent/_assets/icon.svg",
         "index_id": "hjlarry___agent",
-        "install_count": 55552,
+        "install_count": 55628,
         "label": {
             "en_US": "MCP Agent Strategy",
             "zh_Hans": "MCP Agent 策略"
@@ -132,7 +132,7 @@
         "category": "agent-strategy",
         "icon": "svcvit/packages/agent/_assets/icon.svg",
         "index_id": "svcvit___agent",
-        "install_count": 52194,
+        "install_count": 52221,
         "label": {
             "en_US": "Dialogue Agent",
             "zh_Hans": "对话 Agent"
@@ -174,7 +174,7 @@
         "category": "agent-strategy",
         "icon": "allenyzx/packages/enhancing_function_agent/_assets/icon.png",
         "index_id": "allenyzx___enhancing_function_agent",
-        "install_count": 12100,
+        "install_count": 12112,
         "label": {
             "en_US": "Enhancing Agent",
             "zh_Hans": "Enhancing Agent"
@@ -212,7 +212,7 @@
         "category": "agent-strategy",
         "icon": "xun404/packages/agent-skill-plugin/_assets/icon.svg",
         "index_id": "xun404___agent-skill-plugin",
-        "install_count": 10452,
+        "install_count": 10486,
         "label": {
             "en_US": "Agent Skill Plugin",
             "zh_Hans": "Agent Skill技能插件"
@@ -254,7 +254,7 @@
         "category": "agent-strategy",
         "icon": "ssf/packages/mcp_agent/_assets/icon.svg",
         "index_id": "ssf___mcp_agent",
-        "install_count": 5976,
+        "install_count": 5994,
         "label": {
             "en_US": "mcp_agent",
             "ja_JP": "mcp_agent",
@@ -298,7 +298,7 @@
         "category": "agent-strategy",
         "icon": "ki3nd/packages/sandbox-agent/_assets/icon.svg",
         "index_id": "ki3nd___sandbox-agent",
-        "install_count": 905,
+        "install_count": 913,
         "label": {
             "en_US": "Sandbox Agent",
             "ja_JP": "サンドボックスエージェント",
@@ -340,7 +340,7 @@
         "category": "agent-strategy",
         "icon": "aimali/packages/aimali_skill_agent/_assets/icon.jpeg",
         "index_id": "aimali___aimali_skill_agent",
-        "install_count": 677,
+        "install_count": 683,
         "label": {
             "en_US": "AI Maly Skill Agent",
             "zh_Hans": "AI码力 Skill Agent"
@@ -374,6 +374,50 @@
     {
         "badges": [],
         "brief": {
+            "en_US": "Agent strategy with automatic self-critique and iterative refinement. Based on Self-Refine (NeurIPS 2023).",
+            "zh_Hans": "支持自动自我批判和迭代优化的 Agent 策略。基于 Self-Refine (NeurIPS 2023)。"
+        },
+        "category": "agent-strategy",
+        "icon": "langgenius/packages/self_refine_agent/_assets/icon.svg",
+        "index_id": "langgenius___self_refine_agent",
+        "install_count": 99,
+        "label": {
+            "en_US": "Self-Refine Agent Strategy",
+            "zh_Hans": "自我优化 Agent 策略"
+        },
+        "latest_package_identifier": "langgenius/self_refine_agent:0.0.1@46f53dd212e94e2a1f9e882ef54089e01e936b534d63c1dc1ed6a38c4ac0f653",
+        "latest_version": "0.0.1",
+        "name": "self_refine_agent",
+        "org": "langgenius",
+        "plugin_id": "langgenius/self_refine_agent",
+        "plugins": {
+            "agent_strategies": [
+                "provider/self_refine.yaml"
+            ],
+            "datasources": null,
+            "endpoints": null,
+            "models": null,
+            "tools": null,
+            "triggers": null
+        },
+        "privacy_options": "",
+        "privacy_policy": "",
+        "repository": null,
+        "status": "active",
+        "tags": [
+            {
+                "name": "agent"
+            }
+        ],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "langgenius"
+        },
+        "version_updated_at": "2026-08-06T02:29:54Z"
+    },
+    {
+        "badges": [],
+        "brief": {
             "en_US": "Mount Dify datasets as a read-only virtual filesystem so the agent explores your knowledge with shell commands (ls, grep, search, cat) instead of one-shot retrieval.",
             "ja_JP": "Dify のデータセットを読み取り専用の仮想ファイルシステムとしてマウントし、一回限りの検索ではなくシェルコマンド（ls、grep、search、cat）でナレッジを探索できるエージェント戦略。",
             "pt_BR": "Monta datasets do Dify como um sistema de arquivos virtual somente leitura, para o agente explorar seu conhecimento com comandos de shell (ls, grep, search, cat) em vez de uma recuperação única.",
@@ -382,7 +426,7 @@
         "category": "agent-strategy",
         "icon": "ki3nd/packages/agentfs/_assets/icon.svg",
         "index_id": "ki3nd___agentfs",
-        "install_count": 94,
+        "install_count": 97,
         "label": {
             "en_US": "AgentFS",
             "ja_JP": "AgentFS",
@@ -414,49 +458,5 @@
             "authorized_category": "community"
         },
         "version_updated_at": "2026-07-20T06:20:58Z"
-    },
-    {
-        "badges": [],
-        "brief": {
-            "en_US": "Agent strategy with automatic self-critique and iterative refinement. Based on Self-Refine (NeurIPS 2023).",
-            "zh_Hans": "支持自动自我批判和迭代优化的 Agent 策略。基于 Self-Refine (NeurIPS 2023)。"
-        },
-        "category": "agent-strategy",
-        "icon": "langgenius/packages/self_refine_agent/_assets/icon.svg",
-        "index_id": "langgenius___self_refine_agent",
-        "install_count": 80,
-        "label": {
-            "en_US": "Self-Refine Agent Strategy",
-            "zh_Hans": "自我优化 Agent 策略"
-        },
-        "latest_package_identifier": "langgenius/self_refine_agent:0.0.1@f0cfefdac94ba2c23a78129daeabac9f5d2de4422c27f5986d4d2c98bb470aa0",
-        "latest_version": "0.0.1",
-        "name": "self_refine_agent",
-        "org": "langgenius",
-        "plugin_id": "langgenius/self_refine_agent",
-        "plugins": {
-            "agent_strategies": [
-                "provider/self_refine.yaml"
-            ],
-            "datasources": null,
-            "endpoints": null,
-            "models": null,
-            "tools": null,
-            "triggers": null
-        },
-        "privacy_options": "",
-        "privacy_policy": "",
-        "repository": null,
-        "status": "active",
-        "tags": [
-            {
-                "name": "agent"
-            }
-        ],
-        "type": "plugin",
-        "verification": {
-            "authorized_category": "langgenius"
-        },
-        "version_updated_at": "2026-08-01T01:37:36Z"
     }
 ]
