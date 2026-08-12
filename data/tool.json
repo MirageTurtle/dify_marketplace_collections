@@ -13,8 +13,8 @@
             "en_US": "Mind Map Generator · Dark Aurora / GIF / WebP / PNG",
             "zh_Hans": "思维导图生成器（深色极光 / GIF / WebP / PNG）"
         },
-        "latest_package_identifier": "zhangyu/si_wei_dao_tu_sheng_cheng_qi:0.0.19@2b734a05d3cf0c9958223db5120b55a9f59993d79a0182d7b856fd6fb5955fa6",
-        "latest_version": "0.0.19",
+        "latest_package_identifier": "zhangyu/si_wei_dao_tu_sheng_cheng_qi:0.0.20@1aa13fab265234f3110e6db3960f3bfc57085ccff465b1da64d59d01ff8311ee",
+        "latest_version": "0.0.20",
         "name": "si_wei_dao_tu_sheng_cheng_qi",
         "org": "zhangyu",
         "plugin_id": "zhangyu/si_wei_dao_tu_sheng_cheng_qi",
@@ -30,21 +30,21 @@
         },
         "privacy_options": "",
         "privacy_policy": "PRIVACY.md",
-        "repository": null,
+        "repository": "https://github.com/zhangyuqz/dify-plugins",
         "status": "active",
         "tags": [
             {
-                "name": "image"
+                "name": "productivity"
             },
             {
-                "name": "productivity"
+                "name": "image"
             }
         ],
         "type": "plugin",
         "verification": {
             "authorized_category": "community"
         },
-        "version_updated_at": "2026-07-29T01:54:56Z"
+        "version_updated_at": "2026-08-12T02:02:02Z"
     },
     {
         "badges": [
@@ -642,8 +642,8 @@
     {
         "badges": [],
         "brief": {
-            "en_US": "Version 0.0.5 preserves the four JSON-to-DOCX tool contracts and 20 market image slots while isolating each tool's renderer and worker. Linear table rendering, bounded table plans, streaming OOXML post-processing, and a supervised hard deadline prevent unbounded Running states without changing valid 0.0.4 document behavior.",
-            "zh_Hans": "0.0.5 保持四个 JSON 转 DOCX 工具的接口和市场版 20 个图片插槽不变，并将每个工具的渲染器、工作进程完全隔离； 线性表格渲染、有界表格规划、流式 OOXML 后处理和受监督的内部硬截止，可避免无限 Running， 同时保持 0.0.4 合法文档行为。"
+            "en_US": "Implements Microsoft Office Word and WPS Word document features with fault-tolerant JSON, built-in official-document templates, advanced layout, ultra-long real tables, inline images, charts, formulas, watermarks, TOC, headers, footers, and more.",
+            "zh_Hans": "实现 Microsoft Office Word 与 WPS Word 文档功能，提供高容错 JSON 语法、内置公文模板、高级排版、超长真实表格、内联图片、图表、公式、水印、目录、页眉页脚等。"
         },
         "category": "tool",
         "icon": "zhangyu/packages/docx_generator/_assets/icon.png",
@@ -653,8 +653,8 @@
             "en_US": "Full-Featured Custom Word .docx Generator · JSON Edition",
             "zh_Hans": "全功能自定义Word.docx文档生成器 · JSON版"
         },
-        "latest_package_identifier": "zhangyu/docx_generator:0.0.5@5991dd1f35ca208092f56a040ac6286bf2eb69856a57e8d22ba04efab97d7c38",
-        "latest_version": "0.0.5",
+        "latest_package_identifier": "zhangyu/docx_generator:0.0.6@d1dea03d0e9042e5179a75ebbc35eb597707417fd392c7ec7be87e43d48d0035",
+        "latest_version": "0.0.6",
         "name": "docx_generator",
         "org": "zhangyu",
         "plugin_id": "zhangyu/docx_generator",
@@ -670,7 +670,7 @@
         },
         "privacy_options": "",
         "privacy_policy": "PRIVACY.md",
-        "repository": null,
+        "repository": "https://github.com/zhangyuqz/dify-plugins/tree/main/zhangyuqz/docx_generator",
         "status": "active",
         "tags": [
             {
@@ -681,7 +681,7 @@
         "verification": {
             "authorized_category": "community"
         },
-        "version_updated_at": "2026-08-06T02:31:55Z"
+        "version_updated_at": "2026-08-12T02:01:14Z"
     },
     {
         "badges": [],
@@ -1862,12 +1862,12 @@
         "category": "tool",
         "icon": "langgenius/packages/siliconflow_tool/_assets/siliconflow_square.svg",
         "index_id": "langgenius___siliconflow_tool",
-        "install_count": 47001,
+        "install_count": 47003,
         "label": {
             "en_US": "SiliconFlow"
         },
-        "latest_package_identifier": "langgenius/siliconflow_tool:0.0.12@65273323ae4460c0f42cd273acd54c77c3d50a4fa668cead2f87a97c9a1b88af",
-        "latest_version": "0.0.12",
+        "latest_package_identifier": "langgenius/siliconflow_tool:0.0.13@c9c580914f795f6d8da6cbb98a999a3368ca4411525e18aeb877e1ecb13c0f7f",
+        "latest_version": "0.0.13",
         "name": "siliconflow_tool",
         "org": "langgenius",
         "plugin_id": "langgenius/siliconflow_tool",
@@ -1883,7 +1883,7 @@
         },
         "privacy_options": "",
         "privacy_policy": "",
-        "repository": "",
+        "repository": null,
         "status": "active",
         "tags": [
             {
@@ -1894,7 +1894,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-07-20T06:42:01Z"
+        "version_updated_at": "2026-08-11T05:50:54Z"
     },
     {
         "badges": [],
@@ -19719,8 +19719,8 @@
             "en_US": "Minimax TTS ",
             "zh_Hans": "Minimax TTS "
         },
-        "latest_package_identifier": "langgenius/minimax_tts_tool:0.0.6@158ebaf41cb38ba90596491d5ad27f45fcc851521f430bf10a2304ca94d15959",
-        "latest_version": "0.0.6",
+        "latest_package_identifier": "langgenius/minimax_tts_tool:0.0.7@5f0a256da22d6da4af42d2425ec18263a01e37b9c68d98a5ff5a71f94b35b2d4",
+        "latest_version": "0.0.7",
         "name": "minimax_tts_tool",
         "org": "langgenius",
         "plugin_id": "langgenius/minimax_tts_tool",
@@ -19747,7 +19747,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-07-21T01:52:46Z"
+        "version_updated_at": "2026-08-11T05:52:18Z"
     },
     {
         "badges": [],
@@ -22746,13 +22746,13 @@
         "index_id": "querit-ai___querit",
         "install_count": 259,
         "label": {
-            "en_US": "Querit Search Plugin",
-            "ja_JP": "Querit Search Plugin",
-            "pt_BR": "Querit Search Plugin",
-            "zh_Hans": "Querit Search Plugin"
+            "en_US": "Querit.ai",
+            "ja_JP": "Querit.ai",
+            "pt_BR": "Querit.ai",
+            "zh_Hans": "Querit.ai"
         },
-        "latest_package_identifier": "querit-ai/querit:0.0.3@982dfde8043ecdca6e698beb7af9703739381ffaa03d684faf9dcea1b50acf8d",
-        "latest_version": "0.0.3",
+        "latest_package_identifier": "querit-ai/querit:0.0.5@b90f227c861bf1241694222970840af4a035f9510a0b57dbf3275c9eafb893b7",
+        "latest_version": "0.0.5",
         "name": "querit",
         "org": "querit-ai",
         "plugin_id": "querit-ai/querit",
@@ -22775,7 +22775,7 @@
         "verification": {
             "authorized_category": "community"
         },
-        "version_updated_at": "2026-07-31T13:24:20Z"
+        "version_updated_at": "2026-08-11T12:40:33Z"
     },
     {
         "badges": [],
@@ -29415,5 +29415,136 @@
             "authorized_category": "community"
         },
         "version_updated_at": "2026-08-10T10:07:36Z"
+    },
+    {
+        "badges": [],
+        "brief": {
+            "en_US": "Schedule and publish posts to LinkedIn, X, Instagram, Threads, TikTok, YouTube, Facebook, Bluesky, Mastodon and Telegram from a Dify agent."
+        },
+        "category": "tool",
+        "icon": "publora/packages/publora/_assets/icon.svg",
+        "index_id": "publora___publora",
+        "install_count": 0,
+        "label": {
+            "en_US": "Publora"
+        },
+        "latest_package_identifier": "publora/publora:0.0.2@a91f024ba21f5dcf919e6288cefa482cca304c2c4c8eb3ab3bf071b988dbfe52",
+        "latest_version": "0.0.2",
+        "name": "publora",
+        "org": "publora",
+        "plugin_id": "publora/publora",
+        "plugins": {
+            "agent_strategies": null,
+            "datasources": null,
+            "endpoints": null,
+            "models": null,
+            "tools": [
+                "provider/publora.yaml"
+            ],
+            "triggers": null
+        },
+        "privacy_options": "",
+        "privacy_policy": "PRIVACY.md",
+        "repository": "https://github.com/langgenius/dify-plugins/tree/main/publora/publora",
+        "status": "active",
+        "tags": [
+            {
+                "name": "social"
+            }
+        ],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "community"
+        },
+        "version_updated_at": "2026-08-11T12:40:31Z"
+    },
+    {
+        "badges": [],
+        "brief": {
+            "en_US": "Run published mosoo Agents from Dify through Claude Agent SDK, OpenAI Runtime, or OpenCode.",
+            "ja_JP": "Claude Agent SDK、OpenAI Runtime、または OpenCode で構成された公開済み mosoo Agent を Dify から実行します。",
+            "pt_BR": "Execute no Dify mosoo Agents publicados com Claude Agent SDK, OpenAI Runtime ou OpenCode.",
+            "zh_Hans": "从 Dify 运行已发布的 mosoo 智能体，支持 Claude Agent SDK、OpenAI Runtime 和 OpenCode。"
+        },
+        "category": "tool",
+        "icon": "mosoo-ai/packages/mosoo/_assets/icon.svg",
+        "index_id": "mosoo-ai___mosoo",
+        "install_count": 0,
+        "label": {
+            "en_US": "mosoo managed agent",
+            "ja_JP": "mosoo managed agent",
+            "pt_BR": "mosoo managed agent",
+            "zh_Hans": "mosoo managed agent"
+        },
+        "latest_package_identifier": "mosoo-ai/mosoo:0.1.2@09b46839a86523c1554ed5a6a8f0581c32d5c0cf2b9d67d96fc2011221a2bfb3",
+        "latest_version": "0.1.2",
+        "name": "mosoo",
+        "org": "mosoo-ai",
+        "plugin_id": "mosoo-ai/mosoo",
+        "plugins": {
+            "agent_strategies": null,
+            "datasources": null,
+            "endpoints": null,
+            "models": null,
+            "tools": [
+                "provider/mosoo.yaml"
+            ],
+            "triggers": null
+        },
+        "privacy_options": "",
+        "privacy_policy": "PRIVACY.md",
+        "repository": "https://github.com/mosoo-ai/dify-plugin-mosoo",
+        "status": "active",
+        "tags": [],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "community"
+        },
+        "version_updated_at": "2026-08-12T02:01:40Z"
+    },
+    {
+        "badges": [],
+        "brief": {
+            "en_US": "Create TaskMarket requests with an exact preview and fresh human authorization, then track status and review submissions."
+        },
+        "category": "tool",
+        "icon": "alexluisillo91-creator/packages/taskmarket/_assets/icon.svg",
+        "index_id": "alexluisillo91-creator___taskmarket",
+        "install_count": 0,
+        "label": {
+            "en_US": "TaskMarket Requester"
+        },
+        "latest_package_identifier": "alexluisillo91-creator/taskmarket:0.1.0@7c94394e8127785f27c074fc81d0468fd9da9efa62830fc0ee971cd2e2b2ffaa",
+        "latest_version": "0.1.0",
+        "name": "taskmarket",
+        "org": "alexluisillo91-creator",
+        "plugin_id": "alexluisillo91-creator/taskmarket",
+        "plugins": {
+            "agent_strategies": null,
+            "datasources": null,
+            "endpoints": null,
+            "models": null,
+            "tools": [
+                "provider/taskmarket.yaml"
+            ],
+            "triggers": null
+        },
+        "privacy_options": "",
+        "privacy_policy": "PRIVACY.md",
+        "repository": "https://github.com/alexluisillo91-creator/dify-taskmarket-requester",
+        "status": "active",
+        "tags": [
+            {
+                "name": "productivity"
+            },
+            {
+                "name": "utilities"
+            }
+        ],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "community"
+        },
+        "version_updated_at": "2026-08-12T02:04:51Z"
     }
 ]
