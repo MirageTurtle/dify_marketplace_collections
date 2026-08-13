@@ -13,8 +13,8 @@
             "en_US": "Tongyi",
             "zh_Hans": "通义"
         },
-        "latest_package_identifier": "langgenius/tongyi:0.2.10@8f78f0b2e7d1b6ed161eecfdcf4725aef13d1e4ed947d69bad8f1866fd6d51c2",
-        "latest_version": "0.2.10",
+        "latest_package_identifier": "langgenius/tongyi:0.2.11@31d75ae466820c48dccde45f474118692ee778b141f3fe641560abfbef7cd133",
+        "latest_version": "0.2.11",
         "name": "tongyi",
         "org": "langgenius",
         "plugin_id": "langgenius/tongyi",
@@ -37,7 +37,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-08-12T02:30:53Z"
+        "version_updated_at": "2026-08-13T01:56:04Z"
     },
     {
         "badges": [],
@@ -602,15 +602,15 @@
         "category": "model",
         "icon": "langgenius/packages/zhipuai/_assets/icon_s_en.svg",
         "index_id": "langgenius___zhipuai",
-        "install_count": 143258,
+        "install_count": 143263,
         "label": {
             "en_US": "ZHIPU AI",
             "ja_JP": "ZHIPU AI",
             "pt_BR": "ZHIPU AI",
             "zh_Hans": "ZHIPU AI"
         },
-        "latest_package_identifier": "langgenius/zhipuai:0.0.31@c0162f543b7ac0918258c0bba9898dd460225d7fcaddb19a4000cc687a06cf20",
-        "latest_version": "0.0.31",
+        "latest_package_identifier": "langgenius/zhipuai:0.0.32@04ca8314bdb2f07541a710dc55456c216e5aef371d3b78267ede81015a2b9091",
+        "latest_version": "0.0.32",
         "name": "zhipuai",
         "org": "langgenius",
         "plugin_id": "langgenius/zhipuai",
@@ -626,14 +626,14 @@
         },
         "privacy_options": "",
         "privacy_policy": "",
-        "repository": "",
+        "repository": null,
         "status": "active",
         "tags": [],
         "type": "plugin",
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-07-21T01:52:49Z"
+        "version_updated_at": "2026-08-12T08:34:57Z"
     },
     {
         "badges": [],

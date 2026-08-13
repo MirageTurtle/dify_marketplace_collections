@@ -278,9 +278,9 @@
     {
         "badges": [],
         "brief": {
-            "en_US": "Export Markdown to DOCX, PPTX, XLSX, PDF, PNG, HTML, IPYNB, CSV, JSON, JSONL, XML files, Jira wiki markup, and extract code blocks to Python, Bash, JS and etc files.",
-            "ja_JP": "MarkdownをDOCX, PPTX, XLSX, PDF, PNG, HTML, IPYNB, CSV, JSON, JSONL, XML ファイルやJira Wikiマークアップとしてエクスポートし、さらにコードブロックを各種スクリプトファイルとしてエクスポートします",
-            "zh_Hans": "导出 Markdown 为 DOCX, PPTX, XLSX, PDF, PNG, HTML, IPYNB, CSV, JSON, JSONL, XML 文件及 Jira 文本标记, 并将代码块导出为各类脚本文件(Python, JS, Bash等)。"
+            "en_US": "Export Markdown to DOCX, PPTX, XLSX, PDF, PNG, SVG, HTML, IPYNB, CSV, JSON, JSONL, XML files, Jira wiki markup, and extract code blocks to Python, Bash, JS and etc files.",
+            "ja_JP": "MarkdownをDOCX, PPTX, XLSX, PDF, PNG, SVG, HTML, IPYNB, CSV, JSON, JSONL, XML ファイルやJira Wikiマークアップとしてエクスポートし、さらにコードブロックを各種スクリプトファイルとしてエクスポートします",
+            "zh_Hans": "导出 Markdown 为 DOCX, PPTX, XLSX, PDF, PNG, SVG, HTML, IPYNB, CSV, JSON, JSONL, XML 文件及 Jira 文本标记, 并将代码块导出为各类脚本文件(Python, JS, Bash等)。"
         },
         "category": "tool",
         "icon": "bowenliang123/packages/md_exporter/_assets/icon.png",
@@ -291,8 +291,8 @@
             "ja_JP": "Markdownエクスポーター",
             "zh_Hans": "Markdown 转换器"
         },
-        "latest_package_identifier": "bowenliang123/md_exporter:3.8.0@3e1eb64a2a5223640a81f7e5c7d78f00c0e70c32853654e298dd8c400a3ccbe8",
-        "latest_version": "3.8.0",
+        "latest_package_identifier": "bowenliang123/md_exporter:4.0.0@eff5440a18b9fa10d7fe3f0a1b5a2ef1bf78ab8a19dd92e273daf7a346553106",
+        "latest_version": "4.0.0",
         "name": "md_exporter",
         "org": "bowenliang123",
         "plugin_id": "bowenliang123/md_exporter",
@@ -319,7 +319,7 @@
         "verification": {
             "authorized_category": "community"
         },
-        "version_updated_at": "2026-08-11T01:40:46Z"
+        "version_updated_at": "2026-08-13T01:44:54Z"
     },
     {
         "badges": [],
@@ -29081,7 +29081,9 @@
         "version_updated_at": "2026-07-22T03:16:54Z"
     },
     {
-        "badges": [],
+        "badges": [
+            "partner"
+        ],
         "brief": {
             "en_US": "Generate licensed music, video soundtracks, and frame-accurate sound effects with the Sonilo API. Bring your own Sonilo API key.",
             "zh_Hans": "使用 Sonilo API 生成有版权授权的音乐、视频原声带和逐帧对齐的音效。需要您自己的 Sonilo API Key。"
@@ -29546,5 +29548,52 @@
             "authorized_category": "community"
         },
         "version_updated_at": "2026-08-12T02:04:51Z"
+    },
+    {
+        "badges": [],
+        "brief": {
+            "en_US": "Add custom text watermarks to PDF documents. Font size auto-fits each page, so the watermark stays large and centred on any page size. Supports colour, any rotation angle, opacity, and position control. Built-in CJK font, no upload needed. Outputs a watermarked PDF file.",
+            "zh_Hans": "给 PDF 文档添加自定义文字水印。字号自动适配页面尺寸，任何页面都能居中铺满不会太小；支持颜色、任意旋转角度、透明度与位置控制，内置中文字体无需上传，输出带水印的 PDF 文件。"
+        },
+        "category": "tool",
+        "icon": "fangyong20062006/packages/pdf_watermark/_assets/icon.svg",
+        "index_id": "fangyong20062006___pdf_watermark",
+        "install_count": 0,
+        "label": {
+            "en_US": "PDF Watermark (Online)",
+            "zh_Hans": "PDF 自定义水印（在线版）"
+        },
+        "latest_package_identifier": "fangyong20062006/pdf_watermark:0.1.3@8fdbdd05e3f91b86e82a705910747870ff7255bf0e9aec7f6c6a50bde714008b",
+        "latest_version": "0.1.3",
+        "name": "pdf_watermark",
+        "org": "fangyong20062006",
+        "plugin_id": "fangyong20062006/pdf_watermark",
+        "plugins": {
+            "agent_strategies": null,
+            "datasources": null,
+            "endpoints": null,
+            "models": null,
+            "tools": [
+                "pdf_watermark.yaml"
+            ],
+            "triggers": null
+        },
+        "privacy_options": "",
+        "privacy_policy": "PRIVACY.md",
+        "repository": "https://github.com/fangyong20062006/dify-plugins",
+        "status": "active",
+        "tags": [
+            {
+                "name": "utilities"
+            },
+            {
+                "name": "productivity"
+            }
+        ],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "community"
+        },
+        "version_updated_at": "2026-08-12T09:29:01Z"
     }
 ]
