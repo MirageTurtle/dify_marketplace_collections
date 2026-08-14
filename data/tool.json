@@ -331,7 +331,7 @@
         "category": "tool",
         "icon": "langgenius/packages/github/_assets/icon.svg",
         "index_id": "langgenius___github",
-        "install_count": 158679,
+        "install_count": 158688,
         "label": {
             "en_US": "GitHub",
             "pt_BR": "GitHub",
@@ -354,7 +354,7 @@
         },
         "privacy_options": "",
         "privacy_policy": "",
-        "repository": "",
+        "repository": null,
         "status": "active",
         "tags": [
             {
@@ -365,7 +365,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-08-10T03:01:01Z"
+        "version_updated_at": "2026-08-13T14:07:02Z"
     },
     {
         "badges": [],
@@ -1265,7 +1265,7 @@
         "category": "tool",
         "icon": "langgenius/packages/comfyui/_assets/icon.png",
         "index_id": "langgenius___comfyui",
-        "install_count": 87015,
+        "install_count": 87024,
         "label": {
             "en_US": "ComfyUI",
             "zh_Hans": "ComfyUI"
@@ -1287,7 +1287,7 @@
         },
         "privacy_options": "",
         "privacy_policy": "",
-        "repository": "",
+        "repository": null,
         "status": "active",
         "tags": [
             {
@@ -1298,7 +1298,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-08-07T05:28:12Z"
+        "version_updated_at": "2026-08-13T14:07:09Z"
     },
     {
         "badges": [],
@@ -1894,7 +1894,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-08-11T05:50:54Z"
+        "version_updated_at": "2026-08-13T14:06:53Z"
     },
     {
         "badges": [],
@@ -2353,7 +2353,7 @@
         "category": "tool",
         "icon": "langgenius/packages/vanna/_assets/icon.png",
         "index_id": "langgenius___vanna",
-        "install_count": 32087,
+        "install_count": 32089,
         "label": {
             "en_US": "Vanna.AI",
             "zh_Hans": "Vanna.AI"
@@ -2375,21 +2375,21 @@
         },
         "privacy_options": "",
         "privacy_policy": "",
-        "repository": "",
+        "repository": null,
         "status": "active",
         "tags": [
             {
-                "name": "productivity"
+                "name": "utilities"
             },
             {
-                "name": "utilities"
+                "name": "productivity"
             }
         ],
         "type": "plugin",
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-08-07T03:11:46Z"
+        "version_updated_at": "2026-08-13T14:07:10Z"
     },
     {
         "badges": [],
@@ -2580,7 +2580,7 @@
         "category": "tool",
         "icon": "langgenius/packages/youtube/_assets/icon.svg",
         "index_id": "langgenius___youtube",
-        "install_count": 26562,
+        "install_count": 26564,
         "label": {
             "en_US": "YouTube",
             "pt_BR": "YouTube",
@@ -2603,7 +2603,7 @@
         },
         "privacy_options": "",
         "privacy_policy": "",
-        "repository": "",
+        "repository": null,
         "status": "active",
         "tags": [
             {
@@ -2614,7 +2614,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-08-07T03:11:47Z"
+        "version_updated_at": "2026-08-13T14:07:10Z"
     },
     {
         "badges": [],
@@ -3174,15 +3174,15 @@
         "category": "tool",
         "icon": "langgenius/packages/notion/_assets/icon.svg",
         "index_id": "langgenius___notion",
-        "install_count": 20029,
+        "install_count": 20030,
         "label": {
             "en_US": "Notion",
             "ja_JP": "Notion",
             "pt_BR": "Notion",
             "zh_Hans": "Notion"
         },
-        "latest_package_identifier": "langgenius/notion:0.0.13@d51da896d7d306810def0389a9c9c4e55a4666e12839685cb316a92bbba3bafb",
-        "latest_version": "0.0.13",
+        "latest_package_identifier": "langgenius/notion:0.0.14@85b7b70c737cb522a8c5ba978f36b084ec259e23b1506ce110e6f8693aad4ac5",
+        "latest_version": "0.0.14",
         "name": "notion",
         "org": "langgenius",
         "plugin_id": "langgenius/notion",
@@ -3198,24 +3198,24 @@
         },
         "privacy_options": "",
         "privacy_policy": "PRIVACY.md",
-        "repository": "",
+        "repository": null,
         "status": "active",
         "tags": [
             {
                 "name": "productivity"
             },
             {
-                "name": "utilities"
+                "name": "business"
             },
             {
-                "name": "business"
+                "name": "utilities"
             }
         ],
         "type": "plugin",
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-07-20T06:42:01Z"
+        "version_updated_at": "2026-08-14T01:56:57Z"
     },
     {
         "badges": [
@@ -3695,21 +3695,21 @@
         },
         "privacy_options": "",
         "privacy_policy": "PRIVACY.md",
-        "repository": "",
+        "repository": null,
         "status": "active",
         "tags": [
             {
-                "name": "productivity"
+                "name": "social"
             },
             {
-                "name": "social"
+                "name": "productivity"
             }
         ],
         "type": "plugin",
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-08-06T08:37:25Z"
+        "version_updated_at": "2026-08-13T14:07:06Z"
     },
     {
         "badges": [],
@@ -3797,7 +3797,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-08-06T08:39:16Z"
+        "version_updated_at": "2026-08-13T14:07:33Z"
     },
     {
         "badges": [
@@ -4251,21 +4251,21 @@
         },
         "privacy_options": "",
         "privacy_policy": "",
-        "repository": "",
+        "repository": null,
         "status": "active",
         "tags": [
             {
-                "name": "productivity"
+                "name": "search"
             },
             {
-                "name": "search"
+                "name": "productivity"
             }
         ],
         "type": "plugin",
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-08-06T02:23:16Z"
+        "version_updated_at": "2026-08-13T14:07:07Z"
     },
     {
         "badges": [],
@@ -4394,21 +4394,21 @@
         },
         "privacy_options": "",
         "privacy_policy": "",
-        "repository": "",
+        "repository": null,
         "status": "active",
         "tags": [
             {
-                "name": "productivity"
+                "name": "social"
             },
             {
-                "name": "social"
+                "name": "productivity"
             }
         ],
         "type": "plugin",
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-08-10T03:28:11Z"
+        "version_updated_at": "2026-08-13T14:07:08Z"
     },
     {
         "badges": [],
@@ -4977,14 +4977,14 @@
         },
         "privacy_options": "",
         "privacy_policy": "PRIVACY.md",
-        "repository": "",
+        "repository": null,
         "status": "active",
         "tags": [],
         "type": "plugin",
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-08-06T02:29:59Z"
+        "version_updated_at": "2026-08-13T14:07:09Z"
     },
     {
         "badges": [],
@@ -6577,7 +6577,7 @@
         "category": "tool",
         "icon": "langgenius/packages/oracle_ai_db/_assets/oracle.svg",
         "index_id": "langgenius___oracle_ai_db",
-        "install_count": 4742,
+        "install_count": 4743,
         "label": {
             "en_US": "Oracle AI Database",
             "zh_Hans": "Oracle AI 数据库"
@@ -6606,7 +6606,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-08-07T03:11:43Z"
+        "version_updated_at": "2026-08-13T14:07:05Z"
     },
     {
         "badges": [
@@ -6643,14 +6643,14 @@
         },
         "privacy_options": "",
         "privacy_policy": "",
-        "repository": "",
+        "repository": null,
         "status": "active",
         "tags": [],
         "type": "plugin",
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-08-10T02:50:01Z"
+        "version_updated_at": "2026-08-13T14:07:12Z"
     },
     {
         "badges": [],
@@ -7501,7 +7501,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-08-10T02:50:02Z"
+        "version_updated_at": "2026-08-13T14:07:10Z"
     },
     {
         "badges": [],
@@ -8015,7 +8015,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-08-10T02:50:00Z"
+        "version_updated_at": "2026-08-13T14:07:53Z"
     },
     {
         "badges": [],
@@ -8272,7 +8272,7 @@
         },
         "privacy_options": "",
         "privacy_policy": "",
-        "repository": "",
+        "repository": null,
         "status": "active",
         "tags": [
             {
@@ -8283,7 +8283,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-08-07T03:11:48Z"
+        "version_updated_at": "2026-08-13T14:07:27Z"
     },
     {
         "badges": [],
@@ -11352,7 +11352,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-08-07T03:11:38Z"
+        "version_updated_at": "2026-08-13T14:06:56Z"
     },
     {
         "badges": [],
@@ -13068,7 +13068,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-08-07T03:11:42Z"
+        "version_updated_at": "2026-08-13T14:07:02Z"
     },
     {
         "badges": [],
@@ -13675,7 +13675,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-08-11T01:39:05Z"
+        "version_updated_at": "2026-08-13T14:06:59Z"
     },
     {
         "badges": [],
@@ -13850,7 +13850,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-08-10T02:49:57Z"
+        "version_updated_at": "2026-08-13T14:07:08Z"
     },
     {
         "badges": [],
@@ -13967,7 +13967,7 @@
         },
         "privacy_options": "",
         "privacy_policy": "",
-        "repository": "",
+        "repository": null,
         "status": "active",
         "tags": [
             {
@@ -13978,7 +13978,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-08-07T03:11:38Z"
+        "version_updated_at": "2026-08-13T14:07:07Z"
     },
     {
         "badges": [],
@@ -17253,7 +17253,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-08-07T03:11:45Z"
+        "version_updated_at": "2026-08-13T14:07:06Z"
     },
     {
         "badges": [],
@@ -19747,7 +19747,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-08-11T05:52:18Z"
+        "version_updated_at": "2026-08-13T14:07:00Z"
     },
     {
         "badges": [],
@@ -20743,8 +20743,8 @@
     {
         "badges": [],
         "brief": {
-            "en_US": "Hailuo AIGC: Supports full pipeline operations for image and video generation, editing, etc., powered by the latest MiniMax models (MiniMax-Hailuo-2.3, MiniMax-Hailuo-2.3-fast, MiniMax-Hailuo-02, T2V-01-Director, and image-01).",
-            "zh_Hans": "海螺AIGC：支持全套图片+视频的生成、编辑等操作，使用最新的MiniMax模型(MiniMax-Hailuo-2.3、MiniMax-Hailuo-2.3-fast以及MiniMax-Hailuo-02、T2V-01-Director 和 image-01)。"
+            "en_US": "Hailuo AIGC: Supports full pipeline operations for image and video generation, editing, etc., powered by the latest MiniMax models (MiniMax-H3, MiniMax-Hailuo-2.3, MiniMax-Hailuo-2.3-fast, MiniMax-Hailuo-02, T2V-01-Director, and image-01).",
+            "zh_Hans": "海螺AIGC：支持全套图片+视频的生成、编辑等操作，使用最新的MiniMax模型(MiniMax-H3、MiniMax-Hailuo-2.3、MiniMax-Hailuo-2.3-fast以及MiniMax-Hailuo-02、T2V-01-Director 和 image-01)。"
         },
         "category": "tool",
         "icon": "sawyer-shi/packages/hailuo_aigc/_assets/icon.svg",
@@ -20754,8 +20754,8 @@
             "en_US": "Hailuo AIGC",
             "zh_Hans": "海螺AIGC"
         },
-        "latest_package_identifier": "sawyer-shi/hailuo_aigc:0.0.1@a48301a3adf35b651a04a78d154635be62b4e4b97d365d8cc9e3ff76c1a305ac",
-        "latest_version": "0.0.1",
+        "latest_package_identifier": "sawyer-shi/hailuo_aigc:0.0.2@f5925df17f4964f09f92c1f5041977c482f3dab1d8f9400e5868b10601498dd9",
+        "latest_version": "0.0.2",
         "name": "hailuo_aigc",
         "org": "sawyer-shi",
         "plugin_id": "sawyer-shi/hailuo_aigc",
@@ -20773,12 +20773,22 @@
         "privacy_policy": "PRIVACY.md",
         "repository": "https://github.com/sawyer-shi/dify-plugins-hailuo_aigc",
         "status": "active",
-        "tags": [],
+        "tags": [
+            {
+                "name": "productivity"
+            },
+            {
+                "name": "image"
+            },
+            {
+                "name": "videos"
+            }
+        ],
         "type": "plugin",
         "verification": {
             "authorized_category": "community"
         },
-        "version_updated_at": "2026-02-24T06:59:15Z"
+        "version_updated_at": "2026-08-14T02:18:40Z"
     },
     {
         "badges": [],
@@ -22751,8 +22761,8 @@
             "pt_BR": "Querit.ai",
             "zh_Hans": "Querit.ai"
         },
-        "latest_package_identifier": "querit-ai/querit:0.0.5@b90f227c861bf1241694222970840af4a035f9510a0b57dbf3275c9eafb893b7",
-        "latest_version": "0.0.5",
+        "latest_package_identifier": "querit-ai/querit:0.0.6@d4cc8b98180e703ec5803b332091eda3e632aaa90cf73be689b00f373d5023ee",
+        "latest_version": "0.0.6",
         "name": "querit",
         "org": "querit-ai",
         "plugin_id": "querit-ai/querit",
@@ -22775,7 +22785,7 @@
         "verification": {
             "authorized_category": "community"
         },
-        "version_updated_at": "2026-08-11T12:40:33Z"
+        "version_updated_at": "2026-08-13T14:02:19Z"
     },
     {
         "badges": [],
@@ -25651,8 +25661,8 @@
             "pt_BR": "holidays",
             "zh_Hans": "节假日判断器"
         },
-        "latest_package_identifier": "xtiqny/holidays:0.0.1@72159a9322a3ea6f10b886310d59441e462925d1fcdcac94e323615fc0fcc1cc",
-        "latest_version": "0.0.1",
+        "latest_package_identifier": "xtiqny/holidays:0.0.2@70cf29fe6e11d8a084b2fadf037ff3a2304dada10092d5a1a32e364a09d9b38b",
+        "latest_version": "0.0.2",
         "name": "holidays",
         "org": "xtiqny",
         "plugin_id": "xtiqny/holidays",
@@ -25668,14 +25678,14 @@
         },
         "privacy_options": "",
         "privacy_policy": "https://raw.githubusercontent.com/xtiqny/document/refs/heads/main/PRIVACY.md",
-        "repository": null,
+        "repository": "https://github.com/xtiqny/plugin/tree/main/holidays",
         "status": "active",
         "tags": [],
         "type": "plugin",
         "verification": {
             "authorized_category": "community"
         },
-        "version_updated_at": "2026-08-04T04:21:51Z"
+        "version_updated_at": "2026-08-14T02:19:30Z"
     },
     {
         "badges": [],

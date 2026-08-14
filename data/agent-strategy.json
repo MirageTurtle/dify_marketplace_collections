@@ -41,7 +41,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-08-11T01:24:35Z"
+        "version_updated_at": "2026-08-13T14:06:56Z"
     },
     {
         "badges": [],
@@ -217,8 +217,8 @@
             "en_US": "Agent Skill Plugin",
             "zh_Hans": "Agent Skill技能插件"
         },
-        "latest_package_identifier": "xun404/agent-skill-plugin:1.0.0@c67f0ef69d008cc0eeff36f4fa507c1e45e432aa79f18c1a965e9b95860be0b0",
-        "latest_version": "1.0.0",
+        "latest_package_identifier": "xun404/agent-skill-plugin:1.0.1@5a8341e0cfd34327f9e4e79d7d646b221362752968483d9aa731907eb4163685",
+        "latest_version": "1.0.1",
         "name": "agent-skill-plugin",
         "org": "xun404",
         "plugin_id": "xun404/agent-skill-plugin",
@@ -233,15 +233,15 @@
             "triggers": null
         },
         "privacy_options": "",
-        "privacy_policy": "",
-        "repository": null,
+        "privacy_policy": "PRIVACY.md",
+        "repository": "https://github.com/xun404/dify-agent-skill-plugin",
         "status": "active",
         "tags": [],
         "type": "plugin",
         "verification": {
             "authorized_category": "community"
         },
-        "version_updated_at": "2026-02-03T06:17:04Z"
+        "version_updated_at": "2026-08-14T02:19:09Z"
     },
     {
         "badges": [],
@@ -413,7 +413,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-08-06T02:29:54Z"
+        "version_updated_at": "2026-08-13T14:07:02Z"
     },
     {
         "badges": [],
