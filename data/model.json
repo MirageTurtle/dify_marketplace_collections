@@ -609,8 +609,8 @@
             "pt_BR": "ZHIPU AI",
             "zh_Hans": "ZHIPU AI"
         },
-        "latest_package_identifier": "langgenius/zhipuai:0.0.32@04ca8314bdb2f07541a710dc55456c216e5aef371d3b78267ede81015a2b9091",
-        "latest_version": "0.0.32",
+        "latest_package_identifier": "langgenius/zhipuai:0.0.33@a90640fd7217e023103e5cebc508a191340f7ad0702bcba5206610f1233b1280",
+        "latest_version": "0.0.33",
         "name": "zhipuai",
         "org": "langgenius",
         "plugin_id": "langgenius/zhipuai",
@@ -633,7 +633,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-08-13T14:07:01Z"
+        "version_updated_at": "2026-08-14T08:42:04Z"
     },
     {
         "badges": [],
@@ -3958,8 +3958,8 @@
             "en_US": "Anspire LLM",
             "zh_Hans": "安思派模型服务"
         },
-        "latest_package_identifier": "anchnet/anspire_llm:0.1.8@18d8c1259786302d3b6ecf1b605e6bdc58c31b736aff315f7885f34caf7287e5",
-        "latest_version": "0.1.8",
+        "latest_package_identifier": "anchnet/anspire_llm:0.1.9@39d8e780911bb362ef209a21eb5509e1370e1860be5143bec112b401004b6ec4",
+        "latest_version": "0.1.9",
         "name": "anspire_llm",
         "org": "anchnet",
         "plugin_id": "anchnet/anspire_llm",
@@ -3975,14 +3975,14 @@
         },
         "privacy_options": "",
         "privacy_policy": "PRIVACY.md",
-        "repository": null,
+        "repository": "https://gitlab.anchnet.com/anchnet_ai/anspire-llm-plugin",
         "status": "active",
         "tags": [],
         "type": "plugin",
         "verification": {
             "authorized_category": "community"
         },
-        "version_updated_at": "2026-08-06T05:21:42Z"
+        "version_updated_at": "2026-08-14T12:39:07Z"
     },
     {
         "badges": [],
@@ -4485,8 +4485,8 @@
             "en_US": "Anspire LLM (global)",
             "zh_Hans": "安思派模型服务（全球）"
         },
-        "latest_package_identifier": "anchnet/anspire_llm_global:0.1.10@bb89d93a3f692b35d95feb704f877bf8dea4c7481bf598b1db7870aff1df4a6a",
-        "latest_version": "0.1.10",
+        "latest_package_identifier": "anchnet/anspire_llm_global:0.1.11@966e7dd2a9a4c16d8f9572df04e9dd8ae7da816736a0ef15552dbe4394fd89a3",
+        "latest_version": "0.1.11",
         "name": "anspire_llm_global",
         "org": "anchnet",
         "plugin_id": "anchnet/anspire_llm_global",
@@ -4502,14 +4502,14 @@
         },
         "privacy_options": "",
         "privacy_policy": "PRIVACY.md",
-        "repository": null,
+        "repository": "https://gitlab.anchnet.com/anchnet_ai/anspire-llm-plugin",
         "status": "active",
         "tags": [],
         "type": "plugin",
         "verification": {
             "authorized_category": "community"
         },
-        "version_updated_at": "2026-08-05T01:28:29Z"
+        "version_updated_at": "2026-08-14T13:30:58Z"
     },
     {
         "badges": [],
