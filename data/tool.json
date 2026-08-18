@@ -3181,7 +3181,7 @@
             "pt_BR": "Notion",
             "zh_Hans": "Notion"
         },
-        "latest_package_identifier": "langgenius/notion:0.0.14@85b7b70c737cb522a8c5ba978f36b084ec259e23b1506ce110e6f8693aad4ac5",
+        "latest_package_identifier": "langgenius/notion:0.0.14@3746502679a21a5c0b1bf47e814ff2dd5e76bbba45f70acd5930000f72c80408",
         "latest_version": "0.0.14",
         "name": "notion",
         "org": "langgenius",
@@ -3215,7 +3215,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-08-14T01:56:57Z"
+        "version_updated_at": "2026-08-17T02:06:02Z"
     },
     {
         "badges": [
@@ -22403,7 +22403,7 @@
     {
         "badges": [],
         "brief": {
-            "en_US": "DeepKeep AI Security with AI Firewall guardrails to secure prompts and responses, create conversations, and call DeepKeep API."
+            "en_US": "DeepKeep AI Firewall guardrails for OpenAI-compatible pre and post moderation, legacy conversation checks, and authorized API calls."
         },
         "category": "tool",
         "icon": "deepkeep/packages/deepkeep/_assets/icon.svg",
@@ -22412,8 +22412,8 @@
         "label": {
             "en_US": "DeepKeep"
         },
-        "latest_package_identifier": "deepkeep/deepkeep:0.1.15@87df6fabc4c23c7faa366db6b1e64ed63aae2b9034dd0b45396f5cd0089d8003",
-        "latest_version": "0.1.15",
+        "latest_package_identifier": "deepkeep/deepkeep:0.1.16@1e29e46c38e8f927adf58bd592350e9485e6bd5185cee7d68c37d04befe31551",
+        "latest_version": "0.1.16",
         "name": "deepkeep",
         "org": "deepkeep",
         "plugin_id": "deepkeep/deepkeep",
@@ -22429,7 +22429,7 @@
         },
         "privacy_options": "",
         "privacy_policy": "PRIVACY.md",
-        "repository": null,
+        "repository": "https://github.com/Deepkeepai/dify-plugins",
         "status": "active",
         "tags": [
             {
@@ -22440,7 +22440,7 @@
         "verification": {
             "authorized_category": "community"
         },
-        "version_updated_at": "2026-04-26T12:12:42Z"
+        "version_updated_at": "2026-08-17T01:58:00Z"
     },
     {
         "badges": [],
@@ -25617,8 +25617,8 @@
             "pt_BR": "LDX hub",
             "zh_Hans": "LDX hub"
         },
-        "latest_package_identifier": "ldxhub-io/ldxhub:0.0.20@286f87f632cb5bdf7bf31a594c5e253010f0d998f845a734b17e39b6daa3fe54",
-        "latest_version": "0.0.20",
+        "latest_package_identifier": "ldxhub-io/ldxhub:0.0.21@dd1a727cf1ef74dcc1e361e7568808546bc4c8495eea62e608b97142d54fc091",
+        "latest_version": "0.0.21",
         "name": "ldxhub",
         "org": "ldxhub-io",
         "plugin_id": "ldxhub-io/ldxhub",
@@ -25634,14 +25634,14 @@
         },
         "privacy_options": "",
         "privacy_policy": "PRIVACY.md",
-        "repository": null,
+        "repository": "https://github.com/ldxhub-io/dify-nodes-ldxhub",
         "status": "active",
         "tags": [],
         "type": "plugin",
         "verification": {
             "authorized_category": "community"
         },
-        "version_updated_at": "2026-07-28T03:07:51Z"
+        "version_updated_at": "2026-08-17T09:45:33Z"
     },
     {
         "badges": [],
@@ -29605,5 +29605,93 @@
             "authorized_category": "community"
         },
         "version_updated_at": "2026-08-12T09:29:01Z"
+    },
+    {
+        "badges": [],
+        "brief": {
+            "en_US": "A skill-driven agent with progressive disclosure, cross-session memory and hot-swappable skill packs. Modernized fork of mini_claw.",
+            "ja_JP": "スキルの段階的開示、セッション横断メモリ、ホットスワップ可能なスキルパックを備えたエージェント。mini_claw の近代化フォーク。",
+            "pt_BR": "Um agente orientado a habilidades com divulgação progressiva, memória entre sessões e pacotes de habilidades substituíveis em tempo real. Fork modernizado do mini_claw.",
+            "zh_Hans": "技能渐进式披露 + 跨会话记忆 + 技能热插拔的智能体。基于 mini_claw 的现代化重构版。"
+        },
+        "category": "tool",
+        "icon": "qiqikuaidianpao/packages/my_claw/_assets/icon.svg",
+        "index_id": "qiqikuaidianpao___my_claw",
+        "install_count": 0,
+        "label": {
+            "en_US": "my_claw",
+            "ja_JP": "my_claw",
+            "pt_BR": "my_claw",
+            "zh_Hans": "my_claw"
+        },
+        "latest_package_identifier": "qiqikuaidianpao/my_claw:0.5.3@9d213089a03b7028e3254ece9609408fc6028b9cad83d4d73cb04e5ac103e75f",
+        "latest_version": "0.5.3",
+        "name": "my_claw",
+        "org": "qiqikuaidianpao",
+        "plugin_id": "qiqikuaidianpao/my_claw",
+        "plugins": {
+            "agent_strategies": null,
+            "datasources": null,
+            "endpoints": null,
+            "models": null,
+            "tools": [
+                "provider/my_claw.yaml"
+            ],
+            "triggers": null
+        },
+        "privacy_options": "",
+        "privacy_policy": "PRIVACY.md",
+        "repository": "https://github.com/qiqikuaidianpao/my_claw",
+        "status": "active",
+        "tags": [],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "community"
+        },
+        "version_updated_at": "2026-08-17T09:45:35Z"
+    },
+    {
+        "badges": [],
+        "brief": {
+            "en_US": "FSRS-5 spaced repetition scheduler for a single flashcard",
+            "ja_JP": "FSRS-5 spaced repetition scheduler for a single flashcard",
+            "pt_BR": "FSRS-5 spaced repetition scheduler for a single flashcard",
+            "zh_Hans": "FSRS-5 spaced repetition scheduler for a single flashcard"
+        },
+        "category": "tool",
+        "icon": "1084669403/packages/fsrs_scheduler/_assets/icon.svg",
+        "index_id": "1084669403___fsrs_scheduler",
+        "install_count": 0,
+        "label": {
+            "en_US": "FSRS Scheduler",
+            "ja_JP": "FSRS Scheduler",
+            "pt_BR": "FSRS Scheduler",
+            "zh_Hans": "FSRS Scheduler"
+        },
+        "latest_package_identifier": "1084669403/fsrs_scheduler:0.1.0@7f0f8c4bb8b2f30b27a0b9d733bc72a0bc09da19677c910de1f4c94b161ee57a",
+        "latest_version": "0.1.0",
+        "name": "fsrs_scheduler",
+        "org": "1084669403",
+        "plugin_id": "1084669403/fsrs_scheduler",
+        "plugins": {
+            "agent_strategies": null,
+            "datasources": null,
+            "endpoints": null,
+            "models": null,
+            "tools": [
+                "provider/fsrs_scheduler.yaml"
+            ],
+            "triggers": null
+        },
+        "privacy_options": "",
+        "privacy_policy": "PRIVACY.md",
+        "repository": "https://github.com/1084669403/dify-plugin-fsrs",
+        "status": "active",
+        "tags": [],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "community"
+        },
+        "version_updated_at": "2026-08-17T09:48:42Z"
     }
 ]

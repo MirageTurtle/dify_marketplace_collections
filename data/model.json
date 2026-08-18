@@ -13,8 +13,8 @@
             "en_US": "Tongyi",
             "zh_Hans": "通义"
         },
-        "latest_package_identifier": "langgenius/tongyi:0.2.12@47e57d26bc68970e08c78da37c93e4b87df45fa623c973ecf6d2cdcec96cc420",
-        "latest_version": "0.2.12",
+        "latest_package_identifier": "langgenius/tongyi:0.2.13@76feba79a09357673e1ebe24f1ec98123062d3f3198abe08551804def1fcd020",
+        "latest_version": "0.2.13",
         "name": "tongyi",
         "org": "langgenius",
         "plugin_id": "langgenius/tongyi",
@@ -37,7 +37,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-08-14T02:18:18Z"
+        "version_updated_at": "2026-08-17T02:05:56Z"
     },
     {
         "badges": [],
@@ -132,8 +132,8 @@
         "label": {
             "en_US": "OpenAI-API-compatible"
         },
-        "latest_package_identifier": "langgenius/openai_api_compatible:0.0.59@fc19490989d886a5f24d21df56be95fd972e474e35a4aac93c29805bfaf089f1",
-        "latest_version": "0.0.59",
+        "latest_package_identifier": "langgenius/openai_api_compatible:0.0.61@8178deea650bcea1d301ec362d78b35141fcfbc57c56e5e6a7629e13a41d7672",
+        "latest_version": "0.0.61",
         "name": "openai_api_compatible",
         "org": "langgenius",
         "plugin_id": "langgenius/openai_api_compatible",
@@ -156,7 +156,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-08-13T14:07:11Z"
+        "version_updated_at": "2026-08-17T02:05:53Z"
     },
     {
         "badges": [],
@@ -732,8 +732,8 @@
             "pt_BR": "Amazon Bedrock",
             "zh_Hans": "Amazon Bedrock"
         },
-        "latest_package_identifier": "langgenius/bedrock:0.0.77@5bb02386077d9e345c9ffa4395652fe46012609ff7ba2efb917b623dcc835675",
-        "latest_version": "0.0.77",
+        "latest_package_identifier": "langgenius/bedrock:0.0.78@ee1c5427be596e8bdd36578e2c29c5e8414f005c99a7818abc7e16c07411c04a",
+        "latest_version": "0.0.78",
         "name": "bedrock",
         "org": "langgenius",
         "plugin_id": "langgenius/bedrock",
@@ -756,7 +756,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-08-13T14:07:08Z"
+        "version_updated_at": "2026-08-17T02:18:46Z"
     },
     {
         "badges": [],
