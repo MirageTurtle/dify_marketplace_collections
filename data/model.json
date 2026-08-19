@@ -490,8 +490,8 @@
         "label": {
             "en_US": "OpenRouter"
         },
-        "latest_package_identifier": "langgenius/openrouter:0.1.5@32d98fb14d59292726dd3bd7e494ab90e5e879aa50922eaa501930e99a838f7b",
-        "latest_version": "0.1.5",
+        "latest_package_identifier": "langgenius/openrouter:0.1.7@b7042a30570e7c308016cdda45a3b1ee2fa91aa42c8d4a4587b304d769415363",
+        "latest_version": "0.1.7",
         "name": "openrouter",
         "org": "langgenius",
         "plugin_id": "langgenius/openrouter",
@@ -514,7 +514,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-08-13T16:24:01Z"
+        "version_updated_at": "2026-08-18T01:55:01Z"
     },
     {
         "badges": [],
@@ -732,8 +732,8 @@
             "pt_BR": "Amazon Bedrock",
             "zh_Hans": "Amazon Bedrock"
         },
-        "latest_package_identifier": "langgenius/bedrock:0.0.78@ee1c5427be596e8bdd36578e2c29c5e8414f005c99a7818abc7e16c07411c04a",
-        "latest_version": "0.0.78",
+        "latest_package_identifier": "langgenius/bedrock:0.0.79@bce46aef52c324523abd113581cf07f6dbf05f041ea9a75114c6fa11ead1b5aa",
+        "latest_version": "0.0.79",
         "name": "bedrock",
         "org": "langgenius",
         "plugin_id": "langgenius/bedrock",
@@ -756,7 +756,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-08-17T02:18:46Z"
+        "version_updated_at": "2026-08-18T01:51:30Z"
     },
     {
         "badges": [],
@@ -2147,8 +2147,8 @@
     {
         "badges": [],
         "brief": {
-            "en_US": "Models provided by LongCat, such as longcat-flash-chat.",
-            "zh_Hans": "LongCat 提供的模型，例如 longcat-flash-chat 。"
+            "en_US": "Models provided by LongCat, such as LongCat-2.0.",
+            "zh_Hans": "LongCat 提供的模型，例如 LongCat-2.0 。"
         },
         "category": "model",
         "icon": "langgenius/packages/longcat/_assets/icon_s_en.svg",
@@ -2158,8 +2158,8 @@
             "en_US": "LongCat",
             "zh_Hans": "LongCat"
         },
-        "latest_package_identifier": "langgenius/longcat:0.0.9@cf7789d0e2b7e0145a142c830b51bf335c485475659b8240d874a098b822f250",
-        "latest_version": "0.0.9",
+        "latest_package_identifier": "langgenius/longcat:1.0.0@e8cb5b2e7741f0b4e480e755124f51befd5c76ee9afee0359a4efd23b992e7f0",
+        "latest_version": "1.0.0",
         "name": "longcat",
         "org": "langgenius",
         "plugin_id": "langgenius/longcat",
@@ -2182,7 +2182,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-08-01T01:27:14Z"
+        "version_updated_at": "2026-08-18T01:53:28Z"
     },
     {
         "badges": [],
@@ -2286,7 +2286,7 @@
             "pt_BR": "Amazon SageMaker",
             "zh_Hans": "Amazon SageMaker"
         },
-        "latest_package_identifier": "langgenius/sagemaker:0.0.18@d01468d5f726756a9f08a666ba01a534af0debd9c6e6d23983b408980d4fbcb7",
+        "latest_package_identifier": "langgenius/sagemaker:0.0.18@c172a57fd7f218ce412c3e047ef6c2ea9ccbe37e96ac38afc9d7ca18704bf2cb",
         "latest_version": "0.0.18",
         "name": "sagemaker",
         "org": "langgenius",
@@ -2310,7 +2310,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-08-13T14:07:10Z"
+        "version_updated_at": "2026-08-18T01:46:52Z"
     },
     {
         "badges": [],
