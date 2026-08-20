@@ -1866,7 +1866,7 @@
         "label": {
             "en_US": "SiliconFlow"
         },
-        "latest_package_identifier": "langgenius/siliconflow_tool:0.0.13@c9c580914f795f6d8da6cbb98a999a3368ca4411525e18aeb877e1ecb13c0f7f",
+        "latest_package_identifier": "langgenius/siliconflow_tool:0.0.13@59a8f99324720795525c8d979ceb8a78032057c6509fe0a47aa00ffb27d92110",
         "latest_version": "0.0.13",
         "name": "siliconflow_tool",
         "org": "langgenius",
@@ -1894,7 +1894,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-08-13T14:06:53Z"
+        "version_updated_at": "2026-08-19T06:15:42Z"
     },
     {
         "badges": [],
@@ -29735,5 +29735,49 @@
             "authorized_category": "community"
         },
         "version_updated_at": "2026-08-18T01:55:19Z"
+    },
+    {
+        "badges": [],
+        "brief": {
+            "en_US": "Render prompt templates with workflow variables — just like the LLM node prompt editor, but outputs a string.",
+            "zh_Hans": "用工作流变量渲染提示词模板，就像大模型节点的 prompt 编辑器一样，但输出字符串。"
+        },
+        "category": "tool",
+        "icon": "tanzhangjia/packages/prompt-template/_assets/icon.svg",
+        "index_id": "tanzhangjia___prompt-template",
+        "install_count": 0,
+        "label": {
+            "en_US": "Prompt Template",
+            "zh_Hans": "提示词模板"
+        },
+        "latest_package_identifier": "tanzhangjia/prompt-template:0.1.0@28827306a8aa3dbc922e6484e629fae5010247f16611dae1c99dbc070d029362",
+        "latest_version": "0.1.0",
+        "name": "prompt-template",
+        "org": "tanzhangjia",
+        "plugin_id": "tanzhangjia/prompt-template",
+        "plugins": {
+            "agent_strategies": null,
+            "datasources": null,
+            "endpoints": null,
+            "models": null,
+            "tools": [
+                "provider/prompt-template.yaml"
+            ],
+            "triggers": null
+        },
+        "privacy_options": "",
+        "privacy_policy": "PRIVACY.md",
+        "repository": "https://github.com/tanzhangjia/prompt-template",
+        "status": "active",
+        "tags": [
+            {
+                "name": "utilities"
+            }
+        ],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "community"
+        },
+        "version_updated_at": "2026-08-19T10:53:42Z"
     }
 ]

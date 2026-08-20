@@ -405,12 +405,12 @@
         "category": "model",
         "icon": "langgenius/packages/anthropic/_assets/icon_s_en.svg",
         "index_id": "langgenius___anthropic",
-        "install_count": 231873,
+        "install_count": 231879,
         "label": {
             "en_US": "Anthropic"
         },
-        "latest_package_identifier": "langgenius/anthropic:0.3.26@e4580f78789aec59eabdafcd85ca75358ae4895134de28dbae5e38e9b307eb70",
-        "latest_version": "0.3.26",
+        "latest_package_identifier": "langgenius/anthropic:0.3.27@e632fe7f799a28e408dc69f2239d79fc509c45f37e1cc7da82490d43bf5aadac",
+        "latest_version": "0.3.27",
         "name": "anthropic",
         "org": "langgenius",
         "plugin_id": "langgenius/anthropic",
@@ -426,14 +426,14 @@
         },
         "privacy_options": "",
         "privacy_policy": "",
-        "repository": "",
+        "repository": null,
         "status": "active",
         "tags": [],
         "type": "plugin",
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-07-31T09:40:58Z"
+        "version_updated_at": "2026-08-19T03:21:52Z"
     },
     {
         "badges": [],
@@ -447,8 +447,8 @@
         "label": {
             "en_US": "Azure OpenAI"
         },
-        "latest_package_identifier": "langgenius/azure_openai:0.0.65@c89cd3e62130cfcc1cd37c8655461e38d262ac8ff206f211abdf5c83e82b429a",
-        "latest_version": "0.0.65",
+        "latest_package_identifier": "langgenius/azure_openai:0.0.66@c75e530e6fa471583cf396af8beecf7031d27a39c9be87f4f9f55ad380c88075",
+        "latest_version": "0.0.66",
         "name": "azure_openai",
         "org": "langgenius",
         "plugin_id": "langgenius/azure_openai",
@@ -471,7 +471,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-08-14T02:18:20Z"
+        "version_updated_at": "2026-08-19T08:19:46Z"
     },
     {
         "badges": [
@@ -1126,8 +1126,8 @@
             "en_US": "Volcengine",
             "zh_Hans": "火山方舟"
         },
-        "latest_package_identifier": "langgenius/volcengine:0.0.14@a340bd9aa332be5e9dedad3eb761a2a3bfbae071e3719c7a617aa97c630436ec",
-        "latest_version": "0.0.14",
+        "latest_package_identifier": "langgenius/volcengine:0.0.15@863004c38a49f4c62bf9d97b45ece07ecd58ee8d35c64bde6d360653d375d1ce",
+        "latest_version": "0.0.15",
         "name": "volcengine",
         "org": "langgenius",
         "plugin_id": "langgenius/volcengine",
@@ -1150,7 +1150,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-08-13T14:07:14Z"
+        "version_updated_at": "2026-08-19T03:18:14Z"
     },
     {
         "badges": [],
@@ -1885,7 +1885,7 @@
             "en_US": "Stepfun",
             "zh_Hans": "阶跃星辰"
         },
-        "latest_package_identifier": "langgenius/stepfun:0.1.0@9f079727cdad7c290c50fe70626823f922e293a26755de89f80ebff1ebd65d1f",
+        "latest_package_identifier": "langgenius/stepfun:0.1.0@bf7db164d0121d6455d2f7508fbdc2edbd38f24c1be8c5d99defe95e8aaeb1bd",
         "latest_version": "0.1.0",
         "name": "stepfun",
         "org": "langgenius",
@@ -1902,14 +1902,14 @@
         },
         "privacy_options": "",
         "privacy_policy": "",
-        "repository": "",
+        "repository": null,
         "status": "active",
         "tags": [],
         "type": "plugin",
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-07-21T01:52:51Z"
+        "version_updated_at": "2026-08-19T06:19:20Z"
     },
     {
         "badges": [],
