@@ -37,7 +37,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-08-17T02:05:56Z"
+        "version_updated_at": "2026-08-20T10:14:05Z"
     },
     {
         "badges": [],
@@ -77,7 +77,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-08-13T19:15:30Z"
+        "version_updated_at": "2026-08-20T10:14:04Z"
     },
     {
         "badges": [],
@@ -117,7 +117,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-08-13T14:07:06Z"
+        "version_updated_at": "2026-08-20T10:14:04Z"
     },
     {
         "badges": [],
@@ -132,8 +132,8 @@
         "label": {
             "en_US": "OpenAI-API-compatible"
         },
-        "latest_package_identifier": "langgenius/openai_api_compatible:0.0.61@8178deea650bcea1d301ec362d78b35141fcfbc57c56e5e6a7629e13a41d7672",
-        "latest_version": "0.0.61",
+        "latest_package_identifier": "langgenius/openai_api_compatible:0.0.62@e21334ac4ee5771c3026d031f73f972a34ad77b0943c2f25e376a253179600e5",
+        "latest_version": "0.0.62",
         "name": "openai_api_compatible",
         "org": "langgenius",
         "plugin_id": "langgenius/openai_api_compatible",
@@ -156,7 +156,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-08-17T02:05:53Z"
+        "version_updated_at": "2026-08-20T10:14:04Z"
     },
     {
         "badges": [],
@@ -207,12 +207,12 @@
         "category": "model",
         "icon": "langgenius/packages/openai/_assets/icon_s_en.svg",
         "index_id": "langgenius___openai",
-        "install_count": 810421,
+        "install_count": 810427,
         "label": {
             "en_US": "OpenAI"
         },
-        "latest_package_identifier": "langgenius/openai:1.0.3@cc37544750d72ca3782bdaa81ab0e2facbf5bb74105a169a7ff974a27c6a5f29",
-        "latest_version": "1.0.3",
+        "latest_package_identifier": "langgenius/openai:1.0.4@3b49ff900a77c9b2cfba21e3cd1180fbfd7edf5ec008bc20564541c7a3914295",
+        "latest_version": "1.0.4",
         "name": "openai",
         "org": "langgenius",
         "plugin_id": "langgenius/openai",
@@ -228,14 +228,14 @@
         },
         "privacy_options": "",
         "privacy_policy": "",
-        "repository": "",
+        "repository": null,
         "status": "active",
         "tags": [],
         "type": "plugin",
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-08-04T03:04:09Z"
+        "version_updated_at": "2026-08-20T10:14:05Z"
     },
     {
         "badges": [
@@ -356,7 +356,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-08-13T19:47:15Z"
+        "version_updated_at": "2026-08-20T10:14:04Z"
     },
     {
         "badges": [],
@@ -394,7 +394,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-08-13T14:06:56Z"
+        "version_updated_at": "2026-08-20T10:14:02Z"
     },
     {
         "badges": [],
@@ -433,7 +433,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-08-19T03:21:52Z"
+        "version_updated_at": "2026-08-20T10:14:04Z"
     },
     {
         "badges": [],
@@ -447,8 +447,8 @@
         "label": {
             "en_US": "Azure OpenAI"
         },
-        "latest_package_identifier": "langgenius/azure_openai:0.0.66@c75e530e6fa471583cf396af8beecf7031d27a39c9be87f4f9f55ad380c88075",
-        "latest_version": "0.0.66",
+        "latest_package_identifier": "langgenius/azure_openai:0.0.67@357b2ffcf2ff9cffad569b1b976e5700a2a3ceb442f51495beedb6d381a925d6",
+        "latest_version": "0.0.67",
         "name": "azure_openai",
         "org": "langgenius",
         "plugin_id": "langgenius/azure_openai",
@@ -471,7 +471,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-08-19T08:19:46Z"
+        "version_updated_at": "2026-08-20T10:14:03Z"
     },
     {
         "badges": [
@@ -514,7 +514,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-08-18T01:55:01Z"
+        "version_updated_at": "2026-08-20T10:14:05Z"
     },
     {
         "badges": [],
@@ -553,7 +553,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-08-13T14:07:10Z"
+        "version_updated_at": "2026-08-20T10:14:06Z"
     },
     {
         "badges": [],
@@ -633,7 +633,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-08-14T08:42:04Z"
+        "version_updated_at": "2026-08-20T10:14:04Z"
     },
     {
         "badges": [],
@@ -732,8 +732,8 @@
             "pt_BR": "Amazon Bedrock",
             "zh_Hans": "Amazon Bedrock"
         },
-        "latest_package_identifier": "langgenius/bedrock:0.0.79@bce46aef52c324523abd113581cf07f6dbf05f041ea9a75114c6fa11ead1b5aa",
-        "latest_version": "0.0.79",
+        "latest_package_identifier": "langgenius/bedrock:0.0.80@a3905acc0274f668a6fddfb8efb50819f3e2e57bedb904c33b951d11bb804091",
+        "latest_version": "0.0.80",
         "name": "bedrock",
         "org": "langgenius",
         "plugin_id": "langgenius/bedrock",
@@ -756,7 +756,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-08-18T01:51:30Z"
+        "version_updated_at": "2026-08-20T10:14:05Z"
     },
     {
         "badges": [],
@@ -854,8 +854,8 @@
         "label": {
             "en_US": "Vertex AI | Google Cloud Platform"
         },
-        "latest_package_identifier": "langgenius/vertex_ai:0.0.61@0bd39041ef2e86b8e1e9f394b00736145813806b4f529b1d30f73bfcdc24b458",
-        "latest_version": "0.0.61",
+        "latest_package_identifier": "langgenius/vertex_ai:0.0.62@0ee4e071bc87d9a8aa0c41dab6a8de0443ee2641201599ccab3bff0993c61f7b",
+        "latest_version": "0.0.62",
         "name": "vertex_ai",
         "org": "langgenius",
         "plugin_id": "langgenius/vertex_ai",
@@ -878,7 +878,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-08-13T14:06:58Z"
+        "version_updated_at": "2026-08-20T10:14:09Z"
     },
     {
         "badges": [],
@@ -995,7 +995,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-08-13T16:24:01Z"
+        "version_updated_at": "2026-08-20T10:14:03Z"
     },
     {
         "badges": [],
@@ -1034,7 +1034,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-08-14T02:18:15Z"
+        "version_updated_at": "2026-08-20T10:14:05Z"
     },
     {
         "badges": [],
@@ -1110,7 +1110,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-08-13T14:06:59Z"
+        "version_updated_at": "2026-08-20T10:14:03Z"
     },
     {
         "badges": [],
@@ -1150,7 +1150,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-08-19T03:18:14Z"
+        "version_updated_at": "2026-08-20T10:14:02Z"
     },
     {
         "badges": [],
@@ -1311,7 +1311,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-08-13T16:24:00Z"
+        "version_updated_at": "2026-08-20T10:14:09Z"
     },
     {
         "badges": [],
@@ -1349,7 +1349,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-08-13T14:06:58Z"
+        "version_updated_at": "2026-08-20T10:14:04Z"
     },
     {
         "badges": [],
@@ -1365,8 +1365,8 @@
             "en_US": "Huawei Cloud MaaS",
             "zh_Hans": "华为云MaaS平台"
         },
-        "latest_package_identifier": "langgenius/maas:0.0.24@727f9a2de91de051435c49a367665351c3ec5f6e82aefffd0295ef2b552505a6",
-        "latest_version": "0.0.24",
+        "latest_package_identifier": "langgenius/maas:0.0.25@849b942942653e471c8f8e89b82e3ec1310be2c6d604ce860bcb2e6f256aac2e",
+        "latest_version": "0.0.25",
         "name": "maas",
         "org": "langgenius",
         "plugin_id": "langgenius/maas",
@@ -1389,7 +1389,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-08-01T01:27:17Z"
+        "version_updated_at": "2026-08-20T10:14:05Z"
     },
     {
         "badges": [],
@@ -1662,7 +1662,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-08-13T14:07:03Z"
+        "version_updated_at": "2026-08-20T10:14:03Z"
     },
     {
         "badges": [],
@@ -1885,8 +1885,8 @@
             "en_US": "Stepfun",
             "zh_Hans": "阶跃星辰"
         },
-        "latest_package_identifier": "langgenius/stepfun:0.1.0@bf7db164d0121d6455d2f7508fbdc2edbd38f24c1be8c5d99defe95e8aaeb1bd",
-        "latest_version": "0.1.0",
+        "latest_package_identifier": "langgenius/stepfun:0.1.1@1a1c6cb4400bf87d440af4835ed11b8a3bada37bafa97d200d2eccb261324e59",
+        "latest_version": "0.1.1",
         "name": "stepfun",
         "org": "langgenius",
         "plugin_id": "langgenius/stepfun",
@@ -1909,7 +1909,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-08-19T06:19:20Z"
+        "version_updated_at": "2026-08-20T10:14:02Z"
     },
     {
         "badges": [],
@@ -1948,7 +1948,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-08-13T14:07:53Z"
+        "version_updated_at": "2026-08-20T10:14:07Z"
     },
     {
         "badges": [],
@@ -2182,7 +2182,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-08-18T01:53:28Z"
+        "version_updated_at": "2026-08-20T10:14:05Z"
     },
     {
         "badges": [],
@@ -2310,7 +2310,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-08-18T01:46:52Z"
+        "version_updated_at": "2026-08-20T10:14:19Z"
     },
     {
         "badges": [],
@@ -2470,7 +2470,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-08-13T16:23:58Z"
+        "version_updated_at": "2026-08-20T10:14:05Z"
     },
     {
         "badges": [],
@@ -2514,7 +2514,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-08-13T16:24:13Z"
+        "version_updated_at": "2026-08-20T10:14:01Z"
     },
     {
         "badges": [],
@@ -2918,7 +2918,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-08-13T16:24:02Z"
+        "version_updated_at": "2026-08-20T10:14:01Z"
     },
     {
         "badges": [],
@@ -4962,7 +4962,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-08-13T14:06:56Z"
+        "version_updated_at": "2026-08-20T10:14:04Z"
     },
     {
         "badges": [],
