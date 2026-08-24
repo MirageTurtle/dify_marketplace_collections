@@ -132,8 +132,8 @@
         "label": {
             "en_US": "OpenAI-API-compatible"
         },
-        "latest_package_identifier": "langgenius/openai_api_compatible:0.0.63@b39c569f256d7334417170b3b6e4015c205ef5fd7469989dd0b56dee4096cf85",
-        "latest_version": "0.0.63",
+        "latest_package_identifier": "langgenius/openai_api_compatible:0.0.64@e5a30fbe1e81f6ba97c27a77102f797a14953f50fddffecd09af11c9eda1ae7e",
+        "latest_version": "0.0.64",
         "name": "openai_api_compatible",
         "org": "langgenius",
         "plugin_id": "langgenius/openai_api_compatible",
@@ -156,7 +156,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-08-21T07:57:02Z"
+        "version_updated_at": "2026-08-23T11:11:18Z"
     },
     {
         "badges": [],
@@ -332,8 +332,8 @@
         "label": {
             "en_US": "Gemini"
         },
-        "latest_package_identifier": "langgenius/gemini:0.9.5@fc6c7d17b0852db57e2958a4051b9c5c517ba7934c43df8536c43b9ecbded514",
-        "latest_version": "0.9.5",
+        "latest_package_identifier": "langgenius/gemini:0.9.6@ed6d0d7f2ee789701aa483a32fd5b9fe091300a508ea8905560d7eba9645cb8a",
+        "latest_version": "0.9.6",
         "name": "gemini",
         "org": "langgenius",
         "plugin_id": "langgenius/gemini",
@@ -356,7 +356,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-08-20T10:14:04Z"
+        "version_updated_at": "2026-08-23T11:07:04Z"
     },
     {
         "badges": [],
@@ -5767,5 +5767,45 @@
             "authorized_category": "community"
         },
         "version_updated_at": "2026-06-29T02:37:03Z"
+    },
+    {
+        "badges": [],
+        "brief": {
+            "en_US": "Shisa AI models for Japanese and English LLM, speech recognition, and speech synthesis.",
+            "ja_JP": "日本語・英語向けのLLM、音声認識、音声合成を提供するShisa AIモデルプロバイダーです。"
+        },
+        "category": "model",
+        "icon": "shisa-ai/packages/shisa_ai/_assets/shisa-icon.png",
+        "index_id": "shisa-ai___shisa_ai",
+        "install_count": 0,
+        "label": {
+            "en_US": "Shisa AI",
+            "ja_JP": "Shisa AI"
+        },
+        "latest_package_identifier": "shisa-ai/shisa_ai:1.0.3@b91658de2f2a6e41c29b952c53bf014a3c509f8514509bdfb1d5cec2032f61de",
+        "latest_version": "1.0.3",
+        "name": "shisa_ai",
+        "org": "shisa-ai",
+        "plugin_id": "shisa-ai/shisa_ai",
+        "plugins": {
+            "agent_strategies": null,
+            "datasources": null,
+            "endpoints": null,
+            "models": [
+                "provider/shisa_ai.yaml"
+            ],
+            "tools": null,
+            "triggers": null
+        },
+        "privacy_options": "",
+        "privacy_policy": "PRIVACY.md",
+        "repository": "https://github.com/shisa-ai/dify-plugin-shisa-ai",
+        "status": "active",
+        "tags": [],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "community"
+        },
+        "version_updated_at": "2026-08-24T01:35:59Z"
     }
 ]

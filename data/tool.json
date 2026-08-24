@@ -14281,10 +14281,10 @@
     {
         "badges": [],
         "brief": {
-            "en_US": "Connect to HubSpot CRM to manage contacts, companies, deals, tickets, and more",
-            "ja_JP": "HubSpot CRM に接続して、連絡先、企業、取引、チケットなどを管理する",
-            "pt_BR": "Conecte-se ao HubSpot CRM para gerenciar contatos, empresas, negócios, tickets e mais",
-            "zh_Hans": "连接 HubSpot CRM 以管理联系人、公司、交易、工单等"
+            "en_US": "Connect to HubSpot CRM to manage contacts, companies, deals, tickets, engagements, lists and forms - with filter and sort on searches",
+            "ja_JP": "HubSpot CRM に接続して、連絡先・企業・取引・チケット・エンゲージメント・リスト・フォームを管理（検索はフィルターと並び替えに対応）",
+            "pt_BR": "Conecte-se ao HubSpot CRM para gerenciar contatos, empresas, negócios, tickets, engajamentos, listas e formulários (com filtro e ordenação nas buscas)",
+            "zh_Hans": "连接 HubSpot CRM 以管理联系人、公司、交易、工单、互动记录、列表和表单（搜索支持过滤与排序）"
         },
         "category": "tool",
         "icon": "langgenius/packages/hubspot/_assets/icon.svg",
@@ -14296,8 +14296,8 @@
             "pt_BR": "HubSpot",
             "zh_Hans": "HubSpot"
         },
-        "latest_package_identifier": "langgenius/hubspot:0.0.8@e0e9c5093a84ba408638591ea661f4cf3287aa0fd4467ef5bb07f5c1c3e8eaad",
-        "latest_version": "0.0.8",
+        "latest_package_identifier": "langgenius/hubspot:0.2.0@4ef3b6bfe21037be7c14ffc96237caca14eaf6b3cbeaf7222c865a50fa552a21",
+        "latest_version": "0.2.0",
         "name": "hubspot",
         "org": "langgenius",
         "plugin_id": "langgenius/hubspot",
@@ -14324,7 +14324,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-07-21T01:52:48Z"
+        "version_updated_at": "2026-08-24T01:38:08Z"
     },
     {
         "badges": [],
@@ -25059,8 +25059,8 @@
             "en_US": "Keenable",
             "zh_Hans": "Keenable"
         },
-        "latest_package_identifier": "keenable/keenable:0.1.2@1521b96b06b3f22745e74015d3e73882e6277bf977e92c883a3be4279c7f26db",
-        "latest_version": "0.1.2",
+        "latest_package_identifier": "keenable/keenable:0.1.3@e9ebeb5870962ac739c45ff402e5882bba9cbd67c6c63ffa3f8d027f7b541324",
+        "latest_version": "0.1.3",
         "name": "keenable",
         "org": "keenable",
         "plugin_id": "keenable/keenable",
@@ -25090,7 +25090,7 @@
         "verification": {
             "authorized_category": "community"
         },
-        "version_updated_at": "2026-08-18T01:54:18Z"
+        "version_updated_at": "2026-08-23T11:01:22Z"
     },
     {
         "badges": [],
@@ -29872,5 +29872,49 @@
             "authorized_category": "community"
         },
         "version_updated_at": "2026-08-20T06:49:07Z"
+    },
+    {
+        "badges": [],
+        "brief": {
+            "en_US": "Advanced Shisa AI transcription, speech, and translation tools with per-node ASR controls, dynamic voices, and native audio formats.",
+            "ja_JP": "ノード単位ASR設定、動的な音声一覧、ネイティブ音声形式、日英翻訳に対応したShisa AIツール。"
+        },
+        "category": "tool",
+        "icon": "shisa-ai/packages/shisa_ai_tools/_assets/shisa-icon.png",
+        "index_id": "shisa-ai___shisa_ai_tools",
+        "install_count": 0,
+        "label": {
+            "en_US": "Shisa AI Tools",
+            "ja_JP": "Shisa AI ツール"
+        },
+        "latest_package_identifier": "shisa-ai/shisa_ai_tools:1.0.3@5a647dc40e191696642828e327a517c7ab3712ab6484e5cb051285427e888e97",
+        "latest_version": "1.0.3",
+        "name": "shisa_ai_tools",
+        "org": "shisa-ai",
+        "plugin_id": "shisa-ai/shisa_ai_tools",
+        "plugins": {
+            "agent_strategies": null,
+            "datasources": null,
+            "endpoints": null,
+            "models": null,
+            "tools": [
+                "provider/shisa_ai_tools.yaml"
+            ],
+            "triggers": null
+        },
+        "privacy_options": "",
+        "privacy_policy": "PRIVACY.md",
+        "repository": "https://github.com/shisa-ai/dify-plugin-shisa-ai-tools",
+        "status": "active",
+        "tags": [
+            {
+                "name": "utilities"
+            }
+        ],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "community"
+        },
+        "version_updated_at": "2026-08-24T01:36:53Z"
     }
 ]
