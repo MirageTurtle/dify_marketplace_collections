@@ -13,8 +13,8 @@
             "en_US": "Mind Map Generator · Dark Aurora / GIF / WebP / PNG",
             "zh_Hans": "思维导图生成器（深色极光 / GIF / WebP / PNG）"
         },
-        "latest_package_identifier": "zhangyu/si_wei_dao_tu_sheng_cheng_qi:0.0.20@1aa13fab265234f3110e6db3960f3bfc57085ccff465b1da64d59d01ff8311ee",
-        "latest_version": "0.0.20",
+        "latest_package_identifier": "zhangyu/si_wei_dao_tu_sheng_cheng_qi:0.0.21@fd8171f3e3fc4b0e52a49f6ed0691d140aa218b8c27cf5e6ded0eb303351d478",
+        "latest_version": "0.0.21",
         "name": "si_wei_dao_tu_sheng_cheng_qi",
         "org": "zhangyu",
         "plugin_id": "zhangyu/si_wei_dao_tu_sheng_cheng_qi",
@@ -44,7 +44,7 @@
         "verification": {
             "authorized_category": "community"
         },
-        "version_updated_at": "2026-08-12T02:02:02Z"
+        "version_updated_at": "2026-08-25T01:34:52Z"
     },
     {
         "badges": [
@@ -29916,5 +29916,43 @@
             "authorized_category": "community"
         },
         "version_updated_at": "2026-08-24T01:36:53Z"
+    },
+    {
+        "badges": [],
+        "brief": {
+            "en_US": "Shared memory for AI agents. One address per fact, one signature you check. No key to read."
+        },
+        "category": "tool",
+        "icon": "vortx-ai/packages/emem/_assets/icon.png",
+        "index_id": "vortx-ai___emem",
+        "install_count": 0,
+        "label": {
+            "en_US": "emem"
+        },
+        "latest_package_identifier": "vortx-ai/emem:2.2.0@6ae022bbfe5158a58380ade14c4e4137c0253b3327522bd215faf1749ff97043",
+        "latest_version": "2.2.0",
+        "name": "emem",
+        "org": "vortx-ai",
+        "plugin_id": "vortx-ai/emem",
+        "plugins": {
+            "agent_strategies": null,
+            "datasources": null,
+            "endpoints": null,
+            "models": null,
+            "tools": [
+                "provider/emem.yaml"
+            ],
+            "triggers": null
+        },
+        "privacy_options": "",
+        "privacy_policy": "PRIVACY.md",
+        "repository": "https://github.com/Vortx-AI/emem",
+        "status": "active",
+        "tags": [],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "community"
+        },
+        "version_updated_at": "2026-08-24T08:52:43Z"
     }
 ]

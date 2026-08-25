@@ -13,8 +13,8 @@
             "en_US": "Tongyi",
             "zh_Hans": "通义"
         },
-        "latest_package_identifier": "langgenius/tongyi:0.2.14@da713345c5587cecafa266cc98db84b9194c30b3c98070c2dbfaae8a8ed92e76",
-        "latest_version": "0.2.14",
+        "latest_package_identifier": "langgenius/tongyi:0.2.15@1df8bd27d67c149e6db3c210830ef6e3857c5a9df5e8edbe9e785b995f337ef5",
+        "latest_version": "0.2.15",
         "name": "tongyi",
         "org": "langgenius",
         "plugin_id": "langgenius/tongyi",
@@ -37,7 +37,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-08-22T22:34:55Z"
+        "version_updated_at": "2026-08-24T13:08:37Z"
     },
     {
         "badges": [],
@@ -332,8 +332,8 @@
         "label": {
             "en_US": "Gemini"
         },
-        "latest_package_identifier": "langgenius/gemini:0.9.6@ed6d0d7f2ee789701aa483a32fd5b9fe091300a508ea8905560d7eba9645cb8a",
-        "latest_version": "0.9.6",
+        "latest_package_identifier": "langgenius/gemini:0.9.7@1daea7e55d1ec2bdca80046091e4249cbe23f11949f72c03f4b261c316555a05",
+        "latest_version": "0.9.7",
         "name": "gemini",
         "org": "langgenius",
         "plugin_id": "langgenius/gemini",
@@ -356,7 +356,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-08-23T11:07:04Z"
+        "version_updated_at": "2026-08-25T01:40:16Z"
     },
     {
         "badges": [],
@@ -409,8 +409,8 @@
         "label": {
             "en_US": "Anthropic"
         },
-        "latest_package_identifier": "langgenius/anthropic:0.3.27@e632fe7f799a28e408dc69f2239d79fc509c45f37e1cc7da82490d43bf5aadac",
-        "latest_version": "0.3.27",
+        "latest_package_identifier": "langgenius/anthropic:0.3.28@a8e7d21f6e7ddd1311d1fb657269ab2b802029a4ee123d2dc8f0e5041d9cd445",
+        "latest_version": "0.3.28",
         "name": "anthropic",
         "org": "langgenius",
         "plugin_id": "langgenius/anthropic",
@@ -433,7 +433,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-08-20T10:14:04Z"
+        "version_updated_at": "2026-08-25T01:37:17Z"
     },
     {
         "badges": [],
@@ -732,8 +732,8 @@
             "pt_BR": "Amazon Bedrock",
             "zh_Hans": "Amazon Bedrock"
         },
-        "latest_package_identifier": "langgenius/bedrock:0.0.80@a3905acc0274f668a6fddfb8efb50819f3e2e57bedb904c33b951d11bb804091",
-        "latest_version": "0.0.80",
+        "latest_package_identifier": "langgenius/bedrock:0.0.81@1d3c526793c899324134af9cfb5f8400c0f497e0d97e4f89cbb44e0f806b53cd",
+        "latest_version": "0.0.81",
         "name": "bedrock",
         "org": "langgenius",
         "plugin_id": "langgenius/bedrock",
@@ -756,7 +756,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-08-20T10:14:05Z"
+        "version_updated_at": "2026-08-24T01:59:04Z"
     },
     {
         "badges": [],
@@ -1126,8 +1126,8 @@
             "en_US": "Volcengine",
             "zh_Hans": "火山方舟"
         },
-        "latest_package_identifier": "langgenius/volcengine:0.0.15@863004c38a49f4c62bf9d97b45ece07ecd58ee8d35c64bde6d360653d375d1ce",
-        "latest_version": "0.0.15",
+        "latest_package_identifier": "langgenius/volcengine:0.0.16@6babb8e460861e7a245ed8d83b870543ae2ddd6d64f4dd77bc9ca6502a7aae17",
+        "latest_version": "0.0.16",
         "name": "volcengine",
         "org": "langgenius",
         "plugin_id": "langgenius/volcengine",
@@ -1150,7 +1150,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-08-20T10:14:02Z"
+        "version_updated_at": "2026-08-24T13:06:51Z"
     },
     {
         "badges": [],
@@ -1885,8 +1885,8 @@
             "en_US": "Stepfun",
             "zh_Hans": "阶跃星辰"
         },
-        "latest_package_identifier": "langgenius/stepfun:0.1.1@1a1c6cb4400bf87d440af4835ed11b8a3bada37bafa97d200d2eccb261324e59",
-        "latest_version": "0.1.1",
+        "latest_package_identifier": "langgenius/stepfun:0.1.2@50500c3c9e0aabbb4706f83030972e62165a9ea33f56d2bd9e45db0e05e9e09f",
+        "latest_version": "0.1.2",
         "name": "stepfun",
         "org": "langgenius",
         "plugin_id": "langgenius/stepfun",
@@ -1909,7 +1909,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-08-20T10:14:02Z"
+        "version_updated_at": "2026-08-24T13:08:26Z"
     },
     {
         "badges": [],
@@ -3371,13 +3371,13 @@
         "category": "model",
         "icon": "lws123321/packages/tencent-tokenhub/_assets/icon_s_en.svg",
         "index_id": "lws123321___tencent-tokenhub",
-        "install_count": 1024,
+        "install_count": 1025,
         "label": {
             "en_US": "Tencent TokenHub",
             "zh_Hans": "腾讯TokenHub"
         },
-        "latest_package_identifier": "lws123321/tencent-tokenhub:0.0.5@438cbc531df1bc0be68233474557d1d1cf1ce4e42621199ead01154fb28d797c",
-        "latest_version": "0.0.5",
+        "latest_package_identifier": "lws123321/tencent-tokenhub:0.0.6@930898b9c08a0650626e21fa690eb8d60df638cfc0036f0af0f2726f7d883cf1",
+        "latest_version": "0.0.6",
         "name": "tencent-tokenhub",
         "org": "lws123321",
         "plugin_id": "lws123321/tencent-tokenhub",
@@ -3393,14 +3393,14 @@
         },
         "privacy_options": "",
         "privacy_policy": "PRIVACY.md",
-        "repository": null,
+        "repository": "https://github.com/lws123321/tencent-tokenhub",
         "status": "active",
         "tags": [],
         "type": "plugin",
         "verification": {
             "authorized_category": "community"
         },
-        "version_updated_at": "2026-08-10T03:07:28Z"
+        "version_updated_at": "2026-08-24T08:51:15Z"
     },
     {
         "badges": [],
@@ -3958,8 +3958,8 @@
             "en_US": "Anspire LLM",
             "zh_Hans": "安思派模型服务"
         },
-        "latest_package_identifier": "anchnet/anspire_llm:0.1.9@39d8e780911bb362ef209a21eb5509e1370e1860be5143bec112b401004b6ec4",
-        "latest_version": "0.1.9",
+        "latest_package_identifier": "anchnet/anspire_llm:0.1.10@166a82348044d2c365c05c5befb1bd060623e4cd82d458c1e568b81076060a76",
+        "latest_version": "0.1.10",
         "name": "anspire_llm",
         "org": "anchnet",
         "plugin_id": "anchnet/anspire_llm",
@@ -3982,7 +3982,7 @@
         "verification": {
             "authorized_category": "community"
         },
-        "version_updated_at": "2026-08-14T12:39:07Z"
+        "version_updated_at": "2026-08-24T02:05:50Z"
     },
     {
         "badges": [],
@@ -5217,17 +5217,17 @@
     {
         "badges": [],
         "brief": {
-            "en_US": "Access OpenAI-compatible chat models from multiple providers through AI/ML API."
+            "en_US": "Access 1,000+ AI models: text, image, video, audio and embeddings - through a single API key. One-click setup"
         },
         "category": "model",
         "icon": "aimlapi/packages/aimlapi/_assets/icon.svg",
         "index_id": "aimlapi___aimlapi",
         "install_count": 65,
         "label": {
-            "en_US": "AI/ML API"
+            "en_US": "aimlapi.com"
         },
-        "latest_package_identifier": "aimlapi/aimlapi:0.0.1@20952a515ea547be42c484e2aaf843adf212f94954913df94e02bd6443e4dcf6",
-        "latest_version": "0.0.1",
+        "latest_package_identifier": "aimlapi/aimlapi:0.0.9@95f2bdb5f24c1e6f6b50c1a6e71845e22be31d9f9aadfc68cabbc72ce893390c",
+        "latest_version": "0.0.9",
         "name": "aimlapi",
         "org": "aimlapi",
         "plugin_id": "aimlapi/aimlapi",
@@ -5243,14 +5243,14 @@
         },
         "privacy_options": "",
         "privacy_policy": "PRIVACY.md",
-        "repository": null,
+        "repository": "https://github.com/aimlapi/dify-aimlapi-plugin",
         "status": "active",
         "tags": [],
         "type": "plugin",
         "verification": {
             "authorized_category": "community"
         },
-        "version_updated_at": "2026-06-26T02:03:46Z"
+        "version_updated_at": "2026-08-25T01:39:50Z"
     },
     {
         "badges": [],
@@ -5807,5 +5807,45 @@
             "authorized_category": "community"
         },
         "version_updated_at": "2026-08-24T01:35:59Z"
+    },
+    {
+        "badges": [],
+        "brief": {
+            "en_US": "Cloudflare Workers AI — serverless inference across open models (Llama 3.3 70B, Llama 4 Scout, Qwen 2.5 Coder, DeepSeek R1) with a generous free tier.",
+            "zh_Hans": "Cloudflare Workers AI — 通过开放的模型（Llama 3.3 70B、Llama 4 Scout、Qwen 2.5 Coder、DeepSeek R1）提供无服务器推理，并带有慷慨的免费额度。"
+        },
+        "category": "model",
+        "icon": "puspoaditya/packages/cloudflare_workers_ai/_assets/icon_s_en.svg",
+        "index_id": "puspoaditya___cloudflare_workers_ai",
+        "install_count": 0,
+        "label": {
+            "en_US": "Cloudflare Workers AI",
+            "zh_Hans": "Cloudflare Workers AI"
+        },
+        "latest_package_identifier": "puspoaditya/cloudflare_workers_ai:0.0.2@e6b7b469ea09c673cc272ac876f0f434eb2b34040fc7c9035ae0b8d055c4a511",
+        "latest_version": "0.0.2",
+        "name": "cloudflare_workers_ai",
+        "org": "puspoaditya",
+        "plugin_id": "puspoaditya/cloudflare_workers_ai",
+        "plugins": {
+            "agent_strategies": null,
+            "datasources": null,
+            "endpoints": null,
+            "models": [
+                "provider/cloudflare.yaml"
+            ],
+            "tools": null,
+            "triggers": null
+        },
+        "privacy_options": "",
+        "privacy_policy": "PRIVACY.md",
+        "repository": "https://github.com/puspoaditya/dify-plugin-cloudflare-workers-ai",
+        "status": "active",
+        "tags": [],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "community"
+        },
+        "version_updated_at": "2026-08-24T08:50:40Z"
     }
 ]
