@@ -332,7 +332,7 @@
         "label": {
             "en_US": "Gemini"
         },
-        "latest_package_identifier": "langgenius/gemini:0.9.7@1daea7e55d1ec2bdca80046091e4249cbe23f11949f72c03f4b261c316555a05",
+        "latest_package_identifier": "langgenius/gemini:0.9.7@c6aacc0e8fe8a9e2b3622c094370c16c2bb2e5bb53b287f532644a4f27af862f",
         "latest_version": "0.9.7",
         "name": "gemini",
         "org": "langgenius",
@@ -356,7 +356,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-08-25T01:40:16Z"
+        "version_updated_at": "2026-08-25T02:18:10Z"
     },
     {
         "badges": [],
@@ -447,8 +447,8 @@
         "label": {
             "en_US": "Azure OpenAI"
         },
-        "latest_package_identifier": "langgenius/azure_openai:0.0.67@357b2ffcf2ff9cffad569b1b976e5700a2a3ceb442f51495beedb6d381a925d6",
-        "latest_version": "0.0.67",
+        "latest_package_identifier": "langgenius/azure_openai:0.0.68@c28016cb11db2ff022d394be4a2e6fe40dee6e49467a5d59246474a80175d660",
+        "latest_version": "0.0.68",
         "name": "azure_openai",
         "org": "langgenius",
         "plugin_id": "langgenius/azure_openai",
@@ -471,7 +471,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-08-20T10:14:03Z"
+        "version_updated_at": "2026-08-25T02:19:53Z"
     },
     {
         "badges": [
@@ -529,8 +529,8 @@
         "label": {
             "en_US": "Minimax"
         },
-        "latest_package_identifier": "langgenius/minimax:0.0.25@880c4f602e0a679b6fc538addbad81982f7f5b797e8cb1268319276e58d4e16e",
-        "latest_version": "0.0.25",
+        "latest_package_identifier": "langgenius/minimax:0.0.26@8c64366adf7a8c42bcac8c1a4925b2a6fd8162657678fbc2f6f7645f0d8709c4",
+        "latest_version": "0.0.26",
         "name": "minimax",
         "org": "langgenius",
         "plugin_id": "langgenius/minimax",
@@ -553,7 +553,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-08-20T10:14:06Z"
+        "version_updated_at": "2026-08-26T01:38:56Z"
     },
     {
         "badges": [],
@@ -5769,7 +5769,9 @@
         "version_updated_at": "2026-06-29T02:37:03Z"
     },
     {
-        "badges": [],
+        "badges": [
+            "partner"
+        ],
         "brief": {
             "en_US": "Shisa AI models for Japanese and English LLM, speech recognition, and speech synthesis.",
             "ja_JP": "日本語・英語向けのLLM、音声認識、音声合成を提供するShisa AIモデルプロバイダーです。"

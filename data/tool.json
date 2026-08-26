@@ -19639,7 +19639,7 @@
             "pt_BR": "Leitor DICOM",
             "zh_Hans": "DICOM 读取器"
         },
-        "latest_package_identifier": "langgenius/dicom_reader:0.0.7@e6f0f29b6b6db64b8cd8f1ef15256a277c1e565ded1f85f0e45a29ea3dfebfc3",
+        "latest_package_identifier": "langgenius/dicom_reader:0.0.7@9fe263f779047552222d3fe0039fbaaa6b47a23fb0349626789a5fe8bbfdba7d",
         "latest_version": "0.0.7",
         "name": "dicom_reader",
         "org": "langgenius",
@@ -19663,7 +19663,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-07-21T01:52:50Z"
+        "version_updated_at": "2026-08-25T02:16:34Z"
     },
     {
         "badges": [],
@@ -26058,8 +26058,8 @@
             "en_US": "Talordata SERP",
             "zh_Hans": "Talordata SERP"
         },
-        "latest_package_identifier": "talordata/talordata_serp:0.1.12@c618b70b4cb18acceff17181a5eac0fd7b4a4a674eb7d3267c788e5b21cf2ac0",
-        "latest_version": "0.1.12",
+        "latest_package_identifier": "talordata/talordata_serp:0.1.13@ccf554e7d384b715029dab2c3bc99d32421e7a076b8befd26ebc22f92ce91060",
+        "latest_version": "0.1.13",
         "name": "talordata_serp",
         "org": "talordata",
         "plugin_id": "talordata/talordata_serp",
@@ -26075,14 +26075,14 @@
         },
         "privacy_options": "",
         "privacy_policy": "PRIVACY.md",
-        "repository": null,
+        "repository": "https://github.com/Talordata/talordata-serp",
         "status": "active",
         "tags": [],
         "type": "plugin",
         "verification": {
             "authorized_category": "community"
         },
-        "version_updated_at": "2026-07-07T02:05:06Z"
+        "version_updated_at": "2026-08-25T05:08:45Z"
     },
     {
         "badges": [],
@@ -29624,8 +29624,8 @@
             "pt_BR": "my_claw",
             "zh_Hans": "my_claw"
         },
-        "latest_package_identifier": "qiqikuaidianpao/my_claw:0.5.5@52cb09d8f26606bc6582a068780c7e7212c8a9ac95ab345a4aa84a0449e1f3ef",
-        "latest_version": "0.5.5",
+        "latest_package_identifier": "qiqikuaidianpao/my_claw:0.6.1@b93e3a3afd2d17984724bdfe5921eace4abf9ff72d224408418e3a76c9b48480",
+        "latest_version": "0.6.1",
         "name": "my_claw",
         "org": "qiqikuaidianpao",
         "plugin_id": "qiqikuaidianpao/my_claw",
@@ -29648,7 +29648,7 @@
         "verification": {
             "authorized_category": "community"
         },
-        "version_updated_at": "2026-08-21T01:35:10Z"
+        "version_updated_at": "2026-08-25T08:04:55Z"
     },
     {
         "badges": [],
@@ -29954,5 +29954,85 @@
             "authorized_category": "community"
         },
         "version_updated_at": "2026-08-24T08:52:43Z"
+    },
+    {
+        "badges": [],
+        "brief": {
+            "en_US": "Search and store persistent agent memory through EverOS Cloud.",
+            "zh_Hans": "通过 EverOS 云端服务搜索和存储持久化 Agent 记忆。"
+        },
+        "category": "tool",
+        "icon": "evermind-ai/packages/everos_cloud/_assets/icon.svg",
+        "index_id": "evermind-ai___everos_cloud",
+        "install_count": 0,
+        "label": {
+            "en_US": "EverOS Cloud",
+            "zh_Hans": "EverOS 云端版"
+        },
+        "latest_package_identifier": "evermind-ai/everos_cloud:0.0.1@c68fe0810fd8648497c978db33c35bdaf601cd3505e200c44cdec202a36c6577",
+        "latest_version": "0.0.1",
+        "name": "everos_cloud",
+        "org": "evermind-ai",
+        "plugin_id": "evermind-ai/everos_cloud",
+        "plugins": {
+            "agent_strategies": null,
+            "datasources": null,
+            "endpoints": null,
+            "models": null,
+            "tools": [
+                "provider/everos_cloud.yaml"
+            ],
+            "triggers": null
+        },
+        "privacy_options": "",
+        "privacy_policy": "PRIVACY.md",
+        "repository": "https://github.com/EverMind-AI/plugins",
+        "status": "active",
+        "tags": [],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "community"
+        },
+        "version_updated_at": "2026-08-26T01:38:05Z"
+    },
+    {
+        "badges": [],
+        "brief": {
+            "en_US": "Search and store persistent agent memory with your self-hosted EverOS deployment.",
+            "zh_Hans": "使用你本地部署的 EverOS 搜索和存储持久化 Agent 记忆。"
+        },
+        "category": "tool",
+        "icon": "evermind-ai/packages/everos/_assets/icon.svg",
+        "index_id": "evermind-ai___everos",
+        "install_count": 0,
+        "label": {
+            "en_US": "EverOS Self-Hosted",
+            "zh_Hans": "EverOS 本地版"
+        },
+        "latest_package_identifier": "evermind-ai/everos:0.0.1@c20ecb44db03b3e1f6274464e996e80b7aec8dd5c05f4af7a8220d01c2684f07",
+        "latest_version": "0.0.1",
+        "name": "everos",
+        "org": "evermind-ai",
+        "plugin_id": "evermind-ai/everos",
+        "plugins": {
+            "agent_strategies": null,
+            "datasources": null,
+            "endpoints": null,
+            "models": null,
+            "tools": [
+                "provider/everos.yaml"
+            ],
+            "triggers": null
+        },
+        "privacy_options": "",
+        "privacy_policy": "PRIVACY.md",
+        "repository": "https://github.com/EverMind-AI/plugins",
+        "status": "active",
+        "tags": [],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "community"
+        },
+        "version_updated_at": "2026-08-26T01:38:21Z"
     }
 ]
