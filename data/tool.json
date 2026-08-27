@@ -2046,13 +2046,13 @@
         "category": "tool",
         "icon": "langgenius/packages/paddleocr/_assets/icon.png",
         "index_id": "langgenius___paddleocr",
-        "install_count": 37641,
+        "install_count": 37644,
         "label": {
             "en_US": "PaddleOCR",
             "zh_Hans": "PaddleOCR"
         },
-        "latest_package_identifier": "langgenius/paddleocr:0.2.10@a337fd5edcf456b84f7196cd345704eba47c40f96a0b45c44d3b567c9a4e8223",
-        "latest_version": "0.2.10",
+        "latest_package_identifier": "langgenius/paddleocr:0.3.0@e1a02733054080f43f9c9d6f0c5bbb548d8f35964eb87adc1ae122dfebcf77e2",
+        "latest_version": "0.3.0",
         "name": "paddleocr",
         "org": "langgenius",
         "plugin_id": "langgenius/paddleocr",
@@ -2075,7 +2075,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-07-22T12:21:33Z"
+        "version_updated_at": "2026-08-26T07:49:47Z"
     },
     {
         "badges": [],
@@ -3181,8 +3181,8 @@
             "pt_BR": "Notion",
             "zh_Hans": "Notion"
         },
-        "latest_package_identifier": "langgenius/notion:0.0.14@3746502679a21a5c0b1bf47e814ff2dd5e76bbba45f70acd5930000f72c80408",
-        "latest_version": "0.0.14",
+        "latest_package_identifier": "langgenius/notion:0.1.0@155602e36b36c17526005e6c7171e5e0228e55c37850afde43149eaf72fe5adf",
+        "latest_version": "0.1.0",
         "name": "notion",
         "org": "langgenius",
         "plugin_id": "langgenius/notion",
@@ -3215,7 +3215,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-08-20T10:14:08Z"
+        "version_updated_at": "2026-08-27T03:50:49Z"
     },
     {
         "badges": [
@@ -8255,8 +8255,8 @@
             "en_US": "Llama Parse",
             "zh_Hans": "Llama Parse"
         },
-        "latest_package_identifier": "langgenius/llama_parse:0.0.8@8f8f2cc8e3ce2943e15a8a1a885d077485739f4d4f98dbc7dad0d9d0eec522c7",
-        "latest_version": "0.0.8",
+        "latest_package_identifier": "langgenius/llama_parse:0.0.9@f27311ff013361b33f9db22b9c9dc7c17b1c7cc44f39f288a370de70d98993f3",
+        "latest_version": "0.0.9",
         "name": "llama_parse",
         "org": "langgenius",
         "plugin_id": "langgenius/llama_parse",
@@ -8283,7 +8283,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-08-20T10:14:09Z"
+        "version_updated_at": "2026-08-27T03:50:48Z"
     },
     {
         "badges": [],
@@ -10590,7 +10590,7 @@
     {
         "badges": [],
         "brief": {
-            "en_US": "Introducing the Dify plugin version of Browser Use - a powerful tool that enables AI agents to control and interact with web browsers, providing seamless automation for web-based tasks.",
+            "en_US": "Run and manage Browser Use Cloud browser tasks from Dify.",
             "ja_JP": "Introducing the Dify plugin version of Browser Use - a powerful tool that enables AI agents to control and interact with web browsers, providing seamless automation for web-based tasks.",
             "pt_BR": "Introducing the Dify plugin version of Browser Use - a powerful tool that enables AI agents to control and interact with web browsers, providing seamless automation for web-based tasks.",
             "zh_Hans": "Introducing the Dify plugin version of Browser Use - a powerful tool that enables AI agents to control and interact with web browsers, providing seamless automation for web-based tasks."
@@ -10605,29 +10605,31 @@
             "pt_BR": "browser-use-cloud",
             "zh_Hans": "browser-use-cloud"
         },
-        "latest_package_identifier": "lysonober/browser-use-cloud:0.0.1@38442bdedb0e6b5ec11d50e77f924ee1e2c454a97017c5551948b8124a1ba298",
-        "latest_version": "0.0.1",
+        "latest_package_identifier": "lysonober/browser-use-cloud:0.0.2@7eb9df8b778acad5c22f7e7cc2d2ecbf6a70a1bf9989c9060d22912ae21cd218",
+        "latest_version": "0.0.2",
         "name": "browser-use-cloud",
         "org": "lysonober",
         "plugin_id": "lysonober/browser-use-cloud",
         "plugins": {
             "agent_strategies": null,
+            "datasources": null,
             "endpoints": null,
             "models": null,
             "tools": [
                 "provider/browser-use.yaml"
-            ]
+            ],
+            "triggers": null
         },
         "privacy_options": "",
         "privacy_policy": "PRIVACY.md",
-        "repository": "",
+        "repository": "https://github.com/langgenius/dify-plugins/tree/main/logicober/browser-use-cloud",
         "status": "active",
         "tags": [],
         "type": "plugin",
         "verification": {
             "authorized_category": "community"
         },
-        "version_updated_at": "2025-04-14T03:16:35Z"
+        "version_updated_at": "2026-08-26T06:14:25Z"
     },
     {
         "badges": [],
@@ -23102,8 +23104,8 @@
             "ja_JP": "ERNIE Image",
             "zh_Hans": "ERNIE Image"
         },
-        "latest_package_identifier": "langgenius/ernie_image:0.0.3@da736ac6aa7545a0997a5691f4ebde8729f25661c2e25a5e8bd33e581f8bbc51",
-        "latest_version": "0.0.3",
+        "latest_package_identifier": "langgenius/ernie_image:0.0.4@b6a63294d1b2c4861b9c0df01422d03271fb693921714b958b25b4f619bc0224",
+        "latest_version": "0.0.4",
         "name": "ernie_image",
         "org": "langgenius",
         "plugin_id": "langgenius/ernie_image",
@@ -23133,7 +23135,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-07-21T01:52:52Z"
+        "version_updated_at": "2026-08-26T08:04:48Z"
     },
     {
         "badges": [],
@@ -29840,8 +29842,8 @@
             "pt_BR": "WaveSpeed",
             "zh_Hans": "WaveSpeed"
         },
-        "latest_package_identifier": "wavespeedai/wavespeed:0.0.2@845db7052014e429be435eb94acfc6e479df5d1350ff0713d80267d705cc4a8a",
-        "latest_version": "0.0.2",
+        "latest_package_identifier": "wavespeedai/wavespeed:0.0.3@259efbc47ab43d468f40d42073624e09ae8f97c5661a6ee9e43e07971f7086f9",
+        "latest_version": "0.0.3",
         "name": "wavespeed",
         "org": "wavespeedai",
         "plugin_id": "wavespeedai/wavespeed",
@@ -29871,7 +29873,7 @@
         "verification": {
             "authorized_category": "community"
         },
-        "version_updated_at": "2026-08-20T06:49:07Z"
+        "version_updated_at": "2026-08-26T07:04:27Z"
     },
     {
         "badges": [],
@@ -30034,5 +30036,87 @@
             "authorized_category": "community"
         },
         "version_updated_at": "2026-08-26T01:38:21Z"
+    },
+    {
+        "badges": [],
+        "brief": {
+            "en_US": "An intelligent Excel data analysis plugin that automatically parses spreadsheet data and generates statistical insights and visual reports.",
+            "ja_JP": "Excel や CSV ファイルを解析し、シート構造、列情報、統計結果を取得できるデータ分析プラグインです。",
+            "pt_BR": "Um plugin inteligente de análise de dados para arquivos Excel e CSV, capaz de obter a estrutura das planilhas, informações das colunas e resultados estatísticos.",
+            "zh_Hans": "用于分析 Excel 和 CSV 文件的智能数据分析插件，可获取工作表结构、列信息及统计查询结果。"
+        },
+        "category": "tool",
+        "icon": "modsdom/packages/excel_analysis/_assets/icon.svg",
+        "index_id": "modsdom___excel_analysis",
+        "install_count": 0,
+        "label": {
+            "en_US": "Excel Analysis",
+            "ja_JP": "Excel 分析",
+            "pt_BR": "Análise de Excel",
+            "zh_Hans": "Excel 分析"
+        },
+        "latest_package_identifier": "modsdom/excel_analysis:0.1.0@6697f631e18732c7dc1cd92569ca684308589322c4ee82d689e0073e2e3ba490",
+        "latest_version": "0.1.0",
+        "name": "excel_analysis",
+        "org": "modsdom",
+        "plugin_id": "modsdom/excel_analysis",
+        "plugins": {
+            "agent_strategies": null,
+            "datasources": null,
+            "endpoints": null,
+            "models": null,
+            "tools": [
+                "provider/excel_analysis.yaml"
+            ],
+            "triggers": null
+        },
+        "privacy_options": "",
+        "privacy_policy": "PRIVACY.md",
+        "repository": "https://github.com/Logan19940824/excel-analysis-dify-plugin",
+        "status": "active",
+        "tags": [],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "community"
+        },
+        "version_updated_at": "2026-08-26T13:12:13Z"
+    },
+    {
+        "badges": [],
+        "brief": {
+            "en_US": "Side-effect-free command risk inspection using HOL Guard's built-in command safety extensions. Classifies command text without executing it or persisting Guard state."
+        },
+        "category": "tool",
+        "icon": "hashgraph-online/packages/hol-guard/_assets/icon.svg",
+        "index_id": "hashgraph-online___hol-guard",
+        "install_count": 0,
+        "label": {
+            "en_US": "HOL Guard"
+        },
+        "latest_package_identifier": "hashgraph-online/hol-guard:0.1.0@b659419653085152760d41eea4ed12a0201d9b07f8a69f2dc98c61e731cc8662",
+        "latest_version": "0.1.0",
+        "name": "hol-guard",
+        "org": "hashgraph-online",
+        "plugin_id": "hashgraph-online/hol-guard",
+        "plugins": {
+            "agent_strategies": null,
+            "datasources": null,
+            "endpoints": null,
+            "models": null,
+            "tools": [
+                "provider/hol_guard.yaml"
+            ],
+            "triggers": null
+        },
+        "privacy_options": "",
+        "privacy_policy": "PRIVACY.md",
+        "repository": "https://github.com/hashgraph-online/hol-guard",
+        "status": "active",
+        "tags": [],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "community"
+        },
+        "version_updated_at": "2026-08-26T13:33:26Z"
     }
 ]

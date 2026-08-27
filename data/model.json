@@ -132,7 +132,7 @@
         "label": {
             "en_US": "OpenAI-API-compatible"
         },
-        "latest_package_identifier": "langgenius/openai_api_compatible:0.0.64@e5a30fbe1e81f6ba97c27a77102f797a14953f50fddffecd09af11c9eda1ae7e",
+        "latest_package_identifier": "langgenius/openai_api_compatible:0.0.64@ed082da9060cdaf69127de0f39e7ba5d255d74276feed9c88b2ba5226515728c",
         "latest_version": "0.0.64",
         "name": "openai_api_compatible",
         "org": "langgenius",
@@ -156,7 +156,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-08-23T11:11:18Z"
+        "version_updated_at": "2026-08-27T01:58:43Z"
     },
     {
         "badges": [],
@@ -447,8 +447,8 @@
         "label": {
             "en_US": "Azure OpenAI"
         },
-        "latest_package_identifier": "langgenius/azure_openai:0.0.68@c28016cb11db2ff022d394be4a2e6fe40dee6e49467a5d59246474a80175d660",
-        "latest_version": "0.0.68",
+        "latest_package_identifier": "langgenius/azure_openai:0.0.69@c744f6bf60699c296307a4420094a7f88b4f6e7fdf353b67b2b88ddb455074b2",
+        "latest_version": "0.0.69",
         "name": "azure_openai",
         "org": "langgenius",
         "plugin_id": "langgenius/azure_openai",
@@ -471,7 +471,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-08-25T02:19:53Z"
+        "version_updated_at": "2026-08-26T08:06:22Z"
     },
     {
         "badges": [
@@ -732,8 +732,8 @@
             "pt_BR": "Amazon Bedrock",
             "zh_Hans": "Amazon Bedrock"
         },
-        "latest_package_identifier": "langgenius/bedrock:0.0.81@1d3c526793c899324134af9cfb5f8400c0f497e0d97e4f89cbb44e0f806b53cd",
-        "latest_version": "0.0.81",
+        "latest_package_identifier": "langgenius/bedrock:0.0.82@d7db2db4491ae72c16774bb55779a98da7fe9519d694da820a80713fed51ed40",
+        "latest_version": "0.0.82",
         "name": "bedrock",
         "org": "langgenius",
         "plugin_id": "langgenius/bedrock",
@@ -756,7 +756,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-08-24T01:59:04Z"
+        "version_updated_at": "2026-08-27T03:49:03Z"
     },
     {
         "badges": [],
@@ -1481,8 +1481,8 @@
         "label": {
             "en_US": "MistralAI"
         },
-        "latest_package_identifier": "langgenius/mistralai:0.0.12@f0871c00fb82fed3ea6d55b5754eb19ac472b608efa0077b24a9a440e93158bc",
-        "latest_version": "0.0.12",
+        "latest_package_identifier": "langgenius/mistralai:0.0.13@1993678cdc2721fe55c297a31926db4699a26a34340ba23f0e30e478970750d4",
+        "latest_version": "0.0.13",
         "name": "mistralai",
         "org": "langgenius",
         "plugin_id": "langgenius/mistralai",
@@ -1498,14 +1498,14 @@
         },
         "privacy_options": "",
         "privacy_policy": "",
-        "repository": "",
+        "repository": null,
         "status": "active",
         "tags": [],
         "type": "plugin",
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-08-01T01:27:14Z"
+        "version_updated_at": "2026-08-27T01:55:39Z"
     },
     {
         "badges": [],
