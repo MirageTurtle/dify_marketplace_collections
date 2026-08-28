@@ -8,7 +8,7 @@
         "category": "extension",
         "icon": "hjlarry/packages/mcp-server/_assets/icon.svg",
         "index_id": "hjlarry___mcp-server",
-        "install_count": 49430,
+        "install_count": 50008,
         "label": {
             "en_US": "MCP server"
         },
@@ -47,7 +47,7 @@
         "category": "extension",
         "icon": "langgenius/packages/oaicompat_dify_app/_assets/icon.svg",
         "index_id": "langgenius___oaicompat_dify_app",
-        "install_count": 38880,
+        "install_count": 39798,
         "label": {
             "en_US": "OpenAI Compatible Dify App",
             "ja_JP": "OpenAI Compatible Dify App",
@@ -71,7 +71,7 @@
         },
         "privacy_options": "",
         "privacy_policy": "",
-        "repository": null,
+        "repository": "",
         "status": "active",
         "tags": [],
         "type": "plugin",
@@ -89,7 +89,7 @@
         "category": "extension",
         "icon": "junjiem/packages/mcp_compat_dify_tools/_assets/icon.svg",
         "index_id": "junjiem___mcp_compat_dify_tools",
-        "install_count": 17842,
+        "install_count": 18018,
         "label": {
             "en_US": "MCP Compatible Dify Tools",
             "zh_Hans": "MCP Compatible Dify Tools"
@@ -129,7 +129,7 @@
         "category": "extension",
         "icon": "langgenius/packages/oaicompat_dify_model/_assets/icon.svg",
         "index_id": "langgenius___oaicompat_dify_model",
-        "install_count": 15197,
+        "install_count": 15650,
         "label": {
             "en_US": "OpenAI Compatible Dify Models",
             "ja_JP": "OpenAI Compatible Dify Models",
@@ -153,7 +153,7 @@
         },
         "privacy_options": "",
         "privacy_policy": "PRIVACY.md",
-        "repository": null,
+        "repository": "",
         "status": "active",
         "tags": [],
         "type": "plugin",
@@ -171,7 +171,7 @@
         "category": "extension",
         "icon": "svcvit/packages/artifacts/_assets/icon.svg",
         "index_id": "svcvit___artifacts",
-        "install_count": 14248,
+        "install_count": 14504,
         "label": {
             "en_US": "Artifacts"
         },
@@ -210,7 +210,7 @@
         "category": "extension",
         "icon": "bikeread/packages/dify_wechat_plugin/_assets/icon.svg",
         "index_id": "bikeread___dify_wechat_plugin",
-        "install_count": 14030,
+        "install_count": 14193,
         "label": {
             "en_US": "Wechat Subscription Account",
             "ja_JP": "ウェチャットサブスクリプションアカウント",
@@ -251,7 +251,7 @@
         "category": "extension",
         "icon": "perzeuss/packages/webhook/_assets/icon.svg",
         "index_id": "perzeuss___webhook",
-        "install_count": 12008,
+        "install_count": 12158,
         "label": {
             "en_US": "Webhook",
             "pt_BR": "Webhook",
@@ -282,94 +282,6 @@
         "version_updated_at": "2025-03-28T07:01:27Z"
     },
     {
-        "badges": [
-            "partner"
-        ],
-        "brief": {
-            "en_US": "The Agora Conversational AI extension enables developers to build voice assistants powered by Dify Agent.",
-            "ja_JP": "Agora会話型AI拡張機能は、開発者がDify Agentを活用して高機能な音声アシスタントを構築できるようにします。",
-            "pt_BR": "A extensão de IA Conversacional da Agora permite que desenvolvedores criem assistentes de voz poderosos com o suporte do Dify Agent.",
-            "zh_Hans": "Agora 会话式 AI 插件让开发者能够借助 Dify Agent 构建功能强大的语音助手。"
-        },
-        "category": "extension",
-        "icon": "plutoless/packages/convoai/_assets/icon.svg",
-        "index_id": "plutoless___convoai",
-        "install_count": 8675,
-        "label": {
-            "en_US": "Agora Conversational AI",
-            "ja_JP": "Agora Conversational AI",
-            "pt_BR": "Agora Conversational AI",
-            "zh_Hans": "Agora Conversational AI"
-        },
-        "latest_package_identifier": "plutoless/convoai:0.0.11@1b9d226641235a81af7b523210362e0d405fb3f65e9b0c205a2887946868f934",
-        "latest_version": "0.0.11",
-        "name": "convoai",
-        "org": "plutoless",
-        "plugin_id": "plutoless/convoai",
-        "plugins": {
-            "agent_strategies": null,
-            "endpoints": [
-                "group/convoai.yaml"
-            ],
-            "models": null,
-            "tools": null
-        },
-        "privacy_options": "",
-        "privacy_policy": "PRIVACY.md",
-        "repository": "",
-        "status": "active",
-        "tags": [],
-        "type": "plugin",
-        "verification": {
-            "authorized_category": "partner"
-        },
-        "version_updated_at": "2025-08-27T14:00:42Z"
-    },
-    {
-        "badges": [],
-        "brief": {
-            "en_US": "This Slack Bot supports receiving messages from Slack as input to Chatflow/Chatbot/Agent in Dify, and sending messages back to Slack.",
-            "ja_JP": "この Slack Bot は、Slack からのメッセージを Dify の Chatflow/Chatbot/Agent への入力として受け取り、Slack にメッセージを送信することをサポートします。",
-            "pt_BR": "Este Slack Bot suporta receber mensagens do Slack como entrada para Chatflow/Chatbot/Agent no Dify e enviar mensagens de volta para o Slack.",
-            "zh_Hans": "这个 Slack Bot 支持接收来自 Slack 的消息作为 Dify 中 Chatflow/Chatbot/Agent 的输入，并将消息发送回 Slack。"
-        },
-        "category": "extension",
-        "icon": "langgenius/packages/slack-bot/_assets/icon.svg",
-        "index_id": "langgenius___slack-bot",
-        "install_count": 8579,
-        "label": {
-            "en_US": "Slack Bot",
-            "ja_JP": "Slack Bot",
-            "pt_BR": "Slack Bot",
-            "zh_Hans": "Slack Bot"
-        },
-        "latest_package_identifier": "langgenius/slack-bot:0.0.11@1aac36c41c61bcb4f8b972ded769530a9f31423a3d9dd582969d8ec130807934",
-        "latest_version": "0.0.11",
-        "name": "slack-bot",
-        "org": "langgenius",
-        "plugin_id": "langgenius/slack-bot",
-        "plugins": {
-            "agent_strategies": null,
-            "datasources": null,
-            "endpoints": [
-                "group/slack.yaml"
-            ],
-            "models": null,
-            "tools": null,
-            "triggers": null
-        },
-        "privacy_options": "",
-        "privacy_policy": "",
-        "repository": null,
-        "status": "active",
-        "tags": [],
-        "type": "plugin",
-        "verification": {
-            "authorized_category": "langgenius"
-        },
-        "version_updated_at": "2026-08-20T10:14:14Z"
-    },
-    {
         "badges": [],
         "brief": {
             "en_US": "Receive Enterprise WeChat callbacks as an endpoint and reply through Dify apps, similar to Slack Bot.",
@@ -379,7 +291,7 @@
         "category": "extension",
         "icon": "langgenius/packages/wecom-bot/_assets/icon.png",
         "index_id": "langgenius___wecom-bot",
-        "install_count": 8575,
+        "install_count": 9245,
         "label": {
             "en_US": "WeCom Bot",
             "ja_JP": "WeCom Bot",
@@ -414,12 +326,100 @@
     {
         "badges": [],
         "brief": {
+            "en_US": "This Slack Bot supports receiving messages from Slack as input to Chatflow/Chatbot/Agent in Dify, and sending messages back to Slack.",
+            "ja_JP": "この Slack Bot は、Slack からのメッセージを Dify の Chatflow/Chatbot/Agent への入力として受け取り、Slack にメッセージを送信することをサポートします。",
+            "pt_BR": "Este Slack Bot suporta receber mensagens do Slack como entrada para Chatflow/Chatbot/Agent no Dify e enviar mensagens de volta para o Slack.",
+            "zh_Hans": "这个 Slack Bot 支持接收来自 Slack 的消息作为 Dify 中 Chatflow/Chatbot/Agent 的输入，并将消息发送回 Slack。"
+        },
+        "category": "extension",
+        "icon": "langgenius/packages/slack-bot/_assets/icon.svg",
+        "index_id": "langgenius___slack-bot",
+        "install_count": 8767,
+        "label": {
+            "en_US": "Slack Bot",
+            "ja_JP": "Slack Bot",
+            "pt_BR": "Slack Bot",
+            "zh_Hans": "Slack Bot"
+        },
+        "latest_package_identifier": "langgenius/slack-bot:0.0.11@1aac36c41c61bcb4f8b972ded769530a9f31423a3d9dd582969d8ec130807934",
+        "latest_version": "0.0.11",
+        "name": "slack-bot",
+        "org": "langgenius",
+        "plugin_id": "langgenius/slack-bot",
+        "plugins": {
+            "agent_strategies": null,
+            "datasources": null,
+            "endpoints": [
+                "group/slack.yaml"
+            ],
+            "models": null,
+            "tools": null,
+            "triggers": null
+        },
+        "privacy_options": "",
+        "privacy_policy": "",
+        "repository": "",
+        "status": "active",
+        "tags": [],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "langgenius"
+        },
+        "version_updated_at": "2026-08-20T10:14:14Z"
+    },
+    {
+        "badges": [
+            "partner"
+        ],
+        "brief": {
+            "en_US": "The Agora Conversational AI extension enables developers to build voice assistants powered by Dify Agent.",
+            "ja_JP": "Agora会話型AI拡張機能は、開発者がDify Agentを活用して高機能な音声アシスタントを構築できるようにします。",
+            "pt_BR": "A extensão de IA Conversacional da Agora permite que desenvolvedores criem assistentes de voz poderosos com o suporte do Dify Agent.",
+            "zh_Hans": "Agora 会话式 AI 插件让开发者能够借助 Dify Agent 构建功能强大的语音助手。"
+        },
+        "category": "extension",
+        "icon": "plutoless/packages/convoai/_assets/icon.svg",
+        "index_id": "plutoless___convoai",
+        "install_count": 8734,
+        "label": {
+            "en_US": "Agora Conversational AI",
+            "ja_JP": "Agora Conversational AI",
+            "pt_BR": "Agora Conversational AI",
+            "zh_Hans": "Agora Conversational AI"
+        },
+        "latest_package_identifier": "plutoless/convoai:0.0.11@1b9d226641235a81af7b523210362e0d405fb3f65e9b0c205a2887946868f934",
+        "latest_version": "0.0.11",
+        "name": "convoai",
+        "org": "plutoless",
+        "plugin_id": "plutoless/convoai",
+        "plugins": {
+            "agent_strategies": null,
+            "endpoints": [
+                "group/convoai.yaml"
+            ],
+            "models": null,
+            "tools": null
+        },
+        "privacy_options": "",
+        "privacy_policy": "PRIVACY.md",
+        "repository": "",
+        "status": "active",
+        "tags": [],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "partner"
+        },
+        "version_updated_at": "2025-08-27T14:00:42Z"
+    },
+    {
+        "badges": [],
+        "brief": {
             "en_US": "Regular self-call plugin for self-hosted servers and cloud.dify.ai"
         },
         "category": "extension",
         "icon": "yt-koike/packages/cron/_assets/icon.svg",
         "index_id": "yt-koike___cron",
-        "install_count": 4448,
+        "install_count": 4520,
         "label": {
             "en_US": "Cron"
         },
@@ -458,7 +458,7 @@
         "category": "extension",
         "icon": "kevintsai/packages/linebot/_assets/LINE_Brand_icon.png",
         "index_id": "kevintsai___linebot",
-        "install_count": 4189,
+        "install_count": 4247,
         "label": {
             "en_US": "Line Bot",
             "ja_JP": "Line Bot",
@@ -499,7 +499,7 @@
         "category": "extension",
         "icon": "leslie2046/packages/moderation/_assets/icon.png",
         "index_id": "leslie2046___moderation",
-        "install_count": 3966,
+        "install_count": 4058,
         "label": {
             "en_US": "Moderation",
             "ja_JP": "センシティブな内容の審査",
@@ -538,7 +538,7 @@
         "category": "extension",
         "icon": "yeuoly/packages/waifu/_assets/waifu.gif",
         "index_id": "yeuoly___waifu",
-        "install_count": 3676,
+        "install_count": 3737,
         "label": {
             "en_US": "Waifu"
         },
@@ -577,7 +577,7 @@
         "category": "extension",
         "icon": "langgenius/packages/llamacloud/_assets/icon.svg",
         "index_id": "langgenius___llamacloud",
-        "install_count": 3357,
+        "install_count": 3467,
         "label": {
             "en_US": "Llamacloud",
             "ja_JP": "Llamacloud",
@@ -601,7 +601,7 @@
         },
         "privacy_options": "",
         "privacy_policy": "PRIVACY.md",
-        "repository": null,
+        "repository": "",
         "status": "active",
         "tags": [],
         "type": "plugin",
@@ -621,7 +621,7 @@
         "category": "extension",
         "icon": "hjlarry/packages/draw/_assets/icon.svg",
         "index_id": "hjlarry___draw",
-        "install_count": 2583,
+        "install_count": 2676,
         "label": {
             "en_US": "draw",
             "ja_JP": "draw",
@@ -655,6 +655,46 @@
     {
         "badges": [],
         "brief": {
+            "en_US": "Expose Dify apps as A2A protocol agents, enabling agent discovery, invocation, and optional registration to Nacos Agent Registry.",
+            "zh_Hans": "将 Dify 应用暴露为 A2A 协议智能体，支持智能体发现、调用，并可选注册到 Nacos 智能体注册中心。"
+        },
+        "category": "extension",
+        "icon": "nacos/packages/a2a_server/_assets/icon.png",
+        "index_id": "nacos___a2a_server",
+        "install_count": 2399,
+        "label": {
+            "en_US": "A2A Server",
+            "zh_Hans": "A2A Server"
+        },
+        "latest_package_identifier": "nacos/a2a_server:0.0.4@b3383ff6677e8ff24386c4d518b6c47b6d1b8b2cdb7cae334084258ceb6a46b6",
+        "latest_version": "0.0.4",
+        "name": "a2a_server",
+        "org": "nacos",
+        "plugin_id": "nacos/a2a_server",
+        "plugins": {
+            "agent_strategies": null,
+            "datasources": null,
+            "endpoints": [
+                "group/a2a_server.yaml"
+            ],
+            "models": null,
+            "tools": null,
+            "triggers": null
+        },
+        "privacy_options": "",
+        "privacy_policy": "PRIVACY.md",
+        "repository": "https://github.com/nacos-group/nacos-dify-plugins",
+        "status": "active",
+        "tags": [],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "community"
+        },
+        "version_updated_at": "2026-03-10T02:24:56Z"
+    },
+    {
+        "badges": [],
+        "brief": {
             "en_US": "The Enterprise wechat intelligent robot is supported by Anspai, an official partner of Enterprise wechat.",
             "pt_BR": "The Enterprise wechat intelligent robot is supported by Anspai, an official partner of Enterprise wechat.",
             "zh_Hans": "企业微信智能机器人，由企微官方合作伙伴安思派提供技术支持。"
@@ -662,7 +702,7 @@
         "category": "extension",
         "icon": "anspire/packages/wecom-bot/_assets/icon.svg",
         "index_id": "anspire___wecom-bot",
-        "install_count": 2251,
+        "install_count": 2364,
         "label": {
             "en_US": "wecom-bot",
             "pt_BR": "wecom-bot",
@@ -697,46 +737,6 @@
     {
         "badges": [],
         "brief": {
-            "en_US": "Expose Dify apps as A2A protocol agents, enabling agent discovery, invocation, and optional registration to Nacos Agent Registry.",
-            "zh_Hans": "将 Dify 应用暴露为 A2A 协议智能体，支持智能体发现、调用，并可选注册到 Nacos 智能体注册中心。"
-        },
-        "category": "extension",
-        "icon": "nacos/packages/a2a_server/_assets/icon.png",
-        "index_id": "nacos___a2a_server",
-        "install_count": 2233,
-        "label": {
-            "en_US": "A2A Server",
-            "zh_Hans": "A2A Server"
-        },
-        "latest_package_identifier": "nacos/a2a_server:0.0.4@b3383ff6677e8ff24386c4d518b6c47b6d1b8b2cdb7cae334084258ceb6a46b6",
-        "latest_version": "0.0.4",
-        "name": "a2a_server",
-        "org": "nacos",
-        "plugin_id": "nacos/a2a_server",
-        "plugins": {
-            "agent_strategies": null,
-            "datasources": null,
-            "endpoints": [
-                "group/a2a_server.yaml"
-            ],
-            "models": null,
-            "tools": null,
-            "triggers": null
-        },
-        "privacy_options": "",
-        "privacy_policy": "PRIVACY.md",
-        "repository": "https://github.com/nacos-group/nacos-dify-plugins",
-        "status": "active",
-        "tags": [],
-        "type": "plugin",
-        "verification": {
-            "authorized_category": "community"
-        },
-        "version_updated_at": "2026-03-10T02:24:56Z"
-    },
-    {
-        "badges": [],
-        "brief": {
             "en_US": "AWS Bedrock Knowledge Base API Endpoint for Dify External Knowledge Base",
             "ja_JP": "AWS Bedrock Knowledge Base API Endpoint for Dify External Knowledge Base",
             "pt_BR": "AWS Bedrock Knowledge Base API Endpoint for Dify External Knowledge Base",
@@ -745,7 +745,7 @@
         "category": "extension",
         "icon": "langgenius/packages/aws_bedrock_knowledge_base/_assets/icon.svg",
         "index_id": "langgenius___aws_bedrock_knowledge_base",
-        "install_count": 2134,
+        "install_count": 2174,
         "label": {
             "en_US": "Aws Bedrock Knowledge Base",
             "ja_JP": "Aws Bedrock Knowledge Base",
@@ -769,7 +769,7 @@
         },
         "privacy_options": "",
         "privacy_policy": "PRIVACY.md",
-        "repository": null,
+        "repository": "",
         "status": "active",
         "tags": [],
         "type": "plugin",
@@ -787,7 +787,7 @@
         "category": "extension",
         "icon": "langgenius/packages/neko/_assets/neko.gif",
         "index_id": "langgenius___neko",
-        "install_count": 2098,
+        "install_count": 2117,
         "label": {
             "en_US": "Neko"
         },
@@ -828,7 +828,7 @@
         "category": "extension",
         "icon": "zoku-777/packages/dify_dsl_flowchart_export/_assets/icon.svg",
         "index_id": "zoku-777___dify_dsl_flowchart_export",
-        "install_count": 1952,
+        "install_count": 2045,
         "label": {
             "en_US": "Dify DSL Flowchart Convertor",
             "ja_JP": "DifyフローDSLフロチャート変換",
@@ -870,7 +870,7 @@
         "category": "extension",
         "icon": "bytedance_vikingdb/packages/vikingdb_knowledge_base/_assets/icon.svg",
         "index_id": "bytedance_vikingdb___vikingdb_knowledge_base",
-        "install_count": 1775,
+        "install_count": 1858,
         "label": {
             "en_US": "Vikingdb Knowledge Base",
             "ja_JP": "Vikingdb Knowledge Base",
@@ -914,7 +914,7 @@
         "category": "extension",
         "icon": "langgenius/packages/badapple/_assets/icon.jpeg",
         "index_id": "langgenius___badapple",
-        "install_count": 1449,
+        "install_count": 1478,
         "label": {
             "en_US": "Bad Apple",
             "ja_JP": "Bad Apple",
@@ -938,7 +938,7 @@
         },
         "privacy_options": "",
         "privacy_policy": "",
-        "repository": null,
+        "repository": "",
         "status": "active",
         "tags": [],
         "type": "plugin",
@@ -958,7 +958,7 @@
         "category": "extension",
         "icon": "solaoi/packages/slack-thread-bot/_assets/icon.svg",
         "index_id": "solaoi___slack-thread-bot",
-        "install_count": 773,
+        "install_count": 800,
         "label": {
             "en_US": "Slack Thread Bot",
             "ja_JP": "Slack Thread Bot",
@@ -1000,7 +1000,7 @@
         "category": "extension",
         "icon": "qz/packages/convoai/_assets/icon.svg",
         "index_id": "qz___convoai",
-        "install_count": 766,
+        "install_count": 781,
         "label": {
             "en_US": "Agora Conversational AI",
             "ja_JP": "Agora Conversational AI",
@@ -1040,7 +1040,7 @@
         "category": "extension",
         "icon": "zxi2002/packages/metastudio_dify_app/_assets/icon.svg",
         "index_id": "zxi2002___metastudio_dify_app",
-        "install_count": 512,
+        "install_count": 524,
         "label": {
             "en_US": "metastudio_dify_app",
             "zh_Hans": "metastudio_dify_app"
@@ -1078,7 +1078,7 @@
         "category": "extension",
         "icon": "zix2002/packages/metastudio_dify_app/_assets/icon.svg",
         "index_id": "zix2002___metastudio_dify_app",
-        "install_count": 491,
+        "install_count": 508,
         "label": {
             "en_US": "MetaStudio Compatible Dify App",
             "zh_Hans": "MetaStudio 兼容 Dify App"
@@ -1116,7 +1116,7 @@
         "category": "extension",
         "icon": "xcode-wu/packages/trtc_conai/_assets/icon.svg",
         "index_id": "xcode-wu___trtc_conai",
-        "install_count": 452,
+        "install_count": 477,
         "label": {
             "en_US": "Tencent RTC Conversational AI",
             "zh_Hans": "Tencent RTC AI实时对话"
@@ -1158,7 +1158,7 @@
         "category": "extension",
         "icon": "takada-at/packages/slack-bot2/_assets/icon-bot.svg",
         "index_id": "takada-at___slack-bot2",
-        "install_count": 320,
+        "install_count": 334,
         "label": {
             "en_US": "slack-bot2",
             "ja_JP": "slack-bot2",
@@ -1198,7 +1198,7 @@
         "category": "extension",
         "icon": "yuyang-wu/packages/trtc_conai/_assets/icon.svg",
         "index_id": "yuyang-wu___trtc_conai",
-        "install_count": 312,
+        "install_count": 333,
         "label": {
             "en_US": "Tencent RTC Conversational AI",
             "zh_Hans": "Tencent RTC AI实时对话"
@@ -1239,7 +1239,7 @@
         "category": "extension",
         "icon": "suphachok/packages/line-connect/_assets/icon.svg",
         "index_id": "suphachok___line-connect",
-        "install_count": 265,
+        "install_count": 287,
         "label": {
             "en_US": "LINE Connect",
             "ja_JP": "LINE コネクト",
@@ -1274,53 +1274,13 @@
     {
         "badges": [],
         "brief": {
-            "en_US": "Connect Alibaba Cloud Tablestore RAG service as Dify external knowledge base",
-            "zh_Hans": "将阿里云表格存储 RAG 服务作为 Dify 外部知识库连接"
-        },
-        "category": "extension",
-        "icon": "aliyun/packages/tablestore-knowledgebase/_assets/tablestore.svg",
-        "index_id": "aliyun___tablestore-knowledgebase",
-        "install_count": 95,
-        "label": {
-            "en_US": "Tablestore Knowledgebase",
-            "zh_Hans": "Tablestore Knowledgebase"
-        },
-        "latest_package_identifier": "aliyun/tablestore-knowledgebase:1.0.0@985f7e72800415d6163764928994f49484b2ac17b2131ff73b94ac5d4edb9a6f",
-        "latest_version": "1.0.0",
-        "name": "tablestore-knowledgebase",
-        "org": "aliyun",
-        "plugin_id": "aliyun/tablestore-knowledgebase",
-        "plugins": {
-            "agent_strategies": null,
-            "datasources": null,
-            "endpoints": [
-                "group/tablestore_knowledgebase.yaml"
-            ],
-            "models": null,
-            "tools": null,
-            "triggers": null
-        },
-        "privacy_options": "",
-        "privacy_policy": "PRIVACY.md",
-        "repository": null,
-        "status": "active",
-        "tags": [],
-        "type": "plugin",
-        "verification": {
-            "authorized_category": "community"
-        },
-        "version_updated_at": "2026-04-22T06:10:31Z"
-    },
-    {
-        "badges": [],
-        "brief": {
             "en_US": "Install on Dify A to expose its datasets to Dify B through the External Knowledge API.",
             "zh_Hans": "安装在 Dify A，将其知识库通过 External Knowledge API 暴露给 Dify B。"
         },
         "category": "extension",
         "icon": "yuhui0531/packages/external-knowledge-adapter/_assets/icon.svg",
         "index_id": "yuhui0531___external-knowledge-adapter",
-        "install_count": 45,
+        "install_count": 129,
         "label": {
             "en_US": "External Knowledge Adapter",
             "zh_Hans": "外部知识库适配器"
@@ -1350,5 +1310,45 @@
             "authorized_category": "community"
         },
         "version_updated_at": "2026-07-28T03:07:07Z"
+    },
+    {
+        "badges": [],
+        "brief": {
+            "en_US": "Connect Alibaba Cloud Tablestore RAG service as Dify external knowledge base",
+            "zh_Hans": "将阿里云表格存储 RAG 服务作为 Dify 外部知识库连接"
+        },
+        "category": "extension",
+        "icon": "aliyun/packages/tablestore-knowledgebase/_assets/tablestore.svg",
+        "index_id": "aliyun___tablestore-knowledgebase",
+        "install_count": 108,
+        "label": {
+            "en_US": "Tablestore Knowledgebase",
+            "zh_Hans": "Tablestore Knowledgebase"
+        },
+        "latest_package_identifier": "aliyun/tablestore-knowledgebase:1.0.0@985f7e72800415d6163764928994f49484b2ac17b2131ff73b94ac5d4edb9a6f",
+        "latest_version": "1.0.0",
+        "name": "tablestore-knowledgebase",
+        "org": "aliyun",
+        "plugin_id": "aliyun/tablestore-knowledgebase",
+        "plugins": {
+            "agent_strategies": null,
+            "datasources": null,
+            "endpoints": [
+                "group/tablestore_knowledgebase.yaml"
+            ],
+            "models": null,
+            "tools": null,
+            "triggers": null
+        },
+        "privacy_options": "",
+        "privacy_policy": "PRIVACY.md",
+        "repository": null,
+        "status": "active",
+        "tags": [],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "community"
+        },
+        "version_updated_at": "2026-04-22T06:10:31Z"
     }
 ]

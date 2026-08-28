@@ -8,7 +8,7 @@
         "category": "agent-strategy",
         "icon": "langgenius/packages/agent/_assets/icon.svg",
         "index_id": "langgenius___agent",
-        "install_count": 613466,
+        "install_count": 665884,
         "label": {
             "en_US": "Dify Agent Strategies",
             "zh_Hans": "Dify Agent 策略"
@@ -30,7 +30,7 @@
         },
         "privacy_options": "",
         "privacy_policy": "",
-        "repository": null,
+        "repository": "",
         "status": "active",
         "tags": [
             {
@@ -52,7 +52,7 @@
         "category": "agent-strategy",
         "icon": "junjiem/packages/mcp_see_agent/_assets/icon.svg",
         "index_id": "junjiem___mcp_see_agent",
-        "install_count": 137249,
+        "install_count": 139925,
         "label": {
             "en_US": "Agent Strategies (Support MCP Tools)",
             "zh_Hans": "Agent 策略（支持 MCP 工具）"
@@ -90,7 +90,7 @@
         "category": "agent-strategy",
         "icon": "hjlarry/packages/agent/_assets/icon.svg",
         "index_id": "hjlarry___agent",
-        "install_count": 55887,
+        "install_count": 57389,
         "label": {
             "en_US": "MCP Agent Strategy",
             "zh_Hans": "MCP Agent 策略"
@@ -132,7 +132,7 @@
         "category": "agent-strategy",
         "icon": "svcvit/packages/agent/_assets/icon.svg",
         "index_id": "svcvit___agent",
-        "install_count": 52318,
+        "install_count": 52818,
         "label": {
             "en_US": "Dialogue Agent",
             "zh_Hans": "对话 Agent"
@@ -168,51 +168,13 @@
     {
         "badges": [],
         "brief": {
-            "en_US": "Based on the official Function-Calling Agent, the microsoft of EASYTOOL policy is used to enhance the ability to disassemble and reflect on LLM tasks.",
-            "zh_Hans": "基于Dify官方Function-Calling Agent，采用微软的EASYTOOL策略增强LLM任务拆解、反思等能力。"
-        },
-        "category": "agent-strategy",
-        "icon": "allenyzx/packages/enhancing_function_agent/_assets/icon.png",
-        "index_id": "allenyzx___enhancing_function_agent",
-        "install_count": 12176,
-        "label": {
-            "en_US": "Enhancing Agent",
-            "zh_Hans": "Enhancing Agent"
-        },
-        "latest_package_identifier": "allenyzx/enhancing_function_agent:0.0.2@bdbcf7d9d7b307aece84c5b810286bc975be3cd713324bd642b5d6f26496c169",
-        "latest_version": "0.0.2",
-        "name": "enhancing_function_agent",
-        "org": "allenyzx",
-        "plugin_id": "allenyzx/enhancing_function_agent",
-        "plugins": {
-            "agent_strategies": [
-                "provider/enhancing_function_agent.yaml"
-            ],
-            "endpoints": null,
-            "models": null,
-            "tools": null
-        },
-        "privacy_options": "",
-        "privacy_policy": "PRIVACY.md",
-        "repository": null,
-        "status": "active",
-        "tags": [],
-        "type": "plugin",
-        "verification": {
-            "authorized_category": "community"
-        },
-        "version_updated_at": "2025-07-18T03:49:51Z"
-    },
-    {
-        "badges": [],
-        "brief": {
             "en_US": "An agent strategy plugin supporting multiple skills for intelligent task execution",
             "zh_Hans": "支持多种技能的智能代理策略插件，用于智能任务执行"
         },
         "category": "agent-strategy",
         "icon": "xun404/packages/agent-skill-plugin/_assets/icon.svg",
         "index_id": "xun404___agent-skill-plugin",
-        "install_count": 10599,
+        "install_count": 13696,
         "label": {
             "en_US": "Agent Skill Plugin",
             "zh_Hans": "Agent Skill技能插件"
@@ -246,6 +208,44 @@
     {
         "badges": [],
         "brief": {
+            "en_US": "Based on the official Function-Calling Agent, the microsoft of EASYTOOL policy is used to enhance the ability to disassemble and reflect on LLM tasks.",
+            "zh_Hans": "基于Dify官方Function-Calling Agent，采用微软的EASYTOOL策略增强LLM任务拆解、反思等能力。"
+        },
+        "category": "agent-strategy",
+        "icon": "allenyzx/packages/enhancing_function_agent/_assets/icon.png",
+        "index_id": "allenyzx___enhancing_function_agent",
+        "install_count": 12380,
+        "label": {
+            "en_US": "Enhancing Agent",
+            "zh_Hans": "Enhancing Agent"
+        },
+        "latest_package_identifier": "allenyzx/enhancing_function_agent:0.0.2@bdbcf7d9d7b307aece84c5b810286bc975be3cd713324bd642b5d6f26496c169",
+        "latest_version": "0.0.2",
+        "name": "enhancing_function_agent",
+        "org": "allenyzx",
+        "plugin_id": "allenyzx/enhancing_function_agent",
+        "plugins": {
+            "agent_strategies": [
+                "provider/enhancing_function_agent.yaml"
+            ],
+            "endpoints": null,
+            "models": null,
+            "tools": null
+        },
+        "privacy_options": "",
+        "privacy_policy": "PRIVACY.md",
+        "repository": null,
+        "status": "active",
+        "tags": [],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "community"
+        },
+        "version_updated_at": "2025-07-18T03:49:51Z"
+    },
+    {
+        "badges": [],
+        "brief": {
             "en_US": "Supports MCP tool invocation",
             "ja_JP": "支持mcp工具调用",
             "pt_BR": "支持mcp工具调用",
@@ -254,7 +254,7 @@
         "category": "agent-strategy",
         "icon": "ssf/packages/mcp_agent/_assets/icon.svg",
         "index_id": "ssf___mcp_agent",
-        "install_count": 6070,
+        "install_count": 6381,
         "label": {
             "en_US": "mcp_agent",
             "ja_JP": "mcp_agent",
@@ -298,7 +298,7 @@
         "category": "agent-strategy",
         "icon": "ki3nd/packages/sandbox-agent/_assets/icon.svg",
         "index_id": "ki3nd___sandbox-agent",
-        "install_count": 956,
+        "install_count": 1137,
         "label": {
             "en_US": "Sandbox Agent",
             "ja_JP": "サンドボックスエージェント",
@@ -340,7 +340,7 @@
         "category": "agent-strategy",
         "icon": "aimali/packages/aimali_skill_agent/_assets/icon.jpeg",
         "index_id": "aimali___aimali_skill_agent",
-        "install_count": 720,
+        "install_count": 857,
         "label": {
             "en_US": "AI Maly Skill Agent",
             "zh_Hans": "AI码力 Skill Agent"
@@ -380,7 +380,7 @@
         "category": "agent-strategy",
         "icon": "langgenius/packages/self_refine_agent/_assets/icon.svg",
         "index_id": "langgenius___self_refine_agent",
-        "install_count": 191,
+        "install_count": 595,
         "label": {
             "en_US": "Self-Refine Agent Strategy",
             "zh_Hans": "自我优化 Agent 策略"
@@ -426,7 +426,7 @@
         "category": "agent-strategy",
         "icon": "ki3nd/packages/agentfs/_assets/icon.svg",
         "index_id": "ki3nd___agentfs",
-        "install_count": 123,
+        "install_count": 219,
         "label": {
             "en_US": "AgentFS",
             "ja_JP": "AgentFS",
