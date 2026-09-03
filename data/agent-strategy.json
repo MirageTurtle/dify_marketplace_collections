@@ -8,7 +8,7 @@
         "category": "agent-strategy",
         "icon": "langgenius/packages/agent/_assets/icon.svg",
         "index_id": "langgenius___agent",
-        "install_count": 680750,
+        "install_count": 685373,
         "label": {
             "en_US": "Dify Agent Strategies",
             "zh_Hans": "Dify Agent 策略"
@@ -52,7 +52,7 @@
         "category": "agent-strategy",
         "icon": "junjiem/packages/mcp_see_agent/_assets/icon.svg",
         "index_id": "junjiem___mcp_see_agent",
-        "install_count": 140470,
+        "install_count": 140635,
         "label": {
             "en_US": "Agent Strategies (Support MCP Tools)",
             "zh_Hans": "Agent 策略（支持 MCP 工具）"
@@ -90,7 +90,7 @@
         "category": "agent-strategy",
         "icon": "hjlarry/packages/agent/_assets/icon.svg",
         "index_id": "hjlarry___agent",
-        "install_count": 57661,
+        "install_count": 57736,
         "label": {
             "en_US": "MCP Agent Strategy",
             "zh_Hans": "MCP Agent 策略"
@@ -132,7 +132,7 @@
         "category": "agent-strategy",
         "icon": "svcvit/packages/agent/_assets/icon.svg",
         "index_id": "svcvit___agent",
-        "install_count": 52931,
+        "install_count": 52967,
         "label": {
             "en_US": "Dialogue Agent",
             "zh_Hans": "对话 Agent"
@@ -174,7 +174,7 @@
         "category": "agent-strategy",
         "icon": "xun404/packages/agent-skill-plugin/_assets/icon.svg",
         "index_id": "xun404___agent-skill-plugin",
-        "install_count": 14413,
+        "install_count": 14920,
         "label": {
             "en_US": "Agent Skill Plugin",
             "zh_Hans": "Agent Skill技能插件"
@@ -214,7 +214,7 @@
         "category": "agent-strategy",
         "icon": "allenyzx/packages/enhancing_function_agent/_assets/icon.png",
         "index_id": "allenyzx___enhancing_function_agent",
-        "install_count": 12419,
+        "install_count": 12424,
         "label": {
             "en_US": "Enhancing Agent",
             "zh_Hans": "Enhancing Agent"
@@ -254,7 +254,7 @@
         "category": "agent-strategy",
         "icon": "ssf/packages/mcp_agent/_assets/icon.svg",
         "index_id": "ssf___mcp_agent",
-        "install_count": 6461,
+        "install_count": 6481,
         "label": {
             "en_US": "mcp_agent",
             "ja_JP": "mcp_agent",
@@ -298,7 +298,7 @@
         "category": "agent-strategy",
         "icon": "ki3nd/packages/sandbox-agent/_assets/icon.svg",
         "index_id": "ki3nd___sandbox-agent",
-        "install_count": 1181,
+        "install_count": 1191,
         "label": {
             "en_US": "Sandbox Agent",
             "ja_JP": "サンドボックスエージェント",
@@ -340,7 +340,7 @@
         "category": "agent-strategy",
         "icon": "aimali/packages/aimali_skill_agent/_assets/icon.jpeg",
         "index_id": "aimali___aimali_skill_agent",
-        "install_count": 887,
+        "install_count": 897,
         "label": {
             "en_US": "AI Maly Skill Agent",
             "zh_Hans": "AI码力 Skill Agent"
@@ -380,13 +380,13 @@
         "category": "agent-strategy",
         "icon": "langgenius/packages/self_refine_agent/_assets/icon.svg",
         "index_id": "langgenius___self_refine_agent",
-        "install_count": 709,
+        "install_count": 762,
         "label": {
             "en_US": "Self-Refine Agent Strategy",
             "zh_Hans": "自我优化 Agent 策略"
         },
-        "latest_package_identifier": "langgenius/self_refine_agent:0.0.2@e85b80c97d0c69b7c740e8ce0fe4291fb36c586ad577d4bc75f9f3f0ce1c2983",
-        "latest_version": "0.0.2",
+        "latest_package_identifier": "langgenius/self_refine_agent:0.0.3@c61a4ddd5b4dc936a72d2b6bad04dd5a45241b382cb607da77b66f42bf1389e2",
+        "latest_version": "0.0.3",
         "name": "self_refine_agent",
         "org": "langgenius",
         "plugin_id": "langgenius/self_refine_agent",
@@ -413,7 +413,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-08-24T13:01:17Z"
+        "version_updated_at": "2026-09-03T01:43:43Z"
     },
     {
         "badges": [],
@@ -426,7 +426,7 @@
         "category": "agent-strategy",
         "icon": "ki3nd/packages/agentfs/_assets/icon.svg",
         "index_id": "ki3nd___agentfs",
-        "install_count": 248,
+        "install_count": 251,
         "label": {
             "en_US": "AgentFS",
             "ja_JP": "AgentFS",
@@ -458,5 +458,47 @@
             "authorized_category": "community"
         },
         "version_updated_at": "2026-07-20T06:20:58Z"
+    },
+    {
+        "badges": [],
+        "brief": {
+            "en_US": "Function-Calling agent strategy that captures every tool call, wires tool I/O via indexes (not the LLM context), injects Chatflow sys.files as multimodal prompt content, routes Skills & Tools catalogs into a compact system prompt, and exposes tool outputs as structured workflow variables."
+        },
+        "category": "agent-strategy",
+        "icon": "gitpoldan/packages/tool_capture_agent/_assets/icon.svg",
+        "index_id": "gitpoldan___tool_capture_agent",
+        "install_count": 3,
+        "label": {
+            "en_US": "Tool-Capture Agent"
+        },
+        "latest_package_identifier": "gitpoldan/tool_capture_agent:0.3.3@3d839499b7b30acea5d5d5a073e4f3a5f782539ffa32b68e18131475bf43dcbc",
+        "latest_version": "0.3.3",
+        "name": "tool_capture_agent",
+        "org": "gitpoldan",
+        "plugin_id": "gitpoldan/tool_capture_agent",
+        "plugins": {
+            "agent_strategies": [
+                "provider/agent.yaml"
+            ],
+            "datasources": null,
+            "endpoints": null,
+            "models": null,
+            "tools": null,
+            "triggers": null
+        },
+        "privacy_options": "",
+        "privacy_policy": "PRIVACY.md",
+        "repository": "https://github.com/gitpoldan/dify/tree/main/polden-plugins/tool_capture_agent",
+        "status": "active",
+        "tags": [
+            {
+                "name": "agent"
+            }
+        ],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "community"
+        },
+        "version_updated_at": "2026-09-02T12:50:30Z"
     }
 ]
