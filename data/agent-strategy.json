@@ -8,13 +8,13 @@
         "category": "agent-strategy",
         "icon": "langgenius/packages/agent/_assets/icon.svg",
         "index_id": "langgenius___agent",
-        "install_count": 724204,
+        "install_count": 739848,
         "label": {
             "en_US": "Dify Agent Strategies",
             "zh_Hans": "Dify Agent 策略"
         },
-        "latest_package_identifier": "langgenius/agent:0.0.47@b14b5a5259094510a272e5b7facd09aa63352511c13fabcde36a4cac57d1da94",
-        "latest_version": "0.0.47",
+        "latest_package_identifier": "langgenius/agent:0.0.48@99de9973618f0c0869e7235160667ffaddb31c6e446961671623c01d9631edce",
+        "latest_version": "0.0.48",
         "name": "agent",
         "org": "langgenius",
         "plugin_id": "langgenius/agent",
@@ -41,7 +41,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-08-25T01:46:51Z"
+        "version_updated_at": "2026-09-22T09:04:20Z"
     },
     {
         "badges": [],
@@ -52,7 +52,7 @@
         "category": "agent-strategy",
         "icon": "junjiem/packages/mcp_see_agent/_assets/icon.svg",
         "index_id": "junjiem___mcp_see_agent",
-        "install_count": 142979,
+        "install_count": 143097,
         "label": {
             "en_US": "Agent Strategies (Support MCP Tools)",
             "zh_Hans": "Agent 策略（支持 MCP 工具）"
@@ -90,7 +90,7 @@
         "category": "agent-strategy",
         "icon": "hjlarry/packages/agent/_assets/icon.svg",
         "index_id": "hjlarry___agent",
-        "install_count": 58998,
+        "install_count": 59075,
         "label": {
             "en_US": "MCP Agent Strategy",
             "zh_Hans": "MCP Agent 策略"
@@ -132,7 +132,7 @@
         "category": "agent-strategy",
         "icon": "svcvit/packages/agent/_assets/icon.svg",
         "index_id": "svcvit___agent",
-        "install_count": 53521,
+        "install_count": 53560,
         "label": {
             "en_US": "Dialogue Agent",
             "zh_Hans": "对话 Agent"
@@ -174,7 +174,7 @@
         "category": "agent-strategy",
         "icon": "xun404/packages/agent-skill-plugin/_assets/icon.svg",
         "index_id": "xun404___agent-skill-plugin",
-        "install_count": 19278,
+        "install_count": 19508,
         "label": {
             "en_US": "Agent Skill Plugin",
             "zh_Hans": "Agent Skill技能插件"
@@ -214,7 +214,7 @@
         "category": "agent-strategy",
         "icon": "allenyzx/packages/enhancing_function_agent/_assets/icon.png",
         "index_id": "allenyzx___enhancing_function_agent",
-        "install_count": 12571,
+        "install_count": 12591,
         "label": {
             "en_US": "Enhancing Agent",
             "zh_Hans": "Enhancing Agent"
@@ -254,7 +254,7 @@
         "category": "agent-strategy",
         "icon": "ssf/packages/mcp_agent/_assets/icon.svg",
         "index_id": "ssf___mcp_agent",
-        "install_count": 6742,
+        "install_count": 6762,
         "label": {
             "en_US": "mcp_agent",
             "ja_JP": "mcp_agent",
@@ -290,6 +290,50 @@
     {
         "badges": [],
         "brief": {
+            "en_US": "Agent strategy with automatic self-critique and iterative refinement. Based on Self-Refine (NeurIPS 2023).",
+            "zh_Hans": "支持自动自我批判和迭代优化的 Agent 策略。基于 Self-Refine (NeurIPS 2023)。"
+        },
+        "category": "agent-strategy",
+        "icon": "langgenius/packages/self_refine_agent/_assets/icon.svg",
+        "index_id": "langgenius___self_refine_agent",
+        "install_count": 1531,
+        "label": {
+            "en_US": "Self-Refine Agent Strategy",
+            "zh_Hans": "自我优化 Agent 策略"
+        },
+        "latest_package_identifier": "langgenius/self_refine_agent:0.0.4@978b5bdb5475e065fb2ddb09123480f9a7506b71465ab27f2e43a7cd2bde5c64",
+        "latest_version": "0.0.4",
+        "name": "self_refine_agent",
+        "org": "langgenius",
+        "plugin_id": "langgenius/self_refine_agent",
+        "plugins": {
+            "agent_strategies": [
+                "provider/self_refine.yaml"
+            ],
+            "datasources": null,
+            "endpoints": null,
+            "models": null,
+            "tools": null,
+            "triggers": null
+        },
+        "privacy_options": "",
+        "privacy_policy": "",
+        "repository": null,
+        "status": "active",
+        "tags": [
+            {
+                "name": "agent"
+            }
+        ],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "langgenius"
+        },
+        "version_updated_at": "2026-09-22T09:04:14Z"
+    },
+    {
+        "badges": [],
+        "brief": {
             "en_US": "ReAct agent strategy with remote sandbox execution. Runs shell commands inside an isolated E2B or Daytona sandbox.",
             "ja_JP": "リモートサンドボックス実行機能を持つ ReAct エージェント戦略。E2B または Daytona の隔離されたサンドボックス内でシェルコマンドを実行します。",
             "pt_BR": "Estratégia de agente ReAct com execução em sandbox remoto. Executa comandos shell em um sandbox isolado E2B ou Daytona.",
@@ -298,7 +342,7 @@
         "category": "agent-strategy",
         "icon": "ki3nd/packages/sandbox-agent/_assets/icon.svg",
         "index_id": "ki3nd___sandbox-agent",
-        "install_count": 1341,
+        "install_count": 1353,
         "label": {
             "en_US": "Sandbox Agent",
             "ja_JP": "サンドボックスエージェント",
@@ -334,57 +378,13 @@
     {
         "badges": [],
         "brief": {
-            "en_US": "Agent strategy with automatic self-critique and iterative refinement. Based on Self-Refine (NeurIPS 2023).",
-            "zh_Hans": "支持自动自我批判和迭代优化的 Agent 策略。基于 Self-Refine (NeurIPS 2023)。"
-        },
-        "category": "agent-strategy",
-        "icon": "langgenius/packages/self_refine_agent/_assets/icon.svg",
-        "index_id": "langgenius___self_refine_agent",
-        "install_count": 1282,
-        "label": {
-            "en_US": "Self-Refine Agent Strategy",
-            "zh_Hans": "自我优化 Agent 策略"
-        },
-        "latest_package_identifier": "langgenius/self_refine_agent:0.0.3@c61a4ddd5b4dc936a72d2b6bad04dd5a45241b382cb607da77b66f42bf1389e2",
-        "latest_version": "0.0.3",
-        "name": "self_refine_agent",
-        "org": "langgenius",
-        "plugin_id": "langgenius/self_refine_agent",
-        "plugins": {
-            "agent_strategies": [
-                "provider/self_refine.yaml"
-            ],
-            "datasources": null,
-            "endpoints": null,
-            "models": null,
-            "tools": null,
-            "triggers": null
-        },
-        "privacy_options": "",
-        "privacy_policy": "",
-        "repository": null,
-        "status": "active",
-        "tags": [
-            {
-                "name": "agent"
-            }
-        ],
-        "type": "plugin",
-        "verification": {
-            "authorized_category": "langgenius"
-        },
-        "version_updated_at": "2026-09-03T01:43:43Z"
-    },
-    {
-        "badges": [],
-        "brief": {
             "en_US": "A skill-based agent strategy that loads reusable task skills and guides the model to execute work with repeatable playbooks.",
             "zh_Hans": "AI码力出品的 Skill Agent 策略插件，可加载可复用任务技能，让模型按稳定的方法论执行任务。"
         },
         "category": "agent-strategy",
         "icon": "aimali/packages/aimali_skill_agent/_assets/icon.jpeg",
         "index_id": "aimali___aimali_skill_agent",
-        "install_count": 1001,
+        "install_count": 1016,
         "label": {
             "en_US": "AI Maly Skill Agent",
             "zh_Hans": "AI码力 Skill Agent"
@@ -426,7 +426,7 @@
         "category": "agent-strategy",
         "icon": "ki3nd/packages/agentfs/_assets/icon.svg",
         "index_id": "ki3nd___agentfs",
-        "install_count": 315,
+        "install_count": 323,
         "label": {
             "en_US": "AgentFS",
             "ja_JP": "AgentFS",
@@ -470,7 +470,7 @@
         "category": "agent-strategy",
         "icon": "zhou0928/packages/plan-executor-agent/_assets/icon.svg",
         "index_id": "zhou0928___plan-executor-agent",
-        "install_count": 107,
+        "install_count": 132,
         "label": {
             "en_US": "Plan-Executor Agent",
             "ja_JP": "計画実行エージェント",
@@ -511,7 +511,7 @@
         "category": "agent-strategy",
         "icon": "gitpoldan/packages/tool_capture_agent/_assets/icon.svg",
         "index_id": "gitpoldan___tool_capture_agent",
-        "install_count": 78,
+        "install_count": 97,
         "label": {
             "en_US": "Tool-Capture Agent"
         },
