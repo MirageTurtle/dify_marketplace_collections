@@ -8,7 +8,7 @@
         "category": "extension",
         "icon": "hjlarry/packages/mcp-server/_assets/icon.svg",
         "index_id": "hjlarry___mcp-server",
-        "install_count": 50977,
+        "install_count": 50987,
         "label": {
             "en_US": "MCP server"
         },
@@ -47,7 +47,7 @@
         "category": "extension",
         "icon": "langgenius/packages/oaicompat_dify_app/_assets/icon.svg",
         "index_id": "langgenius___oaicompat_dify_app",
-        "install_count": 42489,
+        "install_count": 42611,
         "label": {
             "en_US": "OpenAI Compatible Dify App",
             "ja_JP": "OpenAI Compatible Dify App",
@@ -89,7 +89,7 @@
         "category": "extension",
         "icon": "junjiem/packages/mcp_compat_dify_tools/_assets/icon.svg",
         "index_id": "junjiem___mcp_compat_dify_tools",
-        "install_count": 18313,
+        "install_count": 18316,
         "label": {
             "en_US": "MCP Compatible Dify Tools",
             "zh_Hans": "MCP Compatible Dify Tools"
@@ -129,7 +129,7 @@
         "category": "extension",
         "icon": "langgenius/packages/oaicompat_dify_model/_assets/icon.svg",
         "index_id": "langgenius___oaicompat_dify_model",
-        "install_count": 16827,
+        "install_count": 16882,
         "label": {
             "en_US": "OpenAI Compatible Dify Models",
             "ja_JP": "OpenAI Compatible Dify Models",
@@ -171,7 +171,7 @@
         "category": "extension",
         "icon": "svcvit/packages/artifacts/_assets/icon.svg",
         "index_id": "svcvit___artifacts",
-        "install_count": 14816,
+        "install_count": 14818,
         "label": {
             "en_US": "Artifacts"
         },
@@ -210,7 +210,7 @@
         "category": "extension",
         "icon": "bikeread/packages/dify_wechat_plugin/_assets/icon.svg",
         "index_id": "bikeread___dify_wechat_plugin",
-        "install_count": 14465,
+        "install_count": 14469,
         "label": {
             "en_US": "Wechat Subscription Account",
             "ja_JP": "ウェチャットサブスクリプションアカウント",
@@ -251,7 +251,7 @@
         "category": "extension",
         "icon": "perzeuss/packages/webhook/_assets/icon.svg",
         "index_id": "perzeuss___webhook",
-        "install_count": 12363,
+        "install_count": 12365,
         "label": {
             "en_US": "Webhook",
             "pt_BR": "Webhook",
@@ -291,7 +291,7 @@
         "category": "extension",
         "icon": "langgenius/packages/wecom-bot/_assets/icon.svg",
         "index_id": "langgenius___wecom-bot",
-        "install_count": 11347,
+        "install_count": 11404,
         "label": {
             "en_US": "WeCom Bot",
             "ja_JP": "WeCom Bot",
@@ -334,7 +334,7 @@
         "category": "extension",
         "icon": "langgenius/packages/slack-bot/_assets/icon.svg",
         "index_id": "langgenius___slack-bot",
-        "install_count": 9607,
+        "install_count": 9660,
         "label": {
             "en_US": "Slack Bot",
             "ja_JP": "Slack Bot",
@@ -380,7 +380,7 @@
         "category": "extension",
         "icon": "plutoless/packages/convoai/_assets/icon.svg",
         "index_id": "plutoless___convoai",
-        "install_count": 9266,
+        "install_count": 9313,
         "label": {
             "en_US": "Agora Conversational AI",
             "ja_JP": "Agora Conversational AI",
@@ -422,7 +422,7 @@
         "category": "extension",
         "icon": "kevintsai/packages/linebot/_assets/LINE_Brand_icon.png",
         "index_id": "kevintsai___linebot",
-        "install_count": 6071,
+        "install_count": 6134,
         "label": {
             "en_US": "Line Bot",
             "ja_JP": "Line Bot",
@@ -534,43 +534,6 @@
     {
         "badges": [],
         "brief": {
-            "en_US": "Your waifu is here.",
-            "zh_Hans": "你的老婆在这里。"
-        },
-        "category": "extension",
-        "icon": "yeuoly/packages/waifu/_assets/waifu.gif",
-        "index_id": "yeuoly___waifu",
-        "install_count": 3817,
-        "label": {
-            "en_US": "Waifu"
-        },
-        "latest_package_identifier": "yeuoly/waifu:0.0.1@84fda67ff270c1835d754f906394970e210db167149603c77aab4de006366566",
-        "latest_version": "0.0.1",
-        "name": "waifu",
-        "org": "yeuoly",
-        "plugin_id": "yeuoly/waifu",
-        "plugins": {
-            "agent_strategies": null,
-            "endpoints": [
-                "provider/waifu.yaml"
-            ],
-            "models": null,
-            "tools": null
-        },
-        "privacy_options": "",
-        "privacy_policy": "",
-        "repository": "",
-        "status": "active",
-        "tags": [],
-        "type": "plugin",
-        "verification": {
-            "authorized_category": "community"
-        },
-        "version_updated_at": "2025-03-07T13:34:40Z"
-    },
-    {
-        "badges": [],
-        "brief": {
             "en_US": "LlamaCloud client as API Endpoint to connect Dify External Knowledge Base",
             "ja_JP": "Dify外部ナレッジベースに接続するためのLlamaCloud APIエンドポイントクライアント",
             "pt_BR": "Cliente LlamaCloud como endpoint de API para conectar à Base de Conhecimento Externa do Dify",
@@ -579,7 +542,7 @@
         "category": "extension",
         "icon": "langgenius/packages/llamacloud/_assets/icon.svg",
         "index_id": "langgenius___llamacloud",
-        "install_count": 3815,
+        "install_count": 3842,
         "label": {
             "en_US": "Llamacloud",
             "ja_JP": "Llamacloud",
@@ -615,6 +578,43 @@
     {
         "badges": [],
         "brief": {
+            "en_US": "Your waifu is here.",
+            "zh_Hans": "你的老婆在这里。"
+        },
+        "category": "extension",
+        "icon": "yeuoly/packages/waifu/_assets/waifu.gif",
+        "index_id": "yeuoly___waifu",
+        "install_count": 3819,
+        "label": {
+            "en_US": "Waifu"
+        },
+        "latest_package_identifier": "yeuoly/waifu:0.0.1@84fda67ff270c1835d754f906394970e210db167149603c77aab4de006366566",
+        "latest_version": "0.0.1",
+        "name": "waifu",
+        "org": "yeuoly",
+        "plugin_id": "yeuoly/waifu",
+        "plugins": {
+            "agent_strategies": null,
+            "endpoints": [
+                "provider/waifu.yaml"
+            ],
+            "models": null,
+            "tools": null
+        },
+        "privacy_options": "",
+        "privacy_policy": "",
+        "repository": "",
+        "status": "active",
+        "tags": [],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "community"
+        },
+        "version_updated_at": "2025-03-07T13:34:40Z"
+    },
+    {
+        "badges": [],
+        "brief": {
             "en_US": "Helps you use LLM to generate mind maps and flowcharts on canvas.",
             "ja_JP": "LLMを使用してマインドマップやフローチャートを生成することができます。",
             "pt_BR": "Permite gerar mapas mentais e fluxogramas usando LLM.",
@@ -623,7 +623,7 @@
         "category": "extension",
         "icon": "hjlarry/packages/draw/_assets/icon.svg",
         "index_id": "hjlarry___draw",
-        "install_count": 2827,
+        "install_count": 2829,
         "label": {
             "en_US": "draw",
             "ja_JP": "draw",
@@ -663,7 +663,7 @@
         "category": "extension",
         "icon": "nacos/packages/a2a_server/_assets/icon.png",
         "index_id": "nacos___a2a_server",
-        "install_count": 2565,
+        "install_count": 2570,
         "label": {
             "en_US": "A2A Server",
             "zh_Hans": "A2A Server"
@@ -704,7 +704,7 @@
         "category": "extension",
         "icon": "anspire/packages/wecom-bot/_assets/icon.svg",
         "index_id": "anspire___wecom-bot",
-        "install_count": 2564,
+        "install_count": 2565,
         "label": {
             "en_US": "wecom-bot",
             "pt_BR": "wecom-bot",
@@ -747,7 +747,7 @@
         "category": "extension",
         "icon": "langgenius/packages/aws_bedrock_knowledge_base/_assets/icon.svg",
         "index_id": "langgenius___aws_bedrock_knowledge_base",
-        "install_count": 2289,
+        "install_count": 2305,
         "label": {
             "en_US": "Aws Bedrock Knowledge Base",
             "ja_JP": "Aws Bedrock Knowledge Base",
@@ -790,7 +790,7 @@
         "category": "extension",
         "icon": "zoku-777/packages/dify_dsl_flowchart_export/_assets/icon.svg",
         "index_id": "zoku-777___dify_dsl_flowchart_export",
-        "install_count": 2196,
+        "install_count": 2198,
         "label": {
             "en_US": "Dify DSL Flowchart Convertor",
             "ja_JP": "DifyフローDSLフロチャート変換",
@@ -872,7 +872,7 @@
         "category": "extension",
         "icon": "bytedance_vikingdb/packages/vikingdb_knowledge_base/_assets/icon.svg",
         "index_id": "bytedance_vikingdb___vikingdb_knowledge_base",
-        "install_count": 1961,
+        "install_count": 1965,
         "label": {
             "en_US": "Vikingdb Knowledge Base",
             "ja_JP": "Vikingdb Knowledge Base",
@@ -916,7 +916,7 @@
         "category": "extension",
         "icon": "langgenius/packages/badapple/_assets/icon.svg",
         "index_id": "langgenius___badapple",
-        "install_count": 1599,
+        "install_count": 1610,
         "label": {
             "en_US": "Bad Apple",
             "ja_JP": "Bad Apple",
@@ -1371,8 +1371,8 @@
             "pt_BR": "Slack Support Agent",
             "zh_Hans": "Slack Support Agent"
         },
-        "latest_package_identifier": "fr3on/slack-support-agent:0.0.2@8bd5c0f587d3a4fefa5f507cbb52b0df5165c08e6023185591891d017238a751",
-        "latest_version": "0.0.2",
+        "latest_package_identifier": "fr3on/slack-support-agent:0.0.4@61fc79811f74f0fc03ca22619f2f6e5add807b77ebdd75190874133ee2094524",
+        "latest_version": "0.0.4",
         "name": "slack-support-agent",
         "org": "fr3on",
         "plugin_id": "fr3on/slack-support-agent",
@@ -1402,7 +1402,7 @@
         "verification": {
             "authorized_category": "community"
         },
-        "version_updated_at": "2026-09-14T01:27:29Z"
+        "version_updated_at": "2026-09-26T01:46:12Z"
     },
     {
         "badges": [],
