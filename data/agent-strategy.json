@@ -8,13 +8,13 @@
         "category": "agent-strategy",
         "icon": "langgenius/packages/agent/_assets/icon.svg",
         "index_id": "langgenius___agent",
-        "install_count": 751724,
+        "install_count": 755344,
         "label": {
             "en_US": "Dify Agent Strategies",
             "zh_Hans": "Dify Agent 策略"
         },
-        "latest_package_identifier": "langgenius/agent:0.0.48@99de9973618f0c0869e7235160667ffaddb31c6e446961671623c01d9631edce",
-        "latest_version": "0.0.48",
+        "latest_package_identifier": "langgenius/agent:0.0.50@bf1040682cc9e1e5caf9b4670531639c440bf9448025cd5ee0915fdcf7a921f3",
+        "latest_version": "0.0.50",
         "name": "agent",
         "org": "langgenius",
         "plugin_id": "langgenius/agent",
@@ -41,7 +41,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-09-24T03:05:15Z"
+        "version_updated_at": "2026-09-28T02:36:49Z"
     },
     {
         "badges": [],
@@ -52,7 +52,7 @@
         "category": "agent-strategy",
         "icon": "junjiem/packages/mcp_see_agent/_assets/icon.svg",
         "index_id": "junjiem___mcp_see_agent",
-        "install_count": 143390,
+        "install_count": 143465,
         "label": {
             "en_US": "Agent Strategies (Support MCP Tools)",
             "zh_Hans": "Agent 策略（支持 MCP 工具）"
@@ -90,7 +90,7 @@
         "category": "agent-strategy",
         "icon": "hjlarry/packages/agent/_assets/icon.svg",
         "index_id": "hjlarry___agent",
-        "install_count": 59221,
+        "install_count": 59246,
         "label": {
             "en_US": "MCP Agent Strategy",
             "zh_Hans": "MCP Agent 策略"
@@ -132,7 +132,7 @@
         "category": "agent-strategy",
         "icon": "svcvit/packages/agent/_assets/icon.svg",
         "index_id": "svcvit___agent",
-        "install_count": 53641,
+        "install_count": 53669,
         "label": {
             "en_US": "Dialogue Agent",
             "zh_Hans": "对话 Agent"
@@ -174,7 +174,7 @@
         "category": "agent-strategy",
         "icon": "xun404/packages/agent-skill-plugin/_assets/icon.svg",
         "index_id": "xun404___agent-skill-plugin",
-        "install_count": 20381,
+        "install_count": 20608,
         "label": {
             "en_US": "Agent Skill Plugin",
             "zh_Hans": "Agent Skill技能插件"
@@ -214,7 +214,7 @@
         "category": "agent-strategy",
         "icon": "allenyzx/packages/enhancing_function_agent/_assets/icon.png",
         "index_id": "allenyzx___enhancing_function_agent",
-        "install_count": 12627,
+        "install_count": 12636,
         "label": {
             "en_US": "Enhancing Agent",
             "zh_Hans": "Enhancing Agent"
@@ -254,7 +254,7 @@
         "category": "agent-strategy",
         "icon": "ssf/packages/mcp_agent/_assets/icon.svg",
         "index_id": "ssf___mcp_agent",
-        "install_count": 6811,
+        "install_count": 6824,
         "label": {
             "en_US": "mcp_agent",
             "ja_JP": "mcp_agent",
@@ -296,7 +296,7 @@
         "category": "agent-strategy",
         "icon": "langgenius/packages/self_refine_agent/_assets/icon.svg",
         "index_id": "langgenius___self_refine_agent",
-        "install_count": 1716,
+        "install_count": 1735,
         "label": {
             "en_US": "Self-Refine Agent Strategy",
             "zh_Hans": "自我优化 Agent 策略"
@@ -342,7 +342,7 @@
         "category": "agent-strategy",
         "icon": "ki3nd/packages/sandbox-agent/_assets/icon.svg",
         "index_id": "ki3nd___sandbox-agent",
-        "install_count": 1370,
+        "install_count": 1378,
         "label": {
             "en_US": "Sandbox Agent",
             "ja_JP": "サンドボックスエージェント",
@@ -384,7 +384,7 @@
         "category": "agent-strategy",
         "icon": "aimali/packages/aimali_skill_agent/_assets/icon.jpeg",
         "index_id": "aimali___aimali_skill_agent",
-        "install_count": 1032,
+        "install_count": 1037,
         "label": {
             "en_US": "AI Maly Skill Agent",
             "zh_Hans": "AI码力 Skill Agent"
@@ -426,7 +426,7 @@
         "category": "agent-strategy",
         "icon": "ki3nd/packages/agentfs/_assets/icon.svg",
         "index_id": "ki3nd___agentfs",
-        "install_count": 333,
+        "install_count": 339,
         "label": {
             "en_US": "AgentFS",
             "ja_JP": "AgentFS",
@@ -470,7 +470,7 @@
         "category": "agent-strategy",
         "icon": "zhou0928/packages/plan-executor-agent/_assets/icon.svg",
         "index_id": "zhou0928___plan-executor-agent",
-        "install_count": 173,
+        "install_count": 179,
         "label": {
             "en_US": "Plan-Executor Agent",
             "ja_JP": "計画実行エージェント",
@@ -511,7 +511,7 @@
         "category": "agent-strategy",
         "icon": "gitpoldan/packages/tool_capture_agent/_assets/icon.svg",
         "index_id": "gitpoldan___tool_capture_agent",
-        "install_count": 104,
+        "install_count": 107,
         "label": {
             "en_US": "Tool-Capture Agent"
         },
@@ -544,5 +544,45 @@
             "authorized_category": "community"
         },
         "version_updated_at": "2026-09-02T12:50:30Z"
+    },
+    {
+        "badges": [],
+        "brief": {
+            "en_US": "Agent strategy for Backend Copilot: plans multi-step tool calls, executes them against your registered backend catalog, replans on errors. Read-only guardrails by default. Requires the backend-copilot tools plugin.",
+            "zh_Hans": "后端副驾驶 Agent 策略：多步规划→执行→按需重规划，配合 backend-copilot 工具插件查询任意已登记的后端接口。默认只读护栏。"
+        },
+        "category": "agent-strategy",
+        "icon": "zhou0928/packages/backend-copilot-agent/_assets/icon.svg",
+        "index_id": "zhou0928___backend-copilot-agent",
+        "install_count": 2,
+        "label": {
+            "en_US": "Backend Copilot Agent",
+            "zh_Hans": "后端副驾驶 Agent"
+        },
+        "latest_package_identifier": "zhou0928/backend-copilot-agent:0.2.0@38423d6a83e041f258931c7525ec50ae6918c1d2332d0dbb81922074f666b6c1",
+        "latest_version": "0.2.0",
+        "name": "backend-copilot-agent",
+        "org": "zhou0928",
+        "plugin_id": "zhou0928/backend-copilot-agent",
+        "plugins": {
+            "agent_strategies": [
+                "provider/backend-copilot.yaml"
+            ],
+            "datasources": null,
+            "endpoints": null,
+            "models": null,
+            "tools": null,
+            "triggers": null
+        },
+        "privacy_options": "",
+        "privacy_policy": "PRIVACY.md",
+        "repository": "https://github.com/zhou0928/backend-copilot",
+        "status": "active",
+        "tags": [],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "community"
+        },
+        "version_updated_at": "2026-09-28T01:45:09Z"
     }
 ]
