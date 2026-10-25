@@ -8,13 +8,13 @@
         "category": "agent-strategy",
         "icon": "langgenius/packages/agent/_assets/icon.svg",
         "index_id": "langgenius___agent",
-        "install_count": 831928,
+        "install_count": 852846,
         "label": {
             "en_US": "Dify Agent Strategies",
             "zh_Hans": "Dify Agent 策略"
         },
-        "latest_package_identifier": "langgenius/agent:0.0.50@bf1040682cc9e1e5caf9b4670531639c440bf9448025cd5ee0915fdcf7a921f3",
-        "latest_version": "0.0.50",
+        "latest_package_identifier": "langgenius/agent:0.0.51@3c6c32e593b33476cb52f4e5aaf1bf23e1c71b3d07ba64d40690e0dbce3a7e34",
+        "latest_version": "0.0.51",
         "name": "agent",
         "org": "langgenius",
         "plugin_id": "langgenius/agent",
@@ -41,7 +41,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-10-07T11:55:54Z"
+        "version_updated_at": "2026-10-24T05:08:21Z"
     },
     {
         "badges": [],
@@ -52,7 +52,7 @@
         "category": "agent-strategy",
         "icon": "junjiem/packages/mcp_see_agent/_assets/icon.svg",
         "index_id": "junjiem___mcp_see_agent",
-        "install_count": 145924,
+        "install_count": 145996,
         "label": {
             "en_US": "Agent Strategies (Support MCP Tools)",
             "zh_Hans": "Agent 策略（支持 MCP 工具）"
@@ -90,7 +90,7 @@
         "category": "agent-strategy",
         "icon": "hjlarry/packages/agent/_assets/icon.svg",
         "index_id": "hjlarry___agent",
-        "install_count": 60087,
+        "install_count": 60109,
         "label": {
             "en_US": "MCP Agent Strategy",
             "zh_Hans": "MCP Agent 策略"
@@ -132,7 +132,7 @@
         "category": "agent-strategy",
         "icon": "svcvit/packages/agent/_assets/icon.svg",
         "index_id": "svcvit___agent",
-        "install_count": 54309,
+        "install_count": 54328,
         "label": {
             "en_US": "Dialogue Agent",
             "zh_Hans": "对话 Agent"
@@ -174,7 +174,7 @@
         "category": "agent-strategy",
         "icon": "xun404/packages/agent-skill-plugin/_assets/icon.svg",
         "index_id": "xun404___agent-skill-plugin",
-        "install_count": 28055,
+        "install_count": 28347,
         "label": {
             "en_US": "Agent Skill Plugin",
             "zh_Hans": "Agent Skill技能插件"
@@ -214,7 +214,7 @@
         "category": "agent-strategy",
         "icon": "allenyzx/packages/enhancing_function_agent/_assets/icon.png",
         "index_id": "allenyzx___enhancing_function_agent",
-        "install_count": 12834,
+        "install_count": 12839,
         "label": {
             "en_US": "Enhancing Agent",
             "zh_Hans": "Enhancing Agent"
@@ -254,7 +254,7 @@
         "category": "agent-strategy",
         "icon": "ssf/packages/mcp_agent/_assets/icon.svg",
         "index_id": "ssf___mcp_agent",
-        "install_count": 7195,
+        "install_count": 7203,
         "label": {
             "en_US": "mcp_agent",
             "ja_JP": "mcp_agent",
@@ -296,13 +296,13 @@
         "category": "agent-strategy",
         "icon": "langgenius/packages/self_refine_agent/_assets/icon.svg",
         "index_id": "langgenius___self_refine_agent",
-        "install_count": 2209,
+        "install_count": 2618,
         "label": {
             "en_US": "Self-Refine Agent Strategy",
             "zh_Hans": "自我优化 Agent 策略"
         },
-        "latest_package_identifier": "langgenius/self_refine_agent:0.0.4@978b5bdb5475e065fb2ddb09123480f9a7506b71465ab27f2e43a7cd2bde5c64",
-        "latest_version": "0.0.4",
+        "latest_package_identifier": "langgenius/self_refine_agent:0.0.5@3833ccc4711590fd9f6ef7fdf7498a4751f4db4f7ed5ffc412d41b56129a367e",
+        "latest_version": "0.0.5",
         "name": "self_refine_agent",
         "org": "langgenius",
         "plugin_id": "langgenius/self_refine_agent",
@@ -329,7 +329,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-10-07T11:55:53Z"
+        "version_updated_at": "2026-10-24T05:08:19Z"
     },
     {
         "badges": [],
@@ -342,7 +342,7 @@
         "category": "agent-strategy",
         "icon": "ki3nd/packages/sandbox-agent/_assets/icon.svg",
         "index_id": "ki3nd___sandbox-agent",
-        "install_count": 1524,
+        "install_count": 1529,
         "label": {
             "en_US": "Sandbox Agent",
             "ja_JP": "サンドボックスエージェント",
@@ -384,7 +384,7 @@
         "category": "agent-strategy",
         "icon": "aimali/packages/aimali_skill_agent/_assets/icon.jpeg",
         "index_id": "aimali___aimali_skill_agent",
-        "install_count": 1163,
+        "install_count": 1165,
         "label": {
             "en_US": "AI Maly Skill Agent",
             "zh_Hans": "AI码力 Skill Agent"
@@ -414,6 +414,50 @@
             "authorized_category": "community"
         },
         "version_updated_at": "2026-06-13T11:23:43Z"
+    },
+    {
+        "badges": [],
+        "brief": {
+            "en_US": "Plan-and-Execute agent strategy: generates a structured step-by-step plan first, then executes with tool awareness; automatically replans when a step fails or results deviate from the plan. Supports streaming output, parallel step execution, file input, and execution metadata reporting.",
+            "ja_JP": "Plan-and-Execute エージェント戦略：まず構造化されたステップごとの計画を生成し、ツール認識を持って段階的に実行します。ステップの失敗や計画からの逸脱時には自動的に再プランニングし、ストリーミング出力、並列ステップ実行、ファイル入力、実行メタデータの報告をサポートします。",
+            "pt_BR": "Estratégia de agente Plan-and-Execute: primeiro gera um plano estruturado passo a passo, depois executa com percepção de ferramentas; replaneja automaticamente quando uma etapa falha ou os resultados se desviam do plano. Suporta saída em streaming, execução paralela de etapas, entrada de arquivos e relatório de metadados de execução.",
+            "zh_Hans": "Plan-and-Execute 先规划再执行策略：先生成结构化分步计划，再带工具感知逐步执行；步骤失败或偏离计划时自动重规划，支持流式输出、并行步骤执行、文件输入与执行元数据上报"
+        },
+        "category": "agent-strategy",
+        "icon": "zhou0928/packages/plan-executor-agent/_assets/icon.svg",
+        "index_id": "zhou0928___plan-executor-agent",
+        "install_count": 426,
+        "label": {
+            "en_US": "Plan-Executor Agent",
+            "ja_JP": "計画実行エージェント",
+            "pt_BR": "Agente Plan-Executor",
+            "zh_Hans": "计划执行 Agent"
+        },
+        "latest_package_identifier": "zhou0928/plan-executor-agent:0.2.2@e42400ca107fa21797d8b8c9cf5fa8f2eed42fc86c9c4266d98c21dd9a8a57c4",
+        "latest_version": "0.2.2",
+        "name": "plan-executor-agent",
+        "org": "zhou0928",
+        "plugin_id": "zhou0928/plan-executor-agent",
+        "plugins": {
+            "agent_strategies": [
+                "provider/plan-executor-agent.yaml"
+            ],
+            "datasources": null,
+            "endpoints": null,
+            "models": null,
+            "tools": null,
+            "triggers": null
+        },
+        "privacy_options": "",
+        "privacy_policy": "PRIVACY.md",
+        "repository": "https://github.com/zhou0928/plan-executor-agent",
+        "status": "active",
+        "tags": [],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "community"
+        },
+        "version_updated_at": "2026-09-15T14:00:13Z"
     },
     {
         "badges": [],
@@ -458,50 +502,6 @@
             "authorized_category": "community"
         },
         "version_updated_at": "2026-07-20T06:20:58Z"
-    },
-    {
-        "badges": [],
-        "brief": {
-            "en_US": "Plan-and-Execute agent strategy: generates a structured step-by-step plan first, then executes with tool awareness; automatically replans when a step fails or results deviate from the plan. Supports streaming output, parallel step execution, file input, and execution metadata reporting.",
-            "ja_JP": "Plan-and-Execute エージェント戦略：まず構造化されたステップごとの計画を生成し、ツール認識を持って段階的に実行します。ステップの失敗や計画からの逸脱時には自動的に再プランニングし、ストリーミング出力、並列ステップ実行、ファイル入力、実行メタデータの報告をサポートします。",
-            "pt_BR": "Estratégia de agente Plan-and-Execute: primeiro gera um plano estruturado passo a passo, depois executa com percepção de ferramentas; replaneja automaticamente quando uma etapa falha ou os resultados se desviam do plano. Suporta saída em streaming, execução paralela de etapas, entrada de arquivos e relatório de metadados de execução.",
-            "zh_Hans": "Plan-and-Execute 先规划再执行策略：先生成结构化分步计划，再带工具感知逐步执行；步骤失败或偏离计划时自动重规划，支持流式输出、并行步骤执行、文件输入与执行元数据上报"
-        },
-        "category": "agent-strategy",
-        "icon": "zhou0928/packages/plan-executor-agent/_assets/icon.svg",
-        "index_id": "zhou0928___plan-executor-agent",
-        "install_count": 417,
-        "label": {
-            "en_US": "Plan-Executor Agent",
-            "ja_JP": "計画実行エージェント",
-            "pt_BR": "Agente Plan-Executor",
-            "zh_Hans": "计划执行 Agent"
-        },
-        "latest_package_identifier": "zhou0928/plan-executor-agent:0.2.2@e42400ca107fa21797d8b8c9cf5fa8f2eed42fc86c9c4266d98c21dd9a8a57c4",
-        "latest_version": "0.2.2",
-        "name": "plan-executor-agent",
-        "org": "zhou0928",
-        "plugin_id": "zhou0928/plan-executor-agent",
-        "plugins": {
-            "agent_strategies": [
-                "provider/plan-executor-agent.yaml"
-            ],
-            "datasources": null,
-            "endpoints": null,
-            "models": null,
-            "tools": null,
-            "triggers": null
-        },
-        "privacy_options": "",
-        "privacy_policy": "PRIVACY.md",
-        "repository": "https://github.com/zhou0928/plan-executor-agent",
-        "status": "active",
-        "tags": [],
-        "type": "plugin",
-        "verification": {
-            "authorized_category": "community"
-        },
-        "version_updated_at": "2026-09-15T14:00:13Z"
     },
     {
         "badges": [],
@@ -554,7 +554,7 @@
         "category": "agent-strategy",
         "icon": "zhou0928/packages/backend-copilot-agent/_assets/icon.svg",
         "index_id": "zhou0928___backend-copilot-agent",
-        "install_count": 115,
+        "install_count": 118,
         "label": {
             "en_US": "Backend Copilot Agent",
             "zh_Hans": "后端副驾驶 Agent"
