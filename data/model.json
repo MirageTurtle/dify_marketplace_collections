@@ -8,7 +8,7 @@
         "category": "model",
         "icon": "langgenius/packages/deepseek/_assets/icon.svg",
         "index_id": "langgenius___deepseek",
-        "install_count": 2168215,
+        "install_count": 2175530,
         "label": {
             "en_US": "DeepSeek",
             "zh_Hans": "深度求索"
@@ -48,7 +48,7 @@
         "category": "model",
         "icon": "langgenius/packages/tongyi/_assets/icon.svg",
         "index_id": "langgenius___tongyi",
-        "install_count": 1794559,
+        "install_count": 1838449,
         "label": {
             "en_US": "Tongyi",
             "zh_Hans": "通义"
@@ -88,13 +88,13 @@
         "category": "model",
         "icon": "langgenius/packages/volcengine_maas/_assets/icon.svg",
         "index_id": "langgenius___volcengine_maas",
-        "install_count": 1412931,
+        "install_count": 1424002,
         "label": {
             "en_US": "Volcengine Ark (Endpoint)",
             "zh_Hans": "火山方舟（接入点）"
         },
-        "latest_package_identifier": "langgenius/volcengine_maas:0.0.56@07a6ddca989f42ce0e87bc17c8f608a293cf2964c955d457a7bc20fe08003638",
-        "latest_version": "0.0.56",
+        "latest_package_identifier": "langgenius/volcengine_maas:0.0.57@40e4d13170069282a3b67f3592636761257017f171093636b0a35dc761009231",
+        "latest_version": "0.0.57",
         "name": "volcengine_maas",
         "org": "langgenius",
         "plugin_id": "langgenius/volcengine_maas",
@@ -117,7 +117,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-10-24T05:07:29Z"
+        "version_updated_at": "2026-10-26T05:10:38Z"
     },
     {
         "badges": [],
@@ -128,12 +128,12 @@
         "category": "model",
         "icon": "langgenius/packages/openai_api_compatible/_assets/icon.svg",
         "index_id": "langgenius___openai_api_compatible",
-        "install_count": 1375131,
+        "install_count": 1406272,
         "label": {
             "en_US": "OpenAI-API-compatible"
         },
-        "latest_package_identifier": "langgenius/openai_api_compatible:0.0.72@87f3c4c7acee9ff03ac2c04ba8191edc5ea87cd53e36af1bbf1ccd13f00352a4",
-        "latest_version": "0.0.72",
+        "latest_package_identifier": "langgenius/openai_api_compatible:0.0.73@4cf123ffaa4556f079bed6c47f3a462cc825504b859b183239e74eb19136a4b5",
+        "latest_version": "0.0.73",
         "name": "openai_api_compatible",
         "org": "langgenius",
         "plugin_id": "langgenius/openai_api_compatible",
@@ -156,7 +156,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-10-26T03:49:54Z"
+        "version_updated_at": "2026-10-27T01:06:11Z"
     },
     {
         "badges": [
@@ -169,7 +169,7 @@
         "category": "model",
         "icon": "langgenius/packages/openai/_assets/icon.svg",
         "index_id": "langgenius___openai",
-        "install_count": 1189242,
+        "install_count": 1191213,
         "label": {
             "en_US": "OpenAI"
         },
@@ -207,7 +207,7 @@
         "category": "model",
         "icon": "langgenius/packages/ollama/_assets/icon.svg",
         "index_id": "langgenius___ollama",
-        "install_count": 1043083,
+        "install_count": 1044940,
         "label": {
             "en_US": "Ollama"
         },
@@ -246,7 +246,7 @@
         "category": "model",
         "icon": "langgenius/packages/hunyuan/_assets/icon.svg",
         "index_id": "langgenius___hunyuan",
-        "install_count": 990590,
+        "install_count": 992412,
         "label": {
             "en_US": "Hunyuan",
             "zh_Hans": "腾讯混元"
@@ -288,7 +288,7 @@
         "category": "model",
         "icon": "langgenius/packages/siliconflow/_assets/icon.svg",
         "index_id": "langgenius___siliconflow",
-        "install_count": 839270,
+        "install_count": 841580,
         "label": {
             "en_US": "SiliconFlow",
             "zh_Hans": "硅基流动"
@@ -328,7 +328,7 @@
         "category": "model",
         "icon": "langgenius/packages/gemini/_assets/icon.svg",
         "index_id": "langgenius___gemini",
-        "install_count": 755485,
+        "install_count": 756251,
         "label": {
             "en_US": "Gemini"
         },
@@ -367,7 +367,7 @@
         "category": "model",
         "icon": "langgenius/packages/anthropic/_assets/icon.svg",
         "index_id": "langgenius___anthropic",
-        "install_count": 598079,
+        "install_count": 635194,
         "label": {
             "en_US": "Anthropic"
         },
@@ -405,7 +405,7 @@
         "category": "model",
         "icon": "langgenius/packages/azure_openai/_assets/icon.svg",
         "index_id": "langgenius___azure_openai",
-        "install_count": 340089,
+        "install_count": 341079,
         "label": {
             "en_US": "Azure OpenAI"
         },
@@ -443,7 +443,7 @@
         "category": "model",
         "icon": "langgenius/packages/xinference/_assets/icon.svg",
         "index_id": "langgenius___xinference",
-        "install_count": 320603,
+        "install_count": 321546,
         "label": {
             "en_US": "Xorbits Inference"
         },
@@ -486,12 +486,12 @@
         "category": "model",
         "icon": "langgenius/packages/openrouter/_assets/icon.svg",
         "index_id": "langgenius___openrouter",
-        "install_count": 277711,
+        "install_count": 290420,
         "label": {
             "en_US": "OpenRouter"
         },
-        "latest_package_identifier": "langgenius/openrouter:0.1.11@16e121bde5961b0a4dab636d8769bd70aff14fba80e05e200b30ccb2cf23cec5",
-        "latest_version": "0.1.11",
+        "latest_package_identifier": "langgenius/openrouter:0.1.12@abecfe116195e4d51d4f8f10e07dee6aceeed73bf4b6f96334a336e0511ddf68",
+        "latest_version": "0.1.12",
         "name": "openrouter",
         "org": "langgenius",
         "plugin_id": "langgenius/openrouter",
@@ -514,7 +514,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-10-24T04:51:02Z"
+        "version_updated_at": "2026-10-26T05:10:38Z"
     },
     {
         "badges": [],
@@ -525,7 +525,7 @@
         "category": "model",
         "icon": "langgenius/packages/minimax/_assets/icon.svg",
         "index_id": "langgenius___minimax",
-        "install_count": 275497,
+        "install_count": 276791,
         "label": {
             "en_US": "Minimax"
         },
@@ -564,7 +564,7 @@
         "category": "model",
         "icon": "langgenius/packages/zhipuai/_assets/icon.svg",
         "index_id": "langgenius___zhipuai",
-        "install_count": 205116,
+        "install_count": 206124,
         "label": {
             "en_US": "ZHIPU AI",
             "ja_JP": "ZHIPU AI",
@@ -605,7 +605,7 @@
         "category": "model",
         "icon": "langgenius/packages/jina/_assets/icon.svg",
         "index_id": "langgenius___jina",
-        "install_count": 196571,
+        "install_count": 197413,
         "label": {
             "en_US": "Jina"
         },
@@ -644,7 +644,7 @@
         "category": "model",
         "icon": "langgenius/packages/huggingface_tei/_assets/icon.svg",
         "index_id": "langgenius___huggingface_tei",
-        "install_count": 159199,
+        "install_count": 159542,
         "label": {
             "en_US": "Text Embedding Inference"
         },
@@ -677,46 +677,6 @@
     {
         "badges": [],
         "brief": {
-            "en_US": "Models provided by ModelScope",
-            "zh_Hans": "ModelScope 提供的模型"
-        },
-        "category": "model",
-        "icon": "langgenius/packages/modelscope/_assets/icon.svg",
-        "index_id": "langgenius___modelscope",
-        "install_count": 139956,
-        "label": {
-            "en_US": "ModelScope",
-            "zh_Hans": "魔搭社区"
-        },
-        "latest_package_identifier": "langgenius/modelscope:0.0.19@d8a2211ced98a43be6111d755859af026ad3c9d13ea77027c9e67842abf9f167",
-        "latest_version": "0.0.19",
-        "name": "modelscope",
-        "org": "langgenius",
-        "plugin_id": "langgenius/modelscope",
-        "plugins": {
-            "agent_strategies": null,
-            "datasources": null,
-            "endpoints": null,
-            "models": [
-                "provider/modelscope.yaml"
-            ],
-            "tools": null,
-            "triggers": null
-        },
-        "privacy_options": "",
-        "privacy_policy": "PRIVACY.md",
-        "repository": "",
-        "status": "active",
-        "tags": [],
-        "type": "plugin",
-        "verification": {
-            "authorized_category": "langgenius"
-        },
-        "version_updated_at": "2026-10-24T04:51:01Z"
-    },
-    {
-        "badges": [],
-        "brief": {
             "en_US": "The models of Amazon Bedrock",
             "ja_JP": "The models of Amazon Bedrock",
             "pt_BR": "The models of Amazon Bedrock",
@@ -725,7 +685,7 @@
         "category": "model",
         "icon": "langgenius/packages/bedrock/_assets/icon.svg",
         "index_id": "langgenius___bedrock",
-        "install_count": 138999,
+        "install_count": 142697,
         "label": {
             "en_US": "Amazon Bedrock",
             "ja_JP": "Amazon Bedrock",
@@ -761,19 +721,59 @@
     {
         "badges": [],
         "brief": {
-            "en_US": "Models provided by Moonshot, such as kimi-k3, kimi-k2.7-code, kimi-k2.6, kimi-k2.5, kimi-k2, moonshot-v1-8k, moonshot-v1-32k, and moonshot-v1-128k.",
-            "zh_Hans": "Moonshot 提供的模型，例如 kimi-k3, kimi-k2.7-code, kimi-k2.6, kimi-k2.5, kimi-k2, moonshot-v1-8k、moonshot-v1-32k 和 moonshot-v1-128k。"
+            "en_US": "Models provided by ModelScope",
+            "zh_Hans": "ModelScope 提供的模型"
+        },
+        "category": "model",
+        "icon": "langgenius/packages/modelscope/_assets/icon.svg",
+        "index_id": "langgenius___modelscope",
+        "install_count": 140207,
+        "label": {
+            "en_US": "ModelScope",
+            "zh_Hans": "魔搭社区"
+        },
+        "latest_package_identifier": "langgenius/modelscope:0.0.19@d8a2211ced98a43be6111d755859af026ad3c9d13ea77027c9e67842abf9f167",
+        "latest_version": "0.0.19",
+        "name": "modelscope",
+        "org": "langgenius",
+        "plugin_id": "langgenius/modelscope",
+        "plugins": {
+            "agent_strategies": null,
+            "datasources": null,
+            "endpoints": null,
+            "models": [
+                "provider/modelscope.yaml"
+            ],
+            "tools": null,
+            "triggers": null
+        },
+        "privacy_options": "",
+        "privacy_policy": "PRIVACY.md",
+        "repository": "",
+        "status": "active",
+        "tags": [],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "langgenius"
+        },
+        "version_updated_at": "2026-10-24T04:51:01Z"
+    },
+    {
+        "badges": [],
+        "brief": {
+            "en_US": "Models provided by Moonshot, such as kimi-k3.1-pro, kimi-k3.1-pro-highspeed, kimi-k3, kimi-k2.7-code, kimi-k2.6, kimi-k2.5, kimi-k2, moonshot-v1-8k, moonshot-v1-32k, and moonshot-v1-128k.",
+            "zh_Hans": "Moonshot 提供的模型，例如 kimi-k3.1-pro, kimi-k3.1-pro-highspeed, kimi-k3, kimi-k2.7-code, kimi-k2.6, kimi-k2.5, kimi-k2, moonshot-v1-8k、moonshot-v1-32k 和 moonshot-v1-128k。"
         },
         "category": "model",
         "icon": "langgenius/packages/moonshot/_assets/icon.svg",
         "index_id": "langgenius___moonshot",
-        "install_count": 124404,
+        "install_count": 130758,
         "label": {
             "en_US": "Moonshot",
             "zh_Hans": "月之暗面"
         },
-        "latest_package_identifier": "langgenius/moonshot:0.1.14@7f0a5a02268170457ffffd1579e5734db50ded3dae0b67ba45cc61447f269aac",
-        "latest_version": "0.1.14",
+        "latest_package_identifier": "langgenius/moonshot:0.1.15@b506958c3849d49b3d2a41ad086c18c15d848e8d64f33065f3d8568e60a6f2bb",
+        "latest_version": "0.1.15",
         "name": "moonshot",
         "org": "langgenius",
         "plugin_id": "langgenius/moonshot",
@@ -796,7 +796,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-10-24T04:51:01Z"
+        "version_updated_at": "2026-10-26T05:10:37Z"
     },
     {
         "badges": [],
@@ -806,7 +806,7 @@
         "category": "model",
         "icon": "langgenius/packages/x/_assets/icon.svg",
         "index_id": "langgenius___x",
-        "install_count": 121712,
+        "install_count": 121926,
         "label": {
             "en_US": "xAI"
         },
@@ -847,7 +847,7 @@
         "category": "model",
         "icon": "yangyaofei/packages/vllm/_assets/vLLM-Logo.svg",
         "index_id": "yangyaofei___vllm",
-        "install_count": 115446,
+        "install_count": 115823,
         "label": {
             "en_US": "vllm",
             "ja_JP": "vllm",
@@ -888,7 +888,7 @@
         "category": "model",
         "icon": "langgenius/packages/vertex_ai/_assets/icon.svg",
         "index_id": "langgenius___vertex_ai",
-        "install_count": 112140,
+        "install_count": 112496,
         "label": {
             "en_US": "Vertex AI | Google Cloud Platform"
         },
@@ -927,7 +927,7 @@
         "category": "model",
         "icon": "langgenius/packages/cohere/_assets/icon.svg",
         "index_id": "langgenius___cohere",
-        "install_count": 88779,
+        "install_count": 89066,
         "label": {
             "en_US": "Cohere"
         },
@@ -966,7 +966,7 @@
         "category": "model",
         "icon": "langgenius/packages/wenxin/_assets/icon.svg",
         "index_id": "langgenius___wenxin",
-        "install_count": 78704,
+        "install_count": 79004,
         "label": {
             "en_US": "ERNIE",
             "zh_Hans": "文心大模型"
@@ -1007,7 +1007,7 @@
         "category": "model",
         "icon": "stvlynn/packages/lmstudio/_assets/icon.webp",
         "index_id": "stvlynn___lmstudio",
-        "install_count": 74145,
+        "install_count": 74198,
         "label": {
             "en_US": "LM Studio",
             "zh_Hans": "LM Studio"
@@ -1044,7 +1044,7 @@
         "category": "model",
         "icon": "langgenius/packages/huggingface_hub/_assets/icon.svg",
         "index_id": "langgenius___huggingface_hub",
-        "install_count": 69345,
+        "install_count": 69565,
         "label": {
             "en_US": "Hugging Face Hub"
         },
@@ -1085,15 +1085,15 @@
         "category": "model",
         "icon": "langgenius/packages/aihubmix/_assets/icon.svg",
         "index_id": "langgenius___aihubmix",
-        "install_count": 58404,
+        "install_count": 60527,
         "label": {
             "en_US": "Aihubmix",
             "ja_JP": "Aihubmix",
             "pt_BR": "Aihubmix",
             "zh_Hans": "Aihubmix"
         },
-        "latest_package_identifier": "langgenius/aihubmix:0.0.58@6336485e36b0e4178b03f483659ece80c1e0848a531e0bbf050b550bacfafa59",
-        "latest_version": "0.0.58",
+        "latest_package_identifier": "langgenius/aihubmix:0.0.59@6bee9233f055198425736323db1055d013005b264cfd2be2f30c45b4be133a81",
+        "latest_version": "0.0.59",
         "name": "aihubmix",
         "org": "langgenius",
         "plugin_id": "langgenius/aihubmix",
@@ -1116,7 +1116,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-10-24T04:51:02Z"
+        "version_updated_at": "2026-10-26T05:10:36Z"
     },
     {
         "badges": [],
@@ -1127,7 +1127,7 @@
         "category": "model",
         "icon": "langgenius/packages/groq/_assets/icon_s_en.svg",
         "index_id": "langgenius___groq",
-        "install_count": 52355,
+        "install_count": 52513,
         "label": {
             "en_US": "GroqCloud",
             "zh_Hans": "GroqCloud"
@@ -1167,7 +1167,7 @@
         "category": "model",
         "icon": "langgenius/packages/volcengine/_assets/icon.svg",
         "index_id": "langgenius___volcengine",
-        "install_count": 46007,
+        "install_count": 46156,
         "label": {
             "en_US": "Volcengine",
             "zh_Hans": "火山方舟"
@@ -1206,7 +1206,7 @@
         "category": "model",
         "icon": "langgenius/packages/azure_ai_studio/_assets/icon.svg",
         "index_id": "langgenius___azure_ai_studio",
-        "install_count": 43062,
+        "install_count": 43208,
         "label": {
             "en_US": "Azure AI Studio"
         },
@@ -1245,7 +1245,7 @@
         "category": "model",
         "icon": "langgenius/packages/gpustack/_assets/icon.svg",
         "index_id": "langgenius___gpustack",
-        "install_count": 37586,
+        "install_count": 37768,
         "label": {
             "en_US": "GPUStack"
         },
@@ -1283,7 +1283,7 @@
         "category": "model",
         "icon": "langgenius/packages/localai/_assets/icon.svg",
         "index_id": "langgenius___localai",
-        "install_count": 33432,
+        "install_count": 33551,
         "label": {
             "en_US": "LocalAI"
         },
@@ -1321,7 +1321,7 @@
         "category": "model",
         "icon": "langgenius/packages/chatglm/_assets/icon.svg",
         "index_id": "langgenius___chatglm",
-        "install_count": 24460,
+        "install_count": 24548,
         "label": {
             "en_US": "ChatGLM"
         },
@@ -1360,7 +1360,7 @@
         "category": "model",
         "icon": "langgenius/packages/maas/_assets/icon.svg",
         "index_id": "langgenius___maas",
-        "install_count": 21172,
+        "install_count": 21227,
         "label": {
             "en_US": "Huawei Cloud MaaS",
             "zh_Hans": "华为云MaaS平台"
@@ -1400,7 +1400,7 @@
         "category": "model",
         "icon": "langgenius/packages/fishaudio/_assets/icon.svg",
         "index_id": "langgenius___fishaudio",
-        "install_count": 20793,
+        "install_count": 20909,
         "label": {
             "en_US": "Fish Audio"
         },
@@ -1439,7 +1439,7 @@
         "category": "model",
         "icon": "langgenius/packages/mimo/_assets/icon_s_en.png",
         "index_id": "langgenius___mimo",
-        "install_count": 19938,
+        "install_count": 20002,
         "label": {
             "en_US": "Xiaomi MiMo",
             "zh_Hans": "Xiaomi MiMo"
@@ -1479,7 +1479,7 @@
         "category": "model",
         "icon": "langgenius/packages/mistralai/_assets/icon.svg",
         "index_id": "langgenius___mistralai",
-        "install_count": 17871,
+        "install_count": 17911,
         "label": {
             "en_US": "MistralAI"
         },
@@ -1518,7 +1518,7 @@
         "category": "model",
         "icon": "langgenius/packages/nvidia_nim/_assets/icon.svg",
         "index_id": "langgenius___nvidia_nim",
-        "install_count": 15568,
+        "install_count": 15611,
         "label": {
             "en_US": "NVIDIA NIM"
         },
@@ -1556,7 +1556,7 @@
         "category": "model",
         "icon": "langgenius/packages/openllm/_assets/icon.svg",
         "index_id": "langgenius___openllm",
-        "install_count": 14919,
+        "install_count": 15003,
         "label": {
             "en_US": "OpenLLM"
         },
@@ -1594,7 +1594,7 @@
         "category": "model",
         "icon": "langgenius/packages/tencent/_assets/icon.svg",
         "index_id": "langgenius___tencent",
-        "install_count": 11353,
+        "install_count": 11391,
         "label": {
             "en_US": "tencent"
         },
@@ -1635,7 +1635,7 @@
         "category": "model",
         "icon": "langgenius/packages/llama-api/_assets/icon.svg",
         "index_id": "langgenius___llama-api",
-        "install_count": 10969,
+        "install_count": 10997,
         "label": {
             "en_US": "Llama API",
             "ja_JP": "Llama API",
@@ -1677,7 +1677,7 @@
         "category": "model",
         "icon": "langgenius/packages/gitee_ai/_assets/icon.svg",
         "index_id": "langgenius___gitee_ai",
-        "install_count": 9611,
+        "install_count": 9637,
         "label": {
             "en_US": "Gitee AI",
             "zh_Hans": "模力方舟"
@@ -1717,7 +1717,7 @@
         "category": "model",
         "icon": "langgenius/packages/nvidia/_assets/icon.svg",
         "index_id": "langgenius___nvidia",
-        "install_count": 9072,
+        "install_count": 9099,
         "label": {
             "en_US": "API Catalog"
         },
@@ -1758,7 +1758,7 @@
         "category": "model",
         "icon": "infiniai/packages/infiniai/_assets/icon.svg",
         "index_id": "infiniai___infiniai",
-        "install_count": 7671,
+        "install_count": 7686,
         "label": {
             "en_US": "无问芯穹",
             "ja_JP": "无问芯穹",
@@ -1800,7 +1800,7 @@
         "category": "model",
         "icon": "langgenius/packages/stepfun/_assets/icon.svg",
         "index_id": "langgenius___stepfun",
-        "install_count": 7099,
+        "install_count": 7105,
         "label": {
             "en_US": "Stepfun",
             "zh_Hans": "阶跃星辰"
@@ -1839,7 +1839,7 @@
         "category": "model",
         "icon": "langgenius/packages/baichuan/_assets/icon.svg",
         "index_id": "langgenius___baichuan",
-        "install_count": 6804,
+        "install_count": 6818,
         "label": {
             "en_US": "Baichuan",
             "zh_Hans": "百川智能"
@@ -1879,7 +1879,7 @@
         "category": "model",
         "icon": "higgs-projects/packages/lkeap/_assets/icon_s_en.svg",
         "index_id": "higgs-projects___lkeap",
-        "install_count": 6772,
+        "install_count": 6774,
         "label": {
             "en_US": "LKEAP",
             "zh_Hans": "腾讯知识引擎"
@@ -1919,7 +1919,7 @@
         "category": "model",
         "icon": "cnjasonz/packages/ppio/_assets/icon_s_en.svg",
         "index_id": "cnjasonz___ppio",
-        "install_count": 6735,
+        "install_count": 6745,
         "label": {
             "en_US": "PPIO",
             "zh_Hans": "PPIO 派欧云"
@@ -1958,7 +1958,7 @@
         "category": "model",
         "icon": "langgenius/packages/voyage/_assets/icon.svg",
         "index_id": "langgenius___voyage",
-        "install_count": 6080,
+        "install_count": 6102,
         "label": {
             "en_US": "Voyage"
         },
@@ -1996,7 +1996,7 @@
         "category": "model",
         "icon": "langgenius/packages/replicate/_assets/icon.svg",
         "index_id": "langgenius___replicate",
-        "install_count": 5825,
+        "install_count": 5838,
         "label": {
             "en_US": "Replicate"
         },
@@ -2035,7 +2035,7 @@
         "category": "model",
         "icon": "qiniu/packages/qiniu/_assets/icon_s_en.svg",
         "index_id": "qiniu___qiniu",
-        "install_count": 5691,
+        "install_count": 5710,
         "label": {
             "en_US": "Qiniu AI",
             "zh_Hans": "七牛云 AI"
@@ -2077,7 +2077,7 @@
         "category": "model",
         "icon": "higress/packages/higress/_assets/icon.png",
         "index_id": "higress___higress",
-        "install_count": 5595,
+        "install_count": 5622,
         "label": {
             "en_US": "higress",
             "ja_JP": "higress",
@@ -2119,7 +2119,7 @@
         "category": "model",
         "icon": "langgenius/packages/yi/_assets/icon.svg",
         "index_id": "langgenius___yi",
-        "install_count": 5589,
+        "install_count": 5598,
         "label": {
             "en_US": "01.AI",
             "zh_Hans": "零一万物"
@@ -2159,7 +2159,7 @@
         "category": "model",
         "icon": "langgenius/packages/longcat/_assets/icon_s_en.svg",
         "index_id": "langgenius___longcat",
-        "install_count": 5161,
+        "install_count": 5166,
         "label": {
             "en_US": "LongCat",
             "zh_Hans": "LongCat"
@@ -2199,7 +2199,7 @@
         "category": "model",
         "icon": "qianfan/packages/baidu_qianfan/_assets/icon_smart_cloud.png",
         "index_id": "qianfan___baidu_qianfan",
-        "install_count": 4398,
+        "install_count": 4403,
         "label": {
             "en_US": "baidu_qianfan",
             "zh_Hans": "baidu_qianfan"
@@ -2237,7 +2237,7 @@
         "category": "model",
         "icon": "langgenius/packages/zhinao/_assets/icon.svg",
         "index_id": "langgenius___zhinao",
-        "install_count": 4073,
+        "install_count": 4079,
         "label": {
             "en_US": "360 AI",
             "zh_Hans": "360 智脑"
@@ -2276,7 +2276,7 @@
         "category": "model",
         "icon": "langgenius/packages/togetherai/_assets/icon.svg",
         "index_id": "langgenius___togetherai",
-        "install_count": 3580,
+        "install_count": 3583,
         "label": {
             "en_US": "Together.AI"
         },
@@ -2317,7 +2317,7 @@
         "category": "model",
         "icon": "langgenius/packages/sagemaker/_assets/icon.svg",
         "index_id": "langgenius___sagemaker",
-        "install_count": 3485,
+        "install_count": 3489,
         "label": {
             "en_US": "Amazon SageMaker",
             "ja_JP": "Amazon SageMaker",
@@ -2359,7 +2359,7 @@
         "category": "model",
         "icon": "wanghualoong/packages/new_api/_assets/icon.png",
         "index_id": "wanghualoong___new_api",
-        "install_count": 3430,
+        "install_count": 3445,
         "label": {
             "en_US": "New API"
         },
@@ -2400,7 +2400,7 @@
         "category": "model",
         "icon": "langgenius/packages/deerapi/_assets/deerapi.svg",
         "index_id": "langgenius___deerapi",
-        "install_count": 3342,
+        "install_count": 3351,
         "label": {
             "en_US": "DeerAPI",
             "ja_JP": "DeerAPI",
@@ -2483,7 +2483,7 @@
         "category": "model",
         "icon": "langgenius/packages/oci/_assets/icon.svg",
         "index_id": "langgenius___oci",
-        "install_count": 3196,
+        "install_count": 3203,
         "label": {
             "en_US": "OCI Generative AI"
         },
@@ -2524,7 +2524,7 @@
         "category": "model",
         "icon": "ucloud/packages/ucloud/_assets/icon.png",
         "index_id": "ucloud___ucloud",
-        "install_count": 3106,
+        "install_count": 3111,
         "label": {
             "en_US": "UCloud",
             "ja_JP": "UCloud",
@@ -2566,7 +2566,7 @@
         "category": "model",
         "icon": "lws123321/packages/tencent-tokenhub/_assets/icon_s_en.svg",
         "index_id": "lws123321___tencent-tokenhub",
-        "install_count": 2921,
+        "install_count": 2955,
         "label": {
             "en_US": "Tencent TokenHub",
             "zh_Hans": "腾讯TokenHub"
@@ -2606,7 +2606,7 @@
         "category": "model",
         "icon": "langgenius/packages/fireworks/_assets/icon.svg",
         "index_id": "langgenius___fireworks",
-        "install_count": 2874,
+        "install_count": 2878,
         "label": {
             "en_US": "Fireworks AI",
             "zh_Hans": "Fireworks AI"
@@ -2687,7 +2687,7 @@
         "category": "model",
         "icon": "langgenius/packages/nomic/_assets/icon.svg",
         "index_id": "langgenius___nomic",
-        "install_count": 2736,
+        "install_count": 2742,
         "label": {
             "en_US": "nomic"
         },
@@ -2726,7 +2726,7 @@
         "category": "model",
         "icon": "axdlee/packages/sophnet/_assets/icon.svg",
         "index_id": "axdlee___sophnet",
-        "install_count": 2688,
+        "install_count": 2695,
         "label": {
             "en_US": "SophNet",
             "zh_Hans": "SophNet 算能"
@@ -2766,7 +2766,7 @@
         "category": "model",
         "icon": "dadastory/packages/lightrag/_assets/icon.svg",
         "index_id": "dadastory___lightrag",
-        "install_count": 2555,
+        "install_count": 2556,
         "label": {
             "en_US": "lightrag",
             "ja_JP": "lightrag",
@@ -2808,7 +2808,7 @@
         "category": "model",
         "icon": "langgenius/packages/lemonade/_assets/icon.svg",
         "index_id": "langgenius___lemonade",
-        "install_count": 2490,
+        "install_count": 2497,
         "label": {
             "en_US": "Lemonade"
         },
@@ -2849,7 +2849,7 @@
         "category": "model",
         "icon": "langgenius/packages/cometapi/_assets/cometapi_small.png",
         "index_id": "langgenius___cometapi",
-        "install_count": 2440,
+        "install_count": 2444,
         "label": {
             "en_US": "CometAPI",
             "ja_JP": "CometAPI",
@@ -2891,7 +2891,7 @@
         "category": "model",
         "icon": "captain1379/packages/jiekou/_assets/icon_s_en.svg",
         "index_id": "captain1379___jiekou",
-        "install_count": 2395,
+        "install_count": 2400,
         "label": {
             "en_US": "Jiekou.AI",
             "zh_Hans": "接口 AI"
@@ -2930,7 +2930,7 @@
         "category": "model",
         "icon": "langgenius/packages/triton_inference_server/_assets/icon.svg",
         "index_id": "langgenius___triton_inference_server",
-        "install_count": 2286,
+        "install_count": 2287,
         "label": {
             "en_US": "Triton Inference Server"
         },
@@ -2969,7 +2969,7 @@
         "category": "model",
         "icon": "langgenius/packages/maas_hk/_assets/icon.svg",
         "index_id": "langgenius___maas_hk",
-        "install_count": 1655,
+        "install_count": 1657,
         "label": {
             "en_US": "Huawei Cloud MaaS - HK",
             "zh_Hans": "华为云MaaS平台 - HK"
@@ -3008,7 +3008,7 @@
         "category": "model",
         "icon": "langgenius/packages/upstage/_assets/icon.svg",
         "index_id": "langgenius___upstage",
-        "install_count": 1566,
+        "install_count": 1569,
         "label": {
             "en_US": "upstage"
         },
@@ -3088,7 +3088,7 @@
         "category": "model",
         "icon": "langgenius/packages/sambanova/_assets/icon.png",
         "index_id": "langgenius___sambanova",
-        "install_count": 1489,
+        "install_count": 1490,
         "label": {
             "en_US": "SambaCloud",
             "ja_JP": "SambaCloud",
@@ -3130,7 +3130,7 @@
         "category": "model",
         "icon": "langgenius/packages/funasr/_assets/icon_s_en.svg",
         "index_id": "langgenius___funasr",
-        "install_count": 1458,
+        "install_count": 1466,
         "label": {
             "en_US": "FunASR",
             "zh_Hans": "FunASR"
@@ -3170,7 +3170,7 @@
         "category": "model",
         "icon": "zuiyue-com/packages/burncloud/_assets/icon_s_en.svg",
         "index_id": "zuiyue-com___burncloud",
-        "install_count": 1443,
+        "install_count": 1444,
         "label": {
             "en_US": "BurnCloud",
             "zh_Hans": "BurnCloud"
@@ -3289,7 +3289,7 @@
         "category": "model",
         "icon": "compshare/packages/compshare/_assets/compshare.png",
         "index_id": "compshare___compshare",
-        "install_count": 1315,
+        "install_count": 1319,
         "label": {
             "en_US": "Compshare",
             "ja_JP": "Compshare",
@@ -3369,7 +3369,7 @@
         "category": "model",
         "icon": "aiping/packages/aiping/_assets/icon.svg",
         "index_id": "aiping___aiping",
-        "install_count": 1269,
+        "install_count": 1274,
         "label": {
             "en_US": "AIPing",
             "zh_Hans": "AIPing"
@@ -3413,7 +3413,7 @@
         "category": "model",
         "icon": "langgenius/packages/gmicloud/_assets/icon_gmi_small.svg",
         "index_id": "langgenius___gmicloud",
-        "install_count": 1224,
+        "install_count": 1227,
         "label": {
             "en_US": "GMI Cloud",
             "ja_JP": "GMI Cloud",
@@ -3457,7 +3457,7 @@
         "category": "model",
         "icon": "uezo/packages/voicevox/_assets/icon.svg",
         "index_id": "uezo___voicevox",
-        "install_count": 1203,
+        "install_count": 1205,
         "label": {
             "en_US": "voicevox",
             "ja_JP": "voicevox",
@@ -3499,7 +3499,7 @@
         "category": "model",
         "icon": "zenmux/packages/zenmux-dify-plugin/_assets/icon.svg",
         "index_id": "zenmux___zenmux-dify-plugin",
-        "install_count": 1180,
+        "install_count": 1182,
         "label": {
             "en_US": "ZenMux"
         },
@@ -3540,7 +3540,7 @@
         "category": "model",
         "icon": "aliyun/packages/ai-gateway/_assets/icon.png",
         "index_id": "aliyun___ai-gateway",
-        "install_count": 1177,
+        "install_count": 1178,
         "label": {
             "en_US": "ai-gateway",
             "ja_JP": "ai-gateway",
@@ -3660,7 +3660,7 @@
         "category": "model",
         "icon": "tencent_cloud_es/packages/aisearch_plugin/_assets/icon.svg",
         "index_id": "tencent_cloud_es___aisearch_plugin",
-        "install_count": 931,
+        "install_count": 933,
         "label": {
             "en_US": "Tencent Cloud ES",
             "ja_JP": "Tencent Cloud ES",
@@ -3704,7 +3704,7 @@
         "category": "model",
         "icon": "shinemo/packages/tokenpony/_assets/icon.svg",
         "index_id": "shinemo___tokenpony",
-        "install_count": 925,
+        "install_count": 926,
         "label": {
             "en_US": "TokenPony",
             "ja_JP": "TokenPony",
@@ -3746,7 +3746,7 @@
         "category": "model",
         "icon": "shamspias/packages/gigachat/_assets/icon_s_en.svg",
         "index_id": "shamspias___gigachat",
-        "install_count": 895,
+        "install_count": 896,
         "label": {
             "en_US": "GigaChat"
         },
@@ -3783,7 +3783,7 @@
         "category": "model",
         "icon": "anchnet/packages/anspire_llm/_assets/icon_s_en.png",
         "index_id": "anchnet___anspire_llm",
-        "install_count": 878,
+        "install_count": 879,
         "label": {
             "en_US": "Anspire LLM",
             "zh_Hans": "安思派模型服务"
@@ -3861,13 +3861,53 @@
     {
         "badges": [],
         "brief": {
+            "en_US": "OpenCode Go model provider. Access curated open coding models via the OpenCode Zen Go gateway ($10/month subscription).",
+            "zh_Hans": "OpenCode Go 模型供应商。通过 OpenCode Zen Go 网关访问精选开源编码模型（$10/月订阅）。"
+        },
+        "category": "model",
+        "icon": "langgenius/packages/opencode_go/_assets/icon.svg",
+        "index_id": "langgenius___opencode_go",
+        "install_count": 840,
+        "label": {
+            "en_US": "OpenCode Go",
+            "zh_Hans": "OpenCode Go"
+        },
+        "latest_package_identifier": "langgenius/opencode_go:0.5.2@31f6a79969e7c240fb2fa8c9331d89079ccb048283aeba032634c5f0b831658e",
+        "latest_version": "0.5.2",
+        "name": "opencode_go",
+        "org": "langgenius",
+        "plugin_id": "langgenius/opencode_go",
+        "plugins": {
+            "agent_strategies": null,
+            "datasources": null,
+            "endpoints": null,
+            "models": [
+                "provider/opencode_go.yaml"
+            ],
+            "tools": null,
+            "triggers": null
+        },
+        "privacy_options": "",
+        "privacy_policy": "",
+        "repository": null,
+        "status": "active",
+        "tags": [],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "langgenius"
+        },
+        "version_updated_at": "2026-10-26T05:10:40Z"
+    },
+    {
+        "badges": [],
+        "brief": {
             "en_US": "The LLM API service provided by Star River Community offers developers a suite of foundational APIs that deliver capabilities of large language models like ERNIE. These services can be called directly using the native OpenAI Python SDK.",
             "zh_Hans": "星河社区提供的大模型 API 是为开发者提供的一套基础的大模型 API 服务，提供文心等大模型能力，可以直接使用原生的 openai-python SDK来调用文心等大模型服务。"
         },
         "category": "model",
         "icon": "paddle-aistudio/packages/ernie-paddle-aistudio/_assets/icon_small.svg",
         "index_id": "paddle-aistudio___ernie-paddle-aistudio",
-        "install_count": 822,
+        "install_count": 823,
         "label": {
             "en_US": "ernie paddle AI Studio",
             "zh_Hans": "文心飞桨星河社区"
@@ -3909,7 +3949,7 @@
         "category": "model",
         "icon": "ki3dn/packages/rankgpt/_assets/icon.svg",
         "index_id": "ki3dn___rankgpt",
-        "install_count": 809,
+        "install_count": 811,
         "label": {
             "en_US": "rankgpt",
             "ja_JP": "rankgpt",
@@ -4039,7 +4079,7 @@
         "category": "model",
         "icon": "kurokobo/packages/fake_models/_assets/icon.svg",
         "index_id": "kurokobo___fake_models",
-        "install_count": 757,
+        "install_count": 759,
         "label": {
             "en_US": "Fake Models"
         },
@@ -4117,7 +4157,7 @@
         "category": "model",
         "icon": "langgenius/packages/regolo/_assets/icon_s_en.svg",
         "index_id": "langgenius___regolo",
-        "install_count": 711,
+        "install_count": 712,
         "label": {
             "en_US": "Regolo.ai"
         },
@@ -4146,6 +4186,43 @@
             "authorized_category": "langgenius"
         },
         "version_updated_at": "2026-10-24T05:07:26Z"
+    },
+    {
+        "badges": [],
+        "brief": {
+            "en_US": "InsigmaAI .",
+            "zh_Hans": "InsigmaAI"
+        },
+        "category": "model",
+        "icon": "cloudpureno1/packages/insigmaai/_assets/icon.png",
+        "index_id": "cloudpureno1___insigmaai",
+        "install_count": 700,
+        "label": {
+            "en_US": "InsigmaAI"
+        },
+        "latest_package_identifier": "cloudpureno1/insigmaai:0.0.2@7b942a28e2349bc6f1658af00687a917d7c465e38515f32a4b5989136e5d95a8",
+        "latest_version": "0.0.2",
+        "name": "insigmaai",
+        "org": "cloudpureno1",
+        "plugin_id": "cloudpureno1/insigmaai",
+        "plugins": {
+            "agent_strategies": null,
+            "endpoints": null,
+            "models": [
+                "provider/insigma_ai.yaml"
+            ],
+            "tools": null
+        },
+        "privacy_options": "",
+        "privacy_policy": "",
+        "repository": null,
+        "status": "active",
+        "tags": [],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "community"
+        },
+        "version_updated_at": "2025-08-21T15:17:21Z"
     },
     {
         "badges": [],
@@ -4189,83 +4266,6 @@
     {
         "badges": [],
         "brief": {
-            "en_US": "OpenCode Go model provider. Access curated open coding models via the OpenCode Zen Go gateway ($10/month subscription).",
-            "zh_Hans": "OpenCode Go 模型供应商。通过 OpenCode Zen Go 网关访问精选开源编码模型（$10/月订阅）。"
-        },
-        "category": "model",
-        "icon": "langgenius/packages/opencode_go/_assets/icon.svg",
-        "index_id": "langgenius___opencode_go",
-        "install_count": 700,
-        "label": {
-            "en_US": "OpenCode Go",
-            "zh_Hans": "OpenCode Go"
-        },
-        "latest_package_identifier": "langgenius/opencode_go:0.5.1@efbc7e891f6e72e6f3e09da0f042d98debc44dedf8763836a0bd04bd0b2aafd1",
-        "latest_version": "0.5.1",
-        "name": "opencode_go",
-        "org": "langgenius",
-        "plugin_id": "langgenius/opencode_go",
-        "plugins": {
-            "agent_strategies": null,
-            "datasources": null,
-            "endpoints": null,
-            "models": [
-                "provider/opencode_go.yaml"
-            ],
-            "tools": null,
-            "triggers": null
-        },
-        "privacy_options": "",
-        "privacy_policy": "",
-        "repository": null,
-        "status": "active",
-        "tags": [],
-        "type": "plugin",
-        "verification": {
-            "authorized_category": "langgenius"
-        },
-        "version_updated_at": "2026-10-24T04:51:08Z"
-    },
-    {
-        "badges": [],
-        "brief": {
-            "en_US": "InsigmaAI .",
-            "zh_Hans": "InsigmaAI"
-        },
-        "category": "model",
-        "icon": "cloudpureno1/packages/insigmaai/_assets/icon.png",
-        "index_id": "cloudpureno1___insigmaai",
-        "install_count": 697,
-        "label": {
-            "en_US": "InsigmaAI"
-        },
-        "latest_package_identifier": "cloudpureno1/insigmaai:0.0.2@7b942a28e2349bc6f1658af00687a917d7c465e38515f32a4b5989136e5d95a8",
-        "latest_version": "0.0.2",
-        "name": "insigmaai",
-        "org": "cloudpureno1",
-        "plugin_id": "cloudpureno1/insigmaai",
-        "plugins": {
-            "agent_strategies": null,
-            "endpoints": null,
-            "models": [
-                "provider/insigma_ai.yaml"
-            ],
-            "tools": null
-        },
-        "privacy_options": "",
-        "privacy_policy": "",
-        "repository": null,
-        "status": "active",
-        "tags": [],
-        "type": "plugin",
-        "verification": {
-            "authorized_category": "community"
-        },
-        "version_updated_at": "2025-08-21T15:17:21Z"
-    },
-    {
-        "badges": [],
-        "brief": {
             "en_US": "Sakura AI Engine model provider for Dify via the OpenAI-compatible API.",
             "ja_JP": "OpenAI互換API経由で Sakura AI Engine を Dify に接続するモデルプロバイダーです。",
             "pt_BR": "Provedor de modelos do Sakura AI Engine para o Dify via API compatível com OpenAI.",
@@ -4274,7 +4274,7 @@
         "category": "model",
         "icon": "tplog/packages/sakura-ai-engine/_assets/sakura-ai-engine.svg",
         "index_id": "tplog___sakura-ai-engine",
-        "install_count": 682,
+        "install_count": 683,
         "label": {
             "en_US": "sakura-ai-engine",
             "ja_JP": "sakura-ai-engine",
@@ -4357,7 +4357,7 @@
         "category": "model",
         "icon": "atlascloudai/packages/atlascloud/_assets/icon.svg",
         "index_id": "atlascloudai___atlascloud",
-        "install_count": 678,
+        "install_count": 679,
         "label": {
             "en_US": "Atlas Cloud"
         },
@@ -4514,6 +4514,46 @@
     {
         "badges": [],
         "brief": {
+            "en_US": "Moyu AI provider with China and overseas API sites, a verified shared catalog, and clearly labeled China-only additions.",
+            "zh_Hans": "魔芋AI模型供应商插件，支持国内站与海外站，并提供双站实测共同模型及明确标注的国内站专属模型。"
+        },
+        "category": "model",
+        "icon": "fdq-shrimp/packages/moyu_ai_provider/_assets/icon.png",
+        "index_id": "fdq-shrimp___moyu_ai_provider",
+        "install_count": 557,
+        "label": {
+            "en_US": "Moyu AI",
+            "zh_Hans": "魔芋AI"
+        },
+        "latest_package_identifier": "fdq-shrimp/moyu_ai_provider:0.0.9@dabbb7a6a0a0dd00b6b584822b0094383ec0fae9adfc8c2c710da504525b6dc7",
+        "latest_version": "0.0.9",
+        "name": "moyu_ai_provider",
+        "org": "fdq-shrimp",
+        "plugin_id": "fdq-shrimp/moyu_ai_provider",
+        "plugins": {
+            "agent_strategies": null,
+            "datasources": null,
+            "endpoints": null,
+            "models": [
+                "provider/moyu.yaml"
+            ],
+            "tools": null,
+            "triggers": null
+        },
+        "privacy_options": "",
+        "privacy_policy": "PRIVACY.md",
+        "repository": "https://github.com/FDQ-shrimp/moyu_ai_provider",
+        "status": "active",
+        "tags": [],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "community"
+        },
+        "version_updated_at": "2026-09-28T01:40:59Z"
+    },
+    {
+        "badges": [],
+        "brief": {
             "en_US": "Access Claude, Gemini, GPT, DeepSeek and more via Zeabur AI Hub",
             "zh_Hans": "通过 Zeabur AI Hub 使用 Claude、Gemini、GPT、DeepSeek 等模型"
         },
@@ -4550,46 +4590,6 @@
             "authorized_category": "community"
         },
         "version_updated_at": "2026-02-14T01:18:21Z"
-    },
-    {
-        "badges": [],
-        "brief": {
-            "en_US": "Moyu AI provider with China and overseas API sites, a verified shared catalog, and clearly labeled China-only additions.",
-            "zh_Hans": "魔芋AI模型供应商插件，支持国内站与海外站，并提供双站实测共同模型及明确标注的国内站专属模型。"
-        },
-        "category": "model",
-        "icon": "fdq-shrimp/packages/moyu_ai_provider/_assets/icon.png",
-        "index_id": "fdq-shrimp___moyu_ai_provider",
-        "install_count": 554,
-        "label": {
-            "en_US": "Moyu AI",
-            "zh_Hans": "魔芋AI"
-        },
-        "latest_package_identifier": "fdq-shrimp/moyu_ai_provider:0.0.9@dabbb7a6a0a0dd00b6b584822b0094383ec0fae9adfc8c2c710da504525b6dc7",
-        "latest_version": "0.0.9",
-        "name": "moyu_ai_provider",
-        "org": "fdq-shrimp",
-        "plugin_id": "fdq-shrimp/moyu_ai_provider",
-        "plugins": {
-            "agent_strategies": null,
-            "datasources": null,
-            "endpoints": null,
-            "models": [
-                "provider/moyu.yaml"
-            ],
-            "tools": null,
-            "triggers": null
-        },
-        "privacy_options": "",
-        "privacy_policy": "PRIVACY.md",
-        "repository": "https://github.com/FDQ-shrimp/moyu_ai_provider",
-        "status": "active",
-        "tags": [],
-        "type": "plugin",
-        "verification": {
-            "authorized_category": "community"
-        },
-        "version_updated_at": "2026-09-28T01:40:59Z"
     },
     {
         "badges": [],
@@ -4642,7 +4642,7 @@
         "category": "model",
         "icon": "yimuu/packages/qianfan/_assets/icon.svg",
         "index_id": "yimuu___qianfan",
-        "install_count": 528,
+        "install_count": 529,
         "label": {
             "en_US": "qianfan",
             "ja_JP": "qianfan",
@@ -4686,7 +4686,7 @@
         "category": "model",
         "icon": "langgenius/packages/typesafe_ai/_assets/icon.svg",
         "index_id": "langgenius___typesafe_ai",
-        "install_count": 504,
+        "install_count": 519,
         "label": {
             "en_US": "TypeSafe AI",
             "ja_JP": "TypeSafe AI",
@@ -4891,7 +4891,7 @@
         "category": "model",
         "icon": "langgenius/packages/byteplus/_assets/icon_s_en.svg",
         "index_id": "langgenius___byteplus",
-        "install_count": 405,
+        "install_count": 406,
         "label": {
             "en_US": "BytePlus Seedance & Seedream",
             "zh_Hans": "BytePlus Seedance & Seedream"
@@ -5019,7 +5019,7 @@
         "category": "model",
         "icon": "langgenius/packages/ant_ling/_assets/icon_s_zh.svg",
         "index_id": "langgenius___ant_ling",
-        "install_count": 275,
+        "install_count": 317,
         "label": {
             "en_US": "Ant Ling",
             "zh_Hans": "蚂蚁百灵"
@@ -5131,6 +5131,46 @@
     {
         "badges": [],
         "brief": {
+            "en_US": "Connect Dify to a LiteLLM Proxy. One OpenAI-compatible endpoint gives access to 100+ model providers.",
+            "zh_Hans": "连接 LiteLLM Proxy。通过一个 OpenAI 兼容端点即可调用 100 多个模型供应商。"
+        },
+        "category": "model",
+        "icon": "langgenius/packages/litellm/_assets/icon.svg",
+        "index_id": "langgenius___litellm",
+        "install_count": 191,
+        "label": {
+            "en_US": "LiteLLM",
+            "zh_Hans": "LiteLLM"
+        },
+        "latest_package_identifier": "langgenius/litellm:0.0.2@e75bdf38e82fb86b236b9272b524241508d863032b31234927f2a58baec7fd8e",
+        "latest_version": "0.0.2",
+        "name": "litellm",
+        "org": "langgenius",
+        "plugin_id": "langgenius/litellm",
+        "plugins": {
+            "agent_strategies": null,
+            "datasources": null,
+            "endpoints": null,
+            "models": [
+                "provider/litellm.yaml"
+            ],
+            "tools": null,
+            "triggers": null
+        },
+        "privacy_options": "",
+        "privacy_policy": "PRIVACY.md",
+        "repository": null,
+        "status": "active",
+        "tags": [],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "langgenius"
+        },
+        "version_updated_at": "2026-10-24T04:50:59Z"
+    },
+    {
+        "badges": [],
+        "brief": {
             "en_US": "OrcaRouter is an OpenAI-compatible LLM gateway that routes requests across 40+ upstream providers (OpenAI, Anthropic, Google, DeepSeek, Qwen, Grok, and more) to the cheapest or fastest path, with adaptive routing, fallback chains, and pay-below-list-price billing.",
             "ja_JP": "OrcaRouter は OpenAI 互換の LLM ゲートウェイで、40 以上の上流プロバイダー（OpenAI、Anthropic、Google、DeepSeek、Qwen、Grok など）への最安または最速のパスへリクエストをルーティングします。アダプティブルーティング、フォールバックチェーン、表示価格以下の課金を内蔵。",
             "pt_BR": "OrcaRouter é um gateway LLM compatível com OpenAI que roteia solicitações entre mais de 40 provedores upstream (OpenAI, Anthropic, Google, DeepSeek, Qwen, Grok e outros) pelo caminho mais barato ou mais rápido, com roteamento adaptativo, cadeias de fallback e preços abaixo da tabela.",
@@ -5139,7 +5179,7 @@
         "category": "model",
         "icon": "continuum-ai-corp/packages/orcarouter/_assets/orcarouter_square.svg",
         "index_id": "continuum-ai-corp___orcarouter",
-        "install_count": 181,
+        "install_count": 183,
         "label": {
             "en_US": "OrcaRouter"
         },
@@ -5178,7 +5218,7 @@
         "category": "model",
         "icon": "gonkabroker/packages/gonkabroker/_assets/icon.png",
         "index_id": "gonkabroker___gonkabroker",
-        "install_count": 180,
+        "install_count": 182,
         "label": {
             "en_US": "Gonka Broker"
         },
@@ -5211,28 +5251,28 @@
     {
         "badges": [],
         "brief": {
-            "en_US": "Connect Dify to a LiteLLM Proxy. One OpenAI-compatible endpoint gives access to 100+ model providers.",
-            "zh_Hans": "连接 LiteLLM Proxy。通过一个 OpenAI 兼容端点即可调用 100 多个模型供应商。"
+            "en_US": "Tokener.ai model provider for Dify.",
+            "zh_Hans": "Tokener.ai 的 Dify 模型插件。"
         },
         "category": "model",
-        "icon": "langgenius/packages/litellm/_assets/icon.svg",
-        "index_id": "langgenius___litellm",
-        "install_count": 177,
+        "icon": "langgenius/packages/tokener/_assets/tokener.svg",
+        "index_id": "langgenius___tokener",
+        "install_count": 168,
         "label": {
-            "en_US": "LiteLLM",
-            "zh_Hans": "LiteLLM"
+            "en_US": "Tokener.ai",
+            "zh_Hans": "Tokener.ai"
         },
-        "latest_package_identifier": "langgenius/litellm:0.0.2@e75bdf38e82fb86b236b9272b524241508d863032b31234927f2a58baec7fd8e",
-        "latest_version": "0.0.2",
-        "name": "litellm",
+        "latest_package_identifier": "langgenius/tokener:0.4.1@81ae6f0c4c43a90240946e5c3784599bebbe921836e93ad34db238432843f202",
+        "latest_version": "0.4.1",
+        "name": "tokener",
         "org": "langgenius",
-        "plugin_id": "langgenius/litellm",
+        "plugin_id": "langgenius/tokener",
         "plugins": {
             "agent_strategies": null,
             "datasources": null,
             "endpoints": null,
             "models": [
-                "provider/litellm.yaml"
+                "provider/tokener.yaml"
             ],
             "tools": null,
             "triggers": null
@@ -5246,7 +5286,7 @@
         "verification": {
             "authorized_category": "langgenius"
         },
-        "version_updated_at": "2026-10-24T04:50:59Z"
+        "version_updated_at": "2026-10-26T09:39:14Z"
     },
     {
         "badges": [],
@@ -5372,46 +5412,6 @@
             "authorized_category": "community"
         },
         "version_updated_at": "2026-04-27T08:11:52Z"
-    },
-    {
-        "badges": [],
-        "brief": {
-            "en_US": "Tokener.ai model provider for Dify.",
-            "zh_Hans": "Tokener.ai 的 Dify 模型插件。"
-        },
-        "category": "model",
-        "icon": "langgenius/packages/tokener/_assets/tokener.svg",
-        "index_id": "langgenius___tokener",
-        "install_count": 141,
-        "label": {
-            "en_US": "Tokener.ai",
-            "zh_Hans": "Tokener.ai"
-        },
-        "latest_package_identifier": "langgenius/tokener:0.3.1@ef178d2c3142782cfa21a3bddb75be6e82470c790ddd2f413614c33e2270027c",
-        "latest_version": "0.3.1",
-        "name": "tokener",
-        "org": "langgenius",
-        "plugin_id": "langgenius/tokener",
-        "plugins": {
-            "agent_strategies": null,
-            "datasources": null,
-            "endpoints": null,
-            "models": [
-                "provider/tokener.yaml"
-            ],
-            "tools": null,
-            "triggers": null
-        },
-        "privacy_options": "",
-        "privacy_policy": "PRIVACY.md",
-        "repository": null,
-        "status": "active",
-        "tags": [],
-        "type": "plugin",
-        "verification": {
-            "authorized_category": "langgenius"
-        },
-        "version_updated_at": "2026-10-24T05:07:27Z"
     },
     {
         "badges": [],
@@ -5580,6 +5580,50 @@
     {
         "badges": [],
         "brief": {
+            "en_US": "Use OpenAI or Azure OpenAI LLMs as rerank models in Dify.",
+            "ja_JP": "OpenAI / Azure OpenAI の LLM を Dify の Rerank モデルとして利用するプラグイン。",
+            "pt_BR": "Use LLMs da OpenAI ou Azure OpenAI como modelos de reranking no Dify.",
+            "zh_Hans": "将 OpenAI 或 Azure OpenAI LLM 用作 Dify 重排序模型。"
+        },
+        "category": "model",
+        "icon": "kurokobo/packages/openai_llm_reranker/_assets/icon.svg",
+        "index_id": "kurokobo___openai_llm_reranker",
+        "install_count": 97,
+        "label": {
+            "en_US": "OpenAI LLM Reranker",
+            "ja_JP": "OpenAI LLM Reranker",
+            "pt_BR": "OpenAI LLM Reranker",
+            "zh_Hans": "OpenAI LLM Reranker"
+        },
+        "latest_package_identifier": "kurokobo/openai_llm_reranker:0.0.2@91efb219c07c5eabe31a0eb4c794b2a9a7e8a43bc13f80ac600fbe36f729dd0b",
+        "latest_version": "0.0.2",
+        "name": "openai_llm_reranker",
+        "org": "kurokobo",
+        "plugin_id": "kurokobo/openai_llm_reranker",
+        "plugins": {
+            "agent_strategies": null,
+            "datasources": null,
+            "endpoints": null,
+            "models": [
+                "provider/openai_llm_reranker.yaml"
+            ],
+            "tools": null,
+            "triggers": null
+        },
+        "privacy_options": "",
+        "privacy_policy": "PRIVACY.md",
+        "repository": "https://github.com/kurokobo/dify-plugin-collection",
+        "status": "active",
+        "tags": [],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "community"
+        },
+        "version_updated_at": "2026-10-13T21:23:01Z"
+    },
+    {
+        "badges": [],
+        "brief": {
             "en_US": "Runware inference provider. OpenAI-compatible LLM endpoint serving open models (DeepSeek, Qwen, GLM, Kimi, MiniMax) plus pass-through families.",
             "zh_Hans": "Runware 推理服务商。兼容 OpenAI API 的 LLM 接口，提供开源模型（DeepSeek、Qwen、GLM、Kimi、MiniMax）及透传系列。"
         },
@@ -5623,6 +5667,46 @@
     {
         "badges": [],
         "brief": {
+            "en_US": "Cloudflare Workers AI — serverless inference across open models (Llama 3.3 70B, Llama 4 Scout, Qwen 2.5 Coder, DeepSeek R1) with a generous free tier.",
+            "zh_Hans": "Cloudflare Workers AI — 通过开放的模型（Llama 3.3 70B、Llama 4 Scout、Qwen 2.5 Coder、DeepSeek R1）提供无服务器推理，并带有慷慨的免费额度。"
+        },
+        "category": "model",
+        "icon": "puspoaditya/packages/cloudflare_workers_ai/_assets/icon_s_en.svg",
+        "index_id": "puspoaditya___cloudflare_workers_ai",
+        "install_count": 95,
+        "label": {
+            "en_US": "Cloudflare Workers AI",
+            "zh_Hans": "Cloudflare Workers AI"
+        },
+        "latest_package_identifier": "puspoaditya/cloudflare_workers_ai:0.0.2@e6b7b469ea09c673cc272ac876f0f434eb2b34040fc7c9035ae0b8d055c4a511",
+        "latest_version": "0.0.2",
+        "name": "cloudflare_workers_ai",
+        "org": "puspoaditya",
+        "plugin_id": "puspoaditya/cloudflare_workers_ai",
+        "plugins": {
+            "agent_strategies": null,
+            "datasources": null,
+            "endpoints": null,
+            "models": [
+                "provider/cloudflare.yaml"
+            ],
+            "tools": null,
+            "triggers": null
+        },
+        "privacy_options": "",
+        "privacy_policy": "PRIVACY.md",
+        "repository": "https://github.com/puspoaditya/dify-plugin-cloudflare-workers-ai",
+        "status": "active",
+        "tags": [],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "community"
+        },
+        "version_updated_at": "2026-08-24T08:50:40Z"
+    },
+    {
+        "badges": [],
+        "brief": {
             "en_US": "Run local LLMs privately with Atomic Chat's OpenAI-compatible API.",
             "zh_Hans": "通过 Atomic Chat 的 OpenAI 兼容 API 在本地私密运行大语言模型。"
         },
@@ -5659,90 +5743,6 @@
             "authorized_category": "community"
         },
         "version_updated_at": "2026-06-22T03:09:12Z"
-    },
-    {
-        "badges": [],
-        "brief": {
-            "en_US": "Cloudflare Workers AI — serverless inference across open models (Llama 3.3 70B, Llama 4 Scout, Qwen 2.5 Coder, DeepSeek R1) with a generous free tier.",
-            "zh_Hans": "Cloudflare Workers AI — 通过开放的模型（Llama 3.3 70B、Llama 4 Scout、Qwen 2.5 Coder、DeepSeek R1）提供无服务器推理，并带有慷慨的免费额度。"
-        },
-        "category": "model",
-        "icon": "puspoaditya/packages/cloudflare_workers_ai/_assets/icon_s_en.svg",
-        "index_id": "puspoaditya___cloudflare_workers_ai",
-        "install_count": 94,
-        "label": {
-            "en_US": "Cloudflare Workers AI",
-            "zh_Hans": "Cloudflare Workers AI"
-        },
-        "latest_package_identifier": "puspoaditya/cloudflare_workers_ai:0.0.2@e6b7b469ea09c673cc272ac876f0f434eb2b34040fc7c9035ae0b8d055c4a511",
-        "latest_version": "0.0.2",
-        "name": "cloudflare_workers_ai",
-        "org": "puspoaditya",
-        "plugin_id": "puspoaditya/cloudflare_workers_ai",
-        "plugins": {
-            "agent_strategies": null,
-            "datasources": null,
-            "endpoints": null,
-            "models": [
-                "provider/cloudflare.yaml"
-            ],
-            "tools": null,
-            "triggers": null
-        },
-        "privacy_options": "",
-        "privacy_policy": "PRIVACY.md",
-        "repository": "https://github.com/puspoaditya/dify-plugin-cloudflare-workers-ai",
-        "status": "active",
-        "tags": [],
-        "type": "plugin",
-        "verification": {
-            "authorized_category": "community"
-        },
-        "version_updated_at": "2026-08-24T08:50:40Z"
-    },
-    {
-        "badges": [],
-        "brief": {
-            "en_US": "Use OpenAI or Azure OpenAI LLMs as rerank models in Dify.",
-            "ja_JP": "OpenAI / Azure OpenAI の LLM を Dify の Rerank モデルとして利用するプラグイン。",
-            "pt_BR": "Use LLMs da OpenAI ou Azure OpenAI como modelos de reranking no Dify.",
-            "zh_Hans": "将 OpenAI 或 Azure OpenAI LLM 用作 Dify 重排序模型。"
-        },
-        "category": "model",
-        "icon": "kurokobo/packages/openai_llm_reranker/_assets/icon.svg",
-        "index_id": "kurokobo___openai_llm_reranker",
-        "install_count": 94,
-        "label": {
-            "en_US": "OpenAI LLM Reranker",
-            "ja_JP": "OpenAI LLM Reranker",
-            "pt_BR": "OpenAI LLM Reranker",
-            "zh_Hans": "OpenAI LLM Reranker"
-        },
-        "latest_package_identifier": "kurokobo/openai_llm_reranker:0.0.2@91efb219c07c5eabe31a0eb4c794b2a9a7e8a43bc13f80ac600fbe36f729dd0b",
-        "latest_version": "0.0.2",
-        "name": "openai_llm_reranker",
-        "org": "kurokobo",
-        "plugin_id": "kurokobo/openai_llm_reranker",
-        "plugins": {
-            "agent_strategies": null,
-            "datasources": null,
-            "endpoints": null,
-            "models": [
-                "provider/openai_llm_reranker.yaml"
-            ],
-            "tools": null,
-            "triggers": null
-        },
-        "privacy_options": "",
-        "privacy_policy": "PRIVACY.md",
-        "repository": "https://github.com/kurokobo/dify-plugin-collection",
-        "status": "active",
-        "tags": [],
-        "type": "plugin",
-        "verification": {
-            "authorized_category": "community"
-        },
-        "version_updated_at": "2026-10-13T21:23:01Z"
     },
     {
         "badges": [],
@@ -6061,6 +6061,48 @@
             "partner"
         ],
         "brief": {
+            "en_US": "Open models on AMD GPUs for Dify, with a daily free quota, reasoning, tool calling, and vision.",
+            "zh_Hans": "面向 Dify 的 AMD GPU 开源模型，提供每日免费额度，支持推理、工具调用和图片输入。"
+        },
+        "category": "model",
+        "icon": "amdtokenfactory/packages/amdtokenfactory/_assets/icon.png",
+        "index_id": "amdtokenfactory___amdtokenfactory",
+        "install_count": 46,
+        "label": {
+            "en_US": "AMD Token Factory",
+            "zh_Hans": "AMD Token Factory"
+        },
+        "latest_package_identifier": "amdtokenfactory/amdtokenfactory:0.0.29@4fe984d1c771e22c1bee367c31c3c89a69f624ca85fe6dcf69f6c0a0f89cc890",
+        "latest_version": "0.0.29",
+        "name": "amdtokenfactory",
+        "org": "amdtokenfactory",
+        "plugin_id": "amdtokenfactory/amdtokenfactory",
+        "plugins": {
+            "agent_strategies": null,
+            "datasources": null,
+            "endpoints": null,
+            "models": [
+                "provider/amdtokenfactory.yaml"
+            ],
+            "tools": null,
+            "triggers": null
+        },
+        "privacy_options": "",
+        "privacy_policy": "PRIVACY.md",
+        "repository": "https://github.com/JoursBleu/dify",
+        "status": "active",
+        "tags": [],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "partner"
+        },
+        "version_updated_at": "2026-10-24T03:44:01Z"
+    },
+    {
+        "badges": [
+            "partner"
+        ],
+        "brief": {
             "en_US": "Shisa AI models for Japanese and English LLM, speech recognition, and speech synthesis.",
             "ja_JP": "日本語・英語向けのLLM、音声認識、音声合成を提供するShisa AIモデルプロバイダーです。"
         },
@@ -6097,48 +6139,6 @@
             "authorized_category": "community"
         },
         "version_updated_at": "2026-08-24T01:35:59Z"
-    },
-    {
-        "badges": [
-            "partner"
-        ],
-        "brief": {
-            "en_US": "Open models on AMD GPUs for Dify, with a daily free quota, reasoning, tool calling, and vision.",
-            "zh_Hans": "面向 Dify 的 AMD GPU 开源模型，提供每日免费额度，支持推理、工具调用和图片输入。"
-        },
-        "category": "model",
-        "icon": "amdtokenfactory/packages/amdtokenfactory/_assets/icon.png",
-        "index_id": "amdtokenfactory___amdtokenfactory",
-        "install_count": 43,
-        "label": {
-            "en_US": "AMD Token Factory",
-            "zh_Hans": "AMD Token Factory"
-        },
-        "latest_package_identifier": "amdtokenfactory/amdtokenfactory:0.0.29@4fe984d1c771e22c1bee367c31c3c89a69f624ca85fe6dcf69f6c0a0f89cc890",
-        "latest_version": "0.0.29",
-        "name": "amdtokenfactory",
-        "org": "amdtokenfactory",
-        "plugin_id": "amdtokenfactory/amdtokenfactory",
-        "plugins": {
-            "agent_strategies": null,
-            "datasources": null,
-            "endpoints": null,
-            "models": [
-                "provider/amdtokenfactory.yaml"
-            ],
-            "tools": null,
-            "triggers": null
-        },
-        "privacy_options": "",
-        "privacy_policy": "PRIVACY.md",
-        "repository": "https://github.com/JoursBleu/dify",
-        "status": "active",
-        "tags": [],
-        "type": "plugin",
-        "verification": {
-            "authorized_category": "partner"
-        },
-        "version_updated_at": "2026-10-24T03:44:01Z"
     },
     {
         "badges": [],
@@ -6222,17 +6222,17 @@
     {
         "badges": [],
         "brief": {
-            "en_US": "Fast inference for open-weight models (GLM-5.3 Flash, DeepSeek V4.1 Flash, MiMo V2.6 Flash) through an OpenAI-compatible API, with tool calling and reasoning."
+            "en_US": "Fast inference for open-weight models (GLM-5.3, DeepSeek V4 and V4.1, Kimi K3, MiniMax M3) through an OpenAI-compatible API, with tool calling and reasoning."
         },
         "category": "model",
         "icon": "runanywhereai/packages/wally/_assets/icon.svg",
         "index_id": "runanywhereai___wally",
-        "install_count": 30,
+        "install_count": 32,
         "label": {
             "en_US": "Wally"
         },
-        "latest_package_identifier": "runanywhereai/wally:0.0.3@8ee446dc372088359a1ae1cedd1cb09208e755641faaa25b52035027a6035a4e",
-        "latest_version": "0.0.3",
+        "latest_package_identifier": "runanywhereai/wally:0.0.4@f2ef8ddbfc664c253098724a41606ee8e63d96828c750689996d5e86de6f4edf",
+        "latest_version": "0.0.4",
         "name": "wally",
         "org": "runanywhereai",
         "plugin_id": "runanywhereai/wally",
@@ -6255,7 +6255,7 @@
         "verification": {
             "authorized_category": "community"
         },
-        "version_updated_at": "2026-10-21T01:57:00Z"
+        "version_updated_at": "2026-10-27T01:04:18Z"
     },
     {
         "badges": [],
@@ -6767,6 +6767,46 @@
     {
         "badges": [],
         "brief": {
+            "en_US": "Benchmark-based model routing. Routing modes such as auto-coding and auto-value send each request to the model that currently scores best, using your own provider keys.",
+            "zh_Hans": "基于基准测试的模型路由。auto-coding、auto-value 等路由模式会把每个请求发送给当前得分最高的模型，使用你自己的供应商密钥。"
+        },
+        "category": "model",
+        "icon": "aistupidlevel/packages/aistupidlevel/_assets/icon.svg",
+        "index_id": "aistupidlevel___aistupidlevel",
+        "install_count": 6,
+        "label": {
+            "en_US": "AI Stupid Level",
+            "zh_Hans": "AI Stupid Level"
+        },
+        "latest_package_identifier": "aistupidlevel/aistupidlevel:0.0.1@4b158099885a13d888f1c1b7f5fae52a738d381d0e77448fe665fe905a2bba73",
+        "latest_version": "0.0.1",
+        "name": "aistupidlevel",
+        "org": "aistupidlevel",
+        "plugin_id": "aistupidlevel/aistupidlevel",
+        "plugins": {
+            "agent_strategies": null,
+            "datasources": null,
+            "endpoints": null,
+            "models": [
+                "provider/aistupidlevel.yaml"
+            ],
+            "tools": null,
+            "triggers": null
+        },
+        "privacy_options": "",
+        "privacy_policy": "PRIVACY.md",
+        "repository": "https://github.com/StudioPlatforms/aistupidlevel-sdk/tree/main/integrations/dify/aistupidlevel",
+        "status": "active",
+        "tags": [],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "community"
+        },
+        "version_updated_at": "2026-10-21T01:57:23Z"
+    },
+    {
+        "badges": [],
+        "brief": {
             "en_US": "Route each LLM call between a capable and an efficient model with NVIDIA NeMo Switchyard.",
             "zh_Hans": "使用 NVIDIA NeMo Switchyard 在高性能模型和经济模型之间自动路由每一次 LLM 调用。"
         },
@@ -6802,46 +6842,6 @@
             "authorized_category": "langgenius"
         },
         "version_updated_at": "2026-10-21T11:37:39Z"
-    },
-    {
-        "badges": [],
-        "brief": {
-            "en_US": "Benchmark-based model routing. Routing modes such as auto-coding and auto-value send each request to the model that currently scores best, using your own provider keys.",
-            "zh_Hans": "基于基准测试的模型路由。auto-coding、auto-value 等路由模式会把每个请求发送给当前得分最高的模型，使用你自己的供应商密钥。"
-        },
-        "category": "model",
-        "icon": "aistupidlevel/packages/aistupidlevel/_assets/icon.svg",
-        "index_id": "aistupidlevel___aistupidlevel",
-        "install_count": 5,
-        "label": {
-            "en_US": "AI Stupid Level",
-            "zh_Hans": "AI Stupid Level"
-        },
-        "latest_package_identifier": "aistupidlevel/aistupidlevel:0.0.1@4b158099885a13d888f1c1b7f5fae52a738d381d0e77448fe665fe905a2bba73",
-        "latest_version": "0.0.1",
-        "name": "aistupidlevel",
-        "org": "aistupidlevel",
-        "plugin_id": "aistupidlevel/aistupidlevel",
-        "plugins": {
-            "agent_strategies": null,
-            "datasources": null,
-            "endpoints": null,
-            "models": [
-                "provider/aistupidlevel.yaml"
-            ],
-            "tools": null,
-            "triggers": null
-        },
-        "privacy_options": "",
-        "privacy_policy": "PRIVACY.md",
-        "repository": "https://github.com/StudioPlatforms/aistupidlevel-sdk/tree/main/integrations/dify/aistupidlevel",
-        "status": "active",
-        "tags": [],
-        "type": "plugin",
-        "verification": {
-            "authorized_category": "community"
-        },
-        "version_updated_at": "2026-10-21T01:57:23Z"
     },
     {
         "badges": [],
@@ -7005,7 +7005,7 @@
         "category": "model",
         "icon": "gisoo/packages/gisoo/_assets/icon.svg",
         "index_id": "gisoo___gisoo",
-        "install_count": 0,
+        "install_count": 3,
         "label": {
             "en_US": "Gisoo"
         },
