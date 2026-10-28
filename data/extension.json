@@ -8,7 +8,7 @@
         "category": "extension",
         "icon": "hjlarry/packages/mcp-server/_assets/icon.svg",
         "index_id": "hjlarry___mcp-server",
-        "install_count": 51879,
+        "install_count": 51928,
         "label": {
             "en_US": "MCP server"
         },
@@ -47,7 +47,7 @@
         "category": "extension",
         "icon": "langgenius/packages/oaicompat_dify_app/_assets/icon.svg",
         "index_id": "langgenius___oaicompat_dify_app",
-        "install_count": 46663,
+        "install_count": 46794,
         "label": {
             "en_US": "OpenAI Compatible Dify App",
             "ja_JP": "OpenAI Compatible Dify App",
@@ -89,7 +89,7 @@
         "category": "extension",
         "icon": "junjiem/packages/mcp_compat_dify_tools/_assets/icon.svg",
         "index_id": "junjiem___mcp_compat_dify_tools",
-        "install_count": 18510,
+        "install_count": 18524,
         "label": {
             "en_US": "MCP Compatible Dify Tools",
             "zh_Hans": "MCP Compatible Dify Tools"
@@ -129,7 +129,7 @@
         "category": "extension",
         "icon": "langgenius/packages/oaicompat_dify_model/_assets/icon.svg",
         "index_id": "langgenius___oaicompat_dify_model",
-        "install_count": 18373,
+        "install_count": 18411,
         "label": {
             "en_US": "OpenAI Compatible Dify Models",
             "ja_JP": "OpenAI Compatible Dify Models",
@@ -171,7 +171,7 @@
         "category": "extension",
         "icon": "svcvit/packages/artifacts/_assets/icon.svg",
         "index_id": "svcvit___artifacts",
-        "install_count": 15029,
+        "install_count": 15041,
         "label": {
             "en_US": "Artifacts"
         },
@@ -210,7 +210,7 @@
         "category": "extension",
         "icon": "bikeread/packages/dify_wechat_plugin/_assets/icon.svg",
         "index_id": "bikeread___dify_wechat_plugin",
-        "install_count": 14743,
+        "install_count": 14751,
         "label": {
             "en_US": "Wechat Subscription Account",
             "ja_JP": "ウェチャットサブスクリプションアカウント",
@@ -251,7 +251,7 @@
         "category": "extension",
         "icon": "langgenius/packages/wecom-bot/_assets/icon.svg",
         "index_id": "langgenius___wecom-bot",
-        "install_count": 13772,
+        "install_count": 13872,
         "label": {
             "en_US": "WeCom Bot",
             "ja_JP": "WeCom Bot",
@@ -293,7 +293,7 @@
         "category": "extension",
         "icon": "perzeuss/packages/webhook/_assets/icon.svg",
         "index_id": "perzeuss___webhook",
-        "install_count": 12548,
+        "install_count": 12557,
         "label": {
             "en_US": "Webhook",
             "pt_BR": "Webhook",
@@ -324,50 +324,6 @@
         "version_updated_at": "2025-03-28T07:01:27Z"
     },
     {
-        "badges": [],
-        "brief": {
-            "en_US": "This Slack Bot supports receiving messages from Slack as input to Chatflow/Chatbot/Agent in Dify, and sending messages back to Slack.",
-            "ja_JP": "この Slack Bot は、Slack からのメッセージを Dify の Chatflow/Chatbot/Agent への入力として受け取り、Slack にメッセージを送信することをサポートします。",
-            "pt_BR": "Este Slack Bot suporta receber mensagens do Slack como entrada para Chatflow/Chatbot/Agent no Dify e enviar mensagens de volta para o Slack.",
-            "zh_Hans": "这个 Slack Bot 支持接收来自 Slack 的消息作为 Dify 中 Chatflow/Chatbot/Agent 的输入，并将消息发送回 Slack。"
-        },
-        "category": "extension",
-        "icon": "langgenius/packages/slack-bot/_assets/icon.svg",
-        "index_id": "langgenius___slack-bot",
-        "install_count": 10837,
-        "label": {
-            "en_US": "Slack Bot",
-            "ja_JP": "Slack Bot",
-            "pt_BR": "Slack Bot",
-            "zh_Hans": "Slack Bot"
-        },
-        "latest_package_identifier": "langgenius/slack-bot:0.0.13@6f83cbd6fd885beb70eff949855e759217d98da21f33346d5326424637f6fb9d",
-        "latest_version": "0.0.13",
-        "name": "slack-bot",
-        "org": "langgenius",
-        "plugin_id": "langgenius/slack-bot",
-        "plugins": {
-            "agent_strategies": null,
-            "datasources": null,
-            "endpoints": [
-                "group/slack.yaml"
-            ],
-            "models": null,
-            "tools": null,
-            "triggers": null
-        },
-        "privacy_options": "",
-        "privacy_policy": "",
-        "repository": "",
-        "status": "active",
-        "tags": [],
-        "type": "plugin",
-        "verification": {
-            "authorized_category": "langgenius"
-        },
-        "version_updated_at": "2026-10-24T05:08:32Z"
-    },
-    {
         "badges": [
             "partner"
         ],
@@ -380,7 +336,7 @@
         "category": "extension",
         "icon": "plutoless/packages/convoai/_assets/icon.svg",
         "index_id": "plutoless___convoai",
-        "install_count": 10833,
+        "install_count": 10883,
         "label": {
             "en_US": "Agora Conversational AI",
             "ja_JP": "Agora Conversational AI",
@@ -414,6 +370,50 @@
     {
         "badges": [],
         "brief": {
+            "en_US": "This Slack Bot supports receiving messages from Slack as input to Chatflow/Chatbot/Agent in Dify, and sending messages back to Slack.",
+            "ja_JP": "この Slack Bot は、Slack からのメッセージを Dify の Chatflow/Chatbot/Agent への入力として受け取り、Slack にメッセージを送信することをサポートします。",
+            "pt_BR": "Este Slack Bot suporta receber mensagens do Slack como entrada para Chatflow/Chatbot/Agent no Dify e enviar mensagens de volta para o Slack.",
+            "zh_Hans": "这个 Slack Bot 支持接收来自 Slack 的消息作为 Dify 中 Chatflow/Chatbot/Agent 的输入，并将消息发送回 Slack。"
+        },
+        "category": "extension",
+        "icon": "langgenius/packages/slack-bot/_assets/icon.svg",
+        "index_id": "langgenius___slack-bot",
+        "install_count": 10868,
+        "label": {
+            "en_US": "Slack Bot",
+            "ja_JP": "Slack Bot",
+            "pt_BR": "Slack Bot",
+            "zh_Hans": "Slack Bot"
+        },
+        "latest_package_identifier": "langgenius/slack-bot:0.0.13@6f83cbd6fd885beb70eff949855e759217d98da21f33346d5326424637f6fb9d",
+        "latest_version": "0.0.13",
+        "name": "slack-bot",
+        "org": "langgenius",
+        "plugin_id": "langgenius/slack-bot",
+        "plugins": {
+            "agent_strategies": null,
+            "datasources": null,
+            "endpoints": [
+                "group/slack.yaml"
+            ],
+            "models": null,
+            "tools": null,
+            "triggers": null
+        },
+        "privacy_options": "",
+        "privacy_policy": "",
+        "repository": "",
+        "status": "active",
+        "tags": [],
+        "type": "plugin",
+        "verification": {
+            "authorized_category": "langgenius"
+        },
+        "version_updated_at": "2026-10-24T05:08:32Z"
+    },
+    {
+        "badges": [],
+        "brief": {
             "en_US": "Line Bot",
             "ja_JP": "Line Bot",
             "pt_BR": "Line Bot",
@@ -422,7 +422,7 @@
         "category": "extension",
         "icon": "kevintsai/packages/linebot/_assets/LINE_Brand_icon.png",
         "index_id": "kevintsai___linebot",
-        "install_count": 6609,
+        "install_count": 6626,
         "label": {
             "en_US": "Line Bot",
             "ja_JP": "Line Bot",
@@ -465,7 +465,7 @@
         "category": "extension",
         "icon": "leslie2046/packages/moderation/_assets/icon.png",
         "index_id": "leslie2046___moderation",
-        "install_count": 5003,
+        "install_count": 5038,
         "label": {
             "en_US": "Moderation",
             "ja_JP": "センシティブな内容の審査",
@@ -505,7 +505,7 @@
         "category": "extension",
         "icon": "yt-koike/packages/cron/_assets/icon.svg",
         "index_id": "yt-koike___cron",
-        "install_count": 4694,
+        "install_count": 4695,
         "label": {
             "en_US": "Cron"
         },
@@ -544,7 +544,7 @@
         "category": "extension",
         "icon": "langgenius/packages/llamacloud/_assets/icon.svg",
         "index_id": "langgenius___llamacloud",
-        "install_count": 4254,
+        "install_count": 4261,
         "label": {
             "en_US": "Llamacloud",
             "ja_JP": "Llamacloud",
@@ -625,7 +625,7 @@
         "category": "extension",
         "icon": "hjlarry/packages/draw/_assets/icon.svg",
         "index_id": "hjlarry___draw",
-        "install_count": 2960,
+        "install_count": 2966,
         "label": {
             "en_US": "draw",
             "ja_JP": "draw",
@@ -665,7 +665,7 @@
         "category": "extension",
         "icon": "nacos/packages/a2a_server/_assets/icon.png",
         "index_id": "nacos___a2a_server",
-        "install_count": 2772,
+        "install_count": 2783,
         "label": {
             "en_US": "A2A Server",
             "zh_Hans": "A2A Server"
@@ -706,7 +706,7 @@
         "category": "extension",
         "icon": "anspire/packages/wecom-bot/_assets/icon.svg",
         "index_id": "anspire___wecom-bot",
-        "install_count": 2754,
+        "install_count": 2761,
         "label": {
             "en_US": "wecom-bot",
             "pt_BR": "wecom-bot",
@@ -749,7 +749,7 @@
         "category": "extension",
         "icon": "langgenius/packages/aws_bedrock_knowledge_base/_assets/icon.svg",
         "index_id": "langgenius___aws_bedrock_knowledge_base",
-        "install_count": 2541,
+        "install_count": 2547,
         "label": {
             "en_US": "Aws Bedrock Knowledge Base",
             "ja_JP": "Aws Bedrock Knowledge Base",
@@ -792,7 +792,7 @@
         "category": "extension",
         "icon": "zoku-777/packages/dify_dsl_flowchart_export/_assets/icon.svg",
         "index_id": "zoku-777___dify_dsl_flowchart_export",
-        "install_count": 2333,
+        "install_count": 2339,
         "label": {
             "en_US": "Dify DSL Flowchart Convertor",
             "ja_JP": "DifyフローDSLフロチャート変換",
@@ -834,7 +834,7 @@
         "category": "extension",
         "icon": "bytedance_vikingdb/packages/vikingdb_knowledge_base/_assets/icon.svg",
         "index_id": "bytedance_vikingdb___vikingdb_knowledge_base",
-        "install_count": 2213,
+        "install_count": 2225,
         "label": {
             "en_US": "Vikingdb Knowledge Base",
             "ja_JP": "Vikingdb Knowledge Base",
@@ -876,7 +876,7 @@
         "category": "extension",
         "icon": "langgenius/packages/neko/_assets/neko.gif",
         "index_id": "langgenius___neko",
-        "install_count": 2190,
+        "install_count": 2191,
         "label": {
             "en_US": "Neko"
         },
@@ -918,7 +918,7 @@
         "category": "extension",
         "icon": "langgenius/packages/badapple/_assets/icon.svg",
         "index_id": "langgenius___badapple",
-        "install_count": 1790,
+        "install_count": 1791,
         "label": {
             "en_US": "Bad Apple",
             "ja_JP": "Bad Apple",
@@ -1243,7 +1243,7 @@
         "category": "extension",
         "icon": "suphachok/packages/line-connect/_assets/icon.svg",
         "index_id": "suphachok___line-connect",
-        "install_count": 346,
+        "install_count": 348,
         "label": {
             "en_US": "LINE Connect",
             "ja_JP": "LINE コネクト",
@@ -1284,7 +1284,7 @@
         "category": "extension",
         "icon": "yuhui0531/packages/external-knowledge-adapter/_assets/icon.svg",
         "index_id": "yuhui0531___external-knowledge-adapter",
-        "install_count": 222,
+        "install_count": 225,
         "label": {
             "en_US": "External Knowledge Adapter",
             "zh_Hans": "外部知识库适配器"
@@ -1324,7 +1324,7 @@
         "category": "extension",
         "icon": "aliyun/packages/tablestore-knowledgebase/_assets/tablestore.svg",
         "index_id": "aliyun___tablestore-knowledgebase",
-        "install_count": 134,
+        "install_count": 135,
         "label": {
             "en_US": "Tablestore Knowledgebase",
             "zh_Hans": "Tablestore Knowledgebase"
@@ -1366,7 +1366,7 @@
         "category": "extension",
         "icon": "fr3on/packages/slack-support-agent/_assets/icon.svg",
         "index_id": "fr3on___slack-support-agent",
-        "install_count": 51,
+        "install_count": 52,
         "label": {
             "en_US": "Slack Support Agent",
             "ja_JP": "Slack Support Agent",
@@ -1455,7 +1455,7 @@
         "category": "extension",
         "icon": "photon-hq/packages/photon_bot/_assets/icon.svg",
         "index_id": "photon-hq___photon_bot",
-        "install_count": 9,
+        "install_count": 10,
         "label": {
             "en_US": "Photon Bot",
             "zh_Hans": "Photon 机器人"
@@ -1495,7 +1495,7 @@
         "category": "extension",
         "icon": "qverisai/packages/qveris-mcp/_assets/icon.svg",
         "index_id": "qverisai___qveris-mcp",
-        "install_count": 0,
+        "install_count": 2,
         "label": {
             "en_US": "QVeris MCP Gateway",
             "zh_Hans": "QVeris MCP 网关"
