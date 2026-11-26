@@ -8,7 +8,7 @@
         "category": "agent-strategy",
         "icon": "langgenius/packages/agent/_assets/icon.svg",
         "index_id": "langgenius___agent",
-        "install_count": 960614,
+        "install_count": 963972,
         "label": {
             "en_US": "Dify Agent Strategies",
             "zh_Hans": "Dify Agent 策略"
@@ -52,7 +52,7 @@
         "category": "agent-strategy",
         "icon": "junjiem/packages/mcp_see_agent/_assets/icon.svg",
         "index_id": "junjiem___mcp_see_agent",
-        "install_count": 149505,
+        "install_count": 149618,
         "label": {
             "en_US": "Agent Strategies (Support MCP Tools)",
             "zh_Hans": "Agent 策略（支持 MCP 工具）"
@@ -90,7 +90,7 @@
         "category": "agent-strategy",
         "icon": "hjlarry/packages/agent/_assets/icon.svg",
         "index_id": "hjlarry___agent",
-        "install_count": 61183,
+        "install_count": 61234,
         "label": {
             "en_US": "MCP Agent Strategy",
             "zh_Hans": "MCP Agent 策略"
@@ -132,7 +132,7 @@
         "category": "agent-strategy",
         "icon": "svcvit/packages/agent/_assets/icon.svg",
         "index_id": "svcvit___agent",
-        "install_count": 55055,
+        "install_count": 55098,
         "label": {
             "en_US": "Dialogue Agent",
             "zh_Hans": "对话 Agent"
@@ -174,7 +174,7 @@
         "category": "agent-strategy",
         "icon": "xun404/packages/agent-skill-plugin/_assets/icon.svg",
         "index_id": "xun404___agent-skill-plugin",
-        "install_count": 37658,
+        "install_count": 37950,
         "label": {
             "en_US": "Agent Skill Plugin",
             "zh_Hans": "Agent Skill技能插件"
@@ -214,7 +214,7 @@
         "category": "agent-strategy",
         "icon": "allenyzx/packages/enhancing_function_agent/_assets/icon.png",
         "index_id": "allenyzx___enhancing_function_agent",
-        "install_count": 13047,
+        "install_count": 13052,
         "label": {
             "en_US": "Enhancing Agent",
             "zh_Hans": "Enhancing Agent"
@@ -254,7 +254,7 @@
         "category": "agent-strategy",
         "icon": "ssf/packages/mcp_agent/_assets/icon.svg",
         "index_id": "ssf___mcp_agent",
-        "install_count": 7650,
+        "install_count": 7661,
         "label": {
             "en_US": "mcp_agent",
             "ja_JP": "mcp_agent",
@@ -296,7 +296,7 @@
         "category": "agent-strategy",
         "icon": "langgenius/packages/self_refine_agent/_assets/icon.svg",
         "index_id": "langgenius___self_refine_agent",
-        "install_count": 3887,
+        "install_count": 3909,
         "label": {
             "en_US": "Self-Refine Agent Strategy",
             "zh_Hans": "自我优化 Agent 策略"
@@ -342,7 +342,7 @@
         "category": "agent-strategy",
         "icon": "ki3nd/packages/sandbox-agent/_assets/icon.svg",
         "index_id": "ki3nd___sandbox-agent",
-        "install_count": 1694,
+        "install_count": 1701,
         "label": {
             "en_US": "Sandbox Agent",
             "ja_JP": "サンドボックスエージェント",
@@ -384,7 +384,7 @@
         "category": "agent-strategy",
         "icon": "aimali/packages/aimali_skill_agent/_assets/icon.jpeg",
         "index_id": "aimali___aimali_skill_agent",
-        "install_count": 1271,
+        "install_count": 1278,
         "label": {
             "en_US": "AI Maly Skill Agent",
             "zh_Hans": "AI码力 Skill Agent"
@@ -426,7 +426,7 @@
         "category": "agent-strategy",
         "icon": "zhou0928/packages/plan-executor-agent/_assets/icon.svg",
         "index_id": "zhou0928___plan-executor-agent",
-        "install_count": 654,
+        "install_count": 664,
         "label": {
             "en_US": "Plan-Executor Agent",
             "ja_JP": "計画実行エージェント",
@@ -470,7 +470,7 @@
         "category": "agent-strategy",
         "icon": "ki3nd/packages/agentfs/_assets/icon.svg",
         "index_id": "ki3nd___agentfs",
-        "install_count": 510,
+        "install_count": 517,
         "label": {
             "en_US": "AgentFS",
             "ja_JP": "AgentFS",
@@ -511,7 +511,7 @@
         "category": "agent-strategy",
         "icon": "gitpoldan/packages/tool_capture_agent/_assets/icon.svg",
         "index_id": "gitpoldan___tool_capture_agent",
-        "install_count": 267,
+        "install_count": 271,
         "label": {
             "en_US": "Tool-Capture Agent"
         },
@@ -554,7 +554,7 @@
         "category": "agent-strategy",
         "icon": "zhou0928/packages/backend-copilot-agent/_assets/icon.svg",
         "index_id": "zhou0928___backend-copilot-agent",
-        "install_count": 203,
+        "install_count": 209,
         "label": {
             "en_US": "Backend Copilot Agent",
             "zh_Hans": "后端副驾驶 Agent"
@@ -588,19 +588,19 @@
     {
         "badges": [],
         "brief": {
-            "en_US": "Native function calling strategies with caller-controlled conversation history and tool-call replay.",
-            "zh_Hans": "原生函数调用策略集；历史轮数与 token 上限可自控，支持问答历史、无历史和完整工具调用历史三种模式。"
+            "en_US": "Native function calling (tool calling) agent strategies with caller-controlled conversation history and tool-call replay.",
+            "zh_Hans": "原生函数调用（工具调用）Agent 策略集；历史轮数与 token 上限可自控，支持问答历史、无历史和完整工具调用历史三种模式。"
         },
         "category": "agent-strategy",
         "icon": "zq393955690/packages/function_calling_suite/_assets/icon.svg",
         "index_id": "zq393955690___function_calling_suite",
-        "install_count": 12,
+        "install_count": 35,
         "label": {
-            "en_US": "Function Calling Suite",
-            "zh_Hans": "函数调用策略集"
+            "en_US": "Function Calling Agent Strategies",
+            "zh_Hans": "工具调用 Agent 策略集"
         },
-        "latest_package_identifier": "zq393955690/function_calling_suite:0.1.0@970e7da6a47e3aedbcb761dff7b213e697f8eea5a46125000c38faade057279c",
-        "latest_version": "0.1.0",
+        "latest_package_identifier": "zq393955690/function_calling_suite:0.1.1@c3595463f4fd9d5f8ef3a302964b179be3f585af9122ff63459d402e726094fc",
+        "latest_version": "0.1.1",
         "name": "function_calling_suite",
         "org": "zq393955690",
         "plugin_id": "zq393955690/function_calling_suite",
@@ -627,6 +627,6 @@
         "verification": {
             "authorized_category": "community"
         },
-        "version_updated_at": "2026-11-24T08:14:22Z"
+        "version_updated_at": "2026-11-25T08:18:06Z"
     }
 ]
